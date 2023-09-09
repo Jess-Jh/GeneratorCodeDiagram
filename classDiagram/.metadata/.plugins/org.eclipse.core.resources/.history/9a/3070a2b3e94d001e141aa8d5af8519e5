@@ -1,0 +1,90 @@
+@namespace(uri="concrete", prefix="concrete")
+@gmf
+package concrete;
+
+class ModelFactoryConcreteJJD {	
+	attr String name;
+    val ClassDiagramJJD[*] listClassDiagramJJD;
+}
+
+@gmf.diagram
+class ClassDiagramJJD {
+	attr String name;
+    val PackageJJD[*] listPackagesJJD;
+    val ClassJJD[*] listClassJJD;
+    val RelationJJD[*] listRelationsJJD;
+}
+
+@gmf.node(label = "name")
+class PackageJJD {
+    attr String name;
+    attr String nameSpace;
+    
+    @gmf.compartment
+    val PackageJJD[*] subPackagesJJD;
+    
+    @gmf.compartment
+    val ClassJJD[*] listClassJJD;
+}
+
+@gmf.node(label = "name", color="171, 235, 198")
+class ClassJJD {
+    attr String name;
+    attr String description;
+    attr boolean isAbstract;
+    
+    @gmf.compartment(layout="list")
+    val AttributeJJD[*] listAttributesJJD;
+    
+    @gmf.compartment(layout="list")
+    val MethodJJD[*] listMethodsJJD;
+   
+}
+
+@gmf.node(label = "name, type", label.pattern = "{0} : {1}" , border.width="0", size="200,25")
+class AttributeJJD {
+    attr String name;
+    attr String description;
+    attr String type;
+
+}
+
+@gmf.node(label = "name")
+class MethodJJD {
+    attr String name;
+    attr String modifier;
+    attr String semantic;
+    attr String returnType;
+    
+    @gmf.compartment(layout="list")
+    val AttributeJJD[*] listAttributesJJD;
+}
+
+class RelationJJD {
+    attr String rolA;
+    attr String rolB;
+    attr String navigabilityA;
+    attr String navigabilityB;
+    attr String multiplicityA;
+    attr String multiplicityB;
+    
+    ref ClassJJD source;
+    ref ClassJJD target;
+}
+
+@gmf.link(source="source", target="target", style="solid", width="2", source.decoration="rhomb")
+class AgregationJJD extends RelationJJD {}
+
+@gmf.link(source="source", target="target", style="solid", width="2", figure="rounded", source.decoration="closedarrow")
+class InheritanceJJD extends RelationJJD {}
+
+@gmf.link(label = "rolA", label = "rolB", source="source", target="target", style="solid", width="2", figure="rounded", source.decoration="filledrhomb")
+class ContainmentJJD extends RelationJJD {}
+
+@gmf.link(source="source", target="target", style="solid", width="2", figure="rounded")
+class AssociationJJD extends RelationJJD {}
+
+@gmf.link(source="source", target="target", style="dot", width="2", figure="rounded")
+class ImplementJJD extends RelationJJD {}
+
+

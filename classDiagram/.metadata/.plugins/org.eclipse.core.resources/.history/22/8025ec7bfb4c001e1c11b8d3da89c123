@@ -1,0 +1,14 @@
+/*
+ * 
+ */
+package concrete.diagram.providers.assistants;
+
+/**
+ * @generated
+ */
+public class ConcreteModelingAssistantProviderOfPackageJJD2EditPart extends concrete.diagram.providers.ConcreteModelingAssistantProvider {
+
+					
+	
+
+	}

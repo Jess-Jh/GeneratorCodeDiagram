@@ -1,0 +1,11 @@
+!SESSION 2023-09-01 22:54:23.779 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=11.0.20.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_419
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/jessica/Documents/develop/java/workspaceISDM
+
+!ENTRY org.eclipse.ui 2 0 2023-09-01 22:54:27.491
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-09-01 22:54:27.491
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'

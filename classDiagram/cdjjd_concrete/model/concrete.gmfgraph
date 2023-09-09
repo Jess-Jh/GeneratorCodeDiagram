@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="ASCII"?>
+<gmfgraph:Canvas xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gmfgraph="http://www.eclipse.org/gmf/2006/GraphicalDefinition" name="concrete">
+  <figures name="Default">
+    <figures xsi:type="gmfgraph:PolygonDecoration" name="Rhomb">
+      <backgroundColor xsi:type="gmfgraph:ConstantColor"/>
+      <template x="-1" y="1"/>
+      <template/>
+      <template x="-1" y="-1"/>
+      <template x="-2"/>
+      <template x="-1" y="1"/>
+    </figures>
+    <figures xsi:type="gmfgraph:PolygonDecoration" name="ClosedArrow">
+      <backgroundColor xsi:type="gmfgraph:ConstantColor"/>
+      <template/>
+      <template x="-2" y="2"/>
+      <template x="-2" y="-2"/>
+      <template/>
+    </figures>
+    <figures xsi:type="gmfgraph:PolygonDecoration" name="FilledRhomb">
+      <template x="-1" y="1"/>
+      <template/>
+      <template x="-1" y="-1"/>
+      <template x="-2"/>
+      <template x="-1" y="1"/>
+    </figures>
+    <figures xsi:type="gmfgraph:PolylineDecoration" name="AssociationJJDFigureTargetDecoration"/>
+    <descriptors name="PackageJJDFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="PackageJJDFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="PackageJJDLabelFigure" text="PackageJJD">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="PackageJJDSubPackagesJJDCompartmentFigure" outline="false"/>
+        <children xsi:type="gmfgraph:Rectangle" name="PackageJJDListClassJJDCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigurePackageJJDLabelFigure" figure="//@figures.0/@descriptors.0/@actualFigure/@children.0"/>
+      <accessors accessor="getPackageJJDSubPackagesJJDCompartmentFigure" figure="//@figures.0/@descriptors.0/@actualFigure/@children.1"/>
+      <accessors accessor="getPackageJJDListClassJJDCompartmentFigure" figure="//@figures.0/@descriptors.0/@actualFigure/@children.2"/>
+    </descriptors>
+    <descriptors name="ClassJJDFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="ClassJJDFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="ClassJJDLabelFigure" text="ClassJJD">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="ClassJJDListAttributesJJDCompartmentFigure" outline="false"/>
+        <children xsi:type="gmfgraph:Rectangle" name="ClassJJDListMethodsJJDCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureClassJJDLabelFigure" figure="//@figures.0/@descriptors.1/@actualFigure/@children.0"/>
+      <accessors accessor="getClassJJDListAttributesJJDCompartmentFigure" figure="//@figures.0/@descriptors.1/@actualFigure/@children.1"/>
+      <accessors accessor="getClassJJDListMethodsJJDCompartmentFigure" figure="//@figures.0/@descriptors.1/@actualFigure/@children.2"/>
+    </descriptors>
+    <descriptors name="AttributeJJDFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="AttributeJJDFigure" lineWidth="0">
+        <preferredSize dx="200" dy="25"/>
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="AttributeJJDLabelFigure" text="AttributeJJD"/>
+      </actualFigure>
+      <accessors accessor="getFigureAttributeJJDLabelFigure" figure="//@figures.0/@descriptors.2/@actualFigure/@children.0"/>
+    </descriptors>
+    <descriptors name="MethodJJDFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="MethodJJDFigure">
+        <border xsi:type="gmfgraph:MarginBorder">
+          <insets top="5" left="5" bottom="5" right="5"/>
+        </border>
+        <children xsi:type="gmfgraph:Label" name="MethodJJDLabelFigure" text="MethodJJD">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="MethodJJDListAttributesJJDCompartmentFigure" outline="false"/>
+      </actualFigure>
+      <accessors accessor="getFigureMethodJJDLabelFigure" figure="//@figures.0/@descriptors.3/@actualFigure/@children.0"/>
+      <accessors accessor="getMethodJJDListAttributesJJDCompartmentFigure" figure="//@figures.0/@descriptors.3/@actualFigure/@children.1"/>
+    </descriptors>
+    <descriptors name="AgregationJJDFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="AgregationJJDFigure" lineWidth="2" sourceDecoration="//@figures.0/@figures.0"/>
+    </descriptors>
+    <descriptors name="InheritanceJJDFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="InheritanceJJDFigure" lineWidth="2" sourceDecoration="//@figures.0/@figures.1"/>
+    </descriptors>
+    <descriptors name="ContainmentJJDFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="ContainmentJJDFigure" lineWidth="2" sourceDecoration="//@figures.0/@figures.2"/>
+    </descriptors>
+    <descriptors name="ContainmentJJDLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="ContainmentJJDLabelLabel" text="ContainmentJJD"/>
+    </descriptors>
+    <descriptors name="AssociationJJDFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="AssociationJJDFigure" lineWidth="2" targetDecoration="//@figures.0/@figures.3"/>
+    </descriptors>
+    <descriptors name="ImplementJJDFigure">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="ImplementJJDFigure" lineWidth="2" lineKind="LINE_DOT"/>
+    </descriptors>
+  </figures>
+  <nodes name="PackageJJD" figure="PackageJJDFigure"/>
+  <nodes name="ClassJJD" figure="ClassJJDFigure"/>
+  <nodes name="AttributeJJD" figure="AttributeJJDFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="200" dy="25"/>
+    </facets>
+  </nodes>
+  <nodes name="MethodJJD" figure="MethodJJDFigure"/>
+  <connections name="AgregationJJD" figure="AgregationJJDFigure"/>
+  <connections name="InheritanceJJD" figure="InheritanceJJDFigure"/>
+  <connections name="ContainmentJJD" figure="ContainmentJJDFigure"/>
+  <connections name="AssociationJJD" figure="AssociationJJDFigure"/>
+  <connections name="ImplementJJD" figure="ImplementJJDFigure"/>
+  <compartments name="PackageJJDSubPackagesJJDCompartment" figure="PackageJJDFigure" collapsible="true" accessor="//@figures.0/@descriptors.0/@accessors.1"/>
+  <compartments name="PackageJJDListClassJJDCompartment" figure="PackageJJDFigure" collapsible="true" accessor="//@figures.0/@descriptors.0/@accessors.2"/>
+  <compartments name="ClassJJDListAttributesJJDCompartment" figure="ClassJJDFigure" collapsible="true" accessor="//@figures.0/@descriptors.1/@accessors.1"/>
+  <compartments name="ClassJJDListMethodsJJDCompartment" figure="ClassJJDFigure" collapsible="true" accessor="//@figures.0/@descriptors.1/@accessors.2"/>
+  <compartments name="MethodJJDListAttributesJJDCompartment" figure="MethodJJDFigure" collapsible="true" accessor="//@figures.0/@descriptors.3/@accessors.1"/>
+  <labels name="PackageJJDLabel" figure="PackageJJDFigure" accessor="//@figures.0/@descriptors.0/@accessors.0"/>
+  <labels name="ClassJJDLabel" figure="ClassJJDFigure" accessor="//@figures.0/@descriptors.1/@accessors.0"/>
+  <labels name="AttributeJJDLabel" figure="AttributeJJDFigure" accessor="//@figures.0/@descriptors.2/@accessors.0"/>
+  <labels name="MethodJJDLabel" figure="MethodJJDFigure" accessor="//@figures.0/@descriptors.3/@accessors.0"/>
+  <labels name="ContainmentJJDLabel" figure="ContainmentJJDLabelFigure" elementIcon="false"/>
+</gmfgraph:Canvas>

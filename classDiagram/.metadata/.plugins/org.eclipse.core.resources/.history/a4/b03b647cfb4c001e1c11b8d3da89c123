@@ -1,0 +1,28 @@
+/*
+ * 
+ */
+package concrete.diagram.providers;
+
+/**
+ * @generated
+ */
+public class ElementInitializers {
+
+	protected ElementInitializers() {
+		// use #getInstance to access cached instance
+	} 
+
+			
+	
+	
+	/**
+ * @generated
+ */
+	public static ElementInitializers getInstance() {
+		ElementInitializers cached = concrete.diagram.part.ConcreteDiagramEditorPlugin.getInstance().getElementInitializers();
+		if (cached == null) {
+			concrete.diagram.part.ConcreteDiagramEditorPlugin.getInstance().setElementInitializers(cached = new ElementInitializers());
+		}
+		return cached;
+	}
+}

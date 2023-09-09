@@ -1,0 +1,268 @@
+/*
+ * 
+ */
+package concrete.diagram.providers;
+
+/**
+ * @generated
+ */
+public class ConcreteParserProvider extends org.eclipse.gmf.runtime.common.core.service.AbstractProvider implements org.eclipse.gmf.runtime.common.ui.services.parser.IParserProvider {
+	
+	
+	/**
+ * @generated
+ */
+	private org.eclipse.gmf.runtime.common.ui.services.parser.IParser packageJJDName_5006Parser;
+
+	/**
+ * @generated
+ */
+	private org.eclipse.gmf.runtime.common.ui.services.parser.IParser getPackageJJDName_5006Parser() {
+		if (packageJJDName_5006Parser == null) {
+						org.eclipse.emf.ecore.EAttribute[] features = new org.eclipse.emf.ecore.EAttribute[] {
+				concrete.ConcretePackage.eINSTANCE.getPackageJJD_Name()
+			};
+				concrete.diagram.parsers.MessageFormatParser parser = new concrete.diagram.parsers.MessageFormatParser(features);
+								packageJJDName_5006Parser = parser;
+		}
+		return packageJJDName_5006Parser;
+	}
+
+
+	
+	/**
+ * @generated
+ */
+	private org.eclipse.gmf.runtime.common.ui.services.parser.IParser classJJDName_5007Parser;
+
+	/**
+ * @generated
+ */
+	private org.eclipse.gmf.runtime.common.ui.services.parser.IParser getClassJJDName_5007Parser() {
+		if (classJJDName_5007Parser == null) {
+						org.eclipse.emf.ecore.EAttribute[] features = new org.eclipse.emf.ecore.EAttribute[] {
+				concrete.ConcretePackage.eINSTANCE.getClassJJD_Name()
+			};
+				concrete.diagram.parsers.MessageFormatParser parser = new concrete.diagram.parsers.MessageFormatParser(features);
+								classJJDName_5007Parser = parser;
+		}
+		return classJJDName_5007Parser;
+	}
+
+
+	
+	
+	/**
+ * @generated
+ */
+	private org.eclipse.gmf.runtime.common.ui.services.parser.IParser packageJJDName_5005Parser;
+
+	/**
+ * @generated
+ */
+	private org.eclipse.gmf.runtime.common.ui.services.parser.IParser getPackageJJDName_5005Parser() {
+		if (packageJJDName_5005Parser == null) {
+						org.eclipse.emf.ecore.EAttribute[] features = new org.eclipse.emf.ecore.EAttribute[] {
+				concrete.ConcretePackage.eINSTANCE.getPackageJJD_Name()
+			};
+				concrete.diagram.parsers.MessageFormatParser parser = new concrete.diagram.parsers.MessageFormatParser(features);
+								packageJJDName_5005Parser = parser;
+		}
+		return packageJJDName_5005Parser;
+	}
+
+
+	
+	/**
+ * @generated
+ */
+	private org.eclipse.gmf.runtime.common.ui.services.parser.IParser classJJDName_5004Parser;
+
+	/**
+ * @generated
+ */
+	private org.eclipse.gmf.runtime.common.ui.services.parser.IParser getClassJJDName_5004Parser() {
+		if (classJJDName_5004Parser == null) {
+						org.eclipse.emf.ecore.EAttribute[] features = new org.eclipse.emf.ecore.EAttribute[] {
+				concrete.ConcretePackage.eINSTANCE.getClassJJD_Name()
+			};
+				concrete.diagram.parsers.MessageFormatParser parser = new concrete.diagram.parsers.MessageFormatParser(features);
+								classJJDName_5004Parser = parser;
+		}
+		return classJJDName_5004Parser;
+	}
+
+
+	
+	/**
+ * @generated
+ */
+	private org.eclipse.gmf.runtime.common.ui.services.parser.IParser attributeJJDName_5001Parser;
+
+	/**
+ * @generated
+ */
+	private org.eclipse.gmf.runtime.common.ui.services.parser.IParser getAttributeJJDName_5001Parser() {
+		if (attributeJJDName_5001Parser == null) {
+						org.eclipse.emf.ecore.EAttribute[] features = new org.eclipse.emf.ecore.EAttribute[] {
+				concrete.ConcretePackage.eINSTANCE.getAttributeJJD_Name()
+			};
+				concrete.diagram.parsers.MessageFormatParser parser = new concrete.diagram.parsers.MessageFormatParser(features);
+								attributeJJDName_5001Parser = parser;
+		}
+		return attributeJJDName_5001Parser;
+	}
+
+
+	
+	/**
+ * @generated
+ */
+	private org.eclipse.gmf.runtime.common.ui.services.parser.IParser methodJJDName_5003Parser;
+
+	/**
+ * @generated
+ */
+	private org.eclipse.gmf.runtime.common.ui.services.parser.IParser getMethodJJDName_5003Parser() {
+		if (methodJJDName_5003Parser == null) {
+						org.eclipse.emf.ecore.EAttribute[] features = new org.eclipse.emf.ecore.EAttribute[] {
+				concrete.ConcretePackage.eINSTANCE.getMethodJJD_Name()
+			};
+				concrete.diagram.parsers.MessageFormatParser parser = new concrete.diagram.parsers.MessageFormatParser(features);
+								methodJJDName_5003Parser = parser;
+		}
+		return methodJJDName_5003Parser;
+	}
+
+
+	
+	/**
+ * @generated
+ */
+	private org.eclipse.gmf.runtime.common.ui.services.parser.IParser attributeJJDName_5002Parser;
+
+	/**
+ * @generated
+ */
+	private org.eclipse.gmf.runtime.common.ui.services.parser.IParser getAttributeJJDName_5002Parser() {
+		if (attributeJJDName_5002Parser == null) {
+						org.eclipse.emf.ecore.EAttribute[] features = new org.eclipse.emf.ecore.EAttribute[] {
+				concrete.ConcretePackage.eINSTANCE.getAttributeJJD_Name()
+			};
+				concrete.diagram.parsers.MessageFormatParser parser = new concrete.diagram.parsers.MessageFormatParser(features);
+								attributeJJDName_5002Parser = parser;
+		}
+		return attributeJJDName_5002Parser;
+	}
+
+
+	
+	
+	/**
+ * @generated
+ */
+	private org.eclipse.gmf.runtime.common.ui.services.parser.IParser containmentJJDRolB_6001Parser;
+
+	/**
+ * @generated
+ */
+	private org.eclipse.gmf.runtime.common.ui.services.parser.IParser getContainmentJJDRolB_6001Parser() {
+		if (containmentJJDRolB_6001Parser == null) {
+						org.eclipse.emf.ecore.EAttribute[] features = new org.eclipse.emf.ecore.EAttribute[] {
+				concrete.ConcretePackage.eINSTANCE.getRelationJJD_RolB()
+			};
+				concrete.diagram.parsers.MessageFormatParser parser = new concrete.diagram.parsers.MessageFormatParser(features);
+								containmentJJDRolB_6001Parser = parser;
+		}
+		return containmentJJDRolB_6001Parser;
+	}
+
+
+
+		/**
+ * @generated
+ */
+	protected org.eclipse.gmf.runtime.common.ui.services.parser.IParser getParser(int visualID) {
+		switch (visualID) {
+				case concrete.diagram.edit.parts.PackageJJDNameEditPart.VISUAL_ID: return getPackageJJDName_5006Parser();
+		case concrete.diagram.edit.parts.ClassJJDNameEditPart.VISUAL_ID: return getClassJJDName_5007Parser();
+				case concrete.diagram.edit.parts.PackageJJDName2EditPart.VISUAL_ID: return getPackageJJDName_5005Parser();
+		case concrete.diagram.edit.parts.ClassJJDName2EditPart.VISUAL_ID: return getClassJJDName_5004Parser();
+		case concrete.diagram.edit.parts.AttributeJJDNameEditPart.VISUAL_ID: return getAttributeJJDName_5001Parser();
+		case concrete.diagram.edit.parts.MethodJJDNameEditPart.VISUAL_ID: return getMethodJJDName_5003Parser();
+		case concrete.diagram.edit.parts.AttributeJJDName2EditPart.VISUAL_ID: return getAttributeJJDName_5002Parser();
+				case concrete.diagram.edit.parts.ContainmentJJDRolBEditPart.VISUAL_ID: return getContainmentJJDRolB_6001Parser();
+		}
+		return null;
+	}
+		/**
+ * Utility method that consults ParserService
+ * @generated
+ */
+	public static org.eclipse.gmf.runtime.common.ui.services.parser.IParser getParser(org.eclipse.gmf.runtime.emf.type.core.IElementType type, org.eclipse.emf.ecore.EObject object, String parserHint) {
+		return org.eclipse.gmf.runtime.common.ui.services.parser.ParserService.getInstance().getParser(new HintAdapter(type, object, parserHint));
+	}
+		/**
+ * @generated
+ */
+	public org.eclipse.gmf.runtime.common.ui.services.parser.IParser getParser(
+			org.eclipse.core.runtime.IAdaptable hint) {
+		String vid = (String) hint.getAdapter(String.class);
+		if (vid != null) {
+			return getParser(concrete.diagram.part.ConcreteVisualIDRegistry.getVisualID(vid));
+		}
+		org.eclipse.gmf.runtime.notation.View view =
+				(org.eclipse.gmf.runtime.notation.View) hint.getAdapter(org.eclipse.gmf.runtime.notation.View.class);
+		if (view != null) {
+			return getParser(concrete.diagram.part.ConcreteVisualIDRegistry.getVisualID(view));
+		}
+		return null;
+	}
+
+		/**
+ * @generated
+ */
+	public boolean provides(org.eclipse.gmf.runtime.common.core.service.IOperation operation) {
+		if (operation instanceof org.eclipse.gmf.runtime.common.ui.services.parser.GetParserOperation) {
+			org.eclipse.core.runtime.IAdaptable hint =
+					((org.eclipse.gmf.runtime.common.ui.services.parser.GetParserOperation) operation).getHint();
+			if (concrete.diagram.providers.ConcreteElementTypes.getElement(hint) == null) {
+				return false;
+			}
+			return getParser(hint) != null;
+		}
+		return false;
+	}
+
+		/**
+ * @generated
+ */
+	private static class HintAdapter extends org.eclipse.gmf.runtime.emf.ui.services.parser.ParserHintAdapter {
+
+		/**
+ * @generated
+ */
+		private final org.eclipse.gmf.runtime.emf.type.core.IElementType elementType;
+
+		/**
+ * @generated
+ */
+		public HintAdapter(org.eclipse.gmf.runtime.emf.type.core.IElementType type,
+				org.eclipse.emf.ecore.EObject object, String parserHint) {
+			super(object, parserHint);
+			assert type != null;
+			elementType = type;
+		}
+
+		/**
+ * @generated
+ */
+		public Object getAdapter(Class adapter) {
+			if (org.eclipse.gmf.runtime.emf.type.core.IElementType.class.equals(adapter)) {
+				return elementType;
+			}
+			return super.getAdapter(adapter);
+		}
+	}
+
+	}

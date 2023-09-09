@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/cd_abstract/src" modelPluginID="cd_abstract" modelName="AbstractJJD"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="6.0" copyrightFields="false">
+  <foreignModel>abstractJJD.emf</foreignModel>
+  <genPackages prefix="AbstractJJD" disposableProviderFactory="true" ecorePackage="abstractJJD.ecore#/">
+    <genClasses ecoreClass="abstractJJD.ecore#//ModelFactoryAbstractJJD">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractJJD.ecore#//ModelFactoryAbstractJJD/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference abstractJJD.ecore#//ModelFactoryAbstractJJD/listPackagesJJD"/>
+    </genClasses>
+    <genClasses ecoreClass="abstractJJD.ecore#//PackageJJD">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractJJD.ecore#//PackageJJD/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractJJD.ecore#//PackageJJD/nameSpace"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference abstractJJD.ecore#//PackageJJD/subPackagesJJD"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference abstractJJD.ecore#//PackageJJD/listClassJJD"/>
+    </genClasses>
+    <genClasses ecoreClass="abstractJJD.ecore#//ClassJJD">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractJJD.ecore#//ClassJJD/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractJJD.ecore#//ClassJJD/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractJJD.ecore#//ClassJJD/isAbstract"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference abstractJJD.ecore#//ClassJJD/listAttributesJJD"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference abstractJJD.ecore#//ClassJJD/listMethodsJJD"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference abstractJJD.ecore#//ClassJJD/listRelationsJJD"/>
+    </genClasses>
+    <genClasses ecoreClass="abstractJJD.ecore#//AttributeJJD">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractJJD.ecore#//AttributeJJD/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractJJD.ecore#//AttributeJJD/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractJJD.ecore#//AttributeJJD/type"/>
+    </genClasses>
+    <genClasses ecoreClass="abstractJJD.ecore#//MethodJJD">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractJJD.ecore#//MethodJJD/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractJJD.ecore#//MethodJJD/modifier"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractJJD.ecore#//MethodJJD/semantic"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractJJD.ecore#//MethodJJD/returnType"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference abstractJJD.ecore#//MethodJJD/listAttributesJJD"/>
+    </genClasses>
+    <genClasses ecoreClass="abstractJJD.ecore#//RelationJJD">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractJJD.ecore#//RelationJJD/rolA"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractJJD.ecore#//RelationJJD/rolB"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractJJD.ecore#//RelationJJD/navigabilityA"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractJJD.ecore#//RelationJJD/navigabilityB"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractJJD.ecore#//RelationJJD/multiplicityA"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractJJD.ecore#//RelationJJD/multiplicityB"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference abstractJJD.ecore#//RelationJJD/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference abstractJJD.ecore#//RelationJJD/target"/>
+    </genClasses>
+    <genClasses ecoreClass="abstractJJD.ecore#//AgregationJJD"/>
+    <genClasses ecoreClass="abstractJJD.ecore#//InheritanceJJD"/>
+    <genClasses ecoreClass="abstractJJD.ecore#//ContainmentJJD"/>
+    <genClasses ecoreClass="abstractJJD.ecore#//AssociationJJD"/>
+    <genClasses ecoreClass="abstractJJD.ecore#//ImplementJJD"/>
+  </genPackages>
+</genmodel:GenModel>

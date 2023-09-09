@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstractJJD:ModelFactoryAbstractJJD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:abstractJJD="abstractJJD">
+  <listPackagesJJD name="src" nameSpace="root">
+    <subPackagesJJD name="domain" nameSpace="src">
+      <subPackagesJJD name="empresa" nameSpace="src/domain/">
+        <listClassJJD name="Empresa">
+          <listAttributesJJD name="nombre" type="String"/>
+          <listAttributesJJD name="nit" type="String"/>
+          <listRelationsJJD xsi:type="abstractJJD:ContainmentJJD" rolA="Empresa" rolB="Empleado" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.1"/>
+        </listClassJJD>
+        <listClassJJD name="Empleado" isAbstract="true">
+          <listAttributesJJD name="nombre" type="String"/>
+          <listRelationsJJD xsi:type="abstractJJD:ContainmentJJD" rolA="Empresa" rolB="Empleado" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.1" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
+        </listClassJJD>
+        <listClassJJD name="Cajero">
+          <listRelationsJJD xsi:type="abstractJJD:InheritanceJJD" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.2" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.1"/>
+        </listClassJJD>
+        <listClassJJD name="Administrador">
+          <listRelationsJJD xsi:type="abstractJJD:InheritanceJJD" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.3" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.1"/>
+        </listClassJJD>
+      </subPackagesJJD>
+    </subPackagesJJD>
+  </listPackagesJJD>
+</abstractJJD:ModelFactoryAbstractJJD>

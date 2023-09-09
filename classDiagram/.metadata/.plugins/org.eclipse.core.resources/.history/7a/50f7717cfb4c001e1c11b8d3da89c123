@@ -1,0 +1,18 @@
+/*
+ * 
+ */
+package concrete.diagram.providers;
+
+/**
+ * @generated
+ */
+public class ConcreteIconProvider extends org.eclipse.gmf.tooling.runtime.providers.DefaultElementTypeIconProvider implements org.eclipse.gmf.runtime.common.ui.services.icon.IIconProvider {
+
+		/**
+ * @generated
+ */
+	public ConcreteIconProvider() {
+		super(concrete.diagram.providers.ConcreteElementTypes.TYPED_INSTANCE);
+	}
+
+	}

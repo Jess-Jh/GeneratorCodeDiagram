@@ -1,0 +1,10 @@
+/*
+ * 
+ */
+package concrete.diagram.edit.helpers;
+
+/**
+ * @generated
+ */
+public class ClassDiagramJJDEditHelper extends concrete.diagram.edit.helpers.ConcreteBaseEditHelper {
+	}

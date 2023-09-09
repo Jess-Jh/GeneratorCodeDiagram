@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated abstractJJD -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="abstractJJD.presentation.AbstractJJDModelWizardID"
+            name="%_UI_AbstractJJDModelWizard_label"
+            class="abstractJJD.presentation.AbstractJJDModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/AbstractJJDModelFile.gif">
+         <description>%_UI_AbstractJJDModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated abstractJJD -->
+      <editor
+            id="abstractJJD.presentation.AbstractJJDEditorID"
+            name="%_UI_AbstractJJDEditor_label"
+            icon="icons/full/obj16/AbstractJJDModelFile.gif"
+            extensions="abstractjjd"
+            class="abstractJJD.presentation.AbstractJJDEditor"
+            contributorClass="abstractJJD.presentation.AbstractJJDActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<!--
+
+-->
+<plugin>
+
+   <extension point="org.eclipse.team.core.fileTypes" id="repo-ftype">
+      <?gmfgen generated="true"?>
+      <fileTypes type="text" extension="concrete_diagram"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser" id="resource-factory">
+      <?gmfgen generated="true"?>
+      <parser
+         type="concrete_diagram"
+         class="org.eclipse.gmf.runtime.emf.core.resources.GMFResourceFactory">
+      </parser>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors" id="gmf-editor">
+      <?gmfgen generated="true"?>
+      <editor
+         id="concrete.diagram.part.ConcreteDiagramEditorID"
+         name="%editorName"
+         icon="icons/obj16/ConcreteDiagramFile.gif"
+         extensions="concrete_diagram"
+         default="true"
+         class="concrete.diagram.part.ConcreteDiagramEditor"
+         matchingStrategy="concrete.diagram.part.ConcreteMatchingStrategy"
+         contributorClass="concrete.diagram.part.ConcreteDiagramActionBarContributor">
+      </editor>
+   </extension>
+   
+   <extension point="org.eclipse.ui.contexts" id="ui-context">
+      <?gmfgen generated="true"?>
+      <context
+         description="%context.description"
+         id="concrete.diagram.ui.diagramContext"
+         name="%context.name"
+         parentId="org.eclipse.gmf.runtime.diagram.ui.diagramContext">
+      </context>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards" id="creation-wizard">
+      <?gmfgen generated="true"?>
+  	  <wizard
+  	     name="%newWizardName"
+  	     icon="icons/obj16/ConcreteDiagramFile.gif"
+  	     category="org.eclipse.ui.Examples"
+  	     class="concrete.diagram.part.ConcreteCreationWizard"
+  	     id="concrete.diagram.part.ConcreteCreationWizardID">
+  	  	 <description>%newWizardDesc</description>  
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.popupMenus" id="init-diagram-action">
+      <?gmfgen generated="true"?>
+      <objectContribution
+            id="cdjjd_concrete.diagram.InitDiagram"
+            nameFilter="*.concrete"
+            objectClass="org.eclipse.core.resources.IFile">
+         <action
+               label="%initDiagramActionLabel"
+               class="concrete.diagram.part.ConcreteInitDiagramFileAction"
+               menubarPath="additions"
+               enablesFor="1"
+               id="cdjjd_concrete.diagram.InitDiagramAction">
+         </action>
+      </objectContribution>
+   </extension>
+	
+   <extension point="org.eclipse.gmf.runtime.common.ui.services.action.globalActionHandlerProviders" id="global-actions">
+      <?gmfgen generated="true"?>
+      <GlobalActionHandlerProvider
+         class="org.eclipse.gmf.runtime.diagram.ui.providers.DiagramGlobalActionHandlerProvider"
+         id="ConcretePresentation">
+         <Priority name="Lowest"/>
+         <ViewId id="concrete.diagram.part.ConcreteDiagramEditorID">
+            <ElementType class="org.eclipse.gmf.runtime.diagram.ui.editparts.IGraphicalEditPart">
+               <GlobalActionId actionId="delete"/>
+            </ElementType>
+            <ElementType class="org.eclipse.gmf.runtime.diagram.ui.editparts.DiagramEditPart">
+               <GlobalActionId actionId="save"/>
+            </ElementType>
+            <ElementType class="org.eclipse.gmf.runtime.diagram.ui.editparts.IGraphicalEditPart">
+               <GlobalActionId actionId="save">
+               </GlobalActionId>
+            </ElementType>        
+         </ViewId>
+      </GlobalActionHandlerProvider>
+      <GlobalActionHandlerProvider
+         class="org.eclipse.gmf.runtime.diagram.ui.printing.render.providers.DiagramWithPrintGlobalActionHandlerProvider"
+         id="ConcretePresentationPrint">
+         <Priority name="Lowest"/>
+         <ViewId id="concrete.diagram.part.ConcreteDiagramEditorID">
+            <ElementType class="org.eclipse.gmf.runtime.diagram.ui.editparts.IGraphicalEditPart">
+               <GlobalActionId actionId="print"/>
+            </ElementType>
+         </ViewId>
+      </GlobalActionHandlerProvider>
+      <GlobalActionHandlerProvider
+         class="org.eclipse.gmf.runtime.diagram.ui.providers.ide.providers.DiagramIDEGlobalActionHandlerProvider"
+         id="ConcretePresentationIDE">
+         <Priority name="Lowest"/>
+         <ViewId id="concrete.diagram.part.ConcreteDiagramEditorID">
+            <ElementType class="org.eclipse.gmf.runtime.diagram.ui.editparts.IGraphicalEditPart">
+               <GlobalActionId actionId="bookmark"/>
+            </ElementType>
+         </ViewId>
+      </GlobalActionHandlerProvider>
+      <GlobalActionHandlerProvider
+            class="org.eclipse.gmf.runtime.diagram.ui.render.providers.DiagramUIRenderGlobalActionHandlerProvider"
+            id="ConcreteRender">
+         <Priority name="Lowest"/>
+         <ViewId id="concrete.diagram.part.ConcreteDiagramEditorID">
+            <ElementType class="org.eclipse.gmf.runtime.diagram.ui.editparts.IGraphicalEditPart">
+               <GlobalActionId actionId="cut"/>
+               <GlobalActionId actionId="copy"/>
+               <GlobalActionId actionId="paste"/>
+            </ElementType>
+         </ViewId>
+      </GlobalActionHandlerProvider>
+   </extension>
+
+
+   <extension point="org.eclipse.gmf.runtime.common.ui.services.markerNavigationProviders" id="markers-navigation">
+      <?gmfgen generated="true"?>
+      <MarkerNavigationProvider class="concrete.diagram.providers.ConcreteMarkerNavigationProvider">
+         <MarkerType name="cdjjd_concrete.diagram.diagnostic"/>
+         <Priority name="Lowest"/>
+      </MarkerNavigationProvider>
+   </extension>
+
+   <extension id="diagnostic" name="Concrete Plugin problems" point="org.eclipse.core.resources.markers">
+      <?gmfgen generated="true"?>
+      <super type="org.eclipse.core.resources.problemmarker"/>
+      <super type="org.eclipse.gmf.runtime.common.ui.services.marker"/>
+      <persistent value="true"/>
+   </extension>   
+
+   <extension id="validationDecoratorProvider" name="ValidationDecorations" point="org.eclipse.gmf.runtime.diagram.ui.decoratorProviders">
+      <?gmfgen generated="true"?>
+      <decoratorProvider class="concrete.diagram.providers.ConcreteValidationDecoratorProvider">
+         <Priority name="Lowest"/>
+         <object class="org.eclipse.gmf.runtime.diagram.ui.editparts.IPrimaryEditPart(org.eclipse.gmf.runtime.diagram.ui)" id="PRIMARY_VIEW"/>
+         <context decoratorTargets="PRIMARY_VIEW"/>
+      </decoratorProvider>
+   </extension>
+
+   <extension point="org.eclipse.core.runtime.preferences" id="prefs">
+      <?gmfgen generated="true"?>
+      <initializer class="concrete.diagram.preferences.DiagramPreferenceInitializer"/>
+   </extension>
+
+   <extension point="org.eclipse.ui.preferencePages" id="prefpages">
+      <?gmfgen generated="true"?>
+      <page
+            id="cdjjd_concrete.diagram.general"
+            name="%prefpage.cdjjd_concrete.diagram.general"
+            class="concrete.diagram.preferences.DiagramGeneralPreferencePage">
+      </page>
+      <page
+            id="cdjjd_concrete.diagram.appearance"
+            name="%prefpage.cdjjd_concrete.diagram.appearance"
+            category="cdjjd_concrete.diagram.general"
+            class="concrete.diagram.preferences.DiagramAppearancePreferencePage">
+      </page>
+      <page
+            id="cdjjd_concrete.diagram.connections"
+            name="%prefpage.cdjjd_concrete.diagram.connections"
+            category="cdjjd_concrete.diagram.general"
+            class="concrete.diagram.preferences.DiagramConnectionsPreferencePage">
+      </page>
+      <page
+            id="cdjjd_concrete.diagram.printing"
+            name="%prefpage.cdjjd_concrete.diagram.printing"
+            category="cdjjd_concrete.diagram.general"
+            class="concrete.diagram.preferences.DiagramPrintingPreferencePage">
+      </page>
+      <page
+            id="cdjjd_concrete.diagram.rulersAndGrid"
+            name="%prefpage.cdjjd_concrete.diagram.rulersAndGrid"
+            category="cdjjd_concrete.diagram.general"
+            class="concrete.diagram.preferences.DiagramRulersAndGridPreferencePage">
+      </page>
+   </extension>
+
+   <extension point="org.eclipse.ui.views.properties.tabbed.propertyContributor" id="prop-contrib">
+      <?gmfgen generated="true"?>
+      <propertyContributor
+            contributorId="cdjjd_concrete.diagram"
+            labelProvider="concrete.diagram.sheet.ConcreteSheetLabelProvider">
+         <propertyCategory category="domain"/>
+         <propertyCategory category="visual"/>
+         <propertyCategory category="extra"/>
+      </propertyContributor>
+   </extension>
+
+   <extension point="org.eclipse.ui.views.properties.tabbed.propertyTabs" id="proptabs">
+      <?gmfgen generated="true"?>   
+      <propertyTabs contributorId="cdjjd_concrete.diagram">
+         <propertyTab
+             category="visual"
+             id="property.tab.AppearancePropertySection"
+             label="%tab.appearance"/>
+          <propertyTab
+             category="visual"
+             id="property.tab.DiagramPropertySection"
+             label="%tab.diagram"/>
+          <propertyTab
+             category="domain"
+             id="property.tab.domain"
+             label="%tab.domain"/>
+      </propertyTabs>
+   </extension>
+
+   <extension point="org.eclipse.ui.views.properties.tabbed.propertySections" id="propsections">
+      <?gmfgen generated="true"?>   
+      <propertySections contributorId="cdjjd_concrete.diagram">
+         <propertySection id="property.section.ConnectorAppearancePropertySection" 
+            filter="org.eclipse.gmf.runtime.diagram.ui.properties.filters.ConnectionEditPartPropertySectionFilter" 
+            class="org.eclipse.gmf.runtime.diagram.ui.properties.sections.appearance.ConnectionAppearancePropertySection" 
+            tab="property.tab.AppearancePropertySection">
+         </propertySection>
+         <propertySection id="property.section.ShapeColorAndFontPropertySection" 
+            filter="org.eclipse.gmf.runtime.diagram.ui.properties.filters.ShapeEditPartPropertySectionFilter" 
+            class="org.eclipse.gmf.runtime.diagram.ui.properties.sections.appearance.ShapeColorsAndFontsPropertySection" 
+            tab="property.tab.AppearancePropertySection">
+         </propertySection> 
+         <propertySection id="property.section.DiagramColorsAndFontsPropertySection" 
+            filter="org.eclipse.gmf.runtime.diagram.ui.properties.filters.DiagramEditPartPropertySectionFilter" 
+            class="org.eclipse.gmf.runtime.diagram.ui.properties.sections.appearance.DiagramColorsAndFontsPropertySection" 
+            tab="property.tab.AppearancePropertySection">
+         </propertySection>     
+         <propertySection id="property.section.RulerGridPropertySection" 
+            filter="org.eclipse.gmf.runtime.diagram.ui.properties.filters.DiagramEditPartPropertySectionFilter" 
+            class="org.eclipse.gmf.runtime.diagram.ui.properties.sections.grid.RulerGridPropertySection" 
+            tab="property.tab.DiagramPropertySection">
+         </propertySection>     
+         <propertySection
+            id="property.section.domain" 
+            tab="property.tab.domain"
+            class="concrete.diagram.sheet.ConcretePropertySection">
+            <input type="org.eclipse.gmf.runtime.notation.View"/>
+            <input type="org.eclipse.gef.EditPart"/>
+            <input type="concrete.diagram.navigator.ConcreteAbstractNavigatorItem"/>
+         </propertySection>
+      </propertySections>
+   </extension>
+
+   <extension point="org.eclipse.gmf.runtime.diagram.core.viewProviders" id="view-provider">
+      <?gmfgen generated="true"?>
+      <viewProvider class="concrete.diagram.providers.ConcreteViewProvider">
+         <Priority name="Lowest"/>
+         <object id="referencing-diagrams" class="org.eclipse.gmf.runtime.notation.Diagram">
+            <method name="getType()" value="concrete"/>
+         </object>
+         <context viewClass="org.eclipse.gmf.runtime.notation.Node" containerViews="referencing-diagrams"/>
+         <context viewClass="org.eclipse.gmf.runtime.notation.Diagram" semanticHints="Concrete"/>
+         <context viewClass="org.eclipse.gmf.runtime.notation.Node" semanticHints="2001,2002,3001,3002,3003,3004,3005"/>
+         <context viewClass="org.eclipse.gmf.runtime.notation.Edge" semanticHints="4001,4002,4003,4004,4005"/>
+      </viewProvider>
+   </extension>
+
+   <extension point="org.eclipse.gmf.runtime.diagram.ui.editpartProviders" id="ep-provider">
+      <?gmfgen generated="true"?>
+      <editpartProvider class="concrete.diagram.providers.ConcreteEditPartProvider">
+         <Priority name="Lowest"/>
+         <object class="org.eclipse.gmf.runtime.notation.Diagram" id="generated-diagram">
+            <method name="getType()" value="Concrete"/>
+         </object>
+         <object class="org.eclipse.gmf.runtime.notation.Node" id="generated-nodes">
+            <method name="getType()" value="2001,2002,3001,3002,3003,3004,3005"/>
+         </object>
+         <object class="org.eclipse.gmf.runtime.notation.Edge" id="generated-links">
+            <method name="getType()" value="4001,4002,4003,4004,4005"/>
+         </object>
+         <object class="org.eclipse.gmf.runtime.notation.Node" id="generated-labels">
+            <method name="getType()" value="5006,5007,5005,5004,5001,5003,5002"/>
+         </object>
+         <object class="org.eclipse.gmf.runtime.notation.Node" id="generated-compartments">
+            <method name="getType()" value="7001,7002,7003,7004,7005,7006,7007,7008,7009"/>
+         </object>
+         <context views="generated-diagram,generated-nodes,generated-links,generated-labels,generated-compartments"/>
+      </editpartProvider>
+   </extension>
+
+   
+   <extension point="org.eclipse.gmf.runtime.emf.ui.modelingAssistantProviders" id="modelassist-provider">
+      <?gmfgen generated="true"?>
+      <modelingAssistantProvider class="concrete.diagram.providers.assistants.ConcreteModelingAssistantProviderOfClassDiagramJJDEditPart">
+         <Priority name="Lowest"/>
+         <object class="concrete.diagram.edit.parts.ClassDiagramJJDEditPart" id="ClassDiagramJJD_1000"/>
+         <context elements="ClassDiagramJJD_1000"/>
+      </modelingAssistantProvider>
+            <modelingAssistantProvider class="concrete.diagram.providers.assistants.ConcreteModelingAssistantProviderOfPackageJJDEditPart">
+         <Priority name="Lowest"/>
+         <object class="concrete.diagram.edit.parts.PackageJJDEditPart" id="PackageJJD_2001"/>
+         <context elements="PackageJJD_2001"/>
+      </modelingAssistantProvider>
+            <modelingAssistantProvider class="concrete.diagram.providers.assistants.ConcreteModelingAssistantProviderOfClassJJDEditPart">
+         <Priority name="Lowest"/>
+         <object class="concrete.diagram.edit.parts.ClassJJDEditPart" id="ClassJJD_2002"/>
+         <context elements="ClassJJD_2002"/>
+      </modelingAssistantProvider>
+            <modelingAssistantProvider class="concrete.diagram.providers.assistants.ConcreteModelingAssistantProviderOfPackageJJD2EditPart">
+         <Priority name="Lowest"/>
+         <object class="concrete.diagram.edit.parts.PackageJJD2EditPart" id="PackageJJD_3001"/>
+         <context elements="PackageJJD_3001"/>
+      </modelingAssistantProvider>
+            <modelingAssistantProvider class="concrete.diagram.providers.assistants.ConcreteModelingAssistantProviderOfClassJJD2EditPart">
+         <Priority name="Lowest"/>
+         <object class="concrete.diagram.edit.parts.ClassJJD2EditPart" id="ClassJJD_3002"/>
+         <context elements="ClassJJD_3002"/>
+      </modelingAssistantProvider>
+            <modelingAssistantProvider class="concrete.diagram.providers.assistants.ConcreteModelingAssistantProviderOfAttributeJJDEditPart">
+         <Priority name="Lowest"/>
+         <object class="concrete.diagram.edit.parts.AttributeJJDEditPart" id="AttributeJJD_3003"/>
+         <context elements="AttributeJJD_3003"/>
+      </modelingAssistantProvider>
+            <modelingAssistantProvider class="concrete.diagram.providers.assistants.ConcreteModelingAssistantProviderOfMethodJJDEditPart">
+         <Priority name="Lowest"/>
+         <object class="concrete.diagram.edit.parts.MethodJJDEditPart" id="MethodJJD_3004"/>
+         <context elements="MethodJJD_3004"/>
+      </modelingAssistantProvider>
+            <modelingAssistantProvider class="concrete.diagram.providers.assistants.ConcreteModelingAssistantProviderOfAttributeJJD2EditPart">
+         <Priority name="Lowest"/>
+         <object class="concrete.diagram.edit.parts.AttributeJJD2EditPart" id="AttributeJJD_3005"/>
+         <context elements="AttributeJJD_3005"/>
+      </modelingAssistantProvider>
+      
+   </extension>
+
+
+   <extension point="org.eclipse.gmf.runtime.common.ui.services.iconProviders" id="icon-provider">
+      <?gmfgen generated="true"?>
+      <IconProvider class="concrete.diagram.providers.ConcreteIconProvider">
+         <Priority name="Low"/>
+      </IconProvider>
+   </extension>
+
+   <extension point="org.eclipse.gmf.runtime.common.ui.services.parserProviders" id="parser-provider">
+      <?gmfgen generated="true"?>
+      <ParserProvider class="concrete.diagram.providers.ConcreteParserProvider">
+         <Priority name="Lowest"/>
+      </ParserProvider>
+   </extension>
+
+   <extension point="org.eclipse.gmf.runtime.diagram.ui.decoratorProviders" id="decorator-provider">
+      <?gmfgen generated="true"?>
+      <decoratorProvider class="concrete.diagram.providers.ConcreteShortcutsDecoratorProvider">
+         <Priority name="Lowest"/>
+         <object class="org.eclipse.gmf.runtime.notation.Node(org.eclipse.gmf.runtime.notation)" id="generated-top-nodes">
+            <method name="getType()" value="2001,2002"/>
+         </object>
+         <context decoratorTargets="generated-top-nodes"/>
+      </decoratorProvider>
+   </extension>
+
+   <extension point="org.eclipse.gmf.runtime.emf.type.core.elementTypes" id="element-types">
+      <?gmfgen generated="true"?>
+      <metamodel nsURI="concrete">
+         <metamodelType
+               id="cdjjd_concrete.diagram.ClassDiagramJJD_1000"
+               name="%metatype.name.ClassDiagramJJD_1000"
+               kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
+               eclass="ClassDiagramJJD"
+               edithelper="concrete.diagram.edit.helpers.ClassDiagramJJDEditHelper">
+            <param name="semanticHint" value="1000"/>
+         </metamodelType>
+      </metamodel>
+      <metamodel nsURI="concrete">
+         <metamodelType
+               id="cdjjd_concrete.diagram.PackageJJD_2001"
+               name="%metatype.name.PackageJJD_2001"
+               kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
+               eclass="PackageJJD"
+               edithelper="concrete.diagram.edit.helpers.PackageJJDEditHelper">
+            <param name="semanticHint" value="2001"/>
+         </metamodelType>
+      </metamodel>
+      <metamodel nsURI="concrete">
+         <specializationType
+               id="cdjjd_concrete.diagram.ClassJJD_2002"
+               name="%metatype.name.ClassJJD_2002"
+               kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+            <specializes id="cdjjd_concrete.diagram.ClassJJD_3002"/>
+            <param name="semanticHint" value="2002"/>
+         </specializationType>
+      </metamodel>
+      <metamodel nsURI="concrete">
+         <specializationType
+               id="cdjjd_concrete.diagram.PackageJJD_3001"
+               name="%metatype.name.PackageJJD_3001"
+               kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+            <specializes id="cdjjd_concrete.diagram.PackageJJD_2001"/>
+            <param name="semanticHint" value="3001"/>
+         </specializationType>
+      </metamodel>
+      <metamodel nsURI="concrete">
+         <metamodelType
+               id="cdjjd_concrete.diagram.ClassJJD_3002"
+               name="%metatype.name.ClassJJD_3002"
+               kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
+               eclass="ClassJJD"
+               edithelper="concrete.diagram.edit.helpers.ClassJJDEditHelper">
+            <param name="semanticHint" value="3002"/>
+         </metamodelType>
+      </metamodel>
+      <metamodel nsURI="concrete">
+         <metamodelType
+               id="cdjjd_concrete.diagram.AttributeJJD_3003"
+               name="%metatype.name.AttributeJJD_3003"
+               kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
+               eclass="AttributeJJD"
+               edithelper="concrete.diagram.edit.helpers.AttributeJJDEditHelper">
+            <param name="semanticHint" value="3003"/>
+         </metamodelType>
+      </metamodel>
+      <metamodel nsURI="concrete">
+         <metamodelType
+               id="cdjjd_concrete.diagram.MethodJJD_3004"
+               name="%metatype.name.MethodJJD_3004"
+               kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
+               eclass="MethodJJD"
+               edithelper="concrete.diagram.edit.helpers.MethodJJDEditHelper">
+            <param name="semanticHint" value="3004"/>
+         </metamodelType>
+      </metamodel>
+      <metamodel nsURI="concrete">
+         <specializationType
+               id="cdjjd_concrete.diagram.AttributeJJD_3005"
+               name="%metatype.name.AttributeJJD_3005"
+               kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
+            <specializes id="cdjjd_concrete.diagram.AttributeJJD_3003"/>
+            <param name="semanticHint" value="3005"/>
+         </specializationType>
+      </metamodel>
+      <metamodel nsURI="concrete">
+         <metamodelType
+               id="cdjjd_concrete.diagram.AgregationJJD_4001"
+               name="%metatype.name.AgregationJJD_4001"
+               kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
+               eclass="AgregationJJD"
+               edithelper="concrete.diagram.edit.helpers.AgregationJJDEditHelper">
+            <param name="semanticHint" value="4001"/>
+         </metamodelType>
+      </metamodel>
+      <metamodel nsURI="concrete">
+         <metamodelType
+               id="cdjjd_concrete.diagram.InheritanceJJD_4002"
+               name="%metatype.name.InheritanceJJD_4002"
+               kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
+               eclass="InheritanceJJD"
+               edithelper="concrete.diagram.edit.helpers.InheritanceJJDEditHelper">
+            <param name="semanticHint" value="4002"/>
+         </metamodelType>
+      </metamodel>
+      <metamodel nsURI="concrete">
+         <metamodelType
+               id="cdjjd_concrete.diagram.ContainmentJJD_4003"
+               name="%metatype.name.ContainmentJJD_4003"
+               kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
+               eclass="ContainmentJJD"
+               edithelper="concrete.diagram.edit.helpers.ContainmentJJDEditHelper">
+            <param name="semanticHint" value="4003"/>
+         </metamodelType>
+      </metamodel>
+      <metamodel nsURI="concrete">
+         <metamodelType
+               id="cdjjd_concrete.diagram.AssociationJJD_4004"
+               name="%metatype.name.AssociationJJD_4004"
+               kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
+               eclass="AssociationJJD"
+               edithelper="concrete.diagram.edit.helpers.AssociationJJDEditHelper">
+            <param name="semanticHint" value="4004"/>
+         </metamodelType>
+      </metamodel>
+      <metamodel nsURI="concrete">
+         <metamodelType
+               id="cdjjd_concrete.diagram.ImplementJJD_4005"
+               name="%metatype.name.ImplementJJD_4005"
+               kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType"
+               eclass="ImplementJJD"
+               edithelper="concrete.diagram.edit.helpers.ImplementJJDEditHelper">
+            <param name="semanticHint" value="4005"/>
+         </metamodelType>
+      </metamodel>
+   </extension>
+
+   <extension point="org.eclipse.gmf.runtime.emf.type.core.elementTypeBindings" id="element-types-bindings">
+      <?gmfgen generated="true"?>
+      <clientContext id="cdjjd_concrete.diagram.TypeContext">
+         <enablement>
+            <test
+               property="org.eclipse.gmf.runtime.emf.core.editingDomain"
+               value="cdjjd_concrete.diagram.EditingDomain"/>
+         </enablement>
+      </clientContext> 
+      <binding context="cdjjd_concrete.diagram.TypeContext">
+         <elementType ref="cdjjd_concrete.diagram.ClassDiagramJJD_1000"/>
+         <elementType ref="cdjjd_concrete.diagram.PackageJJD_2001"/>
+         <elementType ref="cdjjd_concrete.diagram.ClassJJD_2002"/>
+         <elementType ref="cdjjd_concrete.diagram.PackageJJD_3001"/>
+         <elementType ref="cdjjd_concrete.diagram.ClassJJD_3002"/>
+         <elementType ref="cdjjd_concrete.diagram.AttributeJJD_3003"/>
+         <elementType ref="cdjjd_concrete.diagram.MethodJJD_3004"/>
+         <elementType ref="cdjjd_concrete.diagram.AttributeJJD_3005"/>
+         <elementType ref="cdjjd_concrete.diagram.AgregationJJD_4001"/>
+         <elementType ref="cdjjd_concrete.diagram.InheritanceJJD_4002"/>
+         <elementType ref="cdjjd_concrete.diagram.ContainmentJJD_4003"/>
+         <elementType ref="cdjjd_concrete.diagram.AssociationJJD_4004"/>
+         <elementType ref="cdjjd_concrete.diagram.ImplementJJD_4005"/>
+         <advice ref="org.eclipse.gmf.runtime.diagram.core.advice.notationDepdendents"/>
+      </binding>
+   </extension>
+	   <extension point="org.eclipse.core.expressions.propertyTesters" id="navigator-proptest.isURIEditorInput">
+      <?gmfgen generated="true"?>
+       <propertyTester
+           id="cdjjd_concrete.diagram.URIEditorInputPropertyTester"
+           type="org.eclipse.emf.common.ui.URIEditorInput"
+           namespace="cdjjd_concrete.diagram"
+           properties="isURIEditorInput"
+           class="concrete.diagram.part.ConcreteUriEditorInputTester">
+       </propertyTester>
+   </extension>
+
+	   <extension point="org.eclipse.core.expressions.propertyTesters" id="navigator-proptest.isShortcut">
+      <?gmfgen generated="true"?>
+       <propertyTester
+           id="cdjjd_concrete.diagram.ShortcutPropertyTester"
+           type="org.eclipse.gmf.runtime.notation.View"
+           namespace="cdjjd_concrete.diagram"
+           properties="isShortcut"
+           class="concrete.diagram.part.ConcreteShortcutPropertyTester">
+       </propertyTester>
+   </extension>
+
+	   <extension point="org.eclipse.ui.navigator.viewer" id="navigator-viewbinding">
+      <?gmfgen generated="true"?>
+      <viewerContentBinding viewerId="org.eclipse.ui.navigator.ProjectExplorer">
+         <includes>
+            <contentExtension pattern="cdjjd_concrete.diagram.resourceContent"/>
+			<contentExtension pattern="cdjjd_concrete.diagram.domainResourceContent"/>
+            <contentExtension pattern="cdjjd_concrete.diagram.navigatorLinkHelper"/>
+         </includes>
+      </viewerContentBinding>
+      <viewerActionBinding viewerId="org.eclipse.ui.navigator.ProjectExplorer">
+         <includes>
+            <actionExtension pattern="cdjjd_concrete.diagram.navigatorActionProvider"/>
+         </includes>
+      </viewerActionBinding>
+   </extension>
+
+   <extension point="org.eclipse.ui.navigator.navigatorContent" id="navigator-content">
+      <?gmfgen generated="true"?>
+      <navigatorContent
+            id="cdjjd_concrete.diagram.resourceContent" 
+            name="%navigatorContentName" 
+            priority="normal" 
+            contentProvider="concrete.diagram.navigator.ConcreteNavigatorContentProvider" 
+            labelProvider="concrete.diagram.navigator.ConcreteNavigatorLabelProvider"
+            icon="icons/obj16/ConcreteDiagramFile.gif"
+            activeByDefault="true">
+         <triggerPoints>
+            <or>
+	           <and>
+    	          <instanceof value="org.eclipse.core.resources.IFile"/>
+        	      <test property="org.eclipse.core.resources.extension" value="concrete_diagram"/>
+               </and>
+               <instanceof value="concrete.diagram.navigator.ConcreteAbstractNavigatorItem"/>
+           	   <adapt type="org.eclipse.gmf.runtime.notation.View">
+           	      <test property="cdjjd_concrete.diagram.isShortcut"/>
+           	   </adapt>
+            </or>
+         </triggerPoints>
+         <possibleChildren>
+            <or>
+         	   <instanceof value="concrete.diagram.navigator.ConcreteAbstractNavigatorItem"/>
+           	   <adapt type="org.eclipse.gmf.runtime.notation.View">
+           	      <test property="cdjjd_concrete.diagram.isShortcut"/>
+           	   </adapt>
+            </or>
+         </possibleChildren>
+         <commonSorter 
+               id="cdjjd_concrete.diagram.navigatorSorter" 
+               class="concrete.diagram.navigator.ConcreteNavigatorSorter">
+            <parentExpression>
+               <or>
+	              <and>
+    	             <instanceof value="org.eclipse.core.resources.IFile"/>
+        	         <test property="org.eclipse.core.resources.extension" value="concrete_diagram"/>
+                  </and>
+                  <instanceof value="concrete.diagram.navigator.ConcreteAbstractNavigatorItem"/>
+               </or>
+            </parentExpression>
+         </commonSorter>
+      </navigatorContent>
+      <navigatorContent
+            id="cdjjd_concrete.diagram.domainResourceContent" 
+            name="%domainNavigatorContentName" 
+            priority="normal" 
+            contentProvider="concrete.diagram.navigator.ConcreteDomainNavigatorContentProvider" 
+            labelProvider="concrete.diagram.navigator.ConcreteDomainNavigatorLabelProvider"
+            icon="icons/obj16/ConcreteDiagramFile.gif"
+            activeByDefault="true">
+         <triggerPoints>
+            <or>
+	           <and>
+    	          <instanceof value="org.eclipse.core.resources.IFile"/>
+        	      <test property="org.eclipse.core.resources.extension" value="concrete"/>
+               </and>
+               <instanceof value="concrete.diagram.navigator.ConcreteDomainNavigatorItem"/>
+            </or>
+         </triggerPoints>
+         <possibleChildren>
+            <instanceof value="concrete.diagram.navigator.ConcreteDomainNavigatorItem"/>
+         </possibleChildren>
+      </navigatorContent>
+      <actionProvider
+            id="cdjjd_concrete.diagram.navigatorActionProvider"
+            class="concrete.diagram.navigator.ConcreteNavigatorActionProvider">
+         <enablement>
+            <or>
+               <instanceof value="concrete.diagram.navigator.ConcreteAbstractNavigatorItem"/>
+           	   <adapt type="org.eclipse.gmf.runtime.notation.View">
+           	      <test property="cdjjd_concrete.diagram.isShortcut"/>
+           	   </adapt>
+            </or>
+         </enablement>
+      </actionProvider>
+   </extension>
+   
+	   <extension point="org.eclipse.ui.navigator.linkHelper" id="navigator-linkhelper">
+      <?gmfgen generated="true"?>
+      <linkHelper
+            id="cdjjd_concrete.diagram.navigatorLinkHelper"
+            class="concrete.diagram.navigator.ConcreteNavigatorLinkHelper">
+         <editorInputEnablement>
+            <and>
+               <instanceof value="org.eclipse.emf.common.ui.URIEditorInput"/>
+               <test property="cdjjd_concrete.diagram.isURIEditorInput"/>
+            </and>
+         </editorInputEnablement>
+         <selectionEnablement>
+            <instanceof value="concrete.diagram.navigator.ConcreteAbstractNavigatorItem"/>
+         </selectionEnablement>
+      </linkHelper>
+   </extension>
+   <extension point="org.eclipse.ui.commands" id="update-cmd">
+      <?gmfgen generated="true"?>
+      <command
+         categoryId="org.eclipse.ui.category.edit"
+         defaultHandler="concrete.diagram.part.ConcreteDiagramUpdateCommand"
+         description="%update.diagram.description"
+         id="concrete.diagram.updateDiagram"
+         name="%update.diagram.name"/>
+   </extension>
+   
+   <extension point="org.eclipse.ui.bindings" id="update-cmd-binding">
+      <?gmfgen generated="true"?>
+      <key 
+         commandId="concrete.diagram.updateDiagram"
+         contextId="concrete.diagram.ui.diagramContext"
+         schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+         sequence="F5"/>
+   </extension>
+
+   <extension point="org.eclipse.ui.menus" id="context-menus">
+      <?gmfgen generated="true"?>
+      <!-- menuContribution locationURI="menu:org.eclipse.ui.main.menu?after=">
+      </menuContribution>
+      <menuContribution locationURI="toolbar:org.eclipse.ui.main.toolbar?after=">
+      </menuContribution -->
+      <menuContribution locationURI="popup:org.eclipse.gmf.runtime.diagram.ui.DiagramEditorContextMenu">
+         <command commandId="cdjjd_concrete.diagram.LoadResourceAction">
+            <visibleWhen>
+               <and>
+                  <with variable="activePartId"><equals value="concrete.diagram.part.ConcreteDiagramEditorID"/></with>
+                  <with variable="selection"><iterate ifEmpty="false"> 
+                     <instanceof value="concrete.diagram.edit.parts.ClassDiagramJJDEditPart"/>
+                  </iterate></with>
+               </and>
+            </visibleWhen>
+         </command>
+      </menuContribution>
+   </extension>
+
+   <extension point="org.eclipse.ui.commands" id="menu-commands">
+      <?gmfgen generated="true"?>
+      <category id="concrete.diagram.part.ConcreteDiagramEditorID" name="%cmdcategory.name" description="%cmdcategory.desc"/>
+      <command id="cdjjd_concrete.diagram.LoadResourceAction"
+         name="Load Resource"
+         categoryId="concrete.diagram.part.ConcreteDiagramEditorID"
+         defaultHandler="concrete.diagram.part.LoadResourceAction"/>
+   </extension>
+
+   <extension point="org.eclipse.ui.handlers" id="menu-handlers">
+      <?gmfgen generated="true"?>
+   </extension>
+
+   <!-- optionally, specify keybindings -->
+</plugin>

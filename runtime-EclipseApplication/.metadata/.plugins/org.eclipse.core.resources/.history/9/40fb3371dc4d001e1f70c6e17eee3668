@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:concrete="concrete" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_szWxME3UEe6Jlu4IwU4IYA" type="Concrete" measurementUnit="Pixel">
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_szWxMU3UEe6Jlu4IwU4IYA"/>
+  <element xmi:type="concrete:ClassDiagramJJD" href="model%20.concrete#//@listClassDiagramJJD.0"/>
+</notation:Diagram>

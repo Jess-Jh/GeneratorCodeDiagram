@@ -1,0 +1,7 @@
+# Tracing options for the cdjjd_concrete.diagram plug-in
+
+# Common issues
+cdjjd_concrete.diagram/debug=false
+
+# Visual IDs
+cdjjd_concrete.diagram/debug/visualID=false

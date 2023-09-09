@@ -1,0 +1,29 @@
+	/*
+ * 
+ */
+package concrete.diagram.edit.policies;
+
+	/**
+ * @generated
+ */
+public class ClassJJDClassJJDListAttributesJJDCompartmentItemSemanticEditPolicy extends concrete.diagram.edit.policies.ConcreteBaseItemSemanticEditPolicy {
+
+		/**
+ * @generated
+ */
+	public ClassJJDClassJJDListAttributesJJDCompartmentItemSemanticEditPolicy() {
+				super(concrete.diagram.providers.ConcreteElementTypes.ClassJJD_3002);
+	}
+
+	
+	/**
+ * @generated
+ */
+	protected org.eclipse.gef.commands.Command getCreateCommand(org.eclipse.gmf.runtime.emf.type.core.requests.CreateElementRequest req) {
+		if (concrete.diagram.providers.ConcreteElementTypes.AttributeJJD_3003 == req.getElementType()) {
+	return getGEFWrapper(new concrete.diagram.edit.commands.AttributeJJDCreateCommand(req));
+}
+		return super.getCreateCommand(req);
+	}
+	
+	}

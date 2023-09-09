@@ -1,0 +1,25 @@
+	/*
+ * 
+ */
+package concrete.diagram.edit.policies;
+
+/**
+ * @generated
+ */
+public class AgregationJJDItemSemanticEditPolicy extends concrete.diagram.edit.policies.ConcreteBaseItemSemanticEditPolicy {
+
+		/**
+ * @generated
+ */
+	public AgregationJJDItemSemanticEditPolicy() {
+				super(concrete.diagram.providers.ConcreteElementTypes.AgregationJJD_4001);
+	}
+
+			/**
+ * @generated
+ */
+	protected org.eclipse.gef.commands.Command getDestroyElementCommand(org.eclipse.gmf.runtime.emf.type.core.requests.DestroyElementRequest req) {
+		return getGEFWrapper(new org.eclipse.gmf.runtime.emf.type.core.commands.DestroyElementCommand(req));
+	}
+					
+	}

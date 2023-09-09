@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" copyrightText="" modelDirectory="/cdjjd_concrete/src" modelPluginID="cdjjd_concrete"
+    modelName="Concrete" importerID="org.eclipse.emf.importer.ecore" complianceLevel="6.0"
+    copyrightFields="false">
+  <foreignModel>concrete.emf</foreignModel>
+  <genPackages prefix="Concrete" disposableProviderFactory="true" ecorePackage="concrete.ecore#/">
+    <genClasses ecoreClass="concrete.ecore#//ModelFactoryConcreteJJD">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute concrete.ecore#//ModelFactoryConcreteJJD/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference concrete.ecore#//ModelFactoryConcreteJJD/listClassDiagramJJD"/>
+    </genClasses>
+    <genClasses ecoreClass="concrete.ecore#//ClassDiagramJJD">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute concrete.ecore#//ClassDiagramJJD/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference concrete.ecore#//ClassDiagramJJD/listPackagesJJD"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference concrete.ecore#//ClassDiagramJJD/listClassJJD"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference concrete.ecore#//ClassDiagramJJD/listRelationsJJD"/>
+    </genClasses>
+    <genClasses ecoreClass="concrete.ecore#//PackageJJD">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute concrete.ecore#//PackageJJD/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute concrete.ecore#//PackageJJD/nameSpace"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference concrete.ecore#//PackageJJD/subPackagesJJD"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference concrete.ecore#//PackageJJD/listClassJJD"/>
+    </genClasses>
+    <genClasses ecoreClass="concrete.ecore#//ClassJJD">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute concrete.ecore#//ClassJJD/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute concrete.ecore#//ClassJJD/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute concrete.ecore#//ClassJJD/isAbstract"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference concrete.ecore#//ClassJJD/listAttributesJJD"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference concrete.ecore#//ClassJJD/listMethodsJJD"/>
+    </genClasses>
+    <genClasses ecoreClass="concrete.ecore#//AttributeJJD">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute concrete.ecore#//AttributeJJD/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute concrete.ecore#//AttributeJJD/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute concrete.ecore#//AttributeJJD/type"/>
+    </genClasses>
+    <genClasses ecoreClass="concrete.ecore#//MethodJJD">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute concrete.ecore#//MethodJJD/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute concrete.ecore#//MethodJJD/modifier"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute concrete.ecore#//MethodJJD/semantic"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute concrete.ecore#//MethodJJD/returnType"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference concrete.ecore#//MethodJJD/listAttributesJJD"/>
+    </genClasses>
+    <genClasses ecoreClass="concrete.ecore#//RelationJJD">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute concrete.ecore#//RelationJJD/rolA"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute concrete.ecore#//RelationJJD/rolB"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute concrete.ecore#//RelationJJD/navigabilityA"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute concrete.ecore#//RelationJJD/navigabilityB"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute concrete.ecore#//RelationJJD/multiplicityA"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute concrete.ecore#//RelationJJD/multiplicityB"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference concrete.ecore#//RelationJJD/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference concrete.ecore#//RelationJJD/target"/>
+    </genClasses>
+    <genClasses ecoreClass="concrete.ecore#//AgregationJJD"/>
+    <genClasses ecoreClass="concrete.ecore#//InheritanceJJD"/>
+    <genClasses ecoreClass="concrete.ecore#//ContainmentJJD"/>
+    <genClasses ecoreClass="concrete.ecore#//AssociationJJD"/>
+    <genClasses ecoreClass="concrete.ecore#//ImplementJJD"/>
+  </genPackages>
+</genmodel:GenModel>

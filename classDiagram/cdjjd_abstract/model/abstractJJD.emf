@@ -1,0 +1,66 @@
+@namespace(uri="abstractJJD", prefix="abstractJJD")
+@gmf
+package abstractJJD;
+
+class ModelFactoryAbstractJJD {	
+	attr String name;
+    val PackageJJD[*] listPackagesJJD;
+}
+
+class PackageJJD {
+    attr String name;
+    attr String nameSpace;
+    
+    val PackageJJD[*] subPackagesJJD;
+    val ClassJJD[*] listClassJJD;
+} 
+
+class ClassJJD { 
+    attr String name;
+    attr String description;
+    attr boolean isAbstract;
+    
+    val AttributeJJD[*] listAttributesJJD;
+    val MethodJJD[*] listMethodsJJD;
+    val RelationJJD[*] listRelationsJJD;
+   
+}
+
+class AttributeJJD {
+    attr String name;
+    attr String description;
+    attr String type;
+
+}
+
+class MethodJJD {
+    attr String name;
+    attr String modifier;
+    attr String semantic;
+    attr String returnType;
+    
+    val AttributeJJD[*] listAttributesJJD;
+}
+
+class RelationJJD {
+    attr String rolA;
+    attr String rolB;
+    attr String navigabilityA;
+    attr String navigabilityB;
+    attr String multiplicityA;
+    attr String multiplicityB;
+    
+    ref ClassJJD source;
+    ref ClassJJD target;
+}
+
+class AgregationJJD extends RelationJJD {}
+
+class InheritanceJJD extends RelationJJD {}
+
+class ContainmentJJD extends RelationJJD {}
+
+class AssociationJJD extends RelationJJD {}
+
+class ImplementJJD extends RelationJJD {}
+

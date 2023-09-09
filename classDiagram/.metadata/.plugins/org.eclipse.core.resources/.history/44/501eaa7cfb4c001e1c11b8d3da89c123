@@ -1,0 +1,17 @@
+	/*
+ * 
+ */
+package concrete.diagram.part;
+
+	/**
+ * @generated
+ */
+public class ConcreteNodeDescriptor extends org.eclipse.gmf.tooling.runtime.update.UpdaterNodeDescriptor {
+		/**
+ * @generated
+ */
+public ConcreteNodeDescriptor(org.eclipse.emf.ecore.EObject modelElement, int visualID) {
+	super(modelElement, visualID);
+}
+
+	}

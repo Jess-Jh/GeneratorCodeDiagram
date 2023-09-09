@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concrete:ModelFactoryConcreteJJD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:concrete="concrete">
+  <listClassDiagramJJD name="Aeroline Diagram">
+    <listPackagesJJD name="Aeroline Packege">
+      <listClassJJD name="Aeroline">
+        <listAttributesJJD name="name" type="String"/>
+      </listClassJJD>
+      <listClassJJD name="Baggage">
+        <listAttributesJJD name="idClient" type="String"/>
+        <listAttributesJJD name="totalWeight" type="double"/>
+        <listAttributesJJD name="idBaggage" type="String"/>
+        <listAttributesJJD name="baggageWeight1" type="double"/>
+        <listAttributesJJD name="baggageWeight2" type="double"/>
+        <listAttributesJJD name="baggageDimension1" type="String"/>
+        <listAttributesJJD name="baggageDimension2" type="String"/>
+        <listAttributesJJD name="airplaneNumber " type="String"/>
+      </listClassJJD>
+      <listClassJJD name="ShippingCart">
+        <listAttributesJJD name="weight" type="double"/>
+        <listAttributesJJD name="idNumber" type="String"/>
+        <listAttributesJJD name="airplaneNumber" type="String"/>
+      </listClassJJD>
+      <listClassJJD name="Route" isAbstract="true">
+        <listAttributesJJD name="cityOrigin" type="String"/>
+        <listAttributesJJD name="destinationCity" type="String"/>
+        <listAttributesJJD name="duration" type="String"/>
+        <listAttributesJJD name="departureTime " type="String"/>
+      </listClassJJD>
+      <listClassJJD name="International"/>
+      <listClassJJD name="National"/>
+      <listClassJJD name="Ticket">
+        <listAttributesJJD name="travelType" type="String"/>
+        <listAttributesJJD name="serviceType" type="String"/>
+        <listAttributesJJD name="startDate" type="LocalDate"/>
+      </listClassJJD>
+    </listPackagesJJD>
+  </listClassDiagramJJD>
+</concrete:ModelFactoryConcreteJJD>

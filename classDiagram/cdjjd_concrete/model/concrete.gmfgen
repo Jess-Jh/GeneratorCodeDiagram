@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmfgen:GenEditorGenerator xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gmfgen="http://www.eclipse.org/gmf/2009/GenModel" copyrightText="">
+  <diagram visualID="1000" editPartClassName="ClassDiagramJJDEditPart" itemSemanticEditPolicyClassName="ClassDiagramJJDItemSemanticEditPolicy" canonicalEditPolicyClassName="ClassDiagramJJDCanonicalEditPolicy" iconProviderPriority="Low" validationProviderPriority="Low" validationEnabled="true" validationDecorators="true" liveValidationUIFeedback="true">
+    <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Diagram"/>
+    <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="ClassDiagramJJDEditHelper"/>
+    <viewmap xsi:type="gmfgen:FigureViewmap" figureQualifiedClassName="org.eclipse.draw2d.FreeformLayer"/>
+    <containsShortcutsTo>concrete</containsShortcutsTo>
+    <shortcutsProvidedFor>concrete</shortcutsProvidedFor>
+    <domainDiagramElement href="concrete.genmodel#//concrete/ClassDiagramJJD"/>
+    <childNodes visualID="3001" editPartClassName="PackageJJD2EditPart" itemSemanticEditPolicyClassName="PackageJJD2ItemSemanticEditPolicy" canonicalEditPolicyClassName="PackageJJD2CanonicalEditPolicy" compartments="//@diagram/@compartments.2 //@diagram/@compartments.3" graphicalNodeEditPolicyClassName="PackageJJD2GraphicalNodeEditPolicy" createCommandClassName="PackageJJD2CreateCommand" containers="//@diagram/@compartments.2 //@diagram/@compartments.0">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:SpecializationType" metamodelType="//@diagram/@topLevelNodes.0/@elementType"/>
+      <viewmap xsi:type="gmfgen:InnerClassViewmap" className="PackageJJDFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class PackageJJDFigure extends org.eclipse.draw2d.RoundedRectangle {&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel fFigurePackageJJDLabelFigure; &#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.draw2d.RectangleFigure fPackageJJDSubPackagesJJDCompartmentFigure; &#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.draw2d.RectangleFigure fPackageJJDListClassJJDCompartmentFigure; &#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public PackageJJDFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setCornerDimensions(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(8)&#xA;, getMapMode().DPtoLP(8)&#xA;));&#xA;this.setBorder(new org.eclipse.draw2d.MarginBorder(getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;));&#xA;&#x9;&#x9;createContents();&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private void createContents(){&#xA;&#xA;&#xA;fFigurePackageJJDLabelFigure = new org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel();&#xA;&#xA;fFigurePackageJJDLabelFigure.setText(&quot;PackageJJD&quot;);&#xA;fFigurePackageJJDLabelFigure.setMaximumSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(10000)&#xA;, getMapMode().DPtoLP(50)&#xA;));&#xA;&#xA;this.add(fFigurePackageJJDLabelFigure);&#xA;&#xA;&#xA;&#xA;fPackageJJDSubPackagesJJDCompartmentFigure = new org.eclipse.draw2d.RectangleFigure();&#xA;&#xA;fPackageJJDSubPackagesJJDCompartmentFigure.setOutline(false);&#xA;&#xA;this.add(fPackageJJDSubPackagesJJDCompartmentFigure);&#xA;&#xA;&#xA;&#xA;fPackageJJDListClassJJDCompartmentFigure = new org.eclipse.draw2d.RectangleFigure();&#xA;&#xA;fPackageJJDListClassJJDCompartmentFigure.setOutline(false);&#xA;&#xA;this.add(fPackageJJDListClassJJDCompartmentFigure);&#xA;&#xA;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel getFigurePackageJJDLabelFigure() {&#xA;&#x9;&#x9;return fFigurePackageJJDLabelFigure;&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.draw2d.RectangleFigure getPackageJJDSubPackagesJJDCompartmentFigure() {&#xA;&#x9;&#x9;return fPackageJJDSubPackagesJJDCompartmentFigure;&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.draw2d.RectangleFigure getPackageJJDListClassJJDCompartmentFigure() {&#xA;&#x9;&#x9;return fPackageJJDListClassJJDCompartmentFigure;&#xA;&#x9;}&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+      <behaviour xsi:type="gmfgen:OpenDiagramBehaviour"/>
+      <modelFacet>
+        <metaClass href="concrete.genmodel#//concrete/PackageJJD"/>
+        <containmentMetaFeature href="concrete.genmodel#//concrete/PackageJJD/subPackagesJJD"/>
+        <childMetaFeature href="concrete.genmodel#//concrete/PackageJJD/subPackagesJJD"/>
+      </modelFacet>
+      <labels visualID="5005" editPartClassName="PackageJJDName2EditPart" itemSemanticEditPolicyClassName="PackageJJDName2ItemSemanticEditPolicy" elementIcon="true">
+        <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+        <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getFigurePackageJJDLabelFigure" figureQualifiedClassName="org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel"/>
+        <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
+          <metaFeatures href="concrete.genmodel#//concrete/PackageJJD/name"/>
+        </modelFacet>
+      </labels>
+    </childNodes>
+    <childNodes visualID="3002" editPartClassName="ClassJJD2EditPart" itemSemanticEditPolicyClassName="ClassJJD2ItemSemanticEditPolicy" canonicalEditPolicyClassName="ClassJJD2CanonicalEditPolicy" compartments="//@diagram/@compartments.4 //@diagram/@compartments.5" graphicalNodeEditPolicyClassName="ClassJJD2GraphicalNodeEditPolicy" createCommandClassName="ClassJJD2CreateCommand" containers="//@diagram/@compartments.3 //@diagram/@compartments.1">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="ClassJJDEditHelper"/>
+      <viewmap xsi:type="gmfgen:InnerClassViewmap" className="ClassJJDFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class ClassJJDFigure extends org.eclipse.draw2d.RoundedRectangle {&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel fFigureClassJJDLabelFigure; &#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.draw2d.RectangleFigure fClassJJDListAttributesJJDCompartmentFigure; &#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.draw2d.RectangleFigure fClassJJDListMethodsJJDCompartmentFigure; &#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public ClassJJDFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setCornerDimensions(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(8)&#xA;, getMapMode().DPtoLP(8)&#xA;));&#xA;this.setBorder(new org.eclipse.draw2d.MarginBorder(getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;));&#xA;&#x9;&#x9;createContents();&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private void createContents(){&#xA;&#xA;&#xA;fFigureClassJJDLabelFigure = new org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel();&#xA;&#xA;fFigureClassJJDLabelFigure.setText(&quot;ClassJJD&quot;);&#xA;fFigureClassJJDLabelFigure.setMaximumSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(10000)&#xA;, getMapMode().DPtoLP(50)&#xA;));&#xA;&#xA;this.add(fFigureClassJJDLabelFigure);&#xA;&#xA;&#xA;&#xA;fClassJJDListAttributesJJDCompartmentFigure = new org.eclipse.draw2d.RectangleFigure();&#xA;&#xA;fClassJJDListAttributesJJDCompartmentFigure.setOutline(false);&#xA;&#xA;this.add(fClassJJDListAttributesJJDCompartmentFigure);&#xA;&#xA;&#xA;&#xA;fClassJJDListMethodsJJDCompartmentFigure = new org.eclipse.draw2d.RectangleFigure();&#xA;&#xA;fClassJJDListMethodsJJDCompartmentFigure.setOutline(false);&#xA;&#xA;this.add(fClassJJDListMethodsJJDCompartmentFigure);&#xA;&#xA;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel getFigureClassJJDLabelFigure() {&#xA;&#x9;&#x9;return fFigureClassJJDLabelFigure;&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.draw2d.RectangleFigure getClassJJDListAttributesJJDCompartmentFigure() {&#xA;&#x9;&#x9;return fClassJJDListAttributesJJDCompartmentFigure;&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.draw2d.RectangleFigure getClassJJDListMethodsJJDCompartmentFigure() {&#xA;&#x9;&#x9;return fClassJJDListMethodsJJDCompartmentFigure;&#xA;&#x9;}&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+      <behaviour xsi:type="gmfgen:OpenDiagramBehaviour"/>
+      <modelFacet>
+        <metaClass href="concrete.genmodel#//concrete/ClassJJD"/>
+        <containmentMetaFeature href="concrete.genmodel#//concrete/PackageJJD/listClassJJD"/>
+        <childMetaFeature href="concrete.genmodel#//concrete/PackageJJD/listClassJJD"/>
+      </modelFacet>
+      <labels visualID="5004" editPartClassName="ClassJJDName2EditPart" itemSemanticEditPolicyClassName="ClassJJDName2ItemSemanticEditPolicy" elementIcon="true">
+        <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+        <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getFigureClassJJDLabelFigure" figureQualifiedClassName="org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel"/>
+        <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
+          <metaFeatures href="concrete.genmodel#//concrete/ClassJJD/name"/>
+        </modelFacet>
+      </labels>
+    </childNodes>
+    <childNodes visualID="3003" editPartClassName="AttributeJJDEditPart" itemSemanticEditPolicyClassName="AttributeJJDItemSemanticEditPolicy" canonicalEditPolicyClassName="AttributeJJDCanonicalEditPolicy" graphicalNodeEditPolicyClassName="AttributeJJDGraphicalNodeEditPolicy" createCommandClassName="AttributeJJDCreateCommand" containers="//@diagram/@compartments.4 //@diagram/@compartments.7">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="AttributeJJDEditHelper"/>
+      <viewmap xsi:type="gmfgen:InnerClassViewmap" className="AttributeJJDFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class AttributeJJDFigure extends org.eclipse.draw2d.RoundedRectangle {&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel fFigureAttributeJJDLabelFigure; &#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public AttributeJJDFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setCornerDimensions(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(8)&#xA;, getMapMode().DPtoLP(8)&#xA;));&#xA;this.setLineWidth(0);&#xA;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(200)&#xA;, getMapMode().DPtoLP(25)&#xA;));&#xA;this.setBorder(new org.eclipse.draw2d.MarginBorder(getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;));&#xA;&#x9;&#x9;createContents();&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private void createContents(){&#xA;&#xA;&#xA;fFigureAttributeJJDLabelFigure = new org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel();&#xA;&#xA;fFigureAttributeJJDLabelFigure.setText(&quot;AttributeJJD&quot;);&#xA;&#xA;this.add(fFigureAttributeJJDLabelFigure);&#xA;&#xA;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel getFigureAttributeJJDLabelFigure() {&#xA;&#x9;&#x9;return fFigureAttributeJJDLabelFigure;&#xA;&#x9;}&#xA;&#xA;&#xA;}&#xA;&#xA;">
+        <attributes xsi:type="gmfgen:DefaultSizeAttributes" width="200" height="25"/>
+      </viewmap>
+      <modelFacet>
+        <metaClass href="concrete.genmodel#//concrete/AttributeJJD"/>
+        <containmentMetaFeature href="concrete.genmodel#//concrete/ClassJJD/listAttributesJJD"/>
+        <childMetaFeature href="concrete.genmodel#//concrete/ClassJJD/listAttributesJJD"/>
+      </modelFacet>
+      <labels visualID="5001" editPartClassName="AttributeJJDNameTypeEditPart" itemSemanticEditPolicyClassName="AttributeJJDNameTypeItemSemanticEditPolicy" elementIcon="true">
+        <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+        <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getFigureAttributeJJDLabelFigure" figureQualifiedClassName="org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel"/>
+        <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0" viewPattern="{0} : {1}" editorPattern="{0} : {1}" editPattern="{0} : {1}">
+          <metaFeatures href="concrete.genmodel#//concrete/AttributeJJD/name"/>
+          <metaFeatures href="concrete.genmodel#//concrete/AttributeJJD/type"/>
+        </modelFacet>
+      </labels>
+    </childNodes>
+    <childNodes visualID="3004" editPartClassName="MethodJJDEditPart" itemSemanticEditPolicyClassName="MethodJJDItemSemanticEditPolicy" canonicalEditPolicyClassName="MethodJJDCanonicalEditPolicy" compartments="//@diagram/@compartments.6" graphicalNodeEditPolicyClassName="MethodJJDGraphicalNodeEditPolicy" createCommandClassName="MethodJJDCreateCommand" containers="//@diagram/@compartments.5 //@diagram/@compartments.8">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="MethodJJDEditHelper"/>
+      <viewmap xsi:type="gmfgen:InnerClassViewmap" className="MethodJJDFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class MethodJJDFigure extends org.eclipse.draw2d.RoundedRectangle {&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel fFigureMethodJJDLabelFigure; &#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.draw2d.RectangleFigure fMethodJJDListAttributesJJDCompartmentFigure; &#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public MethodJJDFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setCornerDimensions(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(8)&#xA;, getMapMode().DPtoLP(8)&#xA;));&#xA;this.setBorder(new org.eclipse.draw2d.MarginBorder(getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;));&#xA;&#x9;&#x9;createContents();&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private void createContents(){&#xA;&#xA;&#xA;fFigureMethodJJDLabelFigure = new org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel();&#xA;&#xA;fFigureMethodJJDLabelFigure.setText(&quot;MethodJJD&quot;);&#xA;fFigureMethodJJDLabelFigure.setMaximumSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(10000)&#xA;, getMapMode().DPtoLP(50)&#xA;));&#xA;&#xA;this.add(fFigureMethodJJDLabelFigure);&#xA;&#xA;&#xA;&#xA;fMethodJJDListAttributesJJDCompartmentFigure = new org.eclipse.draw2d.RectangleFigure();&#xA;&#xA;fMethodJJDListAttributesJJDCompartmentFigure.setOutline(false);&#xA;&#xA;this.add(fMethodJJDListAttributesJJDCompartmentFigure);&#xA;&#xA;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel getFigureMethodJJDLabelFigure() {&#xA;&#x9;&#x9;return fFigureMethodJJDLabelFigure;&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.draw2d.RectangleFigure getMethodJJDListAttributesJJDCompartmentFigure() {&#xA;&#x9;&#x9;return fMethodJJDListAttributesJJDCompartmentFigure;&#xA;&#x9;}&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+      <behaviour xsi:type="gmfgen:OpenDiagramBehaviour"/>
+      <modelFacet>
+        <metaClass href="concrete.genmodel#//concrete/MethodJJD"/>
+        <containmentMetaFeature href="concrete.genmodel#//concrete/ClassJJD/listMethodsJJD"/>
+        <childMetaFeature href="concrete.genmodel#//concrete/ClassJJD/listMethodsJJD"/>
+      </modelFacet>
+      <labels visualID="5003" editPartClassName="MethodJJDNameEditPart" itemSemanticEditPolicyClassName="MethodJJDNameItemSemanticEditPolicy" elementIcon="true">
+        <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+        <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getFigureMethodJJDLabelFigure" figureQualifiedClassName="org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel"/>
+        <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
+          <metaFeatures href="concrete.genmodel#//concrete/MethodJJD/name"/>
+        </modelFacet>
+      </labels>
+    </childNodes>
+    <childNodes visualID="3005" editPartClassName="AttributeJJD2EditPart" itemSemanticEditPolicyClassName="AttributeJJD2ItemSemanticEditPolicy" canonicalEditPolicyClassName="AttributeJJD2CanonicalEditPolicy" graphicalNodeEditPolicyClassName="AttributeJJD2GraphicalNodeEditPolicy" createCommandClassName="AttributeJJD2CreateCommand" containers="//@diagram/@compartments.6">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:SpecializationType" metamodelType="//@diagram/@childNodes.2/@elementType"/>
+      <viewmap xsi:type="gmfgen:InnerClassViewmap" className="AttributeJJDFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class AttributeJJDFigure extends org.eclipse.draw2d.RoundedRectangle {&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel fFigureAttributeJJDLabelFigure; &#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public AttributeJJDFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setCornerDimensions(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(8)&#xA;, getMapMode().DPtoLP(8)&#xA;));&#xA;this.setLineWidth(0);&#xA;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(200)&#xA;, getMapMode().DPtoLP(25)&#xA;));&#xA;this.setBorder(new org.eclipse.draw2d.MarginBorder(getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;));&#xA;&#x9;&#x9;createContents();&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private void createContents(){&#xA;&#xA;&#xA;fFigureAttributeJJDLabelFigure = new org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel();&#xA;&#xA;fFigureAttributeJJDLabelFigure.setText(&quot;AttributeJJD&quot;);&#xA;&#xA;this.add(fFigureAttributeJJDLabelFigure);&#xA;&#xA;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel getFigureAttributeJJDLabelFigure() {&#xA;&#x9;&#x9;return fFigureAttributeJJDLabelFigure;&#xA;&#x9;}&#xA;&#xA;&#xA;}&#xA;&#xA;">
+        <attributes xsi:type="gmfgen:DefaultSizeAttributes" width="200" height="25"/>
+      </viewmap>
+      <modelFacet>
+        <metaClass href="concrete.genmodel#//concrete/AttributeJJD"/>
+        <containmentMetaFeature href="concrete.genmodel#//concrete/MethodJJD/listAttributesJJD"/>
+        <childMetaFeature href="concrete.genmodel#//concrete/MethodJJD/listAttributesJJD"/>
+      </modelFacet>
+      <labels visualID="5002" editPartClassName="AttributeJJDNameType2EditPart" itemSemanticEditPolicyClassName="AttributeJJDNameType2ItemSemanticEditPolicy" elementIcon="true">
+        <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+        <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getFigureAttributeJJDLabelFigure" figureQualifiedClassName="org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel"/>
+        <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0" viewPattern="{0} : {1}" editorPattern="{0} : {1}" editPattern="{0} : {1}">
+          <metaFeatures href="concrete.genmodel#//concrete/AttributeJJD/name"/>
+          <metaFeatures href="concrete.genmodel#//concrete/AttributeJJD/type"/>
+        </modelFacet>
+      </labels>
+    </childNodes>
+    <topLevelNodes visualID="2001" editPartClassName="PackageJJDEditPart" itemSemanticEditPolicyClassName="PackageJJDItemSemanticEditPolicy" canonicalEditPolicyClassName="PackageJJDCanonicalEditPolicy" compartments="//@diagram/@compartments.0 //@diagram/@compartments.1" graphicalNodeEditPolicyClassName="PackageJJDGraphicalNodeEditPolicy" createCommandClassName="PackageJJDCreateCommand">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="PackageJJDEditHelper"/>
+      <viewmap xsi:type="gmfgen:InnerClassViewmap" className="PackageJJDFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class PackageJJDFigure extends org.eclipse.draw2d.RoundedRectangle {&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel fFigurePackageJJDLabelFigure; &#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.draw2d.RectangleFigure fPackageJJDSubPackagesJJDCompartmentFigure; &#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.draw2d.RectangleFigure fPackageJJDListClassJJDCompartmentFigure; &#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public PackageJJDFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setCornerDimensions(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(8)&#xA;, getMapMode().DPtoLP(8)&#xA;));&#xA;this.setBorder(new org.eclipse.draw2d.MarginBorder(getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;));&#xA;&#x9;&#x9;createContents();&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private void createContents(){&#xA;&#xA;&#xA;fFigurePackageJJDLabelFigure = new org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel();&#xA;&#xA;fFigurePackageJJDLabelFigure.setText(&quot;PackageJJD&quot;);&#xA;fFigurePackageJJDLabelFigure.setMaximumSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(10000)&#xA;, getMapMode().DPtoLP(50)&#xA;));&#xA;&#xA;this.add(fFigurePackageJJDLabelFigure);&#xA;&#xA;&#xA;&#xA;fPackageJJDSubPackagesJJDCompartmentFigure = new org.eclipse.draw2d.RectangleFigure();&#xA;&#xA;fPackageJJDSubPackagesJJDCompartmentFigure.setOutline(false);&#xA;&#xA;this.add(fPackageJJDSubPackagesJJDCompartmentFigure);&#xA;&#xA;&#xA;&#xA;fPackageJJDListClassJJDCompartmentFigure = new org.eclipse.draw2d.RectangleFigure();&#xA;&#xA;fPackageJJDListClassJJDCompartmentFigure.setOutline(false);&#xA;&#xA;this.add(fPackageJJDListClassJJDCompartmentFigure);&#xA;&#xA;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel getFigurePackageJJDLabelFigure() {&#xA;&#x9;&#x9;return fFigurePackageJJDLabelFigure;&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.draw2d.RectangleFigure getPackageJJDSubPackagesJJDCompartmentFigure() {&#xA;&#x9;&#x9;return fPackageJJDSubPackagesJJDCompartmentFigure;&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.draw2d.RectangleFigure getPackageJJDListClassJJDCompartmentFigure() {&#xA;&#x9;&#x9;return fPackageJJDListClassJJDCompartmentFigure;&#xA;&#x9;}&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+      <behaviour xsi:type="gmfgen:OpenDiagramBehaviour"/>
+      <modelFacet>
+        <metaClass href="concrete.genmodel#//concrete/PackageJJD"/>
+        <containmentMetaFeature href="concrete.genmodel#//concrete/ClassDiagramJJD/listPackagesJJD"/>
+        <childMetaFeature href="concrete.genmodel#//concrete/ClassDiagramJJD/listPackagesJJD"/>
+      </modelFacet>
+      <labels visualID="5006" editPartClassName="PackageJJDNameEditPart" itemSemanticEditPolicyClassName="PackageJJDNameItemSemanticEditPolicy" elementIcon="true">
+        <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+        <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getFigurePackageJJDLabelFigure" figureQualifiedClassName="org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel"/>
+        <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
+          <metaFeatures href="concrete.genmodel#//concrete/PackageJJD/name"/>
+        </modelFacet>
+      </labels>
+    </topLevelNodes>
+    <topLevelNodes visualID="2002" editPartClassName="ClassJJDEditPart" itemSemanticEditPolicyClassName="ClassJJDItemSemanticEditPolicy" canonicalEditPolicyClassName="ClassJJDCanonicalEditPolicy" compartments="//@diagram/@compartments.7 //@diagram/@compartments.8" graphicalNodeEditPolicyClassName="ClassJJDGraphicalNodeEditPolicy" createCommandClassName="ClassJJDCreateCommand">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:SpecializationType" metamodelType="//@diagram/@childNodes.1/@elementType"/>
+      <viewmap xsi:type="gmfgen:InnerClassViewmap" className="ClassJJDFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class ClassJJDFigure extends org.eclipse.draw2d.RoundedRectangle {&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel fFigureClassJJDLabelFigure; &#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.draw2d.RectangleFigure fClassJJDListAttributesJJDCompartmentFigure; &#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.draw2d.RectangleFigure fClassJJDListMethodsJJDCompartmentFigure; &#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public ClassJJDFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setCornerDimensions(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(8)&#xA;, getMapMode().DPtoLP(8)&#xA;));&#xA;this.setBorder(new org.eclipse.draw2d.MarginBorder(getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;));&#xA;&#x9;&#x9;createContents();&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private void createContents(){&#xA;&#xA;&#xA;fFigureClassJJDLabelFigure = new org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel();&#xA;&#xA;fFigureClassJJDLabelFigure.setText(&quot;ClassJJD&quot;);&#xA;fFigureClassJJDLabelFigure.setMaximumSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(10000)&#xA;, getMapMode().DPtoLP(50)&#xA;));&#xA;&#xA;this.add(fFigureClassJJDLabelFigure);&#xA;&#xA;&#xA;&#xA;fClassJJDListAttributesJJDCompartmentFigure = new org.eclipse.draw2d.RectangleFigure();&#xA;&#xA;fClassJJDListAttributesJJDCompartmentFigure.setOutline(false);&#xA;&#xA;this.add(fClassJJDListAttributesJJDCompartmentFigure);&#xA;&#xA;&#xA;&#xA;fClassJJDListMethodsJJDCompartmentFigure = new org.eclipse.draw2d.RectangleFigure();&#xA;&#xA;fClassJJDListMethodsJJDCompartmentFigure.setOutline(false);&#xA;&#xA;this.add(fClassJJDListMethodsJJDCompartmentFigure);&#xA;&#xA;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel getFigureClassJJDLabelFigure() {&#xA;&#x9;&#x9;return fFigureClassJJDLabelFigure;&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.draw2d.RectangleFigure getClassJJDListAttributesJJDCompartmentFigure() {&#xA;&#x9;&#x9;return fClassJJDListAttributesJJDCompartmentFigure;&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.draw2d.RectangleFigure getClassJJDListMethodsJJDCompartmentFigure() {&#xA;&#x9;&#x9;return fClassJJDListMethodsJJDCompartmentFigure;&#xA;&#x9;}&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+      <behaviour xsi:type="gmfgen:OpenDiagramBehaviour"/>
+      <modelFacet>
+        <metaClass href="concrete.genmodel#//concrete/ClassJJD"/>
+        <containmentMetaFeature href="concrete.genmodel#//concrete/ClassDiagramJJD/listClassJJD"/>
+        <childMetaFeature href="concrete.genmodel#//concrete/ClassDiagramJJD/listClassJJD"/>
+      </modelFacet>
+      <labels visualID="5007" editPartClassName="ClassJJDNameEditPart" itemSemanticEditPolicyClassName="ClassJJDNameItemSemanticEditPolicy" elementIcon="true">
+        <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+        <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getFigureClassJJDLabelFigure" figureQualifiedClassName="org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel"/>
+        <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
+          <metaFeatures href="concrete.genmodel#//concrete/ClassJJD/name"/>
+        </modelFacet>
+      </labels>
+    </topLevelNodes>
+    <links visualID="4001" editPartClassName="AgregationJJDEditPart" itemSemanticEditPolicyClassName="AgregationJJDItemSemanticEditPolicy" createCommandClassName="AgregationJJDCreateCommand" reorientCommandClassName="AgregationJJDReorientCommand">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Edge"/>
+      <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="AgregationJJDEditHelper"/>
+      <viewmap xsi:type="gmfgen:InnerClassViewmap" className="AgregationJJDFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class AgregationJJDFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.PolylineConnectionEx {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public AgregationJJDFigure() {&#xA;&#x9;&#x9;this.setLineWidth(2);&#xA;&#xA;&#x9;&#x9;setSourceDecoration(createSourceDecoration());&#xA;&#x9;}&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.draw2d.RotatableDecoration createSourceDecoration() {&#xA;&#x9;&#x9;org.eclipse.draw2d.PolygonDecoration df = new org.eclipse.draw2d.PolygonDecoration();&#xA;df.setFill(true);&#xA;&#x9;df.setBackgroundColor(org.eclipse.draw2d.ColorConstants.white);&#xA;org.eclipse.draw2d.geometry.PointList pl = new org.eclipse.draw2d.geometry.PointList();&#xA;pl.addPoint(getMapMode().DPtoLP(-1)&#xA;, getMapMode().DPtoLP(1)&#xA;);&#xA;pl.addPoint(getMapMode().DPtoLP(0)&#xA;, getMapMode().DPtoLP(0)&#xA;);&#xA;pl.addPoint(getMapMode().DPtoLP(-1)&#xA;, getMapMode().DPtoLP(-1)&#xA;);&#xA;pl.addPoint(getMapMode().DPtoLP(-2)&#xA;, getMapMode().DPtoLP(0)&#xA;);&#xA;pl.addPoint(getMapMode().DPtoLP(-1)&#xA;, getMapMode().DPtoLP(1)&#xA;);&#xA;df.setTemplate(pl);&#xA;df.setScale(getMapMode().DPtoLP(7)&#xA;, getMapMode().DPtoLP(3)&#xA;);&#xA;&#x9;&#x9;return df;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+      <modelFacet xsi:type="gmfgen:TypeLinkModelFacet">
+        <metaClass href="concrete.genmodel#//concrete/AgregationJJD"/>
+        <containmentMetaFeature href="concrete.genmodel#//concrete/ClassDiagramJJD/listRelationsJJD"/>
+        <childMetaFeature href="concrete.genmodel#//concrete/ClassDiagramJJD/listRelationsJJD"/>
+        <sourceMetaFeature href="concrete.genmodel#//concrete/RelationJJD/source"/>
+        <targetMetaFeature href="concrete.genmodel#//concrete/RelationJJD/target"/>
+      </modelFacet>
+    </links>
+    <links visualID="4002" editPartClassName="InheritanceJJDEditPart" itemSemanticEditPolicyClassName="InheritanceJJDItemSemanticEditPolicy" createCommandClassName="InheritanceJJDCreateCommand" reorientCommandClassName="InheritanceJJDReorientCommand">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Edge"/>
+      <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="InheritanceJJDEditHelper"/>
+      <viewmap xsi:type="gmfgen:InnerClassViewmap" className="InheritanceJJDFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class InheritanceJJDFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.PolylineConnectionEx {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public InheritanceJJDFigure() {&#xA;&#x9;&#x9;this.setLineWidth(2);&#xA;&#xA;&#x9;&#x9;setSourceDecoration(createSourceDecoration());&#xA;&#x9;}&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.draw2d.RotatableDecoration createSourceDecoration() {&#xA;&#x9;&#x9;org.eclipse.draw2d.PolygonDecoration df = new org.eclipse.draw2d.PolygonDecoration();&#xA;df.setFill(true);&#xA;&#x9;df.setBackgroundColor(org.eclipse.draw2d.ColorConstants.white);&#xA;org.eclipse.draw2d.geometry.PointList pl = new org.eclipse.draw2d.geometry.PointList();&#xA;pl.addPoint(getMapMode().DPtoLP(0)&#xA;, getMapMode().DPtoLP(0)&#xA;);&#xA;pl.addPoint(getMapMode().DPtoLP(-2)&#xA;, getMapMode().DPtoLP(2)&#xA;);&#xA;pl.addPoint(getMapMode().DPtoLP(-2)&#xA;, getMapMode().DPtoLP(-2)&#xA;);&#xA;pl.addPoint(getMapMode().DPtoLP(0)&#xA;, getMapMode().DPtoLP(0)&#xA;);&#xA;df.setTemplate(pl);&#xA;df.setScale(getMapMode().DPtoLP(7)&#xA;, getMapMode().DPtoLP(3)&#xA;);&#xA;&#x9;&#x9;return df;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+      <modelFacet xsi:type="gmfgen:TypeLinkModelFacet">
+        <metaClass href="concrete.genmodel#//concrete/InheritanceJJD"/>
+        <containmentMetaFeature href="concrete.genmodel#//concrete/ClassDiagramJJD/listRelationsJJD"/>
+        <childMetaFeature href="concrete.genmodel#//concrete/ClassDiagramJJD/listRelationsJJD"/>
+        <sourceMetaFeature href="concrete.genmodel#//concrete/RelationJJD/source"/>
+        <targetMetaFeature href="concrete.genmodel#//concrete/RelationJJD/target"/>
+      </modelFacet>
+    </links>
+    <links visualID="4003" editPartClassName="ContainmentJJDEditPart" itemSemanticEditPolicyClassName="ContainmentJJDItemSemanticEditPolicy" createCommandClassName="ContainmentJJDCreateCommand" reorientCommandClassName="ContainmentJJDReorientCommand">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Edge"/>
+      <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="ContainmentJJDEditHelper"/>
+      <viewmap xsi:type="gmfgen:InnerClassViewmap" className="ContainmentJJDFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class ContainmentJJDFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.PolylineConnectionEx {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public ContainmentJJDFigure() {&#xA;&#x9;&#x9;this.setLineWidth(2);&#xA;&#xA;&#x9;&#x9;setSourceDecoration(createSourceDecoration());&#xA;&#x9;}&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.draw2d.RotatableDecoration createSourceDecoration() {&#xA;&#x9;&#x9;org.eclipse.draw2d.PolygonDecoration df = new org.eclipse.draw2d.PolygonDecoration();&#xA;df.setFill(true);&#xA;org.eclipse.draw2d.geometry.PointList pl = new org.eclipse.draw2d.geometry.PointList();&#xA;pl.addPoint(getMapMode().DPtoLP(-1)&#xA;, getMapMode().DPtoLP(1)&#xA;);&#xA;pl.addPoint(getMapMode().DPtoLP(0)&#xA;, getMapMode().DPtoLP(0)&#xA;);&#xA;pl.addPoint(getMapMode().DPtoLP(-1)&#xA;, getMapMode().DPtoLP(-1)&#xA;);&#xA;pl.addPoint(getMapMode().DPtoLP(-2)&#xA;, getMapMode().DPtoLP(0)&#xA;);&#xA;pl.addPoint(getMapMode().DPtoLP(-1)&#xA;, getMapMode().DPtoLP(1)&#xA;);&#xA;df.setTemplate(pl);&#xA;df.setScale(getMapMode().DPtoLP(7)&#xA;, getMapMode().DPtoLP(3)&#xA;);&#xA;&#x9;&#x9;return df;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+      <modelFacet xsi:type="gmfgen:TypeLinkModelFacet">
+        <metaClass href="concrete.genmodel#//concrete/ContainmentJJD"/>
+        <containmentMetaFeature href="concrete.genmodel#//concrete/ClassDiagramJJD/listRelationsJJD"/>
+        <childMetaFeature href="concrete.genmodel#//concrete/ClassDiagramJJD/listRelationsJJD"/>
+        <sourceMetaFeature href="concrete.genmodel#//concrete/RelationJJD/source"/>
+        <targetMetaFeature href="concrete.genmodel#//concrete/RelationJJD/target"/>
+      </modelFacet>
+      <labels visualID="6001" editPartClassName="ContainmentJJDRolBEditPart" itemSemanticEditPolicyClassName="ContainmentJJDRolBItemSemanticEditPolicy">
+        <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+        <viewmap xsi:type="gmfgen:InnerClassViewmap" className="ContainmentJJDLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class ContainmentJJDLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public ContainmentJJDLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;ContainmentJJD&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
+          <attributes xsi:type="gmfgen:LabelOffsetAttributes" y="40"/>
+        </viewmap>
+        <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
+          <metaFeatures href="concrete.genmodel#//concrete/RelationJJD/rolB"/>
+        </modelFacet>
+      </labels>
+    </links>
+    <links visualID="4004" editPartClassName="AssociationJJDEditPart" itemSemanticEditPolicyClassName="AssociationJJDItemSemanticEditPolicy" createCommandClassName="AssociationJJDCreateCommand" reorientCommandClassName="AssociationJJDReorientCommand">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Edge"/>
+      <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="AssociationJJDEditHelper"/>
+      <viewmap xsi:type="gmfgen:InnerClassViewmap" className="AssociationJJDFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class AssociationJJDFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.PolylineConnectionEx {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public AssociationJJDFigure() {&#xA;&#x9;&#x9;this.setLineWidth(2);&#xA;&#xA;&#x9;&#x9;setTargetDecoration(createTargetDecoration());&#xA;&#x9;}&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.draw2d.RotatableDecoration createTargetDecoration() {&#xA;&#x9;&#x9;org.eclipse.draw2d.PolylineDecoration df = new org.eclipse.draw2d.PolylineDecoration();&#xA;&#x9;&#x9;return df;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+      <modelFacet xsi:type="gmfgen:TypeLinkModelFacet">
+        <metaClass href="concrete.genmodel#//concrete/AssociationJJD"/>
+        <containmentMetaFeature href="concrete.genmodel#//concrete/ClassDiagramJJD/listRelationsJJD"/>
+        <childMetaFeature href="concrete.genmodel#//concrete/ClassDiagramJJD/listRelationsJJD"/>
+        <sourceMetaFeature href="concrete.genmodel#//concrete/RelationJJD/source"/>
+        <targetMetaFeature href="concrete.genmodel#//concrete/RelationJJD/target"/>
+      </modelFacet>
+    </links>
+    <links visualID="4005" editPartClassName="ImplementJJDEditPart" itemSemanticEditPolicyClassName="ImplementJJDItemSemanticEditPolicy" createCommandClassName="ImplementJJDCreateCommand" reorientCommandClassName="ImplementJJDReorientCommand">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Edge"/>
+      <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="ImplementJJDEditHelper"/>
+      <viewmap xsi:type="gmfgen:InnerClassViewmap" className="ImplementJJDFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class ImplementJJDFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.PolylineConnectionEx {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public ImplementJJDFigure() {&#xA;&#x9;&#x9;this.setLineWidth(2);&#xA;this.setLineStyle(org.eclipse.draw2d.Graphics.LINE_DOT);&#xA;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+      <modelFacet xsi:type="gmfgen:TypeLinkModelFacet">
+        <metaClass href="concrete.genmodel#//concrete/ImplementJJD"/>
+        <containmentMetaFeature href="concrete.genmodel#//concrete/ClassDiagramJJD/listRelationsJJD"/>
+        <childMetaFeature href="concrete.genmodel#//concrete/ClassDiagramJJD/listRelationsJJD"/>
+        <sourceMetaFeature href="concrete.genmodel#//concrete/RelationJJD/source"/>
+        <targetMetaFeature href="concrete.genmodel#//concrete/RelationJJD/target"/>
+      </modelFacet>
+    </links>
+    <compartments visualID="7001" editPartClassName="PackageJJDPackageJJDSubPackagesJJDCompartmentEditPart" itemSemanticEditPolicyClassName="PackageJJDPackageJJDSubPackagesJJDCompartmentItemSemanticEditPolicy" canonicalEditPolicyClassName="PackageJJDPackageJJDSubPackagesJJDCompartmentCanonicalEditPolicy" childNodes="//@diagram/@childNodes.0" title="PackageJJDSubPackagesJJDCompartment" needsTitle="false" node="//@diagram/@topLevelNodes.0" listLayout="false">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getPackageJJDSubPackagesJJDCompartmentFigure" figureQualifiedClassName="org.eclipse.draw2d.RectangleFigure"/>
+    </compartments>
+    <compartments visualID="7002" editPartClassName="PackageJJDPackageJJDListClassJJDCompartmentEditPart" itemSemanticEditPolicyClassName="PackageJJDPackageJJDListClassJJDCompartmentItemSemanticEditPolicy" canonicalEditPolicyClassName="PackageJJDPackageJJDListClassJJDCompartmentCanonicalEditPolicy" childNodes="//@diagram/@childNodes.1" title="PackageJJDListClassJJDCompartment" needsTitle="false" node="//@diagram/@topLevelNodes.0" listLayout="false">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getPackageJJDListClassJJDCompartmentFigure" figureQualifiedClassName="org.eclipse.draw2d.RectangleFigure"/>
+    </compartments>
+    <compartments visualID="7003" editPartClassName="PackageJJDPackageJJDSubPackagesJJDCompartment2EditPart" itemSemanticEditPolicyClassName="PackageJJDPackageJJDSubPackagesJJDCompartment2ItemSemanticEditPolicy" canonicalEditPolicyClassName="PackageJJDPackageJJDSubPackagesJJDCompartment2CanonicalEditPolicy" childNodes="//@diagram/@childNodes.0" title="PackageJJDSubPackagesJJDCompartment" needsTitle="false" node="//@diagram/@childNodes.0" listLayout="false">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getPackageJJDSubPackagesJJDCompartmentFigure" figureQualifiedClassName="org.eclipse.draw2d.RectangleFigure"/>
+    </compartments>
+    <compartments visualID="7004" editPartClassName="PackageJJDPackageJJDListClassJJDCompartment2EditPart" itemSemanticEditPolicyClassName="PackageJJDPackageJJDListClassJJDCompartment2ItemSemanticEditPolicy" canonicalEditPolicyClassName="PackageJJDPackageJJDListClassJJDCompartment2CanonicalEditPolicy" childNodes="//@diagram/@childNodes.1" title="PackageJJDListClassJJDCompartment" needsTitle="false" node="//@diagram/@childNodes.0" listLayout="false">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getPackageJJDListClassJJDCompartmentFigure" figureQualifiedClassName="org.eclipse.draw2d.RectangleFigure"/>
+    </compartments>
+    <compartments visualID="7005" editPartClassName="ClassJJDClassJJDListAttributesJJDCompartmentEditPart" itemSemanticEditPolicyClassName="ClassJJDClassJJDListAttributesJJDCompartmentItemSemanticEditPolicy" canonicalEditPolicyClassName="ClassJJDClassJJDListAttributesJJDCompartmentCanonicalEditPolicy" childNodes="//@diagram/@childNodes.2" title="ClassJJDListAttributesJJDCompartment" needsTitle="false" node="//@diagram/@childNodes.1">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getClassJJDListAttributesJJDCompartmentFigure" figureQualifiedClassName="org.eclipse.draw2d.RectangleFigure"/>
+    </compartments>
+    <compartments visualID="7006" editPartClassName="ClassJJDClassJJDListMethodsJJDCompartmentEditPart" itemSemanticEditPolicyClassName="ClassJJDClassJJDListMethodsJJDCompartmentItemSemanticEditPolicy" canonicalEditPolicyClassName="ClassJJDClassJJDListMethodsJJDCompartmentCanonicalEditPolicy" childNodes="//@diagram/@childNodes.3" title="ClassJJDListMethodsJJDCompartment" needsTitle="false" node="//@diagram/@childNodes.1">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getClassJJDListMethodsJJDCompartmentFigure" figureQualifiedClassName="org.eclipse.draw2d.RectangleFigure"/>
+    </compartments>
+    <compartments visualID="7007" editPartClassName="MethodJJDMethodJJDListAttributesJJDCompartmentEditPart" itemSemanticEditPolicyClassName="MethodJJDMethodJJDListAttributesJJDCompartmentItemSemanticEditPolicy" canonicalEditPolicyClassName="MethodJJDMethodJJDListAttributesJJDCompartmentCanonicalEditPolicy" childNodes="//@diagram/@childNodes.4" title="MethodJJDListAttributesJJDCompartment" needsTitle="false" node="//@diagram/@childNodes.3">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getMethodJJDListAttributesJJDCompartmentFigure" figureQualifiedClassName="org.eclipse.draw2d.RectangleFigure"/>
+    </compartments>
+    <compartments visualID="7008" editPartClassName="ClassJJDClassJJDListAttributesJJDCompartment2EditPart" itemSemanticEditPolicyClassName="ClassJJDClassJJDListAttributesJJDCompartment2ItemSemanticEditPolicy" canonicalEditPolicyClassName="ClassJJDClassJJDListAttributesJJDCompartment2CanonicalEditPolicy" childNodes="//@diagram/@childNodes.2" title="ClassJJDListAttributesJJDCompartment" needsTitle="false" node="//@diagram/@topLevelNodes.1">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getClassJJDListAttributesJJDCompartmentFigure" figureQualifiedClassName="org.eclipse.draw2d.RectangleFigure"/>
+    </compartments>
+    <compartments visualID="7009" editPartClassName="ClassJJDClassJJDListMethodsJJDCompartment2EditPart" itemSemanticEditPolicyClassName="ClassJJDClassJJDListMethodsJJDCompartment2ItemSemanticEditPolicy" canonicalEditPolicyClassName="ClassJJDClassJJDListMethodsJJDCompartment2CanonicalEditPolicy" childNodes="//@diagram/@childNodes.3" title="ClassJJDListMethodsJJDCompartment" needsTitle="false" node="//@diagram/@topLevelNodes.1">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getClassJJDListMethodsJJDCompartmentFigure" figureQualifiedClassName="org.eclipse.draw2d.RectangleFigure"/>
+    </compartments>
+    <palette>
+      <groups title="Objects" collapse="true">
+        <entries xsi:type="gmfgen:ToolEntry" title="AttributeJJD" description="Create new AttributeJJD" genNodes="//@diagram/@childNodes.2 //@diagram/@childNodes.4"/>
+        <entries xsi:type="gmfgen:ToolEntry" title="ClassJJD" description="Create new ClassJJD" genNodes="//@diagram/@childNodes.1 //@diagram/@topLevelNodes.1"/>
+        <entries xsi:type="gmfgen:ToolEntry" title="MethodJJD" description="Create new MethodJJD" genNodes="//@diagram/@childNodes.3"/>
+        <entries xsi:type="gmfgen:ToolEntry" title="PackageJJD" description="Create new PackageJJD" genNodes="//@diagram/@topLevelNodes.0 //@diagram/@childNodes.0"/>
+      </groups>
+      <groups title="Connections" collapse="true">
+        <entries xsi:type="gmfgen:ToolEntry" title="AgregationJJD" description="Create new AgregationJJD" genLinks="//@diagram/@links.0"/>
+        <entries xsi:type="gmfgen:ToolEntry" title="AssociationJJD" description="Create new AssociationJJD" genLinks="//@diagram/@links.3"/>
+        <entries xsi:type="gmfgen:ToolEntry" title="ContainmentJJD" description="Create new ContainmentJJD" genLinks="//@diagram/@links.2"/>
+        <entries xsi:type="gmfgen:ToolEntry" title="ImplementJJD" description="Create new ImplementJJD" genLinks="//@diagram/@links.4"/>
+        <entries xsi:type="gmfgen:ToolEntry" title="InheritanceJJD" description="Create new InheritanceJJD" genLinks="//@diagram/@links.1"/>
+      </groups>
+    </palette>
+    <preferencePages xsi:type="gmfgen:GenStandardPreferencePage" iD="cdjjd_concrete.diagram.general" name="Concrete Diagram">
+      <children xsi:type="gmfgen:GenStandardPreferencePage" iD="cdjjd_concrete.diagram.appearance" name="Appearance" kind="Appearance"/>
+      <children xsi:type="gmfgen:GenStandardPreferencePage" iD="cdjjd_concrete.diagram.connections" name="Connections" kind="Connections"/>
+      <children xsi:type="gmfgen:GenStandardPreferencePage" iD="cdjjd_concrete.diagram.printing" name="Printing" kind="Printing"/>
+      <children xsi:type="gmfgen:GenStandardPreferencePage" iD="cdjjd_concrete.diagram.rulersAndGrid" name="Rulers And Grid" kind="RulersAndGrid"/>
+    </preferencePages>
+  </diagram>
+  <plugin printingEnabled="true">
+    <requiredPlugins>org.eclipse.gmf.tooling.runtime</requiredPlugins>
+    <requiredPlugins>org.eclipse.draw2d</requiredPlugins>
+    <requiredPlugins>org.eclipse.gmf.runtime.draw2d.ui</requiredPlugins>
+  </plugin>
+  <editor/>
+  <navigator>
+    <childReferences child="//@diagram"/>
+    <childReferences parent="//@diagram/@childNodes.0" child="//@diagram/@childNodes.0"/>
+    <childReferences parent="//@diagram/@childNodes.1" child="//@diagram/@childNodes.2"/>
+    <childReferences parent="//@diagram/@childNodes.3" child="//@diagram/@childNodes.4"/>
+    <childReferences parent="//@diagram/@childNodes.1" child="//@diagram/@childNodes.3"/>
+    <childReferences parent="//@diagram/@childNodes.0" child="//@diagram/@childNodes.1"/>
+    <childReferences parent="//@diagram/@topLevelNodes.0" child="//@diagram/@childNodes.0"/>
+    <childReferences parent="//@diagram/@topLevelNodes.0" child="//@diagram/@childNodes.1"/>
+    <childReferences parent="//@diagram" child="//@diagram/@topLevelNodes.0"/>
+    <childReferences parent="//@diagram/@topLevelNodes.1" child="//@diagram/@childNodes.2"/>
+    <childReferences parent="//@diagram/@topLevelNodes.1" child="//@diagram/@childNodes.3"/>
+    <childReferences parent="//@diagram" child="//@diagram/@topLevelNodes.1"/>
+    <childReferences parent="//@diagram" child="//@diagram/@links.0" groupName="links" groupIcon="icons/linksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.0" child="//@diagram/@topLevelNodes.1" referenceType="out_target" groupName="target" groupIcon="icons/linkTargetNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@topLevelNodes.1" child="//@diagram/@links.0" referenceType="in_source" groupName="incoming links" groupIcon="icons/incomingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.0" child="//@diagram/@childNodes.1" referenceType="out_target" groupName="target" groupIcon="icons/linkTargetNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@childNodes.1" child="//@diagram/@links.0" referenceType="in_source" groupName="incoming links" groupIcon="icons/incomingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.0" child="//@diagram/@topLevelNodes.1" referenceType="in_source" groupName="source" groupIcon="icons/linkSourceNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@topLevelNodes.1" child="//@diagram/@links.0" referenceType="out_target" groupName="outgoing links" groupIcon="icons/outgoingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.0" child="//@diagram/@childNodes.1" referenceType="in_source" groupName="source" groupIcon="icons/linkSourceNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@childNodes.1" child="//@diagram/@links.0" referenceType="out_target" groupName="outgoing links" groupIcon="icons/outgoingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram" child="//@diagram/@links.1" groupName="links" groupIcon="icons/linksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.1" child="//@diagram/@topLevelNodes.1" referenceType="out_target" groupName="target" groupIcon="icons/linkTargetNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@topLevelNodes.1" child="//@diagram/@links.1" referenceType="in_source" groupName="incoming links" groupIcon="icons/incomingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.1" child="//@diagram/@childNodes.1" referenceType="out_target" groupName="target" groupIcon="icons/linkTargetNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@childNodes.1" child="//@diagram/@links.1" referenceType="in_source" groupName="incoming links" groupIcon="icons/incomingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.1" child="//@diagram/@topLevelNodes.1" referenceType="in_source" groupName="source" groupIcon="icons/linkSourceNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@topLevelNodes.1" child="//@diagram/@links.1" referenceType="out_target" groupName="outgoing links" groupIcon="icons/outgoingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.1" child="//@diagram/@childNodes.1" referenceType="in_source" groupName="source" groupIcon="icons/linkSourceNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@childNodes.1" child="//@diagram/@links.1" referenceType="out_target" groupName="outgoing links" groupIcon="icons/outgoingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram" child="//@diagram/@links.2" groupName="links" groupIcon="icons/linksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.2" child="//@diagram/@topLevelNodes.1" referenceType="out_target" groupName="target" groupIcon="icons/linkTargetNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@topLevelNodes.1" child="//@diagram/@links.2" referenceType="in_source" groupName="incoming links" groupIcon="icons/incomingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.2" child="//@diagram/@childNodes.1" referenceType="out_target" groupName="target" groupIcon="icons/linkTargetNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@childNodes.1" child="//@diagram/@links.2" referenceType="in_source" groupName="incoming links" groupIcon="icons/incomingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.2" child="//@diagram/@topLevelNodes.1" referenceType="in_source" groupName="source" groupIcon="icons/linkSourceNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@topLevelNodes.1" child="//@diagram/@links.2" referenceType="out_target" groupName="outgoing links" groupIcon="icons/outgoingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.2" child="//@diagram/@childNodes.1" referenceType="in_source" groupName="source" groupIcon="icons/linkSourceNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@childNodes.1" child="//@diagram/@links.2" referenceType="out_target" groupName="outgoing links" groupIcon="icons/outgoingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram" child="//@diagram/@links.3" groupName="links" groupIcon="icons/linksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.3" child="//@diagram/@topLevelNodes.1" referenceType="out_target" groupName="target" groupIcon="icons/linkTargetNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@topLevelNodes.1" child="//@diagram/@links.3" referenceType="in_source" groupName="incoming links" groupIcon="icons/incomingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.3" child="//@diagram/@childNodes.1" referenceType="out_target" groupName="target" groupIcon="icons/linkTargetNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@childNodes.1" child="//@diagram/@links.3" referenceType="in_source" groupName="incoming links" groupIcon="icons/incomingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.3" child="//@diagram/@topLevelNodes.1" referenceType="in_source" groupName="source" groupIcon="icons/linkSourceNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@topLevelNodes.1" child="//@diagram/@links.3" referenceType="out_target" groupName="outgoing links" groupIcon="icons/outgoingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.3" child="//@diagram/@childNodes.1" referenceType="in_source" groupName="source" groupIcon="icons/linkSourceNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@childNodes.1" child="//@diagram/@links.3" referenceType="out_target" groupName="outgoing links" groupIcon="icons/outgoingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram" child="//@diagram/@links.4" groupName="links" groupIcon="icons/linksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.4" child="//@diagram/@topLevelNodes.1" referenceType="out_target" groupName="target" groupIcon="icons/linkTargetNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@topLevelNodes.1" child="//@diagram/@links.4" referenceType="in_source" groupName="incoming links" groupIcon="icons/incomingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.4" child="//@diagram/@childNodes.1" referenceType="out_target" groupName="target" groupIcon="icons/linkTargetNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@childNodes.1" child="//@diagram/@links.4" referenceType="in_source" groupName="incoming links" groupIcon="icons/incomingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.4" child="//@diagram/@topLevelNodes.1" referenceType="in_source" groupName="source" groupIcon="icons/linkSourceNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@topLevelNodes.1" child="//@diagram/@links.4" referenceType="out_target" groupName="outgoing links" groupIcon="icons/outgoingLinksNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@links.4" child="//@diagram/@childNodes.1" referenceType="in_source" groupName="source" groupIcon="icons/linkSourceNavigatorGroup.gif"/>
+    <childReferences parent="//@diagram/@childNodes.1" child="//@diagram/@links.4" referenceType="out_target" groupName="outgoing links" groupIcon="icons/outgoingLinksNavigatorGroup.gif"/>
+  </navigator>
+  <diagramUpdater/>
+  <propertySheet>
+    <tabs xsi:type="gmfgen:GenStandardPropertyTab" iD="appearance"/>
+    <tabs xsi:type="gmfgen:GenStandardPropertyTab" iD="diagram"/>
+    <tabs xsi:type="gmfgen:GenCustomPropertyTab" iD="domain" label="Core">
+      <filter xsi:type="gmfgen:TypeTabFilter">
+        <types>org.eclipse.gmf.runtime.notation.View</types>
+        <types>org.eclipse.gef.EditPart</types>
+        <generatedTypes>abstractNavigatorItem</generatedTypes>
+      </filter>
+    </tabs>
+  </propertySheet>
+  <domainGenModel href="concrete.genmodel#/"/>
+  <labelParsers extensibleViaService="true">
+    <implementations xsi:type="gmfgen:PredefinedParser" uses="//@diagram/@childNodes.2/@labels.0/@modelFacet //@diagram/@childNodes.4/@labels.0/@modelFacet //@diagram/@childNodes.3/@labels.0/@modelFacet //@diagram/@childNodes.1/@labels.0/@modelFacet //@diagram/@childNodes.0/@labels.0/@modelFacet //@diagram/@topLevelNodes.0/@labels.0/@modelFacet //@diagram/@topLevelNodes.1/@labels.0/@modelFacet //@diagram/@links.2/@labels.0/@modelFacet"/>
+  </labelParsers>
+  <contextMenus context="//@diagram">
+    <items xsi:type="gmfgen:LoadResourceAction"/>
+  </contextMenus>
+</gmfgen:GenEditorGenerator>
