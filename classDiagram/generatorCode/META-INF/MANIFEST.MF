@@ -4,7 +4,9 @@ Bundle-Name: GeneratorCode
 Bundle-SymbolicName: generatorCode;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Require-Bundle: org.eclipse.core.runtime,
- org.eclipse.ui
+ org.eclipse.ui,
+ cdjjd_concrete
 Bundle-RequiredExecutionEnvironment: JavaSE-11
-Import-Package: javax.inject
+Import-Package: abstractJJD,
+ javax.inject
 Automatic-Module-Name: generatorCode

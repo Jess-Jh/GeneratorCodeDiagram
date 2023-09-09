@@ -1,0 +1,5 @@
+package generatorcode.views;
+
+public class ModelFactoryModel {
+
+}

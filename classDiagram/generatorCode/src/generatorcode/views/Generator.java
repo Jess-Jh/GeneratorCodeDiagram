@@ -3,18 +3,11 @@ package generatorcode.views;
 
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.ui.part.*;
-import org.eclipse.jface.viewers.*;
-import org.eclipse.swt.graphics.Image;
-import org.eclipse.jface.action.*;
-import org.eclipse.jface.dialogs.MessageDialog;
-import org.eclipse.ui.*;
-import org.eclipse.swt.widgets.Menu;
 import org.eclipse.swt.SWT;
-import javax.inject.Inject;
 import org.eclipse.swt.widgets.Group;
 import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.events.SelectionAdapter;
-import org.eclipse.swt.events.SelectionEvent;
+import org.eclipse.swt.events.SelectionEvent; 
 
 
 /**
@@ -58,7 +51,8 @@ public class Generator extends ViewPart {
 		btnTransformacionMm.addSelectionListener(new SelectionAdapter() {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
-				
+				ModelFactoryModel mfm = ModelFactoryModel.getInstance();
+				mfm.transformationM2M();
 			}
 		});
 		

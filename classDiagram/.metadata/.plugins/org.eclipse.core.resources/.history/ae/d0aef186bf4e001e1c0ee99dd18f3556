@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: GeneratorCode
+Bundle-SymbolicName: generatorCode;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ cdjjd_concrete
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Import-Package: javax.inject
+Automatic-Module-Name: generatorCode
