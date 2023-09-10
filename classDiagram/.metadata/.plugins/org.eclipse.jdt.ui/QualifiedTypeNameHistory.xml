@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="concrete.ConcreteFactory"/>
+    <fullyQualifiedTypeName name="abstractJJD.AbstractJJDFactory"/>
+    <fullyQualifiedTypeName name="concrete.ConcretePackage"/>
+    <fullyQualifiedTypeName name="abstractJJD.ClassJJD"/>
+</qualifiedTypeNameHistroy>

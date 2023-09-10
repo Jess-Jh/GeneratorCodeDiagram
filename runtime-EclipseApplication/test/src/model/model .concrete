@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <concrete:ModelFactoryConcreteJJD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:concrete="concrete">
   <listClassDiagramJJD name="Aeroline Diagram">
-    <listPackagesJJD name="Aeroline Packege">
+    <listPackagesJJD name="AerolinePackage" nameSpace="src/domain/Aeroline">
       <listClassJJD name="Aeroline">
         <listAttributesJJD name="name" type="String"/>
       </listClassJJD>

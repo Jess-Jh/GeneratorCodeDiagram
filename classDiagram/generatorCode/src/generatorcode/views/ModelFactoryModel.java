@@ -5,6 +5,8 @@ import concrete.ClassJJD;
 import concrete.ConcreteFactory;
 import concrete.ConcretePackage;
 import concrete.ModelFactoryConcreteJJD;
+import concrete.PackageJJD;
+import concrete.RelationJJD;
 import abstractJJD.AbstractJJDFactory;
 import abstractJJD.ModelFactoryAbstractJJD;
 
@@ -42,7 +44,7 @@ public class ModelFactoryModel {
 
 		ConcretePackage whoownmePackage =  ConcretePackage.eINSTANCE;
 		org.eclipse.emf.ecore.resource.ResourceSet resourceSet = new org.eclipse.emf.ecore.resource.impl.ResourceSetImpl();		
-		org.eclipse.emf.common.util.URI uri = org.eclipse.emf.common.util.URI.createURI("platform:/resource/test/src/model/model.concrete");
+		org.eclipse.emf.common.util.URI uri = org.eclipse.emf.common.util.URI.createURI("platform:/resource/test/src/model/model%20.concrete");
 		org.eclipse.emf.ecore.resource.Resource resource = resourceSet.createResource(uri);
 
 		try {
@@ -79,7 +81,7 @@ public class ModelFactoryModel {
 	
 	public void saveConcrete() {
 		//EXISTEN 2 FORMAS DE GUARDAR EL RECURSO
-		org.eclipse.emf.common.util.URI uri = org.eclipse.emf.common.util.URI.createURI("platform:/resource/test/persistencia/model.concrete");
+		org.eclipse.emf.common.util.URI uri = org.eclipse.emf.common.util.URI.createURI("platform:/resource/test/src/model/model%20.concrete");
 		org.eclipse.emf.ecore.resource.ResourceSet resourceSet= new org.eclipse.emf.ecore.resource.impl.ResourceSetImpl();
 		org.eclipse.emf.ecore.resource.Resource resource = resourceSet.createResource(uri);
 		resource.getContents().add(modelFactoryConcrete);
@@ -95,7 +97,7 @@ public class ModelFactoryModel {
 	
 	public void saveAbstract() {
 		//EXISTEN 2 FORMAS DE GUARDAR EL RECURSO
-		org.eclipse.emf.common.util.URI uri = org.eclipse.emf.common.util.URI.createURI("platform:/resource/test/persistencia/model.abstractjjd");
+		org.eclipse.emf.common.util.URI uri = org.eclipse.emf.common.util.URI.createURI("platform:/resource/test/src/model/model.abstractjjd");
 		org.eclipse.emf.ecore.resource.ResourceSet resourceSet = new org.eclipse.emf.ecore.resource.impl.ResourceSetImpl();
 		org.eclipse.emf.ecore.resource.Resource resource = resourceSet.createResource(uri);
 		resource.getContents().add(modelFactoryAbstract);
@@ -110,21 +112,84 @@ public class ModelFactoryModel {
 	}
 
 	public void transformationM2M() {
-		
-//		modelFactoryConcrete
-		
+						
 		for (ClassDiagramJJD diagram : modelFactoryConcrete.getListClassDiagramJJD()) {
-			for (ClassJJD classConcrete : diagram.getListClassJJD()) {
+			
+			for (PackageJJD packageJJD : diagram.getListPackagesJJD()) {
 				
-				abstractJJD.ClassJJD classJJD = AbstractJJDFactory.eINSTANCE.createClassJJD();
-				classJJD.setName(classConcrete.getName());
-				classJJD.setDescription(classConcrete.getDescription());
-				classJJD.setIsAbstract(classConcrete.isIsAbstract());
-				modelFactoryAbstract.getListPackagesJJD().get(0).getListClassJJD().add(classJJD);
+				for (ClassJJD classConcrete : packageJJD.getListClassJJD()) {
 				
+					abstractJJD.ClassJJD classJJD = AbstractJJDFactory.eINSTANCE.createClassJJD();
+					classJJD.setName(classConcrete.getName());
+					classJJD.setDescription(classConcrete.getDescription());
+					classJJD.setIsAbstract(classConcrete.isIsAbstract());
+					
+					addClassJJDToPackage(classJJD, packageJJD.getNameSpace());
+				}
+				
+			}
+			
+			for (RelationJJD relationConcrete : diagram.getListRelationsJJD()) {
+				
+				ClassJJD sourceConcrete = relationConcrete.getSource();
+				ClassJJD targetConcrete = relationConcrete.getTarget();
+				
+				abstractJJD.ClassJJD classJJDSource = getClass(sourceConcrete.getName());
+				abstractJJD.ClassJJD classJJDTarget = getClass(targetConcrete.getName());
+				
+				abstractJJD.RelationJJD relationJJDSource = AbstractJJDFactory.eINSTANCE.createRelationJJD();
+				relationJJDSource.setTarget(classJJDSource);
+				relationJJDSource.setSource(classJJDTarget);
+				
+				classJJDSource.getListRelationsJJD().add(relationJJDSource);
+
+				abstractJJD.RelationJJD relationJJDTarget = AbstractJJDFactory.eINSTANCE.createRelationJJD();
+				relationJJDTarget.setTarget(classJJDSource);
+				relationJJDTarget.setSource(classJJDTarget);
+				
+				classJJDTarget.getListRelationsJJD().add(relationJJDTarget);
 			}
 		}
 		saveAbstract();
+	}
+
+
+	private void addClassJJDToPackage(abstractJJD.ClassJJD classJJD, String nameSpace) {
+		PackageJJD packageJJD = null;
+		String[] split = nameSpace.split("/");
+		
+		for(int i = 0; i < split.length; i++) {
+			String namePackage = split[i];
+			packageJJD = getPackage(namePackage);
+		}
+		packageJJD.getListClassJJD().add((ClassJJD) classJJD);
+	}
+
+	private PackageJJD getPackage(String namePackage) {
+		PackageJJD packageJJD = (PackageJJD) modelFactoryAbstract.getListPackagesJJD().get(0);
+		
+		if(packageJJD.getName().equals(namePackage)) {
+			return packageJJD;
+		}
+		
+		// TODO: aplicar recursividad para encontrar paquete
+		return null;
+	}
+	
+
+	private abstractJJD.ClassJJD getClass(String name) {
+		
+		abstractJJD.PackageJJD packageJJD = null;
+//				getPackage();
+		//TODO: Encontrar namespace 
+		
+		for (abstractJJD.ClassJJD classJJD : packageJJD.getListClassJJD()) {
+			
+			if(classJJD.getName().equals(name)) {
+				return classJJD;
+			}
+		}
+		return null;
 	}
 
 

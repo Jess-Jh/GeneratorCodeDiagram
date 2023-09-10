@@ -3227,3 +3227,27 @@ Binding(COMMAND+W,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2023-09-09 13:04:41.579 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -keyring /Users/jessica/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/jessica/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2023-09-09 13:04:43.106
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-09-09 13:04:43.106
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-09-09 19:34:23.837 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -keyring /Users/jessica/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/jessica/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2023-09-09 19:34:25.315
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-09-09 19:34:25.315
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
