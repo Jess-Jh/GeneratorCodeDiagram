@@ -1,9 +1,11 @@
 package generatorcode.views;
 
+import concrete.AttributeJJD;
 import concrete.ClassDiagramJJD;
 import concrete.ClassJJD;
 import concrete.ConcreteFactory;
 import concrete.ConcretePackage;
+import concrete.MethodJJD;
 import concrete.ModelFactoryConcreteJJD;
 import concrete.PackageJJD;
 import concrete.RelationJJD;
@@ -126,6 +128,28 @@ public class ModelFactoryModel {
 					classJJD.setIsAbstract(classConcrete.isIsAbstract());
 					
 					addClassJJDToPackage(classJJD, packageJJD.getNameSpace());
+					
+					for(AttributeJJD attibute : classConcrete.getListAttributesJJD()) {
+						abstractJJD.AttributeJJD attibuteJJD = AbstractJJDFactory.eINSTANCE.createAttributeJJD();
+						attibuteJJD.setName(attibute.getName());
+						attibuteJJD.setType(attibute.getType());
+						attibuteJJD.setDescription(attibute.getDescription());
+					}
+					
+					for(MethodJJD method : classConcrete.getListMethodsJJD()) {
+						abstractJJD.MethodJJD methodJJD = AbstractJJDFactory.eINSTANCE.createMethodJJD();
+						methodJJD.setName(method.getName());
+						methodJJD.setModifier(method.getModifier());
+						methodJJD.setSemantic(method.getSemantic());
+						methodJJD.setReturnType(method.getReturnType());
+						
+						for(AttributeJJD attibute : method.getListAttributesJJD()) {
+							abstractJJD.AttributeJJD attibuteJJD = AbstractJJDFactory.eINSTANCE.createAttributeJJD();
+							attibuteJJD.setName(attibute.getName());
+							attibuteJJD.setType(attibute.getType());
+							attibuteJJD.setDescription(attibute.getDescription());
+						}
+					}
 				}
 				
 				for (RelationJJD relationConcrete : diagram.getListRelationsJJD()) {
@@ -191,7 +215,6 @@ public class ModelFactoryModel {
 		abstractJJD.PackageJJD packageJJD = getPackage(namePackage);
 		
 		for (abstractJJD.ClassJJD classJJD : packageJJD.getListClassJJD()) {
-			
 			if(classJJD.getName().equals(name)) {
 				return classJJD;
 			}
