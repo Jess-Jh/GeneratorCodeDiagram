@@ -7,6 +7,9 @@ import concrete.ConcretePackage;
 import concrete.ModelFactoryConcreteJJD;
 import concrete.PackageJJD;
 import concrete.RelationJJD;
+
+import java.util.List;
+
 import abstractJJD.AbstractJJDFactory;
 import abstractJJD.ModelFactoryAbstractJJD;
 
@@ -89,7 +92,6 @@ public class ModelFactoryModel {
 		try {
 			resource.save(java.util.Collections.EMPTY_MAP);
 		} catch (java.io.IOException e) {
-			// TO-DO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return;
@@ -105,7 +107,6 @@ public class ModelFactoryModel {
 		try {
 			resource.save(java.util.Collections.EMPTY_MAP);
 		} catch (java.io.IOException e) {
-			// TO-DO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return;
@@ -127,27 +128,26 @@ public class ModelFactoryModel {
 					addClassJJDToPackage(classJJD, packageJJD.getNameSpace());
 				}
 				
-			}
-			
-			for (RelationJJD relationConcrete : diagram.getListRelationsJJD()) {
-				
-				ClassJJD sourceConcrete = relationConcrete.getSource();
-				ClassJJD targetConcrete = relationConcrete.getTarget();
-				
-				abstractJJD.ClassJJD classJJDSource = getClass(sourceConcrete.getName());
-				abstractJJD.ClassJJD classJJDTarget = getClass(targetConcrete.getName());
-				
-				abstractJJD.RelationJJD relationJJDSource = AbstractJJDFactory.eINSTANCE.createRelationJJD();
-				relationJJDSource.setTarget(classJJDSource);
-				relationJJDSource.setSource(classJJDTarget);
-				
-				classJJDSource.getListRelationsJJD().add(relationJJDSource);
-
-				abstractJJD.RelationJJD relationJJDTarget = AbstractJJDFactory.eINSTANCE.createRelationJJD();
-				relationJJDTarget.setTarget(classJJDSource);
-				relationJJDTarget.setSource(classJJDTarget);
-				
-				classJJDTarget.getListRelationsJJD().add(relationJJDTarget);
+				for (RelationJJD relationConcrete : diagram.getListRelationsJJD()) {
+					
+					ClassJJD sourceConcrete = relationConcrete.getSource();
+					ClassJJD targetConcrete = relationConcrete.getTarget();
+					
+					abstractJJD.ClassJJD classJJDSource = getClass(sourceConcrete.getName(), packageJJD.getName());
+					abstractJJD.ClassJJD classJJDTarget = getClass(targetConcrete.getName(), packageJJD.getName());
+					
+					abstractJJD.RelationJJD relationJJDSource = AbstractJJDFactory.eINSTANCE.createRelationJJD();
+					relationJJDSource.setTarget(classJJDSource);
+					relationJJDSource.setSource(classJJDTarget);
+					
+					classJJDSource.getListRelationsJJD().add(relationJJDSource);
+					
+					abstractJJD.RelationJJD relationJJDTarget = AbstractJJDFactory.eINSTANCE.createRelationJJD();
+					relationJJDTarget.setTarget(classJJDSource);
+					relationJJDTarget.setSource(classJJDTarget);
+					
+					classJJDTarget.getListRelationsJJD().add(relationJJDTarget);
+				}
 			}
 		}
 		saveAbstract();
@@ -155,33 +155,40 @@ public class ModelFactoryModel {
 
 
 	private void addClassJJDToPackage(abstractJJD.ClassJJD classJJD, String nameSpace) {
-		PackageJJD packageJJD = null;
+		abstractJJD.PackageJJD packageJJD = null;
 		String[] split = nameSpace.split("/");
 		
 		for(int i = 0; i < split.length; i++) {
 			String namePackage = split[i];
 			packageJJD = getPackage(namePackage);
+			
+			if(packageJJD == null) {
+				continue;
+			} else {
+				packageJJD.getListClassJJD().add((abstractJJD.ClassJJD) classJJD);
+				return;
+			}
 		}
-		packageJJD.getListClassJJD().add((ClassJJD) classJJD);
 	}
 
-	private PackageJJD getPackage(String namePackage) {
-		PackageJJD packageJJD = (PackageJJD) modelFactoryAbstract.getListPackagesJJD().get(0);
+	private abstractJJD.PackageJJD getPackage(String namePackage) {
 		
-		if(packageJJD.getName().equals(namePackage)) {
-			return packageJJD;
-		}
-		
-		// TODO: aplicar recursividad para encontrar paquete
+		for (abstractJJD.PackageJJD packageJJD : modelFactoryAbstract.getListPackagesJJD()) {			
+			if(packageJJD.getName().equals(namePackage)) return packageJJD;
+		};
+			
+		abstractJJD.PackageJJD newPackage = AbstractJJDFactory.eINSTANCE.createPackageJJD();
+     	newPackage.setName(namePackage);
+     	modelFactoryAbstract.getListPackagesJJD().add(newPackage);
+     	
+     	if(newPackage.getName().equals(namePackage)) return newPackage;
 		return null;
 	}
 	
 
-	private abstractJJD.ClassJJD getClass(String name) {
+	private abstractJJD.ClassJJD getClass(String name, String namePackage) {
 		
-		abstractJJD.PackageJJD packageJJD = null;
-//				getPackage();
-		//TODO: Encontrar namespace 
+		abstractJJD.PackageJJD packageJJD = getPackage(namePackage);
 		
 		for (abstractJJD.ClassJJD classJJD : packageJJD.getListClassJJD()) {
 			
@@ -191,6 +198,13 @@ public class ModelFactoryModel {
 		}
 		return null;
 	}
+
+	public void transformationM2T() {
+		
+		 // TODO: Implement	
+	}
+
+
 
 
 }

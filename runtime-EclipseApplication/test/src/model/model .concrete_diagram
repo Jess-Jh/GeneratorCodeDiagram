@@ -4,7 +4,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_8mQpQ03UEe6Jlu4IwU4IYA" type="5006"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_8mRQUE3UEe6Jlu4IwU4IYA" type="7001" collapsed="true"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_8mRQUU3UEe6Jlu4IwU4IYA" type="7002">
-      <children xmi:type="notation:Shape" xmi:id="_N8JXAE3VEe6Jlu4IwU4IYA" type="3002" fontName=".AppleSystemUIFont" fontHeight="11">
+      <children xmi:type="notation:Shape" xmi:id="_N8JXAE3VEe6Jlu4IwU4IYA" type="3002" fontName=".AppleSystemUIFont" fontHeight="11" lineColor="0">
         <children xmi:type="notation:DecorationNode" xmi:id="_N8JXA03VEe6Jlu4IwU4IYA" type="5004"/>
         <children xmi:type="notation:BasicCompartment" xmi:id="_N8JXBE3VEe6Jlu4IwU4IYA" type="7005">
           <children xmi:type="notation:Shape" xmi:id="_JmwOoE3WEe6Jlu4IwU4IYA" type="3003" fontName=".AppleSystemUIFont">
@@ -378,7 +378,7 @@
     </children>
     <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_8mQpQU3UEe6Jlu4IwU4IYA"/>
     <element xmi:type="concrete:PackageJJD" href="model%20.concrete#//@listClassDiagramJJD.0/@listPackagesJJD.0"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8mQpQk3UEe6Jlu4IwU4IYA" x="-88" y="-416" width="1765" height="1373"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8mQpQk3UEe6Jlu4IwU4IYA" x="-88" y="-416" width="1765" height="1285"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_szWxMU3UEe6Jlu4IwU4IYA"/>
   <element xmi:type="concrete:ClassDiagramJJD" href="model%20.concrete#//@listClassDiagramJJD.0"/>

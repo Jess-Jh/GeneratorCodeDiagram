@@ -66,6 +66,8 @@ public class Generator extends ViewPart {
 		btnTransformacionMt.addSelectionListener(new SelectionAdapter() {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
+				ModelFactoryModel mfm = ModelFactoryModel.getInstance();
+//				mfm.transformationM2T();
 			}
 		});
 		btnTransformacionMt.setText("Transformacion M2T");

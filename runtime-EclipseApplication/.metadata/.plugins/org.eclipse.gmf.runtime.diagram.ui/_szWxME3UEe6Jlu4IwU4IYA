@@ -1,10 +1,10 @@
-#Sat Sep 09 21:42:10 COT 2023
+#Sun Sep 10 12:18:02 COT 2023
 rulergrid.rulerunit=1
 print.margin.left=0.5
-viewport.x=-88
+viewport.x=6
 rulergrid.gridlinestyle=6
-viewport.y=-321
-zoom=1.0
+viewport.y=-312
+zoom=0.75
 print.useMillim=true
 print.usePortrait=true
 print.page.height=11.6929134
