@@ -27,7 +27,7 @@ class PackageJJD {
     val ClassJJD[*] listClassJJD;
 }
 
-@gmf.node(label = "name")
+@gmf.node(label = "name", color="205,234,239", border.color="0,0,0")
 class ClassJJD {
     attr String name;
     attr String description;
@@ -41,7 +41,7 @@ class ClassJJD {
    
 }
 
-@gmf.node(label = "name, type", label.pattern = "{0} : {1}" , border.width="0", size="200,25")
+@gmf.node(label = "name, type", label.pattern = "{0} : {1}" , border.width="0", size="200,25", color="205,234,239")
 class AttributeJJD {
     attr String name;
     attr String description;
@@ -49,7 +49,7 @@ class AttributeJJD {
 
 }
 
-@gmf.node(label = "name")
+@gmf.node(label = "name", color="205,234,239", border.width="0", size="200,25")
 class MethodJJD {
     attr String name;
     attr String modifier;

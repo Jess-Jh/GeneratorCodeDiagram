@@ -9,9 +9,6 @@ import concrete.MethodJJD;
 import concrete.ModelFactoryConcreteJJD;
 import concrete.PackageJJD;
 import concrete.RelationJJD;
-
-import java.util.List;
-
 import abstractJJD.AbstractJJDFactory;
 import abstractJJD.ModelFactoryAbstractJJD;
 
@@ -127,92 +124,100 @@ public class ModelFactoryModel {
 					classJJD.setDescription(classConcrete.getDescription());
 					classJJD.setIsAbstract(classConcrete.isIsAbstract());
 					
-					addClassJJDToPackage(classJJD, packageJJD.getNameSpace());
+					addAttributeToClass(classJJD, classConcrete);
+					addClassJJDToPackage(classJJD, packageJJD);
 					
-					for(AttributeJJD attibute : classConcrete.getListAttributesJJD()) {
-						abstractJJD.AttributeJJD attibuteJJD = AbstractJJDFactory.eINSTANCE.createAttributeJJD();
-						attibuteJJD.setName(attibute.getName());
-						attibuteJJD.setType(attibute.getType());
-						attibuteJJD.setDescription(attibute.getDescription());
-					}
 					
-					for(MethodJJD method : classConcrete.getListMethodsJJD()) {
-						abstractJJD.MethodJJD methodJJD = AbstractJJDFactory.eINSTANCE.createMethodJJD();
-						methodJJD.setName(method.getName());
-						methodJJD.setModifier(method.getModifier());
-						methodJJD.setSemantic(method.getSemantic());
-						methodJJD.setReturnType(method.getReturnType());
-						
-						for(AttributeJJD attibute : method.getListAttributesJJD()) {
-							abstractJJD.AttributeJJD attibuteJJD = AbstractJJDFactory.eINSTANCE.createAttributeJJD();
-							attibuteJJD.setName(attibute.getName());
-							attibuteJJD.setType(attibute.getType());
-							attibuteJJD.setDescription(attibute.getDescription());
-						}
-					}
+					
+//					for(MethodJJD method : classConcrete.getListMethodsJJD()) {
+//						abstractJJD.MethodJJD methodJJD = AbstractJJDFactory.eINSTANCE.createMethodJJD();
+//						methodJJD.setName(method.getName());
+//						methodJJD.setModifier(method.getModifier());
+//						methodJJD.setSemantic(method.getSemantic());
+//						methodJJD.setReturnType(method.getReturnType());
+//						
+//						for(AttributeJJD attibute : method.getListAttributesJJD()) {
+//							abstractJJD.AttributeJJD attibuteJJD = AbstractJJDFactory.eINSTANCE.createAttributeJJD();
+//							attibuteJJD.setName(attibute.getName());
+//							attibuteJJD.setType(attibute.getType());
+//							attibuteJJD.setDescription(attibute.getDescription());
+//						}
+//					}
 				}
 				
-				for (RelationJJD relationConcrete : diagram.getListRelationsJJD()) {
-					
-					ClassJJD sourceConcrete = relationConcrete.getSource();
-					ClassJJD targetConcrete = relationConcrete.getTarget();
-					
-					abstractJJD.ClassJJD classJJDSource = getClass(sourceConcrete.getName(), packageJJD.getName());
-					abstractJJD.ClassJJD classJJDTarget = getClass(targetConcrete.getName(), packageJJD.getName());
-					
-					abstractJJD.RelationJJD relationJJDSource = AbstractJJDFactory.eINSTANCE.createRelationJJD();
-					relationJJDSource.setTarget(classJJDSource);
-					relationJJDSource.setSource(classJJDTarget);
-					
-					classJJDSource.getListRelationsJJD().add(relationJJDSource);
-					
-					abstractJJD.RelationJJD relationJJDTarget = AbstractJJDFactory.eINSTANCE.createRelationJJD();
-					relationJJDTarget.setTarget(classJJDSource);
-					relationJJDTarget.setSource(classJJDTarget);
-					
-					classJJDTarget.getListRelationsJJD().add(relationJJDTarget);
-				}
+//				for (RelationJJD relationConcrete : diagram.getListRelationsJJD()) {
+//					
+//					ClassJJD sourceConcrete = relationConcrete.getSource();
+//					ClassJJD targetConcrete = relationConcrete.getTarget();
+//					
+//					abstractJJD.ClassJJD classJJDSource = getClass(sourceConcrete.getName(), packageJJD.getName());
+//					abstractJJD.ClassJJD classJJDTarget = getClass(targetConcrete.getName(), packageJJD.getName());
+//					
+//					abstractJJD.RelationJJD relationJJDSource = AbstractJJDFactory.eINSTANCE.createRelationJJD();
+//					relationJJDSource.setTarget(classJJDSource);
+//					relationJJDSource.setSource(classJJDTarget);
+//					
+//					classJJDSource.getListRelationsJJD().add(relationJJDSource);
+//					
+//					abstractJJD.RelationJJD relationJJDTarget = AbstractJJDFactory.eINSTANCE.createRelationJJD();
+//					relationJJDTarget.setTarget(classJJDSource);
+//					relationJJDTarget.setSource(classJJDTarget);
+//					
+//					classJJDTarget.getListRelationsJJD().add(relationJJDTarget);
+//				}
 			}
 		}
 		saveAbstract();
 	}
 
 
-	private void addClassJJDToPackage(abstractJJD.ClassJJD classJJD, String nameSpace) {
-		abstractJJD.PackageJJD packageJJD = null;
-		String[] split = nameSpace.split("/");
-		
-		for(int i = 0; i < split.length; i++) {
-			String namePackage = split[i];
-			packageJJD = getPackage(namePackage);
+	private void addAttributeToClass(abstractJJD.ClassJJD classJJD, ClassJJD classConcrete) {
+		for(AttributeJJD attibute : classConcrete.getListAttributesJJD()) {
+			abstractJJD.AttributeJJD attibuteJJD = AbstractJJDFactory.eINSTANCE.createAttributeJJD();
+			attibuteJJD.setName(attibute.getName());
+			attibuteJJD.setType(attibute.getType());
+			attibuteJJD.setDescription(attibute.getDescription());
 			
-			if(packageJJD == null) {
-				continue;
-			} else {
-				packageJJD.getListClassJJD().add((abstractJJD.ClassJJD) classJJD);
-				return;
-			}
+			classJJD.getListAttributesJJD().add(attibuteJJD);
 		}
 	}
 
-	private abstractJJD.PackageJJD getPackage(String namePackage) {
+	private void addClassJJDToPackage(abstractJJD.ClassJJD classJJD, PackageJJD packagejjd) {
+		String[] split = packagejjd.getNameSpace().split("/");
+		abstractJJD.PackageJJD parentPackageJJD = null;
 		
-		for (abstractJJD.PackageJJD packageJJD : modelFactoryAbstract.getListPackagesJJD()) {			
-			if(packageJJD.getName().equals(namePackage)) return packageJJD;
-		};
-			
+		
+		for(int i = 0; i < split.length; i++) {
+			String namePackage = split[i];
+			parentPackageJJD = getPackage(namePackage, parentPackageJJD);
+		}
+		parentPackageJJD.getListClassJJD().add(classJJD);
+	}
+
+	private abstractJJD.PackageJJD getPackage(String namePackage, abstractJJD.PackageJJD parentPackageJJD) {
+		
+		abstractJJD.PackageJJD packageJJD = modelFactoryAbstract.getListPackagesJJD().get(0);
+		
+		if(packageJJD.getName().equals(namePackage)) {
+			return packageJJD;
+		}
+		
+		for(abstractJJD.PackageJJD packagejjd : parentPackageJJD.getSubPackagesJJD()) {
+			if(packagejjd.getName().equalsIgnoreCase(namePackage)) {
+				return packagejjd;
+			}
+		}
+		
 		abstractJJD.PackageJJD newPackage = AbstractJJDFactory.eINSTANCE.createPackageJJD();
-     	newPackage.setName(namePackage);
-     	modelFactoryAbstract.getListPackagesJJD().add(newPackage);
-     	
-     	if(newPackage.getName().equals(namePackage)) return newPackage;
-		return null;
+		newPackage.setName(namePackage);
+		parentPackageJJD.getSubPackagesJJD().add(newPackage);
+		return newPackage;
 	}
 	
 
 	private abstractJJD.ClassJJD getClass(String name, String namePackage) {
 		
-		abstractJJD.PackageJJD packageJJD = getPackage(namePackage);
+		abstractJJD.PackageJJD packageJJD = getPackage(namePackage, null);
 		
 		for (abstractJJD.ClassJJD classJJD : packageJJD.getListClassJJD()) {
 			if(classJJD.getName().equals(name)) {

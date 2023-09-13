@@ -35,6 +35,8 @@
   <eClassifiers xsi:type="ecore:EClass" name="ClassJJD">
     <eAnnotations source="gmf.node">
       <details key="label" value="name"/>
+      <details key="color" value="205,234,239"/>
+      <details key="border.color" value="0,0,0"/>
     </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
@@ -58,6 +60,7 @@
       <details key="label.pattern" value="{0} : {1}"/>
       <details key="border.width" value="0"/>
       <details key="size" value="200,25"/>
+      <details key="color" value="205,234,239"/>
     </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
@@ -66,6 +69,9 @@
   <eClassifiers xsi:type="ecore:EClass" name="MethodJJD">
     <eAnnotations source="gmf.node">
       <details key="label" value="name"/>
+      <details key="color" value="205,234,239"/>
+      <details key="border.width" value="0"/>
+      <details key="size" value="200,25"/>
     </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="modifier" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>

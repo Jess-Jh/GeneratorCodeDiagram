@@ -845,7 +845,9 @@ public class ConcretePackageImpl extends EPackageImpl implements ConcretePackage
 		  (classJJDEClass,
 		   source,
 		   new String[] {
-			   "label", "name"
+			   "label", "name",
+			   "color", "205,234,239",
+			   "border.color", "0,0,0"
 		   });
 		addAnnotation
 		  (attributeJJDEClass,
@@ -854,13 +856,17 @@ public class ConcretePackageImpl extends EPackageImpl implements ConcretePackage
 			   "label", "name, type",
 			   "label.pattern", "{0} : {1}",
 			   "border.width", "0",
-			   "size", "200,25"
+			   "size", "200,25",
+			   "color", "205,234,239"
 		   });
 		addAnnotation
 		  (methodJJDEClass,
 		   source,
 		   new String[] {
-			   "label", "name"
+			   "label", "name",
+			   "color", "205,234,239",
+			   "border.width", "0",
+			   "size", "200,25"
 		   });
 	}
 

@@ -19,7 +19,7 @@ import org.eclipse.emf.ecore.EObject;
  * </ul>
  *
  * @see concrete.ConcretePackage#getAttributeJJD()
- * @model annotation="gmf.node label='name, type' label.pattern='{0} : {1}' border.width='0' size='200,25'"
+ * @model annotation="gmf.node label='name, type' label.pattern='{0} : {1}' border.width='0' size='200,25' color='205,234,239'"
  * @generated
  */
 public interface AttributeJJD extends EObject {

@@ -41,6 +41,8 @@
     </descriptors>
     <descriptors name="ClassJJDFigure">
       <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="ClassJJDFigure">
+        <foregroundColor xsi:type="gmfgraph:RGBColor"/>
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="205" green="234" blue="239"/>
         <border xsi:type="gmfgraph:MarginBorder">
           <insets top="5" left="5" bottom="5" right="5"/>
         </border>
@@ -56,6 +58,7 @@
     </descriptors>
     <descriptors name="AttributeJJDFigure">
       <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="AttributeJJDFigure" lineWidth="0">
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="205" green="234" blue="239"/>
         <preferredSize dx="200" dy="25"/>
         <border xsi:type="gmfgraph:MarginBorder">
           <insets top="5" left="5" bottom="5" right="5"/>
@@ -65,7 +68,9 @@
       <accessors accessor="getFigureAttributeJJDLabelFigure" figure="//@figures.0/@descriptors.2/@actualFigure/@children.0"/>
     </descriptors>
     <descriptors name="MethodJJDFigure">
-      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="MethodJJDFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="MethodJJDFigure" lineWidth="0">
+        <backgroundColor xsi:type="gmfgraph:RGBColor" red="205" green="234" blue="239"/>
+        <preferredSize dx="200" dy="25"/>
         <border xsi:type="gmfgraph:MarginBorder">
           <insets top="5" left="5" bottom="5" right="5"/>
         </border>
@@ -103,7 +108,11 @@
       <defaultSize dx="200" dy="25"/>
     </facets>
   </nodes>
-  <nodes name="MethodJJD" figure="MethodJJDFigure"/>
+  <nodes name="MethodJJD" figure="MethodJJDFigure">
+    <facets xsi:type="gmfgraph:DefaultSizeFacet">
+      <defaultSize dx="200" dy="25"/>
+    </facets>
+  </nodes>
   <connections name="AgregationJJD" figure="AgregationJJDFigure"/>
   <connections name="InheritanceJJD" figure="InheritanceJJDFigure"/>
   <connections name="ContainmentJJD" figure="ContainmentJJDFigure"/>

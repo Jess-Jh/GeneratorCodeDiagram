@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ASCII"?>
+<abstractJJD:ModelFactoryAbstractJJD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:abstractJJD="abstractJJD">
+  <listPackagesJJD name="src">
+    <listClassJJD name="Aeroline"/>
+  </listPackagesJJD>
+  <listPackagesJJD name="src">
+    <listClassJJD name="Baggage"/>
+  </listPackagesJJD>
+  <listPackagesJJD name="src">
+    <listClassJJD name="ShippingCart"/>
+  </listPackagesJJD>
+  <listPackagesJJD name="src">
+    <listClassJJD name="Route" isAbstract="true"/>
+  </listPackagesJJD>
+  <listPackagesJJD name="src">
+    <listClassJJD name="International"/>
+  </listPackagesJJD>
+  <listPackagesJJD name="src">
+    <listClassJJD name="National"/>
+  </listPackagesJJD>
+  <listPackagesJJD name="src">
+    <listClassJJD name="Ticket"/>
+  </listPackagesJJD>
+  <listPackagesJJD name="src">
+    <listClassJJD name="Airplane" isAbstract="true"/>
+  </listPackagesJJD>
+  <listPackagesJJD name="src">
+    <listClassJJD name="Boeing787"/>
+  </listPackagesJJD>
+  <listPackagesJJD name="src">
+    <listClassJJD name="AirbusA330"/>
+  </listPackagesJJD>
+  <listPackagesJJD name="src">
+    <listClassJJD name="AirbusA320"/>
+  </listPackagesJJD>
+  <listPackagesJJD name="src">
+    <listClassJJD name="CrewMember"/>
+  </listPackagesJJD>
+  <listPackagesJJD name="src">
+    <listClassJJD name="Person" isAbstract="true"/>
+  </listPackagesJJD>
+  <listPackagesJJD name="src">
+    <listClassJJD name="Client"/>
+  </listPackagesJJD>
+</abstractJJD:ModelFactoryAbstractJJD>

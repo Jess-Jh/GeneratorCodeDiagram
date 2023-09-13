@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<abstractJJD:ModelFactoryAbstractJJD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:abstractJJD="abstractJJD">
+  <listPackagesJJD name="src">
+    <listClassJJD name="Aeroline"/>
+    <listClassJJD name="Baggage"/>
+    <listClassJJD name="ShippingCart"/>
+    <listClassJJD name="Route" isAbstract="true"/>
+    <listClassJJD name="International"/>
+    <listClassJJD name="National"/>
+    <listClassJJD name="Ticket"/>
+    <listClassJJD name="Airplane" isAbstract="true"/>
+    <listClassJJD name="Boeing787"/>
+    <listClassJJD name="AirbusA330"/>
+    <listClassJJD name="AirbusA320"/>
+    <listClassJJD name="CrewMember"/>
+    <listClassJJD name="Person" isAbstract="true"/>
+    <listClassJJD name="Client"/>
+    <listClassJJD name="Aeroline"/>
+    <listClassJJD name="Baggage"/>
+    <listClassJJD name="ShippingCart"/>
+    <listClassJJD name="Route" isAbstract="true"/>
+    <listClassJJD name="International"/>
+    <listClassJJD name="National"/>
+    <listClassJJD name="Ticket"/>
+    <listClassJJD name="Airplane" isAbstract="true"/>
+    <listClassJJD name="Boeing787"/>
+    <listClassJJD name="AirbusA330"/>
+    <listClassJJD name="AirbusA320"/>
+    <listClassJJD name="CrewMember"/>
+    <listClassJJD name="Person" isAbstract="true"/>
+    <listClassJJD name="Client"/>
+    <listClassJJD name="Aeroline"/>
+    <listClassJJD name="Baggage"/>
+    <listClassJJD name="ShippingCart"/>
+    <listClassJJD name="Route" isAbstract="true"/>
+    <listClassJJD name="International"/>
+    <listClassJJD name="National"/>
+    <listClassJJD name="Ticket"/>
+    <listClassJJD name="Airplane" isAbstract="true"/>
+    <listClassJJD name="Boeing787"/>
+    <listClassJJD name="AirbusA330"/>
+    <listClassJJD name="AirbusA320"/>
+    <listClassJJD name="CrewMember"/>
+    <listClassJJD name="Person" isAbstract="true"/>
+    <listClassJJD name="Client"/>
+  </listPackagesJJD>
+</abstractJJD:ModelFactoryAbstractJJD>
