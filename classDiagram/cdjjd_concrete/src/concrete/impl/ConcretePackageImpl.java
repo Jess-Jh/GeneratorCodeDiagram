@@ -865,8 +865,7 @@ public class ConcretePackageImpl extends EPackageImpl implements ConcretePackage
 		   new String[] {
 			   "label", "name",
 			   "color", "205,234,239",
-			   "border.width", "0",
-			   "size", "200,25"
+			   "border.width", "0"
 		   });
 	}
 

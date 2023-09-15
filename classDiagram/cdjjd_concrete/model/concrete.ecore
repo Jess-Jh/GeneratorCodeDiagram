@@ -71,7 +71,6 @@
       <details key="label" value="name"/>
       <details key="color" value="205,234,239"/>
       <details key="border.width" value="0"/>
-      <details key="size" value="200,25"/>
     </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="modifier" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>

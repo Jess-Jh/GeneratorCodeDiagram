@@ -16,6 +16,56 @@
           <styles xmi:type="notation:FilteringStyle" xmi:id="_N8JXBk3VEe6Jlu4IwU4IYA"/>
         </children>
         <children xmi:type="notation:BasicCompartment" xmi:id="_N8J-EE3VEe6Jlu4IwU4IYA" type="7006">
+          <children xmi:type="notation:Node" xmi:id="_GKMR4FKcEe68HbWRPiq0Tw" type="3004">
+            <children xmi:type="notation:DecorationNode" xmi:id="_GKM48FKcEe68HbWRPiq0Tw" type="5003"/>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_GKM48VKcEe68HbWRPiq0Tw" type="7007">
+              <children xmi:type="notation:Node" xmi:id="_R3JBMFKcEe68HbWRPiq0Tw" type="3005">
+                <children xmi:type="notation:DecorationNode" xmi:id="_R3JoQFKcEe68HbWRPiq0Tw" type="5002"/>
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_R3JBMVKcEe68HbWRPiq0Tw"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_R3JBMlKcEe68HbWRPiq0Tw" fontName=".AppleSystemUIFont"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_R3JBM1KcEe68HbWRPiq0Tw"/>
+                <element xmi:type="concrete:AttributeJJD" href="model%20.concrete#//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.0/@listMethodsJJD.0/@listAttributesJJD.0"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R3JBNFKcEe68HbWRPiq0Tw"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_nu1tQFKcEe6oMNpnq0_4Cg" type="3005">
+                <children xmi:type="notation:DecorationNode" xmi:id="_nu2UUFKcEe6oMNpnq0_4Cg" type="5002"/>
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_nu1tQVKcEe6oMNpnq0_4Cg"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_nu1tQlKcEe6oMNpnq0_4Cg" fontName=".AppleSystemUIFont"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_nu1tQ1KcEe6oMNpnq0_4Cg"/>
+                <element xmi:type="concrete:AttributeJJD" href="model%20.concrete#//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.0/@listMethodsJJD.0/@listAttributesJJD.1"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nu1tRFKcEe6oMNpnq0_4Cg"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_GKM48lKcEe68HbWRPiq0Tw"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_GKM481KcEe68HbWRPiq0Tw"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_GKMR4VKcEe68HbWRPiq0Tw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_GKMR4lKcEe68HbWRPiq0Tw" fontName=".AppleSystemUIFont"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_GKMR41KcEe68HbWRPiq0Tw"/>
+            <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_GKMR5FKcEe68HbWRPiq0Tw"/>
+            <element xmi:type="concrete:MethodJJD" href="model%20.concrete#//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.0/@listMethodsJJD.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GKMR5VKcEe68HbWRPiq0Tw"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_NzV_IFKdEe6oMNpnq0_4Cg" type="3004">
+            <children xmi:type="notation:DecorationNode" xmi:id="_NzV_JlKdEe6oMNpnq0_4Cg" type="5003"/>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_NzV_J1KdEe6oMNpnq0_4Cg" type="7007" collapsed="true">
+              <children xmi:type="notation:Node" xmi:id="_QmKsEFKdEe6oMNpnq0_4Cg" type="3005">
+                <children xmi:type="notation:DecorationNode" xmi:id="_QmKsFVKdEe6oMNpnq0_4Cg" type="5002"/>
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_QmKsEVKdEe6oMNpnq0_4Cg"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_QmKsElKdEe6oMNpnq0_4Cg" fontName=".AppleSystemUIFont"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_QmKsE1KdEe6oMNpnq0_4Cg"/>
+                <element xmi:type="concrete:AttributeJJD" href="model%20.concrete#//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.0/@listMethodsJJD.1/@listAttributesJJD.0"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QmKsFFKdEe6oMNpnq0_4Cg"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_NzV_KFKdEe6oMNpnq0_4Cg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_NzV_KVKdEe6oMNpnq0_4Cg"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_NzV_IVKdEe6oMNpnq0_4Cg"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_NzV_IlKdEe6oMNpnq0_4Cg" fontName=".AppleSystemUIFont"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_NzV_I1KdEe6oMNpnq0_4Cg"/>
+            <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_NzV_JFKdEe6oMNpnq0_4Cg"/>
+            <element xmi:type="concrete:MethodJJD" href="model%20.concrete#//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.0/@listMethodsJJD.1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NzV_JVKdEe6oMNpnq0_4Cg"/>
+          </children>
           <styles xmi:type="notation:SortingStyle" xmi:id="_N8J-EU3VEe6Jlu4IwU4IYA"/>
           <styles xmi:type="notation:FilteringStyle" xmi:id="_N8J-Ek3VEe6Jlu4IwU4IYA"/>
         </children>

@@ -70,7 +70,6 @@
     <descriptors name="MethodJJDFigure">
       <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="MethodJJDFigure" lineWidth="0">
         <backgroundColor xsi:type="gmfgraph:RGBColor" red="205" green="234" blue="239"/>
-        <preferredSize dx="200" dy="25"/>
         <border xsi:type="gmfgraph:MarginBorder">
           <insets top="5" left="5" bottom="5" right="5"/>
         </border>
@@ -108,11 +107,7 @@
       <defaultSize dx="200" dy="25"/>
     </facets>
   </nodes>
-  <nodes name="MethodJJD" figure="MethodJJDFigure">
-    <facets xsi:type="gmfgraph:DefaultSizeFacet">
-      <defaultSize dx="200" dy="25"/>
-    </facets>
-  </nodes>
+  <nodes name="MethodJJD" figure="MethodJJDFigure"/>
   <connections name="AgregationJJD" figure="AgregationJJDFigure"/>
   <connections name="InheritanceJJD" figure="InheritanceJJDFigure"/>
   <connections name="ContainmentJJD" figure="ContainmentJJDFigure"/>

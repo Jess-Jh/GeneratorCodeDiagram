@@ -9,6 +9,6 @@
     <fullyQualifiedTypeName name="concrete.AttributeJJD"/>
     <fullyQualifiedTypeName name="abstractJJD.AttributeJJD"/>
     <fullyQualifiedTypeName name="concrete.MethodJJD"/>
-    <fullyQualifiedTypeName name="abstractJJD.MethodJJD"/>
     <fullyQualifiedTypeName name="abstractJJD.PackageJJD"/>
+    <fullyQualifiedTypeName name="abstractJJD.MethodJJD"/>
 </qualifiedTypeNameHistroy>

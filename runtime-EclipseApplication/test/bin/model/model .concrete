@@ -4,6 +4,13 @@
     <listPackagesJJD name="Aeroline" nameSpace="src/domain/Aeroline">
       <listClassJJD name="Aeroline">
         <listAttributesJJD name="name" type="String"/>
+        <listMethodsJJD name="makeFlightAssignment">
+          <listAttributesJJD name="selectedFlightId" type="String"/>
+          <listAttributesJJD name="flightCrewList" type="List&lt;CrewMember>"/>
+        </listMethodsJJD>
+        <listMethodsJJD name="addClient">
+          <listAttributesJJD name="client" type="Client"/>
+        </listMethodsJJD>
       </listClassJJD>
       <listClassJJD name="Baggage">
         <listAttributesJJD name="idClient" type="String"/>
@@ -71,11 +78,11 @@
     <listRelationsJJD xsi:type="concrete:ContainmentJJD" rolA="Aeroline" rolB="listRoutes" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.0" target="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.3"/>
     <listRelationsJJD xsi:type="concrete:InheritanceJJD" source="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.4" target="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.3"/>
     <listRelationsJJD xsi:type="concrete:InheritanceJJD" source="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.5" target="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.3"/>
-    <listRelationsJJD xsi:type="concrete:ContainmentJJD" rolB="listTickets" source="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.0" target="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.6"/>
+    <listRelationsJJD xsi:type="concrete:ContainmentJJD" rolA="Aeroline" rolB="listTickets" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.0" target="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.6"/>
     <listRelationsJJD xsi:type="concrete:InheritanceJJD" source="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.8" target="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.7"/>
     <listRelationsJJD xsi:type="concrete:InheritanceJJD" source="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.9" target="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.7"/>
     <listRelationsJJD xsi:type="concrete:InheritanceJJD" source="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.10" target="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.7"/>
-    <listRelationsJJD xsi:type="concrete:AgregationJJD" source="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.11" target="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.7"/>
+    <listRelationsJJD xsi:type="concrete:AgregationJJD" rolA="CrewMember" rolB="Airplane" source="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.11" target="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.7"/>
     <listRelationsJJD xsi:type="concrete:InheritanceJJD" source="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.11" target="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.12"/>
     <listRelationsJJD xsi:type="concrete:InheritanceJJD" source="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.13" target="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.12"/>
     <listRelationsJJD xsi:type="concrete:ContainmentJJD" rolA="Aeroline" rolB="listClients" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.0" target="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.13"/>

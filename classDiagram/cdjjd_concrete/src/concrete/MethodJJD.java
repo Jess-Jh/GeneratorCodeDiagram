@@ -23,7 +23,7 @@ import org.eclipse.emf.ecore.EObject;
  * </ul>
  *
  * @see concrete.ConcretePackage#getMethodJJD()
- * @model annotation="gmf.node label='name' color='205,234,239' border.width='0' size='200,25'"
+ * @model annotation="gmf.node label='name' color='205,234,239' border.width='0'"
  * @generated
  */
 public interface MethodJJD extends EObject {
