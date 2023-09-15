@@ -228,7 +228,7 @@ public class ModelFactoryModel {
 	}
 	
 
-	private abstractJJD.ClassJJD getClass(String name, String namePackage) { 
+	private abstractJJD.ClassJJD getClass(String name, String namePackage) {
 		abstractJJD.PackageJJD packageAbs = null;
 		String[] split = namePackage.split("/");
 		
