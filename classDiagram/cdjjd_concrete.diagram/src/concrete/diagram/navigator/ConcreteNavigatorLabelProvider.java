@@ -26,7 +26,9 @@ import concrete.ClassDiagramJJD;
 import concrete.ImplementJJD;
 import concrete.InheritanceJJD;
 import concrete.diagram.edit.parts.AgregationJJDEditPart;
+import concrete.diagram.edit.parts.AgregationJJDRolAEditPart;
 import concrete.diagram.edit.parts.AssociationJJDEditPart;
+import concrete.diagram.edit.parts.AssociationJJDRolAEditPart;
 import concrete.diagram.edit.parts.AttributeJJD2EditPart;
 import concrete.diagram.edit.parts.AttributeJJDEditPart;
 import concrete.diagram.edit.parts.AttributeJJDName2EditPart;
@@ -41,6 +43,7 @@ import concrete.diagram.edit.parts.ClassJJDEditPart;
 import concrete.diagram.edit.parts.ClassJJDName2EditPart;
 import concrete.diagram.edit.parts.ClassJJDNameEditPart;
 import concrete.diagram.edit.parts.ContainmentJJDEditPart;
+import concrete.diagram.edit.parts.ContainmentJJDRolAEditPart;
 import concrete.diagram.edit.parts.ContainmentJJDRolARolBEditPart;
 import concrete.diagram.edit.parts.ContainmentJJDRolBEditPart;
 import concrete.diagram.edit.parts.ImplementJJDEditPart;
@@ -360,11 +363,14 @@ public class ConcreteNavigatorLabelProvider extends LabelProvider
 	* @generated
 	*/
 	private String getAgregationJJD_4001Text(View view) {
-		AgregationJJD domainModelElement = (AgregationJJD) view.getElement();
-		if (domainModelElement != null) {
-			return domainModelElement.getRolA();
+		IParser parser = ConcreteParserProvider.getParser(ConcreteElementTypes.AgregationJJD_4001,
+				view.getElement() != null ? view.getElement() : view,
+				ConcreteVisualIDRegistry.getType(AgregationJJDRolAEditPart.VISUAL_ID));
+		if (parser != null) {
+			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
+					ParserOptions.NONE.intValue());
 		} else {
-			ConcreteDiagramEditorPlugin.getInstance().logError("No domain element for view with visualID = " + 4001); //$NON-NLS-1$
+			ConcreteDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 6006); //$NON-NLS-1$
 			return ""; //$NON-NLS-1$
 		}
 	}
@@ -402,11 +408,14 @@ public class ConcreteNavigatorLabelProvider extends LabelProvider
 	* @generated
 	*/
 	private String getAssociationJJD_4004Text(View view) {
-		AssociationJJD domainModelElement = (AssociationJJD) view.getElement();
-		if (domainModelElement != null) {
-			return domainModelElement.getRolA();
+		IParser parser = ConcreteParserProvider.getParser(ConcreteElementTypes.AssociationJJD_4004,
+				view.getElement() != null ? view.getElement() : view,
+				ConcreteVisualIDRegistry.getType(AssociationJJDRolAEditPart.VISUAL_ID));
+		if (parser != null) {
+			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
+					ParserOptions.NONE.intValue());
 		} else {
-			ConcreteDiagramEditorPlugin.getInstance().logError("No domain element for view with visualID = " + 4004); //$NON-NLS-1$
+			ConcreteDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 6010); //$NON-NLS-1$
 			return ""; //$NON-NLS-1$
 		}
 	}

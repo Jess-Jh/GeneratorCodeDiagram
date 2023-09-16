@@ -100,6 +100,7 @@
       <details key="style" value="solid"/>
       <details key="width" value="2"/>
       <details key="source.decoration" value="rhomb"/>
+      <details key="color" value="1,24,146"/>
     </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="InheritanceJJD" eSuperTypes="#//RelationJJD">
@@ -110,6 +111,7 @@
       <details key="width" value="2"/>
       <details key="figure" value="rounded"/>
       <details key="source.decoration" value="closedarrow"/>
+      <details key="color" value="1,24,146"/>
     </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ContainmentJJD" eSuperTypes="#//RelationJJD">
@@ -121,6 +123,7 @@
       <details key="width" value="2"/>
       <details key="figure" value="rounded"/>
       <details key="source.decoration" value="filledrhomb"/>
+      <details key="color" value="1,24,146"/>
     </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="AssociationJJD" eSuperTypes="#//RelationJJD">
@@ -131,6 +134,7 @@
       <details key="width" value="2"/>
       <details key="figure" value="rounded"/>
       <details key="target.decoration" value="arrow"/>
+      <details key="color" value="1,24,146"/>
     </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ImplementJJD" eSuperTypes="#//RelationJJD">
@@ -140,6 +144,8 @@
       <details key="style" value="dot"/>
       <details key="width" value="2"/>
       <details key="figure" value="rounded"/>
+      <details key="source.decoration" value="closedarrow"/>
+      <details key="color" value="1,24,146"/>
     </eAnnotations>
   </eClassifiers>
 </ecore:EPackage>

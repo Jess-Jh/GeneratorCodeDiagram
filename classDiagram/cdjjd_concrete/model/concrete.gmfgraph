@@ -24,6 +24,13 @@
       <template x="-1" y="1"/>
     </figures>
     <figures xsi:type="gmfgraph:PolylineDecoration" name="AssociationJJDFigureTargetDecoration"/>
+    <figures xsi:type="gmfgraph:PolygonDecoration" name="ClosedArrow">
+      <backgroundColor xsi:type="gmfgraph:ConstantColor"/>
+      <template/>
+      <template x="-2" y="2"/>
+      <template x="-2" y="-2"/>
+      <template/>
+    </figures>
     <descriptors name="PackageJJDFigure">
       <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="PackageJJDFigure">
         <border xsi:type="gmfgraph:MarginBorder">
@@ -82,22 +89,68 @@
       <accessors accessor="getMethodJJDListAttributesJJDCompartmentFigure" figure="//@figures.0/@descriptors.3/@actualFigure/@children.1"/>
     </descriptors>
     <descriptors name="AgregationJJDFigure">
-      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="AgregationJJDFigure" lineWidth="2" sourceDecoration="//@figures.0/@figures.0"/>
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="AgregationJJDFigure" lineWidth="2" sourceDecoration="//@figures.0/@figures.0">
+        <foregroundColor xsi:type="gmfgraph:RGBColor" red="1" green="24" blue="146"/>
+      </actualFigure>
     </descriptors>
     <descriptors name="InheritanceJJDFigure">
-      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="InheritanceJJDFigure" lineWidth="2" sourceDecoration="//@figures.0/@figures.1"/>
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="InheritanceJJDFigure" lineWidth="2" sourceDecoration="//@figures.0/@figures.1">
+        <foregroundColor xsi:type="gmfgraph:RGBColor" red="1" green="24" blue="146"/>
+      </actualFigure>
     </descriptors>
     <descriptors name="ContainmentJJDFigure">
-      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="ContainmentJJDFigure" lineWidth="2" sourceDecoration="//@figures.0/@figures.2"/>
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="ContainmentJJDFigure" lineWidth="2" sourceDecoration="//@figures.0/@figures.2">
+        <foregroundColor xsi:type="gmfgraph:RGBColor" red="1" green="24" blue="146"/>
+      </actualFigure>
     </descriptors>
     <descriptors name="ContainmentJJDLabelFigure">
       <actualFigure xsi:type="gmfgraph:Label" name="ContainmentJJDLabelLabel" text="ContainmentJJD"/>
     </descriptors>
     <descriptors name="AssociationJJDFigure">
-      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="AssociationJJDFigure" lineWidth="2" targetDecoration="//@figures.0/@figures.3"/>
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="AssociationJJDFigure" lineWidth="2" targetDecoration="//@figures.0/@figures.3">
+        <foregroundColor xsi:type="gmfgraph:RGBColor" red="1" green="24" blue="146"/>
+      </actualFigure>
     </descriptors>
     <descriptors name="ImplementJJDFigure">
-      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="ImplementJJDFigure" lineWidth="2" lineKind="LINE_DOT"/>
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="ImplementJJDFigure" lineWidth="2" lineKind="LINE_DOT" sourceDecoration="//@figures.0/@figures.4">
+        <foregroundColor xsi:type="gmfgraph:RGBColor" red="1" green="24" blue="146"/>
+      </actualFigure>
+    </descriptors>
+    <descriptors name="ContainmentJJDSourceLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="ContainmentJJDSourceLabel" text="Source"/>
+    </descriptors>
+    <descriptors name="ContainmentJJDTargetLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="ContainmentJJDTargetLabel" text="Target"/>
+    </descriptors>
+    <descriptors name="ContainmentJJDSourceLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="ContainmentJJDSourceLabel" text="Source"/>
+    </descriptors>
+    <descriptors name="ContainmentJJDTargetLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="ContainmentJJDTargetLabel" text="Target"/>
+    </descriptors>
+    <descriptors name="AgregationJJDSourceLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="AgregationJJDSourceLabel" text="Source"/>
+    </descriptors>
+    <descriptors name="AgregationJJDTargetLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="AgregationJJDTargetLabel" text="Target"/>
+    </descriptors>
+    <descriptors name="AgregationJJDSourceLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="AgregationJJDSourceLabel" text="Source"/>
+    </descriptors>
+    <descriptors name="AgregationJJDTargetLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="AgregationJJDTargetLabel" text="Target"/>
+    </descriptors>
+    <descriptors name="AssociationJJDSourceLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="AssociationJJDSourceLabel" text="Source"/>
+    </descriptors>
+    <descriptors name="AssociationJJDTargetLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="AssociationJJDTargetLabel" text="Target"/>
+    </descriptors>
+    <descriptors name="AssociationJJDSourceLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="AssociationJJDSourceLabel" text="Source"/>
+    </descriptors>
+    <descriptors name="AssociationJJDTargetLabelFigure">
+      <actualFigure xsi:type="gmfgraph:Label" name="AssociationJJDTargetLabel" text="Target"/>
     </descriptors>
   </figures>
   <nodes name="PackageJJD" figure="PackageJJDFigure"/>
@@ -123,4 +176,52 @@
   <labels name="AttributeJJDLabel" figure="AttributeJJDFigure" accessor="//@figures.0/@descriptors.2/@accessors.0"/>
   <labels name="MethodJJDLabel" figure="MethodJJDFigure" accessor="//@figures.0/@descriptors.3/@accessors.0"/>
   <labels name="ContainmentJJDLabel" figure="ContainmentJJDLabelFigure" elementIcon="false"/>
+  <labels name="ContainmentJJDSourceLabel" figure="ContainmentJJDSourceLabelFigure" elementIcon="false">
+    <facets xsi:type="gmfgraph:AlignmentFacet" alignment="END"/>
+    <facets xsi:type="gmfgraph:LabelOffsetFacet" x="-50" y="5"/>
+  </labels>
+  <labels name="ContainmentJJDTargetLabel" figure="ContainmentJJDTargetLabelFigure" elementIcon="false">
+    <facets xsi:type="gmfgraph:AlignmentFacet"/>
+    <facets xsi:type="gmfgraph:LabelOffsetFacet" x="-50" y="5"/>
+  </labels>
+  <labels name="ContainmentJJDSourceLabel" figure="ContainmentJJDSourceLabelFigure" elementIcon="false">
+    <facets xsi:type="gmfgraph:AlignmentFacet" alignment="END"/>
+    <facets xsi:type="gmfgraph:LabelOffsetFacet" x="-50" y="5"/>
+  </labels>
+  <labels name="ContainmentJJDTargetLabel" figure="ContainmentJJDTargetLabelFigure" elementIcon="false">
+    <facets xsi:type="gmfgraph:AlignmentFacet"/>
+    <facets xsi:type="gmfgraph:LabelOffsetFacet" x="-50" y="5"/>
+  </labels>
+  <labels name="AgregationJJDSourceLabel" figure="AgregationJJDSourceLabelFigure" elementIcon="false">
+    <facets xsi:type="gmfgraph:AlignmentFacet" alignment="END"/>
+    <facets xsi:type="gmfgraph:LabelOffsetFacet" x="-50" y="5"/>
+  </labels>
+  <labels name="AgregationJJDTargetLabel" figure="AgregationJJDTargetLabelFigure" elementIcon="false">
+    <facets xsi:type="gmfgraph:AlignmentFacet"/>
+    <facets xsi:type="gmfgraph:LabelOffsetFacet" x="-50" y="5"/>
+  </labels>
+  <labels name="AgregationJJDSourceLabel" figure="AgregationJJDSourceLabelFigure" elementIcon="false">
+    <facets xsi:type="gmfgraph:AlignmentFacet" alignment="END"/>
+    <facets xsi:type="gmfgraph:LabelOffsetFacet" x="-50" y="5"/>
+  </labels>
+  <labels name="AgregationJJDTargetLabel" figure="AgregationJJDTargetLabelFigure" elementIcon="false">
+    <facets xsi:type="gmfgraph:AlignmentFacet"/>
+    <facets xsi:type="gmfgraph:LabelOffsetFacet" x="-50" y="5"/>
+  </labels>
+  <labels name="AssociationJJDSourceLabel" figure="AssociationJJDSourceLabelFigure" elementIcon="false">
+    <facets xsi:type="gmfgraph:AlignmentFacet" alignment="END"/>
+    <facets xsi:type="gmfgraph:LabelOffsetFacet" x="-50" y="5"/>
+  </labels>
+  <labels name="AssociationJJDTargetLabel" figure="AssociationJJDTargetLabelFigure" elementIcon="false">
+    <facets xsi:type="gmfgraph:AlignmentFacet"/>
+    <facets xsi:type="gmfgraph:LabelOffsetFacet" x="-50" y="5"/>
+  </labels>
+  <labels name="AssociationJJDSourceLabel" figure="AssociationJJDSourceLabelFigure" elementIcon="false">
+    <facets xsi:type="gmfgraph:AlignmentFacet" alignment="END"/>
+    <facets xsi:type="gmfgraph:LabelOffsetFacet" x="-50" y="5"/>
+  </labels>
+  <labels name="AssociationJJDTargetLabel" figure="AssociationJJDTargetLabelFigure" elementIcon="false">
+    <facets xsi:type="gmfgraph:AlignmentFacet"/>
+    <facets xsi:type="gmfgraph:LabelOffsetFacet" x="-50" y="5"/>
+  </labels>
 </gmfgraph:Canvas>

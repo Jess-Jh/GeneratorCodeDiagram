@@ -72,19 +72,19 @@ class RelationJJD {
     ref ClassJJD target;
 }
 
-@gmf.link(source="source", target="target", style="solid", width="2", source.decoration="rhomb")
+@gmf.link(source="source", target="target", style="solid", width="2", source.decoration="rhomb", color="1,24,146")
 class AgregationJJD extends RelationJJD {}
 
-@gmf.link(source="source", target="target", style="solid", width="2", figure="rounded", source.decoration="closedarrow")
+@gmf.link(source="source", target="target", style="solid", width="2", figure="rounded", source.decoration="closedarrow", color="1,24,146")
 class InheritanceJJD extends RelationJJD {}
 
-@gmf.link(label = "rolA", label = "rolB", source="source", target="target", style="solid", width="2", figure="rounded", source.decoration="filledrhomb")
+@gmf.link(label = "rolA", label = "rolB", source="source", target="target", style="solid", width="2", figure="rounded", source.decoration="filledrhomb", color="1,24,146")
 class ContainmentJJD extends RelationJJD {}
 
-@gmf.link(source="source", target="target", style="solid", width="2", figure="rounded", target.decoration="arrow")
+@gmf.link(source="source", target="target", style="solid", width="2", figure="rounded", target.decoration="arrow", color="1,24,146")
 class AssociationJJD extends RelationJJD {}
 
-@gmf.link(source="source", target="target", style="dot", width="2", figure="rounded")
+@gmf.link(source="source", target="target", style="dot", width="2", figure="rounded", source.decoration="closedarrow", color="1,24,146")
 class ImplementJJD extends RelationJJD {}
 
 

@@ -15,6 +15,7 @@ import org.eclipse.gmf.runtime.diagram.ui.editpolicies.EditPolicyRoles;
 import org.eclipse.gmf.runtime.draw2d.ui.figures.PolylineConnectionEx;
 import org.eclipse.gmf.runtime.notation.View;
 
+import org.eclipse.swt.graphics.Color;
 import concrete.diagram.edit.policies.AgregationJJDItemSemanticEditPolicy;
 
 /**
@@ -72,6 +73,7 @@ public class AgregationJJDEditPart extends ConnectionNodeEditPart implements ITr
 		 */
 		public AgregationJJDFigure() {
 			this.setLineWidth(2);
+			this.setForegroundColor(THIS_FORE);
 
 			setSourceDecoration(createSourceDecoration());
 		}
@@ -95,5 +97,10 @@ public class AgregationJJDEditPart extends ConnectionNodeEditPart implements ITr
 		}
 
 	}
+
+	/**
+	* @generated
+	*/
+	static final Color THIS_FORE = new Color(null, 1, 24, 146);
 
 }

@@ -595,8 +595,8 @@ public class ContainmentJJDRolBEditPart extends LabelEditPart implements ITextAw
 	}
 
 	/**
-	 * @generated
-	 */
+	* @generated
+	*/
 	public class ContainmentJJDLabelFigure extends WrappingLabel {
 
 		/**

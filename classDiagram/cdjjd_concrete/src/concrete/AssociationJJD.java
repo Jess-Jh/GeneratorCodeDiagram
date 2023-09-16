@@ -10,7 +10,7 @@ package concrete;
  *
  *
  * @see concrete.ConcretePackage#getAssociationJJD()
- * @model annotation="gmf.link source='source' target='target' style='solid' width='2' figure='rounded' target.decoration='arrow'"
+ * @model annotation="gmf.link source='source' target='target' style='solid' width='2' figure='rounded' target.decoration='arrow' color='1,24,146'"
  * @generated
  */
 public interface AssociationJJD extends RelationJJD {

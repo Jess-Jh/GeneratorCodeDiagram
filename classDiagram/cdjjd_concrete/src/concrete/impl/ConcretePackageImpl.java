@@ -923,7 +923,8 @@ public class ConcretePackageImpl extends EPackageImpl implements ConcretePackage
 			   "target", "target",
 			   "style", "solid",
 			   "width", "2",
-			   "source.decoration", "rhomb"
+			   "source.decoration", "rhomb",
+			   "color", "1,24,146"
 		   });
 		addAnnotation
 		  (inheritanceJJDEClass,
@@ -934,7 +935,8 @@ public class ConcretePackageImpl extends EPackageImpl implements ConcretePackage
 			   "style", "solid",
 			   "width", "2",
 			   "figure", "rounded",
-			   "source.decoration", "closedarrow"
+			   "source.decoration", "closedarrow",
+			   "color", "1,24,146"
 		   });
 		addAnnotation
 		  (containmentJJDEClass,
@@ -946,7 +948,8 @@ public class ConcretePackageImpl extends EPackageImpl implements ConcretePackage
 			   "style", "solid",
 			   "width", "2",
 			   "figure", "rounded",
-			   "source.decoration", "filledrhomb"
+			   "source.decoration", "filledrhomb",
+			   "color", "1,24,146"
 		   });
 		addAnnotation
 		  (associationJJDEClass,
@@ -957,7 +960,8 @@ public class ConcretePackageImpl extends EPackageImpl implements ConcretePackage
 			   "style", "solid",
 			   "width", "2",
 			   "figure", "rounded",
-			   "target.decoration", "arrow"
+			   "target.decoration", "arrow",
+			   "color", "1,24,146"
 		   });
 		addAnnotation
 		  (implementJJDEClass,
@@ -967,7 +971,9 @@ public class ConcretePackageImpl extends EPackageImpl implements ConcretePackage
 			   "target", "target",
 			   "style", "dot",
 			   "width", "2",
-			   "figure", "rounded"
+			   "figure", "rounded",
+			   "source.decoration", "closedarrow",
+			   "color", "1,24,146"
 		   });
 	}
 

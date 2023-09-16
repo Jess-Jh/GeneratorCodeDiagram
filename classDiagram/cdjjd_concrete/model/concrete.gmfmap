@@ -142,6 +142,34 @@
   <links>
     <domainMetaElement
         href="concrete.ecore#//AgregationJJD"/>
+    <labelMappings
+        xsi:type="gmfmap:FeatureLabelMapping">
+      <diagramLabel
+          href="concrete.gmfgraph#AgregationJJDSourceLabel"/>
+      <features
+          href="concrete.ecore#//RelationJJD/rolA"/>
+    </labelMappings>
+    <labelMappings
+        xsi:type="gmfmap:FeatureLabelMapping">
+      <diagramLabel
+          href="concrete.gmfgraph#AgregationJJDTargetLabel"/>
+      <features
+          href="concrete.ecore#//RelationJJD/rolB"/>
+    </labelMappings>
+    <labelMappings
+        xsi:type="gmfmap:FeatureLabelMapping">
+      <diagramLabel
+          href="concrete.gmfgraph#AgregationJJDSourceLabel"/>
+      <features
+          href="concrete.ecore#//RelationJJD/multiplicityA"/>
+    </labelMappings>
+    <labelMappings
+        xsi:type="gmfmap:FeatureLabelMapping">
+      <diagramLabel
+          href="concrete.gmfgraph#AgregationJJDTargetLabel"/>
+      <features
+          href="concrete.ecore#//RelationJJD/multiplicityB"/>
+    </labelMappings>
     <containmentFeature
         href="concrete.ecore#//ClassDiagramJJD/listRelationsJJD"/>
     <tool
@@ -183,6 +211,34 @@
       <features
           href="concrete.ecore#//RelationJJD/rolB"/>
     </labelMappings>
+    <labelMappings
+        xsi:type="gmfmap:FeatureLabelMapping">
+      <diagramLabel
+          href="concrete.gmfgraph#ContainmentJJDSourceLabel"/>
+      <features
+          href="concrete.ecore#//RelationJJD/rolA"/>
+    </labelMappings>
+    <labelMappings
+        xsi:type="gmfmap:FeatureLabelMapping">
+      <diagramLabel
+          href="concrete.gmfgraph#ContainmentJJDTargetLabel"/>
+      <features
+          href="concrete.ecore#//RelationJJD/rolB"/>
+    </labelMappings>
+    <labelMappings
+        xsi:type="gmfmap:FeatureLabelMapping">
+      <diagramLabel
+          href="concrete.gmfgraph#ContainmentJJDSourceLabel"/>
+      <features
+          href="concrete.ecore#//RelationJJD/multiplicityA"/>
+    </labelMappings>
+    <labelMappings
+        xsi:type="gmfmap:FeatureLabelMapping">
+      <diagramLabel
+          href="concrete.gmfgraph#ContainmentJJDTargetLabel"/>
+      <features
+          href="concrete.ecore#//RelationJJD/multiplicityB"/>
+    </labelMappings>
     <containmentFeature
         href="concrete.ecore#//ClassDiagramJJD/listRelationsJJD"/>
     <tool
@@ -200,6 +256,34 @@
   <links>
     <domainMetaElement
         href="concrete.ecore#//AssociationJJD"/>
+    <labelMappings
+        xsi:type="gmfmap:FeatureLabelMapping">
+      <diagramLabel
+          href="concrete.gmfgraph#AssociationJJDSourceLabel"/>
+      <features
+          href="concrete.ecore#//RelationJJD/rolA"/>
+    </labelMappings>
+    <labelMappings
+        xsi:type="gmfmap:FeatureLabelMapping">
+      <diagramLabel
+          href="concrete.gmfgraph#AssociationJJDTargetLabel"/>
+      <features
+          href="concrete.ecore#//RelationJJD/rolB"/>
+    </labelMappings>
+    <labelMappings
+        xsi:type="gmfmap:FeatureLabelMapping">
+      <diagramLabel
+          href="concrete.gmfgraph#AssociationJJDSourceLabel"/>
+      <features
+          href="concrete.ecore#//RelationJJD/multiplicityA"/>
+    </labelMappings>
+    <labelMappings
+        xsi:type="gmfmap:FeatureLabelMapping">
+      <diagramLabel
+          href="concrete.gmfgraph#AssociationJJDTargetLabel"/>
+      <features
+          href="concrete.ecore#//RelationJJD/multiplicityB"/>
+    </labelMappings>
     <containmentFeature
         href="concrete.ecore#//ClassDiagramJJD/listRelationsJJD"/>
     <tool

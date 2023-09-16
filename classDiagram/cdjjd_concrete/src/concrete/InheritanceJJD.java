@@ -10,7 +10,7 @@ package concrete;
  *
  *
  * @see concrete.ConcretePackage#getInheritanceJJD()
- * @model annotation="gmf.link source='source' target='target' style='solid' width='2' figure='rounded' source.decoration='closedarrow'"
+ * @model annotation="gmf.link source='source' target='target' style='solid' width='2' figure='rounded' source.decoration='closedarrow' color='1,24,146'"
  * @generated
  */
 public interface InheritanceJJD extends RelationJJD {

@@ -47,7 +47,15 @@ import org.eclipse.swt.SWT;
 import org.eclipse.swt.graphics.FontData;
 
 import concrete.diagram.edit.parts.AgregationJJDEditPart;
+import concrete.diagram.edit.parts.AgregationJJDMultiplicityAEditPart;
+import concrete.diagram.edit.parts.AgregationJJDMultiplicityBEditPart;
+import concrete.diagram.edit.parts.AgregationJJDRolAEditPart;
+import concrete.diagram.edit.parts.AgregationJJDRolBEditPart;
 import concrete.diagram.edit.parts.AssociationJJDEditPart;
+import concrete.diagram.edit.parts.AssociationJJDMultiplicityAEditPart;
+import concrete.diagram.edit.parts.AssociationJJDMultiplicityBEditPart;
+import concrete.diagram.edit.parts.AssociationJJDRolAEditPart;
+import concrete.diagram.edit.parts.AssociationJJDRolBEditPart;
 import concrete.diagram.edit.parts.AttributeJJD2EditPart;
 import concrete.diagram.edit.parts.AttributeJJDEditPart;
 import concrete.diagram.edit.parts.AttributeJJDName2EditPart;
@@ -66,7 +74,12 @@ import concrete.diagram.edit.parts.ClassJJDEditPart;
 import concrete.diagram.edit.parts.ClassJJDName2EditPart;
 import concrete.diagram.edit.parts.ClassJJDNameEditPart;
 import concrete.diagram.edit.parts.ContainmentJJDEditPart;
+import concrete.diagram.edit.parts.ContainmentJJDMultiplicityAEditPart;
+import concrete.diagram.edit.parts.ContainmentJJDMultiplicityBEditPart;
+import concrete.diagram.edit.parts.ContainmentJJDRolA2EditPart;
+import concrete.diagram.edit.parts.ContainmentJJDRolAEditPart;
 import concrete.diagram.edit.parts.ContainmentJJDRolARolBEditPart;
+import concrete.diagram.edit.parts.ContainmentJJDRolB2EditPart;
 import concrete.diagram.edit.parts.ContainmentJJDRolBEditPart;
 import concrete.diagram.edit.parts.ImplementJJDEditPart;
 import concrete.diagram.edit.parts.InheritanceJJDEditPart;
@@ -555,7 +568,8 @@ public class ConcreteViewProvider extends AbstractProvider implements IViewProvi
 	*/
 	public Edge createAgregationJJD_4001(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
-		Connector edge = NotationFactory.eINSTANCE.createConnector();
+		Edge edge = NotationFactory.eINSTANCE.createEdge();
+		edge.getStyles().add(NotationFactory.eINSTANCE.createRoutingStyle());
 		edge.getStyles().add(NotationFactory.eINSTANCE.createFontStyle());
 		RelativeBendpoints bendpoints = NotationFactory.eINSTANCE.createRelativeBendpoints();
 		ArrayList<RelativeBendpoint> points = new ArrayList<RelativeBendpoint>(2);
@@ -568,11 +582,6 @@ public class ConcreteViewProvider extends AbstractProvider implements IViewProvi
 		edge.setElement(domainElement);
 		// initializePreferences
 		final IPreferenceStore prefStore = (IPreferenceStore) preferencesHint.getPreferenceStore();
-
-		org.eclipse.swt.graphics.RGB lineRGB = PreferenceConverter.getColor(prefStore,
-				IPreferenceConstants.PREF_LINE_COLOR);
-		ViewUtil.setStructuralFeatureValue(edge, NotationPackage.eINSTANCE.getLineStyle_LineColor(),
-				FigureUtilities.RGBToInteger(lineRGB));
 		FontStyle edgeFontStyle = (FontStyle) edge.getStyle(NotationPackage.Literals.FONT_STYLE);
 		if (edgeFontStyle != null) {
 			FontData fontData = PreferenceConverter.getFontData(prefStore, IPreferenceConstants.PREF_DEFAULT_FONT);
@@ -588,6 +597,28 @@ public class ConcreteViewProvider extends AbstractProvider implements IViewProvi
 		if (routing != null) {
 			ViewUtil.setStructuralFeatureValue(edge, NotationPackage.eINSTANCE.getRoutingStyle_Routing(), routing);
 		}
+		Node label6006 = createLabel(edge, ConcreteVisualIDRegistry.getType(AgregationJJDRolAEditPart.VISUAL_ID));
+		label6006.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location6006 = (Location) label6006.getLayoutConstraint();
+		location6006.setX(-50);
+		location6006.setY(5);
+		Node label6007 = createLabel(edge, ConcreteVisualIDRegistry.getType(AgregationJJDRolBEditPart.VISUAL_ID));
+		label6007.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location6007 = (Location) label6007.getLayoutConstraint();
+		location6007.setX(-50);
+		location6007.setY(5);
+		Node label6008 = createLabel(edge,
+				ConcreteVisualIDRegistry.getType(AgregationJJDMultiplicityAEditPart.VISUAL_ID));
+		label6008.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location6008 = (Location) label6008.getLayoutConstraint();
+		location6008.setX(-50);
+		location6008.setY(5);
+		Node label6009 = createLabel(edge,
+				ConcreteVisualIDRegistry.getType(AgregationJJDMultiplicityBEditPart.VISUAL_ID));
+		label6009.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location6009 = (Location) label6009.getLayoutConstraint();
+		location6009.setX(-50);
+		location6009.setY(5);
 		return edge;
 	}
 
@@ -596,7 +627,8 @@ public class ConcreteViewProvider extends AbstractProvider implements IViewProvi
 	*/
 	public Edge createInheritanceJJD_4002(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
-		Connector edge = NotationFactory.eINSTANCE.createConnector();
+		Edge edge = NotationFactory.eINSTANCE.createEdge();
+		edge.getStyles().add(NotationFactory.eINSTANCE.createRoutingStyle());
 		edge.getStyles().add(NotationFactory.eINSTANCE.createFontStyle());
 		RelativeBendpoints bendpoints = NotationFactory.eINSTANCE.createRelativeBendpoints();
 		ArrayList<RelativeBendpoint> points = new ArrayList<RelativeBendpoint>(2);
@@ -609,11 +641,6 @@ public class ConcreteViewProvider extends AbstractProvider implements IViewProvi
 		edge.setElement(domainElement);
 		// initializePreferences
 		final IPreferenceStore prefStore = (IPreferenceStore) preferencesHint.getPreferenceStore();
-
-		org.eclipse.swt.graphics.RGB lineRGB = PreferenceConverter.getColor(prefStore,
-				IPreferenceConstants.PREF_LINE_COLOR);
-		ViewUtil.setStructuralFeatureValue(edge, NotationPackage.eINSTANCE.getLineStyle_LineColor(),
-				FigureUtilities.RGBToInteger(lineRGB));
 		FontStyle edgeFontStyle = (FontStyle) edge.getStyle(NotationPackage.Literals.FONT_STYLE);
 		if (edgeFontStyle != null) {
 			FontData fontData = PreferenceConverter.getFontData(prefStore, IPreferenceConstants.PREF_DEFAULT_FONT);
@@ -637,7 +664,8 @@ public class ConcreteViewProvider extends AbstractProvider implements IViewProvi
 	*/
 	public Edge createContainmentJJD_4003(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
-		Connector edge = NotationFactory.eINSTANCE.createConnector();
+		Edge edge = NotationFactory.eINSTANCE.createEdge();
+		edge.getStyles().add(NotationFactory.eINSTANCE.createRoutingStyle());
 		edge.getStyles().add(NotationFactory.eINSTANCE.createFontStyle());
 		RelativeBendpoints bendpoints = NotationFactory.eINSTANCE.createRelativeBendpoints();
 		ArrayList<RelativeBendpoint> points = new ArrayList<RelativeBendpoint>(2);
@@ -650,11 +678,6 @@ public class ConcreteViewProvider extends AbstractProvider implements IViewProvi
 		edge.setElement(domainElement);
 		// initializePreferences
 		final IPreferenceStore prefStore = (IPreferenceStore) preferencesHint.getPreferenceStore();
-
-		org.eclipse.swt.graphics.RGB lineRGB = PreferenceConverter.getColor(prefStore,
-				IPreferenceConstants.PREF_LINE_COLOR);
-		ViewUtil.setStructuralFeatureValue(edge, NotationPackage.eINSTANCE.getLineStyle_LineColor(),
-				FigureUtilities.RGBToInteger(lineRGB));
 		FontStyle edgeFontStyle = (FontStyle) edge.getStyle(NotationPackage.Literals.FONT_STYLE);
 		if (edgeFontStyle != null) {
 			FontData fontData = PreferenceConverter.getFontData(prefStore, IPreferenceConstants.PREF_DEFAULT_FONT);
@@ -675,6 +698,28 @@ public class ConcreteViewProvider extends AbstractProvider implements IViewProvi
 		Location location6001 = (Location) label6001.getLayoutConstraint();
 		location6001.setX(0);
 		location6001.setY(40);
+		Node label6002 = createLabel(edge, ConcreteVisualIDRegistry.getType(ContainmentJJDRolAEditPart.VISUAL_ID));
+		label6002.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location6002 = (Location) label6002.getLayoutConstraint();
+		location6002.setX(-50);
+		location6002.setY(5);
+		Node label6003 = createLabel(edge, ConcreteVisualIDRegistry.getType(ContainmentJJDRolB2EditPart.VISUAL_ID));
+		label6003.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location6003 = (Location) label6003.getLayoutConstraint();
+		location6003.setX(-50);
+		location6003.setY(5);
+		Node label6004 = createLabel(edge,
+				ConcreteVisualIDRegistry.getType(ContainmentJJDMultiplicityAEditPart.VISUAL_ID));
+		label6004.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location6004 = (Location) label6004.getLayoutConstraint();
+		location6004.setX(-50);
+		location6004.setY(5);
+		Node label6014 = createLabel(edge,
+				ConcreteVisualIDRegistry.getType(ContainmentJJDMultiplicityBEditPart.VISUAL_ID));
+		label6014.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location6014 = (Location) label6014.getLayoutConstraint();
+		location6014.setX(-50);
+		location6014.setY(5);
 		return edge;
 	}
 
@@ -683,7 +728,8 @@ public class ConcreteViewProvider extends AbstractProvider implements IViewProvi
 	*/
 	public Edge createAssociationJJD_4004(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
-		Connector edge = NotationFactory.eINSTANCE.createConnector();
+		Edge edge = NotationFactory.eINSTANCE.createEdge();
+		edge.getStyles().add(NotationFactory.eINSTANCE.createRoutingStyle());
 		edge.getStyles().add(NotationFactory.eINSTANCE.createFontStyle());
 		RelativeBendpoints bendpoints = NotationFactory.eINSTANCE.createRelativeBendpoints();
 		ArrayList<RelativeBendpoint> points = new ArrayList<RelativeBendpoint>(2);
@@ -696,11 +742,6 @@ public class ConcreteViewProvider extends AbstractProvider implements IViewProvi
 		edge.setElement(domainElement);
 		// initializePreferences
 		final IPreferenceStore prefStore = (IPreferenceStore) preferencesHint.getPreferenceStore();
-
-		org.eclipse.swt.graphics.RGB lineRGB = PreferenceConverter.getColor(prefStore,
-				IPreferenceConstants.PREF_LINE_COLOR);
-		ViewUtil.setStructuralFeatureValue(edge, NotationPackage.eINSTANCE.getLineStyle_LineColor(),
-				FigureUtilities.RGBToInteger(lineRGB));
 		FontStyle edgeFontStyle = (FontStyle) edge.getStyle(NotationPackage.Literals.FONT_STYLE);
 		if (edgeFontStyle != null) {
 			FontData fontData = PreferenceConverter.getFontData(prefStore, IPreferenceConstants.PREF_DEFAULT_FONT);
@@ -716,6 +757,28 @@ public class ConcreteViewProvider extends AbstractProvider implements IViewProvi
 		if (routing != null) {
 			ViewUtil.setStructuralFeatureValue(edge, NotationPackage.eINSTANCE.getRoutingStyle_Routing(), routing);
 		}
+		Node label6010 = createLabel(edge, ConcreteVisualIDRegistry.getType(AssociationJJDRolAEditPart.VISUAL_ID));
+		label6010.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location6010 = (Location) label6010.getLayoutConstraint();
+		location6010.setX(-50);
+		location6010.setY(5);
+		Node label6011 = createLabel(edge, ConcreteVisualIDRegistry.getType(AssociationJJDRolBEditPart.VISUAL_ID));
+		label6011.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location6011 = (Location) label6011.getLayoutConstraint();
+		location6011.setX(-50);
+		location6011.setY(5);
+		Node label6012 = createLabel(edge,
+				ConcreteVisualIDRegistry.getType(AssociationJJDMultiplicityAEditPart.VISUAL_ID));
+		label6012.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location6012 = (Location) label6012.getLayoutConstraint();
+		location6012.setX(-50);
+		location6012.setY(5);
+		Node label6013 = createLabel(edge,
+				ConcreteVisualIDRegistry.getType(AssociationJJDMultiplicityBEditPart.VISUAL_ID));
+		label6013.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location6013 = (Location) label6013.getLayoutConstraint();
+		location6013.setX(-50);
+		location6013.setY(5);
 		return edge;
 	}
 
@@ -724,7 +787,8 @@ public class ConcreteViewProvider extends AbstractProvider implements IViewProvi
 	*/
 	public Edge createImplementJJD_4005(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
-		Connector edge = NotationFactory.eINSTANCE.createConnector();
+		Edge edge = NotationFactory.eINSTANCE.createEdge();
+		edge.getStyles().add(NotationFactory.eINSTANCE.createRoutingStyle());
 		edge.getStyles().add(NotationFactory.eINSTANCE.createFontStyle());
 		RelativeBendpoints bendpoints = NotationFactory.eINSTANCE.createRelativeBendpoints();
 		ArrayList<RelativeBendpoint> points = new ArrayList<RelativeBendpoint>(2);
@@ -737,11 +801,6 @@ public class ConcreteViewProvider extends AbstractProvider implements IViewProvi
 		edge.setElement(domainElement);
 		// initializePreferences
 		final IPreferenceStore prefStore = (IPreferenceStore) preferencesHint.getPreferenceStore();
-
-		org.eclipse.swt.graphics.RGB lineRGB = PreferenceConverter.getColor(prefStore,
-				IPreferenceConstants.PREF_LINE_COLOR);
-		ViewUtil.setStructuralFeatureValue(edge, NotationPackage.eINSTANCE.getLineStyle_LineColor(),
-				FigureUtilities.RGBToInteger(lineRGB));
 		FontStyle edgeFontStyle = (FontStyle) edge.getStyle(NotationPackage.Literals.FONT_STYLE);
 		if (edgeFontStyle != null) {
 			FontData fontData = PreferenceConverter.getFontData(prefStore, IPreferenceConstants.PREF_DEFAULT_FONT);

@@ -10,7 +10,7 @@ package concrete;
  *
  *
  * @see concrete.ConcretePackage#getAgregationJJD()
- * @model annotation="gmf.link source='source' target='target' style='solid' width='2' source.decoration='rhomb'"
+ * @model annotation="gmf.link source='source' target='target' style='solid' width='2' source.decoration='rhomb' color='1,24,146'"
  * @generated
  */
 public interface AgregationJJD extends RelationJJD {
