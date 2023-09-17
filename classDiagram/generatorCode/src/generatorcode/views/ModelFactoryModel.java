@@ -15,9 +15,6 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-import javax.swing.JFileChooser;
-import javax.swing.filechooser.FileNameExtensionFilter;
-
 import org.eclipse.emf.common.util.EList;
 
 import abstractJJD.AbstractJJDFactory;
@@ -277,9 +274,8 @@ public class ModelFactoryModel {
 		StringBuilder content = new StringBuilder();
 		
 		content.append("class " + classJJD.getName() + " {\n"
-				+ "\n"
-				+ "\t" + classJJD.getName() + "();\n\n"
 				+ getAttributesClass(classJJD) + "\n"
+				+ "\t" + classJJD.getName() + "();\n"
 				+ "\n"
 				+ getMethodsClass(classJJD) + "\n"
 				+ "}");
@@ -338,14 +334,14 @@ public class ModelFactoryModel {
 		
 		for (abstractJJD.MethodJJD methodJJD : classJJD.getListMethodsJJD()) {
 			
-			System.out.println(methodJJD.getName());
+			System.out.println(methodJJD.getReturnType() != "void" ? "return variable;" : "");
 			System.out.println(methodJJD.getReturnType());
+			System.out.println("void");
 			
-			method += "" + methodJJD.getReturnType() + " " + methodJJD.getName()
-					+ methodJJD.getListAttributesJJD().size() == "0" ? "(" : "({" + getParametersMethod(methodJJD) + methodJJD.getListAttributesJJD().size() == "0" ? ")" : "}) {" + "\n"
-					+ "\t" + methodJJD.getReturnType() + "returnVariable;" + "\n\n"
-					+ methodJJD.getReturnType() != "void" ?  "return " + " returnVariable;" : "" + "\n"
-					+ "} \n\n";
+			method += methodJJD.getReturnType() + " " + methodJJD.getName() + "(" + getParametersMethod(methodJJD) + ") {\n";
+			method += methodJJD.getReturnType().equalsIgnoreCase("void") ? "" : "\t" + methodJJD.getReturnType() + " variable; \n";
+			method += methodJJD.getReturnType().equalsIgnoreCase("void") ? "" : "\treturn variable;" + "\n";
+			method += "}\n\n";
 		}
 		return method;
 	}

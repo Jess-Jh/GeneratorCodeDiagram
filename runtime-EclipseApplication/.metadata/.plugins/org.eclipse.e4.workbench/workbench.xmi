@@ -198,12 +198,14 @@
               </children>
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_23PIUlTrEe6OxcS5n4Eokg" containerData="8014" selectedElement="_23PIU1TrEe6OxcS5n4Eokg" horizontal="true">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_23PIU1TrEe6OxcS5n4Eokg" containerData="5000" selectedElement="_23PIVFTrEe6OxcS5n4Eokg">
-                <children xsi:type="advanced:Placeholder" xmi:id="_23PIVFTrEe6OxcS5n4Eokg" elementId="org.eclipse.ui.editorss" containerData="6747" ref="_23PwRFTrEe6OxcS5n4Eokg"/>
-                <children xsi:type="basic:PartStack" xmi:id="_23PIVVTrEe6OxcS5n4Eokg" elementId="bottom" containerData="3253" selectedElement="_23PIXlTrEe6OxcS5n4Eokg">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_23PIU1TrEe6OxcS5n4Eokg" containerData="5000" selectedElement="_23PIVVTrEe6OxcS5n4Eokg">
+                <children xsi:type="advanced:Placeholder" xmi:id="_23PIVFTrEe6OxcS5n4Eokg" elementId="org.eclipse.ui.editorss" containerData="5629" ref="_23PwRFTrEe6OxcS5n4Eokg"/>
+                <children xsi:type="basic:PartStack" xmi:id="_23PIVVTrEe6OxcS5n4Eokg" elementId="bottom" containerData="4371" selectedElement="_23PIXlTrEe6OxcS5n4Eokg">
                   <tags>org.eclipse.e4.secondaryDataStack</tags>
                   <tags>General</tags>
                   <tags>Code Canvas</tags>
+                  <tags>active</tags>
+                  <tags>noFocus</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_23PIVlTrEe6OxcS5n4Eokg" elementId="org.eclipse.ui.views.ProblemView" ref="_23PwY1TrEe6OxcS5n4Eokg" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:General</tags>
@@ -306,10 +308,9 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_23PwRFTrEe6OxcS5n4Eokg" elementId="org.eclipse.ui.editorss" selectedElement="_23PwRVTrEe6OxcS5n4Eokg">
-      <children xsi:type="basic:PartStack" xmi:id="_23PwRVTrEe6OxcS5n4Eokg" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_23PwR1TrEe6OxcS5n4Eokg">
+      <children xsi:type="basic:PartStack" xmi:id="_23PwRVTrEe6OxcS5n4Eokg" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_23PwSlTrEe6OxcS5n4Eokg">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_23PwRlTrEe6OxcS5n4Eokg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="model .concrete" iconURI="platform:/plugin/cdjjd_concrete.editor/icons/full/obj16/ConcreteModelFile.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;concrete.presentation.ConcreteEditorID&quot; name=&quot;model .concrete&quot; partName=&quot;model .concrete&quot; title=&quot;model .concrete&quot; tooltip=&quot;test/src/model/model .concrete&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/test/src/model/model .concrete&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
@@ -321,8 +322,6 @@
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>concrete.diagram.part.ConcreteDiagramEditorID</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_23PwSlTrEe6OxcS5n4Eokg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="model.abstractjjd" iconURI="platform:/plugin/cdjjd_abstract.editor/icons/full/obj16/AbstractJJDModelFile.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;abstractJJD.presentation.AbstractJJDEditorID&quot; name=&quot;model.abstractjjd&quot; partName=&quot;model.abstractjjd&quot; title=&quot;model.abstractjjd&quot; tooltip=&quot;test/src/model/model.abstractjjd&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/test/src/model/model.abstractjjd&quot;/>&#xA;&lt;/editor>"/>
@@ -510,6 +509,8 @@
       <tags>View</tags>
       <tags>inject</tags>
       <tags>categoryTag:Code Canvas</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_23Pwg1TrEe6OxcS5n4Eokg" elementId="generatorcode.views.Generator">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -523,7 +524,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_23PwiFTrEe6OxcS5n4Eokg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_NQOfQFTzEe65pcZyemWftA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_23Rnh1TrEe6OxcS5n4Eokg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_XBpysFUXEe6CYvC7sASqLA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_23Rnh1TrEe6OxcS5n4Eokg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_23PwllTrEe6OxcS5n4Eokg" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -551,7 +552,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_23PwulTrEe6OxcS5n4Eokg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_NQPtYFTzEe65pcZyemWftA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_23RnCVTrEe6OxcS5n4Eokg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_XBqZyFUXEe6CYvC7sASqLA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_23RnCVTrEe6OxcS5n4Eokg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_23Pw4VTrEe6OxcS5n4Eokg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1237,7 +1238,7 @@
     <bindings xmi:id="_23QXqFTrEe6OxcS5n4Eokg" keySequence="ALT+CR" command="_23Rlt1TrEe6OxcS5n4Eokg"/>
   </bindingTables>
   <bindingTables xmi:id="_23QXqVTrEe6OxcS5n4Eokg" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_23QX9lTrEe6OxcS5n4Eokg">
-    <bindings xmi:id="_NIEo0FTzEe65pcZyemWftA" keySequence="M1+W" command="_23SL1FTrEe6OxcS5n4Eokg"/>
+    <bindings xmi:id="_W5vM0FUXEe6CYvC7sASqLA" keySequence="M1+W" command="_23SL1FTrEe6OxcS5n4Eokg"/>
   </bindingTables>
   <bindingTables xmi:id="_23QXq1TrEe6OxcS5n4Eokg" bindingContext="_23QX_VTrEe6OxcS5n4Eokg"/>
   <bindingTables xmi:id="_23QXrFTrEe6OxcS5n4Eokg" bindingContext="_23QX_lTrEe6OxcS5n4Eokg"/>
@@ -1354,30 +1355,30 @@
   <rootContext xmi:id="_23QYHlTrEe6OxcS5n4Eokg" elementId="org.eclipse.ui.actionSet.openFiles" name="Auto::org.eclipse.ui.actionSet.openFiles"/>
   <rootContext xmi:id="_23QYH1TrEe6OxcS5n4Eokg" elementId="org.eclipse.ui.edit.text.actionSet.presentation" name="Auto::org.eclipse.ui.edit.text.actionSet.presentation"/>
   <rootContext xmi:id="_23QYIFTrEe6OxcS5n4Eokg" elementId="org.eclipse.wb.core.ui.actionset" name="Auto::org.eclipse.wb.core.ui.actionset"/>
-  <descriptors xmi:id="_NH-iMFTzEe65pcZyemWftA" elementId="org.eclipse.pde.spy.preferences.parts.PreferenceSpyPart" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" label="Preference Spy" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/$nl$/icons/preference_spy.png" category="Eclipse Runtime Spies" closeable="true" contributionURI="bundleclass://org.eclipse.pde.spy.preferences/org.eclipse.pde.spy.preferences.parts.PreferenceSpyPart" description="Spy to display preferences">
+  <descriptors xmi:id="_W5ofIFUXEe6CYvC7sASqLA" elementId="org.eclipse.pde.spy.preferences.parts.PreferenceSpyPart" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" label="Preference Spy" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/$nl$/icons/preference_spy.png" category="Eclipse Runtime Spies" closeable="true" contributionURI="bundleclass://org.eclipse.pde.spy.preferences/org.eclipse.pde.spy.preferences.parts.PreferenceSpyPart" description="Spy to display preferences">
     <persistedState key="perstistState" value="false"/>
     <tags>View</tags>
     <tags>Spy</tags>
     <tags>categoryTag:Eclipse Runtime Spies</tags>
-    <toolbar xmi:id="_NH-iNlTzEe65pcZyemWftA" elementId="org.eclipse.pde.spy.preferences.toolbar" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences">
-      <children xsi:type="menu:ToolControl" xmi:id="_NH-iN1TzEe65pcZyemWftA" elementId="org.eclipse.pde.spy.preferences.toolcontrol.layout" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" contributionURI="bundleclass://org.eclipse.pde.spy.preferences/org.eclipse.pde.spy.preferences.handler.ToggleLayoutControl"/>
-      <children xsi:type="menu:ToolBarSeparator" xmi:id="_NH-iOFTzEe65pcZyemWftA" elementId="org.eclipse.pde.spy.preferences.toolbarseparator.0" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences"/>
-      <children xsi:type="menu:HandledToolItem" xmi:id="_NH-iOVTzEe65pcZyemWftA" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.showall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/show_all_preferences.png">
+    <toolbar xmi:id="_W5ofJlUXEe6CYvC7sASqLA" elementId="org.eclipse.pde.spy.preferences.toolbar" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences">
+      <children xsi:type="menu:ToolControl" xmi:id="_W5ofJ1UXEe6CYvC7sASqLA" elementId="org.eclipse.pde.spy.preferences.toolcontrol.layout" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" contributionURI="bundleclass://org.eclipse.pde.spy.preferences/org.eclipse.pde.spy.preferences.handler.ToggleLayoutControl"/>
+      <children xsi:type="menu:ToolBarSeparator" xmi:id="_W5ofKFUXEe6CYvC7sASqLA" elementId="org.eclipse.pde.spy.preferences.toolbarseparator.0" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences"/>
+      <children xsi:type="menu:HandledToolItem" xmi:id="_W5ofKVUXEe6CYvC7sASqLA" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.showall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/show_all_preferences.png">
         <command href="platform:/plugin/org.eclipse.pde.spy.preferences/fragment.e4xmi#_ufxRsHY2EeSuTdKDH5hMwg"/>
       </children>
-      <children xsi:type="menu:ToolControl" xmi:id="_NH-iOlTzEe65pcZyemWftA" elementId="org.eclipse.pde.spy.preferences.toolcontrol.trace" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" contributionURI="bundleclass://org.eclipse.pde.spy.preferences/org.eclipse.pde.spy.preferences.handler.TogglePreferenceTraceControl"/>
-      <children xsi:type="menu:ToolBarSeparator" xmi:id="_NH-iO1TzEe65pcZyemWftA" elementId="org.eclipse.pde.spy.preferences.toolbarseparator.1" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences"/>
-      <children xsi:type="menu:HandledToolItem" xmi:id="_NH-iPFTzEe65pcZyemWftA" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.expandall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/expandall.png">
+      <children xsi:type="menu:ToolControl" xmi:id="_W5ofKlUXEe6CYvC7sASqLA" elementId="org.eclipse.pde.spy.preferences.toolcontrol.trace" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" contributionURI="bundleclass://org.eclipse.pde.spy.preferences/org.eclipse.pde.spy.preferences.handler.TogglePreferenceTraceControl"/>
+      <children xsi:type="menu:ToolBarSeparator" xmi:id="_W5ofK1UXEe6CYvC7sASqLA" elementId="org.eclipse.pde.spy.preferences.toolbarseparator.1" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences"/>
+      <children xsi:type="menu:HandledToolItem" xmi:id="_W5ofLFUXEe6CYvC7sASqLA" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.expandall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/expandall.png">
         <command href="platform:/plugin/org.eclipse.pde.spy.preferences/fragment.e4xmi#_4NM_IH_gEeSk-4v3KnNHPw"/>
       </children>
-      <children xsi:type="menu:HandledToolItem" xmi:id="_NH-iPVTzEe65pcZyemWftA" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.collapseall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/collapseall.png">
+      <children xsi:type="menu:HandledToolItem" xmi:id="_W5ofLVUXEe6CYvC7sASqLA" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.collapseall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/collapseall.png">
         <command href="platform:/plugin/org.eclipse.pde.spy.preferences/fragment.e4xmi#_68UQwH_gEeSk-4v3KnNHPw"/>
       </children>
-      <children xsi:type="menu:ToolBarSeparator" xmi:id="_NH-iPlTzEe65pcZyemWftA" elementId="org.eclipse.pde.spy.preferences.toolbarseparator.2" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences"/>
-      <children xsi:type="menu:HandledToolItem" xmi:id="_NH-iP1TzEe65pcZyemWftA" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.removeentry" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/remove_co.png">
+      <children xsi:type="menu:ToolBarSeparator" xmi:id="_W5ofLlUXEe6CYvC7sASqLA" elementId="org.eclipse.pde.spy.preferences.toolbarseparator.2" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences"/>
+      <children xsi:type="menu:HandledToolItem" xmi:id="_W5ofL1UXEe6CYvC7sASqLA" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.removeentry" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/remove_co.png">
         <command href="platform:/plugin/org.eclipse.pde.spy.preferences/fragment.e4xmi#_iGEkYGxiEeSQ7v0akw7aRA"/>
       </children>
-      <children xsi:type="menu:HandledToolItem" xmi:id="_NH-iQFTzEe65pcZyemWftA" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.removeall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/removeall_co.png">
+      <children xsi:type="menu:HandledToolItem" xmi:id="_W5ofMFUXEe6CYvC7sASqLA" elementId="org.eclipse.pde.spy.preferences.handledtoolitem.removeall" contributorURI="platform:/plugin/org.eclipse.pde.spy.preferences" iconURI="platform:/plugin/org.eclipse.pde.spy.preferences/icons/removeall_co.png">
         <command href="platform:/plugin/org.eclipse.pde.spy.preferences/fragment.e4xmi#_eBGTEGxiEeSQ7v0akw7aRA"/>
       </children>
     </toolbar>

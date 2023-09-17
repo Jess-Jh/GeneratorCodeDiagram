@@ -5,11 +5,11 @@
       <subPackagesJJD name="Aeroline" nameSpace="src/domain/Aeroline">
         <listClassJJD name="Aeroline">
           <listAttributesJJD name="name" type="String"/>
-          <listMethodsJJD name="makeFlightAssignment">
+          <listMethodsJJD name="makeFlightAssignment" returnType="void">
             <listAttributesJJD name="selectedFlightId" type="String"/>
             <listAttributesJJD name="flightCrewList" type="List&lt;CrewMember>"/>
           </listMethodsJJD>
-          <listMethodsJJD name="addClient">
+          <listMethodsJJD name="addClient" returnType="Client">
             <listAttributesJJD name="client" type="Client"/>
           </listMethodsJJD>
           <listRelationsJJD source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.2" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
