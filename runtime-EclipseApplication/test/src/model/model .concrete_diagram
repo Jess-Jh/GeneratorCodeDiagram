@@ -18,7 +18,7 @@
         <children xmi:type="notation:BasicCompartment" xmi:id="_N8J-EE3VEe6Jlu4IwU4IYA" type="7006">
           <children xmi:type="notation:Node" xmi:id="_GKMR4FKcEe68HbWRPiq0Tw" type="3004">
             <children xmi:type="notation:DecorationNode" xmi:id="_GKM48FKcEe68HbWRPiq0Tw" type="5003"/>
-            <children xmi:type="notation:BasicCompartment" xmi:id="_GKM48VKcEe68HbWRPiq0Tw" type="7007" collapsed="true">
+            <children xmi:type="notation:BasicCompartment" xmi:id="_GKM48VKcEe68HbWRPiq0Tw" type="7007">
               <children xmi:type="notation:Node" xmi:id="_R3JBMFKcEe68HbWRPiq0Tw" type="3005">
                 <children xmi:type="notation:DecorationNode" xmi:id="_R3JoQFKcEe68HbWRPiq0Tw" type="5002"/>
                 <styles xmi:type="notation:DescriptionStyle" xmi:id="_R3JBMVKcEe68HbWRPiq0Tw"/>
@@ -47,7 +47,7 @@
           </children>
           <children xmi:type="notation:Node" xmi:id="_NzV_IFKdEe6oMNpnq0_4Cg" type="3004">
             <children xmi:type="notation:DecorationNode" xmi:id="_NzV_JlKdEe6oMNpnq0_4Cg" type="5003"/>
-            <children xmi:type="notation:BasicCompartment" xmi:id="_NzV_J1KdEe6oMNpnq0_4Cg" type="7007" collapsed="true">
+            <children xmi:type="notation:BasicCompartment" xmi:id="_NzV_J1KdEe6oMNpnq0_4Cg" type="7007">
               <children xmi:type="notation:Node" xmi:id="_QmKsEFKdEe6oMNpnq0_4Cg" type="3005">
                 <children xmi:type="notation:DecorationNode" xmi:id="_QmKsFVKdEe6oMNpnq0_4Cg" type="5002"/>
                 <styles xmi:type="notation:DescriptionStyle" xmi:id="_QmKsEVKdEe6oMNpnq0_4Cg"/>

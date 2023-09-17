@@ -10,6 +10,14 @@ import concrete.ModelFactoryConcreteJJD;
 import concrete.PackageJJD;
 import concrete.RelationJJD;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+import javax.swing.JFileChooser;
+import javax.swing.filechooser.FileNameExtensionFilter;
+
 import org.eclipse.emf.common.util.EList;
 
 import abstractJJD.AbstractJJDFactory;
@@ -202,12 +210,12 @@ public class ModelFactoryModel {
 		
 		for(int i = 0; i < split.length; i++) {
 			String namePackage = split[i];
-			parentPackageJJD = getPackage(namePackage, parentPackageJJD);
+			parentPackageJJD = getPackage(namePackage, parentPackageJJD, packagejjd.getNameSpace());
 		}
 		parentPackageJJD.getListClassJJD().add(classJJD);
 	}
 
-	private abstractJJD.PackageJJD getPackage(String namePackage, abstractJJD.PackageJJD parentPackageJJD) {
+	private abstractJJD.PackageJJD getPackage(String namePackage, abstractJJD.PackageJJD parentPackageJJD, String nameSpace) {
 		
 		abstractJJD.PackageJJD packageJJD = modelFactoryAbstract.getListPackagesJJD().get(0);
 		
@@ -223,6 +231,8 @@ public class ModelFactoryModel {
 		
 		abstractJJD.PackageJJD newPackage = AbstractJJDFactory.eINSTANCE.createPackageJJD();
 		newPackage.setName(namePackage);
+		newPackage.setNameSpace(nameSpace);
+		
 		parentPackageJJD.getSubPackagesJJD().add(newPackage);
 		return newPackage;
 	}
@@ -234,7 +244,7 @@ public class ModelFactoryModel {
 		
 		for (int i = 0; i < split.length; i++) {
 			String nameRoute = split[i];
-			packageAbs = getPackage(nameRoute, packageAbs);
+			packageAbs = getPackage(nameRoute, packageAbs, "");
 		}
 				
 		for (abstractJJD.ClassJJD classJJD : packageAbs.getListClassJJD()) {
@@ -247,7 +257,106 @@ public class ModelFactoryModel {
 
 	public void transformationM2T() {
 		
-//		CreateDartFile();
+		for (abstractJJD.PackageJJD packageJJD : modelFactoryAbstract.getListPackagesJJD()) {
+			abstractJJD.PackageJJD packageAbs = null;
+			String[] split = packageJJD.getNameSpace().split("/");
+			
+			for (int i = 0; i < split.length; i++) {
+				String nameRoute = split[i];
+				packageAbs = getPackage(nameRoute, packageAbs, "");
+				
+				for (abstractJJD.ClassJJD classJJD : packageAbs.getListClassJJD()) {
+					CreateDartFile(classJJD);
+				}
+			}
+		}	
+	}
+
+	private void CreateDartFile(abstractJJD.ClassJJD classJJD) {
+		
+		StringBuilder content = new StringBuilder();
+		
+		content.append("class " + classJJD.getName() + " {\n"
+				+ "\n"
+				+ "\t" + classJJD.getName() + "();\n\n"
+				+ getAttributesClass(classJJD) + "\n"
+				+ "\n"
+				+ getMethodsClass(classJJD) + "\n"
+				+ "}");
+		
+		CreateFile(classJJD.getName()+".dart",content);
+	}
+
+	private void CreateFile(String nombreClase, StringBuilder content) {
+		
+//		JFileChooser fileChooser = new JFileChooser();
+//		fileChooser.setCurrentDirectory(new File("."));
+//		fileChooser.setDialogTitle("Selecciona la carpeta donde deseas almacenar las clas");
+//		fileChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+//		fileChooser.setAcceptAllFileFilterUsed(false);
+//		
+//		int answer = fileChooser.showOpenDialog(null);
+//		
+//		if(answer == JFileChooser.APPROVE_OPTION) {
+//			File folderSelected = fileChooser.getSelectedFile();
+//			
+//			System.out.print(folderSelected);
+//		}
+		
+		
+		String routeDesktop = System.getProperty("user.home") + "/Desktop/ClassDart";
+		String routeFile = routeDesktop + "/" + nombreClase;
+		
+		File carpeta = new File(routeDesktop);
+	    if (!carpeta.exists()) {
+	        carpeta.mkdirs();
+	    }
+       
+	    try (BufferedWriter write = new BufferedWriter(new FileWriter(routeFile))){
+	        	
+            write.write(content.toString());
+            write.close();
+	        System.out.println("Se ha creado el archivo " + nombreClase + " en la siguiente ruta: " + routeDesktop);
+	    } catch (IOException e) {
+	        System.out.print(e);
+	        e.printStackTrace();
+	            
+	    }
+	}
+
+	private String getAttributesClass(abstractJJD.ClassJJD classJJD) {
+		String attribute = "";
+		
+		for (abstractJJD.AttributeJJD attibuteJJD : classJJD.getListAttributesJJD()) {
+			attribute += "\tfinal " + attibuteJJD.getType() +"? " + attibuteJJD.getName() + ";" + "\n";		
+		}
+		return attribute;	
+	}
+	
+	private String getMethodsClass(abstractJJD.ClassJJD classJJD) {
+		String method = "";
+		
+		for (abstractJJD.MethodJJD methodJJD : classJJD.getListMethodsJJD()) {
+			
+			System.out.println(methodJJD.getName());
+			System.out.println(methodJJD.getReturnType());
+			
+			method += "" + methodJJD.getReturnType() + " " + methodJJD.getName()
+					+ methodJJD.getListAttributesJJD().size() == "0" ? "(" : "({" + getParametersMethod(methodJJD) + methodJJD.getListAttributesJJD().size() == "0" ? ")" : "}) {" + "\n"
+					+ "\t" + methodJJD.getReturnType() + "returnVariable;" + "\n\n"
+					+ methodJJD.getReturnType() != "void" ?  "return " + " returnVariable;" : "" + "\n"
+					+ "} \n\n";
+		}
+		return method;
+	}
+
+	private String getParametersMethod(abstractJJD.MethodJJD methodJJD) {
+		String parameter = "";
+				
+		for (abstractJJD.AttributeJJD attibuteJJD : methodJJD.getListAttributesJJD()) {
+			parameter += attibuteJJD.getType()+ "? " + attibuteJJD.getName() + ", ";		
+		}
+		return parameter;
 	}
 
 
