@@ -149,12 +149,24 @@ public class ModelFactoryModel {
 					abstractJJD.RelationJJD relationJJDSource = AbstractJJDFactory.eINSTANCE.createRelationJJD();
 					relationJJDSource.setTarget(classJJDSource);
 					relationJJDSource.setSource(classJJDTarget);
+					relationJJDSource.setMultiplicityA(relationConcrete.getMultiplicityA());
+					relationJJDSource.setMultiplicityB(relationConcrete.getMultiplicityB());
+					relationJJDSource.setNavigabilityA(relationConcrete.getNavigabilityA());
+					relationJJDSource.setNavigabilityB(relationConcrete.getNavigabilityB());
+					relationJJDSource.setRolA(relationConcrete.getRolA());
+					relationJJDSource.setRolB(relationConcrete.getRolB());
 					
 					classJJDSource.getListRelationsJJD().add(relationJJDSource);
 					
 					abstractJJD.RelationJJD relationJJDTarget = AbstractJJDFactory.eINSTANCE.createRelationJJD();
 					relationJJDTarget.setTarget(classJJDSource);
 					relationJJDTarget.setSource(classJJDTarget);
+					relationJJDTarget.setMultiplicityA(relationConcrete.getMultiplicityA());
+					relationJJDTarget.setMultiplicityB(relationConcrete.getMultiplicityB());
+					relationJJDTarget.setNavigabilityA(relationConcrete.getNavigabilityA());
+					relationJJDTarget.setNavigabilityB(relationConcrete.getNavigabilityB());
+					relationJJDTarget.setRolA(relationConcrete.getRolA());
+					relationJJDTarget.setRolB(relationConcrete.getRolB());
 					
 					classJJDTarget.getListRelationsJJD().add(relationJJDTarget);
 				}
@@ -180,7 +192,7 @@ public class ModelFactoryModel {
 			methodJJD.setName(method.getName());
 			methodJJD.setModifier(method.getModifier());
 			methodJJD.setSemantic(method.getSemantic());
-			methodJJD.setReturnType(method.getModifier());
+			methodJJD.setReturnType(method.getReturnType());
 			
 			addAttributeToMethod(methodJJD, method.getListAttributesJJD());
 			
@@ -275,6 +287,7 @@ public class ModelFactoryModel {
 		
 		content.append("class " + classJJD.getName() + " {\n"
 				+ getAttributesClass(classJJD) + "\n"
+				+ getAttributesRelations(classJJD) + "\n"
 				+ "\t" + classJJD.getName() + "();\n"
 				+ "\n"
 				+ getMethodsClass(classJJD) + "\n"
@@ -299,9 +312,20 @@ public class ModelFactoryModel {
 //			System.out.print(folderSelected);
 //		}
 		
-		
-		String routeDesktop = System.getProperty("user.home") + "/Desktop/ClassDart";
-		String routeFile = routeDesktop + "/" + nombreClase;
+		String operatingSystem = System.getProperty("os.name").toLowerCase();
+		String routeDesktop = "";
+		String routeFile = "";
+
+
+        if (operatingSystem.contains("win")) {
+        	routeDesktop = System.getProperty("user.home") + "\\Desktop\\ClassDart";
+    		routeFile = routeDesktop + "\\" + nombreClase;
+        } else if (operatingSystem.contains("mac")) {
+        	routeDesktop = System.getProperty("user.home") + "/Desktop/ClassDart";
+    		routeFile = routeDesktop + "/" + nombreClase;
+        } else {
+            System.out.println("Estás en un sistema diferente de Windows y Mac.");
+        }
 		
 		File carpeta = new File(routeDesktop);
 	    if (!carpeta.exists()) {
@@ -329,19 +353,20 @@ public class ModelFactoryModel {
 		return attribute;	
 	}
 	
+	private String getAttributesRelations(abstractJJD.ClassJJD classJJD) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
 	private String getMethodsClass(abstractJJD.ClassJJD classJJD) {
 		String method = "";
 		
 		for (abstractJJD.MethodJJD methodJJD : classJJD.getListMethodsJJD()) {
 			
-			System.out.println(methodJJD.getReturnType() != "void" ? "return variable;" : "");
-			System.out.println(methodJJD.getReturnType());
-			System.out.println("void");
-			
-			method += methodJJD.getReturnType() + " " + methodJJD.getName() + "(" + getParametersMethod(methodJJD) + ") {\n";
-			method += methodJJD.getReturnType().equalsIgnoreCase("void") ? "" : "\t" + methodJJD.getReturnType() + " variable; \n";
-			method += methodJJD.getReturnType().equalsIgnoreCase("void") ? "" : "\treturn variable;" + "\n";
-			method += "}\n\n";
+			method += "\t" + methodJJD.getReturnType() + " " + methodJJD.getName() + "(" + getParametersMethod(methodJJD) + ") {\n";
+			method += methodJJD.getReturnType().equalsIgnoreCase("void") ? "" : "\t\t" + methodJJD.getReturnType() + " variable; \n";
+			method += methodJJD.getReturnType().equalsIgnoreCase("void") ? "" : "\t\treturn variable;" + "\n";
+			method += "\t}\n\n";
 		}
 		return method;
 	}
