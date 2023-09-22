@@ -94,7 +94,7 @@
       </actualFigure>
     </descriptors>
     <descriptors name="InheritanceJJDFigure">
-      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="InheritanceJJDFigure" lineWidth="2" sourceDecoration="//@figures.0/@figures.1">
+      <actualFigure xsi:type="gmfgraph:PolylineConnection" name="InheritanceJJDFigure" lineWidth="2" targetDecoration="//@figures.0/@figures.1">
         <foregroundColor xsi:type="gmfgraph:RGBColor" red="1" green="24" blue="146"/>
       </actualFigure>
     </descriptors>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="concrete" nsURI="concrete" nsPrefix="concrete">
+  <eAnnotations source="gmf"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ModelFactoryConcreteJJD">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="listClassDiagramJJD" upperBound="-1"
+        eType="#//ClassDiagramJJD" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ClassDiagramJJD">
+    <eAnnotations source="gmf.diagram"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="listPackagesJJD" upperBound="-1"
+        eType="#//PackageJJD" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="listClassJJD" upperBound="-1"
+        eType="#//ClassJJD" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="listRelationsJJD" upperBound="-1"
+        eType="#//RelationJJD" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PackageJJD">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="nameSpace" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="subPackagesJJD" upperBound="-1"
+        eType="#//PackageJJD" containment="true">
+      <eAnnotations source="gmf.compartment"/>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="listClassJJD" upperBound="-1"
+        eType="#//ClassJJD" containment="true">
+      <eAnnotations source="gmf.compartment"/>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ClassJJD">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="color" value="205,234,239"/>
+      <details key="border.color" value="0,0,0"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isAbstract" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="listAttributesJJD" upperBound="-1"
+        eType="#//AttributeJJD" containment="true">
+      <eAnnotations source="gmf.compartment">
+        <details key="layout" value="list"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="listMethodsJJD" upperBound="-1"
+        eType="#//MethodJJD" containment="true">
+      <eAnnotations source="gmf.compartment">
+        <details key="layout" value="list"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AttributeJJD">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name, type"/>
+      <details key="label.pattern" value="{0} : {1}"/>
+      <details key="border.width" value="0"/>
+      <details key="size" value="200,25"/>
+      <details key="color" value="205,234,239"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MethodJJD">
+    <eAnnotations source="gmf.node">
+      <details key="label" value="name"/>
+      <details key="color" value="205,234,239"/>
+      <details key="border.width" value="0"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="modifier" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="semantic" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="returnType" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="listAttributesJJD" upperBound="-1"
+        eType="#//AttributeJJD" containment="true">
+      <eAnnotations source="gmf.compartment">
+        <details key="layout" value="list"/>
+      </eAnnotations>
+    </eStructuralFeatures>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RelationJJD">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rolA" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="rolB" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="navigabilityA" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="navigabilityB" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="multiplicityA" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="multiplicityB" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="source" eType="#//ClassJJD"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="target" eType="#//ClassJJD"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AgregationJJD" eSuperTypes="#//RelationJJD">
+    <eAnnotations source="gmf.link">
+      <details key="source" value="source"/>
+      <details key="target" value="target"/>
+      <details key="style" value="solid"/>
+      <details key="width" value="2"/>
+      <details key="source.decoration" value="rhomb"/>
+      <details key="color" value="1,24,146"/>
+      <details key="source.placement" value="none"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InheritanceJJD" eSuperTypes="#//RelationJJD">
+    <eAnnotations source="gmf.link">
+      <details key="source" value="source"/>
+      <details key="target" value="target"/>
+      <details key="style" value="solid"/>
+      <details key="width" value="2"/>
+      <details key="figure" value="rounded"/>
+      <details key="source.decoration" value="closedarrow"/>
+      <details key="color" value="1,24,146"/>
+      <details key="label.placement" value="none"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ContainmentJJD" eSuperTypes="#//RelationJJD">
+    <eAnnotations source="gmf.link">
+      <details key="label" value="rolB"/>
+      <details key="source" value="source"/>
+      <details key="target" value="target"/>
+      <details key="style" value="solid"/>
+      <details key="width" value="2"/>
+      <details key="figure" value="rounded"/>
+      <details key="source.decoration" value="filledrhomb"/>
+      <details key="color" value="1,24,146"/>
+      <details key="label.placement" value="none"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AssociationJJD" eSuperTypes="#//RelationJJD">
+    <eAnnotations source="gmf.link">
+      <details key="source" value="source"/>
+      <details key="target" value="target"/>
+      <details key="style" value="solid"/>
+      <details key="width" value="2"/>
+      <details key="figure" value="rounded"/>
+      <details key="target.decoration" value="arrow"/>
+      <details key="color" value="1,24,146"/>
+      <details key="label.placement" value="none"/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ImplementJJD" eSuperTypes="#//RelationJJD">
+    <eAnnotations source="gmf.link">
+      <details key="source" value="source"/>
+      <details key="target" value="target"/>
+      <details key="style" value="dot"/>
+      <details key="width" value="2"/>
+      <details key="figure" value="rounded"/>
+      <details key="source.decoration" value="closedarrow"/>
+      <details key="color" value="1,24,146"/>
+      <details key="label.placement" value="none"/>
+    </eAnnotations>
+  </eClassifiers>
+</ecore:EPackage>

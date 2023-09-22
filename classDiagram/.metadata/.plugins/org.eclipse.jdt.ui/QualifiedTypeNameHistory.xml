@@ -17,4 +17,5 @@
     <fullyQualifiedTypeName name="javax.swing.filechooser.FileNameExtensionFilter"/>
     <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
     <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="abstractJJD.RelationJJD"/>
 </qualifiedTypeNameHistroy>

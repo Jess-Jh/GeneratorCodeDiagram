@@ -354,8 +354,24 @@ public class ModelFactoryModel {
 	}
 	
 	private String getAttributesRelations(abstractJJD.ClassJJD classJJD) {
-		// TODO Auto-generated method stub
-		return null;
+		String attribute = "";
+		
+		for (abstractJJD.RelationJJD relationJJD : classJJD.getListRelationsJJD()) {
+			
+			if(relationJJD.getRolA() != null) {
+				if(relationJJD.getRolA().equalsIgnoreCase(classJJD.getName())) {
+					attribute += relationJJD.getMultiplicityB().equalsIgnoreCase("*") ? "\tfinal List<" + relationJJD.getSource().getName() + ">" +"? " + relationJJD.getRolB() + ";" : "\n";		
+					attribute += relationJJD.getMultiplicityB().equalsIgnoreCase("1") ? "\tfinal " + relationJJD.getSource().getName() +"? " + relationJJD.getRolB().toLowerCase() + ";" : "\n";		
+				}
+			}
+			if(relationJJD.getRolA() != null) {
+				if(relationJJD.getRolB().equalsIgnoreCase(classJJD.getName())) {
+					attribute += relationJJD.getMultiplicityA().equalsIgnoreCase("*") ? "\tfinal List<" + relationJJD.getTarget().getName() + ">" +"? " + relationJJD.getRolA() + ";" : "\n";		
+					attribute += relationJJD.getMultiplicityA().equalsIgnoreCase("1") ? "\tfinal " + relationJJD.getTarget().getName() +"? " + relationJJD.getRolA().toLowerCase() + ";" : "\n";		
+				}
+			}
+		}
+		return attribute;
 	}
 	
 	private String getMethodsClass(abstractJJD.ClassJJD classJJD) {
