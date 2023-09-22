@@ -1,0 +1,46 @@
+/**
+ */
+package concrete;
+
+
+/**
+ * <!-- begin-user-doc -->
+ * A representation of the model object '<em><b>Implement JJD</b></em>'.
+ * <!-- end-user-doc -->
+ *
+ * <p>
+ * The following features are supported:
+ * </p>
+ * <ul>
+ *   <li>{@link concrete.ImplementJJD#getName <em>Name</em>}</li>
+ * </ul>
+ *
+ * @see concrete.ConcretePackage#getImplementJJD()
+ * @model annotation="gmf.link source='source' target='target' style='dot' width='2' figure='rounded' source.decoration='closedarrow' color='1,24,146'"
+ * @generated
+ */
+public interface ImplementJJD extends RelationJJD {
+
+	/**
+	 * Returns the value of the '<em><b>Name</b></em>' attribute.
+	 * The default value is <code>"ImplementJJD"</code>.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Name</em>' attribute.
+	 * @see #setName(String)
+	 * @see concrete.ConcretePackage#getImplementJJD_Name()
+	 * @model default="ImplementJJD"
+	 * @generated
+	 */
+	String getName();
+
+	/**
+	 * Sets the value of the '{@link concrete.ImplementJJD#getName <em>Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Name</em>' attribute.
+	 * @see #getName()
+	 * @generated
+	 */
+	void setName(String value);
+} // ImplementJJD

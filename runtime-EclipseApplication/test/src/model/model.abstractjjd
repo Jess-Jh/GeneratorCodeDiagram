@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<abstractJJD:ModelFactoryAbstractJJD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:abstractJJD="abstractJJD">
+<abstractJJD:ModelFactoryAbstractJJD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:abstractJJD="abstractJJD">
   <listPackagesJJD name="src" nameSpace="src/domain/Aeroline">
     <subPackagesJJD name="domain" nameSpace="src/domain/Aeroline">
       <subPackagesJJD name="Aeroline" nameSpace="src/domain/Aeroline">
@@ -12,13 +12,13 @@
           <listMethodsJJD name="addClient" returnType="Client">
             <listAttributesJJD name="client" type="Client"/>
           </listMethodsJJD>
-          <listRelationsJJD rolA="Aeroline" rolB="listShippingCards" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.2" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
-          <listRelationsJJD rolA="Aeroline" rolB="listBaggages" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.1" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
-          <listRelationsJJD rolA="Aeroline" rolB="listTickets" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.6" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
-          <listRelationsJJD rolA="Aeroline" rolB="listClients" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.13" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
-          <listRelationsJJD rolA="Aeroline" rolB="listCrewMembers" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.11" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
-          <listRelationsJJD rolA="Aeroline" rolB="listAirplane" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
-          <listRelationsJJD rolA="Aeroline" rolB="listRoutes" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.3" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
+          <listRelationsJJD xsi:type="abstractJJD:ContainmentJJD" rolA="Aeroline" rolB="listShippingCards" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.2" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
+          <listRelationsJJD xsi:type="abstractJJD:ContainmentJJD" rolA="Aeroline" rolB="listBaggages" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.1" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
+          <listRelationsJJD xsi:type="abstractJJD:ContainmentJJD" rolA="Aeroline" rolB="listTickets" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.6" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
+          <listRelationsJJD xsi:type="abstractJJD:ContainmentJJD" rolA="Aeroline" rolB="listClients" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.13" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
+          <listRelationsJJD xsi:type="abstractJJD:ContainmentJJD" rolA="Aeroline" rolB="listCrewMembers" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.11" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
+          <listRelationsJJD xsi:type="abstractJJD:ContainmentJJD" rolA="Aeroline" rolB="listAirplane" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
+          <listRelationsJJD xsi:type="abstractJJD:ContainmentJJD" rolA="Aeroline" rolB="listRoutes" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.3" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
         </listClassJJD>
         <listClassJJD name="Baggage">
           <listAttributesJJD name="idClient" type="String"/>
@@ -29,30 +29,30 @@
           <listAttributesJJD name="baggageDimension1" type="String"/>
           <listAttributesJJD name="baggageDimension2" type="String"/>
           <listAttributesJJD name="airplaneNumber " type="String"/>
-          <listRelationsJJD rolA="Aeroline" rolB="listBaggages" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.1" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
+          <listRelationsJJD xsi:type="abstractJJD:ContainmentJJD" rolA="Aeroline" rolB="listBaggages" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.1" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
         </listClassJJD>
         <listClassJJD name="ShippingCart">
           <listAttributesJJD name="weight" type="double"/>
           <listAttributesJJD name="idNumber" type="String"/>
           <listAttributesJJD name="airplaneNumber" type="String"/>
-          <listRelationsJJD rolA="Aeroline" rolB="listShippingCards" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.2" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
+          <listRelationsJJD xsi:type="abstractJJD:ContainmentJJD" rolA="Aeroline" rolB="listShippingCards" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.2" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
         </listClassJJD>
         <listClassJJD name="Route" isAbstract="true">
           <listAttributesJJD name="cityOrigin" type="String"/>
           <listAttributesJJD name="destinationCity" type="String"/>
           <listAttributesJJD name="duration" type="String"/>
           <listAttributesJJD name="departureTime " type="String"/>
-          <listRelationsJJD source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.3" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.4"/>
-          <listRelationsJJD source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.3" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.5"/>
-          <listRelationsJJD rolA="Aeroline" rolB="listRoutes" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.3" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
-          <listRelationsJJD rolA="Ticket" rolB="Route" navigabilityA="true" navigabilityB="false" multiplicityB="1" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.3" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.6"/>
-          <listRelationsJJD rolA="Airplane" rolB="Route" navigabilityA="true" navigabilityB="false" multiplicityB="1" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.3" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7"/>
+          <listRelationsJJD xsi:type="abstractJJD:InheritanceJJD" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.3" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.4"/>
+          <listRelationsJJD xsi:type="abstractJJD:InheritanceJJD" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.3" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.5"/>
+          <listRelationsJJD xsi:type="abstractJJD:ContainmentJJD" rolA="Aeroline" rolB="listRoutes" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.3" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
+          <listRelationsJJD xsi:type="abstractJJD:AssociationJJD" rolA="Ticket" rolB="Route" navigabilityA="true" navigabilityB="false" multiplicityB="1" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.3" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.6"/>
+          <listRelationsJJD xsi:type="abstractJJD:AssociationJJD" rolA="Airplane" rolB="Route" navigabilityA="true" navigabilityB="false" multiplicityB="1" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.3" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7"/>
         </listClassJJD>
         <listClassJJD name="International">
-          <listRelationsJJD source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.3" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.4"/>
+          <listRelationsJJD xsi:type="abstractJJD:InheritanceJJD" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.3" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.4"/>
         </listClassJJD>
         <listClassJJD name="National">
-          <listRelationsJJD source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.3" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.5"/>
+          <listRelationsJJD xsi:type="abstractJJD:InheritanceJJD" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.3" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.5"/>
         </listClassJJD>
         <listClassJJD name="Ticket">
           <listAttributesJJD name="travelType" type="String"/>
@@ -63,37 +63,37 @@
           <listAttributesJJD name="costPerPerson" type="double"/>
           <listAttributesJJD name="finalPrice" type="double"/>
           <listAttributesJJD name="occupancyChairs" type="List&lt;String>"/>
-          <listRelationsJJD rolA="Aeroline" rolB="listTickets" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.6" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
-          <listRelationsJJD rolA="Ticket" rolB="Client" navigabilityA="true" navigabilityB="false" multiplicityA="" multiplicityB="1" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.13" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.6"/>
-          <listRelationsJJD rolA="Ticket" rolB="Route" navigabilityA="true" navigabilityB="false" multiplicityB="1" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.3" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.6"/>
+          <listRelationsJJD xsi:type="abstractJJD:ContainmentJJD" rolA="Aeroline" rolB="listTickets" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.6" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
+          <listRelationsJJD xsi:type="abstractJJD:AssociationJJD" rolA="Ticket" rolB="Client" navigabilityA="true" navigabilityB="false" multiplicityA="" multiplicityB="1" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.13" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.6"/>
+          <listRelationsJJD xsi:type="abstractJJD:AssociationJJD" rolA="Ticket" rolB="Route" navigabilityA="true" navigabilityB="false" multiplicityB="1" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.3" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.6"/>
         </listClassJJD>
         <listClassJJD name="Airplane" isAbstract="true">
           <listAttributesJJD name="name" type="String"/>
           <listAttributesJJD name="seatingCapacity" type="List&lt;String>"/>
           <listAttributesJJD name=" chargeCapacity" type="double"/>
           <listAttributesJJD name="airplaneIdentificationNumber" type="String"/>
-          <listRelationsJJD source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.8"/>
-          <listRelationsJJD source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.9"/>
-          <listRelationsJJD source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.10"/>
-          <listRelationsJJD rolA="Aeroline" rolB="listAirplane" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
-          <listRelationsJJD rolA="Airplane" rolB="listCrewMembers" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.11" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7"/>
-          <listRelationsJJD rolA="Airplane" rolB="Route" navigabilityA="true" navigabilityB="false" multiplicityB="1" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.3" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7"/>
+          <listRelationsJJD xsi:type="abstractJJD:InheritanceJJD" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.8"/>
+          <listRelationsJJD xsi:type="abstractJJD:InheritanceJJD" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.9"/>
+          <listRelationsJJD xsi:type="abstractJJD:InheritanceJJD" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.10"/>
+          <listRelationsJJD xsi:type="abstractJJD:ContainmentJJD" rolA="Aeroline" rolB="listAirplane" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
+          <listRelationsJJD xsi:type="abstractJJD:AgregationJJD" rolA="Airplane" rolB="listCrewMembers" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.11" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7"/>
+          <listRelationsJJD xsi:type="abstractJJD:AssociationJJD" rolA="Airplane" rolB="Route" navigabilityA="true" navigabilityB="false" multiplicityB="1" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.3" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7"/>
         </listClassJJD>
         <listClassJJD name="Boeing787">
-          <listRelationsJJD source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.8"/>
+          <listRelationsJJD xsi:type="abstractJJD:InheritanceJJD" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.8"/>
         </listClassJJD>
         <listClassJJD name="AirbusA330">
-          <listRelationsJJD source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.9"/>
+          <listRelationsJJD xsi:type="abstractJJD:InheritanceJJD" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.9"/>
         </listClassJJD>
         <listClassJJD name="AirbusA320">
-          <listRelationsJJD source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.10"/>
+          <listRelationsJJD xsi:type="abstractJJD:InheritanceJJD" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.10"/>
         </listClassJJD>
         <listClassJJD name="CrewMember">
           <listAttributesJJD name="studiesPerformed" type="String"/>
           <listAttributesJJD name="crewType" type="String"/>
-          <listRelationsJJD source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.12" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.11"/>
-          <listRelationsJJD rolA="Aeroline" rolB="listCrewMembers" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.11" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
-          <listRelationsJJD rolA="Airplane" rolB="listCrewMembers" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.11" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7"/>
+          <listRelationsJJD xsi:type="abstractJJD:InheritanceJJD" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.12" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.11"/>
+          <listRelationsJJD xsi:type="abstractJJD:ContainmentJJD" rolA="Aeroline" rolB="listCrewMembers" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.11" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
+          <listRelationsJJD xsi:type="abstractJJD:AgregationJJD" rolA="Airplane" rolB="listCrewMembers" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.11" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.7"/>
         </listClassJJD>
         <listClassJJD name="Person" isAbstract="true">
           <listAttributesJJD name="id" type="String"/>
@@ -102,15 +102,15 @@
           <listAttributesJJD name="address" type="String"/>
           <listAttributesJJD name="email" type="String"/>
           <listAttributesJJD name="birthDate" type="LocalDate"/>
-          <listRelationsJJD source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.12" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.11"/>
-          <listRelationsJJD source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.12" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.13"/>
+          <listRelationsJJD xsi:type="abstractJJD:InheritanceJJD" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.12" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.11"/>
+          <listRelationsJJD xsi:type="abstractJJD:InheritanceJJD" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.12" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.13"/>
         </listClassJJD>
         <listClassJJD name="Client">
           <listAttributesJJD name="residentialAddress" type="String"/>
           <listAttributesJJD name="debit/creditCardNumber" type="String"/>
-          <listRelationsJJD source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.12" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.13"/>
-          <listRelationsJJD rolA="Aeroline" rolB="listClients" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.13" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
-          <listRelationsJJD rolA="Ticket" rolB="Client" navigabilityA="true" navigabilityB="false" multiplicityA="" multiplicityB="1" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.13" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.6"/>
+          <listRelationsJJD xsi:type="abstractJJD:InheritanceJJD" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.12" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.13"/>
+          <listRelationsJJD xsi:type="abstractJJD:ContainmentJJD" rolA="Aeroline" rolB="listClients" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.13" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
+          <listRelationsJJD xsi:type="abstractJJD:AssociationJJD" rolA="Ticket" rolB="Client" navigabilityA="true" navigabilityB="false" multiplicityA="" multiplicityB="1" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.13" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.6"/>
         </listClassJJD>
       </subPackagesJJD>
     </subPackagesJJD>

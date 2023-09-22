@@ -146,7 +146,25 @@ public class ModelFactoryModel {
 					abstractJJD.ClassJJD classJJDSource = getClass(sourceConcrete.getName(), packageJJD.getNameSpace());
 					abstractJJD.ClassJJD classJJDTarget = getClass(targetConcrete.getName(), packageJJD.getNameSpace());
 					
-					abstractJJD.RelationJJD relationJJDSource = AbstractJJDFactory.eINSTANCE.createRelationJJD();
+					abstractJJD.RelationJJD relationJJDSource = null;
+					
+					
+					if(relationConcrete.getClass().getName().contains("ContainmentJJDImpl")) 
+						relationJJDSource = AbstractJJDFactory.eINSTANCE.createContainmentJJD();
+					
+					if(relationConcrete.getClass().getName().contains("AgregationJJDImpl")) 
+						relationJJDSource = AbstractJJDFactory.eINSTANCE.createAgregationJJD();
+					
+					if(relationConcrete.getClass().getName().contains("InheritanceJJDImpl")) 
+						relationJJDSource = AbstractJJDFactory.eINSTANCE.createInheritanceJJD();
+					
+					if(relationConcrete.getClass().getName().contains("AssociationJJDImpl")) 
+						relationJJDSource = AbstractJJDFactory.eINSTANCE.createAssociationJJD();
+					
+					if(relationConcrete.getClass().getName().contains("ImplementJJDImpl")) 
+						relationJJDSource = AbstractJJDFactory.eINSTANCE.createImplementJJD();
+					
+					
 					relationJJDSource.setTarget(classJJDSource);
 					relationJJDSource.setSource(classJJDTarget);
 					relationJJDSource.setMultiplicityA(relationConcrete.getMultiplicityA());
@@ -158,7 +176,24 @@ public class ModelFactoryModel {
 					
 					classJJDSource.getListRelationsJJD().add(relationJJDSource);
 					
-					abstractJJD.RelationJJD relationJJDTarget = AbstractJJDFactory.eINSTANCE.createRelationJJD();
+					
+					abstractJJD.RelationJJD relationJJDTarget = null;
+					
+					if(relationConcrete.getClass().getName().contains("ContainmentJJDImpl")) 
+						relationJJDTarget = AbstractJJDFactory.eINSTANCE.createContainmentJJD();
+					
+					if(relationConcrete.getClass().getName().contains("AgregationJJDImpl")) 
+						relationJJDTarget = AbstractJJDFactory.eINSTANCE.createAgregationJJD();
+					
+					if(relationConcrete.getClass().getName().contains("InheritanceJJDImpl")) 
+						relationJJDTarget = AbstractJJDFactory.eINSTANCE.createInheritanceJJD();
+					
+					if(relationConcrete.getClass().getName().contains("AssociationJJDImpl")) 
+						relationJJDTarget = AbstractJJDFactory.eINSTANCE.createAssociationJJD();
+					
+					if(relationConcrete.getClass().getName().contains("ImplementJJDImpl")) 
+						relationJJDTarget = AbstractJJDFactory.eINSTANCE.createImplementJJD();
+					
 					relationJJDTarget.setTarget(classJJDSource);
 					relationJJDTarget.setSource(classJJDTarget);
 					relationJJDTarget.setMultiplicityA(relationConcrete.getMultiplicityA());
@@ -358,18 +393,31 @@ public class ModelFactoryModel {
 		
 		for (abstractJJD.RelationJJD relationJJD : classJJD.getListRelationsJJD()) {
 			
-			if(relationJJD.getRolA() != null) {
-				if(relationJJD.getRolA().equalsIgnoreCase(classJJD.getName())) {
+			System.out.println(relationJJD.getClass().getName());
+			
+			if(relationJJD.getClass().getName().contains("ContainmentJJDImpl") || relationJJD.getClass().getName().contains("AgregationJJDImpl")) {
+				
+				if(relationJJD.getRolA() != null && relationJJD.getRolA().equalsIgnoreCase(classJJD.getName())) {
+						attribute += relationJJD.getMultiplicityB().equalsIgnoreCase("*") ? "\tfinal List<" + relationJJD.getSource().getName() + ">" +"? " + relationJJD.getRolB() + ";" : "\n";		
+						attribute += relationJJD.getMultiplicityB().equalsIgnoreCase("1") ? "\tfinal " + relationJJD.getSource().getName() +"? " + relationJJD.getRolB().toLowerCase() + ";" : "\n";		
+				}
+				if(relationJJD.getRolB() != null && relationJJD.getRolB().equalsIgnoreCase(classJJD.getName())) {
+						attribute += relationJJD.getMultiplicityA().equalsIgnoreCase("*") ? "\tfinal List<" + relationJJD.getTarget().getName() + ">" +"? " + relationJJD.getRolA() + ";" : "\n";		
+						attribute += relationJJD.getMultiplicityA().equalsIgnoreCase("1") ? "\tfinal " + relationJJD.getTarget().getName() +"? " + relationJJD.getRolA().toLowerCase() + ";" : "\n";		
+				}
+			}
+			
+			if(relationJJD.getClass().getName().contains("InheritanceJJDImpl")) {
+				if(relationJJD.getNavigabilityA().equalsIgnoreCase("true")) {
 					attribute += relationJJD.getMultiplicityB().equalsIgnoreCase("*") ? "\tfinal List<" + relationJJD.getSource().getName() + ">" +"? " + relationJJD.getRolB() + ";" : "\n";		
-					attribute += relationJJD.getMultiplicityB().equalsIgnoreCase("1") ? "\tfinal " + relationJJD.getSource().getName() +"? " + relationJJD.getRolB().toLowerCase() + ";" : "\n";		
+					attribute += relationJJD.getMultiplicityB().equalsIgnoreCase("1") ? "\tfinal " + relationJJD.getSource().getName() +"? " + relationJJD.getRolB().toLowerCase() + ";" : "\n";
+				}
+				if(relationJJD.getNavigabilityB().equalsIgnoreCase("true")) {
+					attribute += relationJJD.getMultiplicityA().equalsIgnoreCase("*") ? "\tfinal List<" + relationJJD.getSource().getName() + ">" +"? " + relationJJD.getRolA() + ";" : "\n";		
+					attribute += relationJJD.getMultiplicityA().equalsIgnoreCase("1") ? "\tfinal " + relationJJD.getSource().getName() +"? " + relationJJD.getRolA().toLowerCase() + ";" : "\n";
 				}
 			}
-			if(relationJJD.getRolA() != null) {
-				if(relationJJD.getRolB().equalsIgnoreCase(classJJD.getName())) {
-					attribute += relationJJD.getMultiplicityA().equalsIgnoreCase("*") ? "\tfinal List<" + relationJJD.getTarget().getName() + ">" +"? " + relationJJD.getRolA() + ";" : "\n";		
-					attribute += relationJJD.getMultiplicityA().equalsIgnoreCase("1") ? "\tfinal " + relationJJD.getTarget().getName() +"? " + relationJJD.getRolA().toLowerCase() + ";" : "\n";		
-				}
-			}
+			
 		}
 		return attribute;
 	}
