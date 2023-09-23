@@ -14,6 +14,8 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.eclipse.emf.common.util.EList;
 
@@ -319,11 +321,14 @@ public class ModelFactoryModel {
 	private void CreateDartFile(abstractJJD.ClassJJD classJJD) {
 		
 		StringBuilder content = new StringBuilder();
+		List<String> inheritanceClass = getRelationInheritanceJJD(classJJD);
+		List<String> listAttributes = getAttributesClass(classJJD);
+		List<String> listAttributesRelations = getAttributesRelations(classJJD);
 		
-		content.append("class " + classJJD.getName() + " {\n"
-				+ getAttributesClass(classJJD) + "\n"
-				+ getAttributesRelations(classJJD) + "\n"
-				+ "\t" + classJJD.getName() + "();\n"
+		content.append("class " + classJJD.getName() + (inheritanceClass != null ? " extends " + inheritanceClass.get(0) : "") +" {\n"
+				+ "\t" + classJJD.getName() + "({\n" +  listAttributes.get(1) + listAttributesRelations.get(1) + "\t})" + (inheritanceClass.get(1).length() > 0 ? ": super(" + inheritanceClass.get(1) + ")"  : "") + ";\n\n"
+				+ listAttributes.get(0)
+				+ listAttributesRelations.get(0)
 				+ "\n"
 				+ getMethodsClass(classJJD) + "\n"
 				+ "}");
@@ -331,7 +336,7 @@ public class ModelFactoryModel {
 		CreateFile(classJJD.getName()+".dart",content);
 	}
 
-	private void CreateFile(String nombreClase, StringBuilder content) {
+	private void CreateFile(String nameClass, StringBuilder content) {
 		
 //		JFileChooser fileChooser = new JFileChooser();
 //		fileChooser.setCurrentDirectory(new File("."));
@@ -354,10 +359,10 @@ public class ModelFactoryModel {
 
         if (operatingSystem.contains("win")) {
         	routeDesktop = System.getProperty("user.home") + "\\Desktop\\ClassDart";
-    		routeFile = routeDesktop + "\\" + nombreClase;
+    		routeFile = routeDesktop + "\\" + nameClass;
         } else if (operatingSystem.contains("mac")) {
         	routeDesktop = System.getProperty("user.home") + "/Desktop/ClassDart";
-    		routeFile = routeDesktop + "/" + nombreClase;
+    		routeFile = routeDesktop + "/" + nameClass;
         } else {
             System.out.println("Estás en un sistema diferente de Windows y Mac.");
         }
@@ -371,55 +376,99 @@ public class ModelFactoryModel {
 	        	
             write.write(content.toString());
             write.close();
-	        System.out.println("Se ha creado el archivo " + nombreClase + " en la siguiente ruta: " + routeDesktop);
+	        System.out.println("Se ha creado el archivo " + nameClass + " en la siguiente ruta: " + routeDesktop);
 	    } catch (IOException e) {
 	        System.out.print(e);
 	        e.printStackTrace();
 	            
 	    }
 	}
+	
+	private List<String> getRelationInheritanceJJD(abstractJJD.ClassJJD classJJD) {
+		
+		List<String> inheritance = new ArrayList<>();
+		String inheritanceClass = "";
+		String attributes = "";
+		boolean first = true;
+		
+		for (abstractJJD.RelationJJD relationJJD : classJJD.getListRelationsJJD()) {
+			if(relationJJD.getClass().getName().contains("InheritanceJJDImpl")) {
+				if(relationJJD.getSource().getName() != classJJD.getName()) {
+					inheritanceClass = relationJJD.getSource().getName();
+					
+					for(abstractJJD.AttributeJJD attribute : relationJJD.getSource().getListAttributesJJD()) {
+						
+						if (!first) {
+							attributes += ", ";
+					    }
+						attributes += attribute.getName() +": " + attribute.getName();
+					    first = false; 
+						
+					}
+				}
+			}
+		}
+		
+		inheritance.add(inheritanceClass);
+		inheritance.add(attributes);
+		
+		return inheritance;
+	}
 
-	private String getAttributesClass(abstractJJD.ClassJJD classJJD) {
+	private List<String> getAttributesClass(abstractJJD.ClassJJD classJJD) {
+		List<String> typesAttributes = new ArrayList<>();
 		String attribute = "";
+		String attribute2 = "";
 		
 		for (abstractJJD.AttributeJJD attibuteJJD : classJJD.getListAttributesJJD()) {
 			attribute += "\tfinal " + attibuteJJD.getType() +"? " + attibuteJJD.getName() + ";" + "\n";		
+			attribute2 += "\t\tthis." + attibuteJJD.getName() + "," + "\n";		
 		}
-		return attribute;	
+		
+		typesAttributes.add(attribute);
+		typesAttributes.add(attribute2);
+		
+		return typesAttributes;	
 	}
 	
-	private String getAttributesRelations(abstractJJD.ClassJJD classJJD) {
+	private List<String> getAttributesRelations(abstractJJD.ClassJJD classJJD) {
+		List<String> typesAttributes = new ArrayList<>();
 		String attribute = "";
+		String attribute2 = "";
 		
 		for (abstractJJD.RelationJJD relationJJD : classJJD.getListRelationsJJD()) {
-			
-			System.out.println(relationJJD.getClass().getName());
-			
+						
 			if(relationJJD.getClass().getName().contains("ContainmentJJDImpl") || relationJJD.getClass().getName().contains("AgregationJJDImpl")) {
 				
 				if(relationJJD.getRolA() != null && relationJJD.getRolA().equalsIgnoreCase(classJJD.getName())) {
 						attribute += relationJJD.getMultiplicityB().equalsIgnoreCase("*") ? "\tfinal List<" + relationJJD.getSource().getName() + ">" +"? " + relationJJD.getRolB() + ";" : "\n";		
 						attribute += relationJJD.getMultiplicityB().equalsIgnoreCase("1") ? "\tfinal " + relationJJD.getSource().getName() +"? " + relationJJD.getRolB().toLowerCase() + ";" : "\n";		
+						attribute2 += "\t\tthis." + relationJJD.getRolB().toLowerCase() + ",\n";		
 				}
 				if(relationJJD.getRolB() != null && relationJJD.getRolB().equalsIgnoreCase(classJJD.getName())) {
 						attribute += relationJJD.getMultiplicityA().equalsIgnoreCase("*") ? "\tfinal List<" + relationJJD.getTarget().getName() + ">" +"? " + relationJJD.getRolA() + ";" : "\n";		
 						attribute += relationJJD.getMultiplicityA().equalsIgnoreCase("1") ? "\tfinal " + relationJJD.getTarget().getName() +"? " + relationJJD.getRolA().toLowerCase() + ";" : "\n";		
+						attribute2 += "\t\tthis." + relationJJD.getRolA().toLowerCase() + ",\n";		
 				}
 			}
 			
-			if(relationJJD.getClass().getName().contains("InheritanceJJDImpl")) {
+			if(relationJJD.getClass().getName().contains("AssociationJJDImpl")) {
 				if(relationJJD.getNavigabilityA().equalsIgnoreCase("true")) {
 					attribute += relationJJD.getMultiplicityB().equalsIgnoreCase("*") ? "\tfinal List<" + relationJJD.getSource().getName() + ">" +"? " + relationJJD.getRolB() + ";" : "\n";		
 					attribute += relationJJD.getMultiplicityB().equalsIgnoreCase("1") ? "\tfinal " + relationJJD.getSource().getName() +"? " + relationJJD.getRolB().toLowerCase() + ";" : "\n";
+					attribute2 += "\t\tthis." + relationJJD.getRolB().toLowerCase() + ",\n";		
 				}
 				if(relationJJD.getNavigabilityB().equalsIgnoreCase("true")) {
 					attribute += relationJJD.getMultiplicityA().equalsIgnoreCase("*") ? "\tfinal List<" + relationJJD.getSource().getName() + ">" +"? " + relationJJD.getRolA() + ";" : "\n";		
 					attribute += relationJJD.getMultiplicityA().equalsIgnoreCase("1") ? "\tfinal " + relationJJD.getSource().getName() +"? " + relationJJD.getRolA().toLowerCase() + ";" : "\n";
+					attribute2 += "\t\tthis." + relationJJD.getRolA().toLowerCase() + "\n";		
 				}
 			}
 			
 		}
-		return attribute;
+		typesAttributes.add(attribute);
+		typesAttributes.add(attribute2);
+		return typesAttributes;
 	}
 	
 	private String getMethodsClass(abstractJJD.ClassJJD classJJD) {
@@ -443,8 +492,5 @@ public class ModelFactoryModel {
 		}
 		return parameter;
 	}
-
-
-
 
 }

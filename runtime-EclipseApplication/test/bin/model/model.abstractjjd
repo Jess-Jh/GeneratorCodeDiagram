@@ -107,7 +107,7 @@
         </listClassJJD>
         <listClassJJD name="Client">
           <listAttributesJJD name="residentialAddress" type="String"/>
-          <listAttributesJJD name="debit/creditCardNumber" type="String"/>
+          <listAttributesJJD name="debitCreditCardNumber" type="String"/>
           <listRelationsJJD xsi:type="abstractJJD:InheritanceJJD" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.12" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.13"/>
           <listRelationsJJD xsi:type="abstractJJD:ContainmentJJD" rolA="Aeroline" rolB="listClients" navigabilityA="true" navigabilityB="true" multiplicityA="1" multiplicityB="*" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.13" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.0"/>
           <listRelationsJJD xsi:type="abstractJJD:AssociationJJD" rolA="Ticket" rolB="Client" navigabilityA="true" navigabilityB="false" multiplicityA="" multiplicityB="1" source="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.13" target="//@listPackagesJJD.0/@subPackagesJJD.0/@subPackagesJJD.0/@listClassJJD.6"/>

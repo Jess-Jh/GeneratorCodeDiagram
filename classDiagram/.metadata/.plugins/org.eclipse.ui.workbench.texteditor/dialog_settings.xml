@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="AGREGATION_JJD__NAME_RELATION"/>
+		<item key="selection" value="getAttributesInheritanceJJD"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="getAttributesInheritanceJJD"/>
+			<item value="getRelationInheritanceJJD"/>
+			<item value="System."/>
 			<item value="AGREGATION_JJD__NAME_RELATION"/>
 			<item value="addClassJJDToPackage"/>
 			<item value="System.out.print"/>

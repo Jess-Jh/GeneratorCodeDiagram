@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="concrete.ConcreteFactory"/>
-    <fullyQualifiedTypeName name="abstractJJD.AbstractJJDFactory"/>
     <fullyQualifiedTypeName name="concrete.ConcretePackage"/>
     <fullyQualifiedTypeName name="concrete.RelationJJD"/>
     <fullyQualifiedTypeName name="abstractJJD.ClassJJD"/>
     <fullyQualifiedTypeName name="concrete.AttributeJJD"/>
     <fullyQualifiedTypeName name="concrete.MethodJJD"/>
     <fullyQualifiedTypeName name="abstractJJD.PackageJJD"/>
-    <fullyQualifiedTypeName name="abstractJJD.AttributeJJD"/>
     <fullyQualifiedTypeName name="abstractJJD.MethodJJD"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="javax.swing.JFileChooser"/>
@@ -18,4 +15,8 @@
     <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="abstractJJD.RelationJJD"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="abstractJJD.AbstractJJDFactory"/>
+    <fullyQualifiedTypeName name="abstractJJD.AttributeJJD"/>
 </qualifiedTypeNameHistroy>

@@ -68,7 +68,7 @@
       </listClassJJD>
       <listClassJJD name="Client">
         <listAttributesJJD name="residentialAddress" type="String"/>
-        <listAttributesJJD name="debit/creditCardNumber" type="String"/>
+        <listAttributesJJD name="debitCreditCardNumber" type="String"/>
       </listClassJJD>
     </listPackagesJJD>
     <listRelationsJJD xsi:type="concrete:InheritanceJJD" source="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.4" target="//@listClassDiagramJJD.0/@listPackagesJJD.0/@listClassJJD.3"/>
