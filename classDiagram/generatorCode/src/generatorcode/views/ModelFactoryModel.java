@@ -324,8 +324,8 @@ public class ModelFactoryModel {
 		List<String> inheritanceClass = getRelationInheritanceJJD(classJJD);
 		List<String> listAttributes = getAttributesClass(classJJD);
 		List<String> listAttributesRelations = getAttributesRelations(classJJD);
-		
-		content.append((classJJD.isIsAbstract() ? "abstract " : "") + "class " + classJJD.getName() + (inheritanceClass != null ? " extends " + inheritanceClass.get(0) : "") +" {\n"
+				
+		content.append((classJJD.isIsAbstract() ? "abstract " : "") + "class " + classJJD.getName() + (inheritanceClass.get(1).length() > 0 ? " extends " + inheritanceClass.get(0) : "") +" {\n"
 				+ "\t" + classJJD.getName() + "({\n" +  listAttributes.get(1) + listAttributesRelations.get(1) + "\t})" + (inheritanceClass.get(1).length() > 0 ? ": super(" + inheritanceClass.get(1) + ")"  : "") + ";\n\n"
 				+ listAttributes.get(0)
 				+ listAttributesRelations.get(0)
@@ -440,19 +440,23 @@ public class ModelFactoryModel {
 						
 			if(relationJJD.getClass().getName().contains("ContainmentJJDImpl") || relationJJD.getClass().getName().contains("AgregationJJDImpl")) {
 				
-				if(relationJJD.getRolA() != null && relationJJD.getRolA().equalsIgnoreCase(classJJD.getName())) {
-						attribute += relationJJD.getMultiplicityB().equalsIgnoreCase("*") ? "\tfinal List<" + relationJJD.getSource().getName() + ">" +"? " + relationJJD.getRolB() + ";" : "\n";		
-						attribute += relationJJD.getMultiplicityB().equalsIgnoreCase("1") ? "\tfinal " + relationJJD.getSource().getName() +"? " + relationJJD.getRolB().toLowerCase() + ";" : "\n";		
-						attribute2 += "\t\tthis." + relationJJD.getRolB().toLowerCase() + ",\n";		
+				if(relationJJD.getNavigabilityA().equalsIgnoreCase("true")) {
+					if(relationJJD.getRolA() != null && relationJJD.getRolA().equalsIgnoreCase(classJJD.getName())) {
+							attribute += relationJJD.getMultiplicityB().equalsIgnoreCase("*") ? "\tfinal List<" + relationJJD.getSource().getName() + ">" +"? " + relationJJD.getRolB() + ";" : "\n";		
+							attribute += relationJJD.getMultiplicityB().equalsIgnoreCase("1") ? "\tfinal " + relationJJD.getSource().getName() +"? " + relationJJD.getRolB().toLowerCase() + ";" : "\n";		
+							attribute2 += "\t\tthis." + relationJJD.getRolB().toLowerCase() + ",\n";		
+					}
 				}
-				if(relationJJD.getRolB() != null && relationJJD.getRolB().equalsIgnoreCase(classJJD.getName())) {
-						attribute += relationJJD.getMultiplicityA().equalsIgnoreCase("*") ? "\tfinal List<" + relationJJD.getTarget().getName() + ">" +"? " + relationJJD.getRolA() + ";" : "\n";		
-						attribute += relationJJD.getMultiplicityA().equalsIgnoreCase("1") ? "\tfinal " + relationJJD.getTarget().getName() +"? " + relationJJD.getRolA().toLowerCase() + ";" : "\n";		
-						attribute2 += "\t\tthis." + relationJJD.getRolA().toLowerCase() + ",\n";		
+				if(relationJJD.getNavigabilityB().equalsIgnoreCase("true")) {
+					if(relationJJD.getRolB() != null && relationJJD.getSource().getName().equalsIgnoreCase(classJJD.getName())) {
+							attribute += relationJJD.getMultiplicityA().equalsIgnoreCase("*") ? "\tfinal List<" + relationJJD.getTarget().getName() + ">" +"? " + relationJJD.getRolA() + ";" : "\n";		
+							attribute += relationJJD.getMultiplicityA().equalsIgnoreCase("1") ? "\tfinal " + relationJJD.getTarget().getName() +"? " + relationJJD.getRolA().toLowerCase() + ";" : "\n";		
+							attribute2 += "\t\tthis." + relationJJD.getRolA().toLowerCase() + ",\n";		
+					}
 				}
 			}
 			
-			if(relationJJD.getClass().getName().contains("AssociationJJDImpl")) {
+			if(relationJJD.getClass().getName().contains("AssociationJJDImpl") && !(relationJJD.getSource().getName().equalsIgnoreCase(classJJD.getName()))) {
 				if(relationJJD.getNavigabilityA().equalsIgnoreCase("true")) {
 					attribute += relationJJD.getMultiplicityB().equalsIgnoreCase("*") ? "\tfinal List<" + relationJJD.getSource().getName() + ">" +"? " + relationJJD.getRolB() + ";" : "\n";		
 					attribute += relationJJD.getMultiplicityB().equalsIgnoreCase("1") ? "\tfinal " + relationJJD.getSource().getName() +"? " + relationJJD.getRolB().toLowerCase() + ";" : "\n";
@@ -464,7 +468,6 @@ public class ModelFactoryModel {
 					attribute2 += "\t\tthis." + relationJJD.getRolA().toLowerCase() + "\n";		
 				}
 			}
-			
 		}
 		typesAttributes.add(attribute);
 		typesAttributes.add(attribute2);
