@@ -476,7 +476,7 @@ public class ModelFactoryModel {
 		
 		for (abstractJJD.MethodJJD methodJJD : classJJD.getListMethodsJJD()) {
 			
-			method += "\t" + methodJJD.getReturnType() + " " + methodJJD.getName() + "(" + getParametersMethod(methodJJD) + ") {\n";
+			method += "\t" + methodJJD.getReturnType() + " " + (methodJJD.getModifier() != null && methodJJD.getModifier().equalsIgnoreCase("private") ? "_" : "" ) + methodJJD.getName() + "(" + getParametersMethod(methodJJD) + ") {\n";
 			method += methodJJD.getReturnType().equalsIgnoreCase("void") ? "" : "\t\t" + methodJJD.getReturnType() + " variable; \n";
 			method += methodJJD.getReturnType().equalsIgnoreCase("void") ? "" : "\t\treturn variable;" + "\n";
 			method += "\t}\n\n";

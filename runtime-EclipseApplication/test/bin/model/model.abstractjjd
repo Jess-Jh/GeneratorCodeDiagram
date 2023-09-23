@@ -5,7 +5,7 @@
       <subPackagesJJD name="Aeroline" nameSpace="src/domain/Aeroline">
         <listClassJJD name="Aeroline">
           <listAttributesJJD name="name" type="String"/>
-          <listMethodsJJD name="makeFlightAssignment" modifier="" semantic="" returnType="void">
+          <listMethodsJJD name="makeFlightAssignment" modifier="private" semantic="" returnType="void">
             <listAttributesJJD name="selectedFlightId" type="String"/>
             <listAttributesJJD name="flightCrewList" type="List&lt;CrewMember>"/>
           </listMethodsJJD>
