@@ -325,7 +325,7 @@ public class ModelFactoryModel {
 		List<String> listAttributes = getAttributesClass(classJJD);
 		List<String> listAttributesRelations = getAttributesRelations(classJJD);
 		
-		content.append((classJJD.isIsAbstract() ? "abstract " : "") + "class " + classJJD.getName() + (inheritanceClass != null ? " extends " + inheritanceClass.get(0) : "") +" {\n"
+		content.append(classJJD.isIsAbstract() ? "abstract " : "" + "class " + classJJD.getName() + (inheritanceClass != null ? " extends " + inheritanceClass.get(0) : "") +" {\n"
 				+ "\t" + classJJD.getName() + "({\n" +  listAttributes.get(1) + listAttributesRelations.get(1) + "\t})" + (inheritanceClass.get(1).length() > 0 ? ": super(" + inheritanceClass.get(1) + ")"  : "") + ";\n\n"
 				+ listAttributes.get(0)
 				+ listAttributesRelations.get(0)
