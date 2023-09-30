@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" copyrightText="" modelDirectory="/UIDiagram/src" modelPluginID="UIDiagram"
+    modelName="Uidiagram" importerID="org.eclipse.emf.importer.ecore" complianceLevel="6.0"
+    copyrightFields="false">
+  <foreignModel>uidiagram.emf</foreignModel>
+  <genPackages prefix="Uidiagram" disposableProviderFactory="true" ecorePackage="uidiagram.ecore#/">
+    <genClasses ecoreClass="uidiagram.ecore#//ModelFactory">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference uidiagram.ecore#//ModelFactory/listDiagrams"/>
+    </genClasses>
+    <genClasses ecoreClass="uidiagram.ecore#//UIDiagram">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//UIDiagram/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference uidiagram.ecore#//UIDiagram/userInterface"/>
+    </genClasses>
+    <genClasses ecoreClass="uidiagram.ecore#//TemplateWidget">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//TemplateWidget/idTemplate"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//TemplateWidget/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//TemplateWidget/positionX"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//TemplateWidget/positionY"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//TemplateWidget/width"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//TemplateWidget/hight"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//TemplateWidget/backgroundColor"/>
+    </genClasses>
+    <genClasses ecoreClass="uidiagram.ecore#//UserInterface">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//UserInterface/idInterface"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//UserInterface/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//UserInterface/positionX"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//UserInterface/positionY"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//UserInterface/width"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//UserInterface/hight"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//UserInterface/backgroundColor"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference uidiagram.ecore#//UserInterface/listTemplateWidget"/>
+    </genClasses>
+    <genClasses ecoreClass="uidiagram.ecore#//Group">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference uidiagram.ecore#//Group/listTemplateWidget"/>
+    </genClasses>
+    <genClasses ecoreClass="uidiagram.ecore#//GroupColumn">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference uidiagram.ecore#//GroupColumn/listTemplateWidget"/>
+    </genClasses>
+    <genClasses ecoreClass="uidiagram.ecore#//GroupRow">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference uidiagram.ecore#//GroupRow/listTemplateWidget"/>
+    </genClasses>
+    <genClasses ecoreClass="uidiagram.ecore#//Appbar"/>
+    <genClasses ecoreClass="uidiagram.ecore#//Tabbar"/>
+    <genClasses ecoreClass="uidiagram.ecore#//Button"/>
+    <genClasses ecoreClass="uidiagram.ecore#//Label"/>
+    <genClasses ecoreClass="uidiagram.ecore#//Checkbox"/>
+    <genClasses ecoreClass="uidiagram.ecore#//Input"/>
+    <genClasses ecoreClass="uidiagram.ecore#//ListView"/>
+    <genClasses ecoreClass="uidiagram.ecore#//RadioButton"/>
+    <genClasses ecoreClass="uidiagram.ecore#//ComboBox"/>
+    <genClasses ecoreClass="uidiagram.ecore#//DatePicker"/>
+    <genClasses ecoreClass="uidiagram.ecore#//Switch"/>
+    <genClasses ecoreClass="uidiagram.ecore#//Table">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference uidiagram.ecore#//Table/listCoulmns"/>
+    </genClasses>
+    <genClasses ecoreClass="uidiagram.ecore#//Column">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//Column/name"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

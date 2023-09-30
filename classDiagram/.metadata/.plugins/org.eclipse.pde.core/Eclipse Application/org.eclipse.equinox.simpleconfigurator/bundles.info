@@ -1,5 +1,10 @@
 #encoding=UTF-8
 #version=1
+UIDiagram,0.1.0.qualifier,file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/UIDiagram/,4,false
+UIDiagram.diagram,1.0.0.qualifier,file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/UIDiagram.diagram/,4,false
+UIDiagram.edit,1.0.0.qualifier,file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/UIDiagram.edit/,4,false
+UIDiagram.editor,1.0.0.qualifier,file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/UIDiagram.editor/,4,false
+UIDiagram.tests,1.0.0.qualifier,file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/UIDiagram.tests/,4,false
 cdjjd_abstract,0.1.0.qualifier,file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/cdjjd_abstract/,4,false
 cdjjd_abstract.edit,1.0.0.qualifier,file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/cdjjd_abstract.edit/,4,false
 cdjjd_abstract.editor,1.0.0.qualifier,file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/cdjjd_abstract.editor/,4,false

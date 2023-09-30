@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
 <abstractJJD:ModelFactoryAbstractJJD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:abstractJJD="abstractJJD">
   <listPackagesJJD name="src" nameSpace="src/domain/Aeroline">
-    <subPackagesJJD name="domain" nameSpace="">
-      <subPackagesJJD name="Aeroline" nameSpace="">
+    <subPackagesJJD name="domain" nameSpace="src/domain/Aeroline">
+      <subPackagesJJD name="Aeroline" nameSpace="src/domain/Aeroline">
         <listClassJJD name="Aeroline">
           <listAttributesJJD name="name" type="String"/>
           <listMethodsJJD name="makeFlightAssignment" modifier="private" semantic="" returnType="void">

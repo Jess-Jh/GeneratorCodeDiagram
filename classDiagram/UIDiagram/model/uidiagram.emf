@@ -1,0 +1,101 @@
+@namespace(uri="uidiagram", prefix="uidiagram")
+@gmf
+package uidiagram;
+
+class ModelFactory {
+    val UIDiagram[*] listDiagrams;
+}
+
+@gmf.diagram
+class UIDiagram {
+     attr String name;
+     val UserInterface userInterface;
+}
+
+class TemplateWidget {
+     attr String idTemplate;
+     attr String name;
+     attr String positionX;
+     attr String positionY;
+     attr String width;
+     attr String hight;
+     attr String backgroundColor;
+}
+
+@gmf.node(label = "name")  
+class UserInterface {
+     attr String idInterface;
+     attr String name;
+     attr String positionX;
+     attr String positionY;
+     attr String width;
+     attr String hight;
+     attr String backgroundColor;
+     
+     @gmf.compartment
+     val TemplateWidget[*] listTemplateWidget; 
+}
+
+@gmf.node(label = "name")
+class Group extends TemplateWidget {
+	@gmf.compartment
+    val TemplateWidget[*] listTemplateWidget; 
+}
+
+@gmf.node(label = "name")
+class GroupColumn extends TemplateWidget {
+	@gmf.compartment
+    val TemplateWidget[*] listTemplateWidget; 
+}
+
+@gmf.node(label = "name")
+class GroupRow extends TemplateWidget {
+	@gmf.compartment
+    val TemplateWidget[*] listTemplateWidget; 
+}
+
+@gmf.node(label = "name")
+class Appbar extends TemplateWidget {}
+
+@gmf.node(label = "name")
+class Tabbar extends TemplateWidget {}
+
+@gmf.node(label = "name")
+class Button extends TemplateWidget {}
+
+@gmf.node(label = "name")
+class Label extends TemplateWidget {}
+
+@gmf.node(label = "name")
+class Checkbox extends TemplateWidget {}
+
+@gmf.node(label = "name")
+class Input extends TemplateWidget {}
+
+@gmf.node(label = "name")
+class ListView extends TemplateWidget {}
+
+@gmf.node(label = "name")
+class RadioButton extends TemplateWidget {}
+
+@gmf.node(label = "name")
+class ComboBox extends TemplateWidget {}
+
+@gmf.node(label = "name")
+class DatePicker extends TemplateWidget {}
+
+@gmf.node(label = "name")
+class Switch extends TemplateWidget {}
+
+@gmf.node(label = "name")
+class Table extends TemplateWidget {
+	@gmf.compartment
+	val Column[*] listCoulmns;
+}
+
+@gmf.node(label = "name")
+class Column {
+ 	attr String name;
+}
+
+
