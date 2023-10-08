@@ -8,6 +8,7 @@ import org.eclipse.gmf.runtime.emf.type.core.requests.CreateElementRequest;
 
 import uidiagram.diagram.edit.commands.Appbar3CreateCommand;
 import uidiagram.diagram.edit.commands.Button3CreateCommand;
+import uidiagram.diagram.edit.commands.Button5CreateCommand;
 import uidiagram.diagram.edit.commands.Checkbox3CreateCommand;
 import uidiagram.diagram.edit.commands.ComboBox3CreateCommand;
 import uidiagram.diagram.edit.commands.DatePicker3CreateCommand;
@@ -16,6 +17,7 @@ import uidiagram.diagram.edit.commands.GroupColumn3CreateCommand;
 import uidiagram.diagram.edit.commands.GroupRow2CreateCommand;
 import uidiagram.diagram.edit.commands.Input3CreateCommand;
 import uidiagram.diagram.edit.commands.Label3CreateCommand;
+import uidiagram.diagram.edit.commands.Label5CreateCommand;
 import uidiagram.diagram.edit.commands.ListView3CreateCommand;
 import uidiagram.diagram.edit.commands.RadioButton3CreateCommand;
 import uidiagram.diagram.edit.commands.Switch3CreateCommand;
@@ -56,10 +58,10 @@ public class GroupColumnGroupColumnListTemplateWidgetCompartment4ItemSemanticEdi
 			return getGEFWrapper(new Tabbar3CreateCommand(req));
 		}
 		if (UidiagramElementTypes.Button_3038 == req.getElementType()) {
-			return getGEFWrapper(new Button3CreateCommand(req));
+			return getGEFWrapper(new Button5CreateCommand(req));
 		}
 		if (UidiagramElementTypes.Label_3039 == req.getElementType()) {
-			return getGEFWrapper(new Label3CreateCommand(req));
+			return getGEFWrapper(new Label5CreateCommand(req));
 		}
 		if (UidiagramElementTypes.Checkbox_3040 == req.getElementType()) {
 			return getGEFWrapper(new Checkbox3CreateCommand(req));

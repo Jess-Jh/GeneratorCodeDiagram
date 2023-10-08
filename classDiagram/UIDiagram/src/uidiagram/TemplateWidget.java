@@ -18,7 +18,7 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link uidiagram.TemplateWidget#getPositionX <em>Position X</em>}</li>
  *   <li>{@link uidiagram.TemplateWidget#getPositionY <em>Position Y</em>}</li>
  *   <li>{@link uidiagram.TemplateWidget#getWidth <em>Width</em>}</li>
- *   <li>{@link uidiagram.TemplateWidget#getHight <em>Hight</em>}</li>
+ *   <li>{@link uidiagram.TemplateWidget#getHeight <em>Height</em>}</li>
  *   <li>{@link uidiagram.TemplateWidget#getBackgroundColor <em>Background Color</em>}</li>
  * </ul>
  *
@@ -76,12 +76,12 @@ public interface TemplateWidget extends EObject {
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Position X</em>' attribute.
-	 * @see #setPositionX(String)
+	 * @see #setPositionX(int)
 	 * @see uidiagram.UidiagramPackage#getTemplateWidget_PositionX()
 	 * @model
 	 * @generated
 	 */
-	String getPositionX();
+	int getPositionX();
 
 	/**
 	 * Sets the value of the '{@link uidiagram.TemplateWidget#getPositionX <em>Position X</em>}' attribute.
@@ -91,19 +91,19 @@ public interface TemplateWidget extends EObject {
 	 * @see #getPositionX()
 	 * @generated
 	 */
-	void setPositionX(String value);
+	void setPositionX(int value);
 
 	/**
 	 * Returns the value of the '<em><b>Position Y</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Position Y</em>' attribute.
-	 * @see #setPositionY(String)
+	 * @see #setPositionY(int)
 	 * @see uidiagram.UidiagramPackage#getTemplateWidget_PositionY()
 	 * @model
 	 * @generated
 	 */
-	String getPositionY();
+	int getPositionY();
 
 	/**
 	 * Sets the value of the '{@link uidiagram.TemplateWidget#getPositionY <em>Position Y</em>}' attribute.
@@ -113,19 +113,19 @@ public interface TemplateWidget extends EObject {
 	 * @see #getPositionY()
 	 * @generated
 	 */
-	void setPositionY(String value);
+	void setPositionY(int value);
 
 	/**
 	 * Returns the value of the '<em><b>Width</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Width</em>' attribute.
-	 * @see #setWidth(String)
+	 * @see #setWidth(double)
 	 * @see uidiagram.UidiagramPackage#getTemplateWidget_Width()
 	 * @model
 	 * @generated
 	 */
-	String getWidth();
+	double getWidth();
 
 	/**
 	 * Sets the value of the '{@link uidiagram.TemplateWidget#getWidth <em>Width</em>}' attribute.
@@ -135,29 +135,29 @@ public interface TemplateWidget extends EObject {
 	 * @see #getWidth()
 	 * @generated
 	 */
-	void setWidth(String value);
+	void setWidth(double value);
 
 	/**
-	 * Returns the value of the '<em><b>Hight</b></em>' attribute.
+	 * Returns the value of the '<em><b>Height</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Hight</em>' attribute.
-	 * @see #setHight(String)
-	 * @see uidiagram.UidiagramPackage#getTemplateWidget_Hight()
+	 * @return the value of the '<em>Height</em>' attribute.
+	 * @see #setHeight(double)
+	 * @see uidiagram.UidiagramPackage#getTemplateWidget_Height()
 	 * @model
 	 * @generated
 	 */
-	String getHight();
+	double getHeight();
 
 	/**
-	 * Sets the value of the '{@link uidiagram.TemplateWidget#getHight <em>Hight</em>}' attribute.
+	 * Sets the value of the '{@link uidiagram.TemplateWidget#getHeight <em>Height</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Hight</em>' attribute.
-	 * @see #getHight()
+	 * @param value the new value of the '<em>Height</em>' attribute.
+	 * @see #getHeight()
 	 * @generated
 	 */
-	void setHight(String value);
+	void setHeight(double value);
 
 	/**
 	 * Returns the value of the '<em><b>Background Color</b></em>' attribute.

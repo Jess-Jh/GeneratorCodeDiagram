@@ -25,6 +25,8 @@ import uidiagram.diagram.edit.parts.AppbarEditPart;
 import uidiagram.diagram.edit.parts.Button2EditPart;
 import uidiagram.diagram.edit.parts.Button3EditPart;
 import uidiagram.diagram.edit.parts.Button4EditPart;
+import uidiagram.diagram.edit.parts.Button5EditPart;
+import uidiagram.diagram.edit.parts.Button6EditPart;
 import uidiagram.diagram.edit.parts.ButtonEditPart;
 import uidiagram.diagram.edit.parts.Checkbox2EditPart;
 import uidiagram.diagram.edit.parts.Checkbox3EditPart;
@@ -58,6 +60,8 @@ import uidiagram.diagram.edit.parts.InputEditPart;
 import uidiagram.diagram.edit.parts.Label2EditPart;
 import uidiagram.diagram.edit.parts.Label3EditPart;
 import uidiagram.diagram.edit.parts.Label4EditPart;
+import uidiagram.diagram.edit.parts.Label5EditPart;
+import uidiagram.diagram.edit.parts.Label6EditPart;
 import uidiagram.diagram.edit.parts.LabelEditPart;
 import uidiagram.diagram.edit.parts.ListView2EditPart;
 import uidiagram.diagram.edit.parts.ListView3EditPart;
@@ -159,7 +163,27 @@ public class UidiagramElementTypes {
 	/**
 	* @generated
 	*/
+	public static final IElementType Button_3062 = getElementType("UIDiagram.diagram.Button_3062"); //$NON-NLS-1$
+
+	/**
+	* @generated
+	*/
+	public static final IElementType Label_3064 = getElementType("UIDiagram.diagram.Label_3064"); //$NON-NLS-1$
+
+	/**
+	* @generated
+	*/
 	public static final IElementType Tabbar_3008 = getElementType("UIDiagram.diagram.Tabbar_3008"); //$NON-NLS-1$
+
+	/**
+	* @generated
+	*/
+	public static final IElementType Button_3063 = getElementType("UIDiagram.diagram.Button_3063"); //$NON-NLS-1$
+
+	/**
+	* @generated
+	*/
+	public static final IElementType Label_3065 = getElementType("UIDiagram.diagram.Label_3065"); //$NON-NLS-1$
 
 	/**
 	* @generated
@@ -482,7 +506,15 @@ public class UidiagramElementTypes {
 
 			elements.put(Appbar_3007, UidiagramPackage.eINSTANCE.getAppbar());
 
+			elements.put(Button_3062, UidiagramPackage.eINSTANCE.getButton());
+
+			elements.put(Label_3064, UidiagramPackage.eINSTANCE.getLabel());
+
 			elements.put(Tabbar_3008, UidiagramPackage.eINSTANCE.getTabbar());
+
+			elements.put(Button_3063, UidiagramPackage.eINSTANCE.getButton());
+
+			elements.put(Label_3065, UidiagramPackage.eINSTANCE.getLabel());
 
 			elements.put(Button_3009, UidiagramPackage.eINSTANCE.getButton());
 
@@ -615,7 +647,11 @@ public class UidiagramElementTypes {
 			KNOWN_ELEMENT_TYPES.add(GroupRow_3005);
 			KNOWN_ELEMENT_TYPES.add(Group_3006);
 			KNOWN_ELEMENT_TYPES.add(Appbar_3007);
+			KNOWN_ELEMENT_TYPES.add(Button_3062);
+			KNOWN_ELEMENT_TYPES.add(Label_3064);
 			KNOWN_ELEMENT_TYPES.add(Tabbar_3008);
+			KNOWN_ELEMENT_TYPES.add(Button_3063);
+			KNOWN_ELEMENT_TYPES.add(Label_3065);
 			KNOWN_ELEMENT_TYPES.add(Button_3009);
 			KNOWN_ELEMENT_TYPES.add(Label_3010);
 			KNOWN_ELEMENT_TYPES.add(Checkbox_3011);
@@ -696,11 +732,19 @@ public class UidiagramElementTypes {
 			return Group_3006;
 		case AppbarEditPart.VISUAL_ID:
 			return Appbar_3007;
+		case ButtonEditPart.VISUAL_ID:
+			return Button_3062;
+		case LabelEditPart.VISUAL_ID:
+			return Label_3064;
 		case TabbarEditPart.VISUAL_ID:
 			return Tabbar_3008;
-		case ButtonEditPart.VISUAL_ID:
+		case Button2EditPart.VISUAL_ID:
+			return Button_3063;
+		case Label2EditPart.VISUAL_ID:
+			return Label_3065;
+		case Button3EditPart.VISUAL_ID:
 			return Button_3009;
-		case LabelEditPart.VISUAL_ID:
+		case Label3EditPart.VISUAL_ID:
 			return Label_3010;
 		case CheckboxEditPart.VISUAL_ID:
 			return Checkbox_3011;
@@ -732,9 +776,9 @@ public class UidiagramElementTypes {
 			return Appbar_3024;
 		case Tabbar2EditPart.VISUAL_ID:
 			return Tabbar_3025;
-		case Button2EditPart.VISUAL_ID:
+		case Button4EditPart.VISUAL_ID:
 			return Button_3026;
-		case Label2EditPart.VISUAL_ID:
+		case Label4EditPart.VISUAL_ID:
 			return Label_3027;
 		case Checkbox2EditPart.VISUAL_ID:
 			return Checkbox_3028;
@@ -756,9 +800,9 @@ public class UidiagramElementTypes {
 			return Appbar_3036;
 		case Tabbar3EditPart.VISUAL_ID:
 			return Tabbar_3037;
-		case Button3EditPart.VISUAL_ID:
+		case Button5EditPart.VISUAL_ID:
 			return Button_3038;
-		case Label3EditPart.VISUAL_ID:
+		case Label5EditPart.VISUAL_ID:
 			return Label_3039;
 		case Checkbox3EditPart.VISUAL_ID:
 			return Checkbox_3040;
@@ -784,9 +828,9 @@ public class UidiagramElementTypes {
 			return Appbar_3050;
 		case Tabbar4EditPart.VISUAL_ID:
 			return Tabbar_3051;
-		case Button4EditPart.VISUAL_ID:
+		case Button6EditPart.VISUAL_ID:
 			return Button_3052;
-		case Label4EditPart.VISUAL_ID:
+		case Label6EditPart.VISUAL_ID:
 			return Label_3053;
 		case Checkbox4EditPart.VISUAL_ID:
 			return Checkbox_3054;

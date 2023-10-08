@@ -24,6 +24,8 @@ import uidiagram.diagram.edit.parts.AppbarNameEditPart;
 import uidiagram.diagram.edit.parts.ButtonName2EditPart;
 import uidiagram.diagram.edit.parts.ButtonName3EditPart;
 import uidiagram.diagram.edit.parts.ButtonName4EditPart;
+import uidiagram.diagram.edit.parts.ButtonName5EditPart;
+import uidiagram.diagram.edit.parts.ButtonName6EditPart;
 import uidiagram.diagram.edit.parts.ButtonNameEditPart;
 import uidiagram.diagram.edit.parts.CheckboxName2EditPart;
 import uidiagram.diagram.edit.parts.CheckboxName3EditPart;
@@ -57,6 +59,8 @@ import uidiagram.diagram.edit.parts.InputNameEditPart;
 import uidiagram.diagram.edit.parts.LabelName2EditPart;
 import uidiagram.diagram.edit.parts.LabelName3EditPart;
 import uidiagram.diagram.edit.parts.LabelName4EditPart;
+import uidiagram.diagram.edit.parts.LabelName5EditPart;
+import uidiagram.diagram.edit.parts.LabelName6EditPart;
 import uidiagram.diagram.edit.parts.LabelNameEditPart;
 import uidiagram.diagram.edit.parts.ListViewName2EditPart;
 import uidiagram.diagram.edit.parts.ListViewName3EditPart;
@@ -226,6 +230,40 @@ public class UidiagramParserProvider extends AbstractProvider implements IParser
 	/**
 	* @generated
 	*/
+	private IParser buttonName_5063Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getButtonName_5063Parser() {
+		if (buttonName_5063Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			buttonName_5063Parser = parser;
+		}
+		return buttonName_5063Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser labelName_5065Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getLabelName_5065Parser() {
+		if (labelName_5065Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			labelName_5065Parser = parser;
+		}
+		return labelName_5065Parser;
+	}
+
+	/**
+	* @generated
+	*/
 	private IParser tabbarName_5002Parser;
 
 	/**
@@ -238,6 +276,40 @@ public class UidiagramParserProvider extends AbstractProvider implements IParser
 			tabbarName_5002Parser = parser;
 		}
 		return tabbarName_5002Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser buttonName_5064Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getButtonName_5064Parser() {
+		if (buttonName_5064Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			buttonName_5064Parser = parser;
+		}
+		return buttonName_5064Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser labelName_5066Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getLabelName_5066Parser() {
+		if (labelName_5066Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			labelName_5066Parser = parser;
+		}
+		return labelName_5066Parser;
 	}
 
 	/**
@@ -1162,11 +1234,19 @@ public class UidiagramParserProvider extends AbstractProvider implements IParser
 			return getGroupName_5014Parser();
 		case AppbarNameEditPart.VISUAL_ID:
 			return getAppbarName_5001Parser();
+		case ButtonNameEditPart.VISUAL_ID:
+			return getButtonName_5063Parser();
+		case LabelNameEditPart.VISUAL_ID:
+			return getLabelName_5065Parser();
 		case TabbarNameEditPart.VISUAL_ID:
 			return getTabbarName_5002Parser();
-		case ButtonNameEditPart.VISUAL_ID:
+		case ButtonName2EditPart.VISUAL_ID:
+			return getButtonName_5064Parser();
+		case LabelName2EditPart.VISUAL_ID:
+			return getLabelName_5066Parser();
+		case ButtonName3EditPart.VISUAL_ID:
 			return getButtonName_5003Parser();
-		case LabelNameEditPart.VISUAL_ID:
+		case LabelName3EditPart.VISUAL_ID:
 			return getLabelName_5004Parser();
 		case CheckboxNameEditPart.VISUAL_ID:
 			return getCheckboxName_5005Parser();
@@ -1198,9 +1278,9 @@ public class UidiagramParserProvider extends AbstractProvider implements IParser
 			return getAppbarName_5015Parser();
 		case TabbarName2EditPart.VISUAL_ID:
 			return getTabbarName_5016Parser();
-		case ButtonName2EditPart.VISUAL_ID:
+		case ButtonName4EditPart.VISUAL_ID:
 			return getButtonName_5017Parser();
-		case LabelName2EditPart.VISUAL_ID:
+		case LabelName4EditPart.VISUAL_ID:
 			return getLabelName_5018Parser();
 		case CheckboxName2EditPart.VISUAL_ID:
 			return getCheckboxName_5019Parser();
@@ -1222,9 +1302,9 @@ public class UidiagramParserProvider extends AbstractProvider implements IParser
 			return getAppbarName_5029Parser();
 		case TabbarName3EditPart.VISUAL_ID:
 			return getTabbarName_5030Parser();
-		case ButtonName3EditPart.VISUAL_ID:
+		case ButtonName5EditPart.VISUAL_ID:
 			return getButtonName_5031Parser();
-		case LabelName3EditPart.VISUAL_ID:
+		case LabelName5EditPart.VISUAL_ID:
 			return getLabelName_5032Parser();
 		case CheckboxName3EditPart.VISUAL_ID:
 			return getCheckboxName_5033Parser();
@@ -1250,9 +1330,9 @@ public class UidiagramParserProvider extends AbstractProvider implements IParser
 			return getAppbarName_5050Parser();
 		case TabbarName4EditPart.VISUAL_ID:
 			return getTabbarName_5051Parser();
-		case ButtonName4EditPart.VISUAL_ID:
+		case ButtonName6EditPart.VISUAL_ID:
 			return getButtonName_5052Parser();
-		case LabelName4EditPart.VISUAL_ID:
+		case LabelName6EditPart.VISUAL_ID:
 			return getLabelName_5053Parser();
 		case CheckboxName4EditPart.VISUAL_ID:
 			return getCheckboxName_5054Parser();

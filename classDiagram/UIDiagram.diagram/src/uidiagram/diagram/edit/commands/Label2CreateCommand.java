@@ -17,6 +17,7 @@ import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.GroupRow;
 import uidiagram.Label;
+import uidiagram.Tabbar;
 import uidiagram.UidiagramFactory;
 
 /**
@@ -57,8 +58,8 @@ public class Label2CreateCommand extends EditElementCommand {
 	protected CommandResult doExecuteWithResult(IProgressMonitor monitor, IAdaptable info) throws ExecutionException {
 		Label newElement = UidiagramFactory.eINSTANCE.createLabel();
 
-		GroupRow owner = (GroupRow) getElementToEdit();
-		owner.getListTemplateWidget().add(newElement);
+		Tabbar owner = (Tabbar) getElementToEdit();
+		owner.getListLabels().add(newElement);
 
 		doConfigure(newElement, monitor, info);
 

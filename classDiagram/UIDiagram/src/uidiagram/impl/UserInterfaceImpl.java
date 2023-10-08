@@ -35,7 +35,7 @@ import uidiagram.UserInterface;
  *   <li>{@link uidiagram.impl.UserInterfaceImpl#getPositionX <em>Position X</em>}</li>
  *   <li>{@link uidiagram.impl.UserInterfaceImpl#getPositionY <em>Position Y</em>}</li>
  *   <li>{@link uidiagram.impl.UserInterfaceImpl#getWidth <em>Width</em>}</li>
- *   <li>{@link uidiagram.impl.UserInterfaceImpl#getHight <em>Hight</em>}</li>
+ *   <li>{@link uidiagram.impl.UserInterfaceImpl#getHeight <em>Height</em>}</li>
  *   <li>{@link uidiagram.impl.UserInterfaceImpl#getBackgroundColor <em>Background Color</em>}</li>
  *   <li>{@link uidiagram.impl.UserInterfaceImpl#getListTemplateWidget <em>List Template Widget</em>}</li>
  * </ul>
@@ -91,7 +91,7 @@ public class UserInterfaceImpl extends EObjectImpl implements UserInterface {
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String POSITION_X_EDEFAULT = null;
+	protected static final int POSITION_X_EDEFAULT = 0;
 
 	/**
 	 * The cached value of the '{@link #getPositionX() <em>Position X</em>}' attribute.
@@ -101,7 +101,7 @@ public class UserInterfaceImpl extends EObjectImpl implements UserInterface {
 	 * @generated
 	 * @ordered
 	 */
-	protected String positionX = POSITION_X_EDEFAULT;
+	protected int positionX = POSITION_X_EDEFAULT;
 
 	/**
 	 * The default value of the '{@link #getPositionY() <em>Position Y</em>}' attribute.
@@ -111,7 +111,7 @@ public class UserInterfaceImpl extends EObjectImpl implements UserInterface {
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String POSITION_Y_EDEFAULT = null;
+	protected static final int POSITION_Y_EDEFAULT = 0;
 
 	/**
 	 * The cached value of the '{@link #getPositionY() <em>Position Y</em>}' attribute.
@@ -121,7 +121,7 @@ public class UserInterfaceImpl extends EObjectImpl implements UserInterface {
 	 * @generated
 	 * @ordered
 	 */
-	protected String positionY = POSITION_Y_EDEFAULT;
+	protected int positionY = POSITION_Y_EDEFAULT;
 
 	/**
 	 * The default value of the '{@link #getWidth() <em>Width</em>}' attribute.
@@ -131,7 +131,7 @@ public class UserInterfaceImpl extends EObjectImpl implements UserInterface {
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String WIDTH_EDEFAULT = null;
+	protected static final double WIDTH_EDEFAULT = 0.0;
 
 	/**
 	 * The cached value of the '{@link #getWidth() <em>Width</em>}' attribute.
@@ -141,27 +141,27 @@ public class UserInterfaceImpl extends EObjectImpl implements UserInterface {
 	 * @generated
 	 * @ordered
 	 */
-	protected String width = WIDTH_EDEFAULT;
+	protected double width = WIDTH_EDEFAULT;
 
 	/**
-	 * The default value of the '{@link #getHight() <em>Hight</em>}' attribute.
+	 * The default value of the '{@link #getHeight() <em>Height</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see #getHight()
+	 * @see #getHeight()
 	 * @generated
 	 * @ordered
 	 */
-	protected static final String HIGHT_EDEFAULT = null;
+	protected static final double HEIGHT_EDEFAULT = 0.0;
 
 	/**
-	 * The cached value of the '{@link #getHight() <em>Hight</em>}' attribute.
+	 * The cached value of the '{@link #getHeight() <em>Height</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see #getHight()
+	 * @see #getHeight()
 	 * @generated
 	 * @ordered
 	 */
-	protected String hight = HIGHT_EDEFAULT;
+	protected double height = HEIGHT_EDEFAULT;
 
 	/**
 	 * The default value of the '{@link #getBackgroundColor() <em>Background Color</em>}' attribute.
@@ -264,7 +264,7 @@ public class UserInterfaceImpl extends EObjectImpl implements UserInterface {
 	 * @generated
 	 */
 	@Override
-	public String getPositionX() {
+	public int getPositionX() {
 		return positionX;
 	}
 
@@ -274,8 +274,8 @@ public class UserInterfaceImpl extends EObjectImpl implements UserInterface {
 	 * @generated
 	 */
 	@Override
-	public void setPositionX(String newPositionX) {
-		String oldPositionX = positionX;
+	public void setPositionX(int newPositionX) {
+		int oldPositionX = positionX;
 		positionX = newPositionX;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, UidiagramPackage.USER_INTERFACE__POSITION_X, oldPositionX, positionX));
@@ -287,7 +287,7 @@ public class UserInterfaceImpl extends EObjectImpl implements UserInterface {
 	 * @generated
 	 */
 	@Override
-	public String getPositionY() {
+	public int getPositionY() {
 		return positionY;
 	}
 
@@ -297,8 +297,8 @@ public class UserInterfaceImpl extends EObjectImpl implements UserInterface {
 	 * @generated
 	 */
 	@Override
-	public void setPositionY(String newPositionY) {
-		String oldPositionY = positionY;
+	public void setPositionY(int newPositionY) {
+		int oldPositionY = positionY;
 		positionY = newPositionY;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, UidiagramPackage.USER_INTERFACE__POSITION_Y, oldPositionY, positionY));
@@ -310,7 +310,7 @@ public class UserInterfaceImpl extends EObjectImpl implements UserInterface {
 	 * @generated
 	 */
 	@Override
-	public String getWidth() {
+	public double getWidth() {
 		return width;
 	}
 
@@ -320,8 +320,8 @@ public class UserInterfaceImpl extends EObjectImpl implements UserInterface {
 	 * @generated
 	 */
 	@Override
-	public void setWidth(String newWidth) {
-		String oldWidth = width;
+	public void setWidth(double newWidth) {
+		double oldWidth = width;
 		width = newWidth;
 		if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, UidiagramPackage.USER_INTERFACE__WIDTH, oldWidth, width));
@@ -333,8 +333,8 @@ public class UserInterfaceImpl extends EObjectImpl implements UserInterface {
 	 * @generated
 	 */
 	@Override
-	public String getHight() {
-		return hight;
+	public double getHeight() {
+		return height;
 	}
 
 	/**
@@ -343,11 +343,11 @@ public class UserInterfaceImpl extends EObjectImpl implements UserInterface {
 	 * @generated
 	 */
 	@Override
-	public void setHight(String newHight) {
-		String oldHight = hight;
-		hight = newHight;
+	public void setHeight(double newHeight) {
+		double oldHeight = height;
+		height = newHeight;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, UidiagramPackage.USER_INTERFACE__HIGHT, oldHight, hight));
+			eNotify(new ENotificationImpl(this, Notification.SET, UidiagramPackage.USER_INTERFACE__HEIGHT, oldHeight, height));
 	}
 
 	/**
@@ -418,8 +418,8 @@ public class UserInterfaceImpl extends EObjectImpl implements UserInterface {
 				return getPositionY();
 			case UidiagramPackage.USER_INTERFACE__WIDTH:
 				return getWidth();
-			case UidiagramPackage.USER_INTERFACE__HIGHT:
-				return getHight();
+			case UidiagramPackage.USER_INTERFACE__HEIGHT:
+				return getHeight();
 			case UidiagramPackage.USER_INTERFACE__BACKGROUND_COLOR:
 				return getBackgroundColor();
 			case UidiagramPackage.USER_INTERFACE__LIST_TEMPLATE_WIDGET:
@@ -444,16 +444,16 @@ public class UserInterfaceImpl extends EObjectImpl implements UserInterface {
 				setName((String)newValue);
 				return;
 			case UidiagramPackage.USER_INTERFACE__POSITION_X:
-				setPositionX((String)newValue);
+				setPositionX((Integer)newValue);
 				return;
 			case UidiagramPackage.USER_INTERFACE__POSITION_Y:
-				setPositionY((String)newValue);
+				setPositionY((Integer)newValue);
 				return;
 			case UidiagramPackage.USER_INTERFACE__WIDTH:
-				setWidth((String)newValue);
+				setWidth((Double)newValue);
 				return;
-			case UidiagramPackage.USER_INTERFACE__HIGHT:
-				setHight((String)newValue);
+			case UidiagramPackage.USER_INTERFACE__HEIGHT:
+				setHeight((Double)newValue);
 				return;
 			case UidiagramPackage.USER_INTERFACE__BACKGROUND_COLOR:
 				setBackgroundColor((String)newValue);
@@ -489,8 +489,8 @@ public class UserInterfaceImpl extends EObjectImpl implements UserInterface {
 			case UidiagramPackage.USER_INTERFACE__WIDTH:
 				setWidth(WIDTH_EDEFAULT);
 				return;
-			case UidiagramPackage.USER_INTERFACE__HIGHT:
-				setHight(HIGHT_EDEFAULT);
+			case UidiagramPackage.USER_INTERFACE__HEIGHT:
+				setHeight(HEIGHT_EDEFAULT);
 				return;
 			case UidiagramPackage.USER_INTERFACE__BACKGROUND_COLOR:
 				setBackgroundColor(BACKGROUND_COLOR_EDEFAULT);
@@ -515,13 +515,13 @@ public class UserInterfaceImpl extends EObjectImpl implements UserInterface {
 			case UidiagramPackage.USER_INTERFACE__NAME:
 				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
 			case UidiagramPackage.USER_INTERFACE__POSITION_X:
-				return POSITION_X_EDEFAULT == null ? positionX != null : !POSITION_X_EDEFAULT.equals(positionX);
+				return positionX != POSITION_X_EDEFAULT;
 			case UidiagramPackage.USER_INTERFACE__POSITION_Y:
-				return POSITION_Y_EDEFAULT == null ? positionY != null : !POSITION_Y_EDEFAULT.equals(positionY);
+				return positionY != POSITION_Y_EDEFAULT;
 			case UidiagramPackage.USER_INTERFACE__WIDTH:
-				return WIDTH_EDEFAULT == null ? width != null : !WIDTH_EDEFAULT.equals(width);
-			case UidiagramPackage.USER_INTERFACE__HIGHT:
-				return HIGHT_EDEFAULT == null ? hight != null : !HIGHT_EDEFAULT.equals(hight);
+				return width != WIDTH_EDEFAULT;
+			case UidiagramPackage.USER_INTERFACE__HEIGHT:
+				return height != HEIGHT_EDEFAULT;
 			case UidiagramPackage.USER_INTERFACE__BACKGROUND_COLOR:
 				return BACKGROUND_COLOR_EDEFAULT == null ? backgroundColor != null : !BACKGROUND_COLOR_EDEFAULT.equals(backgroundColor);
 			case UidiagramPackage.USER_INTERFACE__LIST_TEMPLATE_WIDGET:
@@ -550,8 +550,8 @@ public class UserInterfaceImpl extends EObjectImpl implements UserInterface {
 		result.append(positionY);
 		result.append(", width: ");
 		result.append(width);
-		result.append(", hight: ");
-		result.append(hight);
+		result.append(", height: ");
+		result.append(height);
 		result.append(", backgroundColor: ");
 		result.append(backgroundColor);
 		result.append(')');

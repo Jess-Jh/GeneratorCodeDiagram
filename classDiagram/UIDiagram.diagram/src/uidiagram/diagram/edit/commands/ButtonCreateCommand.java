@@ -15,6 +15,7 @@ import org.eclipse.gmf.runtime.emf.type.core.requests.ConfigureRequest;
 import org.eclipse.gmf.runtime.emf.type.core.requests.CreateElementRequest;
 import org.eclipse.gmf.runtime.notation.View;
 
+import uidiagram.Appbar;
 import uidiagram.Button;
 import uidiagram.Group;
 import uidiagram.UidiagramFactory;
@@ -57,8 +58,8 @@ public class ButtonCreateCommand extends EditElementCommand {
 	protected CommandResult doExecuteWithResult(IProgressMonitor monitor, IAdaptable info) throws ExecutionException {
 		Button newElement = UidiagramFactory.eINSTANCE.createButton();
 
-		Group owner = (Group) getElementToEdit();
-		owner.getListTemplateWidget().add(newElement);
+		Appbar owner = (Appbar) getElementToEdit();
+		owner.getListButtons().add(newElement);
 
 		doConfigure(newElement, monitor, info);
 

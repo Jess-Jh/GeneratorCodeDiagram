@@ -15,6 +15,7 @@ import org.eclipse.gmf.runtime.emf.type.core.requests.ConfigureRequest;
 import org.eclipse.gmf.runtime.emf.type.core.requests.CreateElementRequest;
 import org.eclipse.gmf.runtime.notation.View;
 
+import uidiagram.Group;
 import uidiagram.GroupColumn;
 import uidiagram.Label;
 import uidiagram.UidiagramFactory;
@@ -57,7 +58,7 @@ public class Label3CreateCommand extends EditElementCommand {
 	protected CommandResult doExecuteWithResult(IProgressMonitor monitor, IAdaptable info) throws ExecutionException {
 		Label newElement = UidiagramFactory.eINSTANCE.createLabel();
 
-		GroupColumn owner = (GroupColumn) getElementToEdit();
+		Group owner = (Group) getElementToEdit();
 		owner.getListTemplateWidget().add(newElement);
 
 		doConfigure(newElement, monitor, info);

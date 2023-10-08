@@ -5,10 +5,12 @@ package uidiagram.diagram.edit.parts;
 
 import org.eclipse.draw2d.IFigure;
 import org.eclipse.draw2d.MarginBorder;
+import org.eclipse.draw2d.RectangleFigure;
 import org.eclipse.draw2d.RoundedRectangle;
 import org.eclipse.draw2d.Shape;
 import org.eclipse.draw2d.StackLayout;
 import org.eclipse.draw2d.geometry.Dimension;
+import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.gef.EditPart;
 import org.eclipse.gef.EditPolicy;
 import org.eclipse.gef.Request;
@@ -26,7 +28,9 @@ import org.eclipse.gmf.runtime.gef.ui.figures.NodeFigure;
 import org.eclipse.gmf.runtime.notation.View;
 import org.eclipse.swt.graphics.Color;
 
+import uidiagram.diagram.edit.notifications.NotificationEvent;
 import uidiagram.diagram.edit.policies.Appbar4ItemSemanticEditPolicy;
+import uidiagram.diagram.edit.policies.OpenDiagramEditPolicy;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;
 
 /**
@@ -63,7 +67,7 @@ public class Appbar4EditPart extends ShapeNodeEditPart {
 		super.createDefaultEditPolicies();
 		installEditPolicy(EditPolicyRoles.SEMANTIC_ROLE, new Appbar4ItemSemanticEditPolicy());
 		installEditPolicy(EditPolicy.LAYOUT_ROLE, createLayoutEditPolicy());
-		// XXX need an SCR to runtime to have another abstract superclass that would let children add reasonable editpolicies
+		installEditPolicy(EditPolicyRoles.OPEN_ROLE, new OpenDiagramEditPolicy()); // XXX need an SCR to runtime to have another abstract superclass that would let children add reasonable editpolicies
 		// removeEditPolicy(org.eclipse.gmf.runtime.diagram.ui.editpolicies.EditPolicyRoles.CONNECTION_HANDLES_ROLE);
 	}
 
@@ -114,6 +118,18 @@ public class Appbar4EditPart extends ShapeNodeEditPart {
 			((AppbarName4EditPart) childEditPart).setLabel(getPrimaryShape().getFigureAppbarLabelFigure());
 			return true;
 		}
+		if (childEditPart instanceof AppbarAppbarListButtonsCompartment4EditPart) {
+			IFigure pane = getPrimaryShape().getAppbarListButtonsCompartmentFigure();
+			setupContentPane(pane); // FIXME each comparment should handle his content pane in his own way 
+			pane.add(((AppbarAppbarListButtonsCompartment4EditPart) childEditPart).getFigure());
+			return true;
+		}
+		if (childEditPart instanceof AppbarAppbarListLabelsCompartment4EditPart) {
+			IFigure pane = getPrimaryShape().getAppbarListLabelsCompartmentFigure();
+			setupContentPane(pane); // FIXME each comparment should handle his content pane in his own way 
+			pane.add(((AppbarAppbarListLabelsCompartment4EditPart) childEditPart).getFigure());
+			return true;
+		}
 		return false;
 	}
 
@@ -122,6 +138,16 @@ public class Appbar4EditPart extends ShapeNodeEditPart {
 	*/
 	protected boolean removeFixedChild(EditPart childEditPart) {
 		if (childEditPart instanceof AppbarName4EditPart) {
+			return true;
+		}
+		if (childEditPart instanceof AppbarAppbarListButtonsCompartment4EditPart) {
+			IFigure pane = getPrimaryShape().getAppbarListButtonsCompartmentFigure();
+			pane.remove(((AppbarAppbarListButtonsCompartment4EditPart) childEditPart).getFigure());
+			return true;
+		}
+		if (childEditPart instanceof AppbarAppbarListLabelsCompartment4EditPart) {
+			IFigure pane = getPrimaryShape().getAppbarListLabelsCompartmentFigure();
+			pane.remove(((AppbarAppbarListLabelsCompartment4EditPart) childEditPart).getFigure());
 			return true;
 		}
 		return false;
@@ -151,6 +177,12 @@ public class Appbar4EditPart extends ShapeNodeEditPart {
 	* @generated
 	*/
 	protected IFigure getContentPaneFor(IGraphicalEditPart editPart) {
+		if (editPart instanceof AppbarAppbarListButtonsCompartment4EditPart) {
+			return getPrimaryShape().getAppbarListButtonsCompartmentFigure();
+		}
+		if (editPart instanceof AppbarAppbarListLabelsCompartment4EditPart) {
+			return getPrimaryShape().getAppbarListLabelsCompartmentFigure();
+		}
 		return getContentPane();
 	}
 
@@ -258,8 +290,18 @@ public class Appbar4EditPart extends ShapeNodeEditPart {
 		private WrappingLabel fFigureAppbarLabelFigure;
 
 		/**
-		 * @generated
-		 */
+		* @generated
+		*/
+		private RectangleFigure fAppbarListButtonsCompartmentFigure;
+
+		/**
+		* @generated
+		*/
+		private RectangleFigure fAppbarListLabelsCompartmentFigure;
+
+		/**
+				 * @generated
+				 */
 		public AppbarFigure() {
 			this.setCornerDimensions(new Dimension(getMapMode().DPtoLP(8), getMapMode().DPtoLP(8)));
 			this.setBorder(new MarginBorder(getMapMode().DPtoLP(5), getMapMode().DPtoLP(5), getMapMode().DPtoLP(5),
@@ -275,8 +317,21 @@ public class Appbar4EditPart extends ShapeNodeEditPart {
 			fFigureAppbarLabelFigure = new WrappingLabel();
 
 			fFigureAppbarLabelFigure.setText("Appbar");
+			fFigureAppbarLabelFigure.setMaximumSize(new Dimension(getMapMode().DPtoLP(10000), getMapMode().DPtoLP(50)));
 
 			this.add(fFigureAppbarLabelFigure);
+
+			fAppbarListButtonsCompartmentFigure = new RectangleFigure();
+
+			fAppbarListButtonsCompartmentFigure.setOutline(false);
+
+			this.add(fAppbarListButtonsCompartmentFigure);
+
+			fAppbarListLabelsCompartmentFigure = new RectangleFigure();
+
+			fAppbarListLabelsCompartmentFigure.setOutline(false);
+
+			this.add(fAppbarListLabelsCompartmentFigure);
 
 		}
 
@@ -287,6 +342,26 @@ public class Appbar4EditPart extends ShapeNodeEditPart {
 			return fFigureAppbarLabelFigure;
 		}
 
+		/**
+		* @generated
+		*/
+		public RectangleFigure getAppbarListButtonsCompartmentFigure() {
+			return fAppbarListButtonsCompartmentFigure;
+		}
+
+		/**
+		* @generated
+		*/
+		public RectangleFigure getAppbarListLabelsCompartmentFigure() {
+			return fAppbarListLabelsCompartmentFigure;
+		}
+
+	}
+
+	protected void handleNotificationEvent(Notification notification) {
+		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
+
+		super.handleNotificationEvent(notification);
 	}
 
 }

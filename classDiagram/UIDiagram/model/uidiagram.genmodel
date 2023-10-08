@@ -18,7 +18,7 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//TemplateWidget/positionX"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//TemplateWidget/positionY"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//TemplateWidget/width"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//TemplateWidget/hight"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//TemplateWidget/height"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//TemplateWidget/backgroundColor"/>
     </genClasses>
     <genClasses ecoreClass="uidiagram.ecore#//UserInterface">
@@ -27,7 +27,7 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//UserInterface/positionX"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//UserInterface/positionY"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//UserInterface/width"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//UserInterface/hight"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//UserInterface/height"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//UserInterface/backgroundColor"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference uidiagram.ecore#//UserInterface/listTemplateWidget"/>
     </genClasses>
@@ -40,8 +40,14 @@
     <genClasses ecoreClass="uidiagram.ecore#//GroupRow">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference uidiagram.ecore#//GroupRow/listTemplateWidget"/>
     </genClasses>
-    <genClasses ecoreClass="uidiagram.ecore#//Appbar"/>
-    <genClasses ecoreClass="uidiagram.ecore#//Tabbar"/>
+    <genClasses ecoreClass="uidiagram.ecore#//Appbar">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference uidiagram.ecore#//Appbar/listButtons"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference uidiagram.ecore#//Appbar/listLabels"/>
+    </genClasses>
+    <genClasses ecoreClass="uidiagram.ecore#//Tabbar">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference uidiagram.ecore#//Tabbar/listButtons"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference uidiagram.ecore#//Tabbar/listLabels"/>
+    </genClasses>
     <genClasses ecoreClass="uidiagram.ecore#//Button"/>
     <genClasses ecoreClass="uidiagram.ecore#//Label"/>
     <genClasses ecoreClass="uidiagram.ecore#//Checkbox"/>

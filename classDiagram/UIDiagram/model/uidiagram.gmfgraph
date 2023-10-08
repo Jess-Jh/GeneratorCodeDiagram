@@ -58,18 +58,30 @@
         <border xsi:type="gmfgraph:MarginBorder">
           <insets top="5" left="5" bottom="5" right="5"/>
         </border>
-        <children xsi:type="gmfgraph:Label" name="AppbarLabelFigure" text="Appbar"/>
+        <children xsi:type="gmfgraph:Label" name="AppbarLabelFigure" text="Appbar">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="AppbarListButtonsCompartmentFigure" outline="false"/>
+        <children xsi:type="gmfgraph:Rectangle" name="AppbarListLabelsCompartmentFigure" outline="false"/>
       </actualFigure>
       <accessors accessor="getFigureAppbarLabelFigure" figure="//@figures.0/@descriptors.4/@actualFigure/@children.0"/>
+      <accessors accessor="getAppbarListButtonsCompartmentFigure" figure="//@figures.0/@descriptors.4/@actualFigure/@children.1"/>
+      <accessors accessor="getAppbarListLabelsCompartmentFigure" figure="//@figures.0/@descriptors.4/@actualFigure/@children.2"/>
     </descriptors>
     <descriptors name="TabbarFigure">
       <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="TabbarFigure">
         <border xsi:type="gmfgraph:MarginBorder">
           <insets top="5" left="5" bottom="5" right="5"/>
         </border>
-        <children xsi:type="gmfgraph:Label" name="TabbarLabelFigure" text="Tabbar"/>
+        <children xsi:type="gmfgraph:Label" name="TabbarLabelFigure" text="Tabbar">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="TabbarListButtonsCompartmentFigure" outline="false"/>
+        <children xsi:type="gmfgraph:Rectangle" name="TabbarListLabelsCompartmentFigure" outline="false"/>
       </actualFigure>
       <accessors accessor="getFigureTabbarLabelFigure" figure="//@figures.0/@descriptors.5/@actualFigure/@children.0"/>
+      <accessors accessor="getTabbarListButtonsCompartmentFigure" figure="//@figures.0/@descriptors.5/@actualFigure/@children.1"/>
+      <accessors accessor="getTabbarListLabelsCompartmentFigure" figure="//@figures.0/@descriptors.5/@actualFigure/@children.2"/>
     </descriptors>
     <descriptors name="ButtonFigure">
       <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="ButtonFigure">
@@ -196,6 +208,10 @@
   <compartments name="GroupListTemplateWidgetCompartment" figure="GroupFigure" collapsible="true" accessor="//@figures.0/@descriptors.1/@accessors.1"/>
   <compartments name="GroupColumnListTemplateWidgetCompartment" figure="GroupColumnFigure" collapsible="true" accessor="//@figures.0/@descriptors.2/@accessors.1"/>
   <compartments name="GroupRowListTemplateWidgetCompartment" figure="GroupRowFigure" collapsible="true" accessor="//@figures.0/@descriptors.3/@accessors.1"/>
+  <compartments name="AppbarListButtonsCompartment" figure="AppbarFigure" collapsible="true" accessor="//@figures.0/@descriptors.4/@accessors.1"/>
+  <compartments name="AppbarListLabelsCompartment" figure="AppbarFigure" collapsible="true" accessor="//@figures.0/@descriptors.4/@accessors.2"/>
+  <compartments name="TabbarListButtonsCompartment" figure="TabbarFigure" collapsible="true" accessor="//@figures.0/@descriptors.5/@accessors.1"/>
+  <compartments name="TabbarListLabelsCompartment" figure="TabbarFigure" collapsible="true" accessor="//@figures.0/@descriptors.5/@accessors.2"/>
   <compartments name="TableListCoulmnsCompartment" figure="TableFigure" collapsible="true" accessor="//@figures.0/@descriptors.15/@accessors.1"/>
   <labels name="UserInterfaceLabel" figure="UserInterfaceFigure" accessor="//@figures.0/@descriptors.0/@accessors.0"/>
   <labels name="GroupLabel" figure="GroupFigure" accessor="//@figures.0/@descriptors.1/@accessors.0"/>

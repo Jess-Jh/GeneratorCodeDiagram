@@ -4267,3 +4267,669 @@ Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/
 !MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
 !SUBENTRY 1 org.eclipse.ui 2 0 2023-09-30 16:45:16.795
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-09-30 17:24:33.215 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-09-30 17:24:36.856
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-09-30 17:24:36.856
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-07 17:36:12.885 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-07 17:36:17.548
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-07 17:36:17.548
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-07 17:38:35.812 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-07 17:38:39.326
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-07 17:38:39.326
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-07 18:19:32.309 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-07 18:19:36.085
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-07 18:19:36.085
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-07 18:21:46.789 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-07 18:21:50.400
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-07 18:21:50.400
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-07 18:26:18.991 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-07 18:26:22.734
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-07 18:26:22.734
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-07 18:28:19.987 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-07 18:28:23.632
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-07 18:28:23.632
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-07 18:32:49.939 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-07 18:32:53.817
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-07 18:32:53.817
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-07 18:36:59.485 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-07 18:37:04.214
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-07 18:37:04.214
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-07 18:39:50.905 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-07 18:39:54.617
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-07 18:39:54.617
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-07 18:44:39.928 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-07 18:44:43.489
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-07 18:44:43.489
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-07 18:46:27.801 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-07 18:46:31.867
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-07 18:46:31.867
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-07 19:34:43.471 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-07 19:34:47.532
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-07 19:34:47.532
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-07 23:19:18.460 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-07 23:19:23.170
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-07 23:19:23.170
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-07 23:21:30.172 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-07 23:21:33.428
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-07 23:21:33.428
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-07 23:24:24.817 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-07 23:24:28.312
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-07 23:24:28.312
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-07 23:27:48.435 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-07 23:27:51.805
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-07 23:27:51.805
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-07 23:28:30.736 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-07 23:28:34.044
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-07 23:28:34.044
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-07 23:51:31.285 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-07 23:51:34.690
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-07 23:51:34.690
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-07 23:53:06.394 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-07 23:53:09.657
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-07 23:53:09.658
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-07 23:56:19.518 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-07 23:56:22.739
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-07 23:56:22.739
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-07 23:58:50.975 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-07 23:58:54.291
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-07 23:58:54.291
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-08 00:12:53.689 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-08 00:12:57.425
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-08 00:12:57.425
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-08 00:22:51.440 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-08 00:22:54.902
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-08 00:22:54.902
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-08 00:26:09.181 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-08 00:26:12.545
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-08 00:26:12.545
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-08 00:27:28.582 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-08 00:27:32.008
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-08 00:27:32.008
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-08 00:28:48.231 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-08 00:28:51.677
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-08 00:28:51.677
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-08 00:30:44.408 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-08 00:30:47.651
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-08 00:30:47.651
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-08 00:33:25.680 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-08 00:33:29.774
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-08 00:33:29.774
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-08 00:34:03.810 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-08 00:34:06.876
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-08 00:34:06.876
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-08 00:41:45.044 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-08 00:41:48.589
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-08 00:41:48.590
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-08 00:45:14.841 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-08 00:45:18.112
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-08 00:45:18.112
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+
+!ENTRY org.eclipse.gmf.runtime.diagram.ui 4 4 2023-10-08 00:45:38.112
+!MESSAGE execute
+!STACK 0
+org.eclipse.core.commands.ExecutionException: While executing the operation, an exception occurred
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:504)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:207)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:170)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:157)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(AbstractTool.java:425)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(AbstractTool.java:438)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.CreationTool.performCreation(CreationTool.java:134)
+	at org.eclipse.gef.tools.CreationTool.handleButtonUp(CreationTool.java:189)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1200)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:301)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:380)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:548)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4351)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3927)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+Caused by: java.lang.ClassCastException: class uidiagram.impl.ColumnImpl cannot be cast to class uidiagram.TemplateWidget (uidiagram.impl.ColumnImpl and uidiagram.TemplateWidget are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @5f852580)
+	at uidiagram.diagram.edit.notifications.NotificationEvent.handleNotificationEventTemplate(NotificationEvent.java:48)
+	at uidiagram.diagram.edit.parts.ColumnEditPart.handleNotificationEvent(ColumnEditPart.java:295)
+	at org.eclipse.gmf.runtime.diagram.ui.editparts.GraphicalEditPart.notifyChanged(GraphicalEditPart.java:1436)
+	at org.eclipse.gmf.runtime.diagram.core.listener.DiagramEventBroker.fireNotification(DiagramEventBroker.java:505)
+	at org.eclipse.gmf.runtime.diagram.core.listener.DiagramEventBroker.resourceSetChanged(DiagramEventBroker.java:400)
+	at org.eclipse.gmf.runtime.diagram.ui.DiagramEventBrokerThreadSafe.resourceSetChanged(DiagramEventBrokerThreadSafe.java:74)
+	at org.eclipse.gmf.runtime.diagram.core.DiagramEditingDomainFactory$DiagramEditingDomain.postcommit(DiagramEditingDomainFactory.java:215)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.deactivate(TransactionalEditingDomainImpl.java:543)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.close(TransactionImpl.java:712)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.commit(TransactionImpl.java:474)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:155)
+	at org.eclipse.gmf.runtime.common.core.command.CompositeCommand.doExecuteWithResult(CompositeCommand.java:404)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
+	at org.eclipse.gmf.runtime.common.core.command.CompositeCommand.doExecuteWithResult(CompositeCommand.java:404)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
+	at org.eclipse.gmf.runtime.common.core.command.CompositeCommand.doExecuteWithResult(CompositeCommand.java:404)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	... 42 more
+
+!ENTRY org.eclipse.gmf.runtime.diagram.ui 4 4 2023-10-08 00:45:45.129
+!MESSAGE execute
+!STACK 0
+org.eclipse.core.commands.ExecutionException: While executing the operation, an exception occurred
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:504)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:207)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:170)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:157)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(AbstractTool.java:425)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(AbstractTool.java:438)
+	at org.eclipse.gef.tools.SimpleDragTracker.performDrag(SimpleDragTracker.java:229)
+	at org.eclipse.gef.tools.ResizeTracker.handleButtonUp(ResizeTracker.java:260)
+	at org.eclipse.gef.tools.AbstractTool.mouseUp(AbstractTool.java:1200)
+	at org.eclipse.gef.tools.SelectionTool.mouseUp(SelectionTool.java:574)
+	at org.eclipse.gef.EditDomain.mouseUp(EditDomain.java:301)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseReleased(DomainEventDispatcher.java:380)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseUp(LightweightSystem.java:548)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4351)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3927)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+Caused by: java.lang.ClassCastException: class uidiagram.impl.ColumnImpl cannot be cast to class uidiagram.TemplateWidget (uidiagram.impl.ColumnImpl and uidiagram.TemplateWidget are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @5f852580)
+	at uidiagram.diagram.edit.notifications.NotificationEvent.handleNotificationEventTemplate(NotificationEvent.java:23)
+	at uidiagram.diagram.edit.parts.ColumnEditPart.handleNotificationEvent(ColumnEditPart.java:295)
+	at org.eclipse.gmf.runtime.diagram.ui.editparts.GraphicalEditPart.notifyChanged(GraphicalEditPart.java:1436)
+	at org.eclipse.gmf.runtime.diagram.core.listener.DiagramEventBroker.fireNotification(DiagramEventBroker.java:505)
+	at org.eclipse.gmf.runtime.diagram.core.listener.DiagramEventBroker.resourceSetChanged(DiagramEventBroker.java:400)
+	at org.eclipse.gmf.runtime.diagram.ui.DiagramEventBrokerThreadSafe.resourceSetChanged(DiagramEventBrokerThreadSafe.java:74)
+	at org.eclipse.gmf.runtime.diagram.core.DiagramEditingDomainFactory$DiagramEditingDomain.postcommit(DiagramEditingDomainFactory.java:215)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.deactivate(TransactionalEditingDomainImpl.java:543)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.close(TransactionImpl.java:712)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.commit(TransactionImpl.java:474)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:155)
+	at org.eclipse.gmf.runtime.common.core.command.CompositeCommand.doExecuteWithResult(CompositeCommand.java:404)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	... 43 more
+
+!ENTRY org.eclipse.gmf.runtime.diagram.ui 4 4 2023-10-08 00:45:50.101
+!MESSAGE execute
+!STACK 0
+org.eclipse.core.commands.ExecutionException: While executing the operation, an exception occurred
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:504)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:207)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:170)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramCommandStack.execute(DiagramCommandStack.java:157)
+	at org.eclipse.gef.tools.AbstractTool.executeCommand(AbstractTool.java:425)
+	at org.eclipse.gef.tools.AbstractTool.executeCurrentCommand(AbstractTool.java:438)
+	at org.eclipse.gef.tools.SimpleDragTracker.performDrag(SimpleDragTracker.java:229)
+	at org.eclipse.gef.tools.ResizeTracker.handleButtonUp(ResizeTracker.java:260)
+	at org.eclipse.gef.tools.AbstractTool.mouseMove(AbstractTool.java:1159)
+	at org.eclipse.gef.tools.SelectionTool.mouseMove(SelectionTool.java:562)
+	at org.eclipse.gef.EditDomain.mouseMove(EditDomain.java:287)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchMouseMoved(DomainEventDispatcher.java:365)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.mouseMove(LightweightSystem.java:543)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4351)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3927)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+Caused by: java.lang.ClassCastException: class uidiagram.impl.ColumnImpl cannot be cast to class uidiagram.TemplateWidget (uidiagram.impl.ColumnImpl and uidiagram.TemplateWidget are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @5f852580)
+	at uidiagram.diagram.edit.notifications.NotificationEvent.handleNotificationEventTemplate(NotificationEvent.java:23)
+	at uidiagram.diagram.edit.parts.ColumnEditPart.handleNotificationEvent(ColumnEditPart.java:295)
+	at org.eclipse.gmf.runtime.diagram.ui.editparts.GraphicalEditPart.notifyChanged(GraphicalEditPart.java:1436)
+	at org.eclipse.gmf.runtime.diagram.core.listener.DiagramEventBroker.fireNotification(DiagramEventBroker.java:505)
+	at org.eclipse.gmf.runtime.diagram.core.listener.DiagramEventBroker.resourceSetChanged(DiagramEventBroker.java:400)
+	at org.eclipse.gmf.runtime.diagram.ui.DiagramEventBrokerThreadSafe.resourceSetChanged(DiagramEventBrokerThreadSafe.java:74)
+	at org.eclipse.gmf.runtime.diagram.core.DiagramEditingDomainFactory$DiagramEditingDomain.postcommit(DiagramEditingDomainFactory.java:215)
+	at org.eclipse.emf.transaction.impl.TransactionalEditingDomainImpl.deactivate(TransactionalEditingDomainImpl.java:543)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.close(TransactionImpl.java:712)
+	at org.eclipse.emf.transaction.impl.TransactionImpl.commit(TransactionImpl.java:474)
+	at org.eclipse.emf.workspace.AbstractEMFOperation.execute(AbstractEMFOperation.java:155)
+	at org.eclipse.gmf.runtime.common.core.command.CompositeCommand.doExecuteWithResult(CompositeCommand.java:404)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(AbstractCommand.java:135)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(DefaultOperationHistory.java:496)
+	... 43 more
+!SESSION 2023-10-08 00:47:37.411 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-08 00:47:40.678
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-08 00:47:40.678
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-08 00:49:45.458 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-08 00:49:48.705
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-08 00:49:48.705
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-08 00:52:04.525 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-08 00:52:07.976
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-08 00:52:07.976
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-08 00:54:31.220 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-08 00:54:34.696
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-08 00:54:34.696
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-08 00:56:07.951 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-08 00:56:11.262
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-08 00:56:11.262
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-08 00:57:56.792 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-08 00:58:00.149
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-08 00:58:00.149
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-08 01:01:39.910 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-08 01:01:43.255
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-08 01:01:43.255
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'

@@ -74,7 +74,9 @@ public class UidiagramPaletteFactory {
 	* @generated
 	*/
 	private ToolEntry createButton2CreationTool() {
-		ArrayList<IElementType> types = new ArrayList<IElementType>(4);
+		ArrayList<IElementType> types = new ArrayList<IElementType>(6);
+		types.add(UidiagramElementTypes.Button_3062);
+		types.add(UidiagramElementTypes.Button_3063);
 		types.add(UidiagramElementTypes.Button_3009);
 		types.add(UidiagramElementTypes.Button_3026);
 		types.add(UidiagramElementTypes.Button_3038);
@@ -82,7 +84,7 @@ public class UidiagramPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(Messages.Button2CreationTool_title,
 				Messages.Button2CreationTool_desc, types);
 		entry.setId("createButton2CreationTool"); //$NON-NLS-1$
-		entry.setSmallIcon(UidiagramElementTypes.getImageDescriptor(UidiagramElementTypes.Button_3009));
+		entry.setSmallIcon(UidiagramElementTypes.getImageDescriptor(UidiagramElementTypes.Button_3062));
 		entry.setLargeIcon(entry.getSmallIcon());
 		return entry;
 	}
@@ -222,7 +224,9 @@ public class UidiagramPaletteFactory {
 	* @generated
 	*/
 	private ToolEntry createLabel11CreationTool() {
-		ArrayList<IElementType> types = new ArrayList<IElementType>(4);
+		ArrayList<IElementType> types = new ArrayList<IElementType>(6);
+		types.add(UidiagramElementTypes.Label_3064);
+		types.add(UidiagramElementTypes.Label_3065);
 		types.add(UidiagramElementTypes.Label_3010);
 		types.add(UidiagramElementTypes.Label_3027);
 		types.add(UidiagramElementTypes.Label_3039);
@@ -230,7 +234,7 @@ public class UidiagramPaletteFactory {
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(Messages.Label11CreationTool_title,
 				Messages.Label11CreationTool_desc, types);
 		entry.setId("createLabel11CreationTool"); //$NON-NLS-1$
-		entry.setSmallIcon(UidiagramElementTypes.getImageDescriptor(UidiagramElementTypes.Label_3010));
+		entry.setSmallIcon(UidiagramElementTypes.getImageDescriptor(UidiagramElementTypes.Label_3064));
 		entry.setLargeIcon(entry.getSmallIcon());
 		return entry;
 	}

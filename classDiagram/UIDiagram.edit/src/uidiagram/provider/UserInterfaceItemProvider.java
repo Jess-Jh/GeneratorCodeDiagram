@@ -68,7 +68,7 @@ public class UserInterfaceItemProvider
 			addPositionXPropertyDescriptor(object);
 			addPositionYPropertyDescriptor(object);
 			addWidthPropertyDescriptor(object);
-			addHightPropertyDescriptor(object);
+			addHeightPropertyDescriptor(object);
 			addBackgroundColorPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
@@ -135,7 +135,7 @@ public class UserInterfaceItemProvider
 				 true,
 				 false,
 				 false,
-				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
 				 null,
 				 null));
 	}
@@ -157,7 +157,7 @@ public class UserInterfaceItemProvider
 				 true,
 				 false,
 				 false,
-				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
 				 null,
 				 null));
 	}
@@ -179,29 +179,29 @@ public class UserInterfaceItemProvider
 				 true,
 				 false,
 				 false,
-				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 ItemPropertyDescriptor.REAL_VALUE_IMAGE,
 				 null,
 				 null));
 	}
 
 	/**
-	 * This adds a property descriptor for the Hight feature.
+	 * This adds a property descriptor for the Height feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addHightPropertyDescriptor(Object object) {
+	protected void addHeightPropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_UserInterface_hight_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_UserInterface_hight_feature", "_UI_UserInterface_type"),
-				 UidiagramPackage.Literals.USER_INTERFACE__HIGHT,
+				 getString("_UI_UserInterface_height_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_UserInterface_height_feature", "_UI_UserInterface_type"),
+				 UidiagramPackage.Literals.USER_INTERFACE__HEIGHT,
 				 true,
 				 false,
 				 false,
-				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 ItemPropertyDescriptor.REAL_VALUE_IMAGE,
 				 null,
 				 null));
 	}
@@ -301,7 +301,7 @@ public class UserInterfaceItemProvider
 			case UidiagramPackage.USER_INTERFACE__POSITION_X:
 			case UidiagramPackage.USER_INTERFACE__POSITION_Y:
 			case UidiagramPackage.USER_INTERFACE__WIDTH:
-			case UidiagramPackage.USER_INTERFACE__HIGHT:
+			case UidiagramPackage.USER_INTERFACE__HEIGHT:
 			case UidiagramPackage.USER_INTERFACE__BACKGROUND_COLOR:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;

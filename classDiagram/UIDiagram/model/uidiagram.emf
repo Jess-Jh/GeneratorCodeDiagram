@@ -15,10 +15,10 @@ class UIDiagram {
 class TemplateWidget {
      attr String idTemplate;
      attr String name;
-     attr String positionX;
-     attr String positionY;
-     attr String width;
-     attr String hight;
+     attr int positionX;
+     attr int positionY;
+     attr double width;
+     attr double height;
      attr String backgroundColor;
 }
 
@@ -26,10 +26,10 @@ class TemplateWidget {
 class UserInterface {
      attr String idInterface;
      attr String name;
-     attr String positionX;
-     attr String positionY;
-     attr String width;
-     attr String hight;
+     attr int positionX;
+     attr int positionY;
+     attr double width;
+     attr double height;
      attr String backgroundColor;
      
      @gmf.compartment
@@ -55,10 +55,23 @@ class GroupRow extends TemplateWidget {
 }
 
 @gmf.node(label = "name")
-class Appbar extends TemplateWidget {}
+class Appbar extends TemplateWidget {
+	@gmf.compartment
+    val Button[*] listButtons; 
+    
+    @gmf.compartment
+    val Label[*] listLabels; 
+
+}
 
 @gmf.node(label = "name")
-class Tabbar extends TemplateWidget {}
+class Tabbar extends TemplateWidget {
+	@gmf.compartment
+    val Button[*] listButtons; 
+    
+    @gmf.compartment
+    val Label[*] listLabels; 
+}
 
 @gmf.node(label = "name")
 class Button extends TemplateWidget {}

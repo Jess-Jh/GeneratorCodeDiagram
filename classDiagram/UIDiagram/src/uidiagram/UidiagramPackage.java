@@ -177,13 +177,13 @@ public interface UidiagramPackage extends EPackage {
 	int TEMPLATE_WIDGET__WIDTH = 4;
 
 	/**
-	 * The feature id for the '<em><b>Hight</b></em>' attribute.
+	 * The feature id for the '<em><b>Height</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int TEMPLATE_WIDGET__HIGHT = 5;
+	int TEMPLATE_WIDGET__HEIGHT = 5;
 
 	/**
 	 * The feature id for the '<em><b>Background Color</b></em>' attribute.
@@ -259,13 +259,13 @@ public interface UidiagramPackage extends EPackage {
 	int USER_INTERFACE__WIDTH = 4;
 
 	/**
-	 * The feature id for the '<em><b>Hight</b></em>' attribute.
+	 * The feature id for the '<em><b>Height</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int USER_INTERFACE__HIGHT = 5;
+	int USER_INTERFACE__HEIGHT = 5;
 
 	/**
 	 * The feature id for the '<em><b>Background Color</b></em>' attribute.
@@ -350,13 +350,13 @@ public interface UidiagramPackage extends EPackage {
 	int GROUP__WIDTH = TEMPLATE_WIDGET__WIDTH;
 
 	/**
-	 * The feature id for the '<em><b>Hight</b></em>' attribute.
+	 * The feature id for the '<em><b>Height</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int GROUP__HIGHT = TEMPLATE_WIDGET__HIGHT;
+	int GROUP__HEIGHT = TEMPLATE_WIDGET__HEIGHT;
 
 	/**
 	 * The feature id for the '<em><b>Background Color</b></em>' attribute.
@@ -441,13 +441,13 @@ public interface UidiagramPackage extends EPackage {
 	int GROUP_COLUMN__WIDTH = TEMPLATE_WIDGET__WIDTH;
 
 	/**
-	 * The feature id for the '<em><b>Hight</b></em>' attribute.
+	 * The feature id for the '<em><b>Height</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int GROUP_COLUMN__HIGHT = TEMPLATE_WIDGET__HIGHT;
+	int GROUP_COLUMN__HEIGHT = TEMPLATE_WIDGET__HEIGHT;
 
 	/**
 	 * The feature id for the '<em><b>Background Color</b></em>' attribute.
@@ -532,13 +532,13 @@ public interface UidiagramPackage extends EPackage {
 	int GROUP_ROW__WIDTH = TEMPLATE_WIDGET__WIDTH;
 
 	/**
-	 * The feature id for the '<em><b>Hight</b></em>' attribute.
+	 * The feature id for the '<em><b>Height</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int GROUP_ROW__HIGHT = TEMPLATE_WIDGET__HIGHT;
+	int GROUP_ROW__HEIGHT = TEMPLATE_WIDGET__HEIGHT;
 
 	/**
 	 * The feature id for the '<em><b>Background Color</b></em>' attribute.
@@ -623,13 +623,13 @@ public interface UidiagramPackage extends EPackage {
 	int APPBAR__WIDTH = TEMPLATE_WIDGET__WIDTH;
 
 	/**
-	 * The feature id for the '<em><b>Hight</b></em>' attribute.
+	 * The feature id for the '<em><b>Height</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int APPBAR__HIGHT = TEMPLATE_WIDGET__HIGHT;
+	int APPBAR__HEIGHT = TEMPLATE_WIDGET__HEIGHT;
 
 	/**
 	 * The feature id for the '<em><b>Background Color</b></em>' attribute.
@@ -641,13 +641,31 @@ public interface UidiagramPackage extends EPackage {
 	int APPBAR__BACKGROUND_COLOR = TEMPLATE_WIDGET__BACKGROUND_COLOR;
 
 	/**
+	 * The feature id for the '<em><b>List Buttons</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int APPBAR__LIST_BUTTONS = TEMPLATE_WIDGET_FEATURE_COUNT + 0;
+
+	/**
+	 * The feature id for the '<em><b>List Labels</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int APPBAR__LIST_LABELS = TEMPLATE_WIDGET_FEATURE_COUNT + 1;
+
+	/**
 	 * The number of structural features of the '<em>Appbar</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int APPBAR_FEATURE_COUNT = TEMPLATE_WIDGET_FEATURE_COUNT + 0;
+	int APPBAR_FEATURE_COUNT = TEMPLATE_WIDGET_FEATURE_COUNT + 2;
 
 	/**
 	 * The meta object id for the '{@link uidiagram.impl.TabbarImpl <em>Tabbar</em>}' class.
@@ -705,13 +723,13 @@ public interface UidiagramPackage extends EPackage {
 	int TABBAR__WIDTH = TEMPLATE_WIDGET__WIDTH;
 
 	/**
-	 * The feature id for the '<em><b>Hight</b></em>' attribute.
+	 * The feature id for the '<em><b>Height</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int TABBAR__HIGHT = TEMPLATE_WIDGET__HIGHT;
+	int TABBAR__HEIGHT = TEMPLATE_WIDGET__HEIGHT;
 
 	/**
 	 * The feature id for the '<em><b>Background Color</b></em>' attribute.
@@ -723,13 +741,31 @@ public interface UidiagramPackage extends EPackage {
 	int TABBAR__BACKGROUND_COLOR = TEMPLATE_WIDGET__BACKGROUND_COLOR;
 
 	/**
+	 * The feature id for the '<em><b>List Buttons</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TABBAR__LIST_BUTTONS = TEMPLATE_WIDGET_FEATURE_COUNT + 0;
+
+	/**
+	 * The feature id for the '<em><b>List Labels</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TABBAR__LIST_LABELS = TEMPLATE_WIDGET_FEATURE_COUNT + 1;
+
+	/**
 	 * The number of structural features of the '<em>Tabbar</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int TABBAR_FEATURE_COUNT = TEMPLATE_WIDGET_FEATURE_COUNT + 0;
+	int TABBAR_FEATURE_COUNT = TEMPLATE_WIDGET_FEATURE_COUNT + 2;
 
 	/**
 	 * The meta object id for the '{@link uidiagram.impl.ButtonImpl <em>Button</em>}' class.
@@ -787,13 +823,13 @@ public interface UidiagramPackage extends EPackage {
 	int BUTTON__WIDTH = TEMPLATE_WIDGET__WIDTH;
 
 	/**
-	 * The feature id for the '<em><b>Hight</b></em>' attribute.
+	 * The feature id for the '<em><b>Height</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int BUTTON__HIGHT = TEMPLATE_WIDGET__HIGHT;
+	int BUTTON__HEIGHT = TEMPLATE_WIDGET__HEIGHT;
 
 	/**
 	 * The feature id for the '<em><b>Background Color</b></em>' attribute.
@@ -869,13 +905,13 @@ public interface UidiagramPackage extends EPackage {
 	int LABEL__WIDTH = TEMPLATE_WIDGET__WIDTH;
 
 	/**
-	 * The feature id for the '<em><b>Hight</b></em>' attribute.
+	 * The feature id for the '<em><b>Height</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int LABEL__HIGHT = TEMPLATE_WIDGET__HIGHT;
+	int LABEL__HEIGHT = TEMPLATE_WIDGET__HEIGHT;
 
 	/**
 	 * The feature id for the '<em><b>Background Color</b></em>' attribute.
@@ -951,13 +987,13 @@ public interface UidiagramPackage extends EPackage {
 	int CHECKBOX__WIDTH = TEMPLATE_WIDGET__WIDTH;
 
 	/**
-	 * The feature id for the '<em><b>Hight</b></em>' attribute.
+	 * The feature id for the '<em><b>Height</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int CHECKBOX__HIGHT = TEMPLATE_WIDGET__HIGHT;
+	int CHECKBOX__HEIGHT = TEMPLATE_WIDGET__HEIGHT;
 
 	/**
 	 * The feature id for the '<em><b>Background Color</b></em>' attribute.
@@ -1033,13 +1069,13 @@ public interface UidiagramPackage extends EPackage {
 	int INPUT__WIDTH = TEMPLATE_WIDGET__WIDTH;
 
 	/**
-	 * The feature id for the '<em><b>Hight</b></em>' attribute.
+	 * The feature id for the '<em><b>Height</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int INPUT__HIGHT = TEMPLATE_WIDGET__HIGHT;
+	int INPUT__HEIGHT = TEMPLATE_WIDGET__HEIGHT;
 
 	/**
 	 * The feature id for the '<em><b>Background Color</b></em>' attribute.
@@ -1115,13 +1151,13 @@ public interface UidiagramPackage extends EPackage {
 	int LIST_VIEW__WIDTH = TEMPLATE_WIDGET__WIDTH;
 
 	/**
-	 * The feature id for the '<em><b>Hight</b></em>' attribute.
+	 * The feature id for the '<em><b>Height</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int LIST_VIEW__HIGHT = TEMPLATE_WIDGET__HIGHT;
+	int LIST_VIEW__HEIGHT = TEMPLATE_WIDGET__HEIGHT;
 
 	/**
 	 * The feature id for the '<em><b>Background Color</b></em>' attribute.
@@ -1197,13 +1233,13 @@ public interface UidiagramPackage extends EPackage {
 	int RADIO_BUTTON__WIDTH = TEMPLATE_WIDGET__WIDTH;
 
 	/**
-	 * The feature id for the '<em><b>Hight</b></em>' attribute.
+	 * The feature id for the '<em><b>Height</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int RADIO_BUTTON__HIGHT = TEMPLATE_WIDGET__HIGHT;
+	int RADIO_BUTTON__HEIGHT = TEMPLATE_WIDGET__HEIGHT;
 
 	/**
 	 * The feature id for the '<em><b>Background Color</b></em>' attribute.
@@ -1279,13 +1315,13 @@ public interface UidiagramPackage extends EPackage {
 	int COMBO_BOX__WIDTH = TEMPLATE_WIDGET__WIDTH;
 
 	/**
-	 * The feature id for the '<em><b>Hight</b></em>' attribute.
+	 * The feature id for the '<em><b>Height</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int COMBO_BOX__HIGHT = TEMPLATE_WIDGET__HIGHT;
+	int COMBO_BOX__HEIGHT = TEMPLATE_WIDGET__HEIGHT;
 
 	/**
 	 * The feature id for the '<em><b>Background Color</b></em>' attribute.
@@ -1361,13 +1397,13 @@ public interface UidiagramPackage extends EPackage {
 	int DATE_PICKER__WIDTH = TEMPLATE_WIDGET__WIDTH;
 
 	/**
-	 * The feature id for the '<em><b>Hight</b></em>' attribute.
+	 * The feature id for the '<em><b>Height</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int DATE_PICKER__HIGHT = TEMPLATE_WIDGET__HIGHT;
+	int DATE_PICKER__HEIGHT = TEMPLATE_WIDGET__HEIGHT;
 
 	/**
 	 * The feature id for the '<em><b>Background Color</b></em>' attribute.
@@ -1443,13 +1479,13 @@ public interface UidiagramPackage extends EPackage {
 	int SWITCH__WIDTH = TEMPLATE_WIDGET__WIDTH;
 
 	/**
-	 * The feature id for the '<em><b>Hight</b></em>' attribute.
+	 * The feature id for the '<em><b>Height</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int SWITCH__HIGHT = TEMPLATE_WIDGET__HIGHT;
+	int SWITCH__HEIGHT = TEMPLATE_WIDGET__HEIGHT;
 
 	/**
 	 * The feature id for the '<em><b>Background Color</b></em>' attribute.
@@ -1525,13 +1561,13 @@ public interface UidiagramPackage extends EPackage {
 	int TABLE__WIDTH = TEMPLATE_WIDGET__WIDTH;
 
 	/**
-	 * The feature id for the '<em><b>Hight</b></em>' attribute.
+	 * The feature id for the '<em><b>Height</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int TABLE__HIGHT = TEMPLATE_WIDGET__HIGHT;
+	int TABLE__HEIGHT = TEMPLATE_WIDGET__HEIGHT;
 
 	/**
 	 * The feature id for the '<em><b>Background Color</b></em>' attribute.
@@ -1708,15 +1744,15 @@ public interface UidiagramPackage extends EPackage {
 	EAttribute getTemplateWidget_Width();
 
 	/**
-	 * Returns the meta object for the attribute '{@link uidiagram.TemplateWidget#getHight <em>Hight</em>}'.
+	 * Returns the meta object for the attribute '{@link uidiagram.TemplateWidget#getHeight <em>Height</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Hight</em>'.
-	 * @see uidiagram.TemplateWidget#getHight()
+	 * @return the meta object for the attribute '<em>Height</em>'.
+	 * @see uidiagram.TemplateWidget#getHeight()
 	 * @see #getTemplateWidget()
 	 * @generated
 	 */
-	EAttribute getTemplateWidget_Hight();
+	EAttribute getTemplateWidget_Height();
 
 	/**
 	 * Returns the meta object for the attribute '{@link uidiagram.TemplateWidget#getBackgroundColor <em>Background Color</em>}'.
@@ -1795,15 +1831,15 @@ public interface UidiagramPackage extends EPackage {
 	EAttribute getUserInterface_Width();
 
 	/**
-	 * Returns the meta object for the attribute '{@link uidiagram.UserInterface#getHight <em>Hight</em>}'.
+	 * Returns the meta object for the attribute '{@link uidiagram.UserInterface#getHeight <em>Height</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Hight</em>'.
-	 * @see uidiagram.UserInterface#getHight()
+	 * @return the meta object for the attribute '<em>Height</em>'.
+	 * @see uidiagram.UserInterface#getHeight()
 	 * @see #getUserInterface()
 	 * @generated
 	 */
-	EAttribute getUserInterface_Hight();
+	EAttribute getUserInterface_Height();
 
 	/**
 	 * Returns the meta object for the attribute '{@link uidiagram.UserInterface#getBackgroundColor <em>Background Color</em>}'.
@@ -1901,6 +1937,28 @@ public interface UidiagramPackage extends EPackage {
 	EClass getAppbar();
 
 	/**
+	 * Returns the meta object for the containment reference list '{@link uidiagram.Appbar#getListButtons <em>List Buttons</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>List Buttons</em>'.
+	 * @see uidiagram.Appbar#getListButtons()
+	 * @see #getAppbar()
+	 * @generated
+	 */
+	EReference getAppbar_ListButtons();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link uidiagram.Appbar#getListLabels <em>List Labels</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>List Labels</em>'.
+	 * @see uidiagram.Appbar#getListLabels()
+	 * @see #getAppbar()
+	 * @generated
+	 */
+	EReference getAppbar_ListLabels();
+
+	/**
 	 * Returns the meta object for class '{@link uidiagram.Tabbar <em>Tabbar</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1909,6 +1967,28 @@ public interface UidiagramPackage extends EPackage {
 	 * @generated
 	 */
 	EClass getTabbar();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link uidiagram.Tabbar#getListButtons <em>List Buttons</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>List Buttons</em>'.
+	 * @see uidiagram.Tabbar#getListButtons()
+	 * @see #getTabbar()
+	 * @generated
+	 */
+	EReference getTabbar_ListButtons();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link uidiagram.Tabbar#getListLabels <em>List Labels</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>List Labels</em>'.
+	 * @see uidiagram.Tabbar#getListLabels()
+	 * @see #getTabbar()
+	 * @generated
+	 */
+	EReference getTabbar_ListLabels();
 
 	/**
 	 * Returns the meta object for class '{@link uidiagram.Button <em>Button</em>}'.
@@ -2159,12 +2239,12 @@ public interface UidiagramPackage extends EPackage {
 		EAttribute TEMPLATE_WIDGET__WIDTH = eINSTANCE.getTemplateWidget_Width();
 
 		/**
-		 * The meta object literal for the '<em><b>Hight</b></em>' attribute feature.
+		 * The meta object literal for the '<em><b>Height</b></em>' attribute feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute TEMPLATE_WIDGET__HIGHT = eINSTANCE.getTemplateWidget_Hight();
+		EAttribute TEMPLATE_WIDGET__HEIGHT = eINSTANCE.getTemplateWidget_Height();
 
 		/**
 		 * The meta object literal for the '<em><b>Background Color</b></em>' attribute feature.
@@ -2225,12 +2305,12 @@ public interface UidiagramPackage extends EPackage {
 		EAttribute USER_INTERFACE__WIDTH = eINSTANCE.getUserInterface_Width();
 
 		/**
-		 * The meta object literal for the '<em><b>Hight</b></em>' attribute feature.
+		 * The meta object literal for the '<em><b>Height</b></em>' attribute feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute USER_INTERFACE__HIGHT = eINSTANCE.getUserInterface_Hight();
+		EAttribute USER_INTERFACE__HEIGHT = eINSTANCE.getUserInterface_Height();
 
 		/**
 		 * The meta object literal for the '<em><b>Background Color</b></em>' attribute feature.
@@ -2313,6 +2393,22 @@ public interface UidiagramPackage extends EPackage {
 		EClass APPBAR = eINSTANCE.getAppbar();
 
 		/**
+		 * The meta object literal for the '<em><b>List Buttons</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference APPBAR__LIST_BUTTONS = eINSTANCE.getAppbar_ListButtons();
+
+		/**
+		 * The meta object literal for the '<em><b>List Labels</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference APPBAR__LIST_LABELS = eINSTANCE.getAppbar_ListLabels();
+
+		/**
 		 * The meta object literal for the '{@link uidiagram.impl.TabbarImpl <em>Tabbar</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -2321,6 +2417,22 @@ public interface UidiagramPackage extends EPackage {
 		 * @generated
 		 */
 		EClass TABBAR = eINSTANCE.getTabbar();
+
+		/**
+		 * The meta object literal for the '<em><b>List Buttons</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference TABBAR__LIST_BUTTONS = eINSTANCE.getTabbar_ListButtons();
+
+		/**
+		 * The meta object literal for the '<em><b>List Labels</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference TABBAR__LIST_LABELS = eINSTANCE.getTabbar_ListLabels();
 
 		/**
 		 * The meta object literal for the '{@link uidiagram.impl.ButtonImpl <em>Button</em>}' class.

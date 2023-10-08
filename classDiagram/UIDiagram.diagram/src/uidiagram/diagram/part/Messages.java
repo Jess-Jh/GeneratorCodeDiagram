@@ -456,6 +456,26 @@ public class Messages extends NLS {
 	/**
 	* @generated
 	*/
+	public static String AppbarAppbarListButtonsCompartmentEditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String AppbarAppbarListLabelsCompartmentEditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String TabbarTabbarListButtonsCompartmentEditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String TabbarTabbarListLabelsCompartmentEditPart_title;
+
+	/**
+	* @generated
+	*/
 	public static String TableTableListCoulmnsCompartmentEditPart_title;
 
 	/**
@@ -481,7 +501,47 @@ public class Messages extends NLS {
 	/**
 	* @generated
 	*/
+	public static String AppbarAppbarListButtonsCompartment2EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String AppbarAppbarListLabelsCompartment2EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String TabbarTabbarListButtonsCompartment2EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String TabbarTabbarListLabelsCompartment2EditPart_title;
+
+	/**
+	* @generated
+	*/
 	public static String TableTableListCoulmnsCompartment2EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String AppbarAppbarListButtonsCompartment3EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String AppbarAppbarListLabelsCompartment3EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String TabbarTabbarListButtonsCompartment3EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String TabbarTabbarListLabelsCompartment3EditPart_title;
 
 	/**
 	* @generated
@@ -497,6 +557,26 @@ public class Messages extends NLS {
 	* @generated
 	*/
 	public static String GroupRowGroupRowListTemplateWidgetCompartment4EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String AppbarAppbarListButtonsCompartment4EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String AppbarAppbarListLabelsCompartment4EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String TabbarTabbarListButtonsCompartment4EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String TabbarTabbarListLabelsCompartment4EditPart_title;
 
 	/**
 	* @generated

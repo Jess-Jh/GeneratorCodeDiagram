@@ -26,6 +26,7 @@ import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.UidiagramPackage;
 import uidiagram.diagram.edit.parts.AppbarEditPart;
+import uidiagram.diagram.edit.parts.Button3EditPart;
 import uidiagram.diagram.edit.parts.ButtonEditPart;
 import uidiagram.diagram.edit.parts.CheckboxEditPart;
 import uidiagram.diagram.edit.parts.ComboBoxEditPart;
@@ -34,6 +35,7 @@ import uidiagram.diagram.edit.parts.Group2EditPart;
 import uidiagram.diagram.edit.parts.GroupColumnEditPart;
 import uidiagram.diagram.edit.parts.GroupRowEditPart;
 import uidiagram.diagram.edit.parts.InputEditPart;
+import uidiagram.diagram.edit.parts.Label3EditPart;
 import uidiagram.diagram.edit.parts.LabelEditPart;
 import uidiagram.diagram.edit.parts.ListViewEditPart;
 import uidiagram.diagram.edit.parts.RadioButtonEditPart;
@@ -102,8 +104,8 @@ public class GroupGroupListTemplateWidgetCompartment4CanonicalEditPolicy extends
 		case GroupRowEditPart.VISUAL_ID:
 		case AppbarEditPart.VISUAL_ID:
 		case TabbarEditPart.VISUAL_ID:
-		case ButtonEditPart.VISUAL_ID:
-		case LabelEditPart.VISUAL_ID:
+		case Button3EditPart.VISUAL_ID:
+		case Label3EditPart.VISUAL_ID:
 		case CheckboxEditPart.VISUAL_ID:
 		case InputEditPart.VISUAL_ID:
 		case ListViewEditPart.VISUAL_ID:

@@ -356,7 +356,7 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 	 * @generated
 	 */
 	@Override
-	public EAttribute getTemplateWidget_Hight() {
+	public EAttribute getTemplateWidget_Height() {
 		return (EAttribute)templateWidgetEClass.getEStructuralFeatures().get(5);
 	}
 
@@ -436,7 +436,7 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 	 * @generated
 	 */
 	@Override
-	public EAttribute getUserInterface_Hight() {
+	public EAttribute getUserInterface_Height() {
 		return (EAttribute)userInterfaceEClass.getEStructuralFeatures().get(5);
 	}
 
@@ -536,8 +536,48 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 	 * @generated
 	 */
 	@Override
+	public EReference getAppbar_ListButtons() {
+		return (EReference)appbarEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EReference getAppbar_ListLabels() {
+		return (EReference)appbarEClass.getEStructuralFeatures().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public EClass getTabbar() {
 		return tabbarEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EReference getTabbar_ListButtons() {
+		return (EReference)tabbarEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EReference getTabbar_ListLabels() {
+		return (EReference)tabbarEClass.getEStructuralFeatures().get(1);
 	}
 
 	/**
@@ -712,7 +752,7 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		createEAttribute(templateWidgetEClass, TEMPLATE_WIDGET__POSITION_X);
 		createEAttribute(templateWidgetEClass, TEMPLATE_WIDGET__POSITION_Y);
 		createEAttribute(templateWidgetEClass, TEMPLATE_WIDGET__WIDTH);
-		createEAttribute(templateWidgetEClass, TEMPLATE_WIDGET__HIGHT);
+		createEAttribute(templateWidgetEClass, TEMPLATE_WIDGET__HEIGHT);
 		createEAttribute(templateWidgetEClass, TEMPLATE_WIDGET__BACKGROUND_COLOR);
 
 		userInterfaceEClass = createEClass(USER_INTERFACE);
@@ -721,7 +761,7 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		createEAttribute(userInterfaceEClass, USER_INTERFACE__POSITION_X);
 		createEAttribute(userInterfaceEClass, USER_INTERFACE__POSITION_Y);
 		createEAttribute(userInterfaceEClass, USER_INTERFACE__WIDTH);
-		createEAttribute(userInterfaceEClass, USER_INTERFACE__HIGHT);
+		createEAttribute(userInterfaceEClass, USER_INTERFACE__HEIGHT);
 		createEAttribute(userInterfaceEClass, USER_INTERFACE__BACKGROUND_COLOR);
 		createEReference(userInterfaceEClass, USER_INTERFACE__LIST_TEMPLATE_WIDGET);
 
@@ -735,8 +775,12 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		createEReference(groupRowEClass, GROUP_ROW__LIST_TEMPLATE_WIDGET);
 
 		appbarEClass = createEClass(APPBAR);
+		createEReference(appbarEClass, APPBAR__LIST_BUTTONS);
+		createEReference(appbarEClass, APPBAR__LIST_LABELS);
 
 		tabbarEClass = createEClass(TABBAR);
+		createEReference(tabbarEClass, TABBAR__LIST_BUTTONS);
+		createEReference(tabbarEClass, TABBAR__LIST_LABELS);
 
 		buttonEClass = createEClass(BUTTON);
 
@@ -818,19 +862,19 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		initEClass(templateWidgetEClass, TemplateWidget.class, "TemplateWidget", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getTemplateWidget_IdTemplate(), ecorePackage.getEString(), "idTemplate", null, 0, 1, TemplateWidget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getTemplateWidget_Name(), ecorePackage.getEString(), "name", null, 0, 1, TemplateWidget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getTemplateWidget_PositionX(), ecorePackage.getEString(), "positionX", null, 0, 1, TemplateWidget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getTemplateWidget_PositionY(), ecorePackage.getEString(), "positionY", null, 0, 1, TemplateWidget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getTemplateWidget_Width(), ecorePackage.getEString(), "width", null, 0, 1, TemplateWidget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getTemplateWidget_Hight(), ecorePackage.getEString(), "hight", null, 0, 1, TemplateWidget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getTemplateWidget_PositionX(), ecorePackage.getEInt(), "positionX", null, 0, 1, TemplateWidget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getTemplateWidget_PositionY(), ecorePackage.getEInt(), "positionY", null, 0, 1, TemplateWidget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getTemplateWidget_Width(), ecorePackage.getEDouble(), "width", null, 0, 1, TemplateWidget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getTemplateWidget_Height(), ecorePackage.getEDouble(), "height", null, 0, 1, TemplateWidget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getTemplateWidget_BackgroundColor(), ecorePackage.getEString(), "backgroundColor", null, 0, 1, TemplateWidget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(userInterfaceEClass, UserInterface.class, "UserInterface", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getUserInterface_IdInterface(), ecorePackage.getEString(), "idInterface", null, 0, 1, UserInterface.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getUserInterface_Name(), ecorePackage.getEString(), "name", null, 0, 1, UserInterface.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getUserInterface_PositionX(), ecorePackage.getEString(), "positionX", null, 0, 1, UserInterface.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getUserInterface_PositionY(), ecorePackage.getEString(), "positionY", null, 0, 1, UserInterface.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getUserInterface_Width(), ecorePackage.getEString(), "width", null, 0, 1, UserInterface.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getUserInterface_Hight(), ecorePackage.getEString(), "hight", null, 0, 1, UserInterface.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getUserInterface_PositionX(), ecorePackage.getEInt(), "positionX", null, 0, 1, UserInterface.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getUserInterface_PositionY(), ecorePackage.getEInt(), "positionY", null, 0, 1, UserInterface.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getUserInterface_Width(), ecorePackage.getEDouble(), "width", null, 0, 1, UserInterface.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getUserInterface_Height(), ecorePackage.getEDouble(), "height", null, 0, 1, UserInterface.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getUserInterface_BackgroundColor(), ecorePackage.getEString(), "backgroundColor", null, 0, 1, UserInterface.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getUserInterface_ListTemplateWidget(), this.getTemplateWidget(), null, "listTemplateWidget", null, 0, -1, UserInterface.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
@@ -844,8 +888,12 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		initEReference(getGroupRow_ListTemplateWidget(), this.getTemplateWidget(), null, "listTemplateWidget", null, 0, -1, GroupRow.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(appbarEClass, Appbar.class, "Appbar", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEReference(getAppbar_ListButtons(), this.getButton(), null, "listButtons", null, 0, -1, Appbar.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getAppbar_ListLabels(), this.getLabel(), null, "listLabels", null, 0, -1, Appbar.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(tabbarEClass, Tabbar.class, "Tabbar", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEReference(getTabbar_ListButtons(), this.getButton(), null, "listButtons", null, 0, -1, Tabbar.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getTabbar_ListLabels(), this.getLabel(), null, "listLabels", null, 0, -1, Tabbar.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(buttonEClass, Button.class, "Button", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
@@ -1052,6 +1100,26 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		   });
 		addAnnotation
 		  (getGroupRow_ListTemplateWidget(),
+		   source,
+		   new String[] {
+		   });
+		addAnnotation
+		  (getAppbar_ListButtons(),
+		   source,
+		   new String[] {
+		   });
+		addAnnotation
+		  (getAppbar_ListLabels(),
+		   source,
+		   new String[] {
+		   });
+		addAnnotation
+		  (getTabbar_ListButtons(),
+		   source,
+		   new String[] {
+		   });
+		addAnnotation
+		  (getTabbar_ListLabels(),
 		   source,
 		   new String[] {
 		   });

@@ -5,8 +5,13 @@ Bundle-SymbolicName: generatorCode;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.ui,
- cdjjd_concrete
+ cdjjd_concrete,
+ org.eclipse.emf.transaction
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Import-Package: abstractJJD,
- javax.inject
+ javax.inject,
+ org.eclipse.gef,
+ org.eclipse.ui.forms.widgets,
+ uidiagram
 Automatic-Module-Name: generatorCode
+Export-Package: generatorcode.views

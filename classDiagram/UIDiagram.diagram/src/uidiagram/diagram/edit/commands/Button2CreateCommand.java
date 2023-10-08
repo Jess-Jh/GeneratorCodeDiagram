@@ -17,6 +17,7 @@ import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.Button;
 import uidiagram.GroupRow;
+import uidiagram.Tabbar;
 import uidiagram.UidiagramFactory;
 
 /**
@@ -57,8 +58,8 @@ public class Button2CreateCommand extends EditElementCommand {
 	protected CommandResult doExecuteWithResult(IProgressMonitor monitor, IAdaptable info) throws ExecutionException {
 		Button newElement = UidiagramFactory.eINSTANCE.createButton();
 
-		GroupRow owner = (GroupRow) getElementToEdit();
-		owner.getListTemplateWidget().add(newElement);
+		Tabbar owner = (Tabbar) getElementToEdit();
+		owner.getListButtons().add(newElement);
 
 		doConfigure(newElement, monitor, info);
 

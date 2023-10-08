@@ -10,6 +10,7 @@ import org.eclipse.draw2d.RoundedRectangle;
 import org.eclipse.draw2d.Shape;
 import org.eclipse.draw2d.StackLayout;
 import org.eclipse.draw2d.geometry.Dimension;
+import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.gef.EditPart;
 import org.eclipse.gef.EditPolicy;
 import org.eclipse.gef.Request;
@@ -27,6 +28,7 @@ import org.eclipse.gmf.runtime.gef.ui.figures.NodeFigure;
 import org.eclipse.gmf.runtime.notation.View;
 import org.eclipse.swt.graphics.Color;
 
+import uidiagram.diagram.edit.notifications.NotificationEvent;
 import uidiagram.diagram.edit.policies.GroupItemSemanticEditPolicy;
 import uidiagram.diagram.edit.policies.OpenDiagramEditPolicy;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;
@@ -321,6 +323,12 @@ public class GroupEditPart extends ShapeNodeEditPart {
 			return fGroupListTemplateWidgetCompartmentFigure;
 		}
 
+	}
+	
+	protected void handleNotificationEvent(Notification notification) {
+		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
+
+		super.handleNotificationEvent(notification);
 	}
 
 }

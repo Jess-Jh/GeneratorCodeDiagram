@@ -16,6 +16,7 @@ import org.eclipse.gmf.runtime.notation.Node;
 import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.diagram.edit.parts.AppbarEditPart;
+import uidiagram.diagram.edit.parts.Button3EditPart;
 import uidiagram.diagram.edit.parts.ButtonEditPart;
 import uidiagram.diagram.edit.parts.CheckboxEditPart;
 import uidiagram.diagram.edit.parts.ComboBoxEditPart;
@@ -25,6 +26,7 @@ import uidiagram.diagram.edit.parts.GroupColumnEditPart;
 import uidiagram.diagram.edit.parts.GroupGroupListTemplateWidgetCompartment4EditPart;
 import uidiagram.diagram.edit.parts.GroupRowEditPart;
 import uidiagram.diagram.edit.parts.InputEditPart;
+import uidiagram.diagram.edit.parts.Label3EditPart;
 import uidiagram.diagram.edit.parts.LabelEditPart;
 import uidiagram.diagram.edit.parts.ListViewEditPart;
 import uidiagram.diagram.edit.parts.RadioButtonEditPart;
@@ -108,13 +110,13 @@ public class Group4ItemSemanticEditPolicy extends UidiagramBaseItemSemanticEditP
 						// don't need explicit deletion of cnode as parent's view deletion would clean child views as well 
 						// cmd.add(new org.eclipse.gmf.runtime.diagram.core.commands.DeleteCommand(getEditingDomain(), cnode));
 						break;
-					case ButtonEditPart.VISUAL_ID:
+					case Button3EditPart.VISUAL_ID:
 						cmd.add(new DestroyElementCommand(
 								new DestroyElementRequest(getEditingDomain(), cnode.getElement(), false))); // directlyOwned: true
 						// don't need explicit deletion of cnode as parent's view deletion would clean child views as well 
 						// cmd.add(new org.eclipse.gmf.runtime.diagram.core.commands.DeleteCommand(getEditingDomain(), cnode));
 						break;
-					case LabelEditPart.VISUAL_ID:
+					case Label3EditPart.VISUAL_ID:
 						cmd.add(new DestroyElementCommand(
 								new DestroyElementRequest(getEditingDomain(), cnode.getElement(), false))); // directlyOwned: true
 						// don't need explicit deletion of cnode as parent's view deletion would clean child views as well 

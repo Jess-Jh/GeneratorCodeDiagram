@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<config date="1696110315539" transient="false" version="3.0">
+<config date="1696744901990" transient="false" version="3.0">
 <site enabled="true" policy="USER-EXCLUDE" updateable="true" url="platform:/base/">
+<feature id="org.eclipse.wb.rcp.SWT_AWT_support" plugin-identifier="org.eclipse.wb.rcp.SWT_AWT" url="features/org.eclipse.wb.rcp.SWT_AWT_support_1.10.0.202208311516/" version="1.10.0.202208311516">
+</feature>
+<feature id="org.eclipse.wb.core.feature" plugin-identifier="org.eclipse.wb.core" url="features/org.eclipse.wb.core.feature_1.10.0.202208311516/" version="1.10.0.202208311516">
+</feature>
+<feature id="org.eclipse.wb.doc.user.feature" plugin-identifier="org.eclipse.wb.doc.user" url="features/org.eclipse.wb.doc.user.feature_1.10.0.202208311516/" version="1.10.0.202208311516">
+</feature>
+<feature id="org.eclipse.wb.core.java.feature" url="features/org.eclipse.wb.core.java.feature_1.10.0.202208311516/" version="1.10.0.202208311516">
+</feature>
+<feature id="org.eclipse.wb.rcp.doc.user.feature" plugin-identifier="org.eclipse.wb.rcp.doc.user" url="features/org.eclipse.wb.rcp.doc.user.feature_1.10.0.202208311516/" version="1.10.0.202208311516">
+</feature>
+<feature id="org.eclipse.wb.core.ui.feature" plugin-identifier="org.eclipse.wb.core.ui" url="features/org.eclipse.wb.core.ui.feature_1.10.0.202208311516/" version="1.10.0.202208311516">
+</feature>
+<feature id="org.eclipse.wb.layout.group.feature" plugin-identifier="org.eclipse.wb.layout.group" url="features/org.eclipse.wb.layout.group.feature_1.10.0.202208311516/" version="1.10.0.202208311516">
+</feature>
+<feature id="org.eclipse.wb.core.xml.feature" plugin-identifier="org.eclipse.wb.core.xml" url="features/org.eclipse.wb.core.xml.feature_1.9.8.202203170939/" version="1.9.8.202203170939">
+</feature>
+<feature id="org.eclipse.wb.swing.doc.user.feature" plugin-identifier="org.eclipse.wb.swing.doc.user" url="features/org.eclipse.wb.swing.doc.user.feature_1.10.0.202208311516/" version="1.10.0.202208311516">
+</feature>
+<feature id="org.eclipse.wb.swing.feature" plugin-identifier="org.eclipse.wb.swing" url="features/org.eclipse.wb.swing.feature_1.10.0.202208311516/" version="1.10.0.202208311516">
+</feature>
+<feature id="org.eclipse.wb.xwt.feature" plugin-identifier="org.eclipse.wb.xwt" url="features/org.eclipse.wb.xwt.feature_1.9.8.202203170939/" version="1.9.8.202203170939">
+</feature>
+<feature id="org.eclipse.wb.swt.feature" plugin-identifier="org.eclipse.wb.swt" url="features/org.eclipse.wb.swt.feature_1.10.0.202208311516/" version="1.10.0.202208311516">
+</feature>
+<feature id="org.eclipse.wb.rcp.feature" plugin-identifier="org.eclipse.wb.rcp" url="features/org.eclipse.wb.rcp.feature_1.10.0.202208311516/" version="1.10.0.202208311516">
+</feature>
 </site>
 </config>

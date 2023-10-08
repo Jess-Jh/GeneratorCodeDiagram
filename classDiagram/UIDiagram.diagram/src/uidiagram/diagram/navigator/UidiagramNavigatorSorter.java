@@ -15,12 +15,12 @@ public class UidiagramNavigatorSorter extends ViewerSorter {
 	/**
 	* @generated
 	*/
-	private static final int GROUP_CATEGORY = 7019;
+	private static final int GROUP_CATEGORY = 7035;
 
 	/**
 	* @generated
 	*/
-	private static final int SHORTCUTS_CATEGORY = 7018;
+	private static final int SHORTCUTS_CATEGORY = 7034;
 
 	/**
 	* @generated

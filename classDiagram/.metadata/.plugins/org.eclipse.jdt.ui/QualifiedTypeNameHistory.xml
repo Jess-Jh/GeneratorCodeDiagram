@@ -19,4 +19,18 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="abstractJJD.AbstractJJDFactory"/>
     <fullyQualifiedTypeName name="abstractJJD.AttributeJJD"/>
+    <fullyQualifiedTypeName name="uidiagram.UserInterface"/>
+    <fullyQualifiedTypeName name="uidiagram.TemplateWidget"/>
+    <fullyQualifiedTypeName name="org.eclipse.emf.common.notify.Notification"/>
+    <fullyQualifiedTypeName name="org.eclipse.gmf.runtime.notation.impl.BoundsImpl"/>
+    <fullyQualifiedTypeName name="org.eclipse.gmf.runtime.notation.impl.NodeImpl"/>
+    <fullyQualifiedTypeName name="org.eclipse.emf.ecore.impl.EAttributeImpl"/>
+    <fullyQualifiedTypeName name="org.eclipse.gmf.runtime.notation.impl.ShapeImpl"/>
+    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.LabelNameEditPart"/>
+    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.LabelEditPart"/>
+    <fullyQualifiedTypeName name="uidiagram.Label"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.widgets.Text"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.widgets.Button"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.widgets.Display"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.SWT"/>
 </qualifiedTypeNameHistroy>

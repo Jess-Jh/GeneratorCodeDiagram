@@ -65,7 +65,7 @@ public class TemplateWidgetItemProvider
 			addPositionXPropertyDescriptor(object);
 			addPositionYPropertyDescriptor(object);
 			addWidthPropertyDescriptor(object);
-			addHightPropertyDescriptor(object);
+			addHeightPropertyDescriptor(object);
 			addBackgroundColorPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
@@ -132,7 +132,7 @@ public class TemplateWidgetItemProvider
 				 true,
 				 false,
 				 false,
-				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
 				 null,
 				 null));
 	}
@@ -154,7 +154,7 @@ public class TemplateWidgetItemProvider
 				 true,
 				 false,
 				 false,
-				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
 				 null,
 				 null));
 	}
@@ -176,29 +176,29 @@ public class TemplateWidgetItemProvider
 				 true,
 				 false,
 				 false,
-				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 ItemPropertyDescriptor.REAL_VALUE_IMAGE,
 				 null,
 				 null));
 	}
 
 	/**
-	 * This adds a property descriptor for the Hight feature.
+	 * This adds a property descriptor for the Height feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addHightPropertyDescriptor(Object object) {
+	protected void addHeightPropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_TemplateWidget_hight_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_TemplateWidget_hight_feature", "_UI_TemplateWidget_type"),
-				 UidiagramPackage.Literals.TEMPLATE_WIDGET__HIGHT,
+				 getString("_UI_TemplateWidget_height_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_TemplateWidget_height_feature", "_UI_TemplateWidget_type"),
+				 UidiagramPackage.Literals.TEMPLATE_WIDGET__HEIGHT,
 				 true,
 				 false,
 				 false,
-				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 ItemPropertyDescriptor.REAL_VALUE_IMAGE,
 				 null,
 				 null));
 	}
@@ -268,7 +268,7 @@ public class TemplateWidgetItemProvider
 			case UidiagramPackage.TEMPLATE_WIDGET__POSITION_X:
 			case UidiagramPackage.TEMPLATE_WIDGET__POSITION_Y:
 			case UidiagramPackage.TEMPLATE_WIDGET__WIDTH:
-			case UidiagramPackage.TEMPLATE_WIDGET__HIGHT:
+			case UidiagramPackage.TEMPLATE_WIDGET__HEIGHT:
 			case UidiagramPackage.TEMPLATE_WIDGET__BACKGROUND_COLOR:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;

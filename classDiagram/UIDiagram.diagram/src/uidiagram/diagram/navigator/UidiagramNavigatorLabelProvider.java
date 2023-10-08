@@ -109,9 +109,9 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 			return getImage("Navigator?Node?uidiagram?Appbar", UidiagramElementTypes.Appbar_3007); //$NON-NLS-1$
 		case TabbarEditPart.VISUAL_ID:
 			return getImage("Navigator?Node?uidiagram?Tabbar", UidiagramElementTypes.Tabbar_3008); //$NON-NLS-1$
-		case ButtonEditPart.VISUAL_ID:
+		case Button3EditPart.VISUAL_ID:
 			return getImage("Navigator?Node?uidiagram?Button", UidiagramElementTypes.Button_3009); //$NON-NLS-1$
-		case LabelEditPart.VISUAL_ID:
+		case Label3EditPart.VISUAL_ID:
 			return getImage("Navigator?Node?uidiagram?Label", UidiagramElementTypes.Label_3010); //$NON-NLS-1$
 		case CheckboxEditPart.VISUAL_ID:
 			return getImage("Navigator?Node?uidiagram?Checkbox", UidiagramElementTypes.Checkbox_3011); //$NON-NLS-1$
@@ -143,9 +143,9 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 			return getImage("Navigator?Node?uidiagram?Appbar", UidiagramElementTypes.Appbar_3024); //$NON-NLS-1$
 		case Tabbar2EditPart.VISUAL_ID:
 			return getImage("Navigator?Node?uidiagram?Tabbar", UidiagramElementTypes.Tabbar_3025); //$NON-NLS-1$
-		case Button2EditPart.VISUAL_ID:
+		case Button4EditPart.VISUAL_ID:
 			return getImage("Navigator?Node?uidiagram?Button", UidiagramElementTypes.Button_3026); //$NON-NLS-1$
-		case Label2EditPart.VISUAL_ID:
+		case Label4EditPart.VISUAL_ID:
 			return getImage("Navigator?Node?uidiagram?Label", UidiagramElementTypes.Label_3027); //$NON-NLS-1$
 		case Checkbox2EditPart.VISUAL_ID:
 			return getImage("Navigator?Node?uidiagram?Checkbox", UidiagramElementTypes.Checkbox_3028); //$NON-NLS-1$
@@ -167,9 +167,9 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 			return getImage("Navigator?Node?uidiagram?Appbar", UidiagramElementTypes.Appbar_3036); //$NON-NLS-1$
 		case Tabbar3EditPart.VISUAL_ID:
 			return getImage("Navigator?Node?uidiagram?Tabbar", UidiagramElementTypes.Tabbar_3037); //$NON-NLS-1$
-		case Button3EditPart.VISUAL_ID:
+		case Button5EditPart.VISUAL_ID:
 			return getImage("Navigator?Node?uidiagram?Button", UidiagramElementTypes.Button_3038); //$NON-NLS-1$
-		case Label3EditPart.VISUAL_ID:
+		case Label5EditPart.VISUAL_ID:
 			return getImage("Navigator?Node?uidiagram?Label", UidiagramElementTypes.Label_3039); //$NON-NLS-1$
 		case Checkbox3EditPart.VISUAL_ID:
 			return getImage("Navigator?Node?uidiagram?Checkbox", UidiagramElementTypes.Checkbox_3040); //$NON-NLS-1$
@@ -195,9 +195,9 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 			return getImage("Navigator?Node?uidiagram?Appbar", UidiagramElementTypes.Appbar_3050); //$NON-NLS-1$
 		case Tabbar4EditPart.VISUAL_ID:
 			return getImage("Navigator?Node?uidiagram?Tabbar", UidiagramElementTypes.Tabbar_3051); //$NON-NLS-1$
-		case Button4EditPart.VISUAL_ID:
+		case Button6EditPart.VISUAL_ID:
 			return getImage("Navigator?Node?uidiagram?Button", UidiagramElementTypes.Button_3052); //$NON-NLS-1$
-		case Label4EditPart.VISUAL_ID:
+		case Label6EditPart.VISUAL_ID:
 			return getImage("Navigator?Node?uidiagram?Label", UidiagramElementTypes.Label_3053); //$NON-NLS-1$
 		case Checkbox4EditPart.VISUAL_ID:
 			return getImage("Navigator?Node?uidiagram?Checkbox", UidiagramElementTypes.Checkbox_3054); //$NON-NLS-1$
@@ -215,6 +215,14 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 			return getImage("Navigator?Node?uidiagram?Switch", UidiagramElementTypes.Switch_3060); //$NON-NLS-1$
 		case Table4EditPart.VISUAL_ID:
 			return getImage("Navigator?Node?uidiagram?Table", UidiagramElementTypes.Table_3061); //$NON-NLS-1$
+		case ButtonEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?uidiagram?Button", UidiagramElementTypes.Button_3062); //$NON-NLS-1$
+		case Button2EditPart.VISUAL_ID:
+			return getImage("Navigator?Node?uidiagram?Button", UidiagramElementTypes.Button_3063); //$NON-NLS-1$
+		case LabelEditPart.VISUAL_ID:
+			return getImage("Navigator?Node?uidiagram?Label", UidiagramElementTypes.Label_3064); //$NON-NLS-1$
+		case Label2EditPart.VISUAL_ID:
+			return getImage("Navigator?Node?uidiagram?Label", UidiagramElementTypes.Label_3065); //$NON-NLS-1$
 		}
 		return getImage("Navigator?UnknownElement", null); //$NON-NLS-1$
 	}
@@ -293,9 +301,9 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 			return getAppbar_3007Text(view);
 		case TabbarEditPart.VISUAL_ID:
 			return getTabbar_3008Text(view);
-		case ButtonEditPart.VISUAL_ID:
+		case Button3EditPart.VISUAL_ID:
 			return getButton_3009Text(view);
-		case LabelEditPart.VISUAL_ID:
+		case Label3EditPart.VISUAL_ID:
 			return getLabel_3010Text(view);
 		case CheckboxEditPart.VISUAL_ID:
 			return getCheckbox_3011Text(view);
@@ -327,9 +335,9 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 			return getAppbar_3024Text(view);
 		case Tabbar2EditPart.VISUAL_ID:
 			return getTabbar_3025Text(view);
-		case Button2EditPart.VISUAL_ID:
+		case Button4EditPart.VISUAL_ID:
 			return getButton_3026Text(view);
-		case Label2EditPart.VISUAL_ID:
+		case Label4EditPart.VISUAL_ID:
 			return getLabel_3027Text(view);
 		case Checkbox2EditPart.VISUAL_ID:
 			return getCheckbox_3028Text(view);
@@ -351,9 +359,9 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 			return getAppbar_3036Text(view);
 		case Tabbar3EditPart.VISUAL_ID:
 			return getTabbar_3037Text(view);
-		case Button3EditPart.VISUAL_ID:
+		case Button5EditPart.VISUAL_ID:
 			return getButton_3038Text(view);
-		case Label3EditPart.VISUAL_ID:
+		case Label5EditPart.VISUAL_ID:
 			return getLabel_3039Text(view);
 		case Checkbox3EditPart.VISUAL_ID:
 			return getCheckbox_3040Text(view);
@@ -379,9 +387,9 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 			return getAppbar_3050Text(view);
 		case Tabbar4EditPart.VISUAL_ID:
 			return getTabbar_3051Text(view);
-		case Button4EditPart.VISUAL_ID:
+		case Button6EditPart.VISUAL_ID:
 			return getButton_3052Text(view);
-		case Label4EditPart.VISUAL_ID:
+		case Label6EditPart.VISUAL_ID:
 			return getLabel_3053Text(view);
 		case Checkbox4EditPart.VISUAL_ID:
 			return getCheckbox_3054Text(view);
@@ -399,6 +407,14 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 			return getSwitch_3060Text(view);
 		case Table4EditPart.VISUAL_ID:
 			return getTable_3061Text(view);
+		case ButtonEditPart.VISUAL_ID:
+			return getButton_3062Text(view);
+		case Button2EditPart.VISUAL_ID:
+			return getButton_3063Text(view);
+		case LabelEditPart.VISUAL_ID:
+			return getLabel_3064Text(view);
+		case Label2EditPart.VISUAL_ID:
+			return getLabel_3065Text(view);
 		}
 		return getUnknownElementText(view);
 	}
@@ -566,7 +582,7 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	private String getButton_3009Text(View view) {
 		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Button_3009,
 				view.getElement() != null ? view.getElement() : view,
-				UidiagramVisualIDRegistry.getType(ButtonNameEditPart.VISUAL_ID));
+				UidiagramVisualIDRegistry.getType(ButtonName3EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -582,7 +598,7 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	private String getLabel_3010Text(View view) {
 		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Label_3010,
 				view.getElement() != null ? view.getElement() : view,
-				UidiagramVisualIDRegistry.getType(LabelNameEditPart.VISUAL_ID));
+				UidiagramVisualIDRegistry.getType(LabelName3EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -838,7 +854,7 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	private String getButton_3026Text(View view) {
 		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Button_3026,
 				view.getElement() != null ? view.getElement() : view,
-				UidiagramVisualIDRegistry.getType(ButtonName2EditPart.VISUAL_ID));
+				UidiagramVisualIDRegistry.getType(ButtonName4EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -854,7 +870,7 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	private String getLabel_3027Text(View view) {
 		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Label_3027,
 				view.getElement() != null ? view.getElement() : view,
-				UidiagramVisualIDRegistry.getType(LabelName2EditPart.VISUAL_ID));
+				UidiagramVisualIDRegistry.getType(LabelName4EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1030,7 +1046,7 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	private String getButton_3038Text(View view) {
 		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Button_3038,
 				view.getElement() != null ? view.getElement() : view,
-				UidiagramVisualIDRegistry.getType(ButtonName3EditPart.VISUAL_ID));
+				UidiagramVisualIDRegistry.getType(ButtonName5EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1046,7 +1062,7 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	private String getLabel_3039Text(View view) {
 		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Label_3039,
 				view.getElement() != null ? view.getElement() : view,
-				UidiagramVisualIDRegistry.getType(LabelName3EditPart.VISUAL_ID));
+				UidiagramVisualIDRegistry.getType(LabelName5EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1254,7 +1270,7 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	private String getButton_3052Text(View view) {
 		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Button_3052,
 				view.getElement() != null ? view.getElement() : view,
-				UidiagramVisualIDRegistry.getType(ButtonName4EditPart.VISUAL_ID));
+				UidiagramVisualIDRegistry.getType(ButtonName6EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1270,7 +1286,7 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	private String getLabel_3053Text(View view) {
 		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Label_3053,
 				view.getElement() != null ? view.getElement() : view,
-				UidiagramVisualIDRegistry.getType(LabelName4EditPart.VISUAL_ID));
+				UidiagramVisualIDRegistry.getType(LabelName6EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
@@ -1404,6 +1420,70 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 					ParserOptions.NONE.intValue());
 		} else {
 			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5061); //$NON-NLS-1$
+			return ""; //$NON-NLS-1$
+		}
+	}
+
+	/**
+	* @generated
+	*/
+	private String getButton_3062Text(View view) {
+		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Button_3062,
+				view.getElement() != null ? view.getElement() : view,
+				UidiagramVisualIDRegistry.getType(ButtonNameEditPart.VISUAL_ID));
+		if (parser != null) {
+			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
+					ParserOptions.NONE.intValue());
+		} else {
+			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5063); //$NON-NLS-1$
+			return ""; //$NON-NLS-1$
+		}
+	}
+
+	/**
+	* @generated
+	*/
+	private String getButton_3063Text(View view) {
+		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Button_3063,
+				view.getElement() != null ? view.getElement() : view,
+				UidiagramVisualIDRegistry.getType(ButtonName2EditPart.VISUAL_ID));
+		if (parser != null) {
+			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
+					ParserOptions.NONE.intValue());
+		} else {
+			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5064); //$NON-NLS-1$
+			return ""; //$NON-NLS-1$
+		}
+	}
+
+	/**
+	* @generated
+	*/
+	private String getLabel_3064Text(View view) {
+		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Label_3064,
+				view.getElement() != null ? view.getElement() : view,
+				UidiagramVisualIDRegistry.getType(LabelNameEditPart.VISUAL_ID));
+		if (parser != null) {
+			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
+					ParserOptions.NONE.intValue());
+		} else {
+			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5065); //$NON-NLS-1$
+			return ""; //$NON-NLS-1$
+		}
+	}
+
+	/**
+	* @generated
+	*/
+	private String getLabel_3065Text(View view) {
+		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Label_3065,
+				view.getElement() != null ? view.getElement() : view,
+				UidiagramVisualIDRegistry.getType(LabelName2EditPart.VISUAL_ID));
+		if (parser != null) {
+			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
+					ParserOptions.NONE.intValue());
+		} else {
+			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5066); //$NON-NLS-1$
 			return ""; //$NON-NLS-1$
 		}
 	}

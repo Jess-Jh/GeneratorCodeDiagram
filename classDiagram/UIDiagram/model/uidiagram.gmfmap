@@ -379,7 +379,8 @@
           compartment="//@nodes.0/@ownedChild/@compartments.0">
         <containmentFeature
             href="uidiagram.ecore#//UserInterface/listTemplateWidget"/>
-        <ownedChild>
+        <ownedChild
+            relatedDiagrams="//@diagram">
           <domainMetaElement
               href="uidiagram.ecore#//Appbar"/>
           <labelMappings
@@ -394,13 +395,36 @@
               href="uidiagram.gmftool#//@palette/@tools.0/@tools.0"/>
           <diagramNode
               href="uidiagram.gmfgraph#Appbar"/>
+          <children
+              compartment="//@nodes.0/@ownedChild/@children.3/@ownedChild/@compartments.0"
+              referencedChild="//@nodes.0/@ownedChild/@children.5/@ownedChild">
+            <containmentFeature
+                href="uidiagram.ecore#//Appbar/listButtons"/>
+          </children>
+          <children
+              compartment="//@nodes.0/@ownedChild/@children.3/@ownedChild/@compartments.1"
+              referencedChild="//@nodes.0/@ownedChild/@children.6/@ownedChild">
+            <containmentFeature
+                href="uidiagram.ecore#//Appbar/listLabels"/>
+          </children>
+          <compartments
+              children="//@nodes.0/@ownedChild/@children.3/@ownedChild/@children.0">
+            <compartment
+                href="uidiagram.gmfgraph#AppbarListButtonsCompartment"/>
+          </compartments>
+          <compartments
+              children="//@nodes.0/@ownedChild/@children.3/@ownedChild/@children.1">
+            <compartment
+                href="uidiagram.gmfgraph#AppbarListLabelsCompartment"/>
+          </compartments>
         </ownedChild>
       </children>
       <children
           compartment="//@nodes.0/@ownedChild/@compartments.0">
         <containmentFeature
             href="uidiagram.ecore#//UserInterface/listTemplateWidget"/>
-        <ownedChild>
+        <ownedChild
+            relatedDiagrams="//@diagram">
           <domainMetaElement
               href="uidiagram.ecore#//Tabbar"/>
           <labelMappings
@@ -415,6 +439,28 @@
               href="uidiagram.gmftool#//@palette/@tools.0/@tools.14"/>
           <diagramNode
               href="uidiagram.gmfgraph#Tabbar"/>
+          <children
+              compartment="//@nodes.0/@ownedChild/@children.4/@ownedChild/@compartments.0"
+              referencedChild="//@nodes.0/@ownedChild/@children.5/@ownedChild">
+            <containmentFeature
+                href="uidiagram.ecore#//Tabbar/listButtons"/>
+          </children>
+          <children
+              compartment="//@nodes.0/@ownedChild/@children.4/@ownedChild/@compartments.1"
+              referencedChild="//@nodes.0/@ownedChild/@children.6/@ownedChild">
+            <containmentFeature
+                href="uidiagram.ecore#//Tabbar/listLabels"/>
+          </children>
+          <compartments
+              children="//@nodes.0/@ownedChild/@children.4/@ownedChild/@children.0">
+            <compartment
+                href="uidiagram.gmfgraph#TabbarListButtonsCompartment"/>
+          </compartments>
+          <compartments
+              children="//@nodes.0/@ownedChild/@children.4/@ownedChild/@children.1">
+            <compartment
+                href="uidiagram.gmfgraph#TabbarListLabelsCompartment"/>
+          </compartments>
         </ownedChild>
       </children>
       <children

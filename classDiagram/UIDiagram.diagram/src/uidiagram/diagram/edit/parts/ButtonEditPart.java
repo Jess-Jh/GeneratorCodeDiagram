@@ -9,6 +9,8 @@ import org.eclipse.draw2d.RoundedRectangle;
 import org.eclipse.draw2d.Shape;
 import org.eclipse.draw2d.StackLayout;
 import org.eclipse.draw2d.geometry.Dimension;
+import org.eclipse.emf.common.notify.Notification;
+import org.eclipse.emf.ecore.impl.EAttributeImpl;
 import org.eclipse.gef.EditPart;
 import org.eclipse.gef.EditPolicy;
 import org.eclipse.gef.Request;
@@ -24,8 +26,13 @@ import org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel;
 import org.eclipse.gmf.runtime.gef.ui.figures.DefaultSizeNodeFigure;
 import org.eclipse.gmf.runtime.gef.ui.figures.NodeFigure;
 import org.eclipse.gmf.runtime.notation.View;
+import org.eclipse.gmf.runtime.notation.impl.BoundsImpl;
+import org.eclipse.gmf.runtime.notation.impl.NodeImpl;
+import org.eclipse.gmf.runtime.notation.impl.ShapeImpl;
 import org.eclipse.swt.graphics.Color;
 
+import uidiagram.TemplateWidget;
+import uidiagram.diagram.edit.notifications.NotificationEvent;
 import uidiagram.diagram.edit.policies.ButtonItemSemanticEditPolicy;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;
 
@@ -37,7 +44,7 @@ public class ButtonEditPart extends ShapeNodeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3009;
+	public static final int VISUAL_ID = 3062;
 
 	/**
 	* @generated
@@ -287,6 +294,12 @@ public class ButtonEditPart extends ShapeNodeEditPart {
 			return fFigureButtonLabelFigure;
 		}
 
+	}
+
+	protected void handleNotificationEvent(Notification notification) {
+		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
+
+		super.handleNotificationEvent(notification);
 	}
 
 }

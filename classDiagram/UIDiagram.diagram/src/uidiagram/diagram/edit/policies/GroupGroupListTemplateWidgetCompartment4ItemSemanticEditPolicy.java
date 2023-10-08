@@ -7,6 +7,7 @@ import org.eclipse.gef.commands.Command;
 import org.eclipse.gmf.runtime.emf.type.core.requests.CreateElementRequest;
 
 import uidiagram.diagram.edit.commands.AppbarCreateCommand;
+import uidiagram.diagram.edit.commands.Button3CreateCommand;
 import uidiagram.diagram.edit.commands.ButtonCreateCommand;
 import uidiagram.diagram.edit.commands.CheckboxCreateCommand;
 import uidiagram.diagram.edit.commands.ComboBoxCreateCommand;
@@ -15,6 +16,7 @@ import uidiagram.diagram.edit.commands.Group2CreateCommand;
 import uidiagram.diagram.edit.commands.GroupColumnCreateCommand;
 import uidiagram.diagram.edit.commands.GroupRowCreateCommand;
 import uidiagram.diagram.edit.commands.InputCreateCommand;
+import uidiagram.diagram.edit.commands.Label3CreateCommand;
 import uidiagram.diagram.edit.commands.LabelCreateCommand;
 import uidiagram.diagram.edit.commands.ListViewCreateCommand;
 import uidiagram.diagram.edit.commands.RadioButtonCreateCommand;
@@ -56,10 +58,10 @@ public class GroupGroupListTemplateWidgetCompartment4ItemSemanticEditPolicy
 			return getGEFWrapper(new TabbarCreateCommand(req));
 		}
 		if (UidiagramElementTypes.Button_3009 == req.getElementType()) {
-			return getGEFWrapper(new ButtonCreateCommand(req));
+			return getGEFWrapper(new Button3CreateCommand(req));
 		}
 		if (UidiagramElementTypes.Label_3010 == req.getElementType()) {
-			return getGEFWrapper(new LabelCreateCommand(req));
+			return getGEFWrapper(new Label3CreateCommand(req));
 		}
 		if (UidiagramElementTypes.Checkbox_3011 == req.getElementType()) {
 			return getGEFWrapper(new CheckboxCreateCommand(req));
