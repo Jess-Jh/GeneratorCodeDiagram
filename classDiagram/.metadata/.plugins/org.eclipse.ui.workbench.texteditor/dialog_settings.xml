@@ -1,30 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="Label"/>
+		<item key="selection" value="switch"/>
 		<item key="wrap" value="true"/>
-		<item key="casesensitive" value="false"/>
+		<item key="casesensitive" value="true"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="group"/>
+			<item value="Group"/>
+			<item value="Label"/>
 			<item value="label"/>
+			<item value="button"/>
+			<item value="Button"/>
+			<item value="checkbox"/>
+			<item value="Checkbox"/>
 			<item value="getModel"/>
 			<item value="handleNotificationEvent"/>
 			<item value="model"/>
 			<item value="loadAbs"/>
 			<item value="addAttributeToClass"/>
 			<item value="getRelationInheritanceJJD"/>
-			<item value="getAttributesRelations"/>
-			<item value="getAttributesClass"/>
-			<item value="getAttributesInheritanceJJD"/>
-			<item value="System."/>
-			<item value="AGREGATION_JJD__NAME_RELATION"/>
-			<item value="addClassJJDToPackage"/>
-			<item value="System.out.print"/>
-			<item value="agregarCli"/>
 		</list>
 		<list key="replacehistory">
+			<item value="switch"/>
+			<item value="Switch"/>
+			<item value="RadioButton"/>
+			<item value="radioButton"/>
+			<item value="ListView"/>
+			<item value="listView"/>
+			<item value="Input"/>
+			<item value="input"/>
+			<item value="GroupRow"/>
+			<item value="groupRow"/>
+			<item value="GroupColumn"/>
+			<item value="groupColumn"/>
+			<item value="Group"/>
+			<item value="group"/>
+			<item value="datePicker"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
