@@ -11,7 +11,17 @@ import uidiagram.UserInterface;
 
 public class NotificationEvent {
 	
+	private static long idCounter = 0;
+	
+	public static synchronized String generateUniqueID() {
+        long currentTimeMillis = System.currentTimeMillis();
+        return String.valueOf(currentTimeMillis) + "_" + idCounter++;
+    }
+	
 	public static void handleNotificationEventTemplate(Notification notification, Object getModel) {
+		
+		 String uniqueID = generateUniqueID();
+		 
         // SET was the type i need
         if (notification.getEventType() == Notification.SET) {
             // the notifier sends his new Bounds ...
@@ -36,6 +46,7 @@ public class NotificationEvent {
                     }
                     model.setPositionX(notifier.getX());
                     model.setPositionY(notifier.getY()); 
+                    model.setIdTemplate(uniqueID);
                 }
             }
             if (notification.getNotifier() instanceof ShapeImpl) {
@@ -59,6 +70,8 @@ public class NotificationEvent {
     }
 	
 	public static void handleNotificationEventUserInterface(Notification notification, Object getModel) {
+		
+		String uniqueID = generateUniqueID();
 		// SET was the type i need
 		if (notification.getEventType() == Notification.SET) {
 			// the notifier sends his new Bounds ...
@@ -83,6 +96,7 @@ public class NotificationEvent {
 					}
 					model.setPositionX(notifier.getX());
 					model.setPositionY(notifier.getY());
+					model.setIdInterface(uniqueID);
 				}
 			}
 			if (notification.getNotifier() instanceof ShapeImpl) {
@@ -103,5 +117,6 @@ public class NotificationEvent {
 			}
 		}
     }
+	
 
 }
