@@ -1,97 +1,104 @@
 package generatorcode.views;
 
+import org.eclipse.emf.common.command.Command;
+import org.eclipse.emf.transaction.RecordingCommand;
 import org.eclipse.emf.transaction.TransactionalEditingDomain;
-import org.eclipse.gef.EditPart;
 import org.eclipse.jface.dialogs.Dialog;
 import org.eclipse.jface.dialogs.IDialogConstants;
-import org.eclipse.jface.viewers.ComboViewer;
-import org.eclipse.swt.SWT;
 import org.eclipse.swt.graphics.Point;
-import org.eclipse.swt.widgets.Button;
-import org.eclipse.swt.widgets.Combo;
+import org.eclipse.swt.layout.GridData;
+import org.eclipse.swt.layout.GridLayout;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Control;
-import org.eclipse.swt.widgets.Display;
-import org.eclipse.swt.widgets.Shell;
-import org.eclipse.swt.widgets.Text;
-import org.eclipse.ui.forms.widgets.FormToolkit;
-
 import org.eclipse.swt.widgets.Label;
+import org.eclipse.swt.widgets.Shell;
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.widgets.Text;
 
 public class DialogLabelView extends Dialog {
+    private Text textName;
+    private uidiagram.Label model;
+    private TransactionalEditingDomain domain;
 
-	private Label label;
-	private final FormToolkit formToolkit = new FormToolkit(Display.getDefault());
-	private TransactionalEditingDomain domain;
-	private Text textName;
-	private Button model;
+    /**
+     * Create the dialog.
+     * @param parentShell
+     * @param domain
+     * @param model
+     */
+    public DialogLabelView(Shell parentShell, uidiagram.Label model, TransactionalEditingDomain domain) {
+        super(parentShell);
+        this.model = model;
+        this.domain = domain;
+    }
 
-	/**
-	 * Create the dialog.
-	 * 
-	 * @param parentShell
-	 * @param edipart
-	 * @param domain
-	 * @param model
-	 */
-	public DialogLabelView(Shell parentShell, Label label, TransactionalEditingDomain domain, EditPart edipart) {
-		super(parentShell);
-
-		this.label = label;
-		this.domain = domain;
-	}
-
-	/**
-	 * Create contents of the dialog.
-	 * 
-	 * @param parent
-	 */
-	@Override
-	protected Control createDialogArea(Composite parent) {
-		Composite container = (Composite) super.createDialogArea(parent);
-		container.setLayout(null);
-
-		Label lblName = formToolkit.createLabel(container, "Name :", SWT.NONE);
-		lblName.setBounds(26, 23, 55, 15);
-
-		textName = formToolkit.createText(container, "New Text", SWT.NONE);
-		textName.setText("");
-		textName.setBounds(105, 17, 221, 21);
-
-		Label lblNavegation = formToolkit.createLabel(container, "Navegation :", SWT.NONE);
-		lblNavegation.setBounds(26, 62, 67, 15);
-
-		ComboViewer comboViewer = new ComboViewer(container, SWT.NONE);
-		Combo combo = comboViewer.getCombo();
-		combo.setItems(new String[] { "UI 1" });
-		combo.setBounds(105, 62, 221, 23);
-		formToolkit.paintBordersFor(combo);
+    /**
+     * Create contents of the dialog.
+     * @param parent
+     */
+    @Override
+    protected Control createDialogArea(Composite parent) {
+    	Composite container = (Composite) super.createDialogArea(parent);
+		GridLayout gridLayout = (GridLayout) container.getLayout();
+		gridLayout.numColumns = 2;
+		new Label(container, SWT.NONE);
+		
+		Label lblNewLabel = new Label(container, SWT.NONE);
+		lblNewLabel.setText("Name: ");
+		new Label(container, SWT.NONE);
+		
+		textName = new Text(container, SWT.BORDER);
+		textName.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
 
 		return container;
-	}
+    }
 
-	/**
-	 * Create contents of the button bar.
-	 * 
-	 * @param parent
-	 */
-	@Override
-	protected void createButtonsForButtonBar(Composite parent) {
-		createButton(parent, IDialogConstants.OK_ID, IDialogConstants.OK_LABEL, true);
-		createButton(parent, IDialogConstants.CANCEL_ID, IDialogConstants.CANCEL_LABEL, false);
-	}
+    /**
+     * Create contents of the button bar.
+     * @param parent
+     */
+    @Override
+    protected void createButtonsForButtonBar(Composite parent) {
+        createButton(parent, IDialogConstants.OK_ID, IDialogConstants.OK_LABEL, true);
+        createButton(parent, IDialogConstants.CANCEL_ID, IDialogConstants.CANCEL_LABEL, false);
+    }
 
-	/**
-	 * Return the initial size of the dialog.
-	 */
-	@Override
-	protected Point getInitialSize() {
-		return new Point(450, 300);
-	}
+    /**
+     * Return the initial size of the dialog.
+     */
+    @Override
+    protected Point getInitialSize() {
+        return new Point(450, 300);
+    }
+   
+    @Override
+    protected void okPressed() {
+       
+//        if(textName.getText().equalsIgnoreCase("") ) {
+//            JOptionPane.showMessageDialog(null,"Please to insert the information");
+//        }else {
+            ChangeOPerationDialogCommand command = new ChangeOPerationDialogCommand(domain, model);                    
+            domain.getCommandStack().execute((Command) command);
+            close();
+//        }
+    }
+   
+    public class ChangeOPerationDialogCommand extends RecordingCommand{
 
-	@Override
-	protected void okPressed() {
+        private uidiagram.Label label;
+        TransactionalEditingDomain transactionalEditingDomain2;
+        
+        public ChangeOPerationDialogCommand(TransactionalEditingDomain transactionalEditingDomain, uidiagram.Label label) {
+            super(transactionalEditingDomain);
+            this.transactionalEditingDomain2 =transactionalEditingDomain;
+            this.label = label;
+        }
+        @Override
+        protected void doExecute()
+        {
+        	label.setName(textName.getText());                
+        }
 
-//		  label.setName(textName.getText());
-	}
+       
+    }
 }

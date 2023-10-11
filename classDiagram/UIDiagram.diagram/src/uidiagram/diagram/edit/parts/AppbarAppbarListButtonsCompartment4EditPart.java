@@ -34,7 +34,7 @@ public class AppbarAppbarListButtonsCompartment4EditPart extends ShapeCompartmen
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 7024;
+	public static final int VISUAL_ID = 7040;
 
 	/**
 	* @generated

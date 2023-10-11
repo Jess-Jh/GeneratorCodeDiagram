@@ -16,6 +16,7 @@ import org.eclipse.gmf.runtime.emf.type.core.requests.CreateElementRequest;
 import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.Checkbox;
+import uidiagram.ListView;
 import uidiagram.UidiagramFactory;
 import uidiagram.UserInterface;
 
@@ -57,7 +58,7 @@ public class Checkbox4CreateCommand extends EditElementCommand {
 	protected CommandResult doExecuteWithResult(IProgressMonitor monitor, IAdaptable info) throws ExecutionException {
 		Checkbox newElement = UidiagramFactory.eINSTANCE.createCheckbox();
 
-		UserInterface owner = (UserInterface) getElementToEdit();
+		ListView owner = (ListView) getElementToEdit();
 		owner.getListTemplateWidget().add(newElement);
 
 		doConfigure(newElement, monitor, info);

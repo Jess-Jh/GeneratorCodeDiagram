@@ -17,6 +17,7 @@ import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.ComboBox;
 import uidiagram.GroupColumn;
+import uidiagram.GroupRow;
 import uidiagram.UidiagramFactory;
 
 /**
@@ -57,7 +58,7 @@ public class ComboBox3CreateCommand extends EditElementCommand {
 	protected CommandResult doExecuteWithResult(IProgressMonitor monitor, IAdaptable info) throws ExecutionException {
 		ComboBox newElement = UidiagramFactory.eINSTANCE.createComboBox();
 
-		GroupColumn owner = (GroupColumn) getElementToEdit();
+		GroupRow owner = (GroupRow) getElementToEdit();
 		owner.getListTemplateWidget().add(newElement);
 
 		doConfigure(newElement, monitor, info);

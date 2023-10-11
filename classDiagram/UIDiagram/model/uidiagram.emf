@@ -36,19 +36,19 @@ class UserInterface {
      val TemplateWidget[*] listTemplateWidget; 
 }
 
-@gmf.node(label = "name")
+@gmf.node(label = "name", border.width="0")
 class Group extends TemplateWidget {
 	@gmf.compartment
     val TemplateWidget[*] listTemplateWidget; 
 }
 
-@gmf.node(label = "name")
+@gmf.node(label = "name", border.width="0")
 class GroupColumn extends TemplateWidget {
 	@gmf.compartment
     val TemplateWidget[*] listTemplateWidget; 
 }
 
-@gmf.node(label = "name")
+@gmf.node(label = "name", border.width="0")
 class GroupRow extends TemplateWidget {
 	@gmf.compartment
     val TemplateWidget[*] listTemplateWidget; 
@@ -76,7 +76,7 @@ class Tabbar extends TemplateWidget {
 @gmf.node(label = "name")
 class Button extends TemplateWidget {}
 
-@gmf.node(label = "name")
+@gmf.node(label = "name", border.width="0")
 class Label extends TemplateWidget {}
 
 @gmf.node(label = "name")
@@ -85,8 +85,11 @@ class Checkbox extends TemplateWidget {}
 @gmf.node(label = "name")
 class Input extends TemplateWidget {}
 
-@gmf.node(label = "name")
-class ListView extends TemplateWidget {}
+@gmf.node(label = "name", border.width="0")
+class ListView extends TemplateWidget {
+	@gmf.compartment
+    val TemplateWidget[*] listTemplateWidget; 
+}
 
 @gmf.node(label = "name")
 class RadioButton extends TemplateWidget {}

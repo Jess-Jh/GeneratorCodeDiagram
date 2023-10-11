@@ -41,7 +41,7 @@ public class Tabbar4EditPart extends ShapeNodeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3051;
+	public static final int VISUAL_ID = 3070;
 
 	/**
 	* @generated
@@ -357,7 +357,7 @@ public class Tabbar4EditPart extends ShapeNodeEditPart {
 		}
 
 	}
-	
+
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

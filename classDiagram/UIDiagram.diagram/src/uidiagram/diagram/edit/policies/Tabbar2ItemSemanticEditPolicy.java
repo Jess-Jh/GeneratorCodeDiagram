@@ -30,7 +30,7 @@ public class Tabbar2ItemSemanticEditPolicy extends UidiagramBaseItemSemanticEdit
 	* @generated
 	*/
 	public Tabbar2ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.Tabbar_3025);
+		super(UidiagramElementTypes.Tabbar_3037);
 	}
 
 	/**

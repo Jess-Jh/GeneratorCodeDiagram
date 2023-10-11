@@ -39,7 +39,7 @@ public class DatePicker4EditPart extends ShapeNodeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3059;
+	public static final int VISUAL_ID = 3045;
 
 	/**
 	* @generated
@@ -290,7 +290,7 @@ public class DatePicker4EditPart extends ShapeNodeEditPart {
 		}
 
 	}
-	
+
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

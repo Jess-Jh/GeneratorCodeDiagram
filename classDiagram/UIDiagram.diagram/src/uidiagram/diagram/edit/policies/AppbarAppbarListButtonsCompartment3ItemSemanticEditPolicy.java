@@ -18,7 +18,7 @@ public class AppbarAppbarListButtonsCompartment3ItemSemanticEditPolicy extends U
 	* @generated
 	*/
 	public AppbarAppbarListButtonsCompartment3ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.Appbar_3036);
+		super(UidiagramElementTypes.Appbar_3024);
 	}
 
 	/**

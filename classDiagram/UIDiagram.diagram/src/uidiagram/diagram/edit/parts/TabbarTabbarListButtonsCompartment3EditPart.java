@@ -34,7 +34,7 @@ public class TabbarTabbarListButtonsCompartment3EditPart extends ShapeCompartmen
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 7023;
+	public static final int VISUAL_ID = 7021;
 
 	/**
 	* @generated

@@ -476,6 +476,16 @@ public class Messages extends NLS {
 	/**
 	* @generated
 	*/
+	public static String ListViewListViewListTemplateWidgetCompartmentEditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String GroupGroupListTemplateWidgetCompartment5EditPart_title;
+
+	/**
+	* @generated
+	*/
 	public static String TableTableListCoulmnsCompartmentEditPart_title;
 
 	/**
@@ -521,6 +531,11 @@ public class Messages extends NLS {
 	/**
 	* @generated
 	*/
+	public static String ListViewListViewListTemplateWidgetCompartment2EditPart_title;
+
+	/**
+	* @generated
+	*/
 	public static String TableTableListCoulmnsCompartment2EditPart_title;
 
 	/**
@@ -542,6 +557,11 @@ public class Messages extends NLS {
 	* @generated
 	*/
 	public static String TabbarTabbarListLabelsCompartment3EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String ListViewListViewListTemplateWidgetCompartment3EditPart_title;
 
 	/**
 	* @generated
@@ -581,7 +601,52 @@ public class Messages extends NLS {
 	/**
 	* @generated
 	*/
+	public static String ListViewListViewListTemplateWidgetCompartment4EditPart_title;
+
+	/**
+	* @generated
+	*/
 	public static String TableTableListCoulmnsCompartment4EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String GroupColumnGroupColumnListTemplateWidgetCompartment5EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String GroupRowGroupRowListTemplateWidgetCompartment5EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String AppbarAppbarListButtonsCompartment5EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String AppbarAppbarListLabelsCompartment5EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String TabbarTabbarListButtonsCompartment5EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String TabbarTabbarListLabelsCompartment5EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String ListViewListViewListTemplateWidgetCompartment5EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String TableTableListCoulmnsCompartment5EditPart_title;
 
 	/**
 	* @generated

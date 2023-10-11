@@ -26,22 +26,36 @@ import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.UidiagramPackage;
 import uidiagram.diagram.edit.parts.Appbar4EditPart;
+import uidiagram.diagram.edit.parts.Appbar5EditPart;
 import uidiagram.diagram.edit.parts.Button4EditPart;
 import uidiagram.diagram.edit.parts.Button6EditPart;
+import uidiagram.diagram.edit.parts.Button7EditPart;
 import uidiagram.diagram.edit.parts.Checkbox4EditPart;
+import uidiagram.diagram.edit.parts.Checkbox5EditPart;
 import uidiagram.diagram.edit.parts.ComboBox4EditPart;
+import uidiagram.diagram.edit.parts.ComboBox5EditPart;
 import uidiagram.diagram.edit.parts.DatePicker4EditPart;
+import uidiagram.diagram.edit.parts.DatePicker5EditPart;
 import uidiagram.diagram.edit.parts.GroupColumn4EditPart;
+import uidiagram.diagram.edit.parts.GroupColumn5EditPart;
 import uidiagram.diagram.edit.parts.GroupEditPart;
 import uidiagram.diagram.edit.parts.GroupRow4EditPart;
+import uidiagram.diagram.edit.parts.GroupRow5EditPart;
 import uidiagram.diagram.edit.parts.Input4EditPart;
+import uidiagram.diagram.edit.parts.Input5EditPart;
 import uidiagram.diagram.edit.parts.Label4EditPart;
 import uidiagram.diagram.edit.parts.Label6EditPart;
+import uidiagram.diagram.edit.parts.Label7EditPart;
 import uidiagram.diagram.edit.parts.ListView4EditPart;
+import uidiagram.diagram.edit.parts.ListView5EditPart;
 import uidiagram.diagram.edit.parts.RadioButton4EditPart;
+import uidiagram.diagram.edit.parts.RadioButton5EditPart;
 import uidiagram.diagram.edit.parts.Switch4EditPart;
+import uidiagram.diagram.edit.parts.Switch5EditPart;
 import uidiagram.diagram.edit.parts.Tabbar4EditPart;
+import uidiagram.diagram.edit.parts.Tabbar5EditPart;
 import uidiagram.diagram.edit.parts.Table4EditPart;
+import uidiagram.diagram.edit.parts.Table5EditPart;
 import uidiagram.diagram.part.UidiagramDiagramUpdater;
 import uidiagram.diagram.part.UidiagramNodeDescriptor;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;
@@ -100,20 +114,20 @@ public class UserInterfaceUserInterfaceListTemplateWidgetCompartmentCanonicalEdi
 		int visualID = UidiagramVisualIDRegistry.getVisualID(view);
 		switch (visualID) {
 		case GroupEditPart.VISUAL_ID:
-		case GroupColumn4EditPart.VISUAL_ID:
-		case GroupRow4EditPart.VISUAL_ID:
-		case Appbar4EditPart.VISUAL_ID:
-		case Tabbar4EditPart.VISUAL_ID:
-		case Button6EditPart.VISUAL_ID:
-		case Label6EditPart.VISUAL_ID:
-		case Checkbox4EditPart.VISUAL_ID:
-		case Input4EditPart.VISUAL_ID:
-		case ListView4EditPart.VISUAL_ID:
-		case RadioButton4EditPart.VISUAL_ID:
-		case ComboBox4EditPart.VISUAL_ID:
-		case DatePicker4EditPart.VISUAL_ID:
-		case Switch4EditPart.VISUAL_ID:
-		case Table4EditPart.VISUAL_ID:
+		case GroupColumn5EditPart.VISUAL_ID:
+		case GroupRow5EditPart.VISUAL_ID:
+		case Appbar5EditPart.VISUAL_ID:
+		case Tabbar5EditPart.VISUAL_ID:
+		case Button7EditPart.VISUAL_ID:
+		case Label7EditPart.VISUAL_ID:
+		case Checkbox5EditPart.VISUAL_ID:
+		case Input5EditPart.VISUAL_ID:
+		case ListView5EditPart.VISUAL_ID:
+		case RadioButton5EditPart.VISUAL_ID:
+		case ComboBox5EditPart.VISUAL_ID:
+		case DatePicker5EditPart.VISUAL_ID:
+		case Switch5EditPart.VISUAL_ID:
+		case Table5EditPart.VISUAL_ID:
 			return true;
 		}
 		return false;

@@ -22,7 +22,7 @@ public class Checkbox4ItemSemanticEditPolicy extends UidiagramBaseItemSemanticEd
 	* @generated
 	*/
 	public Checkbox4ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.Checkbox_3054);
+		super(UidiagramElementTypes.Checkbox_3073);
 	}
 
 	/**

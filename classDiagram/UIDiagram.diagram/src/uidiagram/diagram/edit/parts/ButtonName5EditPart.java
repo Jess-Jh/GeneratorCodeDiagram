@@ -60,7 +60,7 @@ public class ButtonName5EditPart extends CompartmentEditPart implements ITextAwa
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5031;
+	public static final int VISUAL_ID = 5017;
 
 	/**
 	* @generated
@@ -295,7 +295,7 @@ public class ButtonName5EditPart extends CompartmentEditPart implements ITextAwa
 	*/
 	public IParser getParser() {
 		if (parser == null) {
-			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Button_3038, getParserElement(),
+			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Button_3026, getParserElement(),
 					UidiagramVisualIDRegistry.getType(uidiagram.diagram.edit.parts.ButtonName5EditPart.VISUAL_ID));
 		}
 		return parser;

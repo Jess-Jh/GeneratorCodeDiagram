@@ -57,7 +57,7 @@ public class GroupRow4CreateCommand extends EditElementCommand {
 	protected CommandResult doExecuteWithResult(IProgressMonitor monitor, IAdaptable info) throws ExecutionException {
 		GroupRow newElement = UidiagramFactory.eINSTANCE.createGroupRow();
 
-		UserInterface owner = (UserInterface) getElementToEdit();
+		GroupRow owner = (GroupRow) getElementToEdit();
 		owner.getListTemplateWidget().add(newElement);
 
 		doConfigure(newElement, monitor, info);

@@ -17,6 +17,7 @@ import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.DatePicker;
 import uidiagram.GroupRow;
+import uidiagram.ListView;
 import uidiagram.UidiagramFactory;
 
 /**
@@ -57,7 +58,7 @@ public class DatePicker2CreateCommand extends EditElementCommand {
 	protected CommandResult doExecuteWithResult(IProgressMonitor monitor, IAdaptable info) throws ExecutionException {
 		DatePicker newElement = UidiagramFactory.eINSTANCE.createDatePicker();
 
-		GroupRow owner = (GroupRow) getElementToEdit();
+		ListView owner = (ListView) getElementToEdit();
 		owner.getListTemplateWidget().add(newElement);
 
 		doConfigure(newElement, monitor, info);

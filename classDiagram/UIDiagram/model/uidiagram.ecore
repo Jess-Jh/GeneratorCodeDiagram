@@ -40,6 +40,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="Group" eSuperTypes="#//TemplateWidget">
     <eAnnotations source="gmf.node">
       <details key="label" value="name"/>
+      <details key="border.width" value="0"/>
     </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EReference" name="listTemplateWidget" upperBound="-1"
         eType="#//TemplateWidget" containment="true">
@@ -49,6 +50,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="GroupColumn" eSuperTypes="#//TemplateWidget">
     <eAnnotations source="gmf.node">
       <details key="label" value="name"/>
+      <details key="border.width" value="0"/>
     </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EReference" name="listTemplateWidget" upperBound="-1"
         eType="#//TemplateWidget" containment="true">
@@ -58,6 +60,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="GroupRow" eSuperTypes="#//TemplateWidget">
     <eAnnotations source="gmf.node">
       <details key="label" value="name"/>
+      <details key="border.width" value="0"/>
     </eAnnotations>
     <eStructuralFeatures xsi:type="ecore:EReference" name="listTemplateWidget" upperBound="-1"
         eType="#//TemplateWidget" containment="true">
@@ -98,6 +101,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="Label" eSuperTypes="#//TemplateWidget">
     <eAnnotations source="gmf.node">
       <details key="label" value="name"/>
+      <details key="border.width" value="0"/>
     </eAnnotations>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Checkbox" eSuperTypes="#//TemplateWidget">
@@ -113,7 +117,12 @@
   <eClassifiers xsi:type="ecore:EClass" name="ListView" eSuperTypes="#//TemplateWidget">
     <eAnnotations source="gmf.node">
       <details key="label" value="name"/>
+      <details key="border.width" value="0"/>
     </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="listTemplateWidget" upperBound="-1"
+        eType="#//TemplateWidget" containment="true">
+      <eAnnotations source="gmf.compartment"/>
+    </eStructuralFeatures>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="RadioButton" eSuperTypes="#//TemplateWidget">
     <eAnnotations source="gmf.node">

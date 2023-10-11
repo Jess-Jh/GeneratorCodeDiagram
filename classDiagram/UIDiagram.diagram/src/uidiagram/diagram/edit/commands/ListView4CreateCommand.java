@@ -57,7 +57,7 @@ public class ListView4CreateCommand extends EditElementCommand {
 	protected CommandResult doExecuteWithResult(IProgressMonitor monitor, IAdaptable info) throws ExecutionException {
 		ListView newElement = UidiagramFactory.eINSTANCE.createListView();
 
-		UserInterface owner = (UserInterface) getElementToEdit();
+		ListView owner = (ListView) getElementToEdit();
 		owner.getListTemplateWidget().add(newElement);
 
 		doConfigure(newElement, monitor, info);

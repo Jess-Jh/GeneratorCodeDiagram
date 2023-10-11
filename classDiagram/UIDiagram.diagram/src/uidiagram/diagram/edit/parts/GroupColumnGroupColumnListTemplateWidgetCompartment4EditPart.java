@@ -34,7 +34,7 @@ public class GroupColumnGroupColumnListTemplateWidgetCompartment4EditPart extend
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 7015;
+	public static final int VISUAL_ID = 7009;
 
 	/**
 	* @generated

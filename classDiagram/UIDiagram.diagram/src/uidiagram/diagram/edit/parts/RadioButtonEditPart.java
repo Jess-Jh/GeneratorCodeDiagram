@@ -290,7 +290,7 @@ public class RadioButtonEditPart extends ShapeNodeEditPart {
 		}
 
 	}
-	
+
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

@@ -16,6 +16,7 @@ import org.eclipse.gmf.runtime.emf.type.core.requests.CreateElementRequest;
 import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.GroupColumn;
+import uidiagram.GroupRow;
 import uidiagram.UidiagramFactory;
 import uidiagram.UserInterface;
 
@@ -57,7 +58,7 @@ public class GroupColumn4CreateCommand extends EditElementCommand {
 	protected CommandResult doExecuteWithResult(IProgressMonitor monitor, IAdaptable info) throws ExecutionException {
 		GroupColumn newElement = UidiagramFactory.eINSTANCE.createGroupColumn();
 
-		UserInterface owner = (UserInterface) getElementToEdit();
+		GroupRow owner = (GroupRow) getElementToEdit();
 		owner.getListTemplateWidget().add(newElement);
 
 		doConfigure(newElement, monitor, info);

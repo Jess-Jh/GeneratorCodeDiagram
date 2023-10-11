@@ -15,6 +15,7 @@ import org.eclipse.gmf.runtime.emf.type.core.requests.ConfigureRequest;
 import org.eclipse.gmf.runtime.emf.type.core.requests.CreateElementRequest;
 import org.eclipse.gmf.runtime.notation.View;
 
+import uidiagram.ListView;
 import uidiagram.Tabbar;
 import uidiagram.UidiagramFactory;
 import uidiagram.UserInterface;
@@ -57,7 +58,7 @@ public class Tabbar4CreateCommand extends EditElementCommand {
 	protected CommandResult doExecuteWithResult(IProgressMonitor monitor, IAdaptable info) throws ExecutionException {
 		Tabbar newElement = UidiagramFactory.eINSTANCE.createTabbar();
 
-		UserInterface owner = (UserInterface) getElementToEdit();
+		ListView owner = (ListView) getElementToEdit();
 		owner.getListTemplateWidget().add(newElement);
 
 		doConfigure(newElement, monitor, info);

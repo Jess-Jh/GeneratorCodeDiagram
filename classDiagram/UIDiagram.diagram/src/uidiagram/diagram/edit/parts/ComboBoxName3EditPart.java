@@ -60,7 +60,7 @@ public class ComboBoxName3EditPart extends CompartmentEditPart implements ITextA
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5037;
+	public static final int VISUAL_ID = 5023;
 
 	/**
 	* @generated
@@ -295,7 +295,7 @@ public class ComboBoxName3EditPart extends CompartmentEditPart implements ITextA
 	*/
 	public IParser getParser() {
 		if (parser == null) {
-			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.ComboBox_3044, getParserElement(),
+			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.ComboBox_3032, getParserElement(),
 					UidiagramVisualIDRegistry.getType(uidiagram.diagram.edit.parts.ComboBoxName3EditPart.VISUAL_ID));
 		}
 		return parser;

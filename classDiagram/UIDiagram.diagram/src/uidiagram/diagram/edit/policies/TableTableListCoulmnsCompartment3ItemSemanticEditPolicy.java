@@ -18,7 +18,7 @@ public class TableTableListCoulmnsCompartment3ItemSemanticEditPolicy extends Uid
 	* @generated
 	*/
 	public TableTableListCoulmnsCompartment3ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.Table_3047);
+		super(UidiagramElementTypes.Table_3035);
 	}
 
 	/**

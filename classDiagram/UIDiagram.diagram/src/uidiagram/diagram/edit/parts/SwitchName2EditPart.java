@@ -60,7 +60,7 @@ public class SwitchName2EditPart extends CompartmentEditPart implements ITextAwa
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5025;
+	public static final int VISUAL_ID = 5077;
 
 	/**
 	* @generated
@@ -295,7 +295,7 @@ public class SwitchName2EditPart extends CompartmentEditPart implements ITextAwa
 	*/
 	public IParser getParser() {
 		if (parser == null) {
-			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Switch_3034, getParserElement(),
+			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Switch_3079, getParserElement(),
 					UidiagramVisualIDRegistry.getType(uidiagram.diagram.edit.parts.SwitchName2EditPart.VISUAL_ID));
 		}
 		return parser;

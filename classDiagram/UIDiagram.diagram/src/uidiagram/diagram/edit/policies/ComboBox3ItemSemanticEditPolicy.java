@@ -22,7 +22,7 @@ public class ComboBox3ItemSemanticEditPolicy extends UidiagramBaseItemSemanticEd
 	* @generated
 	*/
 	public ComboBox3ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.ComboBox_3044);
+		super(UidiagramElementTypes.ComboBox_3032);
 	}
 
 	/**

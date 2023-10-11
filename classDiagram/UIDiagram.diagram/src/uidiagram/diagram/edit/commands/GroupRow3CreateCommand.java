@@ -16,6 +16,7 @@ import org.eclipse.gmf.runtime.emf.type.core.requests.CreateElementRequest;
 import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.GroupRow;
+import uidiagram.ListView;
 import uidiagram.UidiagramFactory;
 
 /**
@@ -56,7 +57,7 @@ public class GroupRow3CreateCommand extends EditElementCommand {
 	protected CommandResult doExecuteWithResult(IProgressMonitor monitor, IAdaptable info) throws ExecutionException {
 		GroupRow newElement = UidiagramFactory.eINSTANCE.createGroupRow();
 
-		GroupRow owner = (GroupRow) getElementToEdit();
+		ListView owner = (ListView) getElementToEdit();
 		owner.getListTemplateWidget().add(newElement);
 
 		doConfigure(newElement, monitor, info);

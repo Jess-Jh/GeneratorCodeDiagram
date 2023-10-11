@@ -34,7 +34,7 @@ public class AppbarAppbarListLabelsCompartment2EditPart extends ShapeCompartment
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 7028;
+	public static final int VISUAL_ID = 7030;
 
 	/**
 	* @generated

@@ -22,7 +22,7 @@ public class DatePicker4ItemSemanticEditPolicy extends UidiagramBaseItemSemantic
 	* @generated
 	*/
 	public DatePicker4ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.DatePicker_3059);
+		super(UidiagramElementTypes.DatePicker_3045);
 	}
 
 	/**

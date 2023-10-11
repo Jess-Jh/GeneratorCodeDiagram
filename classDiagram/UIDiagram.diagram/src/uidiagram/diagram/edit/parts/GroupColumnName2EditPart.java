@@ -60,7 +60,7 @@ public class GroupColumnName2EditPart extends CompartmentEditPart implements ITe
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5042;
+	public static final int VISUAL_ID = 5081;
 
 	/**
 	* @generated
@@ -295,7 +295,7 @@ public class GroupColumnName2EditPart extends CompartmentEditPart implements ITe
 	*/
 	public IParser getParser() {
 		if (parser == null) {
-			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.GroupColumn_3020, getParserElement(),
+			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.GroupColumn_3067, getParserElement(),
 					UidiagramVisualIDRegistry.getType(uidiagram.diagram.edit.parts.GroupColumnName2EditPart.VISUAL_ID));
 		}
 		return parser;

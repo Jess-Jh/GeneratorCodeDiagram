@@ -26,22 +26,36 @@ import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.UidiagramPackage;
 import uidiagram.diagram.edit.parts.Appbar2EditPart;
+import uidiagram.diagram.edit.parts.Appbar3EditPart;
 import uidiagram.diagram.edit.parts.Button2EditPart;
 import uidiagram.diagram.edit.parts.Button4EditPart;
+import uidiagram.diagram.edit.parts.Button5EditPart;
 import uidiagram.diagram.edit.parts.Checkbox2EditPart;
+import uidiagram.diagram.edit.parts.Checkbox3EditPart;
 import uidiagram.diagram.edit.parts.ComboBox2EditPart;
+import uidiagram.diagram.edit.parts.ComboBox3EditPart;
 import uidiagram.diagram.edit.parts.DatePicker2EditPart;
+import uidiagram.diagram.edit.parts.DatePicker3EditPart;
 import uidiagram.diagram.edit.parts.Group4EditPart;
 import uidiagram.diagram.edit.parts.GroupColumn2EditPart;
+import uidiagram.diagram.edit.parts.GroupColumn4EditPart;
 import uidiagram.diagram.edit.parts.GroupRow3EditPart;
+import uidiagram.diagram.edit.parts.GroupRow4EditPart;
 import uidiagram.diagram.edit.parts.Input2EditPart;
+import uidiagram.diagram.edit.parts.Input3EditPart;
 import uidiagram.diagram.edit.parts.Label2EditPart;
 import uidiagram.diagram.edit.parts.Label4EditPart;
+import uidiagram.diagram.edit.parts.Label5EditPart;
 import uidiagram.diagram.edit.parts.ListView2EditPart;
+import uidiagram.diagram.edit.parts.ListView3EditPart;
 import uidiagram.diagram.edit.parts.RadioButton2EditPart;
+import uidiagram.diagram.edit.parts.RadioButton3EditPart;
 import uidiagram.diagram.edit.parts.Switch2EditPart;
+import uidiagram.diagram.edit.parts.Switch3EditPart;
 import uidiagram.diagram.edit.parts.Tabbar2EditPart;
+import uidiagram.diagram.edit.parts.Tabbar3EditPart;
 import uidiagram.diagram.edit.parts.Table2EditPart;
+import uidiagram.diagram.edit.parts.Table3EditPart;
 import uidiagram.diagram.part.UidiagramDiagramUpdater;
 import uidiagram.diagram.part.UidiagramNodeDescriptor;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;
@@ -79,7 +93,7 @@ public class GroupRowGroupRowListTemplateWidgetCompartment4CanonicalEditPolicy e
 		View viewObject = (View) getHost().getModel();
 		LinkedList<EObject> result = new LinkedList<EObject>();
 		List<UidiagramNodeDescriptor> childDescriptors = UidiagramDiagramUpdater
-				.getGroupRowGroupRowListTemplateWidgetCompartment_7016SemanticChildren(viewObject);
+				.getGroupRowGroupRowListTemplateWidgetCompartment_7012SemanticChildren(viewObject);
 		for (UidiagramNodeDescriptor d : childDescriptors) {
 			result.add(d.getModelElement());
 		}
@@ -100,20 +114,20 @@ public class GroupRowGroupRowListTemplateWidgetCompartment4CanonicalEditPolicy e
 		int visualID = UidiagramVisualIDRegistry.getVisualID(view);
 		switch (visualID) {
 		case Group4EditPart.VISUAL_ID:
-		case GroupColumn2EditPart.VISUAL_ID:
-		case GroupRow3EditPart.VISUAL_ID:
-		case Appbar2EditPart.VISUAL_ID:
-		case Tabbar2EditPart.VISUAL_ID:
-		case Button4EditPart.VISUAL_ID:
-		case Label4EditPart.VISUAL_ID:
-		case Checkbox2EditPart.VISUAL_ID:
-		case Input2EditPart.VISUAL_ID:
-		case ListView2EditPart.VISUAL_ID:
-		case RadioButton2EditPart.VISUAL_ID:
-		case ComboBox2EditPart.VISUAL_ID:
-		case DatePicker2EditPart.VISUAL_ID:
-		case Switch2EditPart.VISUAL_ID:
-		case Table2EditPart.VISUAL_ID:
+		case GroupColumn4EditPart.VISUAL_ID:
+		case GroupRow4EditPart.VISUAL_ID:
+		case Appbar3EditPart.VISUAL_ID:
+		case Tabbar3EditPart.VISUAL_ID:
+		case Button5EditPart.VISUAL_ID:
+		case Label5EditPart.VISUAL_ID:
+		case Checkbox3EditPart.VISUAL_ID:
+		case Input3EditPart.VISUAL_ID:
+		case ListView3EditPart.VISUAL_ID:
+		case RadioButton3EditPart.VISUAL_ID:
+		case ComboBox3EditPart.VISUAL_ID:
+		case DatePicker3EditPart.VISUAL_ID:
+		case Switch3EditPart.VISUAL_ID:
+		case Table3EditPart.VISUAL_ID:
 			return true;
 		}
 		return false;
@@ -128,7 +142,7 @@ public class GroupRowGroupRowListTemplateWidgetCompartment4CanonicalEditPolicy e
 		}
 		LinkedList<IAdaptable> createdViews = new LinkedList<IAdaptable>();
 		List<UidiagramNodeDescriptor> childDescriptors = UidiagramDiagramUpdater
-				.getGroupRowGroupRowListTemplateWidgetCompartment_7016SemanticChildren((View) getHost().getModel());
+				.getGroupRowGroupRowListTemplateWidgetCompartment_7012SemanticChildren((View) getHost().getModel());
 		LinkedList<View> orphaned = new LinkedList<View>();
 		// we care to check only views we recognize as ours
 		LinkedList<View> knownViewChildren = new LinkedList<View>();

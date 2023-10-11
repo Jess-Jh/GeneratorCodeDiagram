@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:uidiagram="uidiagram" xmi:id="_xuUnwF_aEe6OQ7HI1sf8aw" type="Uidiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_J9txsF_gEe6Lx-jXltLOrA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_J9uYwF_gEe6Lx-jXltLOrA" type="5062"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_J9uYwV_gEe6Lx-jXltLOrA" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_gFPzkGYBEe66UfPlHBm_7A" type="3050" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_gFQaoGYBEe66UfPlHBm_7A" type="5050"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_gFQaoWYBEe66UfPlHBm_7A" type="7024"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_gFQaomYBEe66UfPlHBm_7A" type="7032"/>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_gFPzkWYBEe66UfPlHBm_7A"/>
+        <element xmi:type="uidiagram:Appbar" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gFPzkmYBEe66UfPlHBm_7A"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_gzWPsGYBEe66UfPlHBm_7A" type="3053" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_gzWPsmYBEe66UfPlHBm_7A" type="5053"/>
+        <element xmi:type="uidiagram:Label" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gzWPsWYBEe66UfPlHBm_7A" x="150" y="88" width="217" height="65"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_J9txsV_gEe6Lx-jXltLOrA"/>
+    <element xmi:type="uidiagram:UserInterface" href="model.uidiagram#//@listDiagrams.0/@userInterface"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J9txsl_gEe6Lx-jXltLOrA" x="176" y="56" width="493" height="385"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_xuUnwV_aEe6OQ7HI1sf8aw"/>
+  <element xmi:type="uidiagram:UIDiagram" href="model.uidiagram#//@listDiagrams.0"/>
+</notation:Diagram>

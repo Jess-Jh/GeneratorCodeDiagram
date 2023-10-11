@@ -18,7 +18,7 @@ public class TabbarTabbarListLabelsCompartment2ItemSemanticEditPolicy extends Ui
 	* @generated
 	*/
 	public TabbarTabbarListLabelsCompartment2ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.Tabbar_3025);
+		super(UidiagramElementTypes.Tabbar_3037);
 	}
 
 	/**

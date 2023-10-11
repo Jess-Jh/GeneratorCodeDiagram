@@ -17,6 +17,7 @@ import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.Checkbox;
 import uidiagram.GroupColumn;
+import uidiagram.GroupRow;
 import uidiagram.UidiagramFactory;
 
 /**
@@ -57,7 +58,7 @@ public class Checkbox3CreateCommand extends EditElementCommand {
 	protected CommandResult doExecuteWithResult(IProgressMonitor monitor, IAdaptable info) throws ExecutionException {
 		Checkbox newElement = UidiagramFactory.eINSTANCE.createCheckbox();
 
-		GroupColumn owner = (GroupColumn) getElementToEdit();
+		GroupRow owner = (GroupRow) getElementToEdit();
 		owner.getListTemplateWidget().add(newElement);
 
 		doConfigure(newElement, monitor, info);

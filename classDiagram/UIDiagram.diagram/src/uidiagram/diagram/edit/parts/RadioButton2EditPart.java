@@ -39,7 +39,7 @@ public class RadioButton2EditPart extends ShapeNodeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3031;
+	public static final int VISUAL_ID = 3076;
 
 	/**
 	* @generated
@@ -290,7 +290,7 @@ public class RadioButton2EditPart extends ShapeNodeEditPart {
 		}
 
 	}
-	
+
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

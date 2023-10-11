@@ -25,23 +25,35 @@ import org.eclipse.gmf.runtime.notation.Node;
 import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.UidiagramPackage;
+import uidiagram.diagram.edit.parts.Appbar2EditPart;
 import uidiagram.diagram.edit.parts.Appbar3EditPart;
 import uidiagram.diagram.edit.parts.Button3EditPart;
+import uidiagram.diagram.edit.parts.Button4EditPart;
 import uidiagram.diagram.edit.parts.Button5EditPart;
+import uidiagram.diagram.edit.parts.Checkbox2EditPart;
 import uidiagram.diagram.edit.parts.Checkbox3EditPart;
 import uidiagram.diagram.edit.parts.ComboBox3EditPart;
+import uidiagram.diagram.edit.parts.ComboBox4EditPart;
 import uidiagram.diagram.edit.parts.DatePicker3EditPart;
+import uidiagram.diagram.edit.parts.DatePicker4EditPart;
 import uidiagram.diagram.edit.parts.Group3EditPart;
 import uidiagram.diagram.edit.parts.GroupColumn3EditPart;
 import uidiagram.diagram.edit.parts.GroupRow2EditPart;
+import uidiagram.diagram.edit.parts.Input2EditPart;
 import uidiagram.diagram.edit.parts.Input3EditPart;
 import uidiagram.diagram.edit.parts.Label3EditPart;
+import uidiagram.diagram.edit.parts.Label4EditPart;
 import uidiagram.diagram.edit.parts.Label5EditPart;
+import uidiagram.diagram.edit.parts.ListView2EditPart;
 import uidiagram.diagram.edit.parts.ListView3EditPart;
 import uidiagram.diagram.edit.parts.RadioButton3EditPart;
+import uidiagram.diagram.edit.parts.RadioButton4EditPart;
 import uidiagram.diagram.edit.parts.Switch3EditPart;
+import uidiagram.diagram.edit.parts.Switch4EditPart;
+import uidiagram.diagram.edit.parts.Tabbar2EditPart;
 import uidiagram.diagram.edit.parts.Tabbar3EditPart;
 import uidiagram.diagram.edit.parts.Table3EditPart;
+import uidiagram.diagram.edit.parts.Table4EditPart;
 import uidiagram.diagram.part.UidiagramDiagramUpdater;
 import uidiagram.diagram.part.UidiagramNodeDescriptor;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;
@@ -102,18 +114,18 @@ public class GroupColumnGroupColumnListTemplateWidgetCompartment3CanonicalEditPo
 		case Group3EditPart.VISUAL_ID:
 		case GroupColumn3EditPart.VISUAL_ID:
 		case GroupRow2EditPart.VISUAL_ID:
-		case Appbar3EditPart.VISUAL_ID:
-		case Tabbar3EditPart.VISUAL_ID:
-		case Button5EditPart.VISUAL_ID:
-		case Label5EditPart.VISUAL_ID:
-		case Checkbox3EditPart.VISUAL_ID:
-		case Input3EditPart.VISUAL_ID:
-		case ListView3EditPart.VISUAL_ID:
-		case RadioButton3EditPart.VISUAL_ID:
-		case ComboBox3EditPart.VISUAL_ID:
-		case DatePicker3EditPart.VISUAL_ID:
-		case Switch3EditPart.VISUAL_ID:
-		case Table3EditPart.VISUAL_ID:
+		case Appbar2EditPart.VISUAL_ID:
+		case Tabbar2EditPart.VISUAL_ID:
+		case Button4EditPart.VISUAL_ID:
+		case Label4EditPart.VISUAL_ID:
+		case Checkbox2EditPart.VISUAL_ID:
+		case Input2EditPart.VISUAL_ID:
+		case ListView2EditPart.VISUAL_ID:
+		case RadioButton4EditPart.VISUAL_ID:
+		case ComboBox4EditPart.VISUAL_ID:
+		case DatePicker4EditPart.VISUAL_ID:
+		case Switch4EditPart.VISUAL_ID:
+		case Table4EditPart.VISUAL_ID:
 			return true;
 		}
 		return false;

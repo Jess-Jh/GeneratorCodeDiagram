@@ -17,6 +17,7 @@ import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.Appbar;
 import uidiagram.GroupColumn;
+import uidiagram.GroupRow;
 import uidiagram.UidiagramFactory;
 
 /**
@@ -57,7 +58,7 @@ public class Appbar3CreateCommand extends EditElementCommand {
 	protected CommandResult doExecuteWithResult(IProgressMonitor monitor, IAdaptable info) throws ExecutionException {
 		Appbar newElement = UidiagramFactory.eINSTANCE.createAppbar();
 
-		GroupColumn owner = (GroupColumn) getElementToEdit();
+		GroupRow owner = (GroupRow) getElementToEdit();
 		owner.getListTemplateWidget().add(newElement);
 
 		doConfigure(newElement, monitor, info);

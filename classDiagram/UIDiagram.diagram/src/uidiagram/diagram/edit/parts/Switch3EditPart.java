@@ -39,7 +39,7 @@ public class Switch3EditPart extends ShapeNodeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3046;
+	public static final int VISUAL_ID = 3034;
 
 	/**
 	* @generated
@@ -290,7 +290,7 @@ public class Switch3EditPart extends ShapeNodeEditPart {
 		}
 
 	}
-	
+
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

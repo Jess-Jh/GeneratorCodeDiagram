@@ -127,46 +127,46 @@ public class UidiagramVisualIDRegistry {
 				return GroupEditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getGroupColumn().isSuperTypeOf(domainElement.eClass())) {
-				return GroupColumn4EditPart.VISUAL_ID;
+				return GroupColumn5EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getGroupRow().isSuperTypeOf(domainElement.eClass())) {
-				return GroupRow4EditPart.VISUAL_ID;
+				return GroupRow5EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getAppbar().isSuperTypeOf(domainElement.eClass())) {
-				return Appbar4EditPart.VISUAL_ID;
+				return Appbar5EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getTabbar().isSuperTypeOf(domainElement.eClass())) {
-				return Tabbar4EditPart.VISUAL_ID;
+				return Tabbar5EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getButton().isSuperTypeOf(domainElement.eClass())) {
-				return Button6EditPart.VISUAL_ID;
+				return Button7EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getLabel().isSuperTypeOf(domainElement.eClass())) {
-				return Label6EditPart.VISUAL_ID;
+				return Label7EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getCheckbox().isSuperTypeOf(domainElement.eClass())) {
-				return Checkbox4EditPart.VISUAL_ID;
+				return Checkbox5EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getInput().isSuperTypeOf(domainElement.eClass())) {
-				return Input4EditPart.VISUAL_ID;
+				return Input5EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getListView().isSuperTypeOf(domainElement.eClass())) {
-				return ListView4EditPart.VISUAL_ID;
+				return ListView5EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getRadioButton().isSuperTypeOf(domainElement.eClass())) {
-				return RadioButton4EditPart.VISUAL_ID;
+				return RadioButton5EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getComboBox().isSuperTypeOf(domainElement.eClass())) {
-				return ComboBox4EditPart.VISUAL_ID;
+				return ComboBox5EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getDatePicker().isSuperTypeOf(domainElement.eClass())) {
-				return DatePicker4EditPart.VISUAL_ID;
+				return DatePicker5EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getSwitch().isSuperTypeOf(domainElement.eClass())) {
-				return Switch4EditPart.VISUAL_ID;
+				return Switch5EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getTable().isSuperTypeOf(domainElement.eClass())) {
-				return Table4EditPart.VISUAL_ID;
+				return Table5EditPart.VISUAL_ID;
 			}
 			break;
 		case GroupGroupListTemplateWidgetCompartmentEditPart.VISUAL_ID:
@@ -274,40 +274,40 @@ public class UidiagramVisualIDRegistry {
 				return GroupRow2EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getAppbar().isSuperTypeOf(domainElement.eClass())) {
-				return Appbar3EditPart.VISUAL_ID;
+				return Appbar2EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getTabbar().isSuperTypeOf(domainElement.eClass())) {
-				return Tabbar3EditPart.VISUAL_ID;
+				return Tabbar2EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getButton().isSuperTypeOf(domainElement.eClass())) {
-				return Button5EditPart.VISUAL_ID;
+				return Button4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getLabel().isSuperTypeOf(domainElement.eClass())) {
-				return Label5EditPart.VISUAL_ID;
+				return Label4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getCheckbox().isSuperTypeOf(domainElement.eClass())) {
-				return Checkbox3EditPart.VISUAL_ID;
+				return Checkbox2EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getInput().isSuperTypeOf(domainElement.eClass())) {
-				return Input3EditPart.VISUAL_ID;
+				return Input2EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getListView().isSuperTypeOf(domainElement.eClass())) {
-				return ListView3EditPart.VISUAL_ID;
+				return ListView2EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getRadioButton().isSuperTypeOf(domainElement.eClass())) {
-				return RadioButton3EditPart.VISUAL_ID;
+				return RadioButton4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getComboBox().isSuperTypeOf(domainElement.eClass())) {
-				return ComboBox3EditPart.VISUAL_ID;
+				return ComboBox4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getDatePicker().isSuperTypeOf(domainElement.eClass())) {
-				return DatePicker3EditPart.VISUAL_ID;
+				return DatePicker4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getSwitch().isSuperTypeOf(domainElement.eClass())) {
-				return Switch3EditPart.VISUAL_ID;
+				return Switch4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getTable().isSuperTypeOf(domainElement.eClass())) {
-				return Table3EditPart.VISUAL_ID;
+				return Table4EditPart.VISUAL_ID;
 			}
 			break;
 		case GroupGroupListTemplateWidgetCompartment3EditPart.VISUAL_ID:
@@ -362,46 +362,46 @@ public class UidiagramVisualIDRegistry {
 				return Group4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getGroupColumn().isSuperTypeOf(domainElement.eClass())) {
-				return GroupColumn2EditPart.VISUAL_ID;
+				return GroupColumn4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getGroupRow().isSuperTypeOf(domainElement.eClass())) {
-				return GroupRow3EditPart.VISUAL_ID;
+				return GroupRow4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getAppbar().isSuperTypeOf(domainElement.eClass())) {
-				return Appbar2EditPart.VISUAL_ID;
+				return Appbar3EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getTabbar().isSuperTypeOf(domainElement.eClass())) {
-				return Tabbar2EditPart.VISUAL_ID;
+				return Tabbar3EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getButton().isSuperTypeOf(domainElement.eClass())) {
-				return Button4EditPart.VISUAL_ID;
+				return Button5EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getLabel().isSuperTypeOf(domainElement.eClass())) {
-				return Label4EditPart.VISUAL_ID;
+				return Label5EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getCheckbox().isSuperTypeOf(domainElement.eClass())) {
-				return Checkbox2EditPart.VISUAL_ID;
+				return Checkbox3EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getInput().isSuperTypeOf(domainElement.eClass())) {
-				return Input2EditPart.VISUAL_ID;
+				return Input3EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getListView().isSuperTypeOf(domainElement.eClass())) {
-				return ListView2EditPart.VISUAL_ID;
+				return ListView3EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getRadioButton().isSuperTypeOf(domainElement.eClass())) {
-				return RadioButton2EditPart.VISUAL_ID;
+				return RadioButton3EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getComboBox().isSuperTypeOf(domainElement.eClass())) {
-				return ComboBox2EditPart.VISUAL_ID;
+				return ComboBox3EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getDatePicker().isSuperTypeOf(domainElement.eClass())) {
-				return DatePicker2EditPart.VISUAL_ID;
+				return DatePicker3EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getSwitch().isSuperTypeOf(domainElement.eClass())) {
-				return Switch2EditPart.VISUAL_ID;
+				return Switch3EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getTable().isSuperTypeOf(domainElement.eClass())) {
-				return Table2EditPart.VISUAL_ID;
+				return Table3EditPart.VISUAL_ID;
 			}
 			break;
 		case GroupGroupListTemplateWidgetCompartment4EditPart.VISUAL_ID:
@@ -471,6 +471,100 @@ public class UidiagramVisualIDRegistry {
 				return Label2EditPart.VISUAL_ID;
 			}
 			break;
+		case ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID:
+			if (UidiagramPackage.eINSTANCE.getGroup().isSuperTypeOf(domainElement.eClass())) {
+				return Group5EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getGroupColumn().isSuperTypeOf(domainElement.eClass())) {
+				return GroupColumn2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getGroupRow().isSuperTypeOf(domainElement.eClass())) {
+				return GroupRow3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getAppbar().isSuperTypeOf(domainElement.eClass())) {
+				return Appbar4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getTabbar().isSuperTypeOf(domainElement.eClass())) {
+				return Tabbar4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getButton().isSuperTypeOf(domainElement.eClass())) {
+				return Button6EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getLabel().isSuperTypeOf(domainElement.eClass())) {
+				return Label6EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getCheckbox().isSuperTypeOf(domainElement.eClass())) {
+				return Checkbox4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getInput().isSuperTypeOf(domainElement.eClass())) {
+				return Input4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getListView().isSuperTypeOf(domainElement.eClass())) {
+				return ListView4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getRadioButton().isSuperTypeOf(domainElement.eClass())) {
+				return RadioButton2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getComboBox().isSuperTypeOf(domainElement.eClass())) {
+				return ComboBox2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getDatePicker().isSuperTypeOf(domainElement.eClass())) {
+				return DatePicker2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getSwitch().isSuperTypeOf(domainElement.eClass())) {
+				return Switch2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getTable().isSuperTypeOf(domainElement.eClass())) {
+				return Table2EditPart.VISUAL_ID;
+			}
+			break;
+		case GroupGroupListTemplateWidgetCompartment5EditPart.VISUAL_ID:
+			if (UidiagramPackage.eINSTANCE.getGroup().isSuperTypeOf(domainElement.eClass())) {
+				return Group2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getGroupColumn().isSuperTypeOf(domainElement.eClass())) {
+				return GroupColumnEditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getGroupRow().isSuperTypeOf(domainElement.eClass())) {
+				return GroupRowEditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getAppbar().isSuperTypeOf(domainElement.eClass())) {
+				return AppbarEditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getTabbar().isSuperTypeOf(domainElement.eClass())) {
+				return TabbarEditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getButton().isSuperTypeOf(domainElement.eClass())) {
+				return Button3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getLabel().isSuperTypeOf(domainElement.eClass())) {
+				return Label3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getCheckbox().isSuperTypeOf(domainElement.eClass())) {
+				return CheckboxEditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getInput().isSuperTypeOf(domainElement.eClass())) {
+				return InputEditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getListView().isSuperTypeOf(domainElement.eClass())) {
+				return ListViewEditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getRadioButton().isSuperTypeOf(domainElement.eClass())) {
+				return RadioButtonEditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getComboBox().isSuperTypeOf(domainElement.eClass())) {
+				return ComboBoxEditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getDatePicker().isSuperTypeOf(domainElement.eClass())) {
+				return DatePickerEditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getSwitch().isSuperTypeOf(domainElement.eClass())) {
+				return SwitchEditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getTable().isSuperTypeOf(domainElement.eClass())) {
+				return TableEditPart.VISUAL_ID;
+			}
+			break;
 		case TableTableListCoulmnsCompartmentEditPart.VISUAL_ID:
 			if (UidiagramPackage.eINSTANCE.getColumn().isSuperTypeOf(domainElement.eClass())) {
 				return ColumnEditPart.VISUAL_ID;
@@ -487,40 +581,40 @@ public class UidiagramVisualIDRegistry {
 				return GroupRow2EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getAppbar().isSuperTypeOf(domainElement.eClass())) {
-				return Appbar3EditPart.VISUAL_ID;
+				return Appbar2EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getTabbar().isSuperTypeOf(domainElement.eClass())) {
-				return Tabbar3EditPart.VISUAL_ID;
+				return Tabbar2EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getButton().isSuperTypeOf(domainElement.eClass())) {
-				return Button5EditPart.VISUAL_ID;
+				return Button4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getLabel().isSuperTypeOf(domainElement.eClass())) {
-				return Label5EditPart.VISUAL_ID;
+				return Label4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getCheckbox().isSuperTypeOf(domainElement.eClass())) {
-				return Checkbox3EditPart.VISUAL_ID;
+				return Checkbox2EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getInput().isSuperTypeOf(domainElement.eClass())) {
-				return Input3EditPart.VISUAL_ID;
+				return Input2EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getListView().isSuperTypeOf(domainElement.eClass())) {
-				return ListView3EditPart.VISUAL_ID;
+				return ListView2EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getRadioButton().isSuperTypeOf(domainElement.eClass())) {
-				return RadioButton3EditPart.VISUAL_ID;
+				return RadioButton4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getComboBox().isSuperTypeOf(domainElement.eClass())) {
-				return ComboBox3EditPart.VISUAL_ID;
+				return ComboBox4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getDatePicker().isSuperTypeOf(domainElement.eClass())) {
-				return DatePicker3EditPart.VISUAL_ID;
+				return DatePicker4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getSwitch().isSuperTypeOf(domainElement.eClass())) {
-				return Switch3EditPart.VISUAL_ID;
+				return Switch4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getTable().isSuperTypeOf(domainElement.eClass())) {
-				return Table3EditPart.VISUAL_ID;
+				return Table4EditPart.VISUAL_ID;
 			}
 			break;
 		case GroupColumnGroupColumnListTemplateWidgetCompartment3EditPart.VISUAL_ID:
@@ -534,6 +628,53 @@ public class UidiagramVisualIDRegistry {
 				return GroupRow2EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getAppbar().isSuperTypeOf(domainElement.eClass())) {
+				return Appbar2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getTabbar().isSuperTypeOf(domainElement.eClass())) {
+				return Tabbar2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getButton().isSuperTypeOf(domainElement.eClass())) {
+				return Button4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getLabel().isSuperTypeOf(domainElement.eClass())) {
+				return Label4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getCheckbox().isSuperTypeOf(domainElement.eClass())) {
+				return Checkbox2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getInput().isSuperTypeOf(domainElement.eClass())) {
+				return Input2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getListView().isSuperTypeOf(domainElement.eClass())) {
+				return ListView2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getRadioButton().isSuperTypeOf(domainElement.eClass())) {
+				return RadioButton4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getComboBox().isSuperTypeOf(domainElement.eClass())) {
+				return ComboBox4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getDatePicker().isSuperTypeOf(domainElement.eClass())) {
+				return DatePicker4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getSwitch().isSuperTypeOf(domainElement.eClass())) {
+				return Switch4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getTable().isSuperTypeOf(domainElement.eClass())) {
+				return Table4EditPart.VISUAL_ID;
+			}
+			break;
+		case GroupRowGroupRowListTemplateWidgetCompartment2EditPart.VISUAL_ID:
+			if (UidiagramPackage.eINSTANCE.getGroup().isSuperTypeOf(domainElement.eClass())) {
+				return Group4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getGroupColumn().isSuperTypeOf(domainElement.eClass())) {
+				return GroupColumn4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getGroupRow().isSuperTypeOf(domainElement.eClass())) {
+				return GroupRow4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getAppbar().isSuperTypeOf(domainElement.eClass())) {
 				return Appbar3EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getTabbar().isSuperTypeOf(domainElement.eClass())) {
@@ -570,15 +711,15 @@ public class UidiagramVisualIDRegistry {
 				return Table3EditPart.VISUAL_ID;
 			}
 			break;
-		case GroupRowGroupRowListTemplateWidgetCompartment2EditPart.VISUAL_ID:
+		case GroupColumnGroupColumnListTemplateWidgetCompartment4EditPart.VISUAL_ID:
 			if (UidiagramPackage.eINSTANCE.getGroup().isSuperTypeOf(domainElement.eClass())) {
-				return Group4EditPart.VISUAL_ID;
+				return Group3EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getGroupColumn().isSuperTypeOf(domainElement.eClass())) {
-				return GroupColumn2EditPart.VISUAL_ID;
+				return GroupColumn3EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getGroupRow().isSuperTypeOf(domainElement.eClass())) {
-				return GroupRow3EditPart.VISUAL_ID;
+				return GroupRow2EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getAppbar().isSuperTypeOf(domainElement.eClass())) {
 				return Appbar2EditPart.VISUAL_ID;
@@ -602,66 +743,19 @@ public class UidiagramVisualIDRegistry {
 				return ListView2EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getRadioButton().isSuperTypeOf(domainElement.eClass())) {
-				return RadioButton2EditPart.VISUAL_ID;
+				return RadioButton4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getComboBox().isSuperTypeOf(domainElement.eClass())) {
-				return ComboBox2EditPart.VISUAL_ID;
+				return ComboBox4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getDatePicker().isSuperTypeOf(domainElement.eClass())) {
-				return DatePicker2EditPart.VISUAL_ID;
+				return DatePicker4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getSwitch().isSuperTypeOf(domainElement.eClass())) {
-				return Switch2EditPart.VISUAL_ID;
+				return Switch4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getTable().isSuperTypeOf(domainElement.eClass())) {
-				return Table2EditPart.VISUAL_ID;
-			}
-			break;
-		case GroupRowGroupRowListTemplateWidgetCompartment3EditPart.VISUAL_ID:
-			if (UidiagramPackage.eINSTANCE.getGroup().isSuperTypeOf(domainElement.eClass())) {
-				return Group4EditPart.VISUAL_ID;
-			}
-			if (UidiagramPackage.eINSTANCE.getGroupColumn().isSuperTypeOf(domainElement.eClass())) {
-				return GroupColumn2EditPart.VISUAL_ID;
-			}
-			if (UidiagramPackage.eINSTANCE.getGroupRow().isSuperTypeOf(domainElement.eClass())) {
-				return GroupRow3EditPart.VISUAL_ID;
-			}
-			if (UidiagramPackage.eINSTANCE.getAppbar().isSuperTypeOf(domainElement.eClass())) {
-				return Appbar2EditPart.VISUAL_ID;
-			}
-			if (UidiagramPackage.eINSTANCE.getTabbar().isSuperTypeOf(domainElement.eClass())) {
-				return Tabbar2EditPart.VISUAL_ID;
-			}
-			if (UidiagramPackage.eINSTANCE.getButton().isSuperTypeOf(domainElement.eClass())) {
-				return Button4EditPart.VISUAL_ID;
-			}
-			if (UidiagramPackage.eINSTANCE.getLabel().isSuperTypeOf(domainElement.eClass())) {
-				return Label4EditPart.VISUAL_ID;
-			}
-			if (UidiagramPackage.eINSTANCE.getCheckbox().isSuperTypeOf(domainElement.eClass())) {
-				return Checkbox2EditPart.VISUAL_ID;
-			}
-			if (UidiagramPackage.eINSTANCE.getInput().isSuperTypeOf(domainElement.eClass())) {
-				return Input2EditPart.VISUAL_ID;
-			}
-			if (UidiagramPackage.eINSTANCE.getListView().isSuperTypeOf(domainElement.eClass())) {
-				return ListView2EditPart.VISUAL_ID;
-			}
-			if (UidiagramPackage.eINSTANCE.getRadioButton().isSuperTypeOf(domainElement.eClass())) {
-				return RadioButton2EditPart.VISUAL_ID;
-			}
-			if (UidiagramPackage.eINSTANCE.getComboBox().isSuperTypeOf(domainElement.eClass())) {
-				return ComboBox2EditPart.VISUAL_ID;
-			}
-			if (UidiagramPackage.eINSTANCE.getDatePicker().isSuperTypeOf(domainElement.eClass())) {
-				return DatePicker2EditPart.VISUAL_ID;
-			}
-			if (UidiagramPackage.eINSTANCE.getSwitch().isSuperTypeOf(domainElement.eClass())) {
-				return Switch2EditPart.VISUAL_ID;
-			}
-			if (UidiagramPackage.eINSTANCE.getTable().isSuperTypeOf(domainElement.eClass())) {
-				return Table2EditPart.VISUAL_ID;
+				return Table4EditPart.VISUAL_ID;
 			}
 			break;
 		case AppbarAppbarListButtonsCompartment2EditPart.VISUAL_ID:
@@ -684,45 +778,62 @@ public class UidiagramVisualIDRegistry {
 				return Label2EditPart.VISUAL_ID;
 			}
 			break;
-		case TableTableListCoulmnsCompartment2EditPart.VISUAL_ID:
-			if (UidiagramPackage.eINSTANCE.getColumn().isSuperTypeOf(domainElement.eClass())) {
-				return ColumnEditPart.VISUAL_ID;
-			}
-			break;
-		case AppbarAppbarListButtonsCompartment3EditPart.VISUAL_ID:
-			if (UidiagramPackage.eINSTANCE.getButton().isSuperTypeOf(domainElement.eClass())) {
-				return ButtonEditPart.VISUAL_ID;
-			}
-			break;
-		case AppbarAppbarListLabelsCompartment3EditPart.VISUAL_ID:
-			if (UidiagramPackage.eINSTANCE.getLabel().isSuperTypeOf(domainElement.eClass())) {
-				return LabelEditPart.VISUAL_ID;
-			}
-			break;
-		case TabbarTabbarListButtonsCompartment3EditPart.VISUAL_ID:
-			if (UidiagramPackage.eINSTANCE.getButton().isSuperTypeOf(domainElement.eClass())) {
-				return Button2EditPart.VISUAL_ID;
-			}
-			break;
-		case TabbarTabbarListLabelsCompartment3EditPart.VISUAL_ID:
-			if (UidiagramPackage.eINSTANCE.getLabel().isSuperTypeOf(domainElement.eClass())) {
-				return Label2EditPart.VISUAL_ID;
-			}
-			break;
-		case TableTableListCoulmnsCompartment3EditPart.VISUAL_ID:
-			if (UidiagramPackage.eINSTANCE.getColumn().isSuperTypeOf(domainElement.eClass())) {
-				return ColumnEditPart.VISUAL_ID;
-			}
-			break;
-		case GroupColumnGroupColumnListTemplateWidgetCompartment4EditPart.VISUAL_ID:
+		case ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID:
 			if (UidiagramPackage.eINSTANCE.getGroup().isSuperTypeOf(domainElement.eClass())) {
-				return Group3EditPart.VISUAL_ID;
+				return Group5EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getGroupColumn().isSuperTypeOf(domainElement.eClass())) {
-				return GroupColumn3EditPart.VISUAL_ID;
+				return GroupColumn2EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getGroupRow().isSuperTypeOf(domainElement.eClass())) {
-				return GroupRow2EditPart.VISUAL_ID;
+				return GroupRow3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getAppbar().isSuperTypeOf(domainElement.eClass())) {
+				return Appbar4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getTabbar().isSuperTypeOf(domainElement.eClass())) {
+				return Tabbar4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getButton().isSuperTypeOf(domainElement.eClass())) {
+				return Button6EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getLabel().isSuperTypeOf(domainElement.eClass())) {
+				return Label6EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getCheckbox().isSuperTypeOf(domainElement.eClass())) {
+				return Checkbox4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getInput().isSuperTypeOf(domainElement.eClass())) {
+				return Input4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getListView().isSuperTypeOf(domainElement.eClass())) {
+				return ListView4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getRadioButton().isSuperTypeOf(domainElement.eClass())) {
+				return RadioButton2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getComboBox().isSuperTypeOf(domainElement.eClass())) {
+				return ComboBox2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getDatePicker().isSuperTypeOf(domainElement.eClass())) {
+				return DatePicker2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getSwitch().isSuperTypeOf(domainElement.eClass())) {
+				return Switch2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getTable().isSuperTypeOf(domainElement.eClass())) {
+				return Table2EditPart.VISUAL_ID;
+			}
+			break;
+		case GroupRowGroupRowListTemplateWidgetCompartment3EditPart.VISUAL_ID:
+			if (UidiagramPackage.eINSTANCE.getGroup().isSuperTypeOf(domainElement.eClass())) {
+				return Group4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getGroupColumn().isSuperTypeOf(domainElement.eClass())) {
+				return GroupColumn4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getGroupRow().isSuperTypeOf(domainElement.eClass())) {
+				return GroupRow4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getAppbar().isSuperTypeOf(domainElement.eClass())) {
 				return Appbar3EditPart.VISUAL_ID;
@@ -766,31 +877,98 @@ public class UidiagramVisualIDRegistry {
 				return Group4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getGroupColumn().isSuperTypeOf(domainElement.eClass())) {
+				return GroupColumn4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getGroupRow().isSuperTypeOf(domainElement.eClass())) {
+				return GroupRow4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getAppbar().isSuperTypeOf(domainElement.eClass())) {
+				return Appbar3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getTabbar().isSuperTypeOf(domainElement.eClass())) {
+				return Tabbar3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getButton().isSuperTypeOf(domainElement.eClass())) {
+				return Button5EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getLabel().isSuperTypeOf(domainElement.eClass())) {
+				return Label5EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getCheckbox().isSuperTypeOf(domainElement.eClass())) {
+				return Checkbox3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getInput().isSuperTypeOf(domainElement.eClass())) {
+				return Input3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getListView().isSuperTypeOf(domainElement.eClass())) {
+				return ListView3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getRadioButton().isSuperTypeOf(domainElement.eClass())) {
+				return RadioButton3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getComboBox().isSuperTypeOf(domainElement.eClass())) {
+				return ComboBox3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getDatePicker().isSuperTypeOf(domainElement.eClass())) {
+				return DatePicker3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getSwitch().isSuperTypeOf(domainElement.eClass())) {
+				return Switch3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getTable().isSuperTypeOf(domainElement.eClass())) {
+				return Table3EditPart.VISUAL_ID;
+			}
+			break;
+		case AppbarAppbarListButtonsCompartment3EditPart.VISUAL_ID:
+			if (UidiagramPackage.eINSTANCE.getButton().isSuperTypeOf(domainElement.eClass())) {
+				return ButtonEditPart.VISUAL_ID;
+			}
+			break;
+		case AppbarAppbarListLabelsCompartment3EditPart.VISUAL_ID:
+			if (UidiagramPackage.eINSTANCE.getLabel().isSuperTypeOf(domainElement.eClass())) {
+				return LabelEditPart.VISUAL_ID;
+			}
+			break;
+		case TabbarTabbarListButtonsCompartment3EditPart.VISUAL_ID:
+			if (UidiagramPackage.eINSTANCE.getButton().isSuperTypeOf(domainElement.eClass())) {
+				return Button2EditPart.VISUAL_ID;
+			}
+			break;
+		case TabbarTabbarListLabelsCompartment3EditPart.VISUAL_ID:
+			if (UidiagramPackage.eINSTANCE.getLabel().isSuperTypeOf(domainElement.eClass())) {
+				return Label2EditPart.VISUAL_ID;
+			}
+			break;
+		case ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID:
+			if (UidiagramPackage.eINSTANCE.getGroup().isSuperTypeOf(domainElement.eClass())) {
+				return Group5EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getGroupColumn().isSuperTypeOf(domainElement.eClass())) {
 				return GroupColumn2EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getGroupRow().isSuperTypeOf(domainElement.eClass())) {
 				return GroupRow3EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getAppbar().isSuperTypeOf(domainElement.eClass())) {
-				return Appbar2EditPart.VISUAL_ID;
+				return Appbar4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getTabbar().isSuperTypeOf(domainElement.eClass())) {
-				return Tabbar2EditPart.VISUAL_ID;
+				return Tabbar4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getButton().isSuperTypeOf(domainElement.eClass())) {
-				return Button4EditPart.VISUAL_ID;
+				return Button6EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getLabel().isSuperTypeOf(domainElement.eClass())) {
-				return Label4EditPart.VISUAL_ID;
+				return Label6EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getCheckbox().isSuperTypeOf(domainElement.eClass())) {
-				return Checkbox2EditPart.VISUAL_ID;
+				return Checkbox4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getInput().isSuperTypeOf(domainElement.eClass())) {
-				return Input2EditPart.VISUAL_ID;
+				return Input4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getListView().isSuperTypeOf(domainElement.eClass())) {
-				return ListView2EditPart.VISUAL_ID;
+				return ListView4EditPart.VISUAL_ID;
 			}
 			if (UidiagramPackage.eINSTANCE.getRadioButton().isSuperTypeOf(domainElement.eClass())) {
 				return RadioButton2EditPart.VISUAL_ID;
@@ -828,7 +1006,230 @@ public class UidiagramVisualIDRegistry {
 				return Label2EditPart.VISUAL_ID;
 			}
 			break;
+		case ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID:
+			if (UidiagramPackage.eINSTANCE.getGroup().isSuperTypeOf(domainElement.eClass())) {
+				return Group5EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getGroupColumn().isSuperTypeOf(domainElement.eClass())) {
+				return GroupColumn2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getGroupRow().isSuperTypeOf(domainElement.eClass())) {
+				return GroupRow3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getAppbar().isSuperTypeOf(domainElement.eClass())) {
+				return Appbar4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getTabbar().isSuperTypeOf(domainElement.eClass())) {
+				return Tabbar4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getButton().isSuperTypeOf(domainElement.eClass())) {
+				return Button6EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getLabel().isSuperTypeOf(domainElement.eClass())) {
+				return Label6EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getCheckbox().isSuperTypeOf(domainElement.eClass())) {
+				return Checkbox4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getInput().isSuperTypeOf(domainElement.eClass())) {
+				return Input4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getListView().isSuperTypeOf(domainElement.eClass())) {
+				return ListView4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getRadioButton().isSuperTypeOf(domainElement.eClass())) {
+				return RadioButton2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getComboBox().isSuperTypeOf(domainElement.eClass())) {
+				return ComboBox2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getDatePicker().isSuperTypeOf(domainElement.eClass())) {
+				return DatePicker2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getSwitch().isSuperTypeOf(domainElement.eClass())) {
+				return Switch2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getTable().isSuperTypeOf(domainElement.eClass())) {
+				return Table2EditPart.VISUAL_ID;
+			}
+			break;
+		case TableTableListCoulmnsCompartment2EditPart.VISUAL_ID:
+			if (UidiagramPackage.eINSTANCE.getColumn().isSuperTypeOf(domainElement.eClass())) {
+				return ColumnEditPart.VISUAL_ID;
+			}
+			break;
+		case TableTableListCoulmnsCompartment3EditPart.VISUAL_ID:
+			if (UidiagramPackage.eINSTANCE.getColumn().isSuperTypeOf(domainElement.eClass())) {
+				return ColumnEditPart.VISUAL_ID;
+			}
+			break;
 		case TableTableListCoulmnsCompartment4EditPart.VISUAL_ID:
+			if (UidiagramPackage.eINSTANCE.getColumn().isSuperTypeOf(domainElement.eClass())) {
+				return ColumnEditPart.VISUAL_ID;
+			}
+			break;
+		case GroupColumnGroupColumnListTemplateWidgetCompartment5EditPart.VISUAL_ID:
+			if (UidiagramPackage.eINSTANCE.getGroup().isSuperTypeOf(domainElement.eClass())) {
+				return Group3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getGroupColumn().isSuperTypeOf(domainElement.eClass())) {
+				return GroupColumn3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getGroupRow().isSuperTypeOf(domainElement.eClass())) {
+				return GroupRow2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getAppbar().isSuperTypeOf(domainElement.eClass())) {
+				return Appbar2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getTabbar().isSuperTypeOf(domainElement.eClass())) {
+				return Tabbar2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getButton().isSuperTypeOf(domainElement.eClass())) {
+				return Button4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getLabel().isSuperTypeOf(domainElement.eClass())) {
+				return Label4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getCheckbox().isSuperTypeOf(domainElement.eClass())) {
+				return Checkbox2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getInput().isSuperTypeOf(domainElement.eClass())) {
+				return Input2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getListView().isSuperTypeOf(domainElement.eClass())) {
+				return ListView2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getRadioButton().isSuperTypeOf(domainElement.eClass())) {
+				return RadioButton4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getComboBox().isSuperTypeOf(domainElement.eClass())) {
+				return ComboBox4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getDatePicker().isSuperTypeOf(domainElement.eClass())) {
+				return DatePicker4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getSwitch().isSuperTypeOf(domainElement.eClass())) {
+				return Switch4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getTable().isSuperTypeOf(domainElement.eClass())) {
+				return Table4EditPart.VISUAL_ID;
+			}
+			break;
+		case GroupRowGroupRowListTemplateWidgetCompartment5EditPart.VISUAL_ID:
+			if (UidiagramPackage.eINSTANCE.getGroup().isSuperTypeOf(domainElement.eClass())) {
+				return Group4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getGroupColumn().isSuperTypeOf(domainElement.eClass())) {
+				return GroupColumn4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getGroupRow().isSuperTypeOf(domainElement.eClass())) {
+				return GroupRow4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getAppbar().isSuperTypeOf(domainElement.eClass())) {
+				return Appbar3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getTabbar().isSuperTypeOf(domainElement.eClass())) {
+				return Tabbar3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getButton().isSuperTypeOf(domainElement.eClass())) {
+				return Button5EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getLabel().isSuperTypeOf(domainElement.eClass())) {
+				return Label5EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getCheckbox().isSuperTypeOf(domainElement.eClass())) {
+				return Checkbox3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getInput().isSuperTypeOf(domainElement.eClass())) {
+				return Input3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getListView().isSuperTypeOf(domainElement.eClass())) {
+				return ListView3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getRadioButton().isSuperTypeOf(domainElement.eClass())) {
+				return RadioButton3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getComboBox().isSuperTypeOf(domainElement.eClass())) {
+				return ComboBox3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getDatePicker().isSuperTypeOf(domainElement.eClass())) {
+				return DatePicker3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getSwitch().isSuperTypeOf(domainElement.eClass())) {
+				return Switch3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getTable().isSuperTypeOf(domainElement.eClass())) {
+				return Table3EditPart.VISUAL_ID;
+			}
+			break;
+		case AppbarAppbarListButtonsCompartment5EditPart.VISUAL_ID:
+			if (UidiagramPackage.eINSTANCE.getButton().isSuperTypeOf(domainElement.eClass())) {
+				return ButtonEditPart.VISUAL_ID;
+			}
+			break;
+		case AppbarAppbarListLabelsCompartment5EditPart.VISUAL_ID:
+			if (UidiagramPackage.eINSTANCE.getLabel().isSuperTypeOf(domainElement.eClass())) {
+				return LabelEditPart.VISUAL_ID;
+			}
+			break;
+		case TabbarTabbarListButtonsCompartment5EditPart.VISUAL_ID:
+			if (UidiagramPackage.eINSTANCE.getButton().isSuperTypeOf(domainElement.eClass())) {
+				return Button2EditPart.VISUAL_ID;
+			}
+			break;
+		case TabbarTabbarListLabelsCompartment5EditPart.VISUAL_ID:
+			if (UidiagramPackage.eINSTANCE.getLabel().isSuperTypeOf(domainElement.eClass())) {
+				return Label2EditPart.VISUAL_ID;
+			}
+			break;
+		case ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID:
+			if (UidiagramPackage.eINSTANCE.getGroup().isSuperTypeOf(domainElement.eClass())) {
+				return Group5EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getGroupColumn().isSuperTypeOf(domainElement.eClass())) {
+				return GroupColumn2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getGroupRow().isSuperTypeOf(domainElement.eClass())) {
+				return GroupRow3EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getAppbar().isSuperTypeOf(domainElement.eClass())) {
+				return Appbar4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getTabbar().isSuperTypeOf(domainElement.eClass())) {
+				return Tabbar4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getButton().isSuperTypeOf(domainElement.eClass())) {
+				return Button6EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getLabel().isSuperTypeOf(domainElement.eClass())) {
+				return Label6EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getCheckbox().isSuperTypeOf(domainElement.eClass())) {
+				return Checkbox4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getInput().isSuperTypeOf(domainElement.eClass())) {
+				return Input4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getListView().isSuperTypeOf(domainElement.eClass())) {
+				return ListView4EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getRadioButton().isSuperTypeOf(domainElement.eClass())) {
+				return RadioButton2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getComboBox().isSuperTypeOf(domainElement.eClass())) {
+				return ComboBox2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getDatePicker().isSuperTypeOf(domainElement.eClass())) {
+				return DatePicker2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getSwitch().isSuperTypeOf(domainElement.eClass())) {
+				return Switch2EditPart.VISUAL_ID;
+			}
+			if (UidiagramPackage.eINSTANCE.getTable().isSuperTypeOf(domainElement.eClass())) {
+				return Table2EditPart.VISUAL_ID;
+			}
+			break;
+		case TableTableListCoulmnsCompartment5EditPart.VISUAL_ID:
 			if (UidiagramPackage.eINSTANCE.getColumn().isSuperTypeOf(domainElement.eClass())) {
 				return ColumnEditPart.VISUAL_ID;
 			}
@@ -983,6 +1384,17 @@ public class UidiagramVisualIDRegistry {
 			if (ListViewNameEditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
+			if (ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case Group5EditPart.VISUAL_ID:
+			if (GroupName5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (GroupGroupListTemplateWidgetCompartment5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
 			break;
 		case RadioButtonEditPart.VISUAL_ID:
 			if (RadioButtonNameEditPart.VISUAL_ID == nodeVisualID) {
@@ -1041,11 +1453,11 @@ public class UidiagramVisualIDRegistry {
 				return true;
 			}
 			break;
-		case GroupRow3EditPart.VISUAL_ID:
-			if (GroupRowName3EditPart.VISUAL_ID == nodeVisualID) {
+		case GroupColumn4EditPart.VISUAL_ID:
+			if (GroupColumnName4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (GroupRowGroupRowListTemplateWidgetCompartment3EditPart.VISUAL_ID == nodeVisualID) {
+			if (GroupColumnGroupColumnListTemplateWidgetCompartment4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;
@@ -1095,32 +1507,23 @@ public class UidiagramVisualIDRegistry {
 			if (ListViewName2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			break;
-		case RadioButton2EditPart.VISUAL_ID:
-			if (RadioButtonName2EditPart.VISUAL_ID == nodeVisualID) {
+			if (ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;
-		case ComboBox2EditPart.VISUAL_ID:
-			if (ComboBoxName2EditPart.VISUAL_ID == nodeVisualID) {
+		case GroupRow3EditPart.VISUAL_ID:
+			if (GroupRowName3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (GroupRowGroupRowListTemplateWidgetCompartment3EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;
-		case DatePicker2EditPart.VISUAL_ID:
-			if (DatePickerName2EditPart.VISUAL_ID == nodeVisualID) {
+		case GroupRow4EditPart.VISUAL_ID:
+			if (GroupRowName4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			break;
-		case Switch2EditPart.VISUAL_ID:
-			if (SwitchName2EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			break;
-		case Table2EditPart.VISUAL_ID:
-			if (TableName2EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			if (TableTableListCoulmnsCompartment2EditPart.VISUAL_ID == nodeVisualID) {
+			if (GroupRowGroupRowListTemplateWidgetCompartment4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;
@@ -1170,48 +1573,7 @@ public class UidiagramVisualIDRegistry {
 			if (ListViewName3EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			break;
-		case RadioButton3EditPart.VISUAL_ID:
-			if (RadioButtonName3EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			break;
-		case ComboBox3EditPart.VISUAL_ID:
-			if (ComboBoxName3EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			break;
-		case DatePicker3EditPart.VISUAL_ID:
-			if (DatePickerName3EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			break;
-		case Switch3EditPart.VISUAL_ID:
-			if (SwitchName3EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			break;
-		case Table3EditPart.VISUAL_ID:
-			if (TableName3EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			if (TableTableListCoulmnsCompartment3EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			break;
-		case GroupColumn4EditPart.VISUAL_ID:
-			if (GroupColumnName4EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			if (GroupColumnGroupColumnListTemplateWidgetCompartment4EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			break;
-		case GroupRow4EditPart.VISUAL_ID:
-			if (GroupRowName4EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			if (GroupRowGroupRowListTemplateWidgetCompartment4EditPart.VISUAL_ID == nodeVisualID) {
+			if (ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;
@@ -1261,6 +1623,65 @@ public class UidiagramVisualIDRegistry {
 			if (ListViewName4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
+			if (ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case RadioButton2EditPart.VISUAL_ID:
+			if (RadioButtonName2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case ComboBox2EditPart.VISUAL_ID:
+			if (ComboBoxName2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case DatePicker2EditPart.VISUAL_ID:
+			if (DatePickerName2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case Switch2EditPart.VISUAL_ID:
+			if (SwitchName2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case Table2EditPart.VISUAL_ID:
+			if (TableName2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (TableTableListCoulmnsCompartment2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case RadioButton3EditPart.VISUAL_ID:
+			if (RadioButtonName3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case ComboBox3EditPart.VISUAL_ID:
+			if (ComboBoxName3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case DatePicker3EditPart.VISUAL_ID:
+			if (DatePickerName3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case Switch3EditPart.VISUAL_ID:
+			if (SwitchName3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case Table3EditPart.VISUAL_ID:
+			if (TableName3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (TableTableListCoulmnsCompartment3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
 			break;
 		case RadioButton4EditPart.VISUAL_ID:
 			if (RadioButtonName4EditPart.VISUAL_ID == nodeVisualID) {
@@ -1290,50 +1711,144 @@ public class UidiagramVisualIDRegistry {
 				return true;
 			}
 			break;
+		case GroupColumn5EditPart.VISUAL_ID:
+			if (GroupColumnName5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (GroupColumnGroupColumnListTemplateWidgetCompartment5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case GroupRow5EditPart.VISUAL_ID:
+			if (GroupRowName5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (GroupRowGroupRowListTemplateWidgetCompartment5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case Appbar5EditPart.VISUAL_ID:
+			if (AppbarName5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (AppbarAppbarListButtonsCompartment5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (AppbarAppbarListLabelsCompartment5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case Tabbar5EditPart.VISUAL_ID:
+			if (TabbarName5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (TabbarTabbarListButtonsCompartment5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (TabbarTabbarListLabelsCompartment5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case Button7EditPart.VISUAL_ID:
+			if (ButtonName7EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case Label7EditPart.VISUAL_ID:
+			if (LabelName7EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case Checkbox5EditPart.VISUAL_ID:
+			if (CheckboxName5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case Input5EditPart.VISUAL_ID:
+			if (InputName5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case ListView5EditPart.VISUAL_ID:
+			if (ListViewName5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case RadioButton5EditPart.VISUAL_ID:
+			if (RadioButtonName5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case ComboBox5EditPart.VISUAL_ID:
+			if (ComboBoxName5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case DatePicker5EditPart.VISUAL_ID:
+			if (DatePickerName5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case Switch5EditPart.VISUAL_ID:
+			if (SwitchName5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case Table5EditPart.VISUAL_ID:
+			if (TableName5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (TableTableListCoulmnsCompartment5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
 		case UserInterfaceUserInterfaceListTemplateWidgetCompartmentEditPart.VISUAL_ID:
 			if (GroupEditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (GroupColumn4EditPart.VISUAL_ID == nodeVisualID) {
+			if (GroupColumn5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (GroupRow4EditPart.VISUAL_ID == nodeVisualID) {
+			if (GroupRow5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Appbar4EditPart.VISUAL_ID == nodeVisualID) {
+			if (Appbar5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Tabbar4EditPart.VISUAL_ID == nodeVisualID) {
+			if (Tabbar5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Button6EditPart.VISUAL_ID == nodeVisualID) {
+			if (Button7EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Label6EditPart.VISUAL_ID == nodeVisualID) {
+			if (Label7EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Checkbox4EditPart.VISUAL_ID == nodeVisualID) {
+			if (Checkbox5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Input4EditPart.VISUAL_ID == nodeVisualID) {
+			if (Input5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (ListView4EditPart.VISUAL_ID == nodeVisualID) {
+			if (ListView5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (RadioButton4EditPart.VISUAL_ID == nodeVisualID) {
+			if (RadioButton5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (ComboBox4EditPart.VISUAL_ID == nodeVisualID) {
+			if (ComboBox5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (DatePicker4EditPart.VISUAL_ID == nodeVisualID) {
+			if (DatePicker5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Switch4EditPart.VISUAL_ID == nodeVisualID) {
+			if (Switch5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Table4EditPart.VISUAL_ID == nodeVisualID) {
+			if (Table5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;
@@ -1441,40 +1956,40 @@ public class UidiagramVisualIDRegistry {
 			if (GroupRow2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Appbar3EditPart.VISUAL_ID == nodeVisualID) {
+			if (Appbar2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Tabbar3EditPart.VISUAL_ID == nodeVisualID) {
+			if (Tabbar2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Button5EditPart.VISUAL_ID == nodeVisualID) {
+			if (Button4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Label5EditPart.VISUAL_ID == nodeVisualID) {
+			if (Label4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Checkbox3EditPart.VISUAL_ID == nodeVisualID) {
+			if (Checkbox2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Input3EditPart.VISUAL_ID == nodeVisualID) {
+			if (Input2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (ListView3EditPart.VISUAL_ID == nodeVisualID) {
+			if (ListView2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (RadioButton3EditPart.VISUAL_ID == nodeVisualID) {
+			if (RadioButton4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (ComboBox3EditPart.VISUAL_ID == nodeVisualID) {
+			if (ComboBox4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (DatePicker3EditPart.VISUAL_ID == nodeVisualID) {
+			if (DatePicker4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Switch3EditPart.VISUAL_ID == nodeVisualID) {
+			if (Switch4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Table3EditPart.VISUAL_ID == nodeVisualID) {
+			if (Table4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;
@@ -1529,46 +2044,46 @@ public class UidiagramVisualIDRegistry {
 			if (Group4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (GroupColumn2EditPart.VISUAL_ID == nodeVisualID) {
+			if (GroupColumn4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (GroupRow3EditPart.VISUAL_ID == nodeVisualID) {
+			if (GroupRow4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Appbar2EditPart.VISUAL_ID == nodeVisualID) {
+			if (Appbar3EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Tabbar2EditPart.VISUAL_ID == nodeVisualID) {
+			if (Tabbar3EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Button4EditPart.VISUAL_ID == nodeVisualID) {
+			if (Button5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Label4EditPart.VISUAL_ID == nodeVisualID) {
+			if (Label5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Checkbox2EditPart.VISUAL_ID == nodeVisualID) {
+			if (Checkbox3EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Input2EditPart.VISUAL_ID == nodeVisualID) {
+			if (Input3EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (ListView2EditPart.VISUAL_ID == nodeVisualID) {
+			if (ListView3EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (RadioButton2EditPart.VISUAL_ID == nodeVisualID) {
+			if (RadioButton3EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (ComboBox2EditPart.VISUAL_ID == nodeVisualID) {
+			if (ComboBox3EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (DatePicker2EditPart.VISUAL_ID == nodeVisualID) {
+			if (DatePicker3EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Switch2EditPart.VISUAL_ID == nodeVisualID) {
+			if (Switch3EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Table2EditPart.VISUAL_ID == nodeVisualID) {
+			if (Table3EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;
@@ -1639,6 +2154,100 @@ public class UidiagramVisualIDRegistry {
 				return true;
 			}
 			break;
+		case ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID:
+			if (Group5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (GroupColumn2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (GroupRow3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Appbar4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Tabbar4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Button6EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Label6EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Checkbox4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Input4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (ListView4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (RadioButton2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (ComboBox2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (DatePicker2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Switch2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Table2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case GroupGroupListTemplateWidgetCompartment5EditPart.VISUAL_ID:
+			if (Group2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (GroupColumnEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (GroupRowEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (AppbarEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (TabbarEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Button3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Label3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (CheckboxEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (InputEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (ListViewEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (RadioButtonEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (ComboBoxEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (DatePickerEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (SwitchEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (TableEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
 		case TableTableListCoulmnsCompartmentEditPart.VISUAL_ID:
 			if (ColumnEditPart.VISUAL_ID == nodeVisualID) {
 				return true;
@@ -1654,40 +2263,40 @@ public class UidiagramVisualIDRegistry {
 			if (GroupRow2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Appbar3EditPart.VISUAL_ID == nodeVisualID) {
+			if (Appbar2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Tabbar3EditPart.VISUAL_ID == nodeVisualID) {
+			if (Tabbar2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Button5EditPart.VISUAL_ID == nodeVisualID) {
+			if (Button4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Label5EditPart.VISUAL_ID == nodeVisualID) {
+			if (Label4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Checkbox3EditPart.VISUAL_ID == nodeVisualID) {
+			if (Checkbox2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Input3EditPart.VISUAL_ID == nodeVisualID) {
+			if (Input2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (ListView3EditPart.VISUAL_ID == nodeVisualID) {
+			if (ListView2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (RadioButton3EditPart.VISUAL_ID == nodeVisualID) {
+			if (RadioButton4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (ComboBox3EditPart.VISUAL_ID == nodeVisualID) {
+			if (ComboBox4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (DatePicker3EditPart.VISUAL_ID == nodeVisualID) {
+			if (DatePicker4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Switch3EditPart.VISUAL_ID == nodeVisualID) {
+			if (Switch4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Table3EditPart.VISUAL_ID == nodeVisualID) {
+			if (Table4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;
@@ -1701,6 +2310,53 @@ public class UidiagramVisualIDRegistry {
 			if (GroupRow2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
+			if (Appbar2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Tabbar2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Button4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Label4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Checkbox2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Input2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (ListView2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (RadioButton4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (ComboBox4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (DatePicker4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Switch4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Table4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case GroupRowGroupRowListTemplateWidgetCompartment2EditPart.VISUAL_ID:
+			if (Group4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (GroupColumn4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (GroupRow4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
 			if (Appbar3EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
@@ -1738,61 +2394,14 @@ public class UidiagramVisualIDRegistry {
 				return true;
 			}
 			break;
-		case GroupRowGroupRowListTemplateWidgetCompartment2EditPart.VISUAL_ID:
-			if (Group4EditPart.VISUAL_ID == nodeVisualID) {
+		case GroupColumnGroupColumnListTemplateWidgetCompartment4EditPart.VISUAL_ID:
+			if (Group3EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (GroupColumn2EditPart.VISUAL_ID == nodeVisualID) {
+			if (GroupColumn3EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (GroupRow3EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			if (Appbar2EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			if (Tabbar2EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			if (Button4EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			if (Label4EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			if (Checkbox2EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			if (Input2EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			if (ListView2EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			if (RadioButton2EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			if (ComboBox2EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			if (DatePicker2EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			if (Switch2EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			if (Table2EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			break;
-		case GroupRowGroupRowListTemplateWidgetCompartment3EditPart.VISUAL_ID:
-			if (Group4EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			if (GroupColumn2EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			if (GroupRow3EditPart.VISUAL_ID == nodeVisualID) {
+			if (GroupRow2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			if (Appbar2EditPart.VISUAL_ID == nodeVisualID) {
@@ -1816,19 +2425,19 @@ public class UidiagramVisualIDRegistry {
 			if (ListView2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (RadioButton2EditPart.VISUAL_ID == nodeVisualID) {
+			if (RadioButton4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (ComboBox2EditPart.VISUAL_ID == nodeVisualID) {
+			if (ComboBox4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (DatePicker2EditPart.VISUAL_ID == nodeVisualID) {
+			if (DatePicker4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Switch2EditPart.VISUAL_ID == nodeVisualID) {
+			if (Switch4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Table2EditPart.VISUAL_ID == nodeVisualID) {
+			if (Table4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;
@@ -1852,44 +2461,61 @@ public class UidiagramVisualIDRegistry {
 				return true;
 			}
 			break;
-		case TableTableListCoulmnsCompartment2EditPart.VISUAL_ID:
-			if (ColumnEditPart.VISUAL_ID == nodeVisualID) {
+		case ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID:
+			if (Group5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (GroupColumn2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (GroupRow3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Appbar4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Tabbar4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Button6EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Label6EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Checkbox4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Input4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (ListView4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (RadioButton2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (ComboBox2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (DatePicker2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Switch2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Table2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;
-		case AppbarAppbarListButtonsCompartment3EditPart.VISUAL_ID:
-			if (ButtonEditPart.VISUAL_ID == nodeVisualID) {
+		case GroupRowGroupRowListTemplateWidgetCompartment3EditPart.VISUAL_ID:
+			if (Group4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			break;
-		case AppbarAppbarListLabelsCompartment3EditPart.VISUAL_ID:
-			if (LabelEditPart.VISUAL_ID == nodeVisualID) {
+			if (GroupColumn4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			break;
-		case TabbarTabbarListButtonsCompartment3EditPart.VISUAL_ID:
-			if (Button2EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			break;
-		case TabbarTabbarListLabelsCompartment3EditPart.VISUAL_ID:
-			if (Label2EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			break;
-		case TableTableListCoulmnsCompartment3EditPart.VISUAL_ID:
-			if (ColumnEditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			break;
-		case GroupColumnGroupColumnListTemplateWidgetCompartment4EditPart.VISUAL_ID:
-			if (Group3EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			if (GroupColumn3EditPart.VISUAL_ID == nodeVisualID) {
-				return true;
-			}
-			if (GroupRow2EditPart.VISUAL_ID == nodeVisualID) {
+			if (GroupRow4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			if (Appbar3EditPart.VISUAL_ID == nodeVisualID) {
@@ -1933,31 +2559,98 @@ public class UidiagramVisualIDRegistry {
 			if (Group4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
+			if (GroupColumn4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (GroupRow4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Appbar3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Tabbar3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Button5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Label5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Checkbox3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Input3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (ListView3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (RadioButton3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (ComboBox3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (DatePicker3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Switch3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Table3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case AppbarAppbarListButtonsCompartment3EditPart.VISUAL_ID:
+			if (ButtonEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case AppbarAppbarListLabelsCompartment3EditPart.VISUAL_ID:
+			if (LabelEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case TabbarTabbarListButtonsCompartment3EditPart.VISUAL_ID:
+			if (Button2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case TabbarTabbarListLabelsCompartment3EditPart.VISUAL_ID:
+			if (Label2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID:
+			if (Group5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
 			if (GroupColumn2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			if (GroupRow3EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Appbar2EditPart.VISUAL_ID == nodeVisualID) {
+			if (Appbar4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Tabbar2EditPart.VISUAL_ID == nodeVisualID) {
+			if (Tabbar4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Button4EditPart.VISUAL_ID == nodeVisualID) {
+			if (Button6EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Label4EditPart.VISUAL_ID == nodeVisualID) {
+			if (Label6EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Checkbox2EditPart.VISUAL_ID == nodeVisualID) {
+			if (Checkbox4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (Input2EditPart.VISUAL_ID == nodeVisualID) {
+			if (Input4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (ListView2EditPart.VISUAL_ID == nodeVisualID) {
+			if (ListView4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			if (RadioButton2EditPart.VISUAL_ID == nodeVisualID) {
@@ -1996,7 +2689,230 @@ public class UidiagramVisualIDRegistry {
 				return true;
 			}
 			break;
+		case ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID:
+			if (Group5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (GroupColumn2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (GroupRow3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Appbar4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Tabbar4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Button6EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Label6EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Checkbox4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Input4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (ListView4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (RadioButton2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (ComboBox2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (DatePicker2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Switch2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Table2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case TableTableListCoulmnsCompartment2EditPart.VISUAL_ID:
+			if (ColumnEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case TableTableListCoulmnsCompartment3EditPart.VISUAL_ID:
+			if (ColumnEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
 		case TableTableListCoulmnsCompartment4EditPart.VISUAL_ID:
+			if (ColumnEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case GroupColumnGroupColumnListTemplateWidgetCompartment5EditPart.VISUAL_ID:
+			if (Group3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (GroupColumn3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (GroupRow2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Appbar2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Tabbar2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Button4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Label4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Checkbox2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Input2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (ListView2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (RadioButton4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (ComboBox4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (DatePicker4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Switch4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Table4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case GroupRowGroupRowListTemplateWidgetCompartment5EditPart.VISUAL_ID:
+			if (Group4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (GroupColumn4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (GroupRow4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Appbar3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Tabbar3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Button5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Label5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Checkbox3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Input3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (ListView3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (RadioButton3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (ComboBox3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (DatePicker3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Switch3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Table3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case AppbarAppbarListButtonsCompartment5EditPart.VISUAL_ID:
+			if (ButtonEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case AppbarAppbarListLabelsCompartment5EditPart.VISUAL_ID:
+			if (LabelEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case TabbarTabbarListButtonsCompartment5EditPart.VISUAL_ID:
+			if (Button2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case TabbarTabbarListLabelsCompartment5EditPart.VISUAL_ID:
+			if (Label2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID:
+			if (Group5EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (GroupColumn2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (GroupRow3EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Appbar4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Tabbar4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Button6EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Label6EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Checkbox4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Input4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (ListView4EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (RadioButton2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (ComboBox2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (DatePicker2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Switch2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			if (Table2EditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case TableTableListCoulmnsCompartment5EditPart.VISUAL_ID:
 			if (ColumnEditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
@@ -2053,28 +2969,41 @@ public class UidiagramVisualIDRegistry {
 		case AppbarAppbarListLabelsCompartmentEditPart.VISUAL_ID:
 		case TabbarTabbarListButtonsCompartmentEditPart.VISUAL_ID:
 		case TabbarTabbarListLabelsCompartmentEditPart.VISUAL_ID:
+		case ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID:
+		case GroupGroupListTemplateWidgetCompartment5EditPart.VISUAL_ID:
 		case TableTableListCoulmnsCompartmentEditPart.VISUAL_ID:
 		case GroupColumnGroupColumnListTemplateWidgetCompartment2EditPart.VISUAL_ID:
 		case GroupColumnGroupColumnListTemplateWidgetCompartment3EditPart.VISUAL_ID:
 		case GroupRowGroupRowListTemplateWidgetCompartment2EditPart.VISUAL_ID:
-		case GroupRowGroupRowListTemplateWidgetCompartment3EditPart.VISUAL_ID:
+		case GroupColumnGroupColumnListTemplateWidgetCompartment4EditPart.VISUAL_ID:
 		case AppbarAppbarListButtonsCompartment2EditPart.VISUAL_ID:
 		case AppbarAppbarListLabelsCompartment2EditPart.VISUAL_ID:
 		case TabbarTabbarListButtonsCompartment2EditPart.VISUAL_ID:
 		case TabbarTabbarListLabelsCompartment2EditPart.VISUAL_ID:
-		case TableTableListCoulmnsCompartment2EditPart.VISUAL_ID:
+		case ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID:
+		case GroupRowGroupRowListTemplateWidgetCompartment3EditPart.VISUAL_ID:
+		case GroupRowGroupRowListTemplateWidgetCompartment4EditPart.VISUAL_ID:
 		case AppbarAppbarListButtonsCompartment3EditPart.VISUAL_ID:
 		case AppbarAppbarListLabelsCompartment3EditPart.VISUAL_ID:
 		case TabbarTabbarListButtonsCompartment3EditPart.VISUAL_ID:
 		case TabbarTabbarListLabelsCompartment3EditPart.VISUAL_ID:
-		case TableTableListCoulmnsCompartment3EditPart.VISUAL_ID:
-		case GroupColumnGroupColumnListTemplateWidgetCompartment4EditPart.VISUAL_ID:
-		case GroupRowGroupRowListTemplateWidgetCompartment4EditPart.VISUAL_ID:
+		case ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID:
 		case AppbarAppbarListButtonsCompartment4EditPart.VISUAL_ID:
 		case AppbarAppbarListLabelsCompartment4EditPart.VISUAL_ID:
 		case TabbarTabbarListButtonsCompartment4EditPart.VISUAL_ID:
 		case TabbarTabbarListLabelsCompartment4EditPart.VISUAL_ID:
+		case ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID:
+		case TableTableListCoulmnsCompartment2EditPart.VISUAL_ID:
+		case TableTableListCoulmnsCompartment3EditPart.VISUAL_ID:
 		case TableTableListCoulmnsCompartment4EditPart.VISUAL_ID:
+		case GroupColumnGroupColumnListTemplateWidgetCompartment5EditPart.VISUAL_ID:
+		case GroupRowGroupRowListTemplateWidgetCompartment5EditPart.VISUAL_ID:
+		case AppbarAppbarListButtonsCompartment5EditPart.VISUAL_ID:
+		case AppbarAppbarListLabelsCompartment5EditPart.VISUAL_ID:
+		case TabbarTabbarListButtonsCompartment5EditPart.VISUAL_ID:
+		case TabbarTabbarListLabelsCompartment5EditPart.VISUAL_ID:
+		case ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID:
+		case TableTableListCoulmnsCompartment5EditPart.VISUAL_ID:
 			return true;
 		default:
 			break;
@@ -2093,43 +3022,47 @@ public class UidiagramVisualIDRegistry {
 		case Label3EditPart.VISUAL_ID:
 		case CheckboxEditPart.VISUAL_ID:
 		case InputEditPart.VISUAL_ID:
-		case ListViewEditPart.VISUAL_ID:
 		case RadioButtonEditPart.VISUAL_ID:
 		case ComboBoxEditPart.VISUAL_ID:
 		case DatePickerEditPart.VISUAL_ID:
 		case SwitchEditPart.VISUAL_ID:
 		case ColumnEditPart.VISUAL_ID:
-		case Button4EditPart.VISUAL_ID:
-		case Label4EditPart.VISUAL_ID:
-		case Checkbox2EditPart.VISUAL_ID:
-		case Input2EditPart.VISUAL_ID:
-		case ListView2EditPart.VISUAL_ID:
-		case RadioButton2EditPart.VISUAL_ID:
-		case ComboBox2EditPart.VISUAL_ID:
-		case DatePicker2EditPart.VISUAL_ID:
-		case Switch2EditPart.VISUAL_ID:
 		case Button5EditPart.VISUAL_ID:
 		case Label5EditPart.VISUAL_ID:
 		case Checkbox3EditPart.VISUAL_ID:
 		case Input3EditPart.VISUAL_ID:
-		case ListView3EditPart.VISUAL_ID:
 		case RadioButton3EditPart.VISUAL_ID:
 		case ComboBox3EditPart.VISUAL_ID:
 		case DatePicker3EditPart.VISUAL_ID:
 		case Switch3EditPart.VISUAL_ID:
-		case Button6EditPart.VISUAL_ID:
-		case Label6EditPart.VISUAL_ID:
-		case Checkbox4EditPart.VISUAL_ID:
-		case Input4EditPart.VISUAL_ID:
-		case ListView4EditPart.VISUAL_ID:
+		case Button4EditPart.VISUAL_ID:
+		case Label4EditPart.VISUAL_ID:
+		case Checkbox2EditPart.VISUAL_ID:
+		case Input2EditPart.VISUAL_ID:
 		case RadioButton4EditPart.VISUAL_ID:
 		case ComboBox4EditPart.VISUAL_ID:
 		case DatePicker4EditPart.VISUAL_ID:
 		case Switch4EditPart.VISUAL_ID:
+		case Button7EditPart.VISUAL_ID:
+		case Label7EditPart.VISUAL_ID:
+		case Checkbox5EditPart.VISUAL_ID:
+		case Input5EditPart.VISUAL_ID:
+		case RadioButton5EditPart.VISUAL_ID:
+		case ComboBox5EditPart.VISUAL_ID:
+		case DatePicker5EditPart.VISUAL_ID:
+		case Switch5EditPart.VISUAL_ID:
 		case ButtonEditPart.VISUAL_ID:
 		case Button2EditPart.VISUAL_ID:
 		case LabelEditPart.VISUAL_ID:
 		case Label2EditPart.VISUAL_ID:
+		case Button6EditPart.VISUAL_ID:
+		case Label6EditPart.VISUAL_ID:
+		case Checkbox4EditPart.VISUAL_ID:
+		case Input4EditPart.VISUAL_ID:
+		case RadioButton2EditPart.VISUAL_ID:
+		case ComboBox2EditPart.VISUAL_ID:
+		case DatePicker2EditPart.VISUAL_ID:
+		case Switch2EditPart.VISUAL_ID:
 			return true;
 		default:
 			break;

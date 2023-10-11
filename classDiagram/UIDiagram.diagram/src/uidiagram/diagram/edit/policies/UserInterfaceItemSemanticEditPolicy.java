@@ -16,22 +16,36 @@ import org.eclipse.gmf.runtime.notation.Node;
 import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.diagram.edit.parts.Appbar4EditPart;
+import uidiagram.diagram.edit.parts.Appbar5EditPart;
 import uidiagram.diagram.edit.parts.Button4EditPart;
 import uidiagram.diagram.edit.parts.Button6EditPart;
+import uidiagram.diagram.edit.parts.Button7EditPart;
 import uidiagram.diagram.edit.parts.Checkbox4EditPart;
+import uidiagram.diagram.edit.parts.Checkbox5EditPart;
 import uidiagram.diagram.edit.parts.ComboBox4EditPart;
+import uidiagram.diagram.edit.parts.ComboBox5EditPart;
 import uidiagram.diagram.edit.parts.DatePicker4EditPart;
+import uidiagram.diagram.edit.parts.DatePicker5EditPart;
 import uidiagram.diagram.edit.parts.GroupColumn4EditPart;
+import uidiagram.diagram.edit.parts.GroupColumn5EditPart;
 import uidiagram.diagram.edit.parts.GroupEditPart;
 import uidiagram.diagram.edit.parts.GroupRow4EditPart;
+import uidiagram.diagram.edit.parts.GroupRow5EditPart;
 import uidiagram.diagram.edit.parts.Input4EditPart;
+import uidiagram.diagram.edit.parts.Input5EditPart;
 import uidiagram.diagram.edit.parts.Label4EditPart;
 import uidiagram.diagram.edit.parts.Label6EditPart;
+import uidiagram.diagram.edit.parts.Label7EditPart;
 import uidiagram.diagram.edit.parts.ListView4EditPart;
+import uidiagram.diagram.edit.parts.ListView5EditPart;
 import uidiagram.diagram.edit.parts.RadioButton4EditPart;
+import uidiagram.diagram.edit.parts.RadioButton5EditPart;
 import uidiagram.diagram.edit.parts.Switch4EditPart;
+import uidiagram.diagram.edit.parts.Switch5EditPart;
 import uidiagram.diagram.edit.parts.Tabbar4EditPart;
+import uidiagram.diagram.edit.parts.Tabbar5EditPart;
 import uidiagram.diagram.edit.parts.Table4EditPart;
+import uidiagram.diagram.edit.parts.Table5EditPart;
 import uidiagram.diagram.edit.parts.UserInterfaceUserInterfaceListTemplateWidgetCompartmentEditPart;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;
 import uidiagram.diagram.providers.UidiagramElementTypes;
@@ -86,85 +100,85 @@ public class UserInterfaceItemSemanticEditPolicy extends UidiagramBaseItemSemant
 						// don't need explicit deletion of cnode as parent's view deletion would clean child views as well 
 						// cmd.add(new org.eclipse.gmf.runtime.diagram.core.commands.DeleteCommand(getEditingDomain(), cnode));
 						break;
-					case GroupColumn4EditPart.VISUAL_ID:
+					case GroupColumn5EditPart.VISUAL_ID:
 						cmd.add(new DestroyElementCommand(
 								new DestroyElementRequest(getEditingDomain(), cnode.getElement(), false))); // directlyOwned: true
 						// don't need explicit deletion of cnode as parent's view deletion would clean child views as well 
 						// cmd.add(new org.eclipse.gmf.runtime.diagram.core.commands.DeleteCommand(getEditingDomain(), cnode));
 						break;
-					case GroupRow4EditPart.VISUAL_ID:
+					case GroupRow5EditPart.VISUAL_ID:
 						cmd.add(new DestroyElementCommand(
 								new DestroyElementRequest(getEditingDomain(), cnode.getElement(), false))); // directlyOwned: true
 						// don't need explicit deletion of cnode as parent's view deletion would clean child views as well 
 						// cmd.add(new org.eclipse.gmf.runtime.diagram.core.commands.DeleteCommand(getEditingDomain(), cnode));
 						break;
-					case Appbar4EditPart.VISUAL_ID:
+					case Appbar5EditPart.VISUAL_ID:
 						cmd.add(new DestroyElementCommand(
 								new DestroyElementRequest(getEditingDomain(), cnode.getElement(), false))); // directlyOwned: true
 						// don't need explicit deletion of cnode as parent's view deletion would clean child views as well 
 						// cmd.add(new org.eclipse.gmf.runtime.diagram.core.commands.DeleteCommand(getEditingDomain(), cnode));
 						break;
-					case Tabbar4EditPart.VISUAL_ID:
+					case Tabbar5EditPart.VISUAL_ID:
 						cmd.add(new DestroyElementCommand(
 								new DestroyElementRequest(getEditingDomain(), cnode.getElement(), false))); // directlyOwned: true
 						// don't need explicit deletion of cnode as parent's view deletion would clean child views as well 
 						// cmd.add(new org.eclipse.gmf.runtime.diagram.core.commands.DeleteCommand(getEditingDomain(), cnode));
 						break;
-					case Button6EditPart.VISUAL_ID:
+					case Button7EditPart.VISUAL_ID:
 						cmd.add(new DestroyElementCommand(
 								new DestroyElementRequest(getEditingDomain(), cnode.getElement(), false))); // directlyOwned: true
 						// don't need explicit deletion of cnode as parent's view deletion would clean child views as well 
 						// cmd.add(new org.eclipse.gmf.runtime.diagram.core.commands.DeleteCommand(getEditingDomain(), cnode));
 						break;
-					case Label6EditPart.VISUAL_ID:
+					case Label7EditPart.VISUAL_ID:
 						cmd.add(new DestroyElementCommand(
 								new DestroyElementRequest(getEditingDomain(), cnode.getElement(), false))); // directlyOwned: true
 						// don't need explicit deletion of cnode as parent's view deletion would clean child views as well 
 						// cmd.add(new org.eclipse.gmf.runtime.diagram.core.commands.DeleteCommand(getEditingDomain(), cnode));
 						break;
-					case Checkbox4EditPart.VISUAL_ID:
+					case Checkbox5EditPart.VISUAL_ID:
 						cmd.add(new DestroyElementCommand(
 								new DestroyElementRequest(getEditingDomain(), cnode.getElement(), false))); // directlyOwned: true
 						// don't need explicit deletion of cnode as parent's view deletion would clean child views as well 
 						// cmd.add(new org.eclipse.gmf.runtime.diagram.core.commands.DeleteCommand(getEditingDomain(), cnode));
 						break;
-					case Input4EditPart.VISUAL_ID:
+					case Input5EditPart.VISUAL_ID:
 						cmd.add(new DestroyElementCommand(
 								new DestroyElementRequest(getEditingDomain(), cnode.getElement(), false))); // directlyOwned: true
 						// don't need explicit deletion of cnode as parent's view deletion would clean child views as well 
 						// cmd.add(new org.eclipse.gmf.runtime.diagram.core.commands.DeleteCommand(getEditingDomain(), cnode));
 						break;
-					case ListView4EditPart.VISUAL_ID:
+					case ListView5EditPart.VISUAL_ID:
 						cmd.add(new DestroyElementCommand(
 								new DestroyElementRequest(getEditingDomain(), cnode.getElement(), false))); // directlyOwned: true
 						// don't need explicit deletion of cnode as parent's view deletion would clean child views as well 
 						// cmd.add(new org.eclipse.gmf.runtime.diagram.core.commands.DeleteCommand(getEditingDomain(), cnode));
 						break;
-					case RadioButton4EditPart.VISUAL_ID:
+					case RadioButton5EditPart.VISUAL_ID:
 						cmd.add(new DestroyElementCommand(
 								new DestroyElementRequest(getEditingDomain(), cnode.getElement(), false))); // directlyOwned: true
 						// don't need explicit deletion of cnode as parent's view deletion would clean child views as well 
 						// cmd.add(new org.eclipse.gmf.runtime.diagram.core.commands.DeleteCommand(getEditingDomain(), cnode));
 						break;
-					case ComboBox4EditPart.VISUAL_ID:
+					case ComboBox5EditPart.VISUAL_ID:
 						cmd.add(new DestroyElementCommand(
 								new DestroyElementRequest(getEditingDomain(), cnode.getElement(), false))); // directlyOwned: true
 						// don't need explicit deletion of cnode as parent's view deletion would clean child views as well 
 						// cmd.add(new org.eclipse.gmf.runtime.diagram.core.commands.DeleteCommand(getEditingDomain(), cnode));
 						break;
-					case DatePicker4EditPart.VISUAL_ID:
+					case DatePicker5EditPart.VISUAL_ID:
 						cmd.add(new DestroyElementCommand(
 								new DestroyElementRequest(getEditingDomain(), cnode.getElement(), false))); // directlyOwned: true
 						// don't need explicit deletion of cnode as parent's view deletion would clean child views as well 
 						// cmd.add(new org.eclipse.gmf.runtime.diagram.core.commands.DeleteCommand(getEditingDomain(), cnode));
 						break;
-					case Switch4EditPart.VISUAL_ID:
+					case Switch5EditPart.VISUAL_ID:
 						cmd.add(new DestroyElementCommand(
 								new DestroyElementRequest(getEditingDomain(), cnode.getElement(), false))); // directlyOwned: true
 						// don't need explicit deletion of cnode as parent's view deletion would clean child views as well 
 						// cmd.add(new org.eclipse.gmf.runtime.diagram.core.commands.DeleteCommand(getEditingDomain(), cnode));
 						break;
-					case Table4EditPart.VISUAL_ID:
+					case Table5EditPart.VISUAL_ID:
 						cmd.add(new DestroyElementCommand(
 								new DestroyElementRequest(getEditingDomain(), cnode.getElement(), false))); // directlyOwned: true
 						// don't need explicit deletion of cnode as parent's view deletion would clean child views as well 

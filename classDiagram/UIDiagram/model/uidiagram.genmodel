@@ -52,7 +52,9 @@
     <genClasses ecoreClass="uidiagram.ecore#//Label"/>
     <genClasses ecoreClass="uidiagram.ecore#//Checkbox"/>
     <genClasses ecoreClass="uidiagram.ecore#//Input"/>
-    <genClasses ecoreClass="uidiagram.ecore#//ListView"/>
+    <genClasses ecoreClass="uidiagram.ecore#//ListView">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference uidiagram.ecore#//ListView/listTemplateWidget"/>
+    </genClasses>
     <genClasses ecoreClass="uidiagram.ecore#//RadioButton"/>
     <genClasses ecoreClass="uidiagram.ecore#//ComboBox"/>
     <genClasses ecoreClass="uidiagram.ecore#//DatePicker"/>

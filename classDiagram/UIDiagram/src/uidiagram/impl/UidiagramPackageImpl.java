@@ -636,6 +636,16 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 	 * @generated
 	 */
 	@Override
+	public EReference getListView_ListTemplateWidget() {
+		return (EReference)listViewEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public EClass getRadioButton() {
 		return radioButtonEClass;
 	}
@@ -791,6 +801,7 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		inputEClass = createEClass(INPUT);
 
 		listViewEClass = createEClass(LIST_VIEW);
+		createEReference(listViewEClass, LIST_VIEW__LIST_TEMPLATE_WIDGET);
 
 		radioButtonEClass = createEClass(RADIO_BUTTON);
 
@@ -904,6 +915,7 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		initEClass(inputEClass, Input.class, "Input", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
 		initEClass(listViewEClass, ListView.class, "ListView", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEReference(getListView_ListTemplateWidget(), this.getTemplateWidget(), null, "listTemplateWidget", null, 0, -1, ListView.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(radioButtonEClass, RadioButton.class, "RadioButton", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
@@ -981,19 +993,22 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		  (groupEClass,
 		   source,
 		   new String[] {
-			   "label", "name"
+			   "label", "name",
+			   "border.width", "0"
 		   });
 		addAnnotation
 		  (groupColumnEClass,
 		   source,
 		   new String[] {
-			   "label", "name"
+			   "label", "name",
+			   "border.width", "0"
 		   });
 		addAnnotation
 		  (groupRowEClass,
 		   source,
 		   new String[] {
-			   "label", "name"
+			   "label", "name",
+			   "border.width", "0"
 		   });
 		addAnnotation
 		  (appbarEClass,
@@ -1017,7 +1032,8 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		  (labelEClass,
 		   source,
 		   new String[] {
-			   "label", "name"
+			   "label", "name",
+			   "border.width", "0"
 		   });
 		addAnnotation
 		  (checkboxEClass,
@@ -1035,7 +1051,8 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		  (listViewEClass,
 		   source,
 		   new String[] {
-			   "label", "name"
+			   "label", "name",
+			   "border.width", "0"
 		   });
 		addAnnotation
 		  (radioButtonEClass,
@@ -1120,6 +1137,11 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		   });
 		addAnnotation
 		  (getTabbar_ListLabels(),
+		   source,
+		   new String[] {
+		   });
+		addAnnotation
+		  (getListView_ListTemplateWidget(),
 		   source,
 		   new String[] {
 		   });

@@ -20,67 +20,82 @@ import uidiagram.UidiagramPackage;
 import uidiagram.diagram.edit.parts.AppbarName2EditPart;
 import uidiagram.diagram.edit.parts.AppbarName3EditPart;
 import uidiagram.diagram.edit.parts.AppbarName4EditPart;
+import uidiagram.diagram.edit.parts.AppbarName5EditPart;
 import uidiagram.diagram.edit.parts.AppbarNameEditPart;
 import uidiagram.diagram.edit.parts.ButtonName2EditPart;
 import uidiagram.diagram.edit.parts.ButtonName3EditPart;
 import uidiagram.diagram.edit.parts.ButtonName4EditPart;
 import uidiagram.diagram.edit.parts.ButtonName5EditPart;
 import uidiagram.diagram.edit.parts.ButtonName6EditPart;
+import uidiagram.diagram.edit.parts.ButtonName7EditPart;
 import uidiagram.diagram.edit.parts.ButtonNameEditPart;
 import uidiagram.diagram.edit.parts.CheckboxName2EditPart;
 import uidiagram.diagram.edit.parts.CheckboxName3EditPart;
 import uidiagram.diagram.edit.parts.CheckboxName4EditPart;
+import uidiagram.diagram.edit.parts.CheckboxName5EditPart;
 import uidiagram.diagram.edit.parts.CheckboxNameEditPart;
 import uidiagram.diagram.edit.parts.ColumnNameEditPart;
 import uidiagram.diagram.edit.parts.ComboBoxName2EditPart;
 import uidiagram.diagram.edit.parts.ComboBoxName3EditPart;
 import uidiagram.diagram.edit.parts.ComboBoxName4EditPart;
+import uidiagram.diagram.edit.parts.ComboBoxName5EditPart;
 import uidiagram.diagram.edit.parts.ComboBoxNameEditPart;
 import uidiagram.diagram.edit.parts.DatePickerName2EditPart;
 import uidiagram.diagram.edit.parts.DatePickerName3EditPart;
 import uidiagram.diagram.edit.parts.DatePickerName4EditPart;
+import uidiagram.diagram.edit.parts.DatePickerName5EditPart;
 import uidiagram.diagram.edit.parts.DatePickerNameEditPart;
 import uidiagram.diagram.edit.parts.GroupColumnName2EditPart;
 import uidiagram.diagram.edit.parts.GroupColumnName3EditPart;
 import uidiagram.diagram.edit.parts.GroupColumnName4EditPart;
+import uidiagram.diagram.edit.parts.GroupColumnName5EditPart;
 import uidiagram.diagram.edit.parts.GroupColumnNameEditPart;
 import uidiagram.diagram.edit.parts.GroupName2EditPart;
 import uidiagram.diagram.edit.parts.GroupName3EditPart;
 import uidiagram.diagram.edit.parts.GroupName4EditPart;
+import uidiagram.diagram.edit.parts.GroupName5EditPart;
 import uidiagram.diagram.edit.parts.GroupNameEditPart;
 import uidiagram.diagram.edit.parts.GroupRowName2EditPart;
 import uidiagram.diagram.edit.parts.GroupRowName3EditPart;
 import uidiagram.diagram.edit.parts.GroupRowName4EditPart;
+import uidiagram.diagram.edit.parts.GroupRowName5EditPart;
 import uidiagram.diagram.edit.parts.GroupRowNameEditPart;
 import uidiagram.diagram.edit.parts.InputName2EditPart;
 import uidiagram.diagram.edit.parts.InputName3EditPart;
 import uidiagram.diagram.edit.parts.InputName4EditPart;
+import uidiagram.diagram.edit.parts.InputName5EditPart;
 import uidiagram.diagram.edit.parts.InputNameEditPart;
 import uidiagram.diagram.edit.parts.LabelName2EditPart;
 import uidiagram.diagram.edit.parts.LabelName3EditPart;
 import uidiagram.diagram.edit.parts.LabelName4EditPart;
 import uidiagram.diagram.edit.parts.LabelName5EditPart;
 import uidiagram.diagram.edit.parts.LabelName6EditPart;
+import uidiagram.diagram.edit.parts.LabelName7EditPart;
 import uidiagram.diagram.edit.parts.LabelNameEditPart;
 import uidiagram.diagram.edit.parts.ListViewName2EditPart;
 import uidiagram.diagram.edit.parts.ListViewName3EditPart;
 import uidiagram.diagram.edit.parts.ListViewName4EditPart;
+import uidiagram.diagram.edit.parts.ListViewName5EditPart;
 import uidiagram.diagram.edit.parts.ListViewNameEditPart;
 import uidiagram.diagram.edit.parts.RadioButtonName2EditPart;
 import uidiagram.diagram.edit.parts.RadioButtonName3EditPart;
 import uidiagram.diagram.edit.parts.RadioButtonName4EditPart;
+import uidiagram.diagram.edit.parts.RadioButtonName5EditPart;
 import uidiagram.diagram.edit.parts.RadioButtonNameEditPart;
 import uidiagram.diagram.edit.parts.SwitchName2EditPart;
 import uidiagram.diagram.edit.parts.SwitchName3EditPart;
 import uidiagram.diagram.edit.parts.SwitchName4EditPart;
+import uidiagram.diagram.edit.parts.SwitchName5EditPart;
 import uidiagram.diagram.edit.parts.SwitchNameEditPart;
 import uidiagram.diagram.edit.parts.TabbarName2EditPart;
 import uidiagram.diagram.edit.parts.TabbarName3EditPart;
 import uidiagram.diagram.edit.parts.TabbarName4EditPart;
+import uidiagram.diagram.edit.parts.TabbarName5EditPart;
 import uidiagram.diagram.edit.parts.TabbarNameEditPart;
 import uidiagram.diagram.edit.parts.TableName2EditPart;
 import uidiagram.diagram.edit.parts.TableName3EditPart;
 import uidiagram.diagram.edit.parts.TableName4EditPart;
+import uidiagram.diagram.edit.parts.TableName5EditPart;
 import uidiagram.diagram.edit.parts.TableNameEditPart;
 import uidiagram.diagram.edit.parts.UserInterfaceNameEditPart;
 import uidiagram.diagram.parsers.MessageFormatParser;
@@ -400,6 +415,23 @@ public class UidiagramParserProvider extends AbstractProvider implements IParser
 	/**
 	* @generated
 	*/
+	private IParser groupName_5067Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getGroupName_5067Parser() {
+		if (groupName_5067Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			groupName_5067Parser = parser;
+		}
+		return groupName_5067Parser;
+	}
+
+	/**
+	* @generated
+	*/
 	private IParser radioButtonName_5008Parser;
 
 	/**
@@ -497,6 +529,23 @@ public class UidiagramParserProvider extends AbstractProvider implements IParser
 			columnName_5012Parser = parser;
 		}
 		return columnName_5012Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser groupColumnName_5081Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getGroupColumnName_5081Parser() {
+		if (groupColumnName_5081Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			groupColumnName_5081Parser = parser;
+		}
+		return groupColumnName_5081Parser;
 	}
 
 	/**
@@ -684,6 +733,210 @@ public class UidiagramParserProvider extends AbstractProvider implements IParser
 			listViewName_5021Parser = parser;
 		}
 		return listViewName_5021Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser appbarName_5068Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getAppbarName_5068Parser() {
+		if (appbarName_5068Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			appbarName_5068Parser = parser;
+		}
+		return appbarName_5068Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser tabbarName_5069Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getTabbarName_5069Parser() {
+		if (tabbarName_5069Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			tabbarName_5069Parser = parser;
+		}
+		return tabbarName_5069Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser buttonName_5070Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getButtonName_5070Parser() {
+		if (buttonName_5070Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			buttonName_5070Parser = parser;
+		}
+		return buttonName_5070Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser labelName_5071Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getLabelName_5071Parser() {
+		if (labelName_5071Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			labelName_5071Parser = parser;
+		}
+		return labelName_5071Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser checkboxName_5072Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getCheckboxName_5072Parser() {
+		if (checkboxName_5072Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			checkboxName_5072Parser = parser;
+		}
+		return checkboxName_5072Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser inputName_5073Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getInputName_5073Parser() {
+		if (inputName_5073Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			inputName_5073Parser = parser;
+		}
+		return inputName_5073Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser listViewName_5079Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getListViewName_5079Parser() {
+		if (listViewName_5079Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			listViewName_5079Parser = parser;
+		}
+		return listViewName_5079Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser radioButtonName_5074Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getRadioButtonName_5074Parser() {
+		if (radioButtonName_5074Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			radioButtonName_5074Parser = parser;
+		}
+		return radioButtonName_5074Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser comboBoxName_5075Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getComboBoxName_5075Parser() {
+		if (comboBoxName_5075Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			comboBoxName_5075Parser = parser;
+		}
+		return comboBoxName_5075Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser datePickerName_5076Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getDatePickerName_5076Parser() {
+		if (datePickerName_5076Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			datePickerName_5076Parser = parser;
+		}
+		return datePickerName_5076Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser switchName_5077Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getSwitchName_5077Parser() {
+		if (switchName_5077Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			switchName_5077Parser = parser;
+		}
+		return switchName_5077Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser tableName_5078Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getTableName_5078Parser() {
+		if (tableName_5078Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			tableName_5078Parser = parser;
+		}
+		return tableName_5078Parser;
 	}
 
 	/**
@@ -888,6 +1141,23 @@ public class UidiagramParserProvider extends AbstractProvider implements IParser
 			listViewName_5035Parser = parser;
 		}
 		return listViewName_5035Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser groupRowName_5080Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getGroupRowName_5080Parser() {
+		if (groupRowName_5080Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			groupRowName_5080Parser = parser;
+		}
+		return groupRowName_5080Parser;
 	}
 
 	/**
@@ -1254,6 +1524,8 @@ public class UidiagramParserProvider extends AbstractProvider implements IParser
 			return getInputName_5006Parser();
 		case ListViewNameEditPart.VISUAL_ID:
 			return getListViewName_5007Parser();
+		case GroupName5EditPart.VISUAL_ID:
+			return getGroupName_5067Parser();
 		case RadioButtonNameEditPart.VISUAL_ID:
 			return getRadioButtonName_5008Parser();
 		case ComboBoxNameEditPart.VISUAL_ID:
@@ -1267,88 +1539,116 @@ public class UidiagramParserProvider extends AbstractProvider implements IParser
 		case ColumnNameEditPart.VISUAL_ID:
 			return getColumnName_5012Parser();
 		case GroupColumnName2EditPart.VISUAL_ID:
-			return getGroupColumnName_5042Parser();
+			return getGroupColumnName_5081Parser();
 		case GroupColumnName3EditPart.VISUAL_ID:
 			return getGroupColumnName_5041Parser();
 		case GroupRowName2EditPart.VISUAL_ID:
 			return getGroupRowName_5028Parser();
-		case GroupRowName3EditPart.VISUAL_ID:
-			return getGroupRowName_5027Parser();
-		case AppbarName2EditPart.VISUAL_ID:
-			return getAppbarName_5015Parser();
-		case TabbarName2EditPart.VISUAL_ID:
-			return getTabbarName_5016Parser();
-		case ButtonName4EditPart.VISUAL_ID:
-			return getButtonName_5017Parser();
-		case LabelName4EditPart.VISUAL_ID:
-			return getLabelName_5018Parser();
-		case CheckboxName2EditPart.VISUAL_ID:
-			return getCheckboxName_5019Parser();
-		case InputName2EditPart.VISUAL_ID:
-			return getInputName_5020Parser();
-		case ListViewName2EditPart.VISUAL_ID:
-			return getListViewName_5021Parser();
-		case RadioButtonName2EditPart.VISUAL_ID:
-			return getRadioButtonName_5022Parser();
-		case ComboBoxName2EditPart.VISUAL_ID:
-			return getComboBoxName_5023Parser();
-		case DatePickerName2EditPart.VISUAL_ID:
-			return getDatePickerName_5024Parser();
-		case SwitchName2EditPart.VISUAL_ID:
-			return getSwitchName_5025Parser();
-		case TableName2EditPart.VISUAL_ID:
-			return getTableName_5026Parser();
-		case AppbarName3EditPart.VISUAL_ID:
-			return getAppbarName_5029Parser();
-		case TabbarName3EditPart.VISUAL_ID:
-			return getTabbarName_5030Parser();
-		case ButtonName5EditPart.VISUAL_ID:
-			return getButtonName_5031Parser();
-		case LabelName5EditPart.VISUAL_ID:
-			return getLabelName_5032Parser();
-		case CheckboxName3EditPart.VISUAL_ID:
-			return getCheckboxName_5033Parser();
-		case InputName3EditPart.VISUAL_ID:
-			return getInputName_5034Parser();
-		case ListViewName3EditPart.VISUAL_ID:
-			return getListViewName_5035Parser();
-		case RadioButtonName3EditPart.VISUAL_ID:
-			return getRadioButtonName_5036Parser();
-		case ComboBoxName3EditPart.VISUAL_ID:
-			return getComboBoxName_5037Parser();
-		case DatePickerName3EditPart.VISUAL_ID:
-			return getDatePickerName_5038Parser();
-		case SwitchName3EditPart.VISUAL_ID:
-			return getSwitchName_5039Parser();
-		case TableName3EditPart.VISUAL_ID:
-			return getTableName_5040Parser();
 		case GroupColumnName4EditPart.VISUAL_ID:
-			return getGroupColumnName_5048Parser();
+			return getGroupColumnName_5042Parser();
+		case AppbarName2EditPart.VISUAL_ID:
+			return getAppbarName_5029Parser();
+		case TabbarName2EditPart.VISUAL_ID:
+			return getTabbarName_5030Parser();
+		case ButtonName4EditPart.VISUAL_ID:
+			return getButtonName_5031Parser();
+		case LabelName4EditPart.VISUAL_ID:
+			return getLabelName_5032Parser();
+		case CheckboxName2EditPart.VISUAL_ID:
+			return getCheckboxName_5033Parser();
+		case InputName2EditPart.VISUAL_ID:
+			return getInputName_5034Parser();
+		case ListViewName2EditPart.VISUAL_ID:
+			return getListViewName_5035Parser();
+		case GroupRowName3EditPart.VISUAL_ID:
+			return getGroupRowName_5080Parser();
 		case GroupRowName4EditPart.VISUAL_ID:
-			return getGroupRowName_5049Parser();
+			return getGroupRowName_5027Parser();
+		case AppbarName3EditPart.VISUAL_ID:
+			return getAppbarName_5015Parser();
+		case TabbarName3EditPart.VISUAL_ID:
+			return getTabbarName_5016Parser();
+		case ButtonName5EditPart.VISUAL_ID:
+			return getButtonName_5017Parser();
+		case LabelName5EditPart.VISUAL_ID:
+			return getLabelName_5018Parser();
+		case CheckboxName3EditPart.VISUAL_ID:
+			return getCheckboxName_5019Parser();
+		case InputName3EditPart.VISUAL_ID:
+			return getInputName_5020Parser();
+		case ListViewName3EditPart.VISUAL_ID:
+			return getListViewName_5021Parser();
 		case AppbarName4EditPart.VISUAL_ID:
-			return getAppbarName_5050Parser();
+			return getAppbarName_5068Parser();
 		case TabbarName4EditPart.VISUAL_ID:
-			return getTabbarName_5051Parser();
+			return getTabbarName_5069Parser();
 		case ButtonName6EditPart.VISUAL_ID:
-			return getButtonName_5052Parser();
+			return getButtonName_5070Parser();
 		case LabelName6EditPart.VISUAL_ID:
-			return getLabelName_5053Parser();
+			return getLabelName_5071Parser();
 		case CheckboxName4EditPart.VISUAL_ID:
-			return getCheckboxName_5054Parser();
+			return getCheckboxName_5072Parser();
 		case InputName4EditPart.VISUAL_ID:
-			return getInputName_5055Parser();
+			return getInputName_5073Parser();
 		case ListViewName4EditPart.VISUAL_ID:
-			return getListViewName_5056Parser();
+			return getListViewName_5079Parser();
+		case RadioButtonName2EditPart.VISUAL_ID:
+			return getRadioButtonName_5074Parser();
+		case ComboBoxName2EditPart.VISUAL_ID:
+			return getComboBoxName_5075Parser();
+		case DatePickerName2EditPart.VISUAL_ID:
+			return getDatePickerName_5076Parser();
+		case SwitchName2EditPart.VISUAL_ID:
+			return getSwitchName_5077Parser();
+		case TableName2EditPart.VISUAL_ID:
+			return getTableName_5078Parser();
+		case RadioButtonName3EditPart.VISUAL_ID:
+			return getRadioButtonName_5022Parser();
+		case ComboBoxName3EditPart.VISUAL_ID:
+			return getComboBoxName_5023Parser();
+		case DatePickerName3EditPart.VISUAL_ID:
+			return getDatePickerName_5024Parser();
+		case SwitchName3EditPart.VISUAL_ID:
+			return getSwitchName_5025Parser();
+		case TableName3EditPart.VISUAL_ID:
+			return getTableName_5026Parser();
 		case RadioButtonName4EditPart.VISUAL_ID:
-			return getRadioButtonName_5057Parser();
+			return getRadioButtonName_5036Parser();
 		case ComboBoxName4EditPart.VISUAL_ID:
-			return getComboBoxName_5058Parser();
+			return getComboBoxName_5037Parser();
 		case DatePickerName4EditPart.VISUAL_ID:
-			return getDatePickerName_5059Parser();
+			return getDatePickerName_5038Parser();
 		case SwitchName4EditPart.VISUAL_ID:
-			return getSwitchName_5060Parser();
+			return getSwitchName_5039Parser();
 		case TableName4EditPart.VISUAL_ID:
+			return getTableName_5040Parser();
+		case GroupColumnName5EditPart.VISUAL_ID:
+			return getGroupColumnName_5048Parser();
+		case GroupRowName5EditPart.VISUAL_ID:
+			return getGroupRowName_5049Parser();
+		case AppbarName5EditPart.VISUAL_ID:
+			return getAppbarName_5050Parser();
+		case TabbarName5EditPart.VISUAL_ID:
+			return getTabbarName_5051Parser();
+		case ButtonName7EditPart.VISUAL_ID:
+			return getButtonName_5052Parser();
+		case LabelName7EditPart.VISUAL_ID:
+			return getLabelName_5053Parser();
+		case CheckboxName5EditPart.VISUAL_ID:
+			return getCheckboxName_5054Parser();
+		case InputName5EditPart.VISUAL_ID:
+			return getInputName_5055Parser();
+		case ListViewName5EditPart.VISUAL_ID:
+			return getListViewName_5056Parser();
+		case RadioButtonName5EditPart.VISUAL_ID:
+			return getRadioButtonName_5057Parser();
+		case ComboBoxName5EditPart.VISUAL_ID:
+			return getComboBoxName_5058Parser();
+		case DatePickerName5EditPart.VISUAL_ID:
+			return getDatePickerName_5059Parser();
+		case SwitchName5EditPart.VISUAL_ID:
+			return getSwitchName_5060Parser();
+		case TableName5EditPart.VISUAL_ID:
 			return getTableName_5061Parser();
 		}
 		return null;

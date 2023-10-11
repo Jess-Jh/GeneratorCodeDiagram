@@ -15,7 +15,7 @@
       <accessors accessor="getUserInterfaceListTemplateWidgetCompartmentFigure" figure="//@figures.0/@descriptors.0/@actualFigure/@children.1"/>
     </descriptors>
     <descriptors name="GroupFigure">
-      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="GroupFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="GroupFigure" lineWidth="0">
         <border xsi:type="gmfgraph:MarginBorder">
           <insets top="5" left="5" bottom="5" right="5"/>
         </border>
@@ -28,7 +28,7 @@
       <accessors accessor="getGroupListTemplateWidgetCompartmentFigure" figure="//@figures.0/@descriptors.1/@actualFigure/@children.1"/>
     </descriptors>
     <descriptors name="GroupColumnFigure">
-      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="GroupColumnFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="GroupColumnFigure" lineWidth="0">
         <border xsi:type="gmfgraph:MarginBorder">
           <insets top="5" left="5" bottom="5" right="5"/>
         </border>
@@ -41,7 +41,7 @@
       <accessors accessor="getGroupColumnListTemplateWidgetCompartmentFigure" figure="//@figures.0/@descriptors.2/@actualFigure/@children.1"/>
     </descriptors>
     <descriptors name="GroupRowFigure">
-      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="GroupRowFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="GroupRowFigure" lineWidth="0">
         <border xsi:type="gmfgraph:MarginBorder">
           <insets top="5" left="5" bottom="5" right="5"/>
         </border>
@@ -93,7 +93,7 @@
       <accessors accessor="getFigureButtonLabelFigure" figure="//@figures.0/@descriptors.6/@actualFigure/@children.0"/>
     </descriptors>
     <descriptors name="LabelFigure">
-      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="LabelFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="LabelFigure" lineWidth="0">
         <border xsi:type="gmfgraph:MarginBorder">
           <insets top="5" left="5" bottom="5" right="5"/>
         </border>
@@ -120,13 +120,17 @@
       <accessors accessor="getFigureInputLabelFigure" figure="//@figures.0/@descriptors.9/@actualFigure/@children.0"/>
     </descriptors>
     <descriptors name="ListViewFigure">
-      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="ListViewFigure">
+      <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="ListViewFigure" lineWidth="0">
         <border xsi:type="gmfgraph:MarginBorder">
           <insets top="5" left="5" bottom="5" right="5"/>
         </border>
-        <children xsi:type="gmfgraph:Label" name="ListViewLabelFigure" text="ListView"/>
+        <children xsi:type="gmfgraph:Label" name="ListViewLabelFigure" text="ListView">
+          <maximumSize dx="10000" dy="50"/>
+        </children>
+        <children xsi:type="gmfgraph:Rectangle" name="ListViewListTemplateWidgetCompartmentFigure" outline="false"/>
       </actualFigure>
       <accessors accessor="getFigureListViewLabelFigure" figure="//@figures.0/@descriptors.10/@actualFigure/@children.0"/>
+      <accessors accessor="getListViewListTemplateWidgetCompartmentFigure" figure="//@figures.0/@descriptors.10/@actualFigure/@children.1"/>
     </descriptors>
     <descriptors name="RadioButtonFigure">
       <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="RadioButtonFigure">
@@ -212,6 +216,7 @@
   <compartments name="AppbarListLabelsCompartment" figure="AppbarFigure" collapsible="true" accessor="//@figures.0/@descriptors.4/@accessors.2"/>
   <compartments name="TabbarListButtonsCompartment" figure="TabbarFigure" collapsible="true" accessor="//@figures.0/@descriptors.5/@accessors.1"/>
   <compartments name="TabbarListLabelsCompartment" figure="TabbarFigure" collapsible="true" accessor="//@figures.0/@descriptors.5/@accessors.2"/>
+  <compartments name="ListViewListTemplateWidgetCompartment" figure="ListViewFigure" collapsible="true" accessor="//@figures.0/@descriptors.10/@accessors.1"/>
   <compartments name="TableListCoulmnsCompartment" figure="TableFigure" collapsible="true" accessor="//@figures.0/@descriptors.15/@accessors.1"/>
   <labels name="UserInterfaceLabel" figure="UserInterfaceFigure" accessor="//@figures.0/@descriptors.0/@accessors.0"/>
   <labels name="GroupLabel" figure="GroupFigure" accessor="//@figures.0/@descriptors.1/@accessors.0"/>

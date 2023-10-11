@@ -16,6 +16,7 @@ import org.eclipse.gmf.runtime.emf.type.core.requests.CreateElementRequest;
 import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.GroupRow;
+import uidiagram.ListView;
 import uidiagram.Switch;
 import uidiagram.UidiagramFactory;
 
@@ -57,7 +58,7 @@ public class Switch2CreateCommand extends EditElementCommand {
 	protected CommandResult doExecuteWithResult(IProgressMonitor monitor, IAdaptable info) throws ExecutionException {
 		Switch newElement = UidiagramFactory.eINSTANCE.createSwitch();
 
-		GroupRow owner = (GroupRow) getElementToEdit();
+		ListView owner = (ListView) getElementToEdit();
 		owner.getListTemplateWidget().add(newElement);
 
 		doConfigure(newElement, monitor, info);

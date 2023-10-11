@@ -34,6 +34,7 @@ import org.eclipse.gmf.runtime.notation.impl.ShapeImpl;
 import org.eclipse.swt.graphics.Color;
 
 import uidiagram.UserInterface;
+import uidiagram.diagram.edit.notifications.NotificationEvent;
 import uidiagram.diagram.edit.policies.OpenDiagramEditPolicy;
 import uidiagram.diagram.edit.policies.UserInterfaceItemSemanticEditPolicy;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;
@@ -343,51 +344,10 @@ public class UserInterfaceEditPart extends ShapeNodeEditPart {
 
 	}
 
-	protected void handleNotificationEvent(Notification arg0) {
-		// SET was the type i need
-		if (arg0.getEventType() == Notification.SET) {
-			// the notifier sends his new Bounds ...
-			if (arg0.getNotifier() instanceof BoundsImpl) {
-				BoundsImpl notifier = (BoundsImpl) arg0.getNotifier();
-				// for my special coordinate mapping i also need the node,
-				// so i save it in this variable ...
-				NodeImpl node = (NodeImpl) this.getModel();
-				// get the corresponding FieldLabel Object from the model
-				UserInterface model = (UserInterface) node.getElement();
+	protected void handleNotificationEvent(Notification notification) {
+		NotificationEvent.handleNotificationEventUserInterface(notification, this.getModel());
 
-				if (arg0.getFeature() instanceof EAttributeImpl) {
-					// Get the attribute that has changed
-					EAttributeImpl attribute = (EAttributeImpl) arg0.getFeature();
-					// set the values for x and y in the model
-
-					if (notifier.getWidth() == -1) {
-						model.setWidth(480);
-					} else {
-						model.setWidth(notifier.getWidth());
-						model.setHeight(notifier.getHeight());
-					}
-					model.setPositionX(notifier.getX());
-					model.setPositionY(notifier.getY());
-				}
-			}
-			if (arg0.getNotifier() instanceof ShapeImpl) {
-
-				ShapeImpl fontStyleImpl = (ShapeImpl) arg0.getNotifier();
-				int fontColor = fontStyleImpl.getFontColor();
-				int fontHeight = fontStyleImpl.getFontHeight();
-				String fontName = fontStyleImpl.getFontName();
-				boolean bold = fontStyleImpl.isBold();
-				NodeImpl node = (NodeImpl) this.getModel();
-				UserInterface model = (UserInterface) node.getElement();
-
-				//model.setFontSize(fontHeight);
-				//model.setTextColor("" + fontColor);
-				model.setBackgroundColor("" + fontStyleImpl.getFillColor());
-				//model.setFontName(fontName);
-				//model.setNegrilla(bold);
-			}
-		}
-		super.handleNotificationEvent(arg0);
+		super.handleNotificationEvent(notification);
 	}
 
 }

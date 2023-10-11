@@ -6,10 +6,13 @@ Bundle-Version: 1.0.0.qualifier
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.ui,
  cdjjd_concrete,
- org.eclipse.emf.transaction
+ org.eclipse.emf.transaction;bundle-version="1.9.1",
+ UIDiagram;bundle-version="0.1.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Import-Package: abstractJJD,
  javax.inject,
+ org.eclipse.emf.transaction.ui.provider,
+ org.eclipse.emf.transaction.ui.view,
  org.eclipse.gef,
  org.eclipse.ui.forms.widgets,
  uidiagram

@@ -24,6 +24,7 @@ import org.eclipse.gmf.runtime.common.ui.services.parser.ParserOptions;
 import org.eclipse.gmf.runtime.diagram.ui.editparts.CompartmentEditPart;
 import org.eclipse.gmf.runtime.diagram.ui.editparts.IGraphicalEditPart;
 import org.eclipse.gmf.runtime.diagram.ui.editparts.ITextAwareEditPart;
+import org.eclipse.gmf.runtime.diagram.ui.editpolicies.EditPolicyRoles;
 import org.eclipse.gmf.runtime.diagram.ui.editpolicies.LabelDirectEditPolicy;
 import org.eclipse.gmf.runtime.diagram.ui.l10n.DiagramColorRegistry;
 import org.eclipse.gmf.runtime.diagram.ui.label.ILabelDelegate;
@@ -47,6 +48,7 @@ import org.eclipse.swt.graphics.Color;
 import org.eclipse.swt.graphics.FontData;
 import org.eclipse.swt.graphics.Image;
 
+import uidiagram.diagram.edit.policies.OpenCheckboxEditPolicy;
 import uidiagram.diagram.edit.policies.UidiagramTextSelectionEditPolicy;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;
 import uidiagram.diagram.providers.UidiagramElementTypes;
@@ -60,7 +62,7 @@ public class CheckboxName2EditPart extends CompartmentEditPart implements ITextA
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5019;
+	public static final int VISUAL_ID = 5033;
 
 	/**
 	* @generated
@@ -102,6 +104,7 @@ public class CheckboxName2EditPart extends CompartmentEditPart implements ITextA
 		installEditPolicy(EditPolicy.SELECTION_FEEDBACK_ROLE, new UidiagramTextSelectionEditPolicy());
 		installEditPolicy(EditPolicy.DIRECT_EDIT_ROLE, new LabelDirectEditPolicy());
 		installEditPolicy(EditPolicy.PRIMARY_DRAG_ROLE, new DefaultNodeLabelDragPolicy());
+
 	}
 
 	/**
@@ -295,7 +298,7 @@ public class CheckboxName2EditPart extends CompartmentEditPart implements ITextA
 	*/
 	public IParser getParser() {
 		if (parser == null) {
-			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Checkbox_3028, getParserElement(),
+			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Checkbox_3040, getParserElement(),
 					UidiagramVisualIDRegistry.getType(uidiagram.diagram.edit.parts.CheckboxName2EditPart.VISUAL_ID));
 		}
 		return parser;

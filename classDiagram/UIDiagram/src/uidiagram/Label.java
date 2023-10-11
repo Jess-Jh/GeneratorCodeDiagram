@@ -10,7 +10,7 @@ package uidiagram;
  *
  *
  * @see uidiagram.UidiagramPackage#getLabel()
- * @model annotation="gmf.node label='name'"
+ * @model annotation="gmf.node label='name' border.width='0'"
  * @generated
  */
 public interface Label extends TemplateWidget {

@@ -136,6 +136,12 @@ public class UidiagramEditPartFactory implements EditPartFactory {
 			case ListViewNameEditPart.VISUAL_ID:
 				return new ListViewNameEditPart(view);
 
+			case Group5EditPart.VISUAL_ID:
+				return new Group5EditPart(view);
+
+			case GroupName5EditPart.VISUAL_ID:
+				return new GroupName5EditPart(view);
+
 			case RadioButtonEditPart.VISUAL_ID:
 				return new RadioButtonEditPart(view);
 
@@ -190,11 +196,11 @@ public class UidiagramEditPartFactory implements EditPartFactory {
 			case GroupRowName2EditPart.VISUAL_ID:
 				return new GroupRowName2EditPart(view);
 
-			case GroupRow3EditPart.VISUAL_ID:
-				return new GroupRow3EditPart(view);
+			case GroupColumn4EditPart.VISUAL_ID:
+				return new GroupColumn4EditPart(view);
 
-			case GroupRowName3EditPart.VISUAL_ID:
-				return new GroupRowName3EditPart(view);
+			case GroupColumnName4EditPart.VISUAL_ID:
+				return new GroupColumnName4EditPart(view);
 
 			case Appbar2EditPart.VISUAL_ID:
 				return new Appbar2EditPart(view);
@@ -238,35 +244,17 @@ public class UidiagramEditPartFactory implements EditPartFactory {
 			case ListViewName2EditPart.VISUAL_ID:
 				return new ListViewName2EditPart(view);
 
-			case RadioButton2EditPart.VISUAL_ID:
-				return new RadioButton2EditPart(view);
+			case GroupRow3EditPart.VISUAL_ID:
+				return new GroupRow3EditPart(view);
 
-			case RadioButtonName2EditPart.VISUAL_ID:
-				return new RadioButtonName2EditPart(view);
+			case GroupRowName3EditPart.VISUAL_ID:
+				return new GroupRowName3EditPart(view);
 
-			case ComboBox2EditPart.VISUAL_ID:
-				return new ComboBox2EditPart(view);
+			case GroupRow4EditPart.VISUAL_ID:
+				return new GroupRow4EditPart(view);
 
-			case ComboBoxName2EditPart.VISUAL_ID:
-				return new ComboBoxName2EditPart(view);
-
-			case DatePicker2EditPart.VISUAL_ID:
-				return new DatePicker2EditPart(view);
-
-			case DatePickerName2EditPart.VISUAL_ID:
-				return new DatePickerName2EditPart(view);
-
-			case Switch2EditPart.VISUAL_ID:
-				return new Switch2EditPart(view);
-
-			case SwitchName2EditPart.VISUAL_ID:
-				return new SwitchName2EditPart(view);
-
-			case Table2EditPart.VISUAL_ID:
-				return new Table2EditPart(view);
-
-			case TableName2EditPart.VISUAL_ID:
-				return new TableName2EditPart(view);
+			case GroupRowName4EditPart.VISUAL_ID:
+				return new GroupRowName4EditPart(view);
 
 			case Appbar3EditPart.VISUAL_ID:
 				return new Appbar3EditPart(view);
@@ -310,48 +298,6 @@ public class UidiagramEditPartFactory implements EditPartFactory {
 			case ListViewName3EditPart.VISUAL_ID:
 				return new ListViewName3EditPart(view);
 
-			case RadioButton3EditPart.VISUAL_ID:
-				return new RadioButton3EditPart(view);
-
-			case RadioButtonName3EditPart.VISUAL_ID:
-				return new RadioButtonName3EditPart(view);
-
-			case ComboBox3EditPart.VISUAL_ID:
-				return new ComboBox3EditPart(view);
-
-			case ComboBoxName3EditPart.VISUAL_ID:
-				return new ComboBoxName3EditPart(view);
-
-			case DatePicker3EditPart.VISUAL_ID:
-				return new DatePicker3EditPart(view);
-
-			case DatePickerName3EditPart.VISUAL_ID:
-				return new DatePickerName3EditPart(view);
-
-			case Switch3EditPart.VISUAL_ID:
-				return new Switch3EditPart(view);
-
-			case SwitchName3EditPart.VISUAL_ID:
-				return new SwitchName3EditPart(view);
-
-			case Table3EditPart.VISUAL_ID:
-				return new Table3EditPart(view);
-
-			case TableName3EditPart.VISUAL_ID:
-				return new TableName3EditPart(view);
-
-			case GroupColumn4EditPart.VISUAL_ID:
-				return new GroupColumn4EditPart(view);
-
-			case GroupColumnName4EditPart.VISUAL_ID:
-				return new GroupColumnName4EditPart(view);
-
-			case GroupRow4EditPart.VISUAL_ID:
-				return new GroupRow4EditPart(view);
-
-			case GroupRowName4EditPart.VISUAL_ID:
-				return new GroupRowName4EditPart(view);
-
 			case Appbar4EditPart.VISUAL_ID:
 				return new Appbar4EditPart(view);
 
@@ -394,6 +340,66 @@ public class UidiagramEditPartFactory implements EditPartFactory {
 			case ListViewName4EditPart.VISUAL_ID:
 				return new ListViewName4EditPart(view);
 
+			case RadioButton2EditPart.VISUAL_ID:
+				return new RadioButton2EditPart(view);
+
+			case RadioButtonName2EditPart.VISUAL_ID:
+				return new RadioButtonName2EditPart(view);
+
+			case ComboBox2EditPart.VISUAL_ID:
+				return new ComboBox2EditPart(view);
+
+			case ComboBoxName2EditPart.VISUAL_ID:
+				return new ComboBoxName2EditPart(view);
+
+			case DatePicker2EditPart.VISUAL_ID:
+				return new DatePicker2EditPart(view);
+
+			case DatePickerName2EditPart.VISUAL_ID:
+				return new DatePickerName2EditPart(view);
+
+			case Switch2EditPart.VISUAL_ID:
+				return new Switch2EditPart(view);
+
+			case SwitchName2EditPart.VISUAL_ID:
+				return new SwitchName2EditPart(view);
+
+			case Table2EditPart.VISUAL_ID:
+				return new Table2EditPart(view);
+
+			case TableName2EditPart.VISUAL_ID:
+				return new TableName2EditPart(view);
+
+			case RadioButton3EditPart.VISUAL_ID:
+				return new RadioButton3EditPart(view);
+
+			case RadioButtonName3EditPart.VISUAL_ID:
+				return new RadioButtonName3EditPart(view);
+
+			case ComboBox3EditPart.VISUAL_ID:
+				return new ComboBox3EditPart(view);
+
+			case ComboBoxName3EditPart.VISUAL_ID:
+				return new ComboBoxName3EditPart(view);
+
+			case DatePicker3EditPart.VISUAL_ID:
+				return new DatePicker3EditPart(view);
+
+			case DatePickerName3EditPart.VISUAL_ID:
+				return new DatePickerName3EditPart(view);
+
+			case Switch3EditPart.VISUAL_ID:
+				return new Switch3EditPart(view);
+
+			case SwitchName3EditPart.VISUAL_ID:
+				return new SwitchName3EditPart(view);
+
+			case Table3EditPart.VISUAL_ID:
+				return new Table3EditPart(view);
+
+			case TableName3EditPart.VISUAL_ID:
+				return new TableName3EditPart(view);
+
 			case RadioButton4EditPart.VISUAL_ID:
 				return new RadioButton4EditPart(view);
 
@@ -423,6 +429,90 @@ public class UidiagramEditPartFactory implements EditPartFactory {
 
 			case TableName4EditPart.VISUAL_ID:
 				return new TableName4EditPart(view);
+
+			case GroupColumn5EditPart.VISUAL_ID:
+				return new GroupColumn5EditPart(view);
+
+			case GroupColumnName5EditPart.VISUAL_ID:
+				return new GroupColumnName5EditPart(view);
+
+			case GroupRow5EditPart.VISUAL_ID:
+				return new GroupRow5EditPart(view);
+
+			case GroupRowName5EditPart.VISUAL_ID:
+				return new GroupRowName5EditPart(view);
+
+			case Appbar5EditPart.VISUAL_ID:
+				return new Appbar5EditPart(view);
+
+			case AppbarName5EditPart.VISUAL_ID:
+				return new AppbarName5EditPart(view);
+
+			case Tabbar5EditPart.VISUAL_ID:
+				return new Tabbar5EditPart(view);
+
+			case TabbarName5EditPart.VISUAL_ID:
+				return new TabbarName5EditPart(view);
+
+			case Button7EditPart.VISUAL_ID:
+				return new Button7EditPart(view);
+
+			case ButtonName7EditPart.VISUAL_ID:
+				return new ButtonName7EditPart(view);
+
+			case Label7EditPart.VISUAL_ID:
+				return new Label7EditPart(view);
+
+			case LabelName7EditPart.VISUAL_ID:
+				return new LabelName7EditPart(view);
+
+			case Checkbox5EditPart.VISUAL_ID:
+				return new Checkbox5EditPart(view);
+
+			case CheckboxName5EditPart.VISUAL_ID:
+				return new CheckboxName5EditPart(view);
+
+			case Input5EditPart.VISUAL_ID:
+				return new Input5EditPart(view);
+
+			case InputName5EditPart.VISUAL_ID:
+				return new InputName5EditPart(view);
+
+			case ListView5EditPart.VISUAL_ID:
+				return new ListView5EditPart(view);
+
+			case ListViewName5EditPart.VISUAL_ID:
+				return new ListViewName5EditPart(view);
+
+			case RadioButton5EditPart.VISUAL_ID:
+				return new RadioButton5EditPart(view);
+
+			case RadioButtonName5EditPart.VISUAL_ID:
+				return new RadioButtonName5EditPart(view);
+
+			case ComboBox5EditPart.VISUAL_ID:
+				return new ComboBox5EditPart(view);
+
+			case ComboBoxName5EditPart.VISUAL_ID:
+				return new ComboBoxName5EditPart(view);
+
+			case DatePicker5EditPart.VISUAL_ID:
+				return new DatePicker5EditPart(view);
+
+			case DatePickerName5EditPart.VISUAL_ID:
+				return new DatePickerName5EditPart(view);
+
+			case Switch5EditPart.VISUAL_ID:
+				return new Switch5EditPart(view);
+
+			case SwitchName5EditPart.VISUAL_ID:
+				return new SwitchName5EditPart(view);
+
+			case Table5EditPart.VISUAL_ID:
+				return new Table5EditPart(view);
+
+			case TableName5EditPart.VISUAL_ID:
+				return new TableName5EditPart(view);
 
 			case UserInterfaceUserInterfaceListTemplateWidgetCompartmentEditPart.VISUAL_ID:
 				return new UserInterfaceUserInterfaceListTemplateWidgetCompartmentEditPart(view);
@@ -457,6 +547,12 @@ public class UidiagramEditPartFactory implements EditPartFactory {
 			case TabbarTabbarListLabelsCompartmentEditPart.VISUAL_ID:
 				return new TabbarTabbarListLabelsCompartmentEditPart(view);
 
+			case ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID:
+				return new ListViewListViewListTemplateWidgetCompartmentEditPart(view);
+
+			case GroupGroupListTemplateWidgetCompartment5EditPart.VISUAL_ID:
+				return new GroupGroupListTemplateWidgetCompartment5EditPart(view);
+
 			case TableTableListCoulmnsCompartmentEditPart.VISUAL_ID:
 				return new TableTableListCoulmnsCompartmentEditPart(view);
 
@@ -469,8 +565,8 @@ public class UidiagramEditPartFactory implements EditPartFactory {
 			case GroupRowGroupRowListTemplateWidgetCompartment2EditPart.VISUAL_ID:
 				return new GroupRowGroupRowListTemplateWidgetCompartment2EditPart(view);
 
-			case GroupRowGroupRowListTemplateWidgetCompartment3EditPart.VISUAL_ID:
-				return new GroupRowGroupRowListTemplateWidgetCompartment3EditPart(view);
+			case GroupColumnGroupColumnListTemplateWidgetCompartment4EditPart.VISUAL_ID:
+				return new GroupColumnGroupColumnListTemplateWidgetCompartment4EditPart(view);
 
 			case AppbarAppbarListButtonsCompartment2EditPart.VISUAL_ID:
 				return new AppbarAppbarListButtonsCompartment2EditPart(view);
@@ -484,8 +580,14 @@ public class UidiagramEditPartFactory implements EditPartFactory {
 			case TabbarTabbarListLabelsCompartment2EditPart.VISUAL_ID:
 				return new TabbarTabbarListLabelsCompartment2EditPart(view);
 
-			case TableTableListCoulmnsCompartment2EditPart.VISUAL_ID:
-				return new TableTableListCoulmnsCompartment2EditPart(view);
+			case ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID:
+				return new ListViewListViewListTemplateWidgetCompartment2EditPart(view);
+
+			case GroupRowGroupRowListTemplateWidgetCompartment3EditPart.VISUAL_ID:
+				return new GroupRowGroupRowListTemplateWidgetCompartment3EditPart(view);
+
+			case GroupRowGroupRowListTemplateWidgetCompartment4EditPart.VISUAL_ID:
+				return new GroupRowGroupRowListTemplateWidgetCompartment4EditPart(view);
 
 			case AppbarAppbarListButtonsCompartment3EditPart.VISUAL_ID:
 				return new AppbarAppbarListButtonsCompartment3EditPart(view);
@@ -499,14 +601,8 @@ public class UidiagramEditPartFactory implements EditPartFactory {
 			case TabbarTabbarListLabelsCompartment3EditPart.VISUAL_ID:
 				return new TabbarTabbarListLabelsCompartment3EditPart(view);
 
-			case TableTableListCoulmnsCompartment3EditPart.VISUAL_ID:
-				return new TableTableListCoulmnsCompartment3EditPart(view);
-
-			case GroupColumnGroupColumnListTemplateWidgetCompartment4EditPart.VISUAL_ID:
-				return new GroupColumnGroupColumnListTemplateWidgetCompartment4EditPart(view);
-
-			case GroupRowGroupRowListTemplateWidgetCompartment4EditPart.VISUAL_ID:
-				return new GroupRowGroupRowListTemplateWidgetCompartment4EditPart(view);
+			case ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID:
+				return new ListViewListViewListTemplateWidgetCompartment3EditPart(view);
 
 			case AppbarAppbarListButtonsCompartment4EditPart.VISUAL_ID:
 				return new AppbarAppbarListButtonsCompartment4EditPart(view);
@@ -520,8 +616,41 @@ public class UidiagramEditPartFactory implements EditPartFactory {
 			case TabbarTabbarListLabelsCompartment4EditPart.VISUAL_ID:
 				return new TabbarTabbarListLabelsCompartment4EditPart(view);
 
+			case ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID:
+				return new ListViewListViewListTemplateWidgetCompartment4EditPart(view);
+
+			case TableTableListCoulmnsCompartment2EditPart.VISUAL_ID:
+				return new TableTableListCoulmnsCompartment2EditPart(view);
+
+			case TableTableListCoulmnsCompartment3EditPart.VISUAL_ID:
+				return new TableTableListCoulmnsCompartment3EditPart(view);
+
 			case TableTableListCoulmnsCompartment4EditPart.VISUAL_ID:
 				return new TableTableListCoulmnsCompartment4EditPart(view);
+
+			case GroupColumnGroupColumnListTemplateWidgetCompartment5EditPart.VISUAL_ID:
+				return new GroupColumnGroupColumnListTemplateWidgetCompartment5EditPart(view);
+
+			case GroupRowGroupRowListTemplateWidgetCompartment5EditPart.VISUAL_ID:
+				return new GroupRowGroupRowListTemplateWidgetCompartment5EditPart(view);
+
+			case AppbarAppbarListButtonsCompartment5EditPart.VISUAL_ID:
+				return new AppbarAppbarListButtonsCompartment5EditPart(view);
+
+			case AppbarAppbarListLabelsCompartment5EditPart.VISUAL_ID:
+				return new AppbarAppbarListLabelsCompartment5EditPart(view);
+
+			case TabbarTabbarListButtonsCompartment5EditPart.VISUAL_ID:
+				return new TabbarTabbarListButtonsCompartment5EditPart(view);
+
+			case TabbarTabbarListLabelsCompartment5EditPart.VISUAL_ID:
+				return new TabbarTabbarListLabelsCompartment5EditPart(view);
+
+			case ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID:
+				return new ListViewListViewListTemplateWidgetCompartment5EditPart(view);
+
+			case TableTableListCoulmnsCompartment5EditPart.VISUAL_ID:
+				return new TableTableListCoulmnsCompartment5EditPart(view);
 			}
 		}
 		return createUnrecognizedEditPart(context, model);

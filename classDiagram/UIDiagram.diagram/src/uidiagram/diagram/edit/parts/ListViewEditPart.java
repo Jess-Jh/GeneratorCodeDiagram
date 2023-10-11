@@ -5,6 +5,7 @@ package uidiagram.diagram.edit.parts;
 
 import org.eclipse.draw2d.IFigure;
 import org.eclipse.draw2d.MarginBorder;
+import org.eclipse.draw2d.RectangleFigure;
 import org.eclipse.draw2d.RoundedRectangle;
 import org.eclipse.draw2d.Shape;
 import org.eclipse.draw2d.StackLayout;
@@ -29,6 +30,7 @@ import org.eclipse.swt.graphics.Color;
 
 import uidiagram.diagram.edit.notifications.NotificationEvent;
 import uidiagram.diagram.edit.policies.ListViewItemSemanticEditPolicy;
+import uidiagram.diagram.edit.policies.OpenDiagramEditPolicy;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;
 
 /**
@@ -65,7 +67,7 @@ public class ListViewEditPart extends ShapeNodeEditPart {
 		super.createDefaultEditPolicies();
 		installEditPolicy(EditPolicyRoles.SEMANTIC_ROLE, new ListViewItemSemanticEditPolicy());
 		installEditPolicy(EditPolicy.LAYOUT_ROLE, createLayoutEditPolicy());
-		// XXX need an SCR to runtime to have another abstract superclass that would let children add reasonable editpolicies
+		installEditPolicy(EditPolicyRoles.OPEN_ROLE, new OpenDiagramEditPolicy()); // XXX need an SCR to runtime to have another abstract superclass that would let children add reasonable editpolicies
 		// removeEditPolicy(org.eclipse.gmf.runtime.diagram.ui.editpolicies.EditPolicyRoles.CONNECTION_HANDLES_ROLE);
 	}
 
@@ -116,6 +118,12 @@ public class ListViewEditPart extends ShapeNodeEditPart {
 			((ListViewNameEditPart) childEditPart).setLabel(getPrimaryShape().getFigureListViewLabelFigure());
 			return true;
 		}
+		if (childEditPart instanceof ListViewListViewListTemplateWidgetCompartmentEditPart) {
+			IFigure pane = getPrimaryShape().getListViewListTemplateWidgetCompartmentFigure();
+			setupContentPane(pane); // FIXME each comparment should handle his content pane in his own way 
+			pane.add(((ListViewListViewListTemplateWidgetCompartmentEditPart) childEditPart).getFigure());
+			return true;
+		}
 		return false;
 	}
 
@@ -124,6 +132,11 @@ public class ListViewEditPart extends ShapeNodeEditPart {
 	*/
 	protected boolean removeFixedChild(EditPart childEditPart) {
 		if (childEditPart instanceof ListViewNameEditPart) {
+			return true;
+		}
+		if (childEditPart instanceof ListViewListViewListTemplateWidgetCompartmentEditPart) {
+			IFigure pane = getPrimaryShape().getListViewListTemplateWidgetCompartmentFigure();
+			pane.remove(((ListViewListViewListTemplateWidgetCompartmentEditPart) childEditPart).getFigure());
 			return true;
 		}
 		return false;
@@ -153,6 +166,9 @@ public class ListViewEditPart extends ShapeNodeEditPart {
 	* @generated
 	*/
 	protected IFigure getContentPaneFor(IGraphicalEditPart editPart) {
+		if (editPart instanceof ListViewListViewListTemplateWidgetCompartmentEditPart) {
+			return getPrimaryShape().getListViewListTemplateWidgetCompartmentFigure();
+		}
 		return getContentPane();
 	}
 
@@ -260,10 +276,16 @@ public class ListViewEditPart extends ShapeNodeEditPart {
 		private WrappingLabel fFigureListViewLabelFigure;
 
 		/**
-		 * @generated
-		 */
+		* @generated
+		*/
+		private RectangleFigure fListViewListTemplateWidgetCompartmentFigure;
+
+		/**
+			 * @generated
+			 */
 		public ListViewFigure() {
 			this.setCornerDimensions(new Dimension(getMapMode().DPtoLP(8), getMapMode().DPtoLP(8)));
+			this.setLineWidth(0);
 			this.setBorder(new MarginBorder(getMapMode().DPtoLP(5), getMapMode().DPtoLP(5), getMapMode().DPtoLP(5),
 					getMapMode().DPtoLP(5)));
 			createContents();
@@ -277,8 +299,16 @@ public class ListViewEditPart extends ShapeNodeEditPart {
 			fFigureListViewLabelFigure = new WrappingLabel();
 
 			fFigureListViewLabelFigure.setText("ListView");
+			fFigureListViewLabelFigure
+					.setMaximumSize(new Dimension(getMapMode().DPtoLP(10000), getMapMode().DPtoLP(50)));
 
 			this.add(fFigureListViewLabelFigure);
+
+			fListViewListTemplateWidgetCompartmentFigure = new RectangleFigure();
+
+			fListViewListTemplateWidgetCompartmentFigure.setOutline(false);
+
+			this.add(fListViewListTemplateWidgetCompartmentFigure);
 
 		}
 
@@ -289,8 +319,15 @@ public class ListViewEditPart extends ShapeNodeEditPart {
 			return fFigureListViewLabelFigure;
 		}
 
+		/**
+		* @generated
+		*/
+		public RectangleFigure getListViewListTemplateWidgetCompartmentFigure() {
+			return fListViewListTemplateWidgetCompartmentFigure;
+		}
+
 	}
-	
+
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

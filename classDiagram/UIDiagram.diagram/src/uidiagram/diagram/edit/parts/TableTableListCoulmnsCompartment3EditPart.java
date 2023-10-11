@@ -34,7 +34,7 @@ public class TableTableListCoulmnsCompartment3EditPart extends ShapeCompartmentE
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 7014;
+	public static final int VISUAL_ID = 7013;
 
 	/**
 	* @generated

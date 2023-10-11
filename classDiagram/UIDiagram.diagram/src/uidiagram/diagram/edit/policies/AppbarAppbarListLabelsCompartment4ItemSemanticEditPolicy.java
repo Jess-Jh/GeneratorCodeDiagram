@@ -18,7 +18,7 @@ public class AppbarAppbarListLabelsCompartment4ItemSemanticEditPolicy extends Ui
 	* @generated
 	*/
 	public AppbarAppbarListLabelsCompartment4ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.Appbar_3050);
+		super(UidiagramElementTypes.Appbar_3069);
 	}
 
 	/**

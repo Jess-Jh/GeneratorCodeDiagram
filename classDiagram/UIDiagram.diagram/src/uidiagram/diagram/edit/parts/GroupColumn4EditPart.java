@@ -41,7 +41,7 @@ public class GroupColumn4EditPart extends ShapeNodeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3048;
+	public static final int VISUAL_ID = 3020;
 
 	/**
 	* @generated
@@ -284,6 +284,7 @@ public class GroupColumn4EditPart extends ShapeNodeEditPart {
 		 */
 		public GroupColumnFigure() {
 			this.setCornerDimensions(new Dimension(getMapMode().DPtoLP(8), getMapMode().DPtoLP(8)));
+			this.setLineWidth(0);
 			this.setBorder(new MarginBorder(getMapMode().DPtoLP(5), getMapMode().DPtoLP(5), getMapMode().DPtoLP(5),
 					getMapMode().DPtoLP(5)));
 			createContents();
@@ -325,7 +326,7 @@ public class GroupColumn4EditPart extends ShapeNodeEditPart {
 		}
 
 	}
-	
+
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

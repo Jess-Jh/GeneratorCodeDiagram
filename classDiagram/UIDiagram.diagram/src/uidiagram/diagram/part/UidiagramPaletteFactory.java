@@ -57,10 +57,11 @@ public class UidiagramPaletteFactory {
 	* @generated
 	*/
 	private ToolEntry createAppbar1CreationTool() {
-		ArrayList<IElementType> types = new ArrayList<IElementType>(4);
+		ArrayList<IElementType> types = new ArrayList<IElementType>(5);
 		types.add(UidiagramElementTypes.Appbar_3007);
-		types.add(UidiagramElementTypes.Appbar_3024);
 		types.add(UidiagramElementTypes.Appbar_3036);
+		types.add(UidiagramElementTypes.Appbar_3024);
+		types.add(UidiagramElementTypes.Appbar_3069);
 		types.add(UidiagramElementTypes.Appbar_3050);
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(Messages.Appbar1CreationTool_title,
 				Messages.Appbar1CreationTool_desc, types);
@@ -74,12 +75,13 @@ public class UidiagramPaletteFactory {
 	* @generated
 	*/
 	private ToolEntry createButton2CreationTool() {
-		ArrayList<IElementType> types = new ArrayList<IElementType>(6);
+		ArrayList<IElementType> types = new ArrayList<IElementType>(7);
 		types.add(UidiagramElementTypes.Button_3062);
 		types.add(UidiagramElementTypes.Button_3063);
 		types.add(UidiagramElementTypes.Button_3009);
-		types.add(UidiagramElementTypes.Button_3026);
 		types.add(UidiagramElementTypes.Button_3038);
+		types.add(UidiagramElementTypes.Button_3026);
+		types.add(UidiagramElementTypes.Button_3071);
 		types.add(UidiagramElementTypes.Button_3052);
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(Messages.Button2CreationTool_title,
 				Messages.Button2CreationTool_desc, types);
@@ -93,10 +95,11 @@ public class UidiagramPaletteFactory {
 	* @generated
 	*/
 	private ToolEntry createCheckbox3CreationTool() {
-		ArrayList<IElementType> types = new ArrayList<IElementType>(4);
+		ArrayList<IElementType> types = new ArrayList<IElementType>(5);
 		types.add(UidiagramElementTypes.Checkbox_3011);
-		types.add(UidiagramElementTypes.Checkbox_3028);
 		types.add(UidiagramElementTypes.Checkbox_3040);
+		types.add(UidiagramElementTypes.Checkbox_3028);
+		types.add(UidiagramElementTypes.Checkbox_3073);
 		types.add(UidiagramElementTypes.Checkbox_3054);
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(Messages.Checkbox3CreationTool_title,
 				Messages.Checkbox3CreationTool_desc, types);
@@ -122,8 +125,9 @@ public class UidiagramPaletteFactory {
 	* @generated
 	*/
 	private ToolEntry createComboBox5CreationTool() {
-		ArrayList<IElementType> types = new ArrayList<IElementType>(4);
+		ArrayList<IElementType> types = new ArrayList<IElementType>(5);
 		types.add(UidiagramElementTypes.ComboBox_3015);
+		types.add(UidiagramElementTypes.ComboBox_3077);
 		types.add(UidiagramElementTypes.ComboBox_3032);
 		types.add(UidiagramElementTypes.ComboBox_3044);
 		types.add(UidiagramElementTypes.ComboBox_3058);
@@ -139,8 +143,9 @@ public class UidiagramPaletteFactory {
 	* @generated
 	*/
 	private ToolEntry createDatePicker6CreationTool() {
-		ArrayList<IElementType> types = new ArrayList<IElementType>(4);
+		ArrayList<IElementType> types = new ArrayList<IElementType>(5);
 		types.add(UidiagramElementTypes.DatePicker_3016);
+		types.add(UidiagramElementTypes.DatePicker_3078);
 		types.add(UidiagramElementTypes.DatePicker_3033);
 		types.add(UidiagramElementTypes.DatePicker_3045);
 		types.add(UidiagramElementTypes.DatePicker_3059);
@@ -156,11 +161,12 @@ public class UidiagramPaletteFactory {
 	* @generated
 	*/
 	private ToolEntry createGroup7CreationTool() {
-		ArrayList<IElementType> types = new ArrayList<IElementType>(4);
+		ArrayList<IElementType> types = new ArrayList<IElementType>(5);
 		types.add(UidiagramElementTypes.Group_3001);
 		types.add(UidiagramElementTypes.Group_3002);
 		types.add(UidiagramElementTypes.Group_3004);
 		types.add(UidiagramElementTypes.Group_3006);
+		types.add(UidiagramElementTypes.Group_3066);
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(Messages.Group7CreationTool_title,
 				Messages.Group7CreationTool_desc, types);
 		entry.setId("createGroup7CreationTool"); //$NON-NLS-1$
@@ -173,10 +179,11 @@ public class UidiagramPaletteFactory {
 	* @generated
 	*/
 	private ToolEntry createGroupColumn8CreationTool() {
-		ArrayList<IElementType> types = new ArrayList<IElementType>(4);
+		ArrayList<IElementType> types = new ArrayList<IElementType>(5);
 		types.add(UidiagramElementTypes.GroupColumn_3003);
-		types.add(UidiagramElementTypes.GroupColumn_3020);
+		types.add(UidiagramElementTypes.GroupColumn_3067);
 		types.add(UidiagramElementTypes.GroupColumn_3021);
+		types.add(UidiagramElementTypes.GroupColumn_3020);
 		types.add(UidiagramElementTypes.GroupColumn_3048);
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(Messages.GroupColumn8CreationTool_title,
 				Messages.GroupColumn8CreationTool_desc, types);
@@ -190,9 +197,10 @@ public class UidiagramPaletteFactory {
 	* @generated
 	*/
 	private ToolEntry createGroupRow9CreationTool() {
-		ArrayList<IElementType> types = new ArrayList<IElementType>(4);
+		ArrayList<IElementType> types = new ArrayList<IElementType>(5);
 		types.add(UidiagramElementTypes.GroupRow_3005);
 		types.add(UidiagramElementTypes.GroupRow_3022);
+		types.add(UidiagramElementTypes.GroupRow_3068);
 		types.add(UidiagramElementTypes.GroupRow_3023);
 		types.add(UidiagramElementTypes.GroupRow_3049);
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(Messages.GroupRow9CreationTool_title,
@@ -207,10 +215,11 @@ public class UidiagramPaletteFactory {
 	* @generated
 	*/
 	private ToolEntry createInput10CreationTool() {
-		ArrayList<IElementType> types = new ArrayList<IElementType>(4);
+		ArrayList<IElementType> types = new ArrayList<IElementType>(5);
 		types.add(UidiagramElementTypes.Input_3012);
-		types.add(UidiagramElementTypes.Input_3029);
 		types.add(UidiagramElementTypes.Input_3041);
+		types.add(UidiagramElementTypes.Input_3029);
+		types.add(UidiagramElementTypes.Input_3074);
 		types.add(UidiagramElementTypes.Input_3055);
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(Messages.Input10CreationTool_title,
 				Messages.Input10CreationTool_desc, types);
@@ -224,12 +233,13 @@ public class UidiagramPaletteFactory {
 	* @generated
 	*/
 	private ToolEntry createLabel11CreationTool() {
-		ArrayList<IElementType> types = new ArrayList<IElementType>(6);
+		ArrayList<IElementType> types = new ArrayList<IElementType>(7);
 		types.add(UidiagramElementTypes.Label_3064);
 		types.add(UidiagramElementTypes.Label_3065);
 		types.add(UidiagramElementTypes.Label_3010);
-		types.add(UidiagramElementTypes.Label_3027);
 		types.add(UidiagramElementTypes.Label_3039);
+		types.add(UidiagramElementTypes.Label_3027);
+		types.add(UidiagramElementTypes.Label_3072);
 		types.add(UidiagramElementTypes.Label_3053);
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(Messages.Label11CreationTool_title,
 				Messages.Label11CreationTool_desc, types);
@@ -243,10 +253,11 @@ public class UidiagramPaletteFactory {
 	* @generated
 	*/
 	private ToolEntry createListView12CreationTool() {
-		ArrayList<IElementType> types = new ArrayList<IElementType>(4);
+		ArrayList<IElementType> types = new ArrayList<IElementType>(5);
 		types.add(UidiagramElementTypes.ListView_3013);
-		types.add(UidiagramElementTypes.ListView_3030);
 		types.add(UidiagramElementTypes.ListView_3042);
+		types.add(UidiagramElementTypes.ListView_3030);
+		types.add(UidiagramElementTypes.ListView_3075);
 		types.add(UidiagramElementTypes.ListView_3056);
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(Messages.ListView12CreationTool_title,
 				Messages.ListView12CreationTool_desc, types);
@@ -260,8 +271,9 @@ public class UidiagramPaletteFactory {
 	* @generated
 	*/
 	private ToolEntry createRadioButton13CreationTool() {
-		ArrayList<IElementType> types = new ArrayList<IElementType>(4);
+		ArrayList<IElementType> types = new ArrayList<IElementType>(5);
 		types.add(UidiagramElementTypes.RadioButton_3014);
+		types.add(UidiagramElementTypes.RadioButton_3076);
 		types.add(UidiagramElementTypes.RadioButton_3031);
 		types.add(UidiagramElementTypes.RadioButton_3043);
 		types.add(UidiagramElementTypes.RadioButton_3057);
@@ -277,8 +289,9 @@ public class UidiagramPaletteFactory {
 	* @generated
 	*/
 	private ToolEntry createSwitch14CreationTool() {
-		ArrayList<IElementType> types = new ArrayList<IElementType>(4);
+		ArrayList<IElementType> types = new ArrayList<IElementType>(5);
 		types.add(UidiagramElementTypes.Switch_3017);
+		types.add(UidiagramElementTypes.Switch_3079);
 		types.add(UidiagramElementTypes.Switch_3034);
 		types.add(UidiagramElementTypes.Switch_3046);
 		types.add(UidiagramElementTypes.Switch_3060);
@@ -294,10 +307,11 @@ public class UidiagramPaletteFactory {
 	* @generated
 	*/
 	private ToolEntry createTabbar15CreationTool() {
-		ArrayList<IElementType> types = new ArrayList<IElementType>(4);
+		ArrayList<IElementType> types = new ArrayList<IElementType>(5);
 		types.add(UidiagramElementTypes.Tabbar_3008);
-		types.add(UidiagramElementTypes.Tabbar_3025);
 		types.add(UidiagramElementTypes.Tabbar_3037);
+		types.add(UidiagramElementTypes.Tabbar_3025);
+		types.add(UidiagramElementTypes.Tabbar_3070);
 		types.add(UidiagramElementTypes.Tabbar_3051);
 		DefaultNodeToolEntry entry = new DefaultNodeToolEntry(Messages.Tabbar15CreationTool_title,
 				Messages.Tabbar15CreationTool_desc, types);
@@ -311,8 +325,9 @@ public class UidiagramPaletteFactory {
 	* @generated
 	*/
 	private ToolEntry createTable16CreationTool() {
-		ArrayList<IElementType> types = new ArrayList<IElementType>(4);
+		ArrayList<IElementType> types = new ArrayList<IElementType>(5);
 		types.add(UidiagramElementTypes.Table_3018);
+		types.add(UidiagramElementTypes.Table_3080);
 		types.add(UidiagramElementTypes.Table_3035);
 		types.add(UidiagramElementTypes.Table_3047);
 		types.add(UidiagramElementTypes.Table_3061);

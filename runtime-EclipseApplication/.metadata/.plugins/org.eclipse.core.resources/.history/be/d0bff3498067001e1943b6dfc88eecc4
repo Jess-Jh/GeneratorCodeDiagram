@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:uidiagram="uidiagram" xmi:id="_xuUnwF_aEe6OQ7HI1sf8aw" type="Uidiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_J9txsF_gEe6Lx-jXltLOrA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_J9uYwF_gEe6Lx-jXltLOrA" type="5062"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_J9uYwV_gEe6Lx-jXltLOrA" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_gFPzkGYBEe66UfPlHBm_7A" type="3050" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_gFQaoGYBEe66UfPlHBm_7A" type="5050"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_gFQaoWYBEe66UfPlHBm_7A" type="7024"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_gFQaomYBEe66UfPlHBm_7A" type="7032">
+          <children xmi:type="notation:Shape" xmi:id="_NFc3sGeAEe67P6lf8HLPyQ" type="3064" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_NFdewGeAEe67P6lf8HLPyQ" type="5065"/>
+            <element xmi:type="uidiagram:Label" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.0/@listLabels.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NFc3sWeAEe67P6lf8HLPyQ" x="31"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_gFPzkWYBEe66UfPlHBm_7A"/>
+        <element xmi:type="uidiagram:Appbar" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gFPzkmYBEe66UfPlHBm_7A"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_VD-EYGY2Ee6qp5DWM7xBGQ" type="3053" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_VD_SgGY2Ee6qp5DWM7xBGQ" type="5053"/>
+        <element xmi:type="uidiagram:Label" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VD-EYWY2Ee6qp5DWM7xBGQ" x="150" y="28" width="153" height="77"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_zM_TIGZGEe64AdhAvp-HxA" type="3053" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zM_6MGZGEe64AdhAvp-HxA" type="5053"/>
+        <element xmi:type="uidiagram:Label" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zM_TIWZGEe64AdhAvp-HxA" x="66" y="136" width="137" height="37"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_9kd1gGcQEe6KE4gvn3R9OQ" type="3053" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_9kd1gmcQEe6KE4gvn3R9OQ" type="5053"/>
+        <element xmi:type="uidiagram:Label" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.3"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9kd1gWcQEe6KE4gvn3R9OQ" x="230" y="144" width="181" height="73"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_I4yC8GeAEe67P6lf8HLPyQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_I4yqAGeAEe67P6lf8HLPyQ" type="5047"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_I4yqAWeAEe67P6lf8HLPyQ" type="7002">
+          <children xmi:type="notation:Shape" xmi:id="_JaqA8GeAEe67P6lf8HLPyQ" type="3010" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_JaqA8meAEe67P6lf8HLPyQ" type="5004"/>
+            <element xmi:type="uidiagram:Label" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.4/@listTemplateWidget.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JaqA8WeAEe67P6lf8HLPyQ" x="22" y="16" width="77" height="41"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_I4yC8WeAEe67P6lf8HLPyQ"/>
+        <element xmi:type="uidiagram:Group" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.4"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I4yC8meAEe67P6lf8HLPyQ" x="282" y="8" width="153" height="113"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_J9txsV_gEe6Lx-jXltLOrA"/>
+    <element xmi:type="uidiagram:UserInterface" href="model.uidiagram#//@listDiagrams.0/@userInterface"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J9txsl_gEe6Lx-jXltLOrA" x="176" y="56" width="493" height="385"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_xuUnwV_aEe6OQ7HI1sf8aw"/>
+  <element xmi:type="uidiagram:UIDiagram" href="model.uidiagram#//@listDiagrams.0"/>
+</notation:Diagram>

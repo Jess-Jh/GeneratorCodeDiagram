@@ -17,7 +17,7 @@ import org.eclipse.emf.common.util.EList;
  * </ul>
  *
  * @see uidiagram.UidiagramPackage#getGroup()
- * @model annotation="gmf.node label='name'"
+ * @model annotation="gmf.node label='name' border.width='0'"
  * @generated
  */
 public interface Group extends TemplateWidget {
