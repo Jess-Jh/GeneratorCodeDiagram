@@ -16,7 +16,11 @@ import org.eclipse.swt.SWT;
 import org.eclipse.swt.widgets.Text;
 
 public class DialogGroupView extends Dialog {
-    private Text textName;
+	private Text textName;
+	private Text textBackgroundColor;
+	private Text textBorderRadius;
+	private Text textBorderWidth;
+	private Text textBorderColor;
     private uidiagram.Group model;
     private TransactionalEditingDomain domain;
 
@@ -40,15 +44,47 @@ public class DialogGroupView extends Dialog {
     protected Control createDialogArea(Composite parent) {
     	Composite container = (Composite) super.createDialogArea(parent);
 		GridLayout gridLayout = (GridLayout) container.getLayout();
-		gridLayout.numColumns = 2;
+		gridLayout.numColumns = 4;
 		new Label(container, SWT.NONE);
 		
 		Label lblNewLabel = new Label(container, SWT.NONE);
-		lblNewLabel.setText("Name: ");
+		lblNewLabel.setText("Name:");
 		new Label(container, SWT.NONE);
 		
 		textName = new Text(container, SWT.BORDER);
 		textName.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
+		new Label(container, SWT.NONE);
+		
+		Label lblNewLabel_2 = new Label(container, SWT.NONE);
+		lblNewLabel_2.setText("Background Color:");
+		new Label(container, SWT.NONE);
+		
+		textBackgroundColor = new Text(container, SWT.BORDER);
+		textBackgroundColor.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
+		new Label(container, SWT.NONE);
+		
+		Label lblNewLabel_1 = new Label(container, SWT.NONE);
+		lblNewLabel_1.setText("Border Radius:");
+		new Label(container, SWT.NONE);
+		
+		textBorderRadius = new Text(container, SWT.BORDER);
+		textBorderRadius.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
+		new Label(container, SWT.NONE);
+		
+		Label lblNewLabel_3 = new Label(container, SWT.NONE);
+		lblNewLabel_3.setText("Border Width:");
+		new Label(container, SWT.NONE);
+		
+		textBorderWidth = new Text(container, SWT.BORDER);
+		textBorderWidth.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
+		new Label(container, SWT.NONE);
+		
+		Label lblNewLabel_4 = new Label(container, SWT.NONE);
+		lblNewLabel_4.setText("Border Color:");
+		new Label(container, SWT.NONE);
+		
+		textBorderColor = new Text(container, SWT.BORDER);
+		textBorderColor.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
 
 		return container;
     }
@@ -97,6 +133,10 @@ public class DialogGroupView extends Dialog {
         protected void doExecute()
         {
         	group.setName(textName.getText());                
+        	group.setBackgroundColor(textBackgroundColor.getText());  
+        	group.setBorderRadius(textBorderRadius.getText());
+        	group.setBorderWidth(textBorderWidth.getText());
+        	group.setBorderColor(textBorderColor.getText());
         }
 
        

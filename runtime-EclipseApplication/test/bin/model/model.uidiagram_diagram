@@ -17,6 +17,21 @@
         <element xmi:type="uidiagram:Appbar" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.0"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gFPzkmYBEe66UfPlHBm_7A"/>
       </children>
+      <children xmi:type="notation:Shape" xmi:id="_EF1dYGsaEe6Piq7rHU-t_A" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_EF2EcGsaEe6Piq7rHU-t_A" type="5047"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_EF2EcWsaEe6Piq7rHU-t_A" type="7002">
+          <children xmi:type="notation:Shape" xmi:id="_EnIMkGsaEe6Piq7rHU-t_A" type="3002" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_EnIzoGsaEe6Piq7rHU-t_A" type="5046"/>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_EnIzoWsaEe6Piq7rHU-t_A" type="7003"/>
+            <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_EnIMkWsaEe6Piq7rHU-t_A"/>
+            <element xmi:type="uidiagram:Group" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.1/@listTemplateWidget.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EnIMkmsaEe6Piq7rHU-t_A" x="10" y="12" width="213" height="157"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_EF1dYWsaEe6Piq7rHU-t_A"/>
+        <element xmi:type="uidiagram:Group" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EF1dYmsaEe6Piq7rHU-t_A" x="162" y="56" width="265" height="193"/>
+      </children>
     </children>
     <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_J9txsV_gEe6Lx-jXltLOrA"/>
     <element xmi:type="uidiagram:UserInterface" href="model.uidiagram#//@listDiagrams.0/@userInterface"/>

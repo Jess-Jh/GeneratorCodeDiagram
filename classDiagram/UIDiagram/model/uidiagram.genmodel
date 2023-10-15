@@ -33,6 +33,9 @@
     </genClasses>
     <genClasses ecoreClass="uidiagram.ecore#//Group">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference uidiagram.ecore#//Group/listTemplateWidget"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//Group/borderRadius"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//Group/borderWidth"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//Group/borderColor"/>
     </genClasses>
     <genClasses ecoreClass="uidiagram.ecore#//GroupColumn">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference uidiagram.ecore#//GroupColumn/listTemplateWidget"/>
@@ -49,7 +52,11 @@
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference uidiagram.ecore#//Tabbar/listLabels"/>
     </genClasses>
     <genClasses ecoreClass="uidiagram.ecore#//Button"/>
-    <genClasses ecoreClass="uidiagram.ecore#//Label"/>
+    <genClasses ecoreClass="uidiagram.ecore#//Label">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//Label/fontSize"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//Label/fontColor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//Label/fontWeight"/>
+    </genClasses>
     <genClasses ecoreClass="uidiagram.ecore#//Checkbox"/>
     <genClasses ecoreClass="uidiagram.ecore#//Input"/>
     <genClasses ecoreClass="uidiagram.ecore#//ListView">

@@ -11,7 +11,9 @@ import org.eclipse.emf.common.notify.Notification;
 
 import org.eclipse.emf.ecore.EStructuralFeature;
 
+import org.eclipse.emf.edit.provider.ComposeableAdapterFactory;
 import org.eclipse.emf.edit.provider.IItemPropertyDescriptor;
+import org.eclipse.emf.edit.provider.ItemPropertyDescriptor;
 import org.eclipse.emf.edit.provider.ViewerNotification;
 
 import uidiagram.Group;
@@ -46,8 +48,77 @@ public class GroupItemProvider extends TemplateWidgetItemProvider {
 		if (itemPropertyDescriptors == null) {
 			super.getPropertyDescriptors(object);
 
+			addBorderRadiusPropertyDescriptor(object);
+			addBorderWidthPropertyDescriptor(object);
+			addBorderColorPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
+	}
+
+	/**
+	 * This adds a property descriptor for the Border Radius feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addBorderRadiusPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Group_borderRadius_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Group_borderRadius_feature", "_UI_Group_type"),
+				 UidiagramPackage.Literals.GROUP__BORDER_RADIUS,
+				 true,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Border Width feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addBorderWidthPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Group_borderWidth_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Group_borderWidth_feature", "_UI_Group_type"),
+				 UidiagramPackage.Literals.GROUP__BORDER_WIDTH,
+				 true,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Border Color feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addBorderColorPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Group_borderColor_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Group_borderColor_feature", "_UI_Group_type"),
+				 UidiagramPackage.Literals.GROUP__BORDER_COLOR,
+				 true,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 null,
+				 null));
 	}
 
 	/**
@@ -118,6 +189,11 @@ public class GroupItemProvider extends TemplateWidgetItemProvider {
 		updateChildren(notification);
 
 		switch (notification.getFeatureID(Group.class)) {
+			case UidiagramPackage.GROUP__BORDER_RADIUS:
+			case UidiagramPackage.GROUP__BORDER_WIDTH:
+			case UidiagramPackage.GROUP__BORDER_COLOR:
+				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
+				return;
 			case UidiagramPackage.GROUP__LIST_TEMPLATE_WIDGET:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 				return;

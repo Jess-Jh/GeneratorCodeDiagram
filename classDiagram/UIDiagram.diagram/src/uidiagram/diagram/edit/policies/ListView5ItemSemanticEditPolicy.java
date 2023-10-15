@@ -26,7 +26,6 @@ import uidiagram.diagram.edit.parts.GroupRow3EditPart;
 import uidiagram.diagram.edit.parts.Input4EditPart;
 import uidiagram.diagram.edit.parts.Label6EditPart;
 import uidiagram.diagram.edit.parts.ListView4EditPart;
-import uidiagram.diagram.edit.parts.ListViewListViewListTemplateWidgetCompartment5EditPart;
 import uidiagram.diagram.edit.parts.ListViewListViewTemplateWidgetCompartment5EditPart;
 import uidiagram.diagram.edit.parts.RadioButton2EditPart;
 import uidiagram.diagram.edit.parts.Switch2EditPart;

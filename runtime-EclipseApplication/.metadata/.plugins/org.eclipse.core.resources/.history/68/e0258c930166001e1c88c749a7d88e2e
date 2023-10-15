@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<uidiagram:ModelFactory xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uidiagram="uidiagram">
-  <listDiagrams name="Login">
-    <userInterface name="Login" positionX="176" positionY="56" width="493" height="385" backgroundColor="16777215">
-      <listTemplateWidget xsi:type="uidiagram:Appbar"/>
-    </userInterface>
-  </listDiagrams>
-</uidiagram:ModelFactory>

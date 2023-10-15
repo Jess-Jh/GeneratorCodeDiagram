@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.policies.OpenDatePickerEditPolicy"/>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePickerNameEditPart"/>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePickerEditPart"/>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePickerName2EditPart"/>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePicker2EditPart"/>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePickerName3EditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePicker3EditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePickerName4EditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePicker4EditPart"/>
@@ -45,7 +39,6 @@
     <fullyQualifiedTypeName name="uidiagram.UIDiagram"/>
     <fullyQualifiedTypeName name="uidiagram.ModelFactory"/>
     <fullyQualifiedTypeName name="uidiagram.TemplateWidget"/>
-    <fullyQualifiedTypeName name="uidiagram.Group"/>
     <fullyQualifiedTypeName name="uidiagram.GroupColumn"/>
     <fullyQualifiedTypeName name="uidiagram.GroupRow"/>
     <fullyQualifiedTypeName name="uidiagram.Appbar"/>
@@ -60,4 +53,11 @@
     <fullyQualifiedTypeName name="uidiagram.DatePicker"/>
     <fullyQualifiedTypeName name="uidiagram.Switch"/>
     <fullyQualifiedTypeName name="uidiagram.Table"/>
+    <fullyQualifiedTypeName name="uidiagram.Column"/>
+    <fullyQualifiedTypeName name="org.eclipse.emf.ecore.resource.impl.ResourceSetImpl"/>
+    <fullyQualifiedTypeName name="org.eclipse.emf.ecore.resource.ResourceSet"/>
+    <fullyQualifiedTypeName name="org.eclipse.emf.ecore.xmi.impl.XMIResourceFactoryImpl"/>
+    <fullyQualifiedTypeName name="uidiagram.Group"/>
+    <fullyQualifiedTypeName name="uidiagram.diagram.edit.helpers.ModelFactoryEditHelper"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.widgets.Combo"/>
 </qualifiedTypeNameHistroy>

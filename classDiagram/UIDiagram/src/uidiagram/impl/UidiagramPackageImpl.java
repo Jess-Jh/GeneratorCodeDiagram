@@ -486,6 +486,36 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 	 * @generated
 	 */
 	@Override
+	public EAttribute getGroup_BorderRadius() {
+		return (EAttribute)groupEClass.getEStructuralFeatures().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EAttribute getGroup_BorderWidth() {
+		return (EAttribute)groupEClass.getEStructuralFeatures().get(2);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EAttribute getGroup_BorderColor() {
+		return (EAttribute)groupEClass.getEStructuralFeatures().get(3);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public EClass getGroupColumn() {
 		return groupColumnEClass;
 	}
@@ -598,6 +628,36 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 	@Override
 	public EClass getLabel() {
 		return labelEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EAttribute getLabel_FontSize() {
+		return (EAttribute)labelEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EAttribute getLabel_FontColor() {
+		return (EAttribute)labelEClass.getEStructuralFeatures().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EAttribute getLabel_FontWeight() {
+		return (EAttribute)labelEClass.getEStructuralFeatures().get(2);
 	}
 
 	/**
@@ -777,6 +837,9 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 
 		groupEClass = createEClass(GROUP);
 		createEReference(groupEClass, GROUP__LIST_TEMPLATE_WIDGET);
+		createEAttribute(groupEClass, GROUP__BORDER_RADIUS);
+		createEAttribute(groupEClass, GROUP__BORDER_WIDTH);
+		createEAttribute(groupEClass, GROUP__BORDER_COLOR);
 
 		groupColumnEClass = createEClass(GROUP_COLUMN);
 		createEReference(groupColumnEClass, GROUP_COLUMN__LIST_TEMPLATE_WIDGET);
@@ -795,6 +858,9 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		buttonEClass = createEClass(BUTTON);
 
 		labelEClass = createEClass(LABEL);
+		createEAttribute(labelEClass, LABEL__FONT_SIZE);
+		createEAttribute(labelEClass, LABEL__FONT_COLOR);
+		createEAttribute(labelEClass, LABEL__FONT_WEIGHT);
 
 		checkboxEClass = createEClass(CHECKBOX);
 
@@ -891,6 +957,9 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 
 		initEClass(groupEClass, Group.class, "Group", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getGroup_ListTemplateWidget(), this.getTemplateWidget(), null, "listTemplateWidget", null, 0, -1, Group.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getGroup_BorderRadius(), ecorePackage.getEString(), "borderRadius", null, 0, 1, Group.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getGroup_BorderWidth(), ecorePackage.getEString(), "borderWidth", null, 0, 1, Group.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getGroup_BorderColor(), ecorePackage.getEString(), "borderColor", null, 0, 1, Group.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(groupColumnEClass, GroupColumn.class, "GroupColumn", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getGroupColumn_ListTemplateWidget(), this.getTemplateWidget(), null, "listTemplateWidget", null, 0, -1, GroupColumn.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
@@ -909,6 +978,9 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		initEClass(buttonEClass, Button.class, "Button", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
 		initEClass(labelEClass, Label.class, "Label", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getLabel_FontSize(), ecorePackage.getEString(), "fontSize", null, 0, 1, Label.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getLabel_FontColor(), ecorePackage.getEString(), "fontColor", null, 0, 1, Label.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getLabel_FontWeight(), ecorePackage.getEString(), "fontWeight", null, 0, 1, Label.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(checkboxEClass, Checkbox.class, "Checkbox", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 

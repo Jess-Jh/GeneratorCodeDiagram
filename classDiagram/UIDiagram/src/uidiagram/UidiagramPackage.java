@@ -377,13 +377,40 @@ public interface UidiagramPackage extends EPackage {
 	int GROUP__LIST_TEMPLATE_WIDGET = TEMPLATE_WIDGET_FEATURE_COUNT + 0;
 
 	/**
+	 * The feature id for the '<em><b>Border Radius</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int GROUP__BORDER_RADIUS = TEMPLATE_WIDGET_FEATURE_COUNT + 1;
+
+	/**
+	 * The feature id for the '<em><b>Border Width</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int GROUP__BORDER_WIDTH = TEMPLATE_WIDGET_FEATURE_COUNT + 2;
+
+	/**
+	 * The feature id for the '<em><b>Border Color</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int GROUP__BORDER_COLOR = TEMPLATE_WIDGET_FEATURE_COUNT + 3;
+
+	/**
 	 * The number of structural features of the '<em>Group</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int GROUP_FEATURE_COUNT = TEMPLATE_WIDGET_FEATURE_COUNT + 1;
+	int GROUP_FEATURE_COUNT = TEMPLATE_WIDGET_FEATURE_COUNT + 4;
 
 	/**
 	 * The meta object id for the '{@link uidiagram.impl.GroupColumnImpl <em>Group Column</em>}' class.
@@ -923,13 +950,40 @@ public interface UidiagramPackage extends EPackage {
 	int LABEL__BACKGROUND_COLOR = TEMPLATE_WIDGET__BACKGROUND_COLOR;
 
 	/**
+	 * The feature id for the '<em><b>Font Size</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int LABEL__FONT_SIZE = TEMPLATE_WIDGET_FEATURE_COUNT + 0;
+
+	/**
+	 * The feature id for the '<em><b>Font Color</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int LABEL__FONT_COLOR = TEMPLATE_WIDGET_FEATURE_COUNT + 1;
+
+	/**
+	 * The feature id for the '<em><b>Font Weight</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int LABEL__FONT_WEIGHT = TEMPLATE_WIDGET_FEATURE_COUNT + 2;
+
+	/**
 	 * The number of structural features of the '<em>Label</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int LABEL_FEATURE_COUNT = TEMPLATE_WIDGET_FEATURE_COUNT + 0;
+	int LABEL_FEATURE_COUNT = TEMPLATE_WIDGET_FEATURE_COUNT + 3;
 
 	/**
 	 * The meta object id for the '{@link uidiagram.impl.CheckboxImpl <em>Checkbox</em>}' class.
@@ -1894,6 +1948,39 @@ public interface UidiagramPackage extends EPackage {
 	EReference getGroup_ListTemplateWidget();
 
 	/**
+	 * Returns the meta object for the attribute '{@link uidiagram.Group#getBorderRadius <em>Border Radius</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Border Radius</em>'.
+	 * @see uidiagram.Group#getBorderRadius()
+	 * @see #getGroup()
+	 * @generated
+	 */
+	EAttribute getGroup_BorderRadius();
+
+	/**
+	 * Returns the meta object for the attribute '{@link uidiagram.Group#getBorderWidth <em>Border Width</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Border Width</em>'.
+	 * @see uidiagram.Group#getBorderWidth()
+	 * @see #getGroup()
+	 * @generated
+	 */
+	EAttribute getGroup_BorderWidth();
+
+	/**
+	 * Returns the meta object for the attribute '{@link uidiagram.Group#getBorderColor <em>Border Color</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Border Color</em>'.
+	 * @see uidiagram.Group#getBorderColor()
+	 * @see #getGroup()
+	 * @generated
+	 */
+	EAttribute getGroup_BorderColor();
+
+	/**
 	 * Returns the meta object for class '{@link uidiagram.GroupColumn <em>Group Column</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -2018,6 +2105,39 @@ public interface UidiagramPackage extends EPackage {
 	 * @generated
 	 */
 	EClass getLabel();
+
+	/**
+	 * Returns the meta object for the attribute '{@link uidiagram.Label#getFontSize <em>Font Size</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Font Size</em>'.
+	 * @see uidiagram.Label#getFontSize()
+	 * @see #getLabel()
+	 * @generated
+	 */
+	EAttribute getLabel_FontSize();
+
+	/**
+	 * Returns the meta object for the attribute '{@link uidiagram.Label#getFontColor <em>Font Color</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Font Color</em>'.
+	 * @see uidiagram.Label#getFontColor()
+	 * @see #getLabel()
+	 * @generated
+	 */
+	EAttribute getLabel_FontColor();
+
+	/**
+	 * Returns the meta object for the attribute '{@link uidiagram.Label#getFontWeight <em>Font Weight</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Font Weight</em>'.
+	 * @see uidiagram.Label#getFontWeight()
+	 * @see #getLabel()
+	 * @generated
+	 */
+	EAttribute getLabel_FontWeight();
 
 	/**
 	 * Returns the meta object for class '{@link uidiagram.Checkbox <em>Checkbox</em>}'.
@@ -2367,6 +2487,30 @@ public interface UidiagramPackage extends EPackage {
 		EReference GROUP__LIST_TEMPLATE_WIDGET = eINSTANCE.getGroup_ListTemplateWidget();
 
 		/**
+		 * The meta object literal for the '<em><b>Border Radius</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute GROUP__BORDER_RADIUS = eINSTANCE.getGroup_BorderRadius();
+
+		/**
+		 * The meta object literal for the '<em><b>Border Width</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute GROUP__BORDER_WIDTH = eINSTANCE.getGroup_BorderWidth();
+
+		/**
+		 * The meta object literal for the '<em><b>Border Color</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute GROUP__BORDER_COLOR = eINSTANCE.getGroup_BorderColor();
+
+		/**
 		 * The meta object literal for the '{@link uidiagram.impl.GroupColumnImpl <em>Group Column</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -2473,6 +2617,30 @@ public interface UidiagramPackage extends EPackage {
 		 * @generated
 		 */
 		EClass LABEL = eINSTANCE.getLabel();
+
+		/**
+		 * The meta object literal for the '<em><b>Font Size</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute LABEL__FONT_SIZE = eINSTANCE.getLabel_FontSize();
+
+		/**
+		 * The meta object literal for the '<em><b>Font Color</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute LABEL__FONT_COLOR = eINSTANCE.getLabel_FontColor();
+
+		/**
+		 * The meta object literal for the '<em><b>Font Weight</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute LABEL__FONT_WEIGHT = eINSTANCE.getLabel_FontWeight();
 
 		/**
 		 * The meta object literal for the '{@link uidiagram.impl.CheckboxImpl <em>Checkbox</em>}' class.

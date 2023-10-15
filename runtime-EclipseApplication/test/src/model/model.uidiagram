@@ -5,6 +5,9 @@
       <listTemplateWidget xsi:type="uidiagram:Appbar" backgroundColor="16777215">
         <listLabels name="" positionX="31" width="650.0" backgroundColor="16777215"/>
       </listTemplateWidget>
+      <listTemplateWidget xsi:type="uidiagram:Group" idTemplate="1697347018301_8" positionX="162" positionY="56" width="265.0" height="193.0" backgroundColor="16777215">
+        <listTemplateWidget xsi:type="uidiagram:Group" idTemplate="1697347021798_25" name="" positionX="10" positionY="12" width="213.0" height="157.0" backgroundColor="445646" borderRadius="" borderWidth="" borderColor="23423"/>
+      </listTemplateWidget>
     </userInterface>
   </listDiagrams>
 </uidiagram:ModelFactory>

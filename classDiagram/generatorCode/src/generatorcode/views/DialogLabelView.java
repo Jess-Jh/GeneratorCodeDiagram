@@ -8,6 +8,7 @@ import org.eclipse.jface.dialogs.IDialogConstants;
 import org.eclipse.swt.graphics.Point;
 import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.layout.GridLayout;
+import org.eclipse.swt.widgets.Combo;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Control;
 import org.eclipse.swt.widgets.Label;
@@ -17,6 +18,10 @@ import org.eclipse.swt.widgets.Text;
 
 public class DialogLabelView extends Dialog {
     private Text textName;
+	private Text textFontSize;
+	private Text textColor;
+	private Text textFontWeight;
+	private Combo comboFontWeight;
     private uidiagram.Label model;
     private TransactionalEditingDomain domain;
 
@@ -40,16 +45,52 @@ public class DialogLabelView extends Dialog {
     protected Control createDialogArea(Composite parent) {
     	Composite container = (Composite) super.createDialogArea(parent);
 		GridLayout gridLayout = (GridLayout) container.getLayout();
-		gridLayout.numColumns = 2;
+		gridLayout.numColumns = 4;
 		new Label(container, SWT.NONE);
 		
-		Label lblNewLabel = new Label(container, SWT.NONE);
-		lblNewLabel.setText("Name: ");
+		Label lblName = new Label(container, SWT.NONE);
+		lblName.setText("Name:");
 		new Label(container, SWT.NONE);
 		
 		textName = new Text(container, SWT.BORDER);
 		textName.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
-
+		new Label(container, SWT.NONE);
+		
+		Label lblFontSize = new Label(container, SWT.NONE);
+		lblFontSize.setText("Font Size:");
+		new Label(container, SWT.NONE);
+		
+		textFontSize = new Text(container, SWT.BORDER);
+		textFontSize.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
+		new Label(container, SWT.NONE);
+		
+		Label lblColor = new Label(container, SWT.NONE);
+		lblColor.setText("Color:");
+		new Label(container, SWT.NONE);
+		
+		textColor = new Text(container, SWT.BORDER);
+		textColor.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
+		new Label(container, SWT.NONE);
+		
+		Label lblFontWeight = new Label(container, SWT.NONE);
+		lblFontWeight.setText("Font Weight:");
+		new Label(container, SWT.NONE);
+		
+		comboFontWeight = new Combo(container, SWT.NONE);
+		comboFontWeight.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
+		comboFontWeight.add("bold");
+		comboFontWeight.add("normal");
+		comboFontWeight.add("w100");
+		comboFontWeight.add("w200");
+		comboFontWeight.add("w300");
+		comboFontWeight.add("w400");
+		comboFontWeight.add("w500");
+		comboFontWeight.add("w600");
+		comboFontWeight.add("w700");
+		comboFontWeight.add("w800");
+		comboFontWeight.add("w900");
+		
+	
 		return container;
     }
 
@@ -94,9 +135,12 @@ public class DialogLabelView extends Dialog {
             this.label = label;
         }
         @Override
-        protected void doExecute()
-        {
-        	label.setName(textName.getText());                
+        protected void doExecute() {
+        	
+        	if(textName != null) label.setName(textName.getText()); 
+        	if(textFontSize != null) label.setFontSize(textFontSize.getText());
+        	if(textColor != null) label.setFontColor(textColor.getText());
+        	if(textFontWeight != null) label.setFontWeight(comboFontWeight.getText());
         }
 
        
