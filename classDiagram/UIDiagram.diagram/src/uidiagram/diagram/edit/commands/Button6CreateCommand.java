@@ -48,6 +48,10 @@ public class Button6CreateCommand extends EditElementCommand {
 	* @generated
 	*/
 	public boolean canExecute() {
+		ListView container = (ListView) getElementToEdit();
+		if (container.getTemplateWidget() != null) {
+			return false;
+		}
 		return true;
 
 	}
@@ -59,7 +63,7 @@ public class Button6CreateCommand extends EditElementCommand {
 		Button newElement = UidiagramFactory.eINSTANCE.createButton();
 
 		ListView owner = (ListView) getElementToEdit();
-		owner.getListTemplateWidget().add(newElement);
+		owner.setTemplateWidget(newElement);
 
 		doConfigure(newElement, monitor, info);
 

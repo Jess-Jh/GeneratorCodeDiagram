@@ -6102,3 +6102,2455 @@ Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/
 !MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
 !SUBENTRY 1 org.eclipse.ui 2 0 2023-10-11 16:39:38.507
 !MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-12 22:04:11.869 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-12 22:04:20.431
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-12 22:04:20.431
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+
+!ENTRY org.eclipse.urischeme 4 0 2023-10-12 22:04:22.549
+!MESSAGE file:/Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/Contents/Info.plist
+!STACK 0
+java.nio.file.NoSuchFileException: file:/Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/Contents/Info.plist
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:156)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2839)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2871)
+	at org.eclipse.urischeme.internal.registration.FileProvider.newReader(FileProvider.java:45)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.getPlistFileWriter(RegistrationMacOsX.java:122)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.changePlistFile(RegistrationMacOsX.java:139)
+	at org.eclipse.urischeme.internal.registration.RegistrationMacOsX.handleSchemes(RegistrationMacOsX.java:55)
+	at org.eclipse.urischeme.AutoRegisterSchemeHandlersJob.run(AutoRegisterSchemeHandlersJob.java:94)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2023-10-12 22:04:53.100 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-12 22:04:58.025
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-12 22:04:58.025
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-13 20:35:06.223 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 20:35:14.218
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 20:35:14.218
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-13 20:59:12.270 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 20:59:17.327
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 20:59:17.327
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-13 21:17:49.424 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 21:17:53.147
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 21:17:53.147
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-13 21:18:21.186 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 21:18:26.114
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 21:18:26.114
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-13 21:19:05.798 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 21:19:09.318
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 21:19:09.318
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-13 21:20:12.156 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 21:20:15.690
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 21:20:15.690
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-13 21:22:53.856 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 21:22:58.318
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 21:22:58.318
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-13 21:25:13.953 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 21:25:17.442
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 21:25:17.442
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-13 21:26:01.416 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 21:26:04.898
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 21:26:04.898
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 21:26:20.206
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gef.tools.DirectEditManager.placeCellEditor(DirectEditManager.java:347)
+	at org.eclipse.gef.tools.DirectEditManager.access$1(DirectEditManager.java:346)
+	at org.eclipse.gef.tools.DirectEditManager$1.ancestorMoved(DirectEditManager.java:269)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:188)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SESSION 2023-10-13 21:32:50.474 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 21:32:53.947
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 21:32:53.948
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 21:33:52.901
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gef.tools.DirectEditManager.placeCellEditor(DirectEditManager.java:347)
+	at org.eclipse.gef.tools.DirectEditManager.access$1(DirectEditManager.java:346)
+	at org.eclipse.gef.tools.DirectEditManager$1.ancestorMoved(DirectEditManager.java:269)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:188)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SESSION 2023-10-13 21:36:32.454 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 21:36:36.138
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 21:36:36.138
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 21:37:03.057
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gef.tools.DirectEditManager.placeCellEditor(DirectEditManager.java:347)
+	at org.eclipse.gef.tools.DirectEditManager.access$1(DirectEditManager.java:346)
+	at org.eclipse.gef.tools.DirectEditManager$1.ancestorMoved(DirectEditManager.java:269)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:188)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SESSION 2023-10-13 21:40:00.889 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 21:40:04.411
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 21:40:04.411
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 21:40:43.056
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gef.tools.DirectEditManager.placeCellEditor(DirectEditManager.java:347)
+	at org.eclipse.gef.tools.DirectEditManager.access$1(DirectEditManager.java:346)
+	at org.eclipse.gef.tools.DirectEditManager$1.ancestorMoved(DirectEditManager.java:269)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:188)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SESSION 2023-10-13 21:41:40.565 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 21:41:44.184
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 21:41:44.184
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 21:42:11.189
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gef.tools.DirectEditManager.placeCellEditor(DirectEditManager.java:347)
+	at org.eclipse.gef.tools.DirectEditManager.access$1(DirectEditManager.java:346)
+	at org.eclipse.gef.tools.DirectEditManager$1.ancestorMoved(DirectEditManager.java:269)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:188)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SESSION 2023-10-13 21:46:50.556 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 21:46:54.341
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 21:46:54.341
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 21:47:19.281
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.DirectEditManagerBase$5.ancestorMoved(DirectEditManagerBase.java:508)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.text.FlowFigure.setBounds(FlowFigure.java:172)
+	at org.eclipse.draw2d.text.InlineFlow.postValidate(InlineFlow.java:169)
+	at org.eclipse.draw2d.text.BlockFlowLayout.endBlock(BlockFlowLayout.java:149)
+	at org.eclipse.draw2d.text.BlockFlowLayout.flush(BlockFlowLayout.java:168)
+	at org.eclipse.draw2d.text.FlowContainerLayout.layout(FlowContainerLayout.java:101)
+	at org.eclipse.draw2d.text.FlowFigureLayout.layout(FlowFigureLayout.java:111)
+	at org.eclipse.draw2d.Figure.layout(Figure.java:1096)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.text.BlockFlow.validate(BlockFlow.java:314)
+	at org.eclipse.draw2d.text.FlowPage.validate(FlowPage.java:150)
+	at org.eclipse.draw2d.text.FlowPage.getPreferredSize(FlowPage.java:85)
+	at org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel.getPreferredSize(WrappingLabel.java:973)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:800)
+	at org.eclipse.gmf.runtime.draw2d.ui.internal.figures.DelegatingLayout.layout(DelegatingLayout.java:41)
+	at org.eclipse.draw2d.Figure.layout(Figure.java:1096)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:179)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SESSION 2023-10-13 21:48:46.520 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 21:48:51.273
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 21:48:51.273
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-13 21:52:09.047 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 21:52:12.849
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 21:52:12.849
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 21:52:52.192
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.DirectEditManagerBase$5.ancestorMoved(DirectEditManagerBase.java:508)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.text.FlowFigure.setBounds(FlowFigure.java:172)
+	at org.eclipse.draw2d.text.InlineFlow.postValidate(InlineFlow.java:169)
+	at org.eclipse.draw2d.text.BlockFlowLayout.endBlock(BlockFlowLayout.java:149)
+	at org.eclipse.draw2d.text.BlockFlowLayout.flush(BlockFlowLayout.java:168)
+	at org.eclipse.draw2d.text.FlowContainerLayout.layout(FlowContainerLayout.java:101)
+	at org.eclipse.draw2d.text.FlowFigureLayout.layout(FlowFigureLayout.java:111)
+	at org.eclipse.draw2d.Figure.layout(Figure.java:1096)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.text.BlockFlow.validate(BlockFlow.java:314)
+	at org.eclipse.draw2d.text.FlowPage.validate(FlowPage.java:150)
+	at org.eclipse.draw2d.text.FlowPage.getPreferredSize(FlowPage.java:85)
+	at org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel.getPreferredSize(WrappingLabel.java:973)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:800)
+	at org.eclipse.gmf.runtime.draw2d.ui.internal.figures.DelegatingLayout.layout(DelegatingLayout.java:41)
+	at org.eclipse.draw2d.Figure.layout(Figure.java:1096)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:179)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 21:53:03.461
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gef.tools.DirectEditManager.placeCellEditor(DirectEditManager.java:347)
+	at org.eclipse.gef.tools.DirectEditManager.access$1(DirectEditManager.java:346)
+	at org.eclipse.gef.tools.DirectEditManager$1.ancestorMoved(DirectEditManager.java:269)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:188)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SESSION 2023-10-13 21:54:23.179 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 21:54:26.321
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 21:54:26.321
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 21:54:47.844
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gef.tools.DirectEditManager.placeCellEditor(DirectEditManager.java:347)
+	at org.eclipse.gef.tools.DirectEditManager.access$1(DirectEditManager.java:346)
+	at org.eclipse.gef.tools.DirectEditManager$1.ancestorMoved(DirectEditManager.java:269)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:188)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 21:54:55.961
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gef.tools.DirectEditManager.placeCellEditor(DirectEditManager.java:347)
+	at org.eclipse.gef.tools.DirectEditManager.access$1(DirectEditManager.java:346)
+	at org.eclipse.gef.tools.DirectEditManager$1.ancestorMoved(DirectEditManager.java:269)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:188)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.performUpdate(DeferredUpdateManager.java:193)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performUpdate(DiagramGraphicalViewer.java:107)
+	at org.eclipse.draw2d.DeferredUpdateManager$UpdateRequest.run(DeferredUpdateManager.java:44)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4306)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3929)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 21:54:57.222
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gef.tools.DirectEditManager.placeCellEditor(DirectEditManager.java:347)
+	at org.eclipse.gef.tools.DirectEditManager.access$1(DirectEditManager.java:346)
+	at org.eclipse.gef.tools.DirectEditManager$1.ancestorMoved(DirectEditManager.java:269)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:188)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 21:54:58.104
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gef.tools.DirectEditManager.placeCellEditor(DirectEditManager.java:347)
+	at org.eclipse.gef.tools.DirectEditManager.access$1(DirectEditManager.java:346)
+	at org.eclipse.gef.tools.DirectEditManager$1.ancestorMoved(DirectEditManager.java:269)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:188)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 21:54:59.035
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gef.tools.DirectEditManager.placeCellEditor(DirectEditManager.java:347)
+	at org.eclipse.gef.tools.DirectEditManager.access$1(DirectEditManager.java:346)
+	at org.eclipse.gef.tools.DirectEditManager$1.ancestorMoved(DirectEditManager.java:269)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:188)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 21:55:04.611
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gef.tools.DirectEditManager.placeCellEditor(DirectEditManager.java:347)
+	at org.eclipse.gef.tools.DirectEditManager.access$1(DirectEditManager.java:346)
+	at org.eclipse.gef.tools.DirectEditManager$1.ancestorMoved(DirectEditManager.java:269)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:188)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SESSION 2023-10-13 21:59:32.303 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 21:59:36.712
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 21:59:36.712
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 22:01:09.156
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gef.tools.DirectEditManager.placeCellEditor(DirectEditManager.java:347)
+	at org.eclipse.gef.tools.DirectEditManager.access$1(DirectEditManager.java:346)
+	at org.eclipse.gef.tools.DirectEditManager$1.ancestorMoved(DirectEditManager.java:269)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.Figure.setBounds(Figure.java:1524)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:122)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 22:01:38.959
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.DirectEditManagerBase$5.ancestorMoved(DirectEditManagerBase.java:508)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.text.FlowFigure.setBounds(FlowFigure.java:172)
+	at org.eclipse.draw2d.text.InlineFlow.postValidate(InlineFlow.java:169)
+	at org.eclipse.draw2d.text.BlockFlowLayout.endBlock(BlockFlowLayout.java:149)
+	at org.eclipse.draw2d.text.BlockFlowLayout.flush(BlockFlowLayout.java:168)
+	at org.eclipse.draw2d.text.FlowContainerLayout.layout(FlowContainerLayout.java:101)
+	at org.eclipse.draw2d.text.FlowFigureLayout.layout(FlowFigureLayout.java:111)
+	at org.eclipse.draw2d.Figure.layout(Figure.java:1096)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.text.BlockFlow.validate(BlockFlow.java:314)
+	at org.eclipse.draw2d.text.FlowPage.validate(FlowPage.java:150)
+	at org.eclipse.draw2d.text.FlowPage.getPreferredSize(FlowPage.java:85)
+	at org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel.getPreferredSize(WrappingLabel.java:973)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:800)
+	at org.eclipse.gmf.runtime.draw2d.ui.internal.figures.DelegatingLayout.layout(DelegatingLayout.java:41)
+	at org.eclipse.draw2d.Figure.layout(Figure.java:1096)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:179)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SESSION 2023-10-13 22:02:50.272 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 22:02:54.179
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 22:02:54.179
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 22:03:10.544
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.DirectEditManagerBase$5.ancestorMoved(DirectEditManagerBase.java:508)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.text.FlowFigure.setBounds(FlowFigure.java:172)
+	at org.eclipse.draw2d.text.InlineFlow.postValidate(InlineFlow.java:169)
+	at org.eclipse.draw2d.text.BlockFlowLayout.endBlock(BlockFlowLayout.java:149)
+	at org.eclipse.draw2d.text.BlockFlowLayout.flush(BlockFlowLayout.java:168)
+	at org.eclipse.draw2d.text.FlowContainerLayout.layout(FlowContainerLayout.java:101)
+	at org.eclipse.draw2d.text.FlowFigureLayout.layout(FlowFigureLayout.java:111)
+	at org.eclipse.draw2d.Figure.layout(Figure.java:1096)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.text.BlockFlow.validate(BlockFlow.java:314)
+	at org.eclipse.draw2d.text.FlowPage.validate(FlowPage.java:150)
+	at org.eclipse.draw2d.text.FlowPage.getPreferredSize(FlowPage.java:85)
+	at org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel.getPreferredSize(WrappingLabel.java:973)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:800)
+	at org.eclipse.gmf.runtime.draw2d.ui.internal.figures.DelegatingLayout.layout(DelegatingLayout.java:41)
+	at org.eclipse.draw2d.Figure.layout(Figure.java:1096)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:179)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 22:03:49.193
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.DirectEditManagerBase$5.ancestorMoved(DirectEditManagerBase.java:508)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.text.FlowFigure.setBounds(FlowFigure.java:172)
+	at org.eclipse.draw2d.text.InlineFlow.postValidate(InlineFlow.java:169)
+	at org.eclipse.draw2d.text.BlockFlowLayout.endBlock(BlockFlowLayout.java:149)
+	at org.eclipse.draw2d.text.BlockFlowLayout.flush(BlockFlowLayout.java:168)
+	at org.eclipse.draw2d.text.FlowContainerLayout.layout(FlowContainerLayout.java:101)
+	at org.eclipse.draw2d.text.FlowFigureLayout.layout(FlowFigureLayout.java:111)
+	at org.eclipse.draw2d.Figure.layout(Figure.java:1096)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.text.BlockFlow.validate(BlockFlow.java:314)
+	at org.eclipse.draw2d.text.FlowPage.validate(FlowPage.java:150)
+	at org.eclipse.draw2d.text.FlowPage.getPreferredSize(FlowPage.java:85)
+	at org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel.getPreferredSize(WrappingLabel.java:973)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:800)
+	at org.eclipse.gmf.runtime.draw2d.ui.internal.figures.DelegatingLayout.layout(DelegatingLayout.java:41)
+	at org.eclipse.draw2d.Figure.layout(Figure.java:1096)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:179)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 22:04:15.922
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gef.tools.DirectEditManager.placeCellEditor(DirectEditManager.java:347)
+	at org.eclipse.gef.tools.DirectEditManager.access$1(DirectEditManager.java:346)
+	at org.eclipse.gef.tools.DirectEditManager$1.ancestorMoved(DirectEditManager.java:269)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:188)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SESSION 2023-10-13 22:08:21.972 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 22:08:25.801
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 22:08:25.801
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 22:09:07.537
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gef.tools.DirectEditManager.placeCellEditor(DirectEditManager.java:347)
+	at org.eclipse.gef.tools.DirectEditManager.access$1(DirectEditManager.java:346)
+	at org.eclipse.gef.tools.DirectEditManager$1.ancestorMoved(DirectEditManager.java:269)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:188)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SESSION 2023-10-13 22:35:37.883 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 22:35:41.263
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 22:35:41.263
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 22:35:57.128
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.DirectEditManagerBase$5.ancestorMoved(DirectEditManagerBase.java:508)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.text.FlowFigure.setBounds(FlowFigure.java:172)
+	at org.eclipse.draw2d.text.InlineFlow.postValidate(InlineFlow.java:169)
+	at org.eclipse.draw2d.text.BlockFlowLayout.endBlock(BlockFlowLayout.java:149)
+	at org.eclipse.draw2d.text.BlockFlowLayout.flush(BlockFlowLayout.java:168)
+	at org.eclipse.draw2d.text.FlowContainerLayout.layout(FlowContainerLayout.java:101)
+	at org.eclipse.draw2d.text.FlowFigureLayout.layout(FlowFigureLayout.java:111)
+	at org.eclipse.draw2d.Figure.layout(Figure.java:1096)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.text.BlockFlow.validate(BlockFlow.java:314)
+	at org.eclipse.draw2d.text.FlowPage.validate(FlowPage.java:150)
+	at org.eclipse.draw2d.text.FlowPage.getPreferredSize(FlowPage.java:85)
+	at org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel.getPreferredSize(WrappingLabel.java:973)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:800)
+	at org.eclipse.gmf.runtime.draw2d.ui.internal.figures.DelegatingLayout.layout(DelegatingLayout.java:41)
+	at org.eclipse.draw2d.Figure.layout(Figure.java:1096)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:179)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 22:36:25.763
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gef.tools.DirectEditManager.placeCellEditor(DirectEditManager.java:347)
+	at org.eclipse.gef.tools.DirectEditManager.access$1(DirectEditManager.java:346)
+	at org.eclipse.gef.tools.DirectEditManager$1.ancestorMoved(DirectEditManager.java:269)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:188)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 22:36:39.623
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gef.tools.DirectEditManager.placeCellEditor(DirectEditManager.java:347)
+	at org.eclipse.gef.tools.DirectEditManager.access$1(DirectEditManager.java:346)
+	at org.eclipse.gef.tools.DirectEditManager$1.ancestorMoved(DirectEditManager.java:269)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:188)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SESSION 2023-10-13 22:41:16.303 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 22:41:19.716
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 22:41:19.716
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-13 22:42:35.176 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 22:42:38.847
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 22:42:38.847
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 22:45:48.211
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gef.tools.DirectEditManager.placeCellEditor(DirectEditManager.java:347)
+	at org.eclipse.gef.tools.DirectEditManager.access$1(DirectEditManager.java:346)
+	at org.eclipse.gef.tools.DirectEditManager$1.ancestorMoved(DirectEditManager.java:269)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.PolylineConnection.layout(PolylineConnection.java:188)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SESSION 2023-10-13 22:46:56.629 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 22:47:00.164
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 22:47:00.164
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+
+!ENTRY org.eclipse.ui 4 0 2023-10-13 22:47:49.954
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4888)
+	at org.eclipse.swt.SWT.error(SWT.java:4822)
+	at org.eclipse.swt.SWT.error(SWT.java:4793)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3545)
+	at org.eclipse.draw2d.FigureUtilities.setFont(FigureUtilities.java:363)
+	at org.eclipse.draw2d.FigureUtilities.getFontMetrics(FigureUtilities.java:59)
+	at org.eclipse.gmf.tooling.runtime.directedit.locator.TextCellEditorLocator.relocate(TextCellEditorLocator.java:31)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.DirectEditManagerBase$5.ancestorMoved(DirectEditManagerBase.java:508)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(AncestorHelper.java:104)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(AncestorHelper.java:91)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Figure.java:496)
+	at org.eclipse.draw2d.text.FlowFigure.setBounds(FlowFigure.java:172)
+	at org.eclipse.draw2d.text.InlineFlow.postValidate(InlineFlow.java:169)
+	at org.eclipse.draw2d.text.BlockFlowLayout.endBlock(BlockFlowLayout.java:149)
+	at org.eclipse.draw2d.text.BlockFlowLayout.flush(BlockFlowLayout.java:168)
+	at org.eclipse.draw2d.text.FlowContainerLayout.layout(FlowContainerLayout.java:101)
+	at org.eclipse.draw2d.text.FlowFigureLayout.layout(FlowFigureLayout.java:111)
+	at org.eclipse.draw2d.Figure.layout(Figure.java:1096)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.text.BlockFlow.validate(BlockFlow.java:314)
+	at org.eclipse.draw2d.text.FlowPage.validate(FlowPage.java:150)
+	at org.eclipse.draw2d.text.FlowPage.getPreferredSize(FlowPage.java:85)
+	at org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel.getPreferredSize(WrappingLabel.java:952)
+	at org.eclipse.gmf.runtime.draw2d.ui.figures.ConstrainedToolbarLayout.layout(ConstrainedToolbarLayout.java:204)
+	at org.eclipse.draw2d.Figure.layout(Figure.java:1096)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.gmf.runtime.diagram.ui.figures.BorderItemsAwareFreeFormLayer.validate(BorderItemsAwareFreeFormLayer.java:184)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.gmf.runtime.draw2d.ui.internal.figures.OverlayScrollPaneLayout.calculatePreferredSize(OverlayScrollPaneLayout.java:46)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.gmf.runtime.draw2d.ui.internal.figures.AnimatableScrollPane.getPreferredSize(AnimatableScrollPane.java:107)
+	at org.eclipse.gmf.runtime.draw2d.ui.figures.ConstrainedToolbarLayout.calculateChildrenSize(ConstrainedToolbarLayout.java:389)
+	at org.eclipse.gmf.runtime.draw2d.ui.figures.ConstrainedToolbarLayout.calculatePreferredSize(ConstrainedToolbarLayout.java:97)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.gmf.runtime.diagram.ui.figures.ResizableCompartmentFigure.getPreferredSize(ResizableCompartmentFigure.java:369)
+	at org.eclipse.gmf.runtime.draw2d.ui.figures.ConstrainedToolbarLayout.calculateChildrenSize(ConstrainedToolbarLayout.java:389)
+	at org.eclipse.gmf.runtime.draw2d.ui.figures.ConstrainedToolbarLayout.calculatePreferredSize(ConstrainedToolbarLayout.java:97)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.gmf.runtime.draw2d.ui.figures.ConstrainedToolbarLayout.layout(ConstrainedToolbarLayout.java:204)
+	at org.eclipse.draw2d.Figure.layout(Figure.java:1096)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1899)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.gmf.runtime.diagram.ui.figures.BorderItemsAwareFreeFormLayer.validate(BorderItemsAwareFreeFormLayer.java:184)
+	at org.eclipse.gmf.runtime.diagram.ui.editparts.DiagramEditPart$1.validate(DiagramEditPart.java:158)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.gmf.runtime.diagram.ui.figures.BorderItemsAwareFreeFormLayer.validate(BorderItemsAwareFreeFormLayer.java:184)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.Figure.validate(Figure.java:1901)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(FreeformViewport.java:25)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(AbstractLayout.java:110)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(AbstractHintLayout.java:90)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Figure.java:810)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(ScrollPaneSolver.java:82)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(FigureCanvas.java:325)
+	at org.eclipse.draw2d.FigureCanvas.access$4(FigureCanvas.java:323)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(FigureCanvas.java:292)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(UpdateManager.java:143)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(DeferredUpdateManager.java:217)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(DiagramGraphicalViewer.java:117)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(DeferredUpdateManager.java:167)
+	at org.eclipse.draw2d.LightweightSystem.paint(LightweightSystem.java:203)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(LightweightSystem.java:110)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4565)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1522)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1545)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1530)
+	at org.eclipse.swt.widgets.Control.drawWidget(Control.java:1270)
+	at org.eclipse.swt.widgets.Canvas.drawWidget(Canvas.java:176)
+	at org.eclipse.swt.widgets.Widget.drawRect(Widget.java:776)
+	at org.eclipse.swt.widgets.Canvas.drawRect(Canvas.java:170)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6200)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationNextEventMatchingMask(Display.java:5474)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5878)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.nextEventMatchingMask(NSApplication.java:92)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3921)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SESSION 2023-10-13 22:58:38.439 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 22:58:41.941
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 22:58:41.941
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-13 23:04:22.296 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 23:04:25.708
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 23:04:25.708
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-13 23:06:48.139 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 23:06:51.498
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 23:06:51.498
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-13 23:07:45.229 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 23:07:48.426
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 23:07:48.426
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-13 23:08:11.693 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 23:08:14.603
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 23:08:14.603
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-13 23:08:35.734 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 23:08:38.661
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 23:08:38.661
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-13 23:34:07.995 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-13 23:34:11.727
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-13 23:34:11.727
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-14 15:19:03.251 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-14 15:19:07.387
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-14 15:19:07.387
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-14 17:30:18.918 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-14 17:30:22.737
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-14 17:30:22.737
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+!SESSION 2023-10-14 20:29:57.525 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.ui 2 0 2023-10-14 20:30:01.099
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-10-14 20:30:01.099
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'

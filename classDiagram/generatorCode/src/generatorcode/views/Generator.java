@@ -43,7 +43,7 @@ public class Generator extends ViewPart {
 		parent.setLayout(null);
 		
 		Group grpGeneratorCode = new Group(parent, SWT.NONE);
-		grpGeneratorCode.setBounds(101, 68, 400, 235);
+		grpGeneratorCode.setBounds(101, 68, 400, 250);
 		grpGeneratorCode.setText("Generator code");
 		grpGeneratorCode.setLayout(null);
 		
@@ -73,6 +73,19 @@ public class Generator extends ViewPart {
 		btnTransformacionMt.setText("Transformacion M2T");
 		btnTransformacionMt.setForeground(SWTResourceManager.getColor(SWT.COLOR_RED));
 		btnTransformacionMt.setFont(SWTResourceManager.getFont("Segoe UI", 10, SWT.BOLD | SWT.ITALIC));
+		
+		Button btnTransformacionFlutter = new Button(grpGeneratorCode, SWT.NONE);
+		btnTransformacionFlutter.setBounds(33, 181, 229, 35);
+		btnTransformacionFlutter.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				ModelFactoryModel mfm = ModelFactoryModel.getInstance();
+				mfm.transformationFramework();
+			}
+		});
+		btnTransformacionFlutter.setText("Transformacion Flutter");
+		btnTransformacionMt.setForeground(SWTResourceManager.getColor(SWT.COLOR_RED));
+		btnTransformacionMm.setFont(SWTResourceManager.getFont("Segoe UI", 10, SWT.BOLD | SWT.ITALIC));
 	}
 
 	@Override

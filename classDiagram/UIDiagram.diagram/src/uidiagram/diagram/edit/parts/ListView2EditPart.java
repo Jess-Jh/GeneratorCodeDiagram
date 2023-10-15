@@ -69,8 +69,6 @@ public class ListView2EditPart extends ShapeNodeEditPart {
 		installEditPolicy(EditPolicyRoles.SEMANTIC_ROLE, new ListView2ItemSemanticEditPolicy());
 		installEditPolicy(EditPolicy.LAYOUT_ROLE, createLayoutEditPolicy());
 		installEditPolicy(EditPolicyRoles.OPEN_ROLE, new OpenDiagramEditPolicy()); // XXX need an SCR to runtime to have another abstract superclass that would let children add reasonable editpolicies
-		installEditPolicy(EditPolicyRoles.OPEN_ROLE, new OpenListViewEditPolicy()); // XXX need an SCR to runtime to have another abstract superclass that would let children add reasonable editpolicies
-
 		// removeEditPolicy(org.eclipse.gmf.runtime.diagram.ui.editpolicies.EditPolicyRoles.CONNECTION_HANDLES_ROLE);
 	}
 
@@ -121,10 +119,10 @@ public class ListView2EditPart extends ShapeNodeEditPart {
 			((ListViewName2EditPart) childEditPart).setLabel(getPrimaryShape().getFigureListViewLabelFigure());
 			return true;
 		}
-		if (childEditPart instanceof ListViewListViewListTemplateWidgetCompartment2EditPart) {
-			IFigure pane = getPrimaryShape().getListViewListTemplateWidgetCompartmentFigure();
+		if (childEditPart instanceof ListViewListViewTemplateWidgetCompartment2EditPart) {
+			IFigure pane = getPrimaryShape().getListViewTemplateWidgetCompartmentFigure();
 			setupContentPane(pane); // FIXME each comparment should handle his content pane in his own way 
-			pane.add(((ListViewListViewListTemplateWidgetCompartment2EditPart) childEditPart).getFigure());
+			pane.add(((ListViewListViewTemplateWidgetCompartment2EditPart) childEditPart).getFigure());
 			return true;
 		}
 		return false;
@@ -137,9 +135,9 @@ public class ListView2EditPart extends ShapeNodeEditPart {
 		if (childEditPart instanceof ListViewName2EditPart) {
 			return true;
 		}
-		if (childEditPart instanceof ListViewListViewListTemplateWidgetCompartment2EditPart) {
-			IFigure pane = getPrimaryShape().getListViewListTemplateWidgetCompartmentFigure();
-			pane.remove(((ListViewListViewListTemplateWidgetCompartment2EditPart) childEditPart).getFigure());
+		if (childEditPart instanceof ListViewListViewTemplateWidgetCompartment2EditPart) {
+			IFigure pane = getPrimaryShape().getListViewTemplateWidgetCompartmentFigure();
+			pane.remove(((ListViewListViewTemplateWidgetCompartment2EditPart) childEditPart).getFigure());
 			return true;
 		}
 		return false;
@@ -169,8 +167,8 @@ public class ListView2EditPart extends ShapeNodeEditPart {
 	* @generated
 	*/
 	protected IFigure getContentPaneFor(IGraphicalEditPart editPart) {
-		if (editPart instanceof ListViewListViewListTemplateWidgetCompartment2EditPart) {
-			return getPrimaryShape().getListViewListTemplateWidgetCompartmentFigure();
+		if (editPart instanceof ListViewListViewTemplateWidgetCompartment2EditPart) {
+			return getPrimaryShape().getListViewTemplateWidgetCompartmentFigure();
 		}
 		return getContentPane();
 	}
@@ -281,11 +279,11 @@ public class ListView2EditPart extends ShapeNodeEditPart {
 		/**
 		* @generated
 		*/
-		private RectangleFigure fListViewListTemplateWidgetCompartmentFigure;
+		private RectangleFigure fListViewTemplateWidgetCompartmentFigure;
 
 		/**
-			 * @generated
-			 */
+				 * @generated
+				 */
 		public ListViewFigure() {
 			this.setCornerDimensions(new Dimension(getMapMode().DPtoLP(8), getMapMode().DPtoLP(8)));
 			this.setLineWidth(0);
@@ -307,11 +305,11 @@ public class ListView2EditPart extends ShapeNodeEditPart {
 
 			this.add(fFigureListViewLabelFigure);
 
-			fListViewListTemplateWidgetCompartmentFigure = new RectangleFigure();
+			fListViewTemplateWidgetCompartmentFigure = new RectangleFigure();
 
-			fListViewListTemplateWidgetCompartmentFigure.setOutline(false);
+			fListViewTemplateWidgetCompartmentFigure.setOutline(false);
 
-			this.add(fListViewListTemplateWidgetCompartmentFigure);
+			this.add(fListViewTemplateWidgetCompartmentFigure);
 
 		}
 
@@ -325,8 +323,8 @@ public class ListView2EditPart extends ShapeNodeEditPart {
 		/**
 		* @generated
 		*/
-		public RectangleFigure getListViewListTemplateWidgetCompartmentFigure() {
-			return fListViewListTemplateWidgetCompartmentFigure;
+		public RectangleFigure getListViewTemplateWidgetCompartmentFigure() {
+			return fListViewTemplateWidgetCompartmentFigure;
 		}
 
 	}

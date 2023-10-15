@@ -47,7 +47,7 @@ public class GroupColumnGroupColumnListTemplateWidgetCompartment2ItemSemanticEdi
 	* @generated
 	*/
 	public GroupColumnGroupColumnListTemplateWidgetCompartment2ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.GroupColumn_3067);
+		super(UidiagramElementTypes.GroupColumn_3082);
 	}
 
 	/**

@@ -34,7 +34,7 @@ public class GroupGroupListTemplateWidgetCompartment5EditPart extends ShapeCompa
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 7035;
+	public static final int VISUAL_ID = 7047;
 
 	/**
 	* @generated

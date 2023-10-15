@@ -43,7 +43,7 @@ public class Group5ItemSemanticEditPolicy extends UidiagramBaseItemSemanticEditP
 	* @generated
 	*/
 	public Group5ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.Group_3066);
+		super(UidiagramElementTypes.Group_3081);
 	}
 
 	/**

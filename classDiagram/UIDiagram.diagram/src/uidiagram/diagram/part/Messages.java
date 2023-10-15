@@ -476,7 +476,7 @@ public class Messages extends NLS {
 	/**
 	* @generated
 	*/
-	public static String ListViewListViewListTemplateWidgetCompartmentEditPart_title;
+	public static String ListViewListViewTemplateWidgetCompartmentEditPart_title;
 
 	/**
 	* @generated
@@ -531,7 +531,7 @@ public class Messages extends NLS {
 	/**
 	* @generated
 	*/
-	public static String ListViewListViewListTemplateWidgetCompartment2EditPart_title;
+	public static String ListViewListViewTemplateWidgetCompartment2EditPart_title;
 
 	/**
 	* @generated
@@ -561,7 +561,7 @@ public class Messages extends NLS {
 	/**
 	* @generated
 	*/
-	public static String ListViewListViewListTemplateWidgetCompartment3EditPart_title;
+	public static String ListViewListViewTemplateWidgetCompartment3EditPart_title;
 
 	/**
 	* @generated
@@ -601,7 +601,7 @@ public class Messages extends NLS {
 	/**
 	* @generated
 	*/
-	public static String ListViewListViewListTemplateWidgetCompartment4EditPart_title;
+	public static String ListViewListViewTemplateWidgetCompartment4EditPart_title;
 
 	/**
 	* @generated
@@ -641,7 +641,7 @@ public class Messages extends NLS {
 	/**
 	* @generated
 	*/
-	public static String ListViewListViewListTemplateWidgetCompartment5EditPart_title;
+	public static String ListViewListViewTemplateWidgetCompartment5EditPart_title;
 
 	/**
 	* @generated

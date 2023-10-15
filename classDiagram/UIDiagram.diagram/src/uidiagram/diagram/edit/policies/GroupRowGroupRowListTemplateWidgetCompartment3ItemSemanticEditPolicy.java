@@ -49,7 +49,7 @@ public class GroupRowGroupRowListTemplateWidgetCompartment3ItemSemanticEditPolic
 	* @generated
 	*/
 	public GroupRowGroupRowListTemplateWidgetCompartment3ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.GroupRow_3068);
+		super(UidiagramElementTypes.GroupRow_3083);
 	}
 
 	/**

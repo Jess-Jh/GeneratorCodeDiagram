@@ -937,77 +937,77 @@ public class UidiagramNavigatorContentProvider implements ICommonContentProvider
 			Node sv = (Node) view;
 			Collection<View> connectedViews;
 			connectedViews = getChildrenByType(Collections.singleton(sv),
-					UidiagramVisualIDRegistry.getType(ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID));
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Group5EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
 			connectedViews = getChildrenByType(Collections.singleton(sv),
-					UidiagramVisualIDRegistry.getType(ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID));
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(GroupColumn2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
 			connectedViews = getChildrenByType(Collections.singleton(sv),
-					UidiagramVisualIDRegistry.getType(ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID));
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(GroupRow3EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
 			connectedViews = getChildrenByType(Collections.singleton(sv),
-					UidiagramVisualIDRegistry.getType(ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID));
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Appbar4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
 			connectedViews = getChildrenByType(Collections.singleton(sv),
-					UidiagramVisualIDRegistry.getType(ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID));
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Tabbar4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
 			connectedViews = getChildrenByType(Collections.singleton(sv),
-					UidiagramVisualIDRegistry.getType(ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID));
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Button6EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
 			connectedViews = getChildrenByType(Collections.singleton(sv),
-					UidiagramVisualIDRegistry.getType(ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID));
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Label6EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
 			connectedViews = getChildrenByType(Collections.singleton(sv),
-					UidiagramVisualIDRegistry.getType(ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID));
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Checkbox4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
 			connectedViews = getChildrenByType(Collections.singleton(sv),
-					UidiagramVisualIDRegistry.getType(ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID));
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Input4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
 			connectedViews = getChildrenByType(Collections.singleton(sv),
-					UidiagramVisualIDRegistry.getType(ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID));
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(ListView4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
 			connectedViews = getChildrenByType(Collections.singleton(sv),
-					UidiagramVisualIDRegistry.getType(ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID));
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(RadioButton2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
 			connectedViews = getChildrenByType(Collections.singleton(sv),
-					UidiagramVisualIDRegistry.getType(ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID));
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(ComboBox2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
 			connectedViews = getChildrenByType(Collections.singleton(sv),
-					UidiagramVisualIDRegistry.getType(ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID));
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(DatePicker2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
 			connectedViews = getChildrenByType(Collections.singleton(sv),
-					UidiagramVisualIDRegistry.getType(ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID));
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Switch2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
 			connectedViews = getChildrenByType(Collections.singleton(sv),
-					UidiagramVisualIDRegistry.getType(ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID));
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Table2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
@@ -1392,78 +1392,78 @@ public class UidiagramNavigatorContentProvider implements ICommonContentProvider
 			LinkedList<UidiagramAbstractNavigatorItem> result = new LinkedList<UidiagramAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			Collection<View> connectedViews;
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment3EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Group5EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment3EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(GroupColumn2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment3EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(GroupRow3EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment3EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Appbar4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment3EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Tabbar4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment3EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Button6EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment3EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Label6EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment3EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Checkbox4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment3EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Input4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment3EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(ListView4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment3EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(RadioButton2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment3EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(ComboBox2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment3EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(DatePicker2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment3EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Switch2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment3EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Table2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
@@ -1520,78 +1520,78 @@ public class UidiagramNavigatorContentProvider implements ICommonContentProvider
 			LinkedList<UidiagramAbstractNavigatorItem> result = new LinkedList<UidiagramAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			Collection<View> connectedViews;
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment2EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Group5EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment2EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(GroupColumn2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment2EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(GroupRow3EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment2EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Appbar4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment2EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Tabbar4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment2EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Button6EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment2EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Label6EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment2EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Checkbox4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment2EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Input4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment2EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(ListView4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment2EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(RadioButton2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment2EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(ComboBox2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment2EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(DatePicker2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment2EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Switch2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment2EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Table2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
@@ -1812,78 +1812,78 @@ public class UidiagramNavigatorContentProvider implements ICommonContentProvider
 			LinkedList<UidiagramAbstractNavigatorItem> result = new LinkedList<UidiagramAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			Collection<View> connectedViews;
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment5EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Group5EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment5EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(GroupColumn2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment5EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(GroupRow3EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment5EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Appbar4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment5EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Tabbar4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment5EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Button6EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment5EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Label6EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment5EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Checkbox4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment5EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Input4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment5EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(ListView4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment5EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(RadioButton2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment5EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(ComboBox2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment5EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(DatePicker2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment5EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Switch2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment5EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Table2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
@@ -2186,78 +2186,78 @@ public class UidiagramNavigatorContentProvider implements ICommonContentProvider
 			LinkedList<UidiagramAbstractNavigatorItem> result = new LinkedList<UidiagramAbstractNavigatorItem>();
 			Node sv = (Node) view;
 			Collection<View> connectedViews;
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment4EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Group5EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment4EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(GroupColumn2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment4EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(GroupRow3EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment4EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Appbar4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment4EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Tabbar4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment4EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Button6EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment4EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Label6EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment4EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Checkbox4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment4EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Input4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment4EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(ListView4EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment4EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(RadioButton2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment4EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(ComboBox2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment4EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(DatePicker2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment4EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Switch2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));
-			connectedViews = getChildrenByType(Collections.singleton(sv), UidiagramVisualIDRegistry
-					.getType(ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID));
+			connectedViews = getChildrenByType(Collections.singleton(sv),
+					UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment4EditPart.VISUAL_ID));
 			connectedViews = getChildrenByType(connectedViews,
 					UidiagramVisualIDRegistry.getType(Table2EditPart.VISUAL_ID));
 			result.addAll(createNavigatorItems(connectedViews, parentElement, false));

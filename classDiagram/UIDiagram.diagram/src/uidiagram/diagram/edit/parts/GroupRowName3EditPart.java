@@ -60,7 +60,7 @@ public class GroupRowName3EditPart extends CompartmentEditPart implements ITextA
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5080;
+	public static final int VISUAL_ID = 5095;
 
 	/**
 	* @generated
@@ -295,7 +295,7 @@ public class GroupRowName3EditPart extends CompartmentEditPart implements ITextA
 	*/
 	public IParser getParser() {
 		if (parser == null) {
-			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.GroupRow_3068, getParserElement(),
+			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.GroupRow_3083, getParserElement(),
 					UidiagramVisualIDRegistry.getType(uidiagram.diagram.edit.parts.GroupRowName3EditPart.VISUAL_ID));
 		}
 		return parser;

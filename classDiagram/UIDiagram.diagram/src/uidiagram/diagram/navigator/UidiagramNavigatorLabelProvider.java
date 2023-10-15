@@ -224,35 +224,35 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 		case Label2EditPart.VISUAL_ID:
 			return getImage("Navigator?Node?uidiagram?Label", UidiagramElementTypes.Label_3065); //$NON-NLS-1$
 		case Group5EditPart.VISUAL_ID:
-			return getImage("Navigator?Node?uidiagram?Group", UidiagramElementTypes.Group_3066); //$NON-NLS-1$
+			return getImage("Navigator?Node?uidiagram?Group", UidiagramElementTypes.Group_3081); //$NON-NLS-1$
 		case GroupColumn2EditPart.VISUAL_ID:
-			return getImage("Navigator?Node?uidiagram?GroupColumn", UidiagramElementTypes.GroupColumn_3067); //$NON-NLS-1$
+			return getImage("Navigator?Node?uidiagram?GroupColumn", UidiagramElementTypes.GroupColumn_3082); //$NON-NLS-1$
 		case GroupRow3EditPart.VISUAL_ID:
-			return getImage("Navigator?Node?uidiagram?GroupRow", UidiagramElementTypes.GroupRow_3068); //$NON-NLS-1$
+			return getImage("Navigator?Node?uidiagram?GroupRow", UidiagramElementTypes.GroupRow_3083); //$NON-NLS-1$
 		case Appbar4EditPart.VISUAL_ID:
-			return getImage("Navigator?Node?uidiagram?Appbar", UidiagramElementTypes.Appbar_3069); //$NON-NLS-1$
+			return getImage("Navigator?Node?uidiagram?Appbar", UidiagramElementTypes.Appbar_3084); //$NON-NLS-1$
 		case Tabbar4EditPart.VISUAL_ID:
-			return getImage("Navigator?Node?uidiagram?Tabbar", UidiagramElementTypes.Tabbar_3070); //$NON-NLS-1$
+			return getImage("Navigator?Node?uidiagram?Tabbar", UidiagramElementTypes.Tabbar_3085); //$NON-NLS-1$
 		case Button6EditPart.VISUAL_ID:
-			return getImage("Navigator?Node?uidiagram?Button", UidiagramElementTypes.Button_3071); //$NON-NLS-1$
+			return getImage("Navigator?Node?uidiagram?Button", UidiagramElementTypes.Button_3086); //$NON-NLS-1$
 		case Label6EditPart.VISUAL_ID:
-			return getImage("Navigator?Node?uidiagram?Label", UidiagramElementTypes.Label_3072); //$NON-NLS-1$
+			return getImage("Navigator?Node?uidiagram?Label", UidiagramElementTypes.Label_3087); //$NON-NLS-1$
 		case Checkbox4EditPart.VISUAL_ID:
-			return getImage("Navigator?Node?uidiagram?Checkbox", UidiagramElementTypes.Checkbox_3073); //$NON-NLS-1$
+			return getImage("Navigator?Node?uidiagram?Checkbox", UidiagramElementTypes.Checkbox_3088); //$NON-NLS-1$
 		case Input4EditPart.VISUAL_ID:
-			return getImage("Navigator?Node?uidiagram?Input", UidiagramElementTypes.Input_3074); //$NON-NLS-1$
+			return getImage("Navigator?Node?uidiagram?Input", UidiagramElementTypes.Input_3089); //$NON-NLS-1$
 		case ListView4EditPart.VISUAL_ID:
-			return getImage("Navigator?Node?uidiagram?ListView", UidiagramElementTypes.ListView_3075); //$NON-NLS-1$
+			return getImage("Navigator?Node?uidiagram?ListView", UidiagramElementTypes.ListView_3090); //$NON-NLS-1$
 		case RadioButton2EditPart.VISUAL_ID:
-			return getImage("Navigator?Node?uidiagram?RadioButton", UidiagramElementTypes.RadioButton_3076); //$NON-NLS-1$
+			return getImage("Navigator?Node?uidiagram?RadioButton", UidiagramElementTypes.RadioButton_3091); //$NON-NLS-1$
 		case ComboBox2EditPart.VISUAL_ID:
-			return getImage("Navigator?Node?uidiagram?ComboBox", UidiagramElementTypes.ComboBox_3077); //$NON-NLS-1$
+			return getImage("Navigator?Node?uidiagram?ComboBox", UidiagramElementTypes.ComboBox_3092); //$NON-NLS-1$
 		case DatePicker2EditPart.VISUAL_ID:
-			return getImage("Navigator?Node?uidiagram?DatePicker", UidiagramElementTypes.DatePicker_3078); //$NON-NLS-1$
+			return getImage("Navigator?Node?uidiagram?DatePicker", UidiagramElementTypes.DatePicker_3093); //$NON-NLS-1$
 		case Switch2EditPart.VISUAL_ID:
-			return getImage("Navigator?Node?uidiagram?Switch", UidiagramElementTypes.Switch_3079); //$NON-NLS-1$
+			return getImage("Navigator?Node?uidiagram?Switch", UidiagramElementTypes.Switch_3094); //$NON-NLS-1$
 		case Table2EditPart.VISUAL_ID:
-			return getImage("Navigator?Node?uidiagram?Table", UidiagramElementTypes.Table_3080); //$NON-NLS-1$
+			return getImage("Navigator?Node?uidiagram?Table", UidiagramElementTypes.Table_3095); //$NON-NLS-1$
 		}
 		return getImage("Navigator?UnknownElement", null); //$NON-NLS-1$
 	}
@@ -446,35 +446,35 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 		case Label2EditPart.VISUAL_ID:
 			return getLabel_3065Text(view);
 		case Group5EditPart.VISUAL_ID:
-			return getGroup_3066Text(view);
+			return getGroup_3081Text(view);
 		case GroupColumn2EditPart.VISUAL_ID:
-			return getGroupColumn_3067Text(view);
+			return getGroupColumn_3082Text(view);
 		case GroupRow3EditPart.VISUAL_ID:
-			return getGroupRow_3068Text(view);
+			return getGroupRow_3083Text(view);
 		case Appbar4EditPart.VISUAL_ID:
-			return getAppbar_3069Text(view);
+			return getAppbar_3084Text(view);
 		case Tabbar4EditPart.VISUAL_ID:
-			return getTabbar_3070Text(view);
+			return getTabbar_3085Text(view);
 		case Button6EditPart.VISUAL_ID:
-			return getButton_3071Text(view);
+			return getButton_3086Text(view);
 		case Label6EditPart.VISUAL_ID:
-			return getLabel_3072Text(view);
+			return getLabel_3087Text(view);
 		case Checkbox4EditPart.VISUAL_ID:
-			return getCheckbox_3073Text(view);
+			return getCheckbox_3088Text(view);
 		case Input4EditPart.VISUAL_ID:
-			return getInput_3074Text(view);
+			return getInput_3089Text(view);
 		case ListView4EditPart.VISUAL_ID:
-			return getListView_3075Text(view);
+			return getListView_3090Text(view);
 		case RadioButton2EditPart.VISUAL_ID:
-			return getRadioButton_3076Text(view);
+			return getRadioButton_3091Text(view);
 		case ComboBox2EditPart.VISUAL_ID:
-			return getComboBox_3077Text(view);
+			return getComboBox_3092Text(view);
 		case DatePicker2EditPart.VISUAL_ID:
-			return getDatePicker_3078Text(view);
+			return getDatePicker_3093Text(view);
 		case Switch2EditPart.VISUAL_ID:
-			return getSwitch_3079Text(view);
+			return getSwitch_3094Text(view);
 		case Table2EditPart.VISUAL_ID:
-			return getTable_3080Text(view);
+			return getTable_3095Text(view);
 		}
 		return getUnknownElementText(view);
 	}
@@ -1551,15 +1551,15 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getGroup_3066Text(View view) {
-		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Group_3066,
+	private String getGroup_3081Text(View view) {
+		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Group_3081,
 				view.getElement() != null ? view.getElement() : view,
 				UidiagramVisualIDRegistry.getType(GroupName5EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
 		} else {
-			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5067); //$NON-NLS-1$
+			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5082); //$NON-NLS-1$
 			return ""; //$NON-NLS-1$
 		}
 	}
@@ -1567,15 +1567,15 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getGroupColumn_3067Text(View view) {
-		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.GroupColumn_3067,
+	private String getGroupColumn_3082Text(View view) {
+		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.GroupColumn_3082,
 				view.getElement() != null ? view.getElement() : view,
 				UidiagramVisualIDRegistry.getType(GroupColumnName2EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
 		} else {
-			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5081); //$NON-NLS-1$
+			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5096); //$NON-NLS-1$
 			return ""; //$NON-NLS-1$
 		}
 	}
@@ -1583,15 +1583,15 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getGroupRow_3068Text(View view) {
-		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.GroupRow_3068,
+	private String getGroupRow_3083Text(View view) {
+		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.GroupRow_3083,
 				view.getElement() != null ? view.getElement() : view,
 				UidiagramVisualIDRegistry.getType(GroupRowName3EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
 		} else {
-			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5080); //$NON-NLS-1$
+			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5095); //$NON-NLS-1$
 			return ""; //$NON-NLS-1$
 		}
 	}
@@ -1599,15 +1599,15 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getAppbar_3069Text(View view) {
-		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Appbar_3069,
+	private String getAppbar_3084Text(View view) {
+		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Appbar_3084,
 				view.getElement() != null ? view.getElement() : view,
 				UidiagramVisualIDRegistry.getType(AppbarName4EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
 		} else {
-			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5068); //$NON-NLS-1$
+			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5083); //$NON-NLS-1$
 			return ""; //$NON-NLS-1$
 		}
 	}
@@ -1615,15 +1615,15 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getTabbar_3070Text(View view) {
-		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Tabbar_3070,
+	private String getTabbar_3085Text(View view) {
+		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Tabbar_3085,
 				view.getElement() != null ? view.getElement() : view,
 				UidiagramVisualIDRegistry.getType(TabbarName4EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
 		} else {
-			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5069); //$NON-NLS-1$
+			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5084); //$NON-NLS-1$
 			return ""; //$NON-NLS-1$
 		}
 	}
@@ -1631,15 +1631,15 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getButton_3071Text(View view) {
-		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Button_3071,
+	private String getButton_3086Text(View view) {
+		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Button_3086,
 				view.getElement() != null ? view.getElement() : view,
 				UidiagramVisualIDRegistry.getType(ButtonName6EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
 		} else {
-			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5070); //$NON-NLS-1$
+			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5085); //$NON-NLS-1$
 			return ""; //$NON-NLS-1$
 		}
 	}
@@ -1647,15 +1647,15 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getLabel_3072Text(View view) {
-		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Label_3072,
+	private String getLabel_3087Text(View view) {
+		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Label_3087,
 				view.getElement() != null ? view.getElement() : view,
 				UidiagramVisualIDRegistry.getType(LabelName6EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
 		} else {
-			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5071); //$NON-NLS-1$
+			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5086); //$NON-NLS-1$
 			return ""; //$NON-NLS-1$
 		}
 	}
@@ -1663,15 +1663,15 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getCheckbox_3073Text(View view) {
-		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Checkbox_3073,
+	private String getCheckbox_3088Text(View view) {
+		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Checkbox_3088,
 				view.getElement() != null ? view.getElement() : view,
 				UidiagramVisualIDRegistry.getType(CheckboxName4EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
 		} else {
-			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5072); //$NON-NLS-1$
+			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5087); //$NON-NLS-1$
 			return ""; //$NON-NLS-1$
 		}
 	}
@@ -1679,15 +1679,15 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getInput_3074Text(View view) {
-		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Input_3074,
+	private String getInput_3089Text(View view) {
+		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Input_3089,
 				view.getElement() != null ? view.getElement() : view,
 				UidiagramVisualIDRegistry.getType(InputName4EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
 		} else {
-			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5073); //$NON-NLS-1$
+			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5088); //$NON-NLS-1$
 			return ""; //$NON-NLS-1$
 		}
 	}
@@ -1695,15 +1695,15 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getListView_3075Text(View view) {
-		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.ListView_3075,
+	private String getListView_3090Text(View view) {
+		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.ListView_3090,
 				view.getElement() != null ? view.getElement() : view,
 				UidiagramVisualIDRegistry.getType(ListViewName4EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
 		} else {
-			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5079); //$NON-NLS-1$
+			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5094); //$NON-NLS-1$
 			return ""; //$NON-NLS-1$
 		}
 	}
@@ -1711,15 +1711,15 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getRadioButton_3076Text(View view) {
-		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.RadioButton_3076,
+	private String getRadioButton_3091Text(View view) {
+		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.RadioButton_3091,
 				view.getElement() != null ? view.getElement() : view,
 				UidiagramVisualIDRegistry.getType(RadioButtonName2EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
 		} else {
-			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5074); //$NON-NLS-1$
+			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5089); //$NON-NLS-1$
 			return ""; //$NON-NLS-1$
 		}
 	}
@@ -1727,15 +1727,15 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getComboBox_3077Text(View view) {
-		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.ComboBox_3077,
+	private String getComboBox_3092Text(View view) {
+		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.ComboBox_3092,
 				view.getElement() != null ? view.getElement() : view,
 				UidiagramVisualIDRegistry.getType(ComboBoxName2EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
 		} else {
-			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5075); //$NON-NLS-1$
+			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5090); //$NON-NLS-1$
 			return ""; //$NON-NLS-1$
 		}
 	}
@@ -1743,15 +1743,15 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getDatePicker_3078Text(View view) {
-		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.DatePicker_3078,
+	private String getDatePicker_3093Text(View view) {
+		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.DatePicker_3093,
 				view.getElement() != null ? view.getElement() : view,
 				UidiagramVisualIDRegistry.getType(DatePickerName2EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
 		} else {
-			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5076); //$NON-NLS-1$
+			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5091); //$NON-NLS-1$
 			return ""; //$NON-NLS-1$
 		}
 	}
@@ -1759,15 +1759,15 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getSwitch_3079Text(View view) {
-		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Switch_3079,
+	private String getSwitch_3094Text(View view) {
+		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Switch_3094,
 				view.getElement() != null ? view.getElement() : view,
 				UidiagramVisualIDRegistry.getType(SwitchName2EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
 		} else {
-			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5077); //$NON-NLS-1$
+			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5092); //$NON-NLS-1$
 			return ""; //$NON-NLS-1$
 		}
 	}
@@ -1775,15 +1775,15 @@ public class UidiagramNavigatorLabelProvider extends LabelProvider
 	/**
 	* @generated
 	*/
-	private String getTable_3080Text(View view) {
-		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Table_3080,
+	private String getTable_3095Text(View view) {
+		IParser parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Table_3095,
 				view.getElement() != null ? view.getElement() : view,
 				UidiagramVisualIDRegistry.getType(TableName2EditPart.VISUAL_ID));
 		if (parser != null) {
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
 		} else {
-			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5078); //$NON-NLS-1$
+			UidiagramDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 5093); //$NON-NLS-1$
 			return ""; //$NON-NLS-1$
 		}
 	}

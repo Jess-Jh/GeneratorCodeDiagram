@@ -61,7 +61,7 @@ public class AgregationJJDMultiplicityBEditPart extends LabelEditPart implements
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 6009;
+	public static final int VISUAL_ID = 6005;
 
 	/**
 	* @generated

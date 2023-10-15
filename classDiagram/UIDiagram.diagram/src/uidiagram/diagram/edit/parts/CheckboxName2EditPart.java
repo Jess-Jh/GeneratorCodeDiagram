@@ -104,7 +104,6 @@ public class CheckboxName2EditPart extends CompartmentEditPart implements ITextA
 		installEditPolicy(EditPolicy.SELECTION_FEEDBACK_ROLE, new UidiagramTextSelectionEditPolicy());
 		installEditPolicy(EditPolicy.DIRECT_EDIT_ROLE, new LabelDirectEditPolicy());
 		installEditPolicy(EditPolicy.PRIMARY_DRAG_ROLE, new DefaultNodeLabelDragPolicy());
-
 	}
 
 	/**

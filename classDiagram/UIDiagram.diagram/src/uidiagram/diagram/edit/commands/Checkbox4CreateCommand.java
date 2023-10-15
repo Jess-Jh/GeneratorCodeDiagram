@@ -48,6 +48,10 @@ public class Checkbox4CreateCommand extends EditElementCommand {
 	* @generated
 	*/
 	public boolean canExecute() {
+		ListView container = (ListView) getElementToEdit();
+		if (container.getTemplateWidget() != null) {
+			return false;
+		}
 		return true;
 
 	}
@@ -59,7 +63,7 @@ public class Checkbox4CreateCommand extends EditElementCommand {
 		Checkbox newElement = UidiagramFactory.eINSTANCE.createCheckbox();
 
 		ListView owner = (ListView) getElementToEdit();
-		owner.getListTemplateWidget().add(newElement);
+		owner.setTemplateWidget(newElement);
 
 		doConfigure(newElement, monitor, info);
 

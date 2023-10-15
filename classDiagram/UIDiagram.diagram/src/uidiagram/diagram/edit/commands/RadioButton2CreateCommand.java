@@ -48,6 +48,10 @@ public class RadioButton2CreateCommand extends EditElementCommand {
 	* @generated
 	*/
 	public boolean canExecute() {
+		ListView container = (ListView) getElementToEdit();
+		if (container.getTemplateWidget() != null) {
+			return false;
+		}
 		return true;
 
 	}
@@ -59,7 +63,7 @@ public class RadioButton2CreateCommand extends EditElementCommand {
 		RadioButton newElement = UidiagramFactory.eINSTANCE.createRadioButton();
 
 		ListView owner = (ListView) getElementToEdit();
-		owner.getListTemplateWidget().add(newElement);
+		owner.setTemplateWidget(newElement);
 
 		doConfigure(newElement, monitor, info);
 

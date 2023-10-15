@@ -53,7 +53,7 @@
     <genClasses ecoreClass="uidiagram.ecore#//Checkbox"/>
     <genClasses ecoreClass="uidiagram.ecore#//Input"/>
     <genClasses ecoreClass="uidiagram.ecore#//ListView">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference uidiagram.ecore#//ListView/listTemplateWidget"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference uidiagram.ecore#//ListView/templateWidget"/>
     </genClasses>
     <genClasses ecoreClass="uidiagram.ecore#//RadioButton"/>
     <genClasses ecoreClass="uidiagram.ecore#//ComboBox"/>

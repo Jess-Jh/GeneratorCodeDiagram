@@ -1169,13 +1169,13 @@ public interface UidiagramPackage extends EPackage {
 	int LIST_VIEW__BACKGROUND_COLOR = TEMPLATE_WIDGET__BACKGROUND_COLOR;
 
 	/**
-	 * The feature id for the '<em><b>List Template Widget</b></em>' containment reference list.
+	 * The feature id for the '<em><b>Template Widget</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int LIST_VIEW__LIST_TEMPLATE_WIDGET = TEMPLATE_WIDGET_FEATURE_COUNT + 0;
+	int LIST_VIEW__TEMPLATE_WIDGET = TEMPLATE_WIDGET_FEATURE_COUNT + 0;
 
 	/**
 	 * The number of structural features of the '<em>List View</em>' class.
@@ -2050,15 +2050,15 @@ public interface UidiagramPackage extends EPackage {
 	EClass getListView();
 
 	/**
-	 * Returns the meta object for the containment reference list '{@link uidiagram.ListView#getListTemplateWidget <em>List Template Widget</em>}'.
+	 * Returns the meta object for the containment reference '{@link uidiagram.ListView#getTemplateWidget <em>Template Widget</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference list '<em>List Template Widget</em>'.
-	 * @see uidiagram.ListView#getListTemplateWidget()
+	 * @return the meta object for the containment reference '<em>Template Widget</em>'.
+	 * @see uidiagram.ListView#getTemplateWidget()
 	 * @see #getListView()
 	 * @generated
 	 */
-	EReference getListView_ListTemplateWidget();
+	EReference getListView_TemplateWidget();
 
 	/**
 	 * Returns the meta object for class '{@link uidiagram.RadioButton <em>Radio Button</em>}'.
@@ -2505,12 +2505,12 @@ public interface UidiagramPackage extends EPackage {
 		EClass LIST_VIEW = eINSTANCE.getListView();
 
 		/**
-		 * The meta object literal for the '<em><b>List Template Widget</b></em>' containment reference list feature.
+		 * The meta object literal for the '<em><b>Template Widget</b></em>' containment reference feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference LIST_VIEW__LIST_TEMPLATE_WIDGET = eINSTANCE.getListView_ListTemplateWidget();
+		EReference LIST_VIEW__TEMPLATE_WIDGET = eINSTANCE.getListView_TemplateWidget();
 
 		/**
 		 * The meta object literal for the '{@link uidiagram.impl.RadioButtonImpl <em>Radio Button</em>}' class.

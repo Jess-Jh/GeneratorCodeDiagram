@@ -158,7 +158,7 @@
         <sourceMetaFeature href="concrete.genmodel#//concrete/RelationJJD/source"/>
         <targetMetaFeature href="concrete.genmodel#//concrete/RelationJJD/target"/>
       </modelFacet>
-      <labels visualID="6006" editPartClassName="AgregationJJDRolAEditPart" itemSemanticEditPolicyClassName="AgregationJJDRolAItemSemanticEditPolicy" alignment="TARGET">
+      <labels visualID="6002" editPartClassName="AgregationJJDRolAEditPart" itemSemanticEditPolicyClassName="AgregationJJDRolAItemSemanticEditPolicy" alignment="TARGET">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="AgregationJJDSourceLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class AgregationJJDSourceLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public AgregationJJDSourceLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Source&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
           <attributes xsi:type="gmfgen:LabelOffsetAttributes" x="-50" y="5"/>
@@ -167,7 +167,7 @@
           <metaFeatures href="concrete.genmodel#//concrete/RelationJJD/rolA"/>
         </modelFacet>
       </labels>
-      <labels visualID="6007" editPartClassName="AgregationJJDRolBEditPart" itemSemanticEditPolicyClassName="AgregationJJDRolBItemSemanticEditPolicy" alignment="SOURCE">
+      <labels visualID="6003" editPartClassName="AgregationJJDRolBEditPart" itemSemanticEditPolicyClassName="AgregationJJDRolBItemSemanticEditPolicy" alignment="SOURCE">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="AgregationJJDTargetLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class AgregationJJDTargetLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public AgregationJJDTargetLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Target&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
           <attributes xsi:type="gmfgen:LabelOffsetAttributes" x="-50" y="5"/>
@@ -176,7 +176,7 @@
           <metaFeatures href="concrete.genmodel#//concrete/RelationJJD/rolB"/>
         </modelFacet>
       </labels>
-      <labels visualID="6008" editPartClassName="AgregationJJDMultiplicityAEditPart" itemSemanticEditPolicyClassName="AgregationJJDMultiplicityAItemSemanticEditPolicy" alignment="TARGET">
+      <labels visualID="6004" editPartClassName="AgregationJJDMultiplicityAEditPart" itemSemanticEditPolicyClassName="AgregationJJDMultiplicityAItemSemanticEditPolicy" alignment="TARGET">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="AgregationJJDSourceLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class AgregationJJDSourceLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public AgregationJJDSourceLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Source&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
           <attributes xsi:type="gmfgen:LabelOffsetAttributes" x="-50" y="5"/>
@@ -185,7 +185,7 @@
           <metaFeatures href="concrete.genmodel#//concrete/RelationJJD/multiplicityA"/>
         </modelFacet>
       </labels>
-      <labels visualID="6009" editPartClassName="AgregationJJDMultiplicityBEditPart" itemSemanticEditPolicyClassName="AgregationJJDMultiplicityBItemSemanticEditPolicy" alignment="SOURCE">
+      <labels visualID="6005" editPartClassName="AgregationJJDMultiplicityBEditPart" itemSemanticEditPolicyClassName="AgregationJJDMultiplicityBItemSemanticEditPolicy" alignment="SOURCE">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="AgregationJJDTargetLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class AgregationJJDTargetLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public AgregationJJDTargetLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Target&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
           <attributes xsi:type="gmfgen:LabelOffsetAttributes" x="-50" y="5"/>
@@ -231,7 +231,7 @@
           <metaFeatures href="concrete.genmodel#//concrete/RelationJJD/rolB"/>
         </modelFacet>
       </labels>
-      <labels visualID="6002" editPartClassName="ContainmentJJDRolAEditPart" itemSemanticEditPolicyClassName="ContainmentJJDRolAItemSemanticEditPolicy" alignment="TARGET">
+      <labels visualID="6006" editPartClassName="ContainmentJJDRolAEditPart" itemSemanticEditPolicyClassName="ContainmentJJDRolAItemSemanticEditPolicy" alignment="TARGET">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="ContainmentJJDSourceLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class ContainmentJJDSourceLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public ContainmentJJDSourceLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Source&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
           <attributes xsi:type="gmfgen:LabelOffsetAttributes" x="-50" y="5"/>
@@ -240,7 +240,7 @@
           <metaFeatures href="concrete.genmodel#//concrete/RelationJJD/rolA"/>
         </modelFacet>
       </labels>
-      <labels visualID="6003" editPartClassName="ContainmentJJDRolB2EditPart" itemSemanticEditPolicyClassName="ContainmentJJDRolB2ItemSemanticEditPolicy" alignment="SOURCE">
+      <labels visualID="6007" editPartClassName="ContainmentJJDRolB2EditPart" itemSemanticEditPolicyClassName="ContainmentJJDRolB2ItemSemanticEditPolicy" alignment="SOURCE">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="ContainmentJJDTargetLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class ContainmentJJDTargetLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public ContainmentJJDTargetLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Target&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
           <attributes xsi:type="gmfgen:LabelOffsetAttributes" x="-50" y="5"/>
@@ -249,7 +249,7 @@
           <metaFeatures href="concrete.genmodel#//concrete/RelationJJD/rolB"/>
         </modelFacet>
       </labels>
-      <labels visualID="6004" editPartClassName="ContainmentJJDMultiplicityAEditPart" itemSemanticEditPolicyClassName="ContainmentJJDMultiplicityAItemSemanticEditPolicy" alignment="TARGET">
+      <labels visualID="6008" editPartClassName="ContainmentJJDMultiplicityAEditPart" itemSemanticEditPolicyClassName="ContainmentJJDMultiplicityAItemSemanticEditPolicy" alignment="TARGET">
         <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
         <viewmap xsi:type="gmfgen:InnerClassViewmap" className="ContainmentJJDSourceLabelFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class ContainmentJJDSourceLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public ContainmentJJDSourceLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Source&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;">
           <attributes xsi:type="gmfgen:LabelOffsetAttributes" x="-50" y="5"/>

@@ -181,69 +181,69 @@ public class ConcreteParserProvider extends AbstractProvider implements IParserP
 	/**
 	* @generated
 	*/
-	private IParser agregationJJDRolA_6006Parser;
+	private IParser agregationJJDRolA_6002Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getAgregationJJDRolA_6006Parser() {
-		if (agregationJJDRolA_6006Parser == null) {
+	private IParser getAgregationJJDRolA_6002Parser() {
+		if (agregationJJDRolA_6002Parser == null) {
 			EAttribute[] features = new EAttribute[] { ConcretePackage.eINSTANCE.getRelationJJD_RolA() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			agregationJJDRolA_6006Parser = parser;
+			agregationJJDRolA_6002Parser = parser;
 		}
-		return agregationJJDRolA_6006Parser;
+		return agregationJJDRolA_6002Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser agregationJJDRolB_6007Parser;
+	private IParser agregationJJDRolB_6003Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getAgregationJJDRolB_6007Parser() {
-		if (agregationJJDRolB_6007Parser == null) {
+	private IParser getAgregationJJDRolB_6003Parser() {
+		if (agregationJJDRolB_6003Parser == null) {
 			EAttribute[] features = new EAttribute[] { ConcretePackage.eINSTANCE.getRelationJJD_RolB() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			agregationJJDRolB_6007Parser = parser;
+			agregationJJDRolB_6003Parser = parser;
 		}
-		return agregationJJDRolB_6007Parser;
+		return agregationJJDRolB_6003Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser agregationJJDMultiplicityA_6008Parser;
+	private IParser agregationJJDMultiplicityA_6004Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getAgregationJJDMultiplicityA_6008Parser() {
-		if (agregationJJDMultiplicityA_6008Parser == null) {
+	private IParser getAgregationJJDMultiplicityA_6004Parser() {
+		if (agregationJJDMultiplicityA_6004Parser == null) {
 			EAttribute[] features = new EAttribute[] { ConcretePackage.eINSTANCE.getRelationJJD_MultiplicityA() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			agregationJJDMultiplicityA_6008Parser = parser;
+			agregationJJDMultiplicityA_6004Parser = parser;
 		}
-		return agregationJJDMultiplicityA_6008Parser;
+		return agregationJJDMultiplicityA_6004Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser agregationJJDMultiplicityB_6009Parser;
+	private IParser agregationJJDMultiplicityB_6005Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getAgregationJJDMultiplicityB_6009Parser() {
-		if (agregationJJDMultiplicityB_6009Parser == null) {
+	private IParser getAgregationJJDMultiplicityB_6005Parser() {
+		if (agregationJJDMultiplicityB_6005Parser == null) {
 			EAttribute[] features = new EAttribute[] { ConcretePackage.eINSTANCE.getRelationJJD_MultiplicityB() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			agregationJJDMultiplicityB_6009Parser = parser;
+			agregationJJDMultiplicityB_6005Parser = parser;
 		}
-		return agregationJJDMultiplicityB_6009Parser;
+		return agregationJJDMultiplicityB_6005Parser;
 	}
 
 	/**
@@ -266,52 +266,52 @@ public class ConcreteParserProvider extends AbstractProvider implements IParserP
 	/**
 	* @generated
 	*/
-	private IParser containmentJJDRolA_6002Parser;
+	private IParser containmentJJDRolA_6006Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getContainmentJJDRolA_6002Parser() {
-		if (containmentJJDRolA_6002Parser == null) {
+	private IParser getContainmentJJDRolA_6006Parser() {
+		if (containmentJJDRolA_6006Parser == null) {
 			EAttribute[] features = new EAttribute[] { ConcretePackage.eINSTANCE.getRelationJJD_RolA() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			containmentJJDRolA_6002Parser = parser;
+			containmentJJDRolA_6006Parser = parser;
 		}
-		return containmentJJDRolA_6002Parser;
+		return containmentJJDRolA_6006Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser containmentJJDRolB_6003Parser;
+	private IParser containmentJJDRolB_6007Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getContainmentJJDRolB_6003Parser() {
-		if (containmentJJDRolB_6003Parser == null) {
+	private IParser getContainmentJJDRolB_6007Parser() {
+		if (containmentJJDRolB_6007Parser == null) {
 			EAttribute[] features = new EAttribute[] { ConcretePackage.eINSTANCE.getRelationJJD_RolB() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			containmentJJDRolB_6003Parser = parser;
+			containmentJJDRolB_6007Parser = parser;
 		}
-		return containmentJJDRolB_6003Parser;
+		return containmentJJDRolB_6007Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser containmentJJDMultiplicityA_6004Parser;
+	private IParser containmentJJDMultiplicityA_6008Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getContainmentJJDMultiplicityA_6004Parser() {
-		if (containmentJJDMultiplicityA_6004Parser == null) {
+	private IParser getContainmentJJDMultiplicityA_6008Parser() {
+		if (containmentJJDMultiplicityA_6008Parser == null) {
 			EAttribute[] features = new EAttribute[] { ConcretePackage.eINSTANCE.getRelationJJD_MultiplicityA() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			containmentJJDMultiplicityA_6004Parser = parser;
+			containmentJJDMultiplicityA_6008Parser = parser;
 		}
-		return containmentJJDMultiplicityA_6004Parser;
+		return containmentJJDMultiplicityA_6008Parser;
 	}
 
 	/**
@@ -419,21 +419,21 @@ public class ConcreteParserProvider extends AbstractProvider implements IParserP
 		case AttributeJJDNameType2EditPart.VISUAL_ID:
 			return getAttributeJJDNameType_5002Parser();
 		case AgregationJJDRolAEditPart.VISUAL_ID:
-			return getAgregationJJDRolA_6006Parser();
+			return getAgregationJJDRolA_6002Parser();
 		case AgregationJJDRolBEditPart.VISUAL_ID:
-			return getAgregationJJDRolB_6007Parser();
+			return getAgregationJJDRolB_6003Parser();
 		case AgregationJJDMultiplicityAEditPart.VISUAL_ID:
-			return getAgregationJJDMultiplicityA_6008Parser();
+			return getAgregationJJDMultiplicityA_6004Parser();
 		case AgregationJJDMultiplicityBEditPart.VISUAL_ID:
-			return getAgregationJJDMultiplicityB_6009Parser();
+			return getAgregationJJDMultiplicityB_6005Parser();
 		case ContainmentJJDRolBEditPart.VISUAL_ID:
 			return getContainmentJJDRolB_6001Parser();
 		case ContainmentJJDRolAEditPart.VISUAL_ID:
-			return getContainmentJJDRolA_6002Parser();
+			return getContainmentJJDRolA_6006Parser();
 		case ContainmentJJDRolB2EditPart.VISUAL_ID:
-			return getContainmentJJDRolB_6003Parser();
+			return getContainmentJJDRolB_6007Parser();
 		case ContainmentJJDMultiplicityAEditPart.VISUAL_ID:
-			return getContainmentJJDMultiplicityA_6004Parser();
+			return getContainmentJJDMultiplicityA_6008Parser();
 		case ContainmentJJDMultiplicityBEditPart.VISUAL_ID:
 			return getContainmentJJDMultiplicityB_6014Parser();
 		case AssociationJJDRolAEditPart.VISUAL_ID:

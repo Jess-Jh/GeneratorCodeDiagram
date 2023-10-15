@@ -93,7 +93,7 @@ public class GroupRowGroupRowListTemplateWidgetCompartment3CanonicalEditPolicy e
 		View viewObject = (View) getHost().getModel();
 		LinkedList<EObject> result = new LinkedList<EObject>();
 		List<UidiagramNodeDescriptor> childDescriptors = UidiagramDiagramUpdater
-				.getGroupRowGroupRowListTemplateWidgetCompartment_7038SemanticChildren(viewObject);
+				.getGroupRowGroupRowListTemplateWidgetCompartment_7049SemanticChildren(viewObject);
 		for (UidiagramNodeDescriptor d : childDescriptors) {
 			result.add(d.getModelElement());
 		}
@@ -142,7 +142,7 @@ public class GroupRowGroupRowListTemplateWidgetCompartment3CanonicalEditPolicy e
 		}
 		LinkedList<IAdaptable> createdViews = new LinkedList<IAdaptable>();
 		List<UidiagramNodeDescriptor> childDescriptors = UidiagramDiagramUpdater
-				.getGroupRowGroupRowListTemplateWidgetCompartment_7038SemanticChildren((View) getHost().getModel());
+				.getGroupRowGroupRowListTemplateWidgetCompartment_7049SemanticChildren((View) getHost().getModel());
 		LinkedList<View> orphaned = new LinkedList<View>();
 		// we care to check only views we recognize as ours
 		LinkedList<View> knownViewChildren = new LinkedList<View>();

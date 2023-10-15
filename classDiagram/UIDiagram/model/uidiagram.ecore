@@ -119,8 +119,8 @@
       <details key="label" value="name"/>
       <details key="border.width" value="0"/>
     </eAnnotations>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="listTemplateWidget" upperBound="-1"
-        eType="#//TemplateWidget" containment="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="templateWidget" eType="#//TemplateWidget"
+        containment="true">
       <eAnnotations source="gmf.compartment"/>
     </eStructuralFeatures>
   </eClassifiers>

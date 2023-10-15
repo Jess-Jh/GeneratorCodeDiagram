@@ -571,96 +571,96 @@
               compartment="//@nodes.0/@ownedChild/@children.9/@ownedChild/@compartments.0"
               referencedChild="//@nodes.0/@ownedChild/@children.0/@ownedChild">
             <containmentFeature
-                href="uidiagram.ecore#//ListView/listTemplateWidget"/>
+                href="uidiagram.ecore#//ListView/templateWidget"/>
           </children>
           <children
               compartment="//@nodes.0/@ownedChild/@children.9/@ownedChild/@compartments.0"
               referencedChild="//@nodes.0/@ownedChild/@children.1/@ownedChild">
             <containmentFeature
-                href="uidiagram.ecore#//ListView/listTemplateWidget"/>
+                href="uidiagram.ecore#//ListView/templateWidget"/>
           </children>
           <children
               compartment="//@nodes.0/@ownedChild/@children.9/@ownedChild/@compartments.0"
               referencedChild="//@nodes.0/@ownedChild/@children.2/@ownedChild">
             <containmentFeature
-                href="uidiagram.ecore#//ListView/listTemplateWidget"/>
+                href="uidiagram.ecore#//ListView/templateWidget"/>
           </children>
           <children
               compartment="//@nodes.0/@ownedChild/@children.9/@ownedChild/@compartments.0"
               referencedChild="//@nodes.0/@ownedChild/@children.3/@ownedChild">
             <containmentFeature
-                href="uidiagram.ecore#//ListView/listTemplateWidget"/>
+                href="uidiagram.ecore#//ListView/templateWidget"/>
           </children>
           <children
               compartment="//@nodes.0/@ownedChild/@children.9/@ownedChild/@compartments.0"
               referencedChild="//@nodes.0/@ownedChild/@children.4/@ownedChild">
             <containmentFeature
-                href="uidiagram.ecore#//ListView/listTemplateWidget"/>
+                href="uidiagram.ecore#//ListView/templateWidget"/>
           </children>
           <children
               compartment="//@nodes.0/@ownedChild/@children.9/@ownedChild/@compartments.0"
               referencedChild="//@nodes.0/@ownedChild/@children.5/@ownedChild">
             <containmentFeature
-                href="uidiagram.ecore#//ListView/listTemplateWidget"/>
+                href="uidiagram.ecore#//ListView/templateWidget"/>
           </children>
           <children
               compartment="//@nodes.0/@ownedChild/@children.9/@ownedChild/@compartments.0"
               referencedChild="//@nodes.0/@ownedChild/@children.6/@ownedChild">
             <containmentFeature
-                href="uidiagram.ecore#//ListView/listTemplateWidget"/>
+                href="uidiagram.ecore#//ListView/templateWidget"/>
           </children>
           <children
               compartment="//@nodes.0/@ownedChild/@children.9/@ownedChild/@compartments.0"
               referencedChild="//@nodes.0/@ownedChild/@children.7/@ownedChild">
             <containmentFeature
-                href="uidiagram.ecore#//ListView/listTemplateWidget"/>
+                href="uidiagram.ecore#//ListView/templateWidget"/>
           </children>
           <children
               compartment="//@nodes.0/@ownedChild/@children.9/@ownedChild/@compartments.0"
               referencedChild="//@nodes.0/@ownedChild/@children.8/@ownedChild">
             <containmentFeature
-                href="uidiagram.ecore#//ListView/listTemplateWidget"/>
+                href="uidiagram.ecore#//ListView/templateWidget"/>
           </children>
           <children
               compartment="//@nodes.0/@ownedChild/@children.9/@ownedChild/@compartments.0"
               referencedChild="//@nodes.0/@ownedChild/@children.9/@ownedChild">
             <containmentFeature
-                href="uidiagram.ecore#//ListView/listTemplateWidget"/>
+                href="uidiagram.ecore#//ListView/templateWidget"/>
           </children>
           <children
               compartment="//@nodes.0/@ownedChild/@children.9/@ownedChild/@compartments.0"
               referencedChild="//@nodes.0/@ownedChild/@children.10/@ownedChild">
             <containmentFeature
-                href="uidiagram.ecore#//ListView/listTemplateWidget"/>
+                href="uidiagram.ecore#//ListView/templateWidget"/>
           </children>
           <children
               compartment="//@nodes.0/@ownedChild/@children.9/@ownedChild/@compartments.0"
               referencedChild="//@nodes.0/@ownedChild/@children.11/@ownedChild">
             <containmentFeature
-                href="uidiagram.ecore#//ListView/listTemplateWidget"/>
+                href="uidiagram.ecore#//ListView/templateWidget"/>
           </children>
           <children
               compartment="//@nodes.0/@ownedChild/@children.9/@ownedChild/@compartments.0"
               referencedChild="//@nodes.0/@ownedChild/@children.12/@ownedChild">
             <containmentFeature
-                href="uidiagram.ecore#//ListView/listTemplateWidget"/>
+                href="uidiagram.ecore#//ListView/templateWidget"/>
           </children>
           <children
               compartment="//@nodes.0/@ownedChild/@children.9/@ownedChild/@compartments.0"
               referencedChild="//@nodes.0/@ownedChild/@children.13/@ownedChild">
             <containmentFeature
-                href="uidiagram.ecore#//ListView/listTemplateWidget"/>
+                href="uidiagram.ecore#//ListView/templateWidget"/>
           </children>
           <children
               compartment="//@nodes.0/@ownedChild/@children.9/@ownedChild/@compartments.0"
               referencedChild="//@nodes.0/@ownedChild/@children.14/@ownedChild">
             <containmentFeature
-                href="uidiagram.ecore#//ListView/listTemplateWidget"/>
+                href="uidiagram.ecore#//ListView/templateWidget"/>
           </children>
           <compartments
               children="//@nodes.0/@ownedChild/@children.9/@ownedChild/@children.0 //@nodes.0/@ownedChild/@children.9/@ownedChild/@children.1 //@nodes.0/@ownedChild/@children.9/@ownedChild/@children.2 //@nodes.0/@ownedChild/@children.9/@ownedChild/@children.3 //@nodes.0/@ownedChild/@children.9/@ownedChild/@children.4 //@nodes.0/@ownedChild/@children.9/@ownedChild/@children.5 //@nodes.0/@ownedChild/@children.9/@ownedChild/@children.6 //@nodes.0/@ownedChild/@children.9/@ownedChild/@children.7 //@nodes.0/@ownedChild/@children.9/@ownedChild/@children.8 //@nodes.0/@ownedChild/@children.9/@ownedChild/@children.9 //@nodes.0/@ownedChild/@children.9/@ownedChild/@children.10 //@nodes.0/@ownedChild/@children.9/@ownedChild/@children.11 //@nodes.0/@ownedChild/@children.9/@ownedChild/@children.12 //@nodes.0/@ownedChild/@children.9/@ownedChild/@children.13 //@nodes.0/@ownedChild/@children.9/@ownedChild/@children.14">
             <compartment
-                href="uidiagram.gmfgraph#ListViewListTemplateWidgetCompartment"/>
+                href="uidiagram.gmfgraph#ListViewTemplateWidgetCompartment"/>
           </compartments>
         </ownedChild>
       </children>

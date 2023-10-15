@@ -59,7 +59,7 @@ public class GroupRow3ItemSemanticEditPolicy extends UidiagramBaseItemSemanticEd
 	* @generated
 	*/
 	public GroupRow3ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.GroupRow_3068);
+		super(UidiagramElementTypes.GroupRow_3083);
 	}
 
 	/**

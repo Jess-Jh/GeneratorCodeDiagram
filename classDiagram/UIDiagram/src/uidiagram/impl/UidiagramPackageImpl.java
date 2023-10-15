@@ -636,7 +636,7 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 	 * @generated
 	 */
 	@Override
-	public EReference getListView_ListTemplateWidget() {
+	public EReference getListView_TemplateWidget() {
 		return (EReference)listViewEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -801,7 +801,7 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		inputEClass = createEClass(INPUT);
 
 		listViewEClass = createEClass(LIST_VIEW);
-		createEReference(listViewEClass, LIST_VIEW__LIST_TEMPLATE_WIDGET);
+		createEReference(listViewEClass, LIST_VIEW__TEMPLATE_WIDGET);
 
 		radioButtonEClass = createEClass(RADIO_BUTTON);
 
@@ -915,7 +915,7 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		initEClass(inputEClass, Input.class, "Input", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
 		initEClass(listViewEClass, ListView.class, "ListView", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEReference(getListView_ListTemplateWidget(), this.getTemplateWidget(), null, "listTemplateWidget", null, 0, -1, ListView.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getListView_TemplateWidget(), this.getTemplateWidget(), null, "templateWidget", null, 0, 1, ListView.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(radioButtonEClass, RadioButton.class, "RadioButton", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
@@ -1141,7 +1141,7 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		   new String[] {
 		   });
 		addAnnotation
-		  (getListView_ListTemplateWidget(),
+		  (getListView_TemplateWidget(),
 		   source,
 		   new String[] {
 		   });

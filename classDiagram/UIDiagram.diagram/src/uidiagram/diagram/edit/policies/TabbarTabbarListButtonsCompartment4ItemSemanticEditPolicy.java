@@ -18,7 +18,7 @@ public class TabbarTabbarListButtonsCompartment4ItemSemanticEditPolicy extends U
 	* @generated
 	*/
 	public TabbarTabbarListButtonsCompartment4ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.Tabbar_3070);
+		super(UidiagramElementTypes.Tabbar_3085);
 	}
 
 	/**

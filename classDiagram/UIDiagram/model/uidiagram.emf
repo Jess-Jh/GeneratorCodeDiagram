@@ -67,7 +67,7 @@ class Appbar extends TemplateWidget {
 @gmf.node(label = "name")
 class Tabbar extends TemplateWidget {
 	@gmf.compartment
-    val Button[*] listButtons; 
+    val Button[*] listButtons;  
     
     @gmf.compartment
     val Label[*] listLabels; 
@@ -88,7 +88,7 @@ class Input extends TemplateWidget {}
 @gmf.node(label = "name", border.width="0")
 class ListView extends TemplateWidget {
 	@gmf.compartment
-    val TemplateWidget[*] listTemplateWidget; 
+    val TemplateWidget templateWidget; 
 }
 
 @gmf.node(label = "name")

@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="uidiagram.Column"/>
-    <fullyQualifiedTypeName name="generatorcode.views.DialogColumnView"/>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.policies.OpenComboBoxEditPolicy"/>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.ComboBoxNameEditPart"/>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.ComboBoxEditPart"/>
-    <fullyQualifiedTypeName name="uidiagram.ComboBox"/>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.ComboBoxName2EditPart"/>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.ComboBox2EditPart"/>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.ComboBoxName3EditPart"/>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.ComboBox3EditPart"/>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.ComboBoxName4EditPart"/>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.ComboBox4EditPart"/>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.ComboBoxName5EditPart"/>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.ComboBox5EditPart"/>
-    <fullyQualifiedTypeName name="generatorcode.views.DialogComboBoxView"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.policies.OpenDatePickerEditPolicy"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePickerNameEditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePickerEditPart"/>
-    <fullyQualifiedTypeName name="uidiagram.DatePicker"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePickerName2EditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePicker2EditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePickerName3EditPart"/>
@@ -30,7 +14,6 @@
     <fullyQualifiedTypeName name="generatorcode.views.DialogDatePickerView"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.GroupNameEditPart"/>
     <fullyQualifiedTypeName name="org.eclipse.gmf.runtime.diagram.ui.editparts.GroupEditPart"/>
-    <fullyQualifiedTypeName name="uidiagram.Group"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.GroupName2EditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.Group2EditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.GroupName3EditPart"/>
@@ -42,7 +25,6 @@
     <fullyQualifiedTypeName name="generatorcode.views.DialogGroupView"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.GroupColumnNameEditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.GroupColumnEditPart"/>
-    <fullyQualifiedTypeName name="uidiagram.GroupColumn"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.GroupColumnName2EditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.GroupColumn2EditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.GroupColumnName3EditPart"/>
@@ -54,10 +36,28 @@
     <fullyQualifiedTypeName name="generatorcode.views.DialogGroupColumnView"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.GroupRowNameEditPart"/>
     <fullyQualifiedTypeName name="generatorcode.views.DialogGroupRowView"/>
-    <fullyQualifiedTypeName name="uidiagram.Input"/>
     <fullyQualifiedTypeName name="generatorcode.views.DialogInputView"/>
-    <fullyQualifiedTypeName name="uidiagram.ListView"/>
     <fullyQualifiedTypeName name="generatorcode.views.DialogListView"/>
     <fullyQualifiedTypeName name="generatorcode.views.DialogRadioButtonView"/>
+    <fullyQualifiedTypeName name="generatorcode.views.DialogSwitchView"/>
+    <fullyQualifiedTypeName name="generatorcode.views.DialogTabbarView"/>
+    <fullyQualifiedTypeName name="generatorcode.views.DialogTableView"/>
+    <fullyQualifiedTypeName name="uidiagram.UIDiagram"/>
+    <fullyQualifiedTypeName name="uidiagram.ModelFactory"/>
+    <fullyQualifiedTypeName name="uidiagram.TemplateWidget"/>
+    <fullyQualifiedTypeName name="uidiagram.Group"/>
+    <fullyQualifiedTypeName name="uidiagram.GroupColumn"/>
+    <fullyQualifiedTypeName name="uidiagram.GroupRow"/>
+    <fullyQualifiedTypeName name="uidiagram.Appbar"/>
+    <fullyQualifiedTypeName name="uidiagram.Tabbar"/>
+    <fullyQualifiedTypeName name="uidiagram.Button"/>
+    <fullyQualifiedTypeName name="uidiagram.Label"/>
+    <fullyQualifiedTypeName name="uidiagram.Checkbox"/>
+    <fullyQualifiedTypeName name="uidiagram.Input"/>
+    <fullyQualifiedTypeName name="uidiagram.ListView"/>
+    <fullyQualifiedTypeName name="uidiagram.RadioButton"/>
+    <fullyQualifiedTypeName name="uidiagram.ComboBox"/>
+    <fullyQualifiedTypeName name="uidiagram.DatePicker"/>
     <fullyQualifiedTypeName name="uidiagram.Switch"/>
+    <fullyQualifiedTypeName name="uidiagram.Table"/>
 </qualifiedTypeNameHistroy>

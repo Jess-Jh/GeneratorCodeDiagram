@@ -158,14 +158,14 @@ public class UidiagramDiagramUpdater {
 			return getTabbarTabbarListButtonsCompartment_7019SemanticChildren(view);
 		case TabbarTabbarListLabelsCompartmentEditPart.VISUAL_ID:
 			return getTabbarTabbarListLabelsCompartment_7027SemanticChildren(view);
-		case ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID:
-			return getListViewListViewListTemplateWidgetCompartment_7034SemanticChildren(view);
+		case ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID:
+			return getListViewListViewTemplateWidgetCompartment_7034SemanticChildren(view);
 		case GroupGroupListTemplateWidgetCompartment5EditPart.VISUAL_ID:
-			return getGroupGroupListTemplateWidgetCompartment_7035SemanticChildren(view);
+			return getGroupGroupListTemplateWidgetCompartment_7047SemanticChildren(view);
 		case TableTableListCoulmnsCompartmentEditPart.VISUAL_ID:
 			return getTableTableListCoulmnsCompartment_7008SemanticChildren(view);
 		case GroupColumnGroupColumnListTemplateWidgetCompartment2EditPart.VISUAL_ID:
-			return getGroupColumnGroupColumnListTemplateWidgetCompartment_7036SemanticChildren(view);
+			return getGroupColumnGroupColumnListTemplateWidgetCompartment_7048SemanticChildren(view);
 		case GroupColumnGroupColumnListTemplateWidgetCompartment3EditPart.VISUAL_ID:
 			return getGroupColumnGroupColumnListTemplateWidgetCompartment_7010SemanticChildren(view);
 		case GroupRowGroupRowListTemplateWidgetCompartment2EditPart.VISUAL_ID:
@@ -180,10 +180,10 @@ public class UidiagramDiagramUpdater {
 			return getTabbarTabbarListButtonsCompartment_7023SemanticChildren(view);
 		case TabbarTabbarListLabelsCompartment2EditPart.VISUAL_ID:
 			return getTabbarTabbarListLabelsCompartment_7031SemanticChildren(view);
-		case ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID:
-			return getListViewListViewListTemplateWidgetCompartment_7037SemanticChildren(view);
+		case ListViewListViewTemplateWidgetCompartment2EditPart.VISUAL_ID:
+			return getListViewListViewTemplateWidgetCompartment_7037SemanticChildren(view);
 		case GroupRowGroupRowListTemplateWidgetCompartment3EditPart.VISUAL_ID:
-			return getGroupRowGroupRowListTemplateWidgetCompartment_7038SemanticChildren(view);
+			return getGroupRowGroupRowListTemplateWidgetCompartment_7049SemanticChildren(view);
 		case GroupRowGroupRowListTemplateWidgetCompartment4EditPart.VISUAL_ID:
 			return getGroupRowGroupRowListTemplateWidgetCompartment_7012SemanticChildren(view);
 		case AppbarAppbarListButtonsCompartment3EditPart.VISUAL_ID:
@@ -194,20 +194,20 @@ public class UidiagramDiagramUpdater {
 			return getTabbarTabbarListButtonsCompartment_7021SemanticChildren(view);
 		case TabbarTabbarListLabelsCompartment3EditPart.VISUAL_ID:
 			return getTabbarTabbarListLabelsCompartment_7029SemanticChildren(view);
-		case ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID:
-			return getListViewListViewListTemplateWidgetCompartment_7039SemanticChildren(view);
+		case ListViewListViewTemplateWidgetCompartment3EditPart.VISUAL_ID:
+			return getListViewListViewTemplateWidgetCompartment_7039SemanticChildren(view);
 		case AppbarAppbarListButtonsCompartment4EditPart.VISUAL_ID:
-			return getAppbarAppbarListButtonsCompartment_7040SemanticChildren(view);
+			return getAppbarAppbarListButtonsCompartment_7050SemanticChildren(view);
 		case AppbarAppbarListLabelsCompartment4EditPart.VISUAL_ID:
-			return getAppbarAppbarListLabelsCompartment_7041SemanticChildren(view);
+			return getAppbarAppbarListLabelsCompartment_7051SemanticChildren(view);
 		case TabbarTabbarListButtonsCompartment4EditPart.VISUAL_ID:
-			return getTabbarTabbarListButtonsCompartment_7042SemanticChildren(view);
+			return getTabbarTabbarListButtonsCompartment_7052SemanticChildren(view);
 		case TabbarTabbarListLabelsCompartment4EditPart.VISUAL_ID:
-			return getTabbarTabbarListLabelsCompartment_7043SemanticChildren(view);
-		case ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID:
-			return getListViewListViewListTemplateWidgetCompartment_7044SemanticChildren(view);
+			return getTabbarTabbarListLabelsCompartment_7053SemanticChildren(view);
+		case ListViewListViewTemplateWidgetCompartment4EditPart.VISUAL_ID:
+			return getListViewListViewTemplateWidgetCompartment_7054SemanticChildren(view);
 		case TableTableListCoulmnsCompartment2EditPart.VISUAL_ID:
-			return getTableTableListCoulmnsCompartment_7045SemanticChildren(view);
+			return getTableTableListCoulmnsCompartment_7055SemanticChildren(view);
 		case TableTableListCoulmnsCompartment3EditPart.VISUAL_ID:
 			return getTableTableListCoulmnsCompartment_7013SemanticChildren(view);
 		case TableTableListCoulmnsCompartment4EditPart.VISUAL_ID:
@@ -224,8 +224,8 @@ public class UidiagramDiagramUpdater {
 			return getTabbarTabbarListButtonsCompartment_7025SemanticChildren(view);
 		case TabbarTabbarListLabelsCompartment5EditPart.VISUAL_ID:
 			return getTabbarTabbarListLabelsCompartment_7033SemanticChildren(view);
-		case ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID:
-			return getListViewListViewListTemplateWidgetCompartment_7046SemanticChildren(view);
+		case ListViewListViewTemplateWidgetCompartment5EditPart.VISUAL_ID:
+			return getListViewListViewTemplateWidgetCompartment_7046SemanticChildren(view);
 		case TableTableListCoulmnsCompartment5EditPart.VISUAL_ID:
 			return getTableTableListCoulmnsCompartment_7017SemanticChildren(view);
 		}
@@ -917,7 +917,7 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramNodeDescriptor> getListViewListViewListTemplateWidgetCompartment_7034SemanticChildren(
+	public static List<UidiagramNodeDescriptor> getListViewListViewTemplateWidgetCompartment_7034SemanticChildren(
 			View view) {
 		if (false == view.eContainer() instanceof View) {
 			return Collections.emptyList();
@@ -928,68 +928,53 @@ public class UidiagramDiagramUpdater {
 		}
 		ListView modelElement = (ListView) containerView.getElement();
 		LinkedList<UidiagramNodeDescriptor> result = new LinkedList<UidiagramNodeDescriptor>();
-		for (Iterator<?> it = modelElement.getListTemplateWidget().iterator(); it.hasNext();) {
-			TemplateWidget childElement = (TemplateWidget) it.next();
+		{
+			TemplateWidget childElement = modelElement.getTemplateWidget();
 			int visualID = UidiagramVisualIDRegistry.getNodeVisualID(view, childElement);
 			if (visualID == Group5EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == GroupColumn2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == GroupRow3EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Appbar4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Tabbar4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Button6EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Label6EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Checkbox4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Input4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == ListView4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == RadioButton2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == ComboBox2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == DatePicker2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Switch2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Table2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 		}
 		return result;
@@ -998,7 +983,7 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramNodeDescriptor> getGroupGroupListTemplateWidgetCompartment_7035SemanticChildren(
+	public static List<UidiagramNodeDescriptor> getGroupGroupListTemplateWidgetCompartment_7047SemanticChildren(
 			View view) {
 		if (false == view.eContainer() instanceof View) {
 			return Collections.emptyList();
@@ -1103,7 +1088,7 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramNodeDescriptor> getGroupColumnGroupColumnListTemplateWidgetCompartment_7036SemanticChildren(
+	public static List<UidiagramNodeDescriptor> getGroupColumnGroupColumnListTemplateWidgetCompartment_7048SemanticChildren(
 			View view) {
 		if (false == view.eContainer() instanceof View) {
 			return Collections.emptyList();
@@ -1604,7 +1589,7 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramNodeDescriptor> getListViewListViewListTemplateWidgetCompartment_7039SemanticChildren(
+	public static List<UidiagramNodeDescriptor> getListViewListViewTemplateWidgetCompartment_7039SemanticChildren(
 			View view) {
 		if (false == view.eContainer() instanceof View) {
 			return Collections.emptyList();
@@ -1615,68 +1600,53 @@ public class UidiagramDiagramUpdater {
 		}
 		ListView modelElement = (ListView) containerView.getElement();
 		LinkedList<UidiagramNodeDescriptor> result = new LinkedList<UidiagramNodeDescriptor>();
-		for (Iterator<?> it = modelElement.getListTemplateWidget().iterator(); it.hasNext();) {
-			TemplateWidget childElement = (TemplateWidget) it.next();
+		{
+			TemplateWidget childElement = modelElement.getTemplateWidget();
 			int visualID = UidiagramVisualIDRegistry.getNodeVisualID(view, childElement);
 			if (visualID == Group5EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == GroupColumn2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == GroupRow3EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Appbar4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Tabbar4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Button6EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Label6EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Checkbox4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Input4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == ListView4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == RadioButton2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == ComboBox2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == DatePicker2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Switch2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Table2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 		}
 		return result;
@@ -1685,7 +1655,7 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramNodeDescriptor> getAppbarAppbarListButtonsCompartment_7040SemanticChildren(View view) {
+	public static List<UidiagramNodeDescriptor> getAppbarAppbarListButtonsCompartment_7050SemanticChildren(View view) {
 		if (false == view.eContainer() instanceof View) {
 			return Collections.emptyList();
 		}
@@ -1709,7 +1679,7 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramNodeDescriptor> getAppbarAppbarListLabelsCompartment_7041SemanticChildren(View view) {
+	public static List<UidiagramNodeDescriptor> getAppbarAppbarListLabelsCompartment_7051SemanticChildren(View view) {
 		if (false == view.eContainer() instanceof View) {
 			return Collections.emptyList();
 		}
@@ -1733,7 +1703,7 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramNodeDescriptor> getTabbarTabbarListButtonsCompartment_7042SemanticChildren(View view) {
+	public static List<UidiagramNodeDescriptor> getTabbarTabbarListButtonsCompartment_7052SemanticChildren(View view) {
 		if (false == view.eContainer() instanceof View) {
 			return Collections.emptyList();
 		}
@@ -1757,7 +1727,7 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramNodeDescriptor> getTabbarTabbarListLabelsCompartment_7043SemanticChildren(View view) {
+	public static List<UidiagramNodeDescriptor> getTabbarTabbarListLabelsCompartment_7053SemanticChildren(View view) {
 		if (false == view.eContainer() instanceof View) {
 			return Collections.emptyList();
 		}
@@ -1781,7 +1751,7 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramNodeDescriptor> getListViewListViewListTemplateWidgetCompartment_7044SemanticChildren(
+	public static List<UidiagramNodeDescriptor> getListViewListViewTemplateWidgetCompartment_7054SemanticChildren(
 			View view) {
 		if (false == view.eContainer() instanceof View) {
 			return Collections.emptyList();
@@ -1792,68 +1762,53 @@ public class UidiagramDiagramUpdater {
 		}
 		ListView modelElement = (ListView) containerView.getElement();
 		LinkedList<UidiagramNodeDescriptor> result = new LinkedList<UidiagramNodeDescriptor>();
-		for (Iterator<?> it = modelElement.getListTemplateWidget().iterator(); it.hasNext();) {
-			TemplateWidget childElement = (TemplateWidget) it.next();
+		{
+			TemplateWidget childElement = modelElement.getTemplateWidget();
 			int visualID = UidiagramVisualIDRegistry.getNodeVisualID(view, childElement);
 			if (visualID == Group5EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == GroupColumn2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == GroupRow3EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Appbar4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Tabbar4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Button6EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Label6EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Checkbox4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Input4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == ListView4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == RadioButton2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == ComboBox2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == DatePicker2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Switch2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Table2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 		}
 		return result;
@@ -1862,7 +1817,7 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramNodeDescriptor> getTableTableListCoulmnsCompartment_7045SemanticChildren(View view) {
+	public static List<UidiagramNodeDescriptor> getTableTableListCoulmnsCompartment_7055SemanticChildren(View view) {
 		if (false == view.eContainer() instanceof View) {
 			return Collections.emptyList();
 		}
@@ -2006,7 +1961,7 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramNodeDescriptor> getListViewListViewListTemplateWidgetCompartment_7037SemanticChildren(
+	public static List<UidiagramNodeDescriptor> getListViewListViewTemplateWidgetCompartment_7037SemanticChildren(
 			View view) {
 		if (false == view.eContainer() instanceof View) {
 			return Collections.emptyList();
@@ -2017,68 +1972,53 @@ public class UidiagramDiagramUpdater {
 		}
 		ListView modelElement = (ListView) containerView.getElement();
 		LinkedList<UidiagramNodeDescriptor> result = new LinkedList<UidiagramNodeDescriptor>();
-		for (Iterator<?> it = modelElement.getListTemplateWidget().iterator(); it.hasNext();) {
-			TemplateWidget childElement = (TemplateWidget) it.next();
+		{
+			TemplateWidget childElement = modelElement.getTemplateWidget();
 			int visualID = UidiagramVisualIDRegistry.getNodeVisualID(view, childElement);
 			if (visualID == Group5EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == GroupColumn2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == GroupRow3EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Appbar4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Tabbar4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Button6EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Label6EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Checkbox4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Input4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == ListView4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == RadioButton2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == ComboBox2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == DatePicker2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Switch2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Table2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 		}
 		return result;
@@ -2087,7 +2027,7 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramNodeDescriptor> getGroupRowGroupRowListTemplateWidgetCompartment_7038SemanticChildren(
+	public static List<UidiagramNodeDescriptor> getGroupRowGroupRowListTemplateWidgetCompartment_7049SemanticChildren(
 			View view) {
 		if (false == view.eContainer() instanceof View) {
 			return Collections.emptyList();
@@ -2450,7 +2390,7 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramNodeDescriptor> getListViewListViewListTemplateWidgetCompartment_7046SemanticChildren(
+	public static List<UidiagramNodeDescriptor> getListViewListViewTemplateWidgetCompartment_7046SemanticChildren(
 			View view) {
 		if (false == view.eContainer() instanceof View) {
 			return Collections.emptyList();
@@ -2461,68 +2401,53 @@ public class UidiagramDiagramUpdater {
 		}
 		ListView modelElement = (ListView) containerView.getElement();
 		LinkedList<UidiagramNodeDescriptor> result = new LinkedList<UidiagramNodeDescriptor>();
-		for (Iterator<?> it = modelElement.getListTemplateWidget().iterator(); it.hasNext();) {
-			TemplateWidget childElement = (TemplateWidget) it.next();
+		{
+			TemplateWidget childElement = modelElement.getTemplateWidget();
 			int visualID = UidiagramVisualIDRegistry.getNodeVisualID(view, childElement);
 			if (visualID == Group5EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == GroupColumn2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == GroupRow3EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Appbar4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Tabbar4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Button6EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Label6EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Checkbox4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Input4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == ListView4EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == RadioButton2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == ComboBox2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == DatePicker2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Switch2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 			if (visualID == Table2EditPart.VISUAL_ID) {
 				result.add(new UidiagramNodeDescriptor(childElement, visualID));
-				continue;
 			}
 		}
 		return result;
@@ -2596,7 +2521,7 @@ public class UidiagramDiagramUpdater {
 		case ListViewEditPart.VISUAL_ID:
 			return getListView_3013ContainedLinks(view);
 		case Group5EditPart.VISUAL_ID:
-			return getGroup_3066ContainedLinks(view);
+			return getGroup_3081ContainedLinks(view);
 		case RadioButtonEditPart.VISUAL_ID:
 			return getRadioButton_3014ContainedLinks(view);
 		case ComboBoxEditPart.VISUAL_ID:
@@ -2610,7 +2535,7 @@ public class UidiagramDiagramUpdater {
 		case ColumnEditPart.VISUAL_ID:
 			return getColumn_3019ContainedLinks(view);
 		case GroupColumn2EditPart.VISUAL_ID:
-			return getGroupColumn_3067ContainedLinks(view);
+			return getGroupColumn_3082ContainedLinks(view);
 		case GroupColumn3EditPart.VISUAL_ID:
 			return getGroupColumn_3021ContainedLinks(view);
 		case GroupRow2EditPart.VISUAL_ID:
@@ -2632,7 +2557,7 @@ public class UidiagramDiagramUpdater {
 		case ListView2EditPart.VISUAL_ID:
 			return getListView_3042ContainedLinks(view);
 		case GroupRow3EditPart.VISUAL_ID:
-			return getGroupRow_3068ContainedLinks(view);
+			return getGroupRow_3083ContainedLinks(view);
 		case GroupRow4EditPart.VISUAL_ID:
 			return getGroupRow_3023ContainedLinks(view);
 		case Appbar3EditPart.VISUAL_ID:
@@ -2650,29 +2575,29 @@ public class UidiagramDiagramUpdater {
 		case ListView3EditPart.VISUAL_ID:
 			return getListView_3030ContainedLinks(view);
 		case Appbar4EditPart.VISUAL_ID:
-			return getAppbar_3069ContainedLinks(view);
+			return getAppbar_3084ContainedLinks(view);
 		case Tabbar4EditPart.VISUAL_ID:
-			return getTabbar_3070ContainedLinks(view);
+			return getTabbar_3085ContainedLinks(view);
 		case Button6EditPart.VISUAL_ID:
-			return getButton_3071ContainedLinks(view);
+			return getButton_3086ContainedLinks(view);
 		case Label6EditPart.VISUAL_ID:
-			return getLabel_3072ContainedLinks(view);
+			return getLabel_3087ContainedLinks(view);
 		case Checkbox4EditPart.VISUAL_ID:
-			return getCheckbox_3073ContainedLinks(view);
+			return getCheckbox_3088ContainedLinks(view);
 		case Input4EditPart.VISUAL_ID:
-			return getInput_3074ContainedLinks(view);
+			return getInput_3089ContainedLinks(view);
 		case ListView4EditPart.VISUAL_ID:
-			return getListView_3075ContainedLinks(view);
+			return getListView_3090ContainedLinks(view);
 		case RadioButton2EditPart.VISUAL_ID:
-			return getRadioButton_3076ContainedLinks(view);
+			return getRadioButton_3091ContainedLinks(view);
 		case ComboBox2EditPart.VISUAL_ID:
-			return getComboBox_3077ContainedLinks(view);
+			return getComboBox_3092ContainedLinks(view);
 		case DatePicker2EditPart.VISUAL_ID:
-			return getDatePicker_3078ContainedLinks(view);
+			return getDatePicker_3093ContainedLinks(view);
 		case Switch2EditPart.VISUAL_ID:
-			return getSwitch_3079ContainedLinks(view);
+			return getSwitch_3094ContainedLinks(view);
 		case Table2EditPart.VISUAL_ID:
-			return getTable_3080ContainedLinks(view);
+			return getTable_3095ContainedLinks(view);
 		case RadioButton3EditPart.VISUAL_ID:
 			return getRadioButton_3031ContainedLinks(view);
 		case ComboBox3EditPart.VISUAL_ID:
@@ -2767,7 +2692,7 @@ public class UidiagramDiagramUpdater {
 		case ListViewEditPart.VISUAL_ID:
 			return getListView_3013IncomingLinks(view);
 		case Group5EditPart.VISUAL_ID:
-			return getGroup_3066IncomingLinks(view);
+			return getGroup_3081IncomingLinks(view);
 		case RadioButtonEditPart.VISUAL_ID:
 			return getRadioButton_3014IncomingLinks(view);
 		case ComboBoxEditPart.VISUAL_ID:
@@ -2781,7 +2706,7 @@ public class UidiagramDiagramUpdater {
 		case ColumnEditPart.VISUAL_ID:
 			return getColumn_3019IncomingLinks(view);
 		case GroupColumn2EditPart.VISUAL_ID:
-			return getGroupColumn_3067IncomingLinks(view);
+			return getGroupColumn_3082IncomingLinks(view);
 		case GroupColumn3EditPart.VISUAL_ID:
 			return getGroupColumn_3021IncomingLinks(view);
 		case GroupRow2EditPart.VISUAL_ID:
@@ -2803,7 +2728,7 @@ public class UidiagramDiagramUpdater {
 		case ListView2EditPart.VISUAL_ID:
 			return getListView_3042IncomingLinks(view);
 		case GroupRow3EditPart.VISUAL_ID:
-			return getGroupRow_3068IncomingLinks(view);
+			return getGroupRow_3083IncomingLinks(view);
 		case GroupRow4EditPart.VISUAL_ID:
 			return getGroupRow_3023IncomingLinks(view);
 		case Appbar3EditPart.VISUAL_ID:
@@ -2821,29 +2746,29 @@ public class UidiagramDiagramUpdater {
 		case ListView3EditPart.VISUAL_ID:
 			return getListView_3030IncomingLinks(view);
 		case Appbar4EditPart.VISUAL_ID:
-			return getAppbar_3069IncomingLinks(view);
+			return getAppbar_3084IncomingLinks(view);
 		case Tabbar4EditPart.VISUAL_ID:
-			return getTabbar_3070IncomingLinks(view);
+			return getTabbar_3085IncomingLinks(view);
 		case Button6EditPart.VISUAL_ID:
-			return getButton_3071IncomingLinks(view);
+			return getButton_3086IncomingLinks(view);
 		case Label6EditPart.VISUAL_ID:
-			return getLabel_3072IncomingLinks(view);
+			return getLabel_3087IncomingLinks(view);
 		case Checkbox4EditPart.VISUAL_ID:
-			return getCheckbox_3073IncomingLinks(view);
+			return getCheckbox_3088IncomingLinks(view);
 		case Input4EditPart.VISUAL_ID:
-			return getInput_3074IncomingLinks(view);
+			return getInput_3089IncomingLinks(view);
 		case ListView4EditPart.VISUAL_ID:
-			return getListView_3075IncomingLinks(view);
+			return getListView_3090IncomingLinks(view);
 		case RadioButton2EditPart.VISUAL_ID:
-			return getRadioButton_3076IncomingLinks(view);
+			return getRadioButton_3091IncomingLinks(view);
 		case ComboBox2EditPart.VISUAL_ID:
-			return getComboBox_3077IncomingLinks(view);
+			return getComboBox_3092IncomingLinks(view);
 		case DatePicker2EditPart.VISUAL_ID:
-			return getDatePicker_3078IncomingLinks(view);
+			return getDatePicker_3093IncomingLinks(view);
 		case Switch2EditPart.VISUAL_ID:
-			return getSwitch_3079IncomingLinks(view);
+			return getSwitch_3094IncomingLinks(view);
 		case Table2EditPart.VISUAL_ID:
-			return getTable_3080IncomingLinks(view);
+			return getTable_3095IncomingLinks(view);
 		case RadioButton3EditPart.VISUAL_ID:
 			return getRadioButton_3031IncomingLinks(view);
 		case ComboBox3EditPart.VISUAL_ID:
@@ -2938,7 +2863,7 @@ public class UidiagramDiagramUpdater {
 		case ListViewEditPart.VISUAL_ID:
 			return getListView_3013OutgoingLinks(view);
 		case Group5EditPart.VISUAL_ID:
-			return getGroup_3066OutgoingLinks(view);
+			return getGroup_3081OutgoingLinks(view);
 		case RadioButtonEditPart.VISUAL_ID:
 			return getRadioButton_3014OutgoingLinks(view);
 		case ComboBoxEditPart.VISUAL_ID:
@@ -2952,7 +2877,7 @@ public class UidiagramDiagramUpdater {
 		case ColumnEditPart.VISUAL_ID:
 			return getColumn_3019OutgoingLinks(view);
 		case GroupColumn2EditPart.VISUAL_ID:
-			return getGroupColumn_3067OutgoingLinks(view);
+			return getGroupColumn_3082OutgoingLinks(view);
 		case GroupColumn3EditPart.VISUAL_ID:
 			return getGroupColumn_3021OutgoingLinks(view);
 		case GroupRow2EditPart.VISUAL_ID:
@@ -2974,7 +2899,7 @@ public class UidiagramDiagramUpdater {
 		case ListView2EditPart.VISUAL_ID:
 			return getListView_3042OutgoingLinks(view);
 		case GroupRow3EditPart.VISUAL_ID:
-			return getGroupRow_3068OutgoingLinks(view);
+			return getGroupRow_3083OutgoingLinks(view);
 		case GroupRow4EditPart.VISUAL_ID:
 			return getGroupRow_3023OutgoingLinks(view);
 		case Appbar3EditPart.VISUAL_ID:
@@ -2992,29 +2917,29 @@ public class UidiagramDiagramUpdater {
 		case ListView3EditPart.VISUAL_ID:
 			return getListView_3030OutgoingLinks(view);
 		case Appbar4EditPart.VISUAL_ID:
-			return getAppbar_3069OutgoingLinks(view);
+			return getAppbar_3084OutgoingLinks(view);
 		case Tabbar4EditPart.VISUAL_ID:
-			return getTabbar_3070OutgoingLinks(view);
+			return getTabbar_3085OutgoingLinks(view);
 		case Button6EditPart.VISUAL_ID:
-			return getButton_3071OutgoingLinks(view);
+			return getButton_3086OutgoingLinks(view);
 		case Label6EditPart.VISUAL_ID:
-			return getLabel_3072OutgoingLinks(view);
+			return getLabel_3087OutgoingLinks(view);
 		case Checkbox4EditPart.VISUAL_ID:
-			return getCheckbox_3073OutgoingLinks(view);
+			return getCheckbox_3088OutgoingLinks(view);
 		case Input4EditPart.VISUAL_ID:
-			return getInput_3074OutgoingLinks(view);
+			return getInput_3089OutgoingLinks(view);
 		case ListView4EditPart.VISUAL_ID:
-			return getListView_3075OutgoingLinks(view);
+			return getListView_3090OutgoingLinks(view);
 		case RadioButton2EditPart.VISUAL_ID:
-			return getRadioButton_3076OutgoingLinks(view);
+			return getRadioButton_3091OutgoingLinks(view);
 		case ComboBox2EditPart.VISUAL_ID:
-			return getComboBox_3077OutgoingLinks(view);
+			return getComboBox_3092OutgoingLinks(view);
 		case DatePicker2EditPart.VISUAL_ID:
-			return getDatePicker_3078OutgoingLinks(view);
+			return getDatePicker_3093OutgoingLinks(view);
 		case Switch2EditPart.VISUAL_ID:
-			return getSwitch_3079OutgoingLinks(view);
+			return getSwitch_3094OutgoingLinks(view);
 		case Table2EditPart.VISUAL_ID:
-			return getTable_3080OutgoingLinks(view);
+			return getTable_3095OutgoingLinks(view);
 		case RadioButton3EditPart.VISUAL_ID:
 			return getRadioButton_3031OutgoingLinks(view);
 		case ComboBox3EditPart.VISUAL_ID:
@@ -3203,7 +3128,7 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getGroup_3066ContainedLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getGroup_3081ContainedLinks(View view) {
 		return Collections.emptyList();
 	}
 
@@ -3252,7 +3177,7 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getGroupColumn_3067ContainedLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getGroupColumn_3082ContainedLinks(View view) {
 		return Collections.emptyList();
 	}
 
@@ -3336,84 +3261,84 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getAppbar_3069ContainedLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getAppbar_3084ContainedLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getTabbar_3070ContainedLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getTabbar_3085ContainedLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getButton_3071ContainedLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getButton_3086ContainedLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getLabel_3072ContainedLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getLabel_3087ContainedLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getCheckbox_3073ContainedLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getCheckbox_3088ContainedLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getInput_3074ContainedLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getInput_3089ContainedLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getListView_3075ContainedLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getListView_3090ContainedLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getRadioButton_3076ContainedLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getRadioButton_3091ContainedLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getComboBox_3077ContainedLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getComboBox_3092ContainedLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getDatePicker_3078ContainedLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getDatePicker_3093ContainedLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getSwitch_3079ContainedLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getSwitch_3094ContainedLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getTable_3080ContainedLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getTable_3095ContainedLinks(View view) {
 		return Collections.emptyList();
 	}
 
@@ -3504,7 +3429,7 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getGroupRow_3068ContainedLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getGroupRow_3083ContainedLinks(View view) {
 		return Collections.emptyList();
 	}
 
@@ -3770,7 +3695,7 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getGroup_3066IncomingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getGroup_3081IncomingLinks(View view) {
 		return Collections.emptyList();
 	}
 
@@ -3819,7 +3744,7 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getGroupColumn_3067IncomingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getGroupColumn_3082IncomingLinks(View view) {
 		return Collections.emptyList();
 	}
 
@@ -3903,84 +3828,84 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getAppbar_3069IncomingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getAppbar_3084IncomingLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getTabbar_3070IncomingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getTabbar_3085IncomingLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getButton_3071IncomingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getButton_3086IncomingLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getLabel_3072IncomingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getLabel_3087IncomingLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getCheckbox_3073IncomingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getCheckbox_3088IncomingLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getInput_3074IncomingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getInput_3089IncomingLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getListView_3075IncomingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getListView_3090IncomingLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getRadioButton_3076IncomingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getRadioButton_3091IncomingLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getComboBox_3077IncomingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getComboBox_3092IncomingLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getDatePicker_3078IncomingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getDatePicker_3093IncomingLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getSwitch_3079IncomingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getSwitch_3094IncomingLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getTable_3080IncomingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getTable_3095IncomingLinks(View view) {
 		return Collections.emptyList();
 	}
 
@@ -4071,7 +3996,7 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getGroupRow_3068IncomingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getGroupRow_3083IncomingLinks(View view) {
 		return Collections.emptyList();
 	}
 
@@ -4337,7 +4262,7 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getGroup_3066OutgoingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getGroup_3081OutgoingLinks(View view) {
 		return Collections.emptyList();
 	}
 
@@ -4386,7 +4311,7 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getGroupColumn_3067OutgoingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getGroupColumn_3082OutgoingLinks(View view) {
 		return Collections.emptyList();
 	}
 
@@ -4470,84 +4395,84 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getAppbar_3069OutgoingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getAppbar_3084OutgoingLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getTabbar_3070OutgoingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getTabbar_3085OutgoingLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getButton_3071OutgoingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getButton_3086OutgoingLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getLabel_3072OutgoingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getLabel_3087OutgoingLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getCheckbox_3073OutgoingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getCheckbox_3088OutgoingLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getInput_3074OutgoingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getInput_3089OutgoingLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getListView_3075OutgoingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getListView_3090OutgoingLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getRadioButton_3076OutgoingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getRadioButton_3091OutgoingLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getComboBox_3077OutgoingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getComboBox_3092OutgoingLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getDatePicker_3078OutgoingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getDatePicker_3093OutgoingLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getSwitch_3079OutgoingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getSwitch_3094OutgoingLinks(View view) {
 		return Collections.emptyList();
 	}
 
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getTable_3080OutgoingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getTable_3095OutgoingLinks(View view) {
 		return Collections.emptyList();
 	}
 
@@ -4638,7 +4563,7 @@ public class UidiagramDiagramUpdater {
 	/**
 	* @generated
 	*/
-	public static List<UidiagramLinkDescriptor> getGroupRow_3068OutgoingLinks(View view) {
+	public static List<UidiagramLinkDescriptor> getGroupRow_3083OutgoingLinks(View view) {
 		return Collections.emptyList();
 	}
 

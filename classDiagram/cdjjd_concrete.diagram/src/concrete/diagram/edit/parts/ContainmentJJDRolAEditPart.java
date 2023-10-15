@@ -61,7 +61,7 @@ public class ContainmentJJDRolAEditPart extends LabelEditPart implements ITextAw
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 6002;
+	public static final int VISUAL_ID = 6006;
 
 	/**
 	* @generated

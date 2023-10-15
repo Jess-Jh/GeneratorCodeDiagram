@@ -47,6 +47,10 @@ public class ListView4CreateCommand extends EditElementCommand {
 	* @generated
 	*/
 	public boolean canExecute() {
+		ListView container = (ListView) getElementToEdit();
+		if (container.getTemplateWidget() != null) {
+			return false;
+		}
 		return true;
 
 	}
@@ -58,7 +62,7 @@ public class ListView4CreateCommand extends EditElementCommand {
 		ListView newElement = UidiagramFactory.eINSTANCE.createListView();
 
 		ListView owner = (ListView) getElementToEdit();
-		owner.getListTemplateWidget().add(newElement);
+		owner.setTemplateWidget(newElement);
 
 		doConfigure(newElement, monitor, info);
 

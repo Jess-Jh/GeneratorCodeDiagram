@@ -61,7 +61,7 @@ public class AgregationJJDRolAEditPart extends LabelEditPart implements ITextAwa
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 6006;
+	public static final int VISUAL_ID = 6002;
 
 	/**
 	* @generated

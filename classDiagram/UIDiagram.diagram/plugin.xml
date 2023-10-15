@@ -258,7 +258,7 @@
          </object>
          <context viewClass="org.eclipse.gmf.runtime.notation.Node" containerViews="referencing-diagrams"/>
          <context viewClass="org.eclipse.gmf.runtime.notation.Diagram" semanticHints="Uidiagram"/>
-         <context viewClass="org.eclipse.gmf.runtime.notation.Node" semanticHints="2001,3001,3002,3003,3004,3005,3006,3007,3062,3064,3008,3063,3065,3009,3010,3011,3012,3013,3066,3014,3015,3016,3017,3018,3019,3067,3021,3022,3020,3036,3037,3038,3039,3040,3041,3042,3068,3023,3024,3025,3026,3027,3028,3029,3030,3069,3070,3071,3072,3073,3074,3075,3076,3077,3078,3079,3080,3031,3032,3033,3034,3035,3043,3044,3045,3046,3047,3048,3049,3050,3051,3052,3053,3054,3055,3056,3057,3058,3059,3060,3061"/>
+         <context viewClass="org.eclipse.gmf.runtime.notation.Node" semanticHints="2001,3001,3002,3003,3004,3005,3006,3007,3062,3064,3008,3063,3065,3009,3010,3011,3012,3013,3081,3014,3015,3016,3017,3018,3019,3082,3021,3022,3020,3036,3037,3038,3039,3040,3041,3042,3083,3023,3024,3025,3026,3027,3028,3029,3030,3084,3085,3086,3087,3088,3089,3090,3091,3092,3093,3094,3095,3031,3032,3033,3034,3035,3043,3044,3045,3046,3047,3048,3049,3050,3051,3052,3053,3054,3055,3056,3057,3058,3059,3060,3061"/>
       </viewProvider>
    </extension>
 
@@ -270,16 +270,16 @@
             <method name="getType()" value="Uidiagram"/>
          </object>
          <object class="org.eclipse.gmf.runtime.notation.Node" id="generated-nodes">
-            <method name="getType()" value="2001,3001,3002,3003,3004,3005,3006,3007,3062,3064,3008,3063,3065,3009,3010,3011,3012,3013,3066,3014,3015,3016,3017,3018,3019,3067,3021,3022,3020,3036,3037,3038,3039,3040,3041,3042,3068,3023,3024,3025,3026,3027,3028,3029,3030,3069,3070,3071,3072,3073,3074,3075,3076,3077,3078,3079,3080,3031,3032,3033,3034,3035,3043,3044,3045,3046,3047,3048,3049,3050,3051,3052,3053,3054,3055,3056,3057,3058,3059,3060,3061"/>
+            <method name="getType()" value="2001,3001,3002,3003,3004,3005,3006,3007,3062,3064,3008,3063,3065,3009,3010,3011,3012,3013,3081,3014,3015,3016,3017,3018,3019,3082,3021,3022,3020,3036,3037,3038,3039,3040,3041,3042,3083,3023,3024,3025,3026,3027,3028,3029,3030,3084,3085,3086,3087,3088,3089,3090,3091,3092,3093,3094,3095,3031,3032,3033,3034,3035,3043,3044,3045,3046,3047,3048,3049,3050,3051,3052,3053,3054,3055,3056,3057,3058,3059,3060,3061"/>
          </object>
          <object class="org.eclipse.gmf.runtime.notation.Edge" id="generated-links">
             <method name="getType()" value=""/>
          </object>
          <object class="org.eclipse.gmf.runtime.notation.Node" id="generated-labels">
-            <method name="getType()" value="5062,5047,5046,5045,5044,5043,5014,5001,5063,5065,5002,5064,5066,5003,5004,5005,5006,5007,5067,5008,5009,5010,5011,5013,5012,5081,5041,5028,5042,5029,5030,5031,5032,5033,5034,5035,5080,5027,5015,5016,5017,5018,5019,5020,5021,5068,5069,5070,5071,5072,5073,5079,5074,5075,5076,5077,5078,5022,5023,5024,5025,5026,5036,5037,5038,5039,5040,5048,5049,5050,5051,5052,5053,5054,5055,5056,5057,5058,5059,5060,5061"/>
+            <method name="getType()" value="5062,5047,5046,5045,5044,5043,5014,5001,5063,5065,5002,5064,5066,5003,5004,5005,5006,5007,5082,5008,5009,5010,5011,5013,5012,5096,5041,5028,5042,5029,5030,5031,5032,5033,5034,5035,5095,5027,5015,5016,5017,5018,5019,5020,5021,5083,5084,5085,5086,5087,5088,5094,5089,5090,5091,5092,5093,5022,5023,5024,5025,5026,5036,5037,5038,5039,5040,5048,5049,5050,5051,5052,5053,5054,5055,5056,5057,5058,5059,5060,5061"/>
          </object>
          <object class="org.eclipse.gmf.runtime.notation.Node" id="generated-compartments">
-            <method name="getType()" value="7001,7002,7003,7004,7005,7006,7007,7018,7026,7019,7027,7034,7035,7008,7036,7010,7011,7009,7022,7030,7023,7031,7037,7038,7012,7020,7028,7021,7029,7039,7040,7041,7042,7043,7044,7045,7013,7014,7015,7016,7024,7032,7025,7033,7046,7017"/>
+            <method name="getType()" value="7001,7002,7003,7004,7005,7006,7007,7018,7026,7019,7027,7034,7047,7008,7048,7010,7011,7009,7022,7030,7023,7031,7037,7049,7012,7020,7028,7021,7029,7039,7050,7051,7052,7053,7054,7055,7013,7014,7015,7016,7024,7032,7025,7033,7046,7017"/>
          </object>
          <context views="generated-diagram,generated-nodes,generated-links,generated-labels,generated-compartments"/>
       </editpartProvider>
@@ -385,8 +385,8 @@
       </modelingAssistantProvider>
             <modelingAssistantProvider class="uidiagram.diagram.providers.assistants.UidiagramModelingAssistantProviderOfGroup5EditPart">
          <Priority name="Lowest"/>
-         <object class="uidiagram.diagram.edit.parts.Group5EditPart" id="Group_3066"/>
-         <context elements="Group_3066"/>
+         <object class="uidiagram.diagram.edit.parts.Group5EditPart" id="Group_3081"/>
+         <context elements="Group_3081"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="uidiagram.diagram.providers.assistants.UidiagramModelingAssistantProviderOfRadioButtonEditPart">
          <Priority name="Lowest"/>
@@ -420,8 +420,8 @@
       </modelingAssistantProvider>
             <modelingAssistantProvider class="uidiagram.diagram.providers.assistants.UidiagramModelingAssistantProviderOfGroupColumn2EditPart">
          <Priority name="Lowest"/>
-         <object class="uidiagram.diagram.edit.parts.GroupColumn2EditPart" id="GroupColumn_3067"/>
-         <context elements="GroupColumn_3067"/>
+         <object class="uidiagram.diagram.edit.parts.GroupColumn2EditPart" id="GroupColumn_3082"/>
+         <context elements="GroupColumn_3082"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="uidiagram.diagram.providers.assistants.UidiagramModelingAssistantProviderOfGroupColumn3EditPart">
          <Priority name="Lowest"/>
@@ -475,8 +475,8 @@
       </modelingAssistantProvider>
             <modelingAssistantProvider class="uidiagram.diagram.providers.assistants.UidiagramModelingAssistantProviderOfGroupRow3EditPart">
          <Priority name="Lowest"/>
-         <object class="uidiagram.diagram.edit.parts.GroupRow3EditPart" id="GroupRow_3068"/>
-         <context elements="GroupRow_3068"/>
+         <object class="uidiagram.diagram.edit.parts.GroupRow3EditPart" id="GroupRow_3083"/>
+         <context elements="GroupRow_3083"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="uidiagram.diagram.providers.assistants.UidiagramModelingAssistantProviderOfGroupRow4EditPart">
          <Priority name="Lowest"/>
@@ -520,63 +520,63 @@
       </modelingAssistantProvider>
             <modelingAssistantProvider class="uidiagram.diagram.providers.assistants.UidiagramModelingAssistantProviderOfAppbar4EditPart">
          <Priority name="Lowest"/>
-         <object class="uidiagram.diagram.edit.parts.Appbar4EditPart" id="Appbar_3069"/>
-         <context elements="Appbar_3069"/>
+         <object class="uidiagram.diagram.edit.parts.Appbar4EditPart" id="Appbar_3084"/>
+         <context elements="Appbar_3084"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="uidiagram.diagram.providers.assistants.UidiagramModelingAssistantProviderOfTabbar4EditPart">
          <Priority name="Lowest"/>
-         <object class="uidiagram.diagram.edit.parts.Tabbar4EditPart" id="Tabbar_3070"/>
-         <context elements="Tabbar_3070"/>
+         <object class="uidiagram.diagram.edit.parts.Tabbar4EditPart" id="Tabbar_3085"/>
+         <context elements="Tabbar_3085"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="uidiagram.diagram.providers.assistants.UidiagramModelingAssistantProviderOfButton6EditPart">
          <Priority name="Lowest"/>
-         <object class="uidiagram.diagram.edit.parts.Button6EditPart" id="Button_3071"/>
-         <context elements="Button_3071"/>
+         <object class="uidiagram.diagram.edit.parts.Button6EditPart" id="Button_3086"/>
+         <context elements="Button_3086"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="uidiagram.diagram.providers.assistants.UidiagramModelingAssistantProviderOfLabel6EditPart">
          <Priority name="Lowest"/>
-         <object class="uidiagram.diagram.edit.parts.Label6EditPart" id="Label_3072"/>
-         <context elements="Label_3072"/>
+         <object class="uidiagram.diagram.edit.parts.Label6EditPart" id="Label_3087"/>
+         <context elements="Label_3087"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="uidiagram.diagram.providers.assistants.UidiagramModelingAssistantProviderOfCheckbox4EditPart">
          <Priority name="Lowest"/>
-         <object class="uidiagram.diagram.edit.parts.Checkbox4EditPart" id="Checkbox_3073"/>
-         <context elements="Checkbox_3073"/>
+         <object class="uidiagram.diagram.edit.parts.Checkbox4EditPart" id="Checkbox_3088"/>
+         <context elements="Checkbox_3088"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="uidiagram.diagram.providers.assistants.UidiagramModelingAssistantProviderOfInput4EditPart">
          <Priority name="Lowest"/>
-         <object class="uidiagram.diagram.edit.parts.Input4EditPart" id="Input_3074"/>
-         <context elements="Input_3074"/>
+         <object class="uidiagram.diagram.edit.parts.Input4EditPart" id="Input_3089"/>
+         <context elements="Input_3089"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="uidiagram.diagram.providers.assistants.UidiagramModelingAssistantProviderOfListView4EditPart">
          <Priority name="Lowest"/>
-         <object class="uidiagram.diagram.edit.parts.ListView4EditPart" id="ListView_3075"/>
-         <context elements="ListView_3075"/>
+         <object class="uidiagram.diagram.edit.parts.ListView4EditPart" id="ListView_3090"/>
+         <context elements="ListView_3090"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="uidiagram.diagram.providers.assistants.UidiagramModelingAssistantProviderOfRadioButton2EditPart">
          <Priority name="Lowest"/>
-         <object class="uidiagram.diagram.edit.parts.RadioButton2EditPart" id="RadioButton_3076"/>
-         <context elements="RadioButton_3076"/>
+         <object class="uidiagram.diagram.edit.parts.RadioButton2EditPart" id="RadioButton_3091"/>
+         <context elements="RadioButton_3091"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="uidiagram.diagram.providers.assistants.UidiagramModelingAssistantProviderOfComboBox2EditPart">
          <Priority name="Lowest"/>
-         <object class="uidiagram.diagram.edit.parts.ComboBox2EditPart" id="ComboBox_3077"/>
-         <context elements="ComboBox_3077"/>
+         <object class="uidiagram.diagram.edit.parts.ComboBox2EditPart" id="ComboBox_3092"/>
+         <context elements="ComboBox_3092"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="uidiagram.diagram.providers.assistants.UidiagramModelingAssistantProviderOfDatePicker2EditPart">
          <Priority name="Lowest"/>
-         <object class="uidiagram.diagram.edit.parts.DatePicker2EditPart" id="DatePicker_3078"/>
-         <context elements="DatePicker_3078"/>
+         <object class="uidiagram.diagram.edit.parts.DatePicker2EditPart" id="DatePicker_3093"/>
+         <context elements="DatePicker_3093"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="uidiagram.diagram.providers.assistants.UidiagramModelingAssistantProviderOfSwitch2EditPart">
          <Priority name="Lowest"/>
-         <object class="uidiagram.diagram.edit.parts.Switch2EditPart" id="Switch_3079"/>
-         <context elements="Switch_3079"/>
+         <object class="uidiagram.diagram.edit.parts.Switch2EditPart" id="Switch_3094"/>
+         <context elements="Switch_3094"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="uidiagram.diagram.providers.assistants.UidiagramModelingAssistantProviderOfTable2EditPart">
          <Priority name="Lowest"/>
-         <object class="uidiagram.diagram.edit.parts.Table2EditPart" id="Table_3080"/>
-         <context elements="Table_3080"/>
+         <object class="uidiagram.diagram.edit.parts.Table2EditPart" id="Table_3095"/>
+         <context elements="Table_3095"/>
       </modelingAssistantProvider>
             <modelingAssistantProvider class="uidiagram.diagram.providers.assistants.UidiagramModelingAssistantProviderOfRadioButton3EditPart">
          <Priority name="Lowest"/>
@@ -907,11 +907,11 @@
       </metamodel>
       <metamodel nsURI="uidiagram">
          <specializationType
-               id="UIDiagram.diagram.Group_3066"
-               name="%metatype.name.Group_3066"
+               id="UIDiagram.diagram.Group_3081"
+               name="%metatype.name.Group_3081"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
             <specializes id="UIDiagram.diagram.Group_3001"/>
-            <param name="semanticHint" value="3066"/>
+            <param name="semanticHint" value="3081"/>
          </specializationType>
       </metamodel>
       <metamodel nsURI="uidiagram">
@@ -976,11 +976,11 @@
       </metamodel>
       <metamodel nsURI="uidiagram">
          <specializationType
-               id="UIDiagram.diagram.GroupColumn_3067"
-               name="%metatype.name.GroupColumn_3067"
+               id="UIDiagram.diagram.GroupColumn_3082"
+               name="%metatype.name.GroupColumn_3082"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
             <specializes id="UIDiagram.diagram.GroupColumn_3003"/>
-            <param name="semanticHint" value="3067"/>
+            <param name="semanticHint" value="3082"/>
          </specializationType>
       </metamodel>
       <metamodel nsURI="uidiagram">
@@ -1075,11 +1075,11 @@
       </metamodel>
       <metamodel nsURI="uidiagram">
          <specializationType
-               id="UIDiagram.diagram.GroupRow_3068"
-               name="%metatype.name.GroupRow_3068"
+               id="UIDiagram.diagram.GroupRow_3083"
+               name="%metatype.name.GroupRow_3083"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
             <specializes id="UIDiagram.diagram.GroupRow_3005"/>
-            <param name="semanticHint" value="3068"/>
+            <param name="semanticHint" value="3083"/>
          </specializationType>
       </metamodel>
       <metamodel nsURI="uidiagram">
@@ -1156,110 +1156,110 @@
       </metamodel>
       <metamodel nsURI="uidiagram">
          <specializationType
-               id="UIDiagram.diagram.Appbar_3069"
-               name="%metatype.name.Appbar_3069"
+               id="UIDiagram.diagram.Appbar_3084"
+               name="%metatype.name.Appbar_3084"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
             <specializes id="UIDiagram.diagram.Appbar_3007"/>
-            <param name="semanticHint" value="3069"/>
+            <param name="semanticHint" value="3084"/>
          </specializationType>
       </metamodel>
       <metamodel nsURI="uidiagram">
          <specializationType
-               id="UIDiagram.diagram.Tabbar_3070"
-               name="%metatype.name.Tabbar_3070"
+               id="UIDiagram.diagram.Tabbar_3085"
+               name="%metatype.name.Tabbar_3085"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
             <specializes id="UIDiagram.diagram.Tabbar_3008"/>
-            <param name="semanticHint" value="3070"/>
+            <param name="semanticHint" value="3085"/>
          </specializationType>
       </metamodel>
       <metamodel nsURI="uidiagram">
          <specializationType
-               id="UIDiagram.diagram.Button_3071"
-               name="%metatype.name.Button_3071"
+               id="UIDiagram.diagram.Button_3086"
+               name="%metatype.name.Button_3086"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
             <specializes id="UIDiagram.diagram.Button_3062"/>
-            <param name="semanticHint" value="3071"/>
+            <param name="semanticHint" value="3086"/>
          </specializationType>
       </metamodel>
       <metamodel nsURI="uidiagram">
          <specializationType
-               id="UIDiagram.diagram.Label_3072"
-               name="%metatype.name.Label_3072"
+               id="UIDiagram.diagram.Label_3087"
+               name="%metatype.name.Label_3087"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
             <specializes id="UIDiagram.diagram.Label_3064"/>
-            <param name="semanticHint" value="3072"/>
+            <param name="semanticHint" value="3087"/>
          </specializationType>
       </metamodel>
       <metamodel nsURI="uidiagram">
          <specializationType
-               id="UIDiagram.diagram.Checkbox_3073"
-               name="%metatype.name.Checkbox_3073"
+               id="UIDiagram.diagram.Checkbox_3088"
+               name="%metatype.name.Checkbox_3088"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
             <specializes id="UIDiagram.diagram.Checkbox_3011"/>
-            <param name="semanticHint" value="3073"/>
+            <param name="semanticHint" value="3088"/>
          </specializationType>
       </metamodel>
       <metamodel nsURI="uidiagram">
          <specializationType
-               id="UIDiagram.diagram.Input_3074"
-               name="%metatype.name.Input_3074"
+               id="UIDiagram.diagram.Input_3089"
+               name="%metatype.name.Input_3089"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
             <specializes id="UIDiagram.diagram.Input_3012"/>
-            <param name="semanticHint" value="3074"/>
+            <param name="semanticHint" value="3089"/>
          </specializationType>
       </metamodel>
       <metamodel nsURI="uidiagram">
          <specializationType
-               id="UIDiagram.diagram.ListView_3075"
-               name="%metatype.name.ListView_3075"
+               id="UIDiagram.diagram.ListView_3090"
+               name="%metatype.name.ListView_3090"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
             <specializes id="UIDiagram.diagram.ListView_3013"/>
-            <param name="semanticHint" value="3075"/>
+            <param name="semanticHint" value="3090"/>
          </specializationType>
       </metamodel>
       <metamodel nsURI="uidiagram">
          <specializationType
-               id="UIDiagram.diagram.RadioButton_3076"
-               name="%metatype.name.RadioButton_3076"
+               id="UIDiagram.diagram.RadioButton_3091"
+               name="%metatype.name.RadioButton_3091"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
             <specializes id="UIDiagram.diagram.RadioButton_3014"/>
-            <param name="semanticHint" value="3076"/>
+            <param name="semanticHint" value="3091"/>
          </specializationType>
       </metamodel>
       <metamodel nsURI="uidiagram">
          <specializationType
-               id="UIDiagram.diagram.ComboBox_3077"
-               name="%metatype.name.ComboBox_3077"
+               id="UIDiagram.diagram.ComboBox_3092"
+               name="%metatype.name.ComboBox_3092"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
             <specializes id="UIDiagram.diagram.ComboBox_3015"/>
-            <param name="semanticHint" value="3077"/>
+            <param name="semanticHint" value="3092"/>
          </specializationType>
       </metamodel>
       <metamodel nsURI="uidiagram">
          <specializationType
-               id="UIDiagram.diagram.DatePicker_3078"
-               name="%metatype.name.DatePicker_3078"
+               id="UIDiagram.diagram.DatePicker_3093"
+               name="%metatype.name.DatePicker_3093"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
             <specializes id="UIDiagram.diagram.DatePicker_3016"/>
-            <param name="semanticHint" value="3078"/>
+            <param name="semanticHint" value="3093"/>
          </specializationType>
       </metamodel>
       <metamodel nsURI="uidiagram">
          <specializationType
-               id="UIDiagram.diagram.Switch_3079"
-               name="%metatype.name.Switch_3079"
+               id="UIDiagram.diagram.Switch_3094"
+               name="%metatype.name.Switch_3094"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
             <specializes id="UIDiagram.diagram.Switch_3017"/>
-            <param name="semanticHint" value="3079"/>
+            <param name="semanticHint" value="3094"/>
          </specializationType>
       </metamodel>
       <metamodel nsURI="uidiagram">
          <specializationType
-               id="UIDiagram.diagram.Table_3080"
-               name="%metatype.name.Table_3080"
+               id="UIDiagram.diagram.Table_3095"
+               name="%metatype.name.Table_3095"
                kind="org.eclipse.gmf.runtime.emf.type.core.IHintedType">
             <specializes id="UIDiagram.diagram.Table_3018"/>
-            <param name="semanticHint" value="3080"/>
+            <param name="semanticHint" value="3095"/>
          </specializationType>
       </metamodel>
       <metamodel nsURI="uidiagram">
@@ -1509,14 +1509,14 @@
          <elementType ref="UIDiagram.diagram.Checkbox_3011"/>
          <elementType ref="UIDiagram.diagram.Input_3012"/>
          <elementType ref="UIDiagram.diagram.ListView_3013"/>
-         <elementType ref="UIDiagram.diagram.Group_3066"/>
+         <elementType ref="UIDiagram.diagram.Group_3081"/>
          <elementType ref="UIDiagram.diagram.RadioButton_3014"/>
          <elementType ref="UIDiagram.diagram.ComboBox_3015"/>
          <elementType ref="UIDiagram.diagram.DatePicker_3016"/>
          <elementType ref="UIDiagram.diagram.Switch_3017"/>
          <elementType ref="UIDiagram.diagram.Table_3018"/>
          <elementType ref="UIDiagram.diagram.Column_3019"/>
-         <elementType ref="UIDiagram.diagram.GroupColumn_3067"/>
+         <elementType ref="UIDiagram.diagram.GroupColumn_3082"/>
          <elementType ref="UIDiagram.diagram.GroupColumn_3021"/>
          <elementType ref="UIDiagram.diagram.GroupRow_3022"/>
          <elementType ref="UIDiagram.diagram.GroupColumn_3020"/>
@@ -1527,7 +1527,7 @@
          <elementType ref="UIDiagram.diagram.Checkbox_3040"/>
          <elementType ref="UIDiagram.diagram.Input_3041"/>
          <elementType ref="UIDiagram.diagram.ListView_3042"/>
-         <elementType ref="UIDiagram.diagram.GroupRow_3068"/>
+         <elementType ref="UIDiagram.diagram.GroupRow_3083"/>
          <elementType ref="UIDiagram.diagram.GroupRow_3023"/>
          <elementType ref="UIDiagram.diagram.Appbar_3024"/>
          <elementType ref="UIDiagram.diagram.Tabbar_3025"/>
@@ -1536,18 +1536,18 @@
          <elementType ref="UIDiagram.diagram.Checkbox_3028"/>
          <elementType ref="UIDiagram.diagram.Input_3029"/>
          <elementType ref="UIDiagram.diagram.ListView_3030"/>
-         <elementType ref="UIDiagram.diagram.Appbar_3069"/>
-         <elementType ref="UIDiagram.diagram.Tabbar_3070"/>
-         <elementType ref="UIDiagram.diagram.Button_3071"/>
-         <elementType ref="UIDiagram.diagram.Label_3072"/>
-         <elementType ref="UIDiagram.diagram.Checkbox_3073"/>
-         <elementType ref="UIDiagram.diagram.Input_3074"/>
-         <elementType ref="UIDiagram.diagram.ListView_3075"/>
-         <elementType ref="UIDiagram.diagram.RadioButton_3076"/>
-         <elementType ref="UIDiagram.diagram.ComboBox_3077"/>
-         <elementType ref="UIDiagram.diagram.DatePicker_3078"/>
-         <elementType ref="UIDiagram.diagram.Switch_3079"/>
-         <elementType ref="UIDiagram.diagram.Table_3080"/>
+         <elementType ref="UIDiagram.diagram.Appbar_3084"/>
+         <elementType ref="UIDiagram.diagram.Tabbar_3085"/>
+         <elementType ref="UIDiagram.diagram.Button_3086"/>
+         <elementType ref="UIDiagram.diagram.Label_3087"/>
+         <elementType ref="UIDiagram.diagram.Checkbox_3088"/>
+         <elementType ref="UIDiagram.diagram.Input_3089"/>
+         <elementType ref="UIDiagram.diagram.ListView_3090"/>
+         <elementType ref="UIDiagram.diagram.RadioButton_3091"/>
+         <elementType ref="UIDiagram.diagram.ComboBox_3092"/>
+         <elementType ref="UIDiagram.diagram.DatePicker_3093"/>
+         <elementType ref="UIDiagram.diagram.Switch_3094"/>
+         <elementType ref="UIDiagram.diagram.Table_3095"/>
          <elementType ref="UIDiagram.diagram.RadioButton_3031"/>
          <elementType ref="UIDiagram.diagram.ComboBox_3032"/>
          <elementType ref="UIDiagram.diagram.DatePicker_3033"/>

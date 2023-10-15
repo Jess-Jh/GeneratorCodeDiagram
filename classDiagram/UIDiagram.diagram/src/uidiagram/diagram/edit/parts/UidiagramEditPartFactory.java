@@ -547,8 +547,8 @@ public class UidiagramEditPartFactory implements EditPartFactory {
 			case TabbarTabbarListLabelsCompartmentEditPart.VISUAL_ID:
 				return new TabbarTabbarListLabelsCompartmentEditPart(view);
 
-			case ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID:
-				return new ListViewListViewListTemplateWidgetCompartmentEditPart(view);
+			case ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID:
+				return new ListViewListViewTemplateWidgetCompartmentEditPart(view);
 
 			case GroupGroupListTemplateWidgetCompartment5EditPart.VISUAL_ID:
 				return new GroupGroupListTemplateWidgetCompartment5EditPart(view);
@@ -580,8 +580,8 @@ public class UidiagramEditPartFactory implements EditPartFactory {
 			case TabbarTabbarListLabelsCompartment2EditPart.VISUAL_ID:
 				return new TabbarTabbarListLabelsCompartment2EditPart(view);
 
-			case ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID:
-				return new ListViewListViewListTemplateWidgetCompartment2EditPart(view);
+			case ListViewListViewTemplateWidgetCompartment2EditPart.VISUAL_ID:
+				return new ListViewListViewTemplateWidgetCompartment2EditPart(view);
 
 			case GroupRowGroupRowListTemplateWidgetCompartment3EditPart.VISUAL_ID:
 				return new GroupRowGroupRowListTemplateWidgetCompartment3EditPart(view);
@@ -601,8 +601,8 @@ public class UidiagramEditPartFactory implements EditPartFactory {
 			case TabbarTabbarListLabelsCompartment3EditPart.VISUAL_ID:
 				return new TabbarTabbarListLabelsCompartment3EditPart(view);
 
-			case ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID:
-				return new ListViewListViewListTemplateWidgetCompartment3EditPart(view);
+			case ListViewListViewTemplateWidgetCompartment3EditPart.VISUAL_ID:
+				return new ListViewListViewTemplateWidgetCompartment3EditPart(view);
 
 			case AppbarAppbarListButtonsCompartment4EditPart.VISUAL_ID:
 				return new AppbarAppbarListButtonsCompartment4EditPart(view);
@@ -616,8 +616,8 @@ public class UidiagramEditPartFactory implements EditPartFactory {
 			case TabbarTabbarListLabelsCompartment4EditPart.VISUAL_ID:
 				return new TabbarTabbarListLabelsCompartment4EditPart(view);
 
-			case ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID:
-				return new ListViewListViewListTemplateWidgetCompartment4EditPart(view);
+			case ListViewListViewTemplateWidgetCompartment4EditPart.VISUAL_ID:
+				return new ListViewListViewTemplateWidgetCompartment4EditPart(view);
 
 			case TableTableListCoulmnsCompartment2EditPart.VISUAL_ID:
 				return new TableTableListCoulmnsCompartment2EditPart(view);
@@ -646,8 +646,8 @@ public class UidiagramEditPartFactory implements EditPartFactory {
 			case TabbarTabbarListLabelsCompartment5EditPart.VISUAL_ID:
 				return new TabbarTabbarListLabelsCompartment5EditPart(view);
 
-			case ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID:
-				return new ListViewListViewListTemplateWidgetCompartment5EditPart(view);
+			case ListViewListViewTemplateWidgetCompartment5EditPart.VISUAL_ID:
+				return new ListViewListViewTemplateWidgetCompartment5EditPart(view);
 
 			case TableTableListCoulmnsCompartment5EditPart.VISUAL_ID:
 				return new TableTableListCoulmnsCompartment5EditPart(view);

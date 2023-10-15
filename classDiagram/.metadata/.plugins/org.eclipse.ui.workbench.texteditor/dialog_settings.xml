@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="switch"/>
+		<item key="selection" value="modelFactoryAbstract"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="true"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="modelFactoryAbstract"/>
 			<item value="group"/>
 			<item value="Group"/>
+			<item value="switch"/>
 			<item value="Label"/>
 			<item value="label"/>
 			<item value="button"/>
@@ -21,11 +23,15 @@
 			<item value="model"/>
 			<item value="loadAbs"/>
 			<item value="addAttributeToClass"/>
-			<item value="getRelationInheritanceJJD"/>
 		</list>
 		<list key="replacehistory">
-			<item value="switch"/>
+			<item value="table"/>
+			<item value="Table"/>
+			<item value="tabbar"/>
+			<item value="Tabbar"/>
+			<item value="switches"/>
 			<item value="Switch"/>
+			<item value="switch"/>
 			<item value="RadioButton"/>
 			<item value="radioButton"/>
 			<item value="ListView"/>
@@ -34,11 +40,6 @@
 			<item value="input"/>
 			<item value="GroupRow"/>
 			<item value="groupRow"/>
-			<item value="GroupColumn"/>
-			<item value="groupColumn"/>
-			<item value="Group"/>
-			<item value="group"/>
-			<item value="datePicker"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

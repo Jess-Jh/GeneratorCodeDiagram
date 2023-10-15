@@ -63,7 +63,7 @@ public class TableTableListCoulmnsCompartment2CanonicalEditPolicy extends Canoni
 		View viewObject = (View) getHost().getModel();
 		LinkedList<EObject> result = new LinkedList<EObject>();
 		List<UidiagramNodeDescriptor> childDescriptors = UidiagramDiagramUpdater
-				.getTableTableListCoulmnsCompartment_7045SemanticChildren(viewObject);
+				.getTableTableListCoulmnsCompartment_7055SemanticChildren(viewObject);
 		for (UidiagramNodeDescriptor d : childDescriptors) {
 			result.add(d.getModelElement());
 		}
@@ -93,7 +93,7 @@ public class TableTableListCoulmnsCompartment2CanonicalEditPolicy extends Canoni
 		}
 		LinkedList<IAdaptable> createdViews = new LinkedList<IAdaptable>();
 		List<UidiagramNodeDescriptor> childDescriptors = UidiagramDiagramUpdater
-				.getTableTableListCoulmnsCompartment_7045SemanticChildren((View) getHost().getModel());
+				.getTableTableListCoulmnsCompartment_7055SemanticChildren((View) getHost().getModel());
 		LinkedList<View> orphaned = new LinkedList<View>();
 		// we care to check only views we recognize as ours
 		LinkedList<View> knownViewChildren = new LinkedList<View>();

@@ -341,7 +341,7 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 		case ListViewEditPart.VISUAL_ID:
 			return createListView_3013(domainElement, containerView, index, persisted, preferencesHint);
 		case Group5EditPart.VISUAL_ID:
-			return createGroup_3066(domainElement, containerView, index, persisted, preferencesHint);
+			return createGroup_3081(domainElement, containerView, index, persisted, preferencesHint);
 		case RadioButtonEditPart.VISUAL_ID:
 			return createRadioButton_3014(domainElement, containerView, index, persisted, preferencesHint);
 		case ComboBoxEditPart.VISUAL_ID:
@@ -355,7 +355,7 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 		case ColumnEditPart.VISUAL_ID:
 			return createColumn_3019(domainElement, containerView, index, persisted, preferencesHint);
 		case GroupColumn2EditPart.VISUAL_ID:
-			return createGroupColumn_3067(domainElement, containerView, index, persisted, preferencesHint);
+			return createGroupColumn_3082(domainElement, containerView, index, persisted, preferencesHint);
 		case GroupColumn3EditPart.VISUAL_ID:
 			return createGroupColumn_3021(domainElement, containerView, index, persisted, preferencesHint);
 		case GroupRow2EditPart.VISUAL_ID:
@@ -377,7 +377,7 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 		case ListView2EditPart.VISUAL_ID:
 			return createListView_3042(domainElement, containerView, index, persisted, preferencesHint);
 		case GroupRow3EditPart.VISUAL_ID:
-			return createGroupRow_3068(domainElement, containerView, index, persisted, preferencesHint);
+			return createGroupRow_3083(domainElement, containerView, index, persisted, preferencesHint);
 		case GroupRow4EditPart.VISUAL_ID:
 			return createGroupRow_3023(domainElement, containerView, index, persisted, preferencesHint);
 		case Appbar3EditPart.VISUAL_ID:
@@ -395,29 +395,29 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 		case ListView3EditPart.VISUAL_ID:
 			return createListView_3030(domainElement, containerView, index, persisted, preferencesHint);
 		case Appbar4EditPart.VISUAL_ID:
-			return createAppbar_3069(domainElement, containerView, index, persisted, preferencesHint);
+			return createAppbar_3084(domainElement, containerView, index, persisted, preferencesHint);
 		case Tabbar4EditPart.VISUAL_ID:
-			return createTabbar_3070(domainElement, containerView, index, persisted, preferencesHint);
+			return createTabbar_3085(domainElement, containerView, index, persisted, preferencesHint);
 		case Button6EditPart.VISUAL_ID:
-			return createButton_3071(domainElement, containerView, index, persisted, preferencesHint);
+			return createButton_3086(domainElement, containerView, index, persisted, preferencesHint);
 		case Label6EditPart.VISUAL_ID:
-			return createLabel_3072(domainElement, containerView, index, persisted, preferencesHint);
+			return createLabel_3087(domainElement, containerView, index, persisted, preferencesHint);
 		case Checkbox4EditPart.VISUAL_ID:
-			return createCheckbox_3073(domainElement, containerView, index, persisted, preferencesHint);
+			return createCheckbox_3088(domainElement, containerView, index, persisted, preferencesHint);
 		case Input4EditPart.VISUAL_ID:
-			return createInput_3074(domainElement, containerView, index, persisted, preferencesHint);
+			return createInput_3089(domainElement, containerView, index, persisted, preferencesHint);
 		case ListView4EditPart.VISUAL_ID:
-			return createListView_3075(domainElement, containerView, index, persisted, preferencesHint);
+			return createListView_3090(domainElement, containerView, index, persisted, preferencesHint);
 		case RadioButton2EditPart.VISUAL_ID:
-			return createRadioButton_3076(domainElement, containerView, index, persisted, preferencesHint);
+			return createRadioButton_3091(domainElement, containerView, index, persisted, preferencesHint);
 		case ComboBox2EditPart.VISUAL_ID:
-			return createComboBox_3077(domainElement, containerView, index, persisted, preferencesHint);
+			return createComboBox_3092(domainElement, containerView, index, persisted, preferencesHint);
 		case DatePicker2EditPart.VISUAL_ID:
-			return createDatePicker_3078(domainElement, containerView, index, persisted, preferencesHint);
+			return createDatePicker_3093(domainElement, containerView, index, persisted, preferencesHint);
 		case Switch2EditPart.VISUAL_ID:
-			return createSwitch_3079(domainElement, containerView, index, persisted, preferencesHint);
+			return createSwitch_3094(domainElement, containerView, index, persisted, preferencesHint);
 		case Table2EditPart.VISUAL_ID:
-			return createTable_3080(domainElement, containerView, index, persisted, preferencesHint);
+			return createTable_3095(domainElement, containerView, index, persisted, preferencesHint);
 		case RadioButton3EditPart.VISUAL_ID:
 			return createRadioButton_3031(domainElement, containerView, index, persisted, preferencesHint);
 		case ComboBox3EditPart.VISUAL_ID:
@@ -1172,15 +1172,15 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 				FigureUtilities.RGBToInteger(fillRGB));
 		Node label5007 = createLabel(node, UidiagramVisualIDRegistry.getType(ListViewNameEditPart.VISUAL_ID));
 		createCompartment(node,
-				UidiagramVisualIDRegistry.getType(ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID),
-				true, false, false, false);
+				UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID), true,
+				false, false, false);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createGroup_3066(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createGroup_3081(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.getStyles().add(NotationFactory.eINSTANCE.createHintedDiagramLinkStyle());
@@ -1210,7 +1210,7 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5067 = createLabel(node, UidiagramVisualIDRegistry.getType(GroupName5EditPart.VISUAL_ID));
+		Node label5082 = createLabel(node, UidiagramVisualIDRegistry.getType(GroupName5EditPart.VISUAL_ID));
 		createCompartment(node,
 				UidiagramVisualIDRegistry.getType(GroupGroupListTemplateWidgetCompartment5EditPart.VISUAL_ID), true,
 				false, false, false);
@@ -1439,7 +1439,7 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 	/**
 	* @generated
 	*/
-	public Node createGroupColumn_3067(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createGroupColumn_3082(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.getStyles().add(NotationFactory.eINSTANCE.createHintedDiagramLinkStyle());
@@ -1469,7 +1469,7 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5081 = createLabel(node, UidiagramVisualIDRegistry.getType(GroupColumnName2EditPart.VISUAL_ID));
+		Node label5096 = createLabel(node, UidiagramVisualIDRegistry.getType(GroupColumnName2EditPart.VISUAL_ID));
 		createCompartment(node,
 				UidiagramVisualIDRegistry
 						.getType(GroupColumnGroupColumnListTemplateWidgetCompartment2EditPart.VISUAL_ID),
@@ -1902,15 +1902,15 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 				FigureUtilities.RGBToInteger(fillRGB));
 		Node label5021 = createLabel(node, UidiagramVisualIDRegistry.getType(ListViewName3EditPart.VISUAL_ID));
 		createCompartment(node,
-				UidiagramVisualIDRegistry.getType(ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID),
-				true, false, false, false);
+				UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment3EditPart.VISUAL_ID), true,
+				false, false, false);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createAppbar_3069(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createAppbar_3084(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.getStyles().add(NotationFactory.eINSTANCE.createHintedDiagramLinkStyle());
@@ -1940,7 +1940,7 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5068 = createLabel(node, UidiagramVisualIDRegistry.getType(AppbarName4EditPart.VISUAL_ID));
+		Node label5083 = createLabel(node, UidiagramVisualIDRegistry.getType(AppbarName4EditPart.VISUAL_ID));
 		createCompartment(node,
 				UidiagramVisualIDRegistry.getType(AppbarAppbarListButtonsCompartment4EditPart.VISUAL_ID), true, false,
 				false, false);
@@ -1952,7 +1952,7 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 	/**
 	* @generated
 	*/
-	public Node createTabbar_3070(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createTabbar_3085(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.getStyles().add(NotationFactory.eINSTANCE.createHintedDiagramLinkStyle());
@@ -1982,7 +1982,7 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5069 = createLabel(node, UidiagramVisualIDRegistry.getType(TabbarName4EditPart.VISUAL_ID));
+		Node label5084 = createLabel(node, UidiagramVisualIDRegistry.getType(TabbarName4EditPart.VISUAL_ID));
 		createCompartment(node,
 				UidiagramVisualIDRegistry.getType(TabbarTabbarListButtonsCompartment4EditPart.VISUAL_ID), true, false,
 				false, false);
@@ -1994,7 +1994,7 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 	/**
 	* @generated
 	*/
-	public Node createButton_3071(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createButton_3086(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2023,14 +2023,14 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5070 = createLabel(node, UidiagramVisualIDRegistry.getType(ButtonName6EditPart.VISUAL_ID));
+		Node label5085 = createLabel(node, UidiagramVisualIDRegistry.getType(ButtonName6EditPart.VISUAL_ID));
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createLabel_3072(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createLabel_3087(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2059,14 +2059,14 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5071 = createLabel(node, UidiagramVisualIDRegistry.getType(LabelName6EditPart.VISUAL_ID));
+		Node label5086 = createLabel(node, UidiagramVisualIDRegistry.getType(LabelName6EditPart.VISUAL_ID));
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createCheckbox_3073(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createCheckbox_3088(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2095,14 +2095,14 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5072 = createLabel(node, UidiagramVisualIDRegistry.getType(CheckboxName4EditPart.VISUAL_ID));
+		Node label5087 = createLabel(node, UidiagramVisualIDRegistry.getType(CheckboxName4EditPart.VISUAL_ID));
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createInput_3074(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createInput_3089(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2131,14 +2131,14 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5073 = createLabel(node, UidiagramVisualIDRegistry.getType(InputName4EditPart.VISUAL_ID));
+		Node label5088 = createLabel(node, UidiagramVisualIDRegistry.getType(InputName4EditPart.VISUAL_ID));
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createListView_3075(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createListView_3090(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.getStyles().add(NotationFactory.eINSTANCE.createHintedDiagramLinkStyle());
@@ -2168,17 +2168,17 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5079 = createLabel(node, UidiagramVisualIDRegistry.getType(ListViewName4EditPart.VISUAL_ID));
+		Node label5094 = createLabel(node, UidiagramVisualIDRegistry.getType(ListViewName4EditPart.VISUAL_ID));
 		createCompartment(node,
-				UidiagramVisualIDRegistry.getType(ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID),
-				true, false, false, false);
+				UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment4EditPart.VISUAL_ID), true,
+				false, false, false);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createRadioButton_3076(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createRadioButton_3091(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2207,14 +2207,14 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5074 = createLabel(node, UidiagramVisualIDRegistry.getType(RadioButtonName2EditPart.VISUAL_ID));
+		Node label5089 = createLabel(node, UidiagramVisualIDRegistry.getType(RadioButtonName2EditPart.VISUAL_ID));
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createComboBox_3077(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createComboBox_3092(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2243,14 +2243,14 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5075 = createLabel(node, UidiagramVisualIDRegistry.getType(ComboBoxName2EditPart.VISUAL_ID));
+		Node label5090 = createLabel(node, UidiagramVisualIDRegistry.getType(ComboBoxName2EditPart.VISUAL_ID));
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createDatePicker_3078(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createDatePicker_3093(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2279,14 +2279,14 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5076 = createLabel(node, UidiagramVisualIDRegistry.getType(DatePickerName2EditPart.VISUAL_ID));
+		Node label5091 = createLabel(node, UidiagramVisualIDRegistry.getType(DatePickerName2EditPart.VISUAL_ID));
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createSwitch_3079(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createSwitch_3094(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.setLayoutConstraint(NotationFactory.eINSTANCE.createBounds());
@@ -2315,14 +2315,14 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5077 = createLabel(node, UidiagramVisualIDRegistry.getType(SwitchName2EditPart.VISUAL_ID));
+		Node label5092 = createLabel(node, UidiagramVisualIDRegistry.getType(SwitchName2EditPart.VISUAL_ID));
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createTable_3080(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createTable_3095(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.getStyles().add(NotationFactory.eINSTANCE.createHintedDiagramLinkStyle());
@@ -2352,7 +2352,7 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5078 = createLabel(node, UidiagramVisualIDRegistry.getType(TableName2EditPart.VISUAL_ID));
+		Node label5093 = createLabel(node, UidiagramVisualIDRegistry.getType(TableName2EditPart.VISUAL_ID));
 		createCompartment(node, UidiagramVisualIDRegistry.getType(TableTableListCoulmnsCompartment2EditPart.VISUAL_ID),
 				true, false, false, false);
 		return node;
@@ -2804,15 +2804,15 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 				FigureUtilities.RGBToInteger(fillRGB));
 		Node label5035 = createLabel(node, UidiagramVisualIDRegistry.getType(ListViewName2EditPart.VISUAL_ID));
 		createCompartment(node,
-				UidiagramVisualIDRegistry.getType(ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID),
-				true, false, false, false);
+				UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment2EditPart.VISUAL_ID), true,
+				false, false, false);
 		return node;
 	}
 
 	/**
 	* @generated
 	*/
-	public Node createGroupRow_3068(EObject domainElement, View containerView, int index, boolean persisted,
+	public Node createGroupRow_3083(EObject domainElement, View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
 		Shape node = NotationFactory.eINSTANCE.createShape();
 		node.getStyles().add(NotationFactory.eINSTANCE.createHintedDiagramLinkStyle());
@@ -2842,7 +2842,7 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 				IPreferenceConstants.PREF_FILL_COLOR);
 		ViewUtil.setStructuralFeatureValue(node, NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5080 = createLabel(node, UidiagramVisualIDRegistry.getType(GroupRowName3EditPart.VISUAL_ID));
+		Node label5095 = createLabel(node, UidiagramVisualIDRegistry.getType(GroupRowName3EditPart.VISUAL_ID));
 		createCompartment(node,
 				UidiagramVisualIDRegistry.getType(GroupRowGroupRowListTemplateWidgetCompartment3EditPart.VISUAL_ID),
 				true, false, false, false);
@@ -3376,8 +3376,8 @@ public class UidiagramViewProvider extends AbstractProvider implements IViewProv
 				FigureUtilities.RGBToInteger(fillRGB));
 		Node label5056 = createLabel(node, UidiagramVisualIDRegistry.getType(ListViewName5EditPart.VISUAL_ID));
 		createCompartment(node,
-				UidiagramVisualIDRegistry.getType(ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID),
-				true, false, false, false);
+				UidiagramVisualIDRegistry.getType(ListViewListViewTemplateWidgetCompartment5EditPart.VISUAL_ID), true,
+				false, false, false);
 		return node;
 	}
 

@@ -471,7 +471,7 @@ public class UidiagramVisualIDRegistry {
 				return Label2EditPart.VISUAL_ID;
 			}
 			break;
-		case ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID:
+		case ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID:
 			if (UidiagramPackage.eINSTANCE.getGroup().isSuperTypeOf(domainElement.eClass())) {
 				return Group5EditPart.VISUAL_ID;
 			}
@@ -778,7 +778,7 @@ public class UidiagramVisualIDRegistry {
 				return Label2EditPart.VISUAL_ID;
 			}
 			break;
-		case ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID:
+		case ListViewListViewTemplateWidgetCompartment2EditPart.VISUAL_ID:
 			if (UidiagramPackage.eINSTANCE.getGroup().isSuperTypeOf(domainElement.eClass())) {
 				return Group5EditPart.VISUAL_ID;
 			}
@@ -939,7 +939,7 @@ public class UidiagramVisualIDRegistry {
 				return Label2EditPart.VISUAL_ID;
 			}
 			break;
-		case ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID:
+		case ListViewListViewTemplateWidgetCompartment3EditPart.VISUAL_ID:
 			if (UidiagramPackage.eINSTANCE.getGroup().isSuperTypeOf(domainElement.eClass())) {
 				return Group5EditPart.VISUAL_ID;
 			}
@@ -1006,7 +1006,7 @@ public class UidiagramVisualIDRegistry {
 				return Label2EditPart.VISUAL_ID;
 			}
 			break;
-		case ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID:
+		case ListViewListViewTemplateWidgetCompartment4EditPart.VISUAL_ID:
 			if (UidiagramPackage.eINSTANCE.getGroup().isSuperTypeOf(domainElement.eClass())) {
 				return Group5EditPart.VISUAL_ID;
 			}
@@ -1182,7 +1182,7 @@ public class UidiagramVisualIDRegistry {
 				return Label2EditPart.VISUAL_ID;
 			}
 			break;
-		case ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID:
+		case ListViewListViewTemplateWidgetCompartment5EditPart.VISUAL_ID:
 			if (UidiagramPackage.eINSTANCE.getGroup().isSuperTypeOf(domainElement.eClass())) {
 				return Group5EditPart.VISUAL_ID;
 			}
@@ -1384,7 +1384,7 @@ public class UidiagramVisualIDRegistry {
 			if (ListViewNameEditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID == nodeVisualID) {
+			if (ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;
@@ -1507,7 +1507,7 @@ public class UidiagramVisualIDRegistry {
 			if (ListViewName2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID == nodeVisualID) {
+			if (ListViewListViewTemplateWidgetCompartment2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;
@@ -1573,7 +1573,7 @@ public class UidiagramVisualIDRegistry {
 			if (ListViewName3EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID == nodeVisualID) {
+			if (ListViewListViewTemplateWidgetCompartment3EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;
@@ -1623,7 +1623,7 @@ public class UidiagramVisualIDRegistry {
 			if (ListViewName4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID == nodeVisualID) {
+			if (ListViewListViewTemplateWidgetCompartment4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;
@@ -1773,7 +1773,7 @@ public class UidiagramVisualIDRegistry {
 			if (ListViewName5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID == nodeVisualID) {
+			if (ListViewListViewTemplateWidgetCompartment5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;
@@ -2154,7 +2154,7 @@ public class UidiagramVisualIDRegistry {
 				return true;
 			}
 			break;
-		case ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID:
+		case ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID:
 			if (Group5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
@@ -2461,7 +2461,7 @@ public class UidiagramVisualIDRegistry {
 				return true;
 			}
 			break;
-		case ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID:
+		case ListViewListViewTemplateWidgetCompartment2EditPart.VISUAL_ID:
 			if (Group5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
@@ -2622,7 +2622,7 @@ public class UidiagramVisualIDRegistry {
 				return true;
 			}
 			break;
-		case ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID:
+		case ListViewListViewTemplateWidgetCompartment3EditPart.VISUAL_ID:
 			if (Group5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
@@ -2689,7 +2689,7 @@ public class UidiagramVisualIDRegistry {
 				return true;
 			}
 			break;
-		case ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID:
+		case ListViewListViewTemplateWidgetCompartment4EditPart.VISUAL_ID:
 			if (Group5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
@@ -2865,7 +2865,7 @@ public class UidiagramVisualIDRegistry {
 				return true;
 			}
 			break;
-		case ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID:
+		case ListViewListViewTemplateWidgetCompartment5EditPart.VISUAL_ID:
 			if (Group5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
@@ -2969,7 +2969,7 @@ public class UidiagramVisualIDRegistry {
 		case AppbarAppbarListLabelsCompartmentEditPart.VISUAL_ID:
 		case TabbarTabbarListButtonsCompartmentEditPart.VISUAL_ID:
 		case TabbarTabbarListLabelsCompartmentEditPart.VISUAL_ID:
-		case ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID:
+		case ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID:
 		case GroupGroupListTemplateWidgetCompartment5EditPart.VISUAL_ID:
 		case TableTableListCoulmnsCompartmentEditPart.VISUAL_ID:
 		case GroupColumnGroupColumnListTemplateWidgetCompartment2EditPart.VISUAL_ID:
@@ -2980,19 +2980,19 @@ public class UidiagramVisualIDRegistry {
 		case AppbarAppbarListLabelsCompartment2EditPart.VISUAL_ID:
 		case TabbarTabbarListButtonsCompartment2EditPart.VISUAL_ID:
 		case TabbarTabbarListLabelsCompartment2EditPart.VISUAL_ID:
-		case ListViewListViewListTemplateWidgetCompartment2EditPart.VISUAL_ID:
+		case ListViewListViewTemplateWidgetCompartment2EditPart.VISUAL_ID:
 		case GroupRowGroupRowListTemplateWidgetCompartment3EditPart.VISUAL_ID:
 		case GroupRowGroupRowListTemplateWidgetCompartment4EditPart.VISUAL_ID:
 		case AppbarAppbarListButtonsCompartment3EditPart.VISUAL_ID:
 		case AppbarAppbarListLabelsCompartment3EditPart.VISUAL_ID:
 		case TabbarTabbarListButtonsCompartment3EditPart.VISUAL_ID:
 		case TabbarTabbarListLabelsCompartment3EditPart.VISUAL_ID:
-		case ListViewListViewListTemplateWidgetCompartment3EditPart.VISUAL_ID:
+		case ListViewListViewTemplateWidgetCompartment3EditPart.VISUAL_ID:
 		case AppbarAppbarListButtonsCompartment4EditPart.VISUAL_ID:
 		case AppbarAppbarListLabelsCompartment4EditPart.VISUAL_ID:
 		case TabbarTabbarListButtonsCompartment4EditPart.VISUAL_ID:
 		case TabbarTabbarListLabelsCompartment4EditPart.VISUAL_ID:
-		case ListViewListViewListTemplateWidgetCompartment4EditPart.VISUAL_ID:
+		case ListViewListViewTemplateWidgetCompartment4EditPart.VISUAL_ID:
 		case TableTableListCoulmnsCompartment2EditPart.VISUAL_ID:
 		case TableTableListCoulmnsCompartment3EditPart.VISUAL_ID:
 		case TableTableListCoulmnsCompartment4EditPart.VISUAL_ID:
@@ -3002,7 +3002,7 @@ public class UidiagramVisualIDRegistry {
 		case AppbarAppbarListLabelsCompartment5EditPart.VISUAL_ID:
 		case TabbarTabbarListButtonsCompartment5EditPart.VISUAL_ID:
 		case TabbarTabbarListLabelsCompartment5EditPart.VISUAL_ID:
-		case ListViewListViewListTemplateWidgetCompartment5EditPart.VISUAL_ID:
+		case ListViewListViewTemplateWidgetCompartment5EditPart.VISUAL_ID:
 		case TableTableListCoulmnsCompartment5EditPart.VISUAL_ID:
 			return true;
 		default:

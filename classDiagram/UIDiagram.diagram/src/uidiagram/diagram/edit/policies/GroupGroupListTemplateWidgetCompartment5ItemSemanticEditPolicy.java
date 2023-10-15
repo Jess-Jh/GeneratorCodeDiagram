@@ -33,7 +33,7 @@ public class GroupGroupListTemplateWidgetCompartment5ItemSemanticEditPolicy
 	* @generated
 	*/
 	public GroupGroupListTemplateWidgetCompartment5ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.Group_3066);
+		super(UidiagramElementTypes.Group_3081);
 	}
 
 	/**

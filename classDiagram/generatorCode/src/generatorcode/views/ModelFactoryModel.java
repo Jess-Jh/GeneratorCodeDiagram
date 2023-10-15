@@ -9,6 +9,25 @@ import concrete.MethodJJD;
 import concrete.ModelFactoryConcreteJJD;
 import concrete.PackageJJD;
 import concrete.RelationJJD;
+import uidiagram.Appbar;
+import uidiagram.Button;
+import uidiagram.Checkbox;
+import uidiagram.ComboBox;
+import uidiagram.DatePicker;
+import uidiagram.Group;
+import uidiagram.GroupColumn;
+import uidiagram.GroupRow;
+import uidiagram.Input;
+import uidiagram.Label;
+import uidiagram.ListView;
+import uidiagram.ModelFactory;
+import uidiagram.RadioButton;
+import uidiagram.Switch;
+import uidiagram.Tabbar;
+import uidiagram.Table;
+import uidiagram.TemplateWidget;
+import uidiagram.UidiagramFactory;
+import uidiagram.UserInterface;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -38,6 +57,7 @@ public class ModelFactoryModel {
 	//------------------------------  Singleton ------------------------------------------------
 	ModelFactoryConcreteJJD modelFactoryConcrete = ConcreteFactory.eINSTANCE.createModelFactoryConcreteJJD();
 	ModelFactoryAbstractJJD modelFactoryAbstract = AbstractJJDFactory.eINSTANCE.createModelFactoryAbstractJJD();
+	ModelFactory modelFactoryUiDiagram = UidiagramFactory.eINSTANCE.createModelFactory();
 
 	public ModelFactoryModel() {
 	// TODO Auto-generated constructor stub
@@ -495,5 +515,404 @@ public class ModelFactoryModel {
 		}
 		return parameter;
 	}
+	
+	
 
+	//--------------------------------------------------------------------------- TRANFORMATION FRAMEWORK --------------------------------------------------------------------------------------------------------------------------->>
+	public void transformationFramework() {
+		for(uidiagram.UIDiagram uidiagram : modelFactoryUiDiagram.getListDiagrams()) {
+			createFlutterFile(uidiagram.getUserInterface());	
+		}
+	}
+
+	private void createFlutterFile(UserInterface userInterface) {
+		StringBuilder content = new StringBuilder();
+		
+		for(uidiagram.TemplateWidget template : userInterface.getListTemplateWidget()) {
+			
+			content.append( "import 'package:flutter/material.dart';\n"
+					+ "\n"
+					+ "class " + userInterface.getName() != "" ? userInterface.getName()+"Page" : "UserInterfacePage"  + " extends StatelessWidget {\n"
+					+ "  const " + userInterface.getName() != "" ? userInterface.getName()+"Page" : "UserInterfacePage"  + "({super.key});\n"
+					+ "\n"
+					+ "  @override\n"
+					+ "  Widget build(BuildContext context) {\n"
+					+ "    return " + validateTypeTemplate(template)
+					+ "  }\n"
+					+ "}"
+			);
+		}
+	}
+	
+	private StringBuilder validateTypeTemplate(TemplateWidget template) {
+		StringBuilder content = new StringBuilder();
+		
+		if(template instanceof Group) {
+			content.append(generateGroup((Group)template));
+		}
+		if(template instanceof GroupColumn) {
+			generateGroupColumn((GroupColumn)template);
+		}
+		if(template instanceof GroupRow) {
+			generateGroupRow((GroupRow)template);
+		}
+		if(template instanceof Appbar) {
+			generateAppbar((Appbar)template);
+		}
+		if(template instanceof Tabbar) {
+			generateTabbar((Tabbar)template);
+		}
+		if(template instanceof Button) {
+			generateButton((Button)template);
+		}
+		if(template instanceof Label) {
+			generateLabel((Label)template);
+		}
+		if(template instanceof Checkbox) {
+			generateCheckbox((Checkbox)template);
+		}
+		if(template instanceof Input) {
+			generateInput((Input)template);
+		}
+		if(template instanceof ListView) {
+			generateListView((ListView)template);
+		}
+		if(template instanceof RadioButton) {
+			generateRadioButton((RadioButton)template);
+		}
+		if(template instanceof ComboBox) {
+			generateComboBox((ComboBox)template);
+		}
+		if(template instanceof DatePicker) {
+			generateDatePicker((DatePicker)template);
+		}
+		if(template instanceof Switch) {
+			generateSwitch((Switch)template);
+		}
+		if(template instanceof Table) {
+			generateTable((Table)template);
+		}	
+		
+		return content;
+	}
+
+	private StringBuilder generateGroup(Group group) {
+		StringBuilder content = new StringBuilder();
+		
+		for(uidiagram.TemplateWidget groupChild : group.getListTemplateWidget()) {
+			
+			content.append( "Container(\n"
+					+ "          width: " + group.getWidth() != "0" ? group.getWidth() : " double.infinity,\n"
+					+ "          constraints: const BoxConstraints(minHeight: " + group.getHeight() != "0" ? group.getHeight() : "44) + ,\n"
+					+ "          padding: const EdgeInsets.symmetric(vertical: 10),\n"
+					+ "          borderRadius: BorderRadius.circular(12),"		
+					+ "          decoration: BoxDecoration(\n"
+					+ "            color: " + group.getBackgroundColor() != null ? group.getBackgroundColor()  : "Colors.transparent,\n"
+					+ "            border: Border.all(\n"
+					+ "            	width: 1,\n"
+					+ "            	color: scheme.lineMiddle,\n"
+					+ "            ),"
+					+ "          ),"
+					+ "     child: " + validateTypeTemplate(groupChild)
+					+ "    ),"
+			);
+		}
+		return content;
+	}
+
+	private StringBuilder generateGroupColumn(GroupColumn groupColumn) {
+		StringBuilder content = new StringBuilder();
+		
+		for(uidiagram.TemplateWidget groupColumnChild : groupColumn.getListTemplateWidget()) {
+			
+			content.append("Column(\n"
+					+ "		  crossAxisAlignment: CrossAxisAlignment.start,\n"
+					+ "		  children: [\n"
+					+           validateTypeTemplate(groupColumnChild)     
+					+ "		  ],\n"
+					+ "		),"
+			);
+		}
+		return content;
+	}
+	private StringBuilder generateGroupRow(GroupRow groupRow) {
+		StringBuilder content = new StringBuilder();
+		
+		for(uidiagram.TemplateWidget groupRowChild : groupRow.getListTemplateWidget()) {
+			
+			content.append("Row(\n"
+					+ "		   mainAxisAlignment: MainAxisAlignment.center,\n"
+					+ "		  children: [\n"
+					+           validateTypeTemplate(groupRowChild)     
+					+ "		  ],\n"
+					+ "		),"
+			);
+		}
+		return content;
+		
+	}
+	private StringBuilder generateAppbar(Appbar appbar) {
+		StringBuilder content = new StringBuilder();
+		
+		for(uidiagram.TemplateWidget appbarChild : appbar.getListButtons()) {
+			
+			content.append("AppBar(\n"
+					+ "      title: Text(\n"
+					+ "        title,\n"
+					+ "        style: Theme.of(context).textTheme.displayLarge!.copyWith(\n"
+					+ "              fontSize: fontSizeTitle,\n"
+					+ "              color: const Color(0xFFFFFFFF),\n"
+					+ "            ),\n"
+					+ "      ),\n"
+					+ "      centerTitle: centerTitle,\n"
+					+ "      automaticallyImplyLeading: false,\n"
+					+ "      systemOverlayStyle: SystemUiOverlayStyle.light,\n"
+					+ "      leading: leadingTap != null ? buildLeadingButton() : leading,\n"
+					+ "      leadingWidth: 50,\n"
+					+ "      actions: actionIcon != null || actionText != null\n"
+					+ "          ? [buildActionButton()]\n"
+					+ "          : actions,\n"
+					+ "      shape: const RoundedRectangleBorder(\n"
+					+ "        borderRadius: BorderRadius.vertical(\n"
+					+ "          bottom: Radius.circular(12),\n"
+					+ "        ),\n"
+					+ "      ),\n"
+					+ "      shadowColor: Theme.of(context).brightness == Brightness.light\n"
+					+ "          ? const Color(0xFF000000)\n"
+					+ "          : const Color(0xFFFFFFFF),\n"
+					+ "      elevation: Theme.of(context).brightness == Brightness.light ? 5 : 0.3,\n"
+					+ "    );"
+			);
+		}
+		return content;
+		
+	}
+	private void generateTabbar(Tabbar template) {
+		// TODO Auto-generated method stub
+		
+	}
+	private StringBuilder generateButton(Button button) {
+		StringBuilder content = new StringBuilder();
+					
+			content.append("GestureDetector(\n"
+					+ "      onTap: () {},\n"
+					+ "      child: Container(\n"
+					+ "        constraints: BoxConstraints(minWidth: width ?? 0),\n"
+					+ "        height: height,\n"
+					+ "        padding: const EdgeInsets.symmetric(horizontal: 8),\n"
+					+ "        decoration: BoxDecoration(\n"
+					+ "          color: " + button.getBackgroundColor() != null ? button.getBackgroundColor() : "  Colors.white,\n"
+					+ "          borderRadius: BorderRadius.circular(5),\n"
+					+ "        ),\n"
+					+ "        child:Text(\n"
+					+                button.getName() != null ? button.getName() : ""               
+					+ "                style: TextStyle(\n"
+					+ "                  fontWeight: FontWeight.bold,\n"
+					+ "                  fontSize: 16,\n"
+					+ "                ),\n"
+					+ "              ),\n"
+					+ "       ),\n"
+					+ "     );"
+			);
+		return content;
+		
+	}
+	private StringBuilder generateLabel(Label label) {
+		StringBuilder content = new StringBuilder();
+		
+		content.append("Text(\n"
+				+        label.getName()
+				+ "      style: TextStyle(\n"
+				+ "        fontSize: 16,\n"
+				+ "        fontWeight: FontWeight.w500,\n"
+				+ "        color: Scheme.colorScheme(context),\n"
+				+ "      ),\n"
+				+ "   ),"
+		);
+		return content;
+	}
+	private StringBuilder generateCheckbox(Checkbox checkbox) {
+		StringBuilder content = new StringBuilder();
+		
+		content.append("Align(\n"
+				+ "      alignment: Alignment.center,\n"
+				+ "      child: Icon(\n"
+				+ "              Icons.check_box,\n"
+				+ "              size: 20,\n"
+				+ "              color: " + checkbox.getBackgroundColor() != null ? checkbox.getBackgroundColor() :  " Colors.blue,\n"
+				+ "      )\n"
+				+ "    );"
+		);
+		return content;
+		
+	}
+	private StringBuilder generateInput(Input input) {
+		StringBuilder content = new StringBuilder();
+		
+		content.append("TextField(\n"
+				+ "       textAlignVertical: TextAlignVertical.center,\n"
+				+ "       decoration: InputDecoration(\n"
+				+ "       	isDense: true,\n"
+				+ "       	hintText: " + input.getName() != null ? input.getName() : " '',\n"
+				+ "       	contentPadding: const EdgeInsets.symmetric(horizontal: 17),\n"
+				+ "        	border: InputBorder.none,\n"
+				+ "       ),\n"
+				+ "       onChanged: (value) {},\n"
+				+ "       style: const TextStyle(\n"
+				+ "         height: 1.3,\n"
+				+ "       ),\n"
+				+ "   ),"
+		);
+		return content;	
+	}
+	private StringBuilder generateListView(ListView listView) {
+		StringBuilder content = new StringBuilder();
+		
+		content.append("ListView.builder(\n"
+				+ "          physics: const BouncingScrollPhysics(),\n"
+				+ "          controller: ctrl.scrollContactsController,\n"
+				+ "          itemCount: 10,\n"
+				+ "          padding: const EdgeInsets.only(bottom: 100),\n"
+				+ "          itemBuilder: (context, index) {\n"
+				+ "\n"
+				+ "            return "+ listView.getTemplateWidget() +"\n"
+				+ "          },\n"
+				+ "     ),"
+		);
+		return content;
+		
+	}
+	private StringBuilder generateRadioButton(RadioButton radioButton) {
+		StringBuilder content = new StringBuilder();
+		
+		content.append("AnimatedSwitcher(\n"
+				+ "			duration: const Duration(milliseconds: 100),\n"
+				+ "		    child: AnimatedContainer(\n"
+				+ "		    duration: const Duration(milliseconds: 200),\n"
+				+ "		    width: " + radioButton.getWidth() != null ? radioButton.getWidth() : "20"  + ",\n"
+				+ "	        height: " + radioButton.getHeight() != null ? radioButton.getHeight() : "20"  + ",\n"
+				+ "		    decoration: BoxDecoration(\n"
+				+ "	         border: Border.all(\n"
+				+ "				width: 1.5,\n"
+				+ "				color: Colors.blue,\n"
+				+ "			 ),\n"
+				+ "			 borderRadius: BorderRadius.circular(size / 2),\n"
+				+ "			),\n"
+				+ "			child: Align(\n"
+				+ "				alignment: Alignment.center,\n"
+				+ "				child: AnimatedOpacity(\n"
+				+ "				duration: const Duration(milliseconds: 200),\n"
+				+ "				opacity: 1,\n"
+				+ "				child: Container(\n"
+				+ "					height: (size - 10).clamp(4, 8),\n"
+				+ "					width: (size - 10).clamp(4, 8),\n"
+				+ "					decoration: BoxDecoration(\n"
+				+ "			    		color: Colors.blue,\n"
+				+ "			    	 	borderRadius: BorderRadius.circular(8 / 2),\n"
+				+ "					),\n"
+				+ "			  	),\n"
+				+ "				),\n"
+				+ "			),\n"
+				+ "		  ),\n"
+				+ "		);"
+		);
+		return content;
+	}
+	private StringBuilder generateComboBox(ComboBox comboBox) {
+		StringBuilder content = new StringBuilder();
+		
+		content.append("DropdownButton(\n"
+				+ "        value: '',\n"
+				+ "        onChanged: (items) {},\n"
+				+ "        underline: Container(),\n"
+				+ "        icon: const Icon(Icons.keyboard_arrow_down),\n"
+				+ "        isExpanded: true,\n"
+				+ "        items: items,\n"
+				+ "      ),"
+		);
+		return content;
+		
+	}
+	private StringBuilder generateDatePicker(DatePicker datePicker) {
+		StringBuilder content = new StringBuilder();
+		
+		content.append("CupertinoDatePicker(\n"
+				+ "       mode: CupertinoDatePickerMode.date,\n"
+				+ "       initialDateTime: DateTime.now(),\n"
+				+ "       onDateTimeChanged: (d) {\n"
+				+ "        \n"
+				+ "       },\n"
+				+ "    ),"
+		);
+		return content;
+		
+	}
+	private StringBuilder generateSwitch(Switch template) {
+		StringBuilder content = new StringBuilder();
+		
+		content.append("AnimatedContainer(\n"
+				+ "      height: 24,\n"
+				+ "      width: 44,\n"
+				+ "      duration: const Duration(milliseconds: 200),\n"
+				+ "      curve: Curves.easeInOut,\n"
+				+ "      decoration: BoxDecoration(\n"
+				+ "        color: const Color(0xFF39D047),\n"
+				+ "        borderRadius: BorderRadius.circular(11),\n"
+				+ "      ),\n"
+				+ "      child: AnimatedAlign(\n"
+				+ "        alignment: Alignment.centerLeft,\n"
+				+ "        duration: const Duration(milliseconds: 200),\n"
+				+ "        curve: Curves.easeInOut,\n"
+				+ "        child: Container(\n"
+				+ "          height: 20,\n"
+				+ "          width: 20,\n"
+				+ "          margin: const EdgeInsets.symmetric(horizontal: 2),\n"
+				+ "          decoration: BoxDecoration(\n"
+				+ "            color: Colors.white,\n"
+				+ "            borderRadius: BorderRadius.circular(18),\n"
+				+ "          ),\n"
+				+ "        ),\n"
+				+ "      ),\n"
+				+ "    );"
+		);
+		return content;
+		
+	}
+	private StringBuilder generateTable(Table table) {
+		StringBuilder content = new StringBuilder();
+		
+		content.append("DataTable(\n"
+			+ "		 columns: [\n"
+			
+			+        generateColumnsTable(table)
+			
+			+ "		 ],\n"
+			+ "	   );"
+		);
+		
+		return content;
+		
+	}
+
+	private StringBuilder generateColumnsTable(Table table) {
+		StringBuilder content = new StringBuilder();
+		
+		for(uidiagram.Column column : table.getListCoulmns()) {
+			content.append("DataColumn(label: Text("+ column.getName() + ")),\n");
+		}
+		return content;
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -26,6 +26,7 @@ import uidiagram.diagram.edit.parts.Input4EditPart;
 import uidiagram.diagram.edit.parts.Label6EditPart;
 import uidiagram.diagram.edit.parts.ListView4EditPart;
 import uidiagram.diagram.edit.parts.ListViewListViewListTemplateWidgetCompartmentEditPart;
+import uidiagram.diagram.edit.parts.ListViewListViewTemplateWidgetCompartmentEditPart;
 import uidiagram.diagram.edit.parts.RadioButton2EditPart;
 import uidiagram.diagram.edit.parts.Switch2EditPart;
 import uidiagram.diagram.edit.parts.Tabbar4EditPart;
@@ -73,7 +74,7 @@ public class ListViewItemSemanticEditPolicy extends UidiagramBaseItemSemanticEdi
 		for (Iterator<?> nit = view.getChildren().iterator(); nit.hasNext();) {
 			Node node = (Node) nit.next();
 			switch (UidiagramVisualIDRegistry.getVisualID(node)) {
-			case ListViewListViewListTemplateWidgetCompartmentEditPart.VISUAL_ID:
+			case ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID:
 				for (Iterator<?> cit = node.getChildren().iterator(); cit.hasNext();) {
 					Node cnode = (Node) cit.next();
 					switch (UidiagramVisualIDRegistry.getVisualID(cnode)) {

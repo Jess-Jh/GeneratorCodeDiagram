@@ -370,7 +370,7 @@ public class ConcreteNavigatorLabelProvider extends LabelProvider
 			return parser.getPrintString(new EObjectAdapter(view.getElement() != null ? view.getElement() : view),
 					ParserOptions.NONE.intValue());
 		} else {
-			ConcreteDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 6006); //$NON-NLS-1$
+			ConcreteDiagramEditorPlugin.getInstance().logError("Parser was not found for label " + 6002); //$NON-NLS-1$
 			return ""; //$NON-NLS-1$
 		}
 	}

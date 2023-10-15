@@ -597,28 +597,28 @@ public class ConcreteViewProvider extends AbstractProvider implements IViewProvi
 		if (routing != null) {
 			ViewUtil.setStructuralFeatureValue(edge, NotationPackage.eINSTANCE.getRoutingStyle_Routing(), routing);
 		}
-		Node label6006 = createLabel(edge, ConcreteVisualIDRegistry.getType(AgregationJJDRolAEditPart.VISUAL_ID));
-		label6006.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location6006 = (Location) label6006.getLayoutConstraint();
-		location6006.setX(-50);
-		location6006.setY(5);
-		Node label6007 = createLabel(edge, ConcreteVisualIDRegistry.getType(AgregationJJDRolBEditPart.VISUAL_ID));
-		label6007.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location6007 = (Location) label6007.getLayoutConstraint();
-		location6007.setX(-50);
-		location6007.setY(5);
-		Node label6008 = createLabel(edge,
+		Node label6002 = createLabel(edge, ConcreteVisualIDRegistry.getType(AgregationJJDRolAEditPart.VISUAL_ID));
+		label6002.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location6002 = (Location) label6002.getLayoutConstraint();
+		location6002.setX(-50);
+		location6002.setY(5);
+		Node label6003 = createLabel(edge, ConcreteVisualIDRegistry.getType(AgregationJJDRolBEditPart.VISUAL_ID));
+		label6003.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location6003 = (Location) label6003.getLayoutConstraint();
+		location6003.setX(-50);
+		location6003.setY(5);
+		Node label6004 = createLabel(edge,
 				ConcreteVisualIDRegistry.getType(AgregationJJDMultiplicityAEditPart.VISUAL_ID));
-		label6008.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location6008 = (Location) label6008.getLayoutConstraint();
-		location6008.setX(-50);
-		location6008.setY(5);
-		Node label6009 = createLabel(edge,
+		label6004.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location6004 = (Location) label6004.getLayoutConstraint();
+		location6004.setX(-50);
+		location6004.setY(5);
+		Node label6005 = createLabel(edge,
 				ConcreteVisualIDRegistry.getType(AgregationJJDMultiplicityBEditPart.VISUAL_ID));
-		label6009.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location6009 = (Location) label6009.getLayoutConstraint();
-		location6009.setX(-50);
-		location6009.setY(5);
+		label6005.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location6005 = (Location) label6005.getLayoutConstraint();
+		location6005.setX(-50);
+		location6005.setY(5);
 		return edge;
 	}
 
@@ -698,22 +698,22 @@ public class ConcreteViewProvider extends AbstractProvider implements IViewProvi
 		Location location6001 = (Location) label6001.getLayoutConstraint();
 		location6001.setX(0);
 		location6001.setY(40);
-		Node label6002 = createLabel(edge, ConcreteVisualIDRegistry.getType(ContainmentJJDRolAEditPart.VISUAL_ID));
-		label6002.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location6002 = (Location) label6002.getLayoutConstraint();
-		location6002.setX(-50);
-		location6002.setY(5);
-		Node label6003 = createLabel(edge, ConcreteVisualIDRegistry.getType(ContainmentJJDRolB2EditPart.VISUAL_ID));
-		label6003.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location6003 = (Location) label6003.getLayoutConstraint();
-		location6003.setX(-50);
-		location6003.setY(5);
-		Node label6004 = createLabel(edge,
+		Node label6006 = createLabel(edge, ConcreteVisualIDRegistry.getType(ContainmentJJDRolAEditPart.VISUAL_ID));
+		label6006.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location6006 = (Location) label6006.getLayoutConstraint();
+		location6006.setX(-50);
+		location6006.setY(5);
+		Node label6007 = createLabel(edge, ConcreteVisualIDRegistry.getType(ContainmentJJDRolB2EditPart.VISUAL_ID));
+		label6007.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location6007 = (Location) label6007.getLayoutConstraint();
+		location6007.setX(-50);
+		location6007.setY(5);
+		Node label6008 = createLabel(edge,
 				ConcreteVisualIDRegistry.getType(ContainmentJJDMultiplicityAEditPart.VISUAL_ID));
-		label6004.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
-		Location location6004 = (Location) label6004.getLayoutConstraint();
-		location6004.setX(-50);
-		location6004.setY(5);
+		label6008.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
+		Location location6008 = (Location) label6008.getLayoutConstraint();
+		location6008.setX(-50);
+		location6008.setY(5);
 		Node label6014 = createLabel(edge,
 				ConcreteVisualIDRegistry.getType(ContainmentJJDMultiplicityBEditPart.VISUAL_ID));
 		label6014.setLayoutConstraint(NotationFactory.eINSTANCE.createLocation());
