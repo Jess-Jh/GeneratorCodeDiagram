@@ -96,7 +96,7 @@ public class DialogColumnView extends Dialog {
         @Override
         protected void doExecute()
         {
-        	column.setName(textName.getText());                
+        	if(textName != null && !(textName.getText().isEmpty())) column.setName(textName.getText());                
         }
 
        

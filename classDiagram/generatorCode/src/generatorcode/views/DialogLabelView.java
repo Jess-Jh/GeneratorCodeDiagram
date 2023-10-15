@@ -20,7 +20,6 @@ public class DialogLabelView extends Dialog {
     private Text textName;
 	private Text textFontSize;
 	private Text textColor;
-	private Text textFontWeight;
 	private Combo comboFontWeight;
     private uidiagram.Label model;
     private TransactionalEditingDomain domain;
@@ -136,11 +135,11 @@ public class DialogLabelView extends Dialog {
         }
         @Override
         protected void doExecute() {
-        	
-        	if(textName != null) label.setName(textName.getText()); 
-        	if(textFontSize != null) label.setFontSize(textFontSize.getText());
-        	if(textColor != null) label.setFontColor(textColor.getText());
-        	if(textFontWeight != null) label.setFontWeight(comboFontWeight.getText());
+        	        	
+        	if(textName != null && !(textName.getText().isEmpty())) label.setName(textName.getText()); 
+        	if(textFontSize != null && !(textFontSize.getText().isEmpty())) label.setFontSize(textFontSize.getText());
+        	if(textColor != null && !(textColor.getText().isEmpty())) label.setFontColor(textColor.getText());
+        	if(!(comboFontWeight.getText().isEmpty())) label.setFontWeight(comboFontWeight.getText());
         }
 
        

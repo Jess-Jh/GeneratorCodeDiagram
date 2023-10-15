@@ -49,6 +49,7 @@ public class DialogGroupColumnView extends Dialog {
 		
 		textName = new Text(container, SWT.BORDER);
 		textName.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
+		new Label(container, SWT.NONE);
 
 		return container;
     }
@@ -68,7 +69,7 @@ public class DialogGroupColumnView extends Dialog {
      */
     @Override
     protected Point getInitialSize() {
-        return new Point(450, 300);
+        return new Point(350, 250);
     }
    
     @Override
@@ -96,7 +97,8 @@ public class DialogGroupColumnView extends Dialog {
         @Override
         protected void doExecute()
         {
-        	groupColumn.setName(textName.getText());                
+        	if(textName != null && !(textName.getText().isEmpty()))  groupColumn.setName(textName.getText()); 
+      
         }
 
        

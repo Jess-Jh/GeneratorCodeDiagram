@@ -17,6 +17,7 @@ import org.eclipse.swt.widgets.Text;
 
 public class DialogDatePickerView extends Dialog {
     private Text textName;
+    private Text textColor;
     private uidiagram.DatePicker model;
     private TransactionalEditingDomain domain;
 
@@ -40,7 +41,7 @@ public class DialogDatePickerView extends Dialog {
     protected Control createDialogArea(Composite parent) {
     	Composite container = (Composite) super.createDialogArea(parent);
 		GridLayout gridLayout = (GridLayout) container.getLayout();
-		gridLayout.numColumns = 2;
+		gridLayout.numColumns = 4;
 		new Label(container, SWT.NONE);
 		
 		Label lblNewLabel = new Label(container, SWT.NONE);
@@ -49,6 +50,15 @@ public class DialogDatePickerView extends Dialog {
 		
 		textName = new Text(container, SWT.BORDER);
 		textName.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
+		new Label(container, SWT.NONE);
+		
+		Label lblColor = new Label(container, SWT.NONE);
+		lblColor.setText("Color:");
+		new Label(container, SWT.NONE);
+		
+		textColor = new Text(container, SWT.BORDER);
+		textColor.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
+		new Label(container, SWT.NONE);
 
 		return container;
     }
@@ -96,7 +106,9 @@ public class DialogDatePickerView extends Dialog {
         @Override
         protected void doExecute()
         {
-        	datePicker.setName(textName.getText());                
+        	if(textName != null && !(textName.getText().isEmpty()))  datePicker.setName(textName.getText()); 
+        	if(textColor != null && !(textColor.getText().isEmpty())) datePicker.setBackgroundColor(textColor.getText());
+            
         }
 
        

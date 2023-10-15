@@ -17,6 +17,7 @@ import org.eclipse.swt.widgets.Text;
 
 public class DialogButtonView extends Dialog {
     private Text textName;
+    private Text textColor;
     private uidiagram.Button model;
     private TransactionalEditingDomain domain;
 
@@ -49,6 +50,15 @@ public class DialogButtonView extends Dialog {
 		
 		textName = new Text(container, SWT.BORDER);
 		textName.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
+		new Label(container, SWT.NONE);
+		
+		Label lblColor = new Label(container, SWT.NONE);
+		lblColor.setText("Color:");
+		new Label(container, SWT.NONE);
+		
+		textColor = new Text(container, SWT.BORDER);
+		textColor.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
+		new Label(container, SWT.NONE);
 
 		return container;
     }
@@ -68,7 +78,7 @@ public class DialogButtonView extends Dialog {
      */
     @Override
     protected Point getInitialSize() {
-        return new Point(450, 300);
+        return new Point(350, 250);
     }
    
     @Override
@@ -96,7 +106,9 @@ public class DialogButtonView extends Dialog {
         @Override
         protected void doExecute()
         {
-        	button.setName(textName.getText());                
+        	if(textName != null && !(textName.getText().isEmpty()))  button.setName(textName.getText()); 
+        	if(textColor != null && !(textColor.getText().isEmpty())) button.setBackgroundColor(textColor.getText());
+  
         }
 
        
