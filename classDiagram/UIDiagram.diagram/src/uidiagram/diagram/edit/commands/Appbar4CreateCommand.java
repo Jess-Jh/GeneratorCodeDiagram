@@ -18,7 +18,6 @@ import org.eclipse.gmf.runtime.notation.View;
 import uidiagram.Appbar;
 import uidiagram.ListView;
 import uidiagram.UidiagramFactory;
-import uidiagram.UserInterface;
 
 /**
  * @generated

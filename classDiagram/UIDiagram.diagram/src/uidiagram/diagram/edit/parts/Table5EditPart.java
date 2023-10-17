@@ -42,7 +42,7 @@ public class Table5EditPart extends ShapeNodeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3061;
+	public static final int VISUAL_ID = 3080;
 
 	/**
 	* @generated
@@ -327,7 +327,7 @@ public class Table5EditPart extends ShapeNodeEditPart {
 		}
 
 	}
-
+	
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

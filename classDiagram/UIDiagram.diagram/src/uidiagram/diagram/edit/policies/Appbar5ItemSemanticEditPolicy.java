@@ -31,7 +31,7 @@ public class Appbar5ItemSemanticEditPolicy extends UidiagramBaseItemSemanticEdit
 	* @generated
 	*/
 	public Appbar5ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.Appbar_3050);
+		super(UidiagramElementTypes.Appbar_3069);
 	}
 
 	/**

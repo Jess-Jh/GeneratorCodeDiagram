@@ -60,7 +60,7 @@ public class ColumnNameEditPart extends CompartmentEditPart implements ITextAwar
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5012;
+	public static final int VISUAL_ID = 5015;
 
 	/**
 	* @generated
@@ -295,7 +295,7 @@ public class ColumnNameEditPart extends CompartmentEditPart implements ITextAwar
 	*/
 	public IParser getParser() {
 		if (parser == null) {
-			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Column_3019, getParserElement(),
+			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Column_3024, getParserElement(),
 					UidiagramVisualIDRegistry.getType(uidiagram.diagram.edit.parts.ColumnNameEditPart.VISUAL_ID));
 		}
 		return parser;

@@ -60,7 +60,7 @@ public class AppbarName5EditPart extends CompartmentEditPart implements ITextAwa
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5050;
+	public static final int VISUAL_ID = 5069;
 
 	/**
 	* @generated
@@ -295,7 +295,7 @@ public class AppbarName5EditPart extends CompartmentEditPart implements ITextAwa
 	*/
 	public IParser getParser() {
 		if (parser == null) {
-			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Appbar_3050, getParserElement(),
+			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Appbar_3069, getParserElement(),
 					UidiagramVisualIDRegistry.getType(uidiagram.diagram.edit.parts.AppbarName5EditPart.VISUAL_ID));
 		}
 		return parser;

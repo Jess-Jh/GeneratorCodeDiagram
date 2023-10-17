@@ -28,7 +28,6 @@ import org.eclipse.gmf.runtime.notation.View;
 import org.eclipse.swt.graphics.Color;
 
 import uidiagram.diagram.edit.notifications.NotificationEvent;
-import uidiagram.diagram.edit.policies.OpenRadioButtonEditPolicy;
 import uidiagram.diagram.edit.policies.OpenSwitchEditPolicy;
 import uidiagram.diagram.edit.policies.SwitchItemSemanticEditPolicy;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;
@@ -41,7 +40,7 @@ public class SwitchEditPart extends ShapeNodeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3017;
+	public static final int VISUAL_ID = 3022;
 
 	/**
 	* @generated
@@ -292,7 +291,7 @@ public class SwitchEditPart extends ShapeNodeEditPart {
 		}
 
 	}
-
+	
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

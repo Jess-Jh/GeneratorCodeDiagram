@@ -426,12 +426,12 @@ public class Messages extends NLS {
 	/**
 	* @generated
 	*/
-	public static String GroupGroupListTemplateWidgetCompartmentEditPart_title;
+	public static String GroupGroupTemplateWidgetCompartmentEditPart_title;
 
 	/**
 	* @generated
 	*/
-	public static String GroupGroupListTemplateWidgetCompartment2EditPart_title;
+	public static String GroupGroupTemplateWidgetCompartment2EditPart_title;
 
 	/**
 	* @generated
@@ -441,7 +441,7 @@ public class Messages extends NLS {
 	/**
 	* @generated
 	*/
-	public static String GroupGroupListTemplateWidgetCompartment3EditPart_title;
+	public static String GroupGroupTemplateWidgetCompartment3EditPart_title;
 
 	/**
 	* @generated
@@ -451,7 +451,7 @@ public class Messages extends NLS {
 	/**
 	* @generated
 	*/
-	public static String GroupGroupListTemplateWidgetCompartment4EditPart_title;
+	public static String GroupGroupTemplateWidgetCompartment4EditPart_title;
 
 	/**
 	* @generated
@@ -481,7 +481,7 @@ public class Messages extends NLS {
 	/**
 	* @generated
 	*/
-	public static String GroupGroupListTemplateWidgetCompartment5EditPart_title;
+	public static String GroupGroupTemplateWidgetCompartment5EditPart_title;
 
 	/**
 	* @generated
@@ -506,7 +506,7 @@ public class Messages extends NLS {
 	/**
 	* @generated
 	*/
-	public static String GroupRowGroupRowListTemplateWidgetCompartment3EditPart_title;
+	public static String GroupColumnGroupColumnListTemplateWidgetCompartment4EditPart_title;
 
 	/**
 	* @generated
@@ -536,7 +536,12 @@ public class Messages extends NLS {
 	/**
 	* @generated
 	*/
-	public static String TableTableListCoulmnsCompartment2EditPart_title;
+	public static String GroupRowGroupRowListTemplateWidgetCompartment3EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String GroupRowGroupRowListTemplateWidgetCompartment4EditPart_title;
 
 	/**
 	* @generated
@@ -566,21 +571,6 @@ public class Messages extends NLS {
 	/**
 	* @generated
 	*/
-	public static String TableTableListCoulmnsCompartment3EditPart_title;
-
-	/**
-	* @generated
-	*/
-	public static String GroupColumnGroupColumnListTemplateWidgetCompartment4EditPart_title;
-
-	/**
-	* @generated
-	*/
-	public static String GroupRowGroupRowListTemplateWidgetCompartment4EditPart_title;
-
-	/**
-	* @generated
-	*/
 	public static String AppbarAppbarListButtonsCompartment4EditPart_title;
 
 	/**
@@ -602,6 +592,16 @@ public class Messages extends NLS {
 	* @generated
 	*/
 	public static String ListViewListViewTemplateWidgetCompartment4EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String TableTableListCoulmnsCompartment2EditPart_title;
+
+	/**
+	* @generated
+	*/
+	public static String TableTableListCoulmnsCompartment3EditPart_title;
 
 	/**
 	* @generated

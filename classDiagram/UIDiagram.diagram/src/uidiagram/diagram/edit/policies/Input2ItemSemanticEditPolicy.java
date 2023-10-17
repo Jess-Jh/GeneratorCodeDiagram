@@ -22,7 +22,7 @@ public class Input2ItemSemanticEditPolicy extends UidiagramBaseItemSemanticEditP
 	* @generated
 	*/
 	public Input2ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.Input_3041);
+		super(UidiagramElementTypes.Input_3034);
 	}
 
 	/**

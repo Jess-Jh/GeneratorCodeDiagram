@@ -17,7 +17,6 @@ import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.Button;
 import uidiagram.Group;
-import uidiagram.GroupColumn;
 import uidiagram.UidiagramFactory;
 
 /**
@@ -48,6 +47,10 @@ public class Button3CreateCommand extends EditElementCommand {
 	* @generated
 	*/
 	public boolean canExecute() {
+		Group container = (Group) getElementToEdit();
+		if (container.getTemplateWidget() != null) {
+			return false;
+		}
 		return true;
 
 	}
@@ -59,7 +62,7 @@ public class Button3CreateCommand extends EditElementCommand {
 		Button newElement = UidiagramFactory.eINSTANCE.createButton();
 
 		Group owner = (Group) getElementToEdit();
-		owner.getListTemplateWidget().add(newElement);
+		owner.setTemplateWidget(newElement);
 
 		doConfigure(newElement, monitor, info);
 

@@ -10,11 +10,9 @@ import org.eclipse.gmf.runtime.notation.Diagram;
 import org.eclipse.gmf.runtime.notation.View;
 import org.eclipse.gmf.tooling.runtime.structure.DiagramStructure;
 
-import uidiagram.ModelFactory;
 import uidiagram.UIDiagram;
 import uidiagram.UidiagramPackage;
 import uidiagram.diagram.edit.parts.*;
-import uidiagram.diagram.edit.parts.ModelFactoryEditPart;
 
 /**
  * This registry is used to determine which type of visual object should be
@@ -169,7 +167,7 @@ public class UidiagramVisualIDRegistry {
 				return Table5EditPart.VISUAL_ID;
 			}
 			break;
-		case GroupGroupListTemplateWidgetCompartmentEditPart.VISUAL_ID:
+		case GroupGroupTemplateWidgetCompartmentEditPart.VISUAL_ID:
 			if (UidiagramPackage.eINSTANCE.getGroup().isSuperTypeOf(domainElement.eClass())) {
 				return Group2EditPart.VISUAL_ID;
 			}
@@ -216,7 +214,7 @@ public class UidiagramVisualIDRegistry {
 				return TableEditPart.VISUAL_ID;
 			}
 			break;
-		case GroupGroupListTemplateWidgetCompartment2EditPart.VISUAL_ID:
+		case GroupGroupTemplateWidgetCompartment2EditPart.VISUAL_ID:
 			if (UidiagramPackage.eINSTANCE.getGroup().isSuperTypeOf(domainElement.eClass())) {
 				return Group2EditPart.VISUAL_ID;
 			}
@@ -310,7 +308,7 @@ public class UidiagramVisualIDRegistry {
 				return Table4EditPart.VISUAL_ID;
 			}
 			break;
-		case GroupGroupListTemplateWidgetCompartment3EditPart.VISUAL_ID:
+		case GroupGroupTemplateWidgetCompartment3EditPart.VISUAL_ID:
 			if (UidiagramPackage.eINSTANCE.getGroup().isSuperTypeOf(domainElement.eClass())) {
 				return Group2EditPart.VISUAL_ID;
 			}
@@ -404,7 +402,7 @@ public class UidiagramVisualIDRegistry {
 				return Table3EditPart.VISUAL_ID;
 			}
 			break;
-		case GroupGroupListTemplateWidgetCompartment4EditPart.VISUAL_ID:
+		case GroupGroupTemplateWidgetCompartment4EditPart.VISUAL_ID:
 			if (UidiagramPackage.eINSTANCE.getGroup().isSuperTypeOf(domainElement.eClass())) {
 				return Group2EditPart.VISUAL_ID;
 			}
@@ -518,7 +516,7 @@ public class UidiagramVisualIDRegistry {
 				return Table2EditPart.VISUAL_ID;
 			}
 			break;
-		case GroupGroupListTemplateWidgetCompartment5EditPart.VISUAL_ID:
+		case GroupGroupTemplateWidgetCompartment5EditPart.VISUAL_ID:
 			if (UidiagramPackage.eINSTANCE.getGroup().isSuperTypeOf(domainElement.eClass())) {
 				return Group2EditPart.VISUAL_ID;
 			}
@@ -1274,7 +1272,7 @@ public class UidiagramVisualIDRegistry {
 			if (GroupNameEditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (GroupGroupListTemplateWidgetCompartmentEditPart.VISUAL_ID == nodeVisualID) {
+			if (GroupGroupTemplateWidgetCompartmentEditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;
@@ -1282,7 +1280,7 @@ public class UidiagramVisualIDRegistry {
 			if (GroupName2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (GroupGroupListTemplateWidgetCompartment2EditPart.VISUAL_ID == nodeVisualID) {
+			if (GroupGroupTemplateWidgetCompartment2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;
@@ -1298,7 +1296,7 @@ public class UidiagramVisualIDRegistry {
 			if (GroupName3EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (GroupGroupListTemplateWidgetCompartment3EditPart.VISUAL_ID == nodeVisualID) {
+			if (GroupGroupTemplateWidgetCompartment3EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;
@@ -1314,7 +1312,7 @@ public class UidiagramVisualIDRegistry {
 			if (GroupName4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (GroupGroupListTemplateWidgetCompartment4EditPart.VISUAL_ID == nodeVisualID) {
+			if (GroupGroupTemplateWidgetCompartment4EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;
@@ -1392,7 +1390,7 @@ public class UidiagramVisualIDRegistry {
 			if (GroupName5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
-			if (GroupGroupListTemplateWidgetCompartment5EditPart.VISUAL_ID == nodeVisualID) {
+			if (GroupGroupTemplateWidgetCompartment5EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
 			break;
@@ -1852,7 +1850,7 @@ public class UidiagramVisualIDRegistry {
 				return true;
 			}
 			break;
-		case GroupGroupListTemplateWidgetCompartmentEditPart.VISUAL_ID:
+		case GroupGroupTemplateWidgetCompartmentEditPart.VISUAL_ID:
 			if (Group2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
@@ -1899,7 +1897,7 @@ public class UidiagramVisualIDRegistry {
 				return true;
 			}
 			break;
-		case GroupGroupListTemplateWidgetCompartment2EditPart.VISUAL_ID:
+		case GroupGroupTemplateWidgetCompartment2EditPart.VISUAL_ID:
 			if (Group2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
@@ -1993,7 +1991,7 @@ public class UidiagramVisualIDRegistry {
 				return true;
 			}
 			break;
-		case GroupGroupListTemplateWidgetCompartment3EditPart.VISUAL_ID:
+		case GroupGroupTemplateWidgetCompartment3EditPart.VISUAL_ID:
 			if (Group2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
@@ -2087,7 +2085,7 @@ public class UidiagramVisualIDRegistry {
 				return true;
 			}
 			break;
-		case GroupGroupListTemplateWidgetCompartment4EditPart.VISUAL_ID:
+		case GroupGroupTemplateWidgetCompartment4EditPart.VISUAL_ID:
 			if (Group2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
@@ -2201,7 +2199,7 @@ public class UidiagramVisualIDRegistry {
 				return true;
 			}
 			break;
-		case GroupGroupListTemplateWidgetCompartment5EditPart.VISUAL_ID:
+		case GroupGroupTemplateWidgetCompartment5EditPart.VISUAL_ID:
 			if (Group2EditPart.VISUAL_ID == nodeVisualID) {
 				return true;
 			}
@@ -2959,18 +2957,18 @@ public class UidiagramVisualIDRegistry {
 	public static boolean isCompartmentVisualID(int visualID) {
 		switch (visualID) {
 		case UserInterfaceUserInterfaceListTemplateWidgetCompartmentEditPart.VISUAL_ID:
-		case GroupGroupListTemplateWidgetCompartmentEditPart.VISUAL_ID:
-		case GroupGroupListTemplateWidgetCompartment2EditPart.VISUAL_ID:
+		case GroupGroupTemplateWidgetCompartmentEditPart.VISUAL_ID:
+		case GroupGroupTemplateWidgetCompartment2EditPart.VISUAL_ID:
 		case GroupColumnGroupColumnListTemplateWidgetCompartmentEditPart.VISUAL_ID:
-		case GroupGroupListTemplateWidgetCompartment3EditPart.VISUAL_ID:
+		case GroupGroupTemplateWidgetCompartment3EditPart.VISUAL_ID:
 		case GroupRowGroupRowListTemplateWidgetCompartmentEditPart.VISUAL_ID:
-		case GroupGroupListTemplateWidgetCompartment4EditPart.VISUAL_ID:
+		case GroupGroupTemplateWidgetCompartment4EditPart.VISUAL_ID:
 		case AppbarAppbarListButtonsCompartmentEditPart.VISUAL_ID:
 		case AppbarAppbarListLabelsCompartmentEditPart.VISUAL_ID:
 		case TabbarTabbarListButtonsCompartmentEditPart.VISUAL_ID:
 		case TabbarTabbarListLabelsCompartmentEditPart.VISUAL_ID:
 		case ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID:
-		case GroupGroupListTemplateWidgetCompartment5EditPart.VISUAL_ID:
+		case GroupGroupTemplateWidgetCompartment5EditPart.VISUAL_ID:
 		case TableTableListCoulmnsCompartmentEditPart.VISUAL_ID:
 		case GroupColumnGroupColumnListTemplateWidgetCompartment2EditPart.VISUAL_ID:
 		case GroupColumnGroupColumnListTemplateWidgetCompartment3EditPart.VISUAL_ID:
@@ -3018,6 +3016,10 @@ public class UidiagramVisualIDRegistry {
 		switch (visualID) {
 		case UIDiagramEditPart.VISUAL_ID:
 			return false;
+		case ButtonEditPart.VISUAL_ID:
+		case LabelEditPart.VISUAL_ID:
+		case Button2EditPart.VISUAL_ID:
+		case Label2EditPart.VISUAL_ID:
 		case Button3EditPart.VISUAL_ID:
 		case Label3EditPart.VISUAL_ID:
 		case CheckboxEditPart.VISUAL_ID:
@@ -3027,18 +3029,26 @@ public class UidiagramVisualIDRegistry {
 		case DatePickerEditPart.VISUAL_ID:
 		case SwitchEditPart.VISUAL_ID:
 		case ColumnEditPart.VISUAL_ID:
-		case Button5EditPart.VISUAL_ID:
-		case Label5EditPart.VISUAL_ID:
-		case Checkbox3EditPart.VISUAL_ID:
-		case Input3EditPart.VISUAL_ID:
-		case RadioButton3EditPart.VISUAL_ID:
-		case ComboBox3EditPart.VISUAL_ID:
-		case DatePicker3EditPart.VISUAL_ID:
-		case Switch3EditPart.VISUAL_ID:
 		case Button4EditPart.VISUAL_ID:
 		case Label4EditPart.VISUAL_ID:
 		case Checkbox2EditPart.VISUAL_ID:
 		case Input2EditPart.VISUAL_ID:
+		case Button5EditPart.VISUAL_ID:
+		case Label5EditPart.VISUAL_ID:
+		case Checkbox3EditPart.VISUAL_ID:
+		case Input3EditPart.VISUAL_ID:
+		case Button6EditPart.VISUAL_ID:
+		case Label6EditPart.VISUAL_ID:
+		case Checkbox4EditPart.VISUAL_ID:
+		case Input4EditPart.VISUAL_ID:
+		case RadioButton2EditPart.VISUAL_ID:
+		case ComboBox2EditPart.VISUAL_ID:
+		case DatePicker2EditPart.VISUAL_ID:
+		case Switch2EditPart.VISUAL_ID:
+		case RadioButton3EditPart.VISUAL_ID:
+		case ComboBox3EditPart.VISUAL_ID:
+		case DatePicker3EditPart.VISUAL_ID:
+		case Switch3EditPart.VISUAL_ID:
 		case RadioButton4EditPart.VISUAL_ID:
 		case ComboBox4EditPart.VISUAL_ID:
 		case DatePicker4EditPart.VISUAL_ID:
@@ -3051,18 +3061,6 @@ public class UidiagramVisualIDRegistry {
 		case ComboBox5EditPart.VISUAL_ID:
 		case DatePicker5EditPart.VISUAL_ID:
 		case Switch5EditPart.VISUAL_ID:
-		case ButtonEditPart.VISUAL_ID:
-		case Button2EditPart.VISUAL_ID:
-		case LabelEditPart.VISUAL_ID:
-		case Label2EditPart.VISUAL_ID:
-		case Button6EditPart.VISUAL_ID:
-		case Label6EditPart.VISUAL_ID:
-		case Checkbox4EditPart.VISUAL_ID:
-		case Input4EditPart.VISUAL_ID:
-		case RadioButton2EditPart.VISUAL_ID:
-		case ComboBox2EditPart.VISUAL_ID:
-		case DatePicker2EditPart.VISUAL_ID:
-		case Switch2EditPart.VISUAL_ID:
 			return true;
 		default:
 			break;

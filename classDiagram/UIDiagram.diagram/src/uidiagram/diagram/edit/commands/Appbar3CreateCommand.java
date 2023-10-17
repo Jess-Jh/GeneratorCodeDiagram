@@ -16,7 +16,6 @@ import org.eclipse.gmf.runtime.emf.type.core.requests.CreateElementRequest;
 import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.Appbar;
-import uidiagram.GroupColumn;
 import uidiagram.GroupRow;
 import uidiagram.UidiagramFactory;
 

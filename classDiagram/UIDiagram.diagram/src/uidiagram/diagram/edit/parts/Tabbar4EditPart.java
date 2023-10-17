@@ -42,7 +42,7 @@ public class Tabbar4EditPart extends ShapeNodeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3085;
+	public static final int VISUAL_ID = 3046;
 
 	/**
 	* @generated
@@ -291,20 +291,18 @@ public class Tabbar4EditPart extends ShapeNodeEditPart {
 		 * @generated
 		 */
 		private WrappingLabel fFigureTabbarLabelFigure;
-
 		/**
-		* @generated
-		*/
+		 * @generated
+		 */
 		private RectangleFigure fTabbarListButtonsCompartmentFigure;
-
 		/**
-		* @generated
-		*/
+		 * @generated
+		 */
 		private RectangleFigure fTabbarListLabelsCompartmentFigure;
 
 		/**
-				 * @generated
-				 */
+		 * @generated
+		 */
 		public TabbarFigure() {
 			this.setCornerDimensions(new Dimension(getMapMode().DPtoLP(8), getMapMode().DPtoLP(8)));
 			this.setBorder(new MarginBorder(getMapMode().DPtoLP(5), getMapMode().DPtoLP(5), getMapMode().DPtoLP(5),
@@ -346,21 +344,21 @@ public class Tabbar4EditPart extends ShapeNodeEditPart {
 		}
 
 		/**
-		* @generated
-		*/
+		 * @generated
+		 */
 		public RectangleFigure getTabbarListButtonsCompartmentFigure() {
 			return fTabbarListButtonsCompartmentFigure;
 		}
 
 		/**
-		* @generated
-		*/
+		 * @generated
+		 */
 		public RectangleFigure getTabbarListLabelsCompartmentFigure() {
 			return fTabbarListLabelsCompartmentFigure;
 		}
 
 	}
-
+	
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

@@ -60,7 +60,7 @@ public class GroupName3EditPart extends CompartmentEditPart implements ITextAwar
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5044;
+	public static final int VISUAL_ID = 5063;
 
 	/**
 	* @generated

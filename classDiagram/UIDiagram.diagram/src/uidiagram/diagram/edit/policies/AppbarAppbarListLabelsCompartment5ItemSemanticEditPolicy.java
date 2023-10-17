@@ -18,14 +18,14 @@ public class AppbarAppbarListLabelsCompartment5ItemSemanticEditPolicy extends Ui
 	* @generated
 	*/
 	public AppbarAppbarListLabelsCompartment5ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.Appbar_3050);
+		super(UidiagramElementTypes.Appbar_3069);
 	}
 
 	/**
 	* @generated
 	*/
 	protected Command getCreateCommand(CreateElementRequest req) {
-		if (UidiagramElementTypes.Label_3064 == req.getElementType()) {
+		if (UidiagramElementTypes.Label_3009 == req.getElementType()) {
 			return getGEFWrapper(new LabelCreateCommand(req));
 		}
 		return super.getCreateCommand(req);

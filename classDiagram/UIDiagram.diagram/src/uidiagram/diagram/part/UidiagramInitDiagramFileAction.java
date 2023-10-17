@@ -21,7 +21,6 @@ import org.eclipse.swt.widgets.Shell;
 import org.eclipse.ui.IObjectActionDelegate;
 import org.eclipse.ui.IWorkbenchPart;
 
-import uidiagram.diagram.edit.parts.ModelFactoryEditPart;
 import uidiagram.diagram.edit.parts.UIDiagramEditPart;
 
 /**

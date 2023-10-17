@@ -29,7 +29,6 @@ import org.eclipse.swt.graphics.Color;
 
 import uidiagram.diagram.edit.notifications.NotificationEvent;
 import uidiagram.diagram.edit.policies.Checkbox2ItemSemanticEditPolicy;
-import uidiagram.diagram.edit.policies.OpenButtonEditPolicy;
 import uidiagram.diagram.edit.policies.OpenCheckboxEditPolicy;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;
 
@@ -41,7 +40,7 @@ public class Checkbox2EditPart extends ShapeNodeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3040;
+	public static final int VISUAL_ID = 3033;
 
 	/**
 	* @generated
@@ -292,7 +291,7 @@ public class Checkbox2EditPart extends ShapeNodeEditPart {
 		}
 
 	}
-
+	
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

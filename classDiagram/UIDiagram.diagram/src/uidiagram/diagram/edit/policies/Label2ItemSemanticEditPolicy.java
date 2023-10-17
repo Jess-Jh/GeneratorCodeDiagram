@@ -22,7 +22,7 @@ public class Label2ItemSemanticEditPolicy extends UidiagramBaseItemSemanticEditP
 	* @generated
 	*/
 	public Label2ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.Label_3065);
+		super(UidiagramElementTypes.Label_3012);
 	}
 
 	/**

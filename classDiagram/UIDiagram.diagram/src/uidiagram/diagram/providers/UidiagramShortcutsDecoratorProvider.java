@@ -16,7 +16,6 @@ import org.eclipse.gmf.runtime.diagram.ui.services.decorator.IDecoratorTarget;
 import org.eclipse.gmf.runtime.notation.View;
 import org.eclipse.swt.graphics.Image;
 
-import uidiagram.diagram.edit.parts.ModelFactoryEditPart;
 import uidiagram.diagram.edit.parts.UIDiagramEditPart;
 import uidiagram.diagram.part.UidiagramDiagramEditorPlugin;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;

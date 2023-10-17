@@ -94,46 +94,46 @@ public class UserInterfaceUserInterfaceListTemplateWidgetCompartmentEditPart ext
 			if (type == UidiagramElementTypes.Group_3001) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.GroupColumn_3048) {
+			if (type == UidiagramElementTypes.GroupColumn_3067) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.GroupRow_3049) {
+			if (type == UidiagramElementTypes.GroupRow_3068) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.Appbar_3050) {
+			if (type == UidiagramElementTypes.Appbar_3069) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.Tabbar_3051) {
+			if (type == UidiagramElementTypes.Tabbar_3070) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.Button_3052) {
+			if (type == UidiagramElementTypes.Button_3071) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.Label_3053) {
+			if (type == UidiagramElementTypes.Label_3072) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.Checkbox_3054) {
+			if (type == UidiagramElementTypes.Checkbox_3073) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.Input_3055) {
+			if (type == UidiagramElementTypes.Input_3074) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.ListView_3056) {
+			if (type == UidiagramElementTypes.ListView_3075) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.RadioButton_3057) {
+			if (type == UidiagramElementTypes.RadioButton_3076) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.ComboBox_3058) {
+			if (type == UidiagramElementTypes.ComboBox_3077) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.DatePicker_3059) {
+			if (type == UidiagramElementTypes.DatePicker_3078) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.Switch_3060) {
+			if (type == UidiagramElementTypes.Switch_3079) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.Table_3061) {
+			if (type == UidiagramElementTypes.Table_3080) {
 				return this;
 			}
 			return getParent().getTargetEditPart(request);

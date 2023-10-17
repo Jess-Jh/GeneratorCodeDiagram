@@ -29,7 +29,7 @@ public class Table2ItemSemanticEditPolicy extends UidiagramBaseItemSemanticEditP
 	* @generated
 	*/
 	public Table2ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.Table_3095);
+		super(UidiagramElementTypes.Table_3056);
 	}
 
 	/**

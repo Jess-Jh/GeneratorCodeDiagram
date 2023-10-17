@@ -42,7 +42,7 @@ public class GroupRow3EditPart extends ShapeNodeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3083;
+	public static final int VISUAL_ID = 3036;
 
 	/**
 	* @generated
@@ -329,7 +329,7 @@ public class GroupRow3EditPart extends ShapeNodeEditPart {
 		}
 
 	}
-
+	
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

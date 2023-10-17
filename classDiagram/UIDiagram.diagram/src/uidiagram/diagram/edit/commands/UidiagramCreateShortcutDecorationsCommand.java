@@ -18,7 +18,6 @@ import org.eclipse.gmf.runtime.diagram.ui.requests.CreateViewRequest;
 import org.eclipse.gmf.runtime.emf.commands.core.command.AbstractTransactionalCommand;
 import org.eclipse.gmf.runtime.notation.View;
 
-import uidiagram.diagram.edit.parts.ModelFactoryEditPart;
 import uidiagram.diagram.edit.parts.UIDiagramEditPart;
 
 /**

@@ -64,6 +64,7 @@ public class ModelFactoryModel {
 
 	modelFactoryConcrete = uploadConcrete();
 	modelFactoryAbstract = uploadAbstract();
+	modelFactoryUiDiagram = uploadUIDiagram();
 
 //			if ( modelFactoryConcrete == null ){
 //				modelFactoryConcrete = tempModelFactory;
@@ -109,6 +110,26 @@ public class ModelFactoryModel {
 			System.out.println(e);
 		}
 		return modelFactoryAbstract;
+	}
+	
+	public ModelFactory uploadUIDiagram() {
+		ModelFactory modelFactory = null;
+		
+		ConcretePackage whoownmePackage =  ConcretePackage.eINSTANCE;
+		org.eclipse.emf.ecore.resource.ResourceSet resourceSet = new org.eclipse.emf.ecore.resource.impl.ResourceSetImpl();		
+		org.eclipse.emf.common.util.URI uri = org.eclipse.emf.common.util.URI.createURI("platform:/resource/test/src/model/model.uidiagram");
+		org.eclipse.emf.ecore.resource.Resource resource = resourceSet.createResource(uri);
+		
+		try {
+			resource.load(null);
+			modelFactory = (ModelFactory)resource.getContents().get(0);
+			System.out.println("loaded: " + modelFactory);
+		}
+		catch (java.io.IOException e) {
+			System.out.println("failed to read " + uri); 		
+			System.out.println(e);
+		}
+		return modelFactory;
 	}
 	
 	public void saveConcrete() {
@@ -353,10 +374,10 @@ public class ModelFactoryModel {
 				+ getMethodsClass(classJJD) + "\n"
 				+ "}");
 		
-		CreateFile(classJJD.getName()+".dart",content);
+		CreateFile(classJJD.getName()+".dart",content, true);
 	}
 
-	private void CreateFile(String nameClass, StringBuilder content) {
+	private void CreateFile(String nameClass, StringBuilder content, boolean isModel) {
 		
 //		JFileChooser fileChooser = new JFileChooser();
 //		fileChooser.setCurrentDirectory(new File("."));
@@ -378,11 +399,21 @@ public class ModelFactoryModel {
 
 
         if (operatingSystem.contains("win")) {
-        	routeDesktop = System.getProperty("user.home") + "\\Desktop\\ClassDart";
+        	if(isModel) {
+        		routeDesktop = System.getProperty("user.home") + "\\Desktop\\ProjectModeling\\Models";        		
+        	} else {
+        		routeDesktop = System.getProperty("user.home") + "\\Desktop\\ProjectModeling\\Pages";        		
+        	}
     		routeFile = routeDesktop + "\\" + nameClass;
+    		
         } else if (operatingSystem.contains("mac")) {
-        	routeDesktop = System.getProperty("user.home") + "/Desktop/ClassDart";
+        	if(isModel) {
+        		routeDesktop = System.getProperty("user.home") + "/Desktop/ProjectModeling/Models";        		
+        	} else {
+        		routeDesktop = System.getProperty("user.home") + "/Desktop/ProjectModeling/Pages";        		
+        	}
     		routeFile = routeDesktop + "/" + nameClass;
+    		
         } else {
             System.out.println("Estás en un sistema diferente de Windows y Mac.");
         }
@@ -519,6 +550,8 @@ public class ModelFactoryModel {
 	
 
 	//--------------------------------------------------------------------------- TRANFORMATION FRAMEWORK --------------------------------------------------------------------------------------------------------------------------->>
+	
+	private boolean haveAppbar = false;
 	public void transformationFramework() {
 		for(uidiagram.UIDiagram uidiagram : modelFactoryUiDiagram.getListDiagrams()) {
 			createFlutterFile(uidiagram.getUserInterface());	
@@ -528,69 +561,76 @@ public class ModelFactoryModel {
 	private void createFlutterFile(UserInterface userInterface) {
 		StringBuilder content = new StringBuilder();
 		
-		for(uidiagram.TemplateWidget template : userInterface.getListTemplateWidget()) {
 			
-			content.append( "import 'package:flutter/material.dart';\n"
+			content.append("import 'package:flutter/material.dart';\n"
 					+ "\n"
-					+ "class " + userInterface.getName() != "" ? userInterface.getName()+"Page" : "UserInterfacePage"  + " extends StatelessWidget {\n"
-					+ "  const " + userInterface.getName() != "" ? userInterface.getName()+"Page" : "UserInterfacePage"  + "({super.key});\n"
+					+ "class " +  "UserInterfacePage"  + " extends StatelessWidget {\n"
+					+ "  const " + (userInterface.getName() != "" ? userInterface.getName()+"Page" : "UserInterfacePage")  + "({super.key});\n"
 					+ "\n"
 					+ "  @override\n"
 					+ "  Widget build(BuildContext context) {\n"
-					+ "    return " + validateTypeTemplate(template)
-					+ "  }\n"
-					+ "}"
+					+ "    return Scaffold(\n");
+					
+					for(uidiagram.TemplateWidget template : userInterface.getListTemplateWidget()) {
+					
+						content.append(validateTypeTemplate(template));
+					}
+			
+		content.append( "  );\n"
+				+ "  }\n"
+				+ "}\n"
 			);
-		}
+			System.out.println(content.toString());
+//			CreateFile(userInterface.getName()+"Page"+".dart",content, false);
 	}
 	
 	private StringBuilder validateTypeTemplate(TemplateWidget template) {
 		StringBuilder content = new StringBuilder();
 		
+		if(template instanceof Appbar) {
+			content.append(generateAppbar((Appbar)template));
+		}
 		if(template instanceof Group) {
 			content.append(generateGroup((Group)template));
 		}
 		if(template instanceof GroupColumn) {
-			generateGroupColumn((GroupColumn)template);
+			content.append(generateGroupColumn((GroupColumn)template));
 		}
 		if(template instanceof GroupRow) {
-			generateGroupRow((GroupRow)template);
-		}
-		if(template instanceof Appbar) {
-			generateAppbar((Appbar)template);
+			content.append(generateGroupRow((GroupRow)template));
 		}
 		if(template instanceof Tabbar) {
-			generateTabbar((Tabbar)template);
+			content.append(generateTabbar((Tabbar)template));
 		}
 		if(template instanceof Button) {
-			generateButton((Button)template);
+			content.append(generateButton((Button)template));
 		}
 		if(template instanceof Label) {
-			generateLabel((Label)template);
+			content.append(generateLabel((Label)template));
 		}
 		if(template instanceof Checkbox) {
-			generateCheckbox((Checkbox)template);
+			content.append(generateCheckbox((Checkbox)template));
 		}
 		if(template instanceof Input) {
-			generateInput((Input)template);
+			content.append(generateInput((Input)template));
 		}
 		if(template instanceof ListView) {
-			generateListView((ListView)template);
+			content.append(generateListView((ListView)template));
 		}
 		if(template instanceof RadioButton) {
-			generateRadioButton((RadioButton)template);
+			content.append(generateRadioButton((RadioButton)template));
 		}
 		if(template instanceof ComboBox) {
-			generateComboBox((ComboBox)template);
+			content.append(generateComboBox((ComboBox)template));
 		}
 		if(template instanceof DatePicker) {
-			generateDatePicker((DatePicker)template);
+			content.append(generateDatePicker((DatePicker)template));
 		}
 		if(template instanceof Switch) {
-			generateSwitch((Switch)template);
+			content.append(generateSwitch((Switch)template));
 		}
 		if(template instanceof Table) {
-			generateTable((Table)template);
+			content.append(generateTable((Table)template));
 		}	
 		
 		return content;
@@ -598,97 +638,109 @@ public class ModelFactoryModel {
 
 	private StringBuilder generateGroup(Group group) {
 		StringBuilder content = new StringBuilder();
-		
-		for(uidiagram.TemplateWidget groupChild : group.getListTemplateWidget()) {
 			
-			content.append( "Container(\n"
-					+ "          width: " + group.getWidth() != "0" ? group.getWidth() : " double.infinity,\n"
-					+ "          constraints: const BoxConstraints(minHeight: " + group.getHeight() != "0" ? group.getHeight() : "44) + ,\n"
-					+ "          padding: const EdgeInsets.symmetric(vertical: 10),\n"
-					+ "          borderRadius: BorderRadius.circular(12),"		
+			content.append( (haveAppbar ? "\tbody: " : "") + "Container(\n"
+					+ "          width: " + (group.getWidth() != 0 ? group.getWidth() : " double.infinity,") + "\n"
+					+ "          constraints: const BoxConstraints(minHeight: " + (group.getHeight() != 0 ? group.getHeight() : "44)") + ",\n"
+					+ "          padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 16),\n"
+					+ "          borderRadius: BorderRadius.circular("+ (group.getBorderRadius() != null ? group.getBorderRadius() : "0") +"),\n"		
 					+ "          decoration: BoxDecoration(\n"
-					+ "            color: " + group.getBackgroundColor() != null ? group.getBackgroundColor()  : "Colors.transparent,\n"
+					+ "            color: " + (group.getBackgroundColor() != null ? "Color(0xFF"+ group.getBackgroundColor()+"),"  : "Colors.transparent,") + "\n"
 					+ "            border: Border.all(\n"
 					+ "            	width: 1,\n"
 					+ "            	color: scheme.lineMiddle,\n"
-					+ "            ),"
-					+ "          ),"
-					+ "     child: " + validateTypeTemplate(groupChild)
-					+ "    ),"
-			);
-		}
+					+ "            ),\n"
+					+ "          ),\n"
+					+ "          child: ");
+			
+			haveAppbar = false;
+						
+				
+			content.append(validateTypeTemplate(group.getTemplateWidget()) + "\n");
+			
+			content.append( "    ),\n");
 		return content;
 	}
 
 	private StringBuilder generateGroupColumn(GroupColumn groupColumn) {
 		StringBuilder content = new StringBuilder();
-		
-		for(uidiagram.TemplateWidget groupColumnChild : groupColumn.getListTemplateWidget()) {
-			
+
 			content.append("Column(\n"
 					+ "		  crossAxisAlignment: CrossAxisAlignment.start,\n"
-					+ "		  children: [\n"
-					+           validateTypeTemplate(groupColumnChild)     
-					+ "		  ],\n"
-					+ "		),"
+					+ "		  children: [\n");
+			
+			for(uidiagram.TemplateWidget groupColumnChild : groupColumn.getListTemplateWidget()) {
+				
+				content.append(validateTypeTemplate(groupColumnChild));     
+			}
+			
+		content.append( "	  ],\n"
+					+ "    ),\n"
 			);
-		}
 		return content;
 	}
 	private StringBuilder generateGroupRow(GroupRow groupRow) {
 		StringBuilder content = new StringBuilder();
 		
-		for(uidiagram.TemplateWidget groupRowChild : groupRow.getListTemplateWidget()) {
 			
-			content.append("Row(\n"
+			content.append("\tRow(\n"
 					+ "		   mainAxisAlignment: MainAxisAlignment.center,\n"
-					+ "		  children: [\n"
-					+           validateTypeTemplate(groupRowChild)     
-					+ "		  ],\n"
-					+ "		),"
+					+ "		  children: [\n");
+
+			for(uidiagram.TemplateWidget groupRowChild : groupRow.getListTemplateWidget()) {
+			
+				content.append(  validateTypeTemplate(groupRowChild));
+			}
+			
+			content.append("  ],\n"
+					+ "		),\n"
 			);
-		}
 		return content;
 		
 	}
 	private StringBuilder generateAppbar(Appbar appbar) {
 		StringBuilder content = new StringBuilder();
 		
-		for(uidiagram.TemplateWidget appbarChild : appbar.getListButtons()) {
+		haveAppbar = true;
+		
+//		for(uidiagram.TemplateWidget appbarChild : appbar.getListButtons()) {
 			
-			content.append("AppBar(\n"
-					+ "      title: Text(\n"
-					+ "        title,\n"
-					+ "        style: Theme.of(context).textTheme.displayLarge!.copyWith(\n"
-					+ "              fontSize: fontSizeTitle,\n"
-					+ "              color: const Color(0xFFFFFFFF),\n"
-					+ "            ),\n"
-					+ "      ),\n"
-					+ "      centerTitle: centerTitle,\n"
-					+ "      automaticallyImplyLeading: false,\n"
-					+ "      systemOverlayStyle: SystemUiOverlayStyle.light,\n"
-					+ "      leading: leadingTap != null ? buildLeadingButton() : leading,\n"
-					+ "      leadingWidth: 50,\n"
-					+ "      actions: actionIcon != null || actionText != null\n"
-					+ "          ? [buildActionButton()]\n"
-					+ "          : actions,\n"
-					+ "      shape: const RoundedRectangleBorder(\n"
-					+ "        borderRadius: BorderRadius.vertical(\n"
-					+ "          bottom: Radius.circular(12),\n"
-					+ "        ),\n"
-					+ "      ),\n"
-					+ "      shadowColor: Theme.of(context).brightness == Brightness.light\n"
-					+ "          ? const Color(0xFF000000)\n"
-					+ "          : const Color(0xFFFFFFFF),\n"
-					+ "      elevation: Theme.of(context).brightness == Brightness.light ? 5 : 0.3,\n"
-					+ "    );"
+			content.append("\tappbar: AppBar(\n"
+						+ "      title: Text(\n"
+						+ "        title,\n"
+						+ "        style: Theme.of(context).textTheme.displayLarge!.copyWith(\n"
+						+ "              fontSize: fontSizeTitle,\n"
+						+ "              color: const Color(0xFFFFFFFF),\n"
+						+ "            ),\n"
+						+ "      ),\n"
+						+ "      centerTitle: centerTitle,\n"
+						+ "      automaticallyImplyLeading: false,\n"
+						+ "      systemOverlayStyle: SystemUiOverlayStyle.light,\n"
+						+ "      leading: leadingTap != null ? buildLeadingButton() : leading,\n"
+						+ "      leadingWidth: 50,\n"
+						+ "      actions: actionIcon != null || actionText != null\n"
+						+ "          ? [buildActionButton()]\n"
+						+ "          : actions,\n"
+						+ "      shape: const RoundedRectangleBorder(\n"
+						+ "        borderRadius: BorderRadius.vertical(\n"
+						+ "          bottom: Radius.circular(12),\n"
+						+ "        ),\n"
+						+ "      ),\n"
+						+ "      shadowColor: Theme.of(context).brightness == Brightness.light\n"
+						+ "          ? const Color(0xFF000000)\n"
+						+ "          : const Color(0xFFFFFFFF),\n"
+						+ "      elevation: Theme.of(context).brightness == Brightness.light ? 5 : 0.3,\n"
+						+ "    );\n"
 			);
-		}
+//		}
 		return content;
 		
 	}
-	private void generateTabbar(Tabbar template) {
+	private StringBuilder generateTabbar(Tabbar template) {
 		// TODO Auto-generated method stub
+		StringBuilder content = new StringBuilder();
+		
+		return content;
 		
 	}
 	private StringBuilder generateButton(Button button) {
@@ -701,18 +753,18 @@ public class ModelFactoryModel {
 					+ "        height: height,\n"
 					+ "        padding: const EdgeInsets.symmetric(horizontal: 8),\n"
 					+ "        decoration: BoxDecoration(\n"
-					+ "          color: " + button.getBackgroundColor() != null ? button.getBackgroundColor() : "  Colors.white,\n"
+					+ "          color: " + (button.getBackgroundColor() != null ? button.getBackgroundColor() : "  Colors.white,") + "\n"
 					+ "          borderRadius: BorderRadius.circular(5),\n"
 					+ "        ),\n"
 					+ "        child:Text(\n"
-					+                button.getName() != null ? button.getName() : ""               
+					+                (button.getName() != null ? button.getName() : "")               
 					+ "                style: TextStyle(\n"
 					+ "                  fontWeight: FontWeight.bold,\n"
 					+ "                  fontSize: 16,\n"
 					+ "                ),\n"
 					+ "              ),\n"
 					+ "       ),\n"
-					+ "     );"
+					+ "     );\n"
 			);
 		return content;
 		
@@ -727,7 +779,7 @@ public class ModelFactoryModel {
 				+ "        fontWeight: FontWeight.w500,\n"
 				+ "        color: Scheme.colorScheme(context),\n"
 				+ "      ),\n"
-				+ "   ),"
+				+ "   ),\n"
 		);
 		return content;
 	}
@@ -739,9 +791,9 @@ public class ModelFactoryModel {
 				+ "      child: Icon(\n"
 				+ "              Icons.check_box,\n"
 				+ "              size: 20,\n"
-				+ "              color: " + checkbox.getBackgroundColor() != null ? checkbox.getBackgroundColor() :  " Colors.blue,\n"
+				+ "              color: " + (checkbox.getBackgroundColor() != null ? checkbox.getBackgroundColor() :  " Colors.blue,\n")
 				+ "      )\n"
-				+ "    );"
+				+ "    );\n"
 		);
 		return content;
 		
@@ -749,11 +801,11 @@ public class ModelFactoryModel {
 	private StringBuilder generateInput(Input input) {
 		StringBuilder content = new StringBuilder();
 		
-		content.append("TextField(\n"
+		content.append("\tTextField(\n"
 				+ "       textAlignVertical: TextAlignVertical.center,\n"
 				+ "       decoration: InputDecoration(\n"
 				+ "       	isDense: true,\n"
-				+ "       	hintText: " + input.getName() != null ? input.getName() : " '',\n"
+				+ "       	hintText: " + (input.getName() != null ? input.getName() : "") + ",\n"
 				+ "       	contentPadding: const EdgeInsets.symmetric(horizontal: 17),\n"
 				+ "        	border: InputBorder.none,\n"
 				+ "       ),\n"
@@ -761,7 +813,7 @@ public class ModelFactoryModel {
 				+ "       style: const TextStyle(\n"
 				+ "         height: 1.3,\n"
 				+ "       ),\n"
-				+ "   ),"
+				+ "   ),\n"
 		);
 		return content;	
 	}
@@ -775,9 +827,9 @@ public class ModelFactoryModel {
 				+ "          padding: const EdgeInsets.only(bottom: 100),\n"
 				+ "          itemBuilder: (context, index) {\n"
 				+ "\n"
-				+ "            return "+ listView.getTemplateWidget() +"\n"
+				+ "            return "+ validateTypeTemplate(listView.getTemplateWidget())  +"\n"
 				+ "          },\n"
-				+ "     ),"
+				+ "     ),\n"
 		);
 		return content;
 		
@@ -789,8 +841,8 @@ public class ModelFactoryModel {
 				+ "			duration: const Duration(milliseconds: 100),\n"
 				+ "		    child: AnimatedContainer(\n"
 				+ "		    duration: const Duration(milliseconds: 200),\n"
-				+ "		    width: " + radioButton.getWidth() != null ? radioButton.getWidth() : "20"  + ",\n"
-				+ "	        height: " + radioButton.getHeight() != null ? radioButton.getHeight() : "20"  + ",\n"
+				+ "		    width: " + (radioButton.getWidth() != 0 ? radioButton.getWidth() : "20")  + ",\n"
+				+ "	        height: " + (radioButton.getHeight() != 0 ? radioButton.getHeight() : "20")  + ",\n"
 				+ "		    decoration: BoxDecoration(\n"
 				+ "	         border: Border.all(\n"
 				+ "				width: 1.5,\n"
@@ -814,7 +866,7 @@ public class ModelFactoryModel {
 				+ "				),\n"
 				+ "			),\n"
 				+ "		  ),\n"
-				+ "		);"
+				+ "		);\n"
 		);
 		return content;
 	}
@@ -828,7 +880,7 @@ public class ModelFactoryModel {
 				+ "        icon: const Icon(Icons.keyboard_arrow_down),\n"
 				+ "        isExpanded: true,\n"
 				+ "        items: items,\n"
-				+ "      ),"
+				+ "      ),\n"
 		);
 		return content;
 		
@@ -842,7 +894,7 @@ public class ModelFactoryModel {
 				+ "       onDateTimeChanged: (d) {\n"
 				+ "        \n"
 				+ "       },\n"
-				+ "    ),"
+				+ "    ),\n"
 		);
 		return content;
 		
@@ -873,7 +925,7 @@ public class ModelFactoryModel {
 				+ "          ),\n"
 				+ "        ),\n"
 				+ "      ),\n"
-				+ "    );"
+				+ "    );\n"
 		);
 		return content;
 		
@@ -887,7 +939,7 @@ public class ModelFactoryModel {
 			+        generateColumnsTable(table)
 			
 			+ "		 ],\n"
-			+ "	   );"
+			+ "	   );\n"
 		);
 		
 		return content;

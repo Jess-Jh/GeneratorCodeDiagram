@@ -42,7 +42,7 @@ public class Appbar5EditPart extends ShapeNodeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3050;
+	public static final int VISUAL_ID = 3069;
 
 	/**
 	* @generated
@@ -358,7 +358,7 @@ public class Appbar5EditPart extends ShapeNodeEditPart {
 		}
 
 	}
-
+	
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

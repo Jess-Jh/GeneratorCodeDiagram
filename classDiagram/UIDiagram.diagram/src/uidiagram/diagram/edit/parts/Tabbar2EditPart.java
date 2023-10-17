@@ -30,7 +30,6 @@ import org.eclipse.swt.graphics.Color;
 
 import uidiagram.diagram.edit.notifications.NotificationEvent;
 import uidiagram.diagram.edit.policies.OpenDiagramEditPolicy;
-import uidiagram.diagram.edit.policies.OpenSwitchEditPolicy;
 import uidiagram.diagram.edit.policies.OpenTabbarEditPolicy;
 import uidiagram.diagram.edit.policies.Tabbar2ItemSemanticEditPolicy;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;
@@ -43,7 +42,7 @@ public class Tabbar2EditPart extends ShapeNodeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3037;
+	public static final int VISUAL_ID = 3030;
 
 	/**
 	* @generated
@@ -292,20 +291,18 @@ public class Tabbar2EditPart extends ShapeNodeEditPart {
 		 * @generated
 		 */
 		private WrappingLabel fFigureTabbarLabelFigure;
-
 		/**
-		* @generated
-		*/
+		 * @generated
+		 */
 		private RectangleFigure fTabbarListButtonsCompartmentFigure;
-
 		/**
-		* @generated
-		*/
+		 * @generated
+		 */
 		private RectangleFigure fTabbarListLabelsCompartmentFigure;
 
 		/**
-				 * @generated
-				 */
+		 * @generated
+		 */
 		public TabbarFigure() {
 			this.setCornerDimensions(new Dimension(getMapMode().DPtoLP(8), getMapMode().DPtoLP(8)));
 			this.setBorder(new MarginBorder(getMapMode().DPtoLP(5), getMapMode().DPtoLP(5), getMapMode().DPtoLP(5),
@@ -347,21 +344,21 @@ public class Tabbar2EditPart extends ShapeNodeEditPart {
 		}
 
 		/**
-		* @generated
-		*/
+		 * @generated
+		 */
 		public RectangleFigure getTabbarListButtonsCompartmentFigure() {
 			return fTabbarListButtonsCompartmentFigure;
 		}
 
 		/**
-		* @generated
-		*/
+		 * @generated
+		 */
 		public RectangleFigure getTabbarListLabelsCompartmentFigure() {
 			return fTabbarListLabelsCompartmentFigure;
 		}
 
 	}
-
+	
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

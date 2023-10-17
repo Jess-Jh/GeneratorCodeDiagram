@@ -60,7 +60,7 @@ public class RadioButtonName4EditPart extends CompartmentEditPart implements ITe
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5036;
+	public static final int VISUAL_ID = 5051;
 
 	/**
 	* @generated
@@ -295,7 +295,7 @@ public class RadioButtonName4EditPart extends CompartmentEditPart implements ITe
 	*/
 	public IParser getParser() {
 		if (parser == null) {
-			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.RadioButton_3043, getParserElement(),
+			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.RadioButton_3062, getParserElement(),
 					UidiagramVisualIDRegistry.getType(uidiagram.diagram.edit.parts.RadioButtonName4EditPart.VISUAL_ID));
 		}
 		return parser;

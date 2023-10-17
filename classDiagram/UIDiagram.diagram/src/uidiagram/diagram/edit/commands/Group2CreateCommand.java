@@ -46,6 +46,10 @@ public class Group2CreateCommand extends EditElementCommand {
 	* @generated
 	*/
 	public boolean canExecute() {
+		Group container = (Group) getElementToEdit();
+		if (container.getTemplateWidget() != null) {
+			return false;
+		}
 		return true;
 
 	}
@@ -57,7 +61,7 @@ public class Group2CreateCommand extends EditElementCommand {
 		Group newElement = UidiagramFactory.eINSTANCE.createGroup();
 
 		Group owner = (Group) getElementToEdit();
-		owner.getListTemplateWidget().add(newElement);
+		owner.setTemplateWidget(newElement);
 
 		doConfigure(newElement, monitor, info);
 

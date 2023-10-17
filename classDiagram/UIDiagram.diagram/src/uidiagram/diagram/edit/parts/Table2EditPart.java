@@ -30,7 +30,6 @@ import org.eclipse.swt.graphics.Color;
 
 import uidiagram.diagram.edit.notifications.NotificationEvent;
 import uidiagram.diagram.edit.policies.OpenDiagramEditPolicy;
-import uidiagram.diagram.edit.policies.OpenTabbarEditPolicy;
 import uidiagram.diagram.edit.policies.OpenTableEditPolicy;
 import uidiagram.diagram.edit.policies.Table2ItemSemanticEditPolicy;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;
@@ -43,7 +42,7 @@ public class Table2EditPart extends ShapeNodeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3095;
+	public static final int VISUAL_ID = 3056;
 
 	/**
 	* @generated
@@ -328,7 +327,7 @@ public class Table2EditPart extends ShapeNodeEditPart {
 		}
 
 	}
-
+	
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

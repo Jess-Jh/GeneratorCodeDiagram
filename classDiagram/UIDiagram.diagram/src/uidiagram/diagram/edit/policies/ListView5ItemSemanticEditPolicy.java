@@ -43,7 +43,7 @@ public class ListView5ItemSemanticEditPolicy extends UidiagramBaseItemSemanticEd
 	* @generated
 	*/
 	public ListView5ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.ListView_3056);
+		super(UidiagramElementTypes.ListView_3075);
 	}
 
 	/**

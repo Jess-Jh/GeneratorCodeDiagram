@@ -22,7 +22,7 @@ import uidiagram.diagram.edit.parts.ComboBoxEditPart;
 import uidiagram.diagram.edit.parts.DatePickerEditPart;
 import uidiagram.diagram.edit.parts.Group2EditPart;
 import uidiagram.diagram.edit.parts.GroupColumnEditPart;
-import uidiagram.diagram.edit.parts.GroupGroupListTemplateWidgetCompartment5EditPart;
+import uidiagram.diagram.edit.parts.GroupGroupTemplateWidgetCompartment5EditPart;
 import uidiagram.diagram.edit.parts.GroupRowEditPart;
 import uidiagram.diagram.edit.parts.InputEditPart;
 import uidiagram.diagram.edit.parts.Label3EditPart;
@@ -43,7 +43,7 @@ public class Group5ItemSemanticEditPolicy extends UidiagramBaseItemSemanticEditP
 	* @generated
 	*/
 	public Group5ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.Group_3081);
+		super(UidiagramElementTypes.Group_3018);
 	}
 
 	/**
@@ -74,7 +74,7 @@ public class Group5ItemSemanticEditPolicy extends UidiagramBaseItemSemanticEditP
 		for (Iterator<?> nit = view.getChildren().iterator(); nit.hasNext();) {
 			Node node = (Node) nit.next();
 			switch (UidiagramVisualIDRegistry.getVisualID(node)) {
-			case GroupGroupListTemplateWidgetCompartment5EditPart.VISUAL_ID:
+			case GroupGroupTemplateWidgetCompartment5EditPart.VISUAL_ID:
 				for (Iterator<?> cit = node.getChildren().iterator(); cit.hasNext();) {
 					Node cnode = (Node) cit.next();
 					switch (UidiagramVisualIDRegistry.getVisualID(cnode)) {

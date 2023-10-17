@@ -2,7 +2,6 @@
  */
 package uidiagram;
 
-import org.eclipse.emf.common.util.EList;
 
 /**
  * <!-- begin-user-doc -->
@@ -13,7 +12,7 @@ import org.eclipse.emf.common.util.EList;
  * The following features are supported:
  * </p>
  * <ul>
- *   <li>{@link uidiagram.Group#getListTemplateWidget <em>List Template Widget</em>}</li>
+ *   <li>{@link uidiagram.Group#getTemplateWidget <em>Template Widget</em>}</li>
  *   <li>{@link uidiagram.Group#getBorderRadius <em>Border Radius</em>}</li>
  *   <li>{@link uidiagram.Group#getBorderWidth <em>Border Width</em>}</li>
  *   <li>{@link uidiagram.Group#getBorderColor <em>Border Color</em>}</li>
@@ -25,17 +24,27 @@ import org.eclipse.emf.common.util.EList;
  */
 public interface Group extends TemplateWidget {
 	/**
-	 * Returns the value of the '<em><b>List Template Widget</b></em>' containment reference list.
-	 * The list contents are of type {@link uidiagram.TemplateWidget}.
+	 * Returns the value of the '<em><b>Template Widget</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>List Template Widget</em>' containment reference list.
-	 * @see uidiagram.UidiagramPackage#getGroup_ListTemplateWidget()
+	 * @return the value of the '<em>Template Widget</em>' containment reference.
+	 * @see #setTemplateWidget(TemplateWidget)
+	 * @see uidiagram.UidiagramPackage#getGroup_TemplateWidget()
 	 * @model containment="true"
 	 *        annotation="gmf.compartment"
 	 * @generated
 	 */
-	EList<TemplateWidget> getListTemplateWidget();
+	TemplateWidget getTemplateWidget();
+
+	/**
+	 * Sets the value of the '{@link uidiagram.Group#getTemplateWidget <em>Template Widget</em>}' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Template Widget</em>' containment reference.
+	 * @see #getTemplateWidget()
+	 * @generated
+	 */
+	void setTemplateWidget(TemplateWidget value);
 
 	/**
 	 * Returns the value of the '<em><b>Border Radius</b></em>' attribute.

@@ -25,7 +25,6 @@ import org.eclipse.ui.navigator.ICommonActionExtensionSite;
 import org.eclipse.ui.navigator.ICommonViewerWorkbenchSite;
 import org.eclipse.ui.part.FileEditorInput;
 
-import uidiagram.diagram.edit.parts.ModelFactoryEditPart;
 import uidiagram.diagram.edit.parts.UIDiagramEditPart;
 import uidiagram.diagram.part.Messages;
 import uidiagram.diagram.part.UidiagramDiagramEditor;

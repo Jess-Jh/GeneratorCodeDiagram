@@ -31,7 +31,6 @@ import org.eclipse.osgi.util.NLS;
 import org.eclipse.ui.PartInitException;
 import org.eclipse.ui.dialogs.WizardNewFileCreationPage;
 
-import uidiagram.diagram.edit.parts.ModelFactoryEditPart;
 import uidiagram.diagram.edit.parts.UIDiagramEditPart;
 
 /**

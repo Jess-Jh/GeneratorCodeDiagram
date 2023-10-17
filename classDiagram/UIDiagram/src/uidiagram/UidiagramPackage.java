@@ -368,13 +368,13 @@ public interface UidiagramPackage extends EPackage {
 	int GROUP__BACKGROUND_COLOR = TEMPLATE_WIDGET__BACKGROUND_COLOR;
 
 	/**
-	 * The feature id for the '<em><b>List Template Widget</b></em>' containment reference list.
+	 * The feature id for the '<em><b>Template Widget</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int GROUP__LIST_TEMPLATE_WIDGET = TEMPLATE_WIDGET_FEATURE_COUNT + 0;
+	int GROUP__TEMPLATE_WIDGET = TEMPLATE_WIDGET_FEATURE_COUNT + 0;
 
 	/**
 	 * The feature id for the '<em><b>Border Radius</b></em>' attribute.
@@ -1937,15 +1937,15 @@ public interface UidiagramPackage extends EPackage {
 	EClass getGroup();
 
 	/**
-	 * Returns the meta object for the containment reference list '{@link uidiagram.Group#getListTemplateWidget <em>List Template Widget</em>}'.
+	 * Returns the meta object for the containment reference '{@link uidiagram.Group#getTemplateWidget <em>Template Widget</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference list '<em>List Template Widget</em>'.
-	 * @see uidiagram.Group#getListTemplateWidget()
+	 * @return the meta object for the containment reference '<em>Template Widget</em>'.
+	 * @see uidiagram.Group#getTemplateWidget()
 	 * @see #getGroup()
 	 * @generated
 	 */
-	EReference getGroup_ListTemplateWidget();
+	EReference getGroup_TemplateWidget();
 
 	/**
 	 * Returns the meta object for the attribute '{@link uidiagram.Group#getBorderRadius <em>Border Radius</em>}'.
@@ -2479,12 +2479,12 @@ public interface UidiagramPackage extends EPackage {
 		EClass GROUP = eINSTANCE.getGroup();
 
 		/**
-		 * The meta object literal for the '<em><b>List Template Widget</b></em>' containment reference list feature.
+		 * The meta object literal for the '<em><b>Template Widget</b></em>' containment reference feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference GROUP__LIST_TEMPLATE_WIDGET = eINSTANCE.getGroup_ListTemplateWidget();
+		EReference GROUP__TEMPLATE_WIDGET = eINSTANCE.getGroup_TemplateWidget();
 
 		/**
 		 * The meta object literal for the '<em><b>Border Radius</b></em>' attribute feature.

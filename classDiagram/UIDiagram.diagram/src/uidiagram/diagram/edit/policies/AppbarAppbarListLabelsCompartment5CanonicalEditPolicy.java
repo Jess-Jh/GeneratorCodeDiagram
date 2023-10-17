@@ -63,7 +63,7 @@ public class AppbarAppbarListLabelsCompartment5CanonicalEditPolicy extends Canon
 		View viewObject = (View) getHost().getModel();
 		LinkedList<EObject> result = new LinkedList<EObject>();
 		List<UidiagramNodeDescriptor> childDescriptors = UidiagramDiagramUpdater
-				.getAppbarAppbarListLabelsCompartment_7032SemanticChildren(viewObject);
+				.getAppbarAppbarListLabelsCompartment_7042SemanticChildren(viewObject);
 		for (UidiagramNodeDescriptor d : childDescriptors) {
 			result.add(d.getModelElement());
 		}
@@ -93,7 +93,7 @@ public class AppbarAppbarListLabelsCompartment5CanonicalEditPolicy extends Canon
 		}
 		LinkedList<IAdaptable> createdViews = new LinkedList<IAdaptable>();
 		List<UidiagramNodeDescriptor> childDescriptors = UidiagramDiagramUpdater
-				.getAppbarAppbarListLabelsCompartment_7032SemanticChildren((View) getHost().getModel());
+				.getAppbarAppbarListLabelsCompartment_7042SemanticChildren((View) getHost().getModel());
 		LinkedList<View> orphaned = new LinkedList<View>();
 		// we care to check only views we recognize as ours
 		LinkedList<View> knownViewChildren = new LinkedList<View>();

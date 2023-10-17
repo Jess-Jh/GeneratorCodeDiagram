@@ -42,7 +42,7 @@ public class ListView5EditPart extends ShapeNodeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3056;
+	public static final int VISUAL_ID = 3075;
 
 	/**
 	* @generated
@@ -278,13 +278,13 @@ public class ListView5EditPart extends ShapeNodeEditPart {
 		 */
 		private WrappingLabel fFigureListViewLabelFigure;
 		/**
-		* @generated
-		*/
+		 * @generated
+		 */
 		private RectangleFigure fListViewTemplateWidgetCompartmentFigure;
 
 		/**
-			 * @generated
-			 */
+		 * @generated
+		 */
 		public ListViewFigure() {
 			this.setCornerDimensions(new Dimension(getMapMode().DPtoLP(8), getMapMode().DPtoLP(8)));
 			this.setLineWidth(0);
@@ -322,14 +322,14 @@ public class ListView5EditPart extends ShapeNodeEditPart {
 		}
 
 		/**
-		* @generated
-		*/
+		 * @generated
+		 */
 		public RectangleFigure getListViewTemplateWidgetCompartmentFigure() {
 			return fListViewTemplateWidgetCompartmentFigure;
 		}
 
 	}
-
+	
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

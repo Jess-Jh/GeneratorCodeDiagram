@@ -26,33 +26,19 @@ import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.UidiagramPackage;
 import uidiagram.diagram.edit.parts.Appbar2EditPart;
-import uidiagram.diagram.edit.parts.Appbar3EditPart;
-import uidiagram.diagram.edit.parts.Button3EditPart;
 import uidiagram.diagram.edit.parts.Button4EditPart;
-import uidiagram.diagram.edit.parts.Button5EditPart;
 import uidiagram.diagram.edit.parts.Checkbox2EditPart;
-import uidiagram.diagram.edit.parts.Checkbox3EditPart;
-import uidiagram.diagram.edit.parts.ComboBox3EditPart;
 import uidiagram.diagram.edit.parts.ComboBox4EditPart;
-import uidiagram.diagram.edit.parts.DatePicker3EditPart;
 import uidiagram.diagram.edit.parts.DatePicker4EditPart;
 import uidiagram.diagram.edit.parts.Group3EditPart;
 import uidiagram.diagram.edit.parts.GroupColumn3EditPart;
 import uidiagram.diagram.edit.parts.GroupRow2EditPart;
 import uidiagram.diagram.edit.parts.Input2EditPart;
-import uidiagram.diagram.edit.parts.Input3EditPart;
-import uidiagram.diagram.edit.parts.Label3EditPart;
 import uidiagram.diagram.edit.parts.Label4EditPart;
-import uidiagram.diagram.edit.parts.Label5EditPart;
 import uidiagram.diagram.edit.parts.ListView2EditPart;
-import uidiagram.diagram.edit.parts.ListView3EditPart;
-import uidiagram.diagram.edit.parts.RadioButton3EditPart;
 import uidiagram.diagram.edit.parts.RadioButton4EditPart;
-import uidiagram.diagram.edit.parts.Switch3EditPart;
 import uidiagram.diagram.edit.parts.Switch4EditPart;
 import uidiagram.diagram.edit.parts.Tabbar2EditPart;
-import uidiagram.diagram.edit.parts.Tabbar3EditPart;
-import uidiagram.diagram.edit.parts.Table3EditPart;
 import uidiagram.diagram.edit.parts.Table4EditPart;
 import uidiagram.diagram.part.UidiagramDiagramUpdater;
 import uidiagram.diagram.part.UidiagramNodeDescriptor;
@@ -91,7 +77,7 @@ public class GroupColumnGroupColumnListTemplateWidgetCompartment3CanonicalEditPo
 		View viewObject = (View) getHost().getModel();
 		LinkedList<EObject> result = new LinkedList<EObject>();
 		List<UidiagramNodeDescriptor> childDescriptors = UidiagramDiagramUpdater
-				.getGroupColumnGroupColumnListTemplateWidgetCompartment_7010SemanticChildren(viewObject);
+				.getGroupColumnGroupColumnListTemplateWidgetCompartment_7016SemanticChildren(viewObject);
 		for (UidiagramNodeDescriptor d : childDescriptors) {
 			result.add(d.getModelElement());
 		}
@@ -140,7 +126,7 @@ public class GroupColumnGroupColumnListTemplateWidgetCompartment3CanonicalEditPo
 		}
 		LinkedList<IAdaptable> createdViews = new LinkedList<IAdaptable>();
 		List<UidiagramNodeDescriptor> childDescriptors = UidiagramDiagramUpdater
-				.getGroupColumnGroupColumnListTemplateWidgetCompartment_7010SemanticChildren(
+				.getGroupColumnGroupColumnListTemplateWidgetCompartment_7016SemanticChildren(
 						(View) getHost().getModel());
 		LinkedList<View> orphaned = new LinkedList<View>();
 		// we care to check only views we recognize as ours

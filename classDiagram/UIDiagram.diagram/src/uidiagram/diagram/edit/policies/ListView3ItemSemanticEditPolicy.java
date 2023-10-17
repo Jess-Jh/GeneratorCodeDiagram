@@ -4,6 +4,7 @@
 package uidiagram.diagram.edit.policies;
 
 import java.util.Iterator;
+
 import org.eclipse.emf.ecore.EAnnotation;
 import org.eclipse.gef.commands.Command;
 import org.eclipse.gmf.runtime.common.core.command.ICompositeCommand;
@@ -42,7 +43,7 @@ public class ListView3ItemSemanticEditPolicy extends UidiagramBaseItemSemanticEd
 	* @generated
 	*/
 	public ListView3ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.ListView_3030);
+		super(UidiagramElementTypes.ListView_3044);
 	}
 
 	/**

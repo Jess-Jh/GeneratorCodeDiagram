@@ -60,7 +60,7 @@ public class TabbarNameEditPart extends CompartmentEditPart implements ITextAwar
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5002;
+	public static final int VISUAL_ID = 5006;
 
 	/**
 	* @generated
@@ -295,7 +295,7 @@ public class TabbarNameEditPart extends CompartmentEditPart implements ITextAwar
 	*/
 	public IParser getParser() {
 		if (parser == null) {
-			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Tabbar_3008, getParserElement(),
+			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.Tabbar_3010, getParserElement(),
 					UidiagramVisualIDRegistry.getType(uidiagram.diagram.edit.parts.TabbarNameEditPart.VISUAL_ID));
 		}
 		return parser;

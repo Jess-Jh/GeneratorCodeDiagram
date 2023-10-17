@@ -32,7 +32,6 @@ import uidiagram.diagram.edit.notifications.NotificationEvent;
 import uidiagram.diagram.edit.policies.GroupColumn2ItemSemanticEditPolicy;
 import uidiagram.diagram.edit.policies.OpenDiagramEditPolicy;
 import uidiagram.diagram.edit.policies.OpenGroupColumnEditPolicy;
-import uidiagram.diagram.edit.policies.OpenGroupEditPolicy;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;
 
 /**
@@ -43,7 +42,7 @@ public class GroupColumn2EditPart extends ShapeNodeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3082;
+	public static final int VISUAL_ID = 3025;
 
 	/**
 	* @generated
@@ -330,7 +329,7 @@ public class GroupColumn2EditPart extends ShapeNodeEditPart {
 		}
 
 	}
-
+	
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

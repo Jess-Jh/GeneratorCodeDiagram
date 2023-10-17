@@ -22,7 +22,7 @@ public class ColumnItemSemanticEditPolicy extends UidiagramBaseItemSemanticEditP
 	* @generated
 	*/
 	public ColumnItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.Column_3019);
+		super(UidiagramElementTypes.Column_3024);
 	}
 
 	/**

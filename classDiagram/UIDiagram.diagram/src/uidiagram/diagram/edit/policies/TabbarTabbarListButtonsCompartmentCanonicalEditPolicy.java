@@ -63,7 +63,7 @@ public class TabbarTabbarListButtonsCompartmentCanonicalEditPolicy extends Canon
 		View viewObject = (View) getHost().getModel();
 		LinkedList<EObject> result = new LinkedList<EObject>();
 		List<UidiagramNodeDescriptor> childDescriptors = UidiagramDiagramUpdater
-				.getTabbarTabbarListButtonsCompartment_7019SemanticChildren(viewObject);
+				.getTabbarTabbarListButtonsCompartment_7010SemanticChildren(viewObject);
 		for (UidiagramNodeDescriptor d : childDescriptors) {
 			result.add(d.getModelElement());
 		}
@@ -93,7 +93,7 @@ public class TabbarTabbarListButtonsCompartmentCanonicalEditPolicy extends Canon
 		}
 		LinkedList<IAdaptable> createdViews = new LinkedList<IAdaptable>();
 		List<UidiagramNodeDescriptor> childDescriptors = UidiagramDiagramUpdater
-				.getTabbarTabbarListButtonsCompartment_7019SemanticChildren((View) getHost().getModel());
+				.getTabbarTabbarListButtonsCompartment_7010SemanticChildren((View) getHost().getModel());
 		LinkedList<View> orphaned = new LinkedList<View>();
 		// we care to check only views we recognize as ours
 		LinkedList<View> knownViewChildren = new LinkedList<View>();

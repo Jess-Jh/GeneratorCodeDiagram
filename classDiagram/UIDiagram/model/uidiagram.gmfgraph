@@ -22,10 +22,10 @@
         <children xsi:type="gmfgraph:Label" name="GroupLabelFigure" text="Group">
           <maximumSize dx="10000" dy="50"/>
         </children>
-        <children xsi:type="gmfgraph:Rectangle" name="GroupListTemplateWidgetCompartmentFigure" outline="false"/>
+        <children xsi:type="gmfgraph:Rectangle" name="GroupTemplateWidgetCompartmentFigure" outline="false"/>
       </actualFigure>
       <accessors accessor="getFigureGroupLabelFigure" figure="//@figures.0/@descriptors.1/@actualFigure/@children.0"/>
-      <accessors accessor="getGroupListTemplateWidgetCompartmentFigure" figure="//@figures.0/@descriptors.1/@actualFigure/@children.1"/>
+      <accessors accessor="getGroupTemplateWidgetCompartmentFigure" figure="//@figures.0/@descriptors.1/@actualFigure/@children.1"/>
     </descriptors>
     <descriptors name="GroupColumnFigure">
       <actualFigure xsi:type="gmfgraph:RoundedRectangle" name="GroupColumnFigure" lineWidth="0">
@@ -209,7 +209,7 @@
   <nodes name="Table" figure="TableFigure"/>
   <nodes name="Column" figure="ColumnFigure"/>
   <compartments name="UserInterfaceListTemplateWidgetCompartment" figure="UserInterfaceFigure" collapsible="true" accessor="//@figures.0/@descriptors.0/@accessors.1"/>
-  <compartments name="GroupListTemplateWidgetCompartment" figure="GroupFigure" collapsible="true" accessor="//@figures.0/@descriptors.1/@accessors.1"/>
+  <compartments name="GroupTemplateWidgetCompartment" figure="GroupFigure" collapsible="true" accessor="//@figures.0/@descriptors.1/@accessors.1"/>
   <compartments name="GroupColumnListTemplateWidgetCompartment" figure="GroupColumnFigure" collapsible="true" accessor="//@figures.0/@descriptors.2/@accessors.1"/>
   <compartments name="GroupRowListTemplateWidgetCompartment" figure="GroupRowFigure" collapsible="true" accessor="//@figures.0/@descriptors.3/@accessors.1"/>
   <compartments name="AppbarListButtonsCompartment" figure="AppbarFigure" collapsible="true" accessor="//@figures.0/@descriptors.4/@accessors.1"/>

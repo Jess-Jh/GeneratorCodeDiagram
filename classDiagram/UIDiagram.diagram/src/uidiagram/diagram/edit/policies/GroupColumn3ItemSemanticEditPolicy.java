@@ -16,34 +16,20 @@ import org.eclipse.gmf.runtime.notation.Node;
 import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.diagram.edit.parts.Appbar2EditPart;
-import uidiagram.diagram.edit.parts.Appbar3EditPart;
-import uidiagram.diagram.edit.parts.Button3EditPart;
 import uidiagram.diagram.edit.parts.Button4EditPart;
-import uidiagram.diagram.edit.parts.Button5EditPart;
 import uidiagram.diagram.edit.parts.Checkbox2EditPart;
-import uidiagram.diagram.edit.parts.Checkbox3EditPart;
-import uidiagram.diagram.edit.parts.ComboBox3EditPart;
 import uidiagram.diagram.edit.parts.ComboBox4EditPart;
-import uidiagram.diagram.edit.parts.DatePicker3EditPart;
 import uidiagram.diagram.edit.parts.DatePicker4EditPart;
 import uidiagram.diagram.edit.parts.Group3EditPart;
 import uidiagram.diagram.edit.parts.GroupColumn3EditPart;
 import uidiagram.diagram.edit.parts.GroupColumnGroupColumnListTemplateWidgetCompartment3EditPart;
 import uidiagram.diagram.edit.parts.GroupRow2EditPart;
 import uidiagram.diagram.edit.parts.Input2EditPart;
-import uidiagram.diagram.edit.parts.Input3EditPart;
-import uidiagram.diagram.edit.parts.Label3EditPart;
 import uidiagram.diagram.edit.parts.Label4EditPart;
-import uidiagram.diagram.edit.parts.Label5EditPart;
 import uidiagram.diagram.edit.parts.ListView2EditPart;
-import uidiagram.diagram.edit.parts.ListView3EditPart;
-import uidiagram.diagram.edit.parts.RadioButton3EditPart;
 import uidiagram.diagram.edit.parts.RadioButton4EditPart;
-import uidiagram.diagram.edit.parts.Switch3EditPart;
 import uidiagram.diagram.edit.parts.Switch4EditPart;
 import uidiagram.diagram.edit.parts.Tabbar2EditPart;
-import uidiagram.diagram.edit.parts.Tabbar3EditPart;
-import uidiagram.diagram.edit.parts.Table3EditPart;
 import uidiagram.diagram.edit.parts.Table4EditPart;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;
 import uidiagram.diagram.providers.UidiagramElementTypes;
@@ -57,7 +43,7 @@ public class GroupColumn3ItemSemanticEditPolicy extends UidiagramBaseItemSemanti
 	* @generated
 	*/
 	public GroupColumn3ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.GroupColumn_3021);
+		super(UidiagramElementTypes.GroupColumn_3026);
 	}
 
 	/**

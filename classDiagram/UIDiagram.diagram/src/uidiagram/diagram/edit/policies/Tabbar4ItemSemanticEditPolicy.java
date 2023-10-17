@@ -4,6 +4,7 @@
 package uidiagram.diagram.edit.policies;
 
 import java.util.Iterator;
+
 import org.eclipse.emf.ecore.EAnnotation;
 import org.eclipse.gef.commands.Command;
 import org.eclipse.gmf.runtime.common.core.command.ICompositeCommand;
@@ -30,7 +31,7 @@ public class Tabbar4ItemSemanticEditPolicy extends UidiagramBaseItemSemanticEdit
 	* @generated
 	*/
 	public Tabbar4ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.Tabbar_3085);
+		super(UidiagramElementTypes.Tabbar_3046);
 	}
 
 	/**

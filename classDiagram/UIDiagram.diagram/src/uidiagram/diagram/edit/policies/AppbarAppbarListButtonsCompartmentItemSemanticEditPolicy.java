@@ -25,7 +25,7 @@ public class AppbarAppbarListButtonsCompartmentItemSemanticEditPolicy extends Ui
 	* @generated
 	*/
 	protected Command getCreateCommand(CreateElementRequest req) {
-		if (UidiagramElementTypes.Button_3062 == req.getElementType()) {
+		if (UidiagramElementTypes.Button_3008 == req.getElementType()) {
 			return getGEFWrapper(new ButtonCreateCommand(req));
 		}
 		return super.getCreateCommand(req);

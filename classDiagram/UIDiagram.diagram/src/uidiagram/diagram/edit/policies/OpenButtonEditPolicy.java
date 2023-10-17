@@ -11,7 +11,6 @@ import uidiagram.diagram.edit.parts.Button6EditPart;
 import uidiagram.diagram.edit.parts.Button7EditPart;
 import uidiagram.diagram.edit.parts.ButtonEditPart;
 import uidiagram.diagram.edit.parts.ButtonName2EditPart;
-import uidiagram.diagram.edit.parts.ButtonName3EditPart;
 import uidiagram.diagram.edit.parts.ButtonName4EditPart;
 import uidiagram.diagram.edit.parts.ButtonName5EditPart;
 import uidiagram.diagram.edit.parts.ButtonName6EditPart;
@@ -60,11 +59,6 @@ public class OpenButtonEditPolicy extends OpenEditPolicy {
 					
 				}
 				
-				if (edipart instanceof ButtonName3EditPart) {
-					if (edipart.getParent() instanceof Button3EditPart) {
-						edipart = edipart.getParent();
-					}
-				}
 				if (edipart instanceof Button3EditPart) {
 					Button button = (Button) ((Button3EditPart) edipart).resolveSemanticElement();
 					TransactionalEditingDomain domain = ((Button3EditPart) edipart).getEditingDomain();

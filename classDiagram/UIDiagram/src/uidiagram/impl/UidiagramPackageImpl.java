@@ -476,7 +476,7 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 	 * @generated
 	 */
 	@Override
-	public EReference getGroup_ListTemplateWidget() {
+	public EReference getGroup_TemplateWidget() {
 		return (EReference)groupEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -836,7 +836,7 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		createEReference(userInterfaceEClass, USER_INTERFACE__LIST_TEMPLATE_WIDGET);
 
 		groupEClass = createEClass(GROUP);
-		createEReference(groupEClass, GROUP__LIST_TEMPLATE_WIDGET);
+		createEReference(groupEClass, GROUP__TEMPLATE_WIDGET);
 		createEAttribute(groupEClass, GROUP__BORDER_RADIUS);
 		createEAttribute(groupEClass, GROUP__BORDER_WIDTH);
 		createEAttribute(groupEClass, GROUP__BORDER_COLOR);
@@ -956,7 +956,7 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		initEReference(getUserInterface_ListTemplateWidget(), this.getTemplateWidget(), null, "listTemplateWidget", null, 0, -1, UserInterface.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(groupEClass, Group.class, "Group", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEReference(getGroup_ListTemplateWidget(), this.getTemplateWidget(), null, "listTemplateWidget", null, 0, -1, Group.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getGroup_TemplateWidget(), this.getTemplateWidget(), null, "templateWidget", null, 0, 1, Group.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getGroup_BorderRadius(), ecorePackage.getEString(), "borderRadius", null, 0, 1, Group.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getGroup_BorderWidth(), ecorePackage.getEString(), "borderWidth", null, 0, 1, Group.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getGroup_BorderColor(), ecorePackage.getEString(), "borderColor", null, 0, 1, Group.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
@@ -1178,7 +1178,7 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		   new String[] {
 		   });
 		addAnnotation
-		  (getGroup_ListTemplateWidget(),
+		  (getGroup_TemplateWidget(),
 		   source,
 		   new String[] {
 		   });

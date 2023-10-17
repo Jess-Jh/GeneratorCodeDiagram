@@ -17,9 +17,7 @@ import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.Button;
 import uidiagram.GroupColumn;
-import uidiagram.GroupRow;
 import uidiagram.UidiagramFactory;
-import uidiagram.UserInterface;
 
 /**
  * @generated

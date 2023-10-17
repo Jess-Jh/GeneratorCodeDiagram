@@ -517,23 +517,23 @@ public class UidiagramEditPartFactory implements EditPartFactory {
 			case UserInterfaceUserInterfaceListTemplateWidgetCompartmentEditPart.VISUAL_ID:
 				return new UserInterfaceUserInterfaceListTemplateWidgetCompartmentEditPart(view);
 
-			case GroupGroupListTemplateWidgetCompartmentEditPart.VISUAL_ID:
-				return new GroupGroupListTemplateWidgetCompartmentEditPart(view);
+			case GroupGroupTemplateWidgetCompartmentEditPart.VISUAL_ID:
+				return new GroupGroupTemplateWidgetCompartmentEditPart(view);
 
-			case GroupGroupListTemplateWidgetCompartment2EditPart.VISUAL_ID:
-				return new GroupGroupListTemplateWidgetCompartment2EditPart(view);
+			case GroupGroupTemplateWidgetCompartment2EditPart.VISUAL_ID:
+				return new GroupGroupTemplateWidgetCompartment2EditPart(view);
 
 			case GroupColumnGroupColumnListTemplateWidgetCompartmentEditPart.VISUAL_ID:
 				return new GroupColumnGroupColumnListTemplateWidgetCompartmentEditPart(view);
 
-			case GroupGroupListTemplateWidgetCompartment3EditPart.VISUAL_ID:
-				return new GroupGroupListTemplateWidgetCompartment3EditPart(view);
+			case GroupGroupTemplateWidgetCompartment3EditPart.VISUAL_ID:
+				return new GroupGroupTemplateWidgetCompartment3EditPart(view);
 
 			case GroupRowGroupRowListTemplateWidgetCompartmentEditPart.VISUAL_ID:
 				return new GroupRowGroupRowListTemplateWidgetCompartmentEditPart(view);
 
-			case GroupGroupListTemplateWidgetCompartment4EditPart.VISUAL_ID:
-				return new GroupGroupListTemplateWidgetCompartment4EditPart(view);
+			case GroupGroupTemplateWidgetCompartment4EditPart.VISUAL_ID:
+				return new GroupGroupTemplateWidgetCompartment4EditPart(view);
 
 			case AppbarAppbarListButtonsCompartmentEditPart.VISUAL_ID:
 				return new AppbarAppbarListButtonsCompartmentEditPart(view);
@@ -550,8 +550,8 @@ public class UidiagramEditPartFactory implements EditPartFactory {
 			case ListViewListViewTemplateWidgetCompartmentEditPart.VISUAL_ID:
 				return new ListViewListViewTemplateWidgetCompartmentEditPart(view);
 
-			case GroupGroupListTemplateWidgetCompartment5EditPart.VISUAL_ID:
-				return new GroupGroupListTemplateWidgetCompartment5EditPart(view);
+			case GroupGroupTemplateWidgetCompartment5EditPart.VISUAL_ID:
+				return new GroupGroupTemplateWidgetCompartment5EditPart(view);
 
 			case TableTableListCoulmnsCompartmentEditPart.VISUAL_ID:
 				return new TableTableListCoulmnsCompartmentEditPart(view);

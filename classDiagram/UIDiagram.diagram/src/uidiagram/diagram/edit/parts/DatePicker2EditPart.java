@@ -29,7 +29,6 @@ import org.eclipse.swt.graphics.Color;
 
 import uidiagram.diagram.edit.notifications.NotificationEvent;
 import uidiagram.diagram.edit.policies.DatePicker2ItemSemanticEditPolicy;
-import uidiagram.diagram.edit.policies.OpenComboBoxEditPolicy;
 import uidiagram.diagram.edit.policies.OpenDatePickerEditPolicy;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;
 
@@ -41,7 +40,7 @@ public class DatePicker2EditPart extends ShapeNodeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3093;
+	public static final int VISUAL_ID = 3054;
 
 	/**
 	* @generated
@@ -292,7 +291,7 @@ public class DatePicker2EditPart extends ShapeNodeEditPart {
 		}
 
 	}
-
+	
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

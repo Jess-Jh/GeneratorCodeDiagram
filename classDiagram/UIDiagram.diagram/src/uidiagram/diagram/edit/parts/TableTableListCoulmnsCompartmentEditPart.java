@@ -34,7 +34,7 @@ public class TableTableListCoulmnsCompartmentEditPart extends ShapeCompartmentEd
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 7008;
+	public static final int VISUAL_ID = 7014;
 
 	/**
 	* @generated
@@ -89,7 +89,7 @@ public class TableTableListCoulmnsCompartmentEditPart extends ShapeCompartmentEd
 			CreateElementRequestAdapter adapter = ((CreateViewAndElementRequest) request).getViewAndElementDescriptor()
 					.getCreateElementRequestAdapter();
 			IElementType type = (IElementType) adapter.getAdapter(IElementType.class);
-			if (type == UidiagramElementTypes.Column_3019) {
+			if (type == UidiagramElementTypes.Column_3024) {
 				return this;
 			}
 			return getParent().getTargetEditPart(request);

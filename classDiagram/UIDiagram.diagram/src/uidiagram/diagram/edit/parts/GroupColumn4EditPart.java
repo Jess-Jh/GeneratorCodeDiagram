@@ -42,7 +42,7 @@ public class GroupColumn4EditPart extends ShapeNodeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3020;
+	public static final int VISUAL_ID = 3028;
 
 	/**
 	* @generated
@@ -329,7 +329,7 @@ public class GroupColumn4EditPart extends ShapeNodeEditPart {
 		}
 
 	}
-
+	
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

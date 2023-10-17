@@ -4,7 +4,6 @@ package uidiagram;
 
 import org.eclipse.emf.common.util.EList;
 
-
 /**
  * <!-- begin-user-doc -->
  * A representation of the model object '<em><b>Tabbar</b></em>'.
@@ -23,7 +22,6 @@ import org.eclipse.emf.common.util.EList;
  * @generated
  */
 public interface Tabbar extends TemplateWidget {
-
 	/**
 	 * Returns the value of the '<em><b>List Buttons</b></em>' containment reference list.
 	 * The list contents are of type {@link uidiagram.Button}.
@@ -49,4 +47,5 @@ public interface Tabbar extends TemplateWidget {
 	 * @generated
 	 */
 	EList<Label> getListLabels();
+
 } // Tabbar

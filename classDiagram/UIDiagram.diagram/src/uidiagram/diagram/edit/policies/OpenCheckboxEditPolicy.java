@@ -11,7 +11,6 @@ import uidiagram.diagram.edit.parts.CheckboxName2EditPart;
 import uidiagram.diagram.edit.parts.CheckboxName3EditPart;
 import uidiagram.diagram.edit.parts.CheckboxName4EditPart;
 import uidiagram.diagram.edit.parts.CheckboxName5EditPart;
-import uidiagram.diagram.edit.parts.CheckboxNameEditPart;
 
 import org.eclipse.emf.transaction.TransactionalEditingDomain;
 import org.eclipse.gef.EditPart;
@@ -29,11 +28,6 @@ public class OpenCheckboxEditPolicy extends OpenEditPolicy {
 				
 				EditPart edipart = getHost();
 
-				if (edipart instanceof CheckboxNameEditPart) {
-					if (edipart.getParent() instanceof CheckboxEditPart) {
-						edipart = edipart.getParent();
-					}
-				}
 				if (edipart instanceof CheckboxEditPart) {
 					Checkbox checkbox = (Checkbox) ((CheckboxEditPart) edipart).resolveSemanticElement();
 					TransactionalEditingDomain domain = ((CheckboxEditPart) edipart).getEditingDomain();

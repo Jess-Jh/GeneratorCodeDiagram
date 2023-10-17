@@ -60,7 +60,7 @@ public class DatePickerNameEditPart extends CompartmentEditPart implements IText
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5010;
+	public static final int VISUAL_ID = 5013;
 
 	/**
 	* @generated
@@ -295,7 +295,7 @@ public class DatePickerNameEditPart extends CompartmentEditPart implements IText
 	*/
 	public IParser getParser() {
 		if (parser == null) {
-			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.DatePicker_3016, getParserElement(),
+			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.DatePicker_3021, getParserElement(),
 					UidiagramVisualIDRegistry.getType(uidiagram.diagram.edit.parts.DatePickerNameEditPart.VISUAL_ID));
 		}
 		return parser;

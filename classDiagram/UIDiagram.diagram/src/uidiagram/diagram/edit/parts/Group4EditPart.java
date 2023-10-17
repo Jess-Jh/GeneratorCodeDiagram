@@ -121,10 +121,10 @@ public class Group4EditPart extends ShapeNodeEditPart {
 			((GroupName4EditPart) childEditPart).setLabel(getPrimaryShape().getFigureGroupLabelFigure());
 			return true;
 		}
-		if (childEditPart instanceof GroupGroupListTemplateWidgetCompartment4EditPart) {
-			IFigure pane = getPrimaryShape().getGroupListTemplateWidgetCompartmentFigure();
+		if (childEditPart instanceof GroupGroupTemplateWidgetCompartment4EditPart) {
+			IFigure pane = getPrimaryShape().getGroupTemplateWidgetCompartmentFigure();
 			setupContentPane(pane); // FIXME each comparment should handle his content pane in his own way 
-			pane.add(((GroupGroupListTemplateWidgetCompartment4EditPart) childEditPart).getFigure());
+			pane.add(((GroupGroupTemplateWidgetCompartment4EditPart) childEditPart).getFigure());
 			return true;
 		}
 		return false;
@@ -137,9 +137,9 @@ public class Group4EditPart extends ShapeNodeEditPart {
 		if (childEditPart instanceof GroupName4EditPart) {
 			return true;
 		}
-		if (childEditPart instanceof GroupGroupListTemplateWidgetCompartment4EditPart) {
-			IFigure pane = getPrimaryShape().getGroupListTemplateWidgetCompartmentFigure();
-			pane.remove(((GroupGroupListTemplateWidgetCompartment4EditPart) childEditPart).getFigure());
+		if (childEditPart instanceof GroupGroupTemplateWidgetCompartment4EditPart) {
+			IFigure pane = getPrimaryShape().getGroupTemplateWidgetCompartmentFigure();
+			pane.remove(((GroupGroupTemplateWidgetCompartment4EditPart) childEditPart).getFigure());
 			return true;
 		}
 		return false;
@@ -169,8 +169,8 @@ public class Group4EditPart extends ShapeNodeEditPart {
 	* @generated
 	*/
 	protected IFigure getContentPaneFor(IGraphicalEditPart editPart) {
-		if (editPart instanceof GroupGroupListTemplateWidgetCompartment4EditPart) {
-			return getPrimaryShape().getGroupListTemplateWidgetCompartmentFigure();
+		if (editPart instanceof GroupGroupTemplateWidgetCompartment4EditPart) {
+			return getPrimaryShape().getGroupTemplateWidgetCompartmentFigure();
 		}
 		return getContentPane();
 	}
@@ -280,7 +280,7 @@ public class Group4EditPart extends ShapeNodeEditPart {
 		/**
 		 * @generated
 		 */
-		private RectangleFigure fGroupListTemplateWidgetCompartmentFigure;
+		private RectangleFigure fGroupTemplateWidgetCompartmentFigure;
 
 		/**
 		 * @generated
@@ -305,11 +305,11 @@ public class Group4EditPart extends ShapeNodeEditPart {
 
 			this.add(fFigureGroupLabelFigure);
 
-			fGroupListTemplateWidgetCompartmentFigure = new RectangleFigure();
+			fGroupTemplateWidgetCompartmentFigure = new RectangleFigure();
 
-			fGroupListTemplateWidgetCompartmentFigure.setOutline(false);
+			fGroupTemplateWidgetCompartmentFigure.setOutline(false);
 
-			this.add(fGroupListTemplateWidgetCompartmentFigure);
+			this.add(fGroupTemplateWidgetCompartmentFigure);
 
 		}
 
@@ -323,12 +323,12 @@ public class Group4EditPart extends ShapeNodeEditPart {
 		/**
 		 * @generated
 		 */
-		public RectangleFigure getGroupListTemplateWidgetCompartmentFigure() {
-			return fGroupListTemplateWidgetCompartmentFigure;
+		public RectangleFigure getGroupTemplateWidgetCompartmentFigure() {
+			return fGroupTemplateWidgetCompartmentFigure;
 		}
 
 	}
-
+	
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

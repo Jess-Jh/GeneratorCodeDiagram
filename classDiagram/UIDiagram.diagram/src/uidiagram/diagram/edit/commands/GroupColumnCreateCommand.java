@@ -47,6 +47,10 @@ public class GroupColumnCreateCommand extends EditElementCommand {
 	* @generated
 	*/
 	public boolean canExecute() {
+		Group container = (Group) getElementToEdit();
+		if (container.getTemplateWidget() != null) {
+			return false;
+		}
 		return true;
 
 	}
@@ -58,7 +62,7 @@ public class GroupColumnCreateCommand extends EditElementCommand {
 		GroupColumn newElement = UidiagramFactory.eINSTANCE.createGroupColumn();
 
 		Group owner = (Group) getElementToEdit();
-		owner.getListTemplateWidget().add(newElement);
+		owner.setTemplateWidget(newElement);
 
 		doConfigure(newElement, monitor, info);
 

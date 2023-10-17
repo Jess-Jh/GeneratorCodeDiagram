@@ -2,8 +2,6 @@
  */
 package uidiagram;
 
-import org.eclipse.emf.common.util.EList;
-
 
 /**
  * <!-- begin-user-doc -->
@@ -22,7 +20,6 @@ import org.eclipse.emf.common.util.EList;
  * @generated
  */
 public interface ListView extends TemplateWidget {
-
 	/**
 	 * Returns the value of the '<em><b>Template Widget</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
@@ -45,4 +42,5 @@ public interface ListView extends TemplateWidget {
 	 * @generated
 	 */
 	void setTemplateWidget(TemplateWidget value);
+
 } // ListView

@@ -22,7 +22,7 @@ public class Button2ItemSemanticEditPolicy extends UidiagramBaseItemSemanticEdit
 	* @generated
 	*/
 	public Button2ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.Button_3063);
+		super(UidiagramElementTypes.Button_3011);
 	}
 
 	/**

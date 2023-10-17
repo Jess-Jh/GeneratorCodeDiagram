@@ -60,7 +60,7 @@ public class UserInterfaceNameEditPart extends CompartmentEditPart implements IT
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5062;
+	public static final int VISUAL_ID = 5081;
 
 	/**
 	* @generated

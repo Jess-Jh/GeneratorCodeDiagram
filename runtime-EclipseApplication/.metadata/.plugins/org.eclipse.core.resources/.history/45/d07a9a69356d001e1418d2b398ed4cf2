@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:uidiagram="uidiagram" xmi:id="_OIPzkG01Ee6Xhpl9TYIVCA" type="Uidiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_RwlzQG01Ee6Xhpl9TYIVCA" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_RwmaUG01Ee6Xhpl9TYIVCA" type="5081"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_RwmaUW01Ee6Xhpl9TYIVCA" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_S78zIG01Ee6Xhpl9TYIVCA" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_S79aMG01Ee6Xhpl9TYIVCA" type="5066"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_S79aMW01Ee6Xhpl9TYIVCA" type="7002"/>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_S78zIW01Ee6Xhpl9TYIVCA"/>
+        <element xmi:type="uidiagram:Group" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S78zIm01Ee6Xhpl9TYIVCA" x="30" y="48" width="261" height="257"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_RwlzQW01Ee6Xhpl9TYIVCA"/>
+    <element xmi:type="uidiagram:UserInterface" href="model.uidiagram#//@listDiagrams.0/@userInterface"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RwlzQm01Ee6Xhpl9TYIVCA" x="336" y="32" width="349" height="409"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_OIPzkW01Ee6Xhpl9TYIVCA"/>
+  <element xmi:type="uidiagram:UIDiagram" href="model.uidiagram#//@listDiagrams.0"/>
+</notation:Diagram>

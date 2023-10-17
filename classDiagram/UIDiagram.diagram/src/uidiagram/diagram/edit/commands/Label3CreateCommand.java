@@ -16,7 +16,6 @@ import org.eclipse.gmf.runtime.emf.type.core.requests.CreateElementRequest;
 import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.Group;
-import uidiagram.GroupColumn;
 import uidiagram.Label;
 import uidiagram.UidiagramFactory;
 
@@ -48,6 +47,10 @@ public class Label3CreateCommand extends EditElementCommand {
 	* @generated
 	*/
 	public boolean canExecute() {
+		Group container = (Group) getElementToEdit();
+		if (container.getTemplateWidget() != null) {
+			return false;
+		}
 		return true;
 
 	}
@@ -59,7 +62,7 @@ public class Label3CreateCommand extends EditElementCommand {
 		Label newElement = UidiagramFactory.eINSTANCE.createLabel();
 
 		Group owner = (Group) getElementToEdit();
-		owner.getListTemplateWidget().add(newElement);
+		owner.setTemplateWidget(newElement);
 
 		doConfigure(newElement, monitor, info);
 

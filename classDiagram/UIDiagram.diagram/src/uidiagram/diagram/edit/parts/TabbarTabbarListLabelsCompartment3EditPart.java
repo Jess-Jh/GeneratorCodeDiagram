@@ -90,7 +90,7 @@ public class TabbarTabbarListLabelsCompartment3EditPart extends ShapeCompartment
 			CreateElementRequestAdapter adapter = ((CreateViewAndElementRequest) request).getViewAndElementDescriptor()
 					.getCreateElementRequestAdapter();
 			IElementType type = (IElementType) adapter.getAdapter(IElementType.class);
-			if (type == UidiagramElementTypes.Label_3065) {
+			if (type == UidiagramElementTypes.Label_3012) {
 				return this;
 			}
 			return getParent().getTargetEditPart(request);

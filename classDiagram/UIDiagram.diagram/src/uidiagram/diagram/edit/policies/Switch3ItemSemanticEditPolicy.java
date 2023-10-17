@@ -22,7 +22,7 @@ public class Switch3ItemSemanticEditPolicy extends UidiagramBaseItemSemanticEdit
 	* @generated
 	*/
 	public Switch3ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.Switch_3034);
+		super(UidiagramElementTypes.Switch_3060);
 	}
 
 	/**

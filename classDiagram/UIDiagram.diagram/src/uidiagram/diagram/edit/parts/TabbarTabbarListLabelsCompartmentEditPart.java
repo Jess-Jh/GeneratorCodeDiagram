@@ -34,7 +34,7 @@ public class TabbarTabbarListLabelsCompartmentEditPart extends ShapeCompartmentE
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 7027;
+	public static final int VISUAL_ID = 7011;
 
 	/**
 	* @generated
@@ -89,7 +89,7 @@ public class TabbarTabbarListLabelsCompartmentEditPart extends ShapeCompartmentE
 			CreateElementRequestAdapter adapter = ((CreateViewAndElementRequest) request).getViewAndElementDescriptor()
 					.getCreateElementRequestAdapter();
 			IElementType type = (IElementType) adapter.getAdapter(IElementType.class);
-			if (type == UidiagramElementTypes.Label_3065) {
+			if (type == UidiagramElementTypes.Label_3012) {
 				return this;
 			}
 			return getParent().getTargetEditPart(request);

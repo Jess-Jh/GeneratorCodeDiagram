@@ -42,7 +42,7 @@ public class Appbar4EditPart extends ShapeNodeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3084;
+	public static final int VISUAL_ID = 3045;
 
 	/**
 	* @generated
@@ -291,20 +291,18 @@ public class Appbar4EditPart extends ShapeNodeEditPart {
 		 * @generated
 		 */
 		private WrappingLabel fFigureAppbarLabelFigure;
-
 		/**
-		* @generated
-		*/
+		 * @generated
+		 */
 		private RectangleFigure fAppbarListButtonsCompartmentFigure;
-
 		/**
-		* @generated
-		*/
+		 * @generated
+		 */
 		private RectangleFigure fAppbarListLabelsCompartmentFigure;
 
 		/**
-				 * @generated
-				 */
+		 * @generated
+		 */
 		public AppbarFigure() {
 			this.setCornerDimensions(new Dimension(getMapMode().DPtoLP(8), getMapMode().DPtoLP(8)));
 			this.setBorder(new MarginBorder(getMapMode().DPtoLP(5), getMapMode().DPtoLP(5), getMapMode().DPtoLP(5),
@@ -346,21 +344,21 @@ public class Appbar4EditPart extends ShapeNodeEditPart {
 		}
 
 		/**
-		* @generated
-		*/
+		 * @generated
+		 */
 		public RectangleFigure getAppbarListButtonsCompartmentFigure() {
 			return fAppbarListButtonsCompartmentFigure;
 		}
 
 		/**
-		* @generated
-		*/
+		 * @generated
+		 */
 		public RectangleFigure getAppbarListLabelsCompartmentFigure() {
 			return fAppbarListLabelsCompartmentFigure;
 		}
 
 	}
-
+	
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

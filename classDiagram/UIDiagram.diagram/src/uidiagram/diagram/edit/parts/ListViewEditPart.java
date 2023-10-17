@@ -31,7 +31,6 @@ import org.eclipse.swt.graphics.Color;
 import uidiagram.diagram.edit.notifications.NotificationEvent;
 import uidiagram.diagram.edit.policies.ListViewItemSemanticEditPolicy;
 import uidiagram.diagram.edit.policies.OpenDiagramEditPolicy;
-import uidiagram.diagram.edit.policies.OpenGroupEditPolicy;
 import uidiagram.diagram.edit.policies.OpenListViewEditPolicy;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;
 
@@ -43,7 +42,7 @@ public class ListViewEditPart extends ShapeNodeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3013;
+	public static final int VISUAL_ID = 3017;
 
 	/**
 	* @generated
@@ -278,15 +277,14 @@ public class ListViewEditPart extends ShapeNodeEditPart {
 		 * @generated
 		 */
 		private WrappingLabel fFigureListViewLabelFigure;
-
 		/**
-		* @generated
-		*/
+		 * @generated
+		 */
 		private RectangleFigure fListViewTemplateWidgetCompartmentFigure;
 
 		/**
-				 * @generated
-				 */
+		 * @generated
+		 */
 		public ListViewFigure() {
 			this.setCornerDimensions(new Dimension(getMapMode().DPtoLP(8), getMapMode().DPtoLP(8)));
 			this.setLineWidth(0);
@@ -324,14 +322,14 @@ public class ListViewEditPart extends ShapeNodeEditPart {
 		}
 
 		/**
-		* @generated
-		*/
+		 * @generated
+		 */
 		public RectangleFigure getListViewTemplateWidgetCompartmentFigure() {
 			return fListViewTemplateWidgetCompartmentFigure;
 		}
 
 	}
-
+	
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

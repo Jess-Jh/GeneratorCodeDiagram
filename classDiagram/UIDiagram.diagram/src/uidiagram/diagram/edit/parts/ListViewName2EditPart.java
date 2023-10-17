@@ -60,7 +60,7 @@ public class ListViewName2EditPart extends CompartmentEditPart implements ITextA
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5035;
+	public static final int VISUAL_ID = 5050;
 
 	/**
 	* @generated
@@ -295,7 +295,7 @@ public class ListViewName2EditPart extends CompartmentEditPart implements ITextA
 	*/
 	public IParser getParser() {
 		if (parser == null) {
-			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.ListView_3042, getParserElement(),
+			parser = UidiagramParserProvider.getParser(UidiagramElementTypes.ListView_3035, getParserElement(),
 					UidiagramVisualIDRegistry.getType(uidiagram.diagram.edit.parts.ListViewName2EditPart.VISUAL_ID));
 		}
 		return parser;

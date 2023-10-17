@@ -6,7 +6,6 @@ package uidiagram.diagram.providers;
 import org.eclipse.emf.transaction.TransactionalEditingDomain;
 import org.eclipse.gmf.runtime.notation.View;
 
-import uidiagram.diagram.edit.parts.ModelFactoryEditPart;
 import uidiagram.diagram.edit.parts.UIDiagramEditPart;
 import uidiagram.diagram.part.UidiagramDiagramEditorPlugin;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;

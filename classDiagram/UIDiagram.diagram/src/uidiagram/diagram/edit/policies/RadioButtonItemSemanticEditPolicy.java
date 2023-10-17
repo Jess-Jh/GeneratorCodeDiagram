@@ -22,7 +22,7 @@ public class RadioButtonItemSemanticEditPolicy extends UidiagramBaseItemSemantic
 	* @generated
 	*/
 	public RadioButtonItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.RadioButton_3014);
+		super(UidiagramElementTypes.RadioButton_3019);
 	}
 
 	/**

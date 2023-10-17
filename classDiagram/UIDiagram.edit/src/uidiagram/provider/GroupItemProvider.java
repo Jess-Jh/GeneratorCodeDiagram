@@ -133,7 +133,7 @@ public class GroupItemProvider extends TemplateWidgetItemProvider {
 	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
-			childrenFeatures.add(UidiagramPackage.Literals.GROUP__LIST_TEMPLATE_WIDGET);
+			childrenFeatures.add(UidiagramPackage.Literals.GROUP__TEMPLATE_WIDGET);
 		}
 		return childrenFeatures;
 	}
@@ -194,7 +194,7 @@ public class GroupItemProvider extends TemplateWidgetItemProvider {
 			case UidiagramPackage.GROUP__BORDER_COLOR:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
-			case UidiagramPackage.GROUP__LIST_TEMPLATE_WIDGET:
+			case UidiagramPackage.GROUP__TEMPLATE_WIDGET:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 				return;
 		}
@@ -214,82 +214,82 @@ public class GroupItemProvider extends TemplateWidgetItemProvider {
 
 		newChildDescriptors.add
 			(createChildParameter
-				(UidiagramPackage.Literals.GROUP__LIST_TEMPLATE_WIDGET,
+				(UidiagramPackage.Literals.GROUP__TEMPLATE_WIDGET,
 				 UidiagramFactory.eINSTANCE.createTemplateWidget()));
 
 		newChildDescriptors.add
 			(createChildParameter
-				(UidiagramPackage.Literals.GROUP__LIST_TEMPLATE_WIDGET,
+				(UidiagramPackage.Literals.GROUP__TEMPLATE_WIDGET,
 				 UidiagramFactory.eINSTANCE.createGroup()));
 
 		newChildDescriptors.add
 			(createChildParameter
-				(UidiagramPackage.Literals.GROUP__LIST_TEMPLATE_WIDGET,
+				(UidiagramPackage.Literals.GROUP__TEMPLATE_WIDGET,
 				 UidiagramFactory.eINSTANCE.createGroupColumn()));
 
 		newChildDescriptors.add
 			(createChildParameter
-				(UidiagramPackage.Literals.GROUP__LIST_TEMPLATE_WIDGET,
+				(UidiagramPackage.Literals.GROUP__TEMPLATE_WIDGET,
 				 UidiagramFactory.eINSTANCE.createGroupRow()));
 
 		newChildDescriptors.add
 			(createChildParameter
-				(UidiagramPackage.Literals.GROUP__LIST_TEMPLATE_WIDGET,
+				(UidiagramPackage.Literals.GROUP__TEMPLATE_WIDGET,
 				 UidiagramFactory.eINSTANCE.createAppbar()));
 
 		newChildDescriptors.add
 			(createChildParameter
-				(UidiagramPackage.Literals.GROUP__LIST_TEMPLATE_WIDGET,
+				(UidiagramPackage.Literals.GROUP__TEMPLATE_WIDGET,
 				 UidiagramFactory.eINSTANCE.createTabbar()));
 
 		newChildDescriptors.add
 			(createChildParameter
-				(UidiagramPackage.Literals.GROUP__LIST_TEMPLATE_WIDGET,
+				(UidiagramPackage.Literals.GROUP__TEMPLATE_WIDGET,
 				 UidiagramFactory.eINSTANCE.createButton()));
 
 		newChildDescriptors.add
 			(createChildParameter
-				(UidiagramPackage.Literals.GROUP__LIST_TEMPLATE_WIDGET,
+				(UidiagramPackage.Literals.GROUP__TEMPLATE_WIDGET,
 				 UidiagramFactory.eINSTANCE.createLabel()));
 
 		newChildDescriptors.add
 			(createChildParameter
-				(UidiagramPackage.Literals.GROUP__LIST_TEMPLATE_WIDGET,
+				(UidiagramPackage.Literals.GROUP__TEMPLATE_WIDGET,
 				 UidiagramFactory.eINSTANCE.createCheckbox()));
 
 		newChildDescriptors.add
 			(createChildParameter
-				(UidiagramPackage.Literals.GROUP__LIST_TEMPLATE_WIDGET,
+				(UidiagramPackage.Literals.GROUP__TEMPLATE_WIDGET,
 				 UidiagramFactory.eINSTANCE.createInput()));
 
 		newChildDescriptors.add
 			(createChildParameter
-				(UidiagramPackage.Literals.GROUP__LIST_TEMPLATE_WIDGET,
+				(UidiagramPackage.Literals.GROUP__TEMPLATE_WIDGET,
 				 UidiagramFactory.eINSTANCE.createListView()));
 
 		newChildDescriptors.add
 			(createChildParameter
-				(UidiagramPackage.Literals.GROUP__LIST_TEMPLATE_WIDGET,
+				(UidiagramPackage.Literals.GROUP__TEMPLATE_WIDGET,
 				 UidiagramFactory.eINSTANCE.createRadioButton()));
 
 		newChildDescriptors.add
 			(createChildParameter
-				(UidiagramPackage.Literals.GROUP__LIST_TEMPLATE_WIDGET,
+				(UidiagramPackage.Literals.GROUP__TEMPLATE_WIDGET,
 				 UidiagramFactory.eINSTANCE.createComboBox()));
 
 		newChildDescriptors.add
 			(createChildParameter
-				(UidiagramPackage.Literals.GROUP__LIST_TEMPLATE_WIDGET,
+				(UidiagramPackage.Literals.GROUP__TEMPLATE_WIDGET,
 				 UidiagramFactory.eINSTANCE.createDatePicker()));
 
 		newChildDescriptors.add
 			(createChildParameter
-				(UidiagramPackage.Literals.GROUP__LIST_TEMPLATE_WIDGET,
+				(UidiagramPackage.Literals.GROUP__TEMPLATE_WIDGET,
 				 UidiagramFactory.eINSTANCE.createSwitch()));
 
 		newChildDescriptors.add
 			(createChildParameter
-				(UidiagramPackage.Literals.GROUP__LIST_TEMPLATE_WIDGET,
+				(UidiagramPackage.Literals.GROUP__TEMPLATE_WIDGET,
 				 UidiagramFactory.eINSTANCE.createTable()));
 	}
 

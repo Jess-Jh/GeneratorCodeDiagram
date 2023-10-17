@@ -34,7 +34,7 @@ public class ListViewListViewTemplateWidgetCompartment3EditPart extends ShapeCom
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 7039;
+	public static final int VISUAL_ID = 7030;
 
 	/**
 	* @generated
@@ -91,49 +91,49 @@ public class ListViewListViewTemplateWidgetCompartment3EditPart extends ShapeCom
 			CreateElementRequestAdapter adapter = ((CreateViewAndElementRequest) request).getViewAndElementDescriptor()
 					.getCreateElementRequestAdapter();
 			IElementType type = (IElementType) adapter.getAdapter(IElementType.class);
-			if (type == UidiagramElementTypes.Group_3081) {
+			if (type == UidiagramElementTypes.Group_3018) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.GroupColumn_3082) {
+			if (type == UidiagramElementTypes.GroupColumn_3025) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.GroupRow_3083) {
+			if (type == UidiagramElementTypes.GroupRow_3036) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.Appbar_3084) {
+			if (type == UidiagramElementTypes.Appbar_3045) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.Tabbar_3085) {
+			if (type == UidiagramElementTypes.Tabbar_3046) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.Button_3086) {
+			if (type == UidiagramElementTypes.Button_3047) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.Label_3087) {
+			if (type == UidiagramElementTypes.Label_3048) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.Checkbox_3088) {
+			if (type == UidiagramElementTypes.Checkbox_3049) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.Input_3089) {
+			if (type == UidiagramElementTypes.Input_3050) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.ListView_3090) {
+			if (type == UidiagramElementTypes.ListView_3051) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.RadioButton_3091) {
+			if (type == UidiagramElementTypes.RadioButton_3052) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.ComboBox_3092) {
+			if (type == UidiagramElementTypes.ComboBox_3053) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.DatePicker_3093) {
+			if (type == UidiagramElementTypes.DatePicker_3054) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.Switch_3094) {
+			if (type == UidiagramElementTypes.Switch_3055) {
 				return this;
 			}
-			if (type == UidiagramElementTypes.Table_3095) {
+			if (type == UidiagramElementTypes.Table_3056) {
 				return this;
 			}
 			return getParent().getTargetEditPart(request);

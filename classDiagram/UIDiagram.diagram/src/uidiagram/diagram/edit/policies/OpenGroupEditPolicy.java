@@ -55,7 +55,6 @@ public class OpenGroupEditPolicy extends OpenEditPolicy {
 					openDialog(group, domain);
 					
 				}
-				
 				if (edipart instanceof GroupName3EditPart) {
 					if (edipart.getParent() instanceof Group3EditPart) {
 						edipart = edipart.getParent();
@@ -68,7 +67,6 @@ public class OpenGroupEditPolicy extends OpenEditPolicy {
 					openDialog(group, domain);
 					
 				}
-				
 				if (edipart instanceof GroupName4EditPart) {
 					if (edipart.getParent() instanceof Group4EditPart) {
 						edipart = edipart.getParent();
@@ -81,7 +79,6 @@ public class OpenGroupEditPolicy extends OpenEditPolicy {
 					openDialog(group, domain);
 					
 				}
-				
 				if (edipart instanceof GroupName5EditPart) {
 					if (edipart.getParent() instanceof Group5EditPart) {
 						edipart = edipart.getParent();

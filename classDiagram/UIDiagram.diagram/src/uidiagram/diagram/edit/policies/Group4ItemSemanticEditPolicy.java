@@ -17,17 +17,15 @@ import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.diagram.edit.parts.AppbarEditPart;
 import uidiagram.diagram.edit.parts.Button3EditPart;
-import uidiagram.diagram.edit.parts.ButtonEditPart;
 import uidiagram.diagram.edit.parts.CheckboxEditPart;
 import uidiagram.diagram.edit.parts.ComboBoxEditPart;
 import uidiagram.diagram.edit.parts.DatePickerEditPart;
 import uidiagram.diagram.edit.parts.Group2EditPart;
 import uidiagram.diagram.edit.parts.GroupColumnEditPart;
-import uidiagram.diagram.edit.parts.GroupGroupListTemplateWidgetCompartment4EditPart;
+import uidiagram.diagram.edit.parts.GroupGroupTemplateWidgetCompartment4EditPart;
 import uidiagram.diagram.edit.parts.GroupRowEditPart;
 import uidiagram.diagram.edit.parts.InputEditPart;
 import uidiagram.diagram.edit.parts.Label3EditPart;
-import uidiagram.diagram.edit.parts.LabelEditPart;
 import uidiagram.diagram.edit.parts.ListViewEditPart;
 import uidiagram.diagram.edit.parts.RadioButtonEditPart;
 import uidiagram.diagram.edit.parts.SwitchEditPart;
@@ -76,7 +74,7 @@ public class Group4ItemSemanticEditPolicy extends UidiagramBaseItemSemanticEditP
 		for (Iterator<?> nit = view.getChildren().iterator(); nit.hasNext();) {
 			Node node = (Node) nit.next();
 			switch (UidiagramVisualIDRegistry.getVisualID(node)) {
-			case GroupGroupListTemplateWidgetCompartment4EditPart.VISUAL_ID:
+			case GroupGroupTemplateWidgetCompartment4EditPart.VISUAL_ID:
 				for (Iterator<?> cit = node.getChildren().iterator(); cit.hasNext();) {
 					Node cnode = (Node) cit.next();
 					switch (UidiagramVisualIDRegistry.getVisualID(cnode)) {

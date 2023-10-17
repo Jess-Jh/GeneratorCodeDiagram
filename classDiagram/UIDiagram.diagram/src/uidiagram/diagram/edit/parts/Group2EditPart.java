@@ -30,7 +30,6 @@ import org.eclipse.swt.graphics.Color;
 
 import uidiagram.diagram.edit.notifications.NotificationEvent;
 import uidiagram.diagram.edit.policies.Group2ItemSemanticEditPolicy;
-import uidiagram.diagram.edit.policies.OpenDatePickerEditPolicy;
 import uidiagram.diagram.edit.policies.OpenDiagramEditPolicy;
 import uidiagram.diagram.edit.policies.OpenGroupEditPolicy;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;
@@ -122,10 +121,10 @@ public class Group2EditPart extends ShapeNodeEditPart {
 			((GroupName2EditPart) childEditPart).setLabel(getPrimaryShape().getFigureGroupLabelFigure());
 			return true;
 		}
-		if (childEditPart instanceof GroupGroupListTemplateWidgetCompartment2EditPart) {
-			IFigure pane = getPrimaryShape().getGroupListTemplateWidgetCompartmentFigure();
+		if (childEditPart instanceof GroupGroupTemplateWidgetCompartment2EditPart) {
+			IFigure pane = getPrimaryShape().getGroupTemplateWidgetCompartmentFigure();
 			setupContentPane(pane); // FIXME each comparment should handle his content pane in his own way 
-			pane.add(((GroupGroupListTemplateWidgetCompartment2EditPart) childEditPart).getFigure());
+			pane.add(((GroupGroupTemplateWidgetCompartment2EditPart) childEditPart).getFigure());
 			return true;
 		}
 		return false;
@@ -138,9 +137,9 @@ public class Group2EditPart extends ShapeNodeEditPart {
 		if (childEditPart instanceof GroupName2EditPart) {
 			return true;
 		}
-		if (childEditPart instanceof GroupGroupListTemplateWidgetCompartment2EditPart) {
-			IFigure pane = getPrimaryShape().getGroupListTemplateWidgetCompartmentFigure();
-			pane.remove(((GroupGroupListTemplateWidgetCompartment2EditPart) childEditPart).getFigure());
+		if (childEditPart instanceof GroupGroupTemplateWidgetCompartment2EditPart) {
+			IFigure pane = getPrimaryShape().getGroupTemplateWidgetCompartmentFigure();
+			pane.remove(((GroupGroupTemplateWidgetCompartment2EditPart) childEditPart).getFigure());
 			return true;
 		}
 		return false;
@@ -170,8 +169,8 @@ public class Group2EditPart extends ShapeNodeEditPart {
 	* @generated
 	*/
 	protected IFigure getContentPaneFor(IGraphicalEditPart editPart) {
-		if (editPart instanceof GroupGroupListTemplateWidgetCompartment2EditPart) {
-			return getPrimaryShape().getGroupListTemplateWidgetCompartmentFigure();
+		if (editPart instanceof GroupGroupTemplateWidgetCompartment2EditPart) {
+			return getPrimaryShape().getGroupTemplateWidgetCompartmentFigure();
 		}
 		return getContentPane();
 	}
@@ -281,7 +280,7 @@ public class Group2EditPart extends ShapeNodeEditPart {
 		/**
 		 * @generated
 		 */
-		private RectangleFigure fGroupListTemplateWidgetCompartmentFigure;
+		private RectangleFigure fGroupTemplateWidgetCompartmentFigure;
 
 		/**
 		 * @generated
@@ -306,11 +305,11 @@ public class Group2EditPart extends ShapeNodeEditPart {
 
 			this.add(fFigureGroupLabelFigure);
 
-			fGroupListTemplateWidgetCompartmentFigure = new RectangleFigure();
+			fGroupTemplateWidgetCompartmentFigure = new RectangleFigure();
 
-			fGroupListTemplateWidgetCompartmentFigure.setOutline(false);
+			fGroupTemplateWidgetCompartmentFigure.setOutline(false);
 
-			this.add(fGroupListTemplateWidgetCompartmentFigure);
+			this.add(fGroupTemplateWidgetCompartmentFigure);
 
 		}
 
@@ -324,12 +323,12 @@ public class Group2EditPart extends ShapeNodeEditPart {
 		/**
 		 * @generated
 		 */
-		public RectangleFigure getGroupListTemplateWidgetCompartmentFigure() {
-			return fGroupListTemplateWidgetCompartmentFigure;
+		public RectangleFigure getGroupTemplateWidgetCompartmentFigure() {
+			return fGroupTemplateWidgetCompartmentFigure;
 		}
 
 	}
-
+	
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

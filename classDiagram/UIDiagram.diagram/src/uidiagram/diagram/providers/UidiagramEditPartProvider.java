@@ -5,7 +5,6 @@ package uidiagram.diagram.providers;
 
 import org.eclipse.gmf.tooling.runtime.providers.DefaultEditPartProvider;
 
-import uidiagram.diagram.edit.parts.ModelFactoryEditPart;
 import uidiagram.diagram.edit.parts.UIDiagramEditPart;
 import uidiagram.diagram.edit.parts.UidiagramEditPartFactory;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;

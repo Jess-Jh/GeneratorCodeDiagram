@@ -78,7 +78,6 @@ import uidiagram.diagram.edit.parts.ListView3EditPart;
 import uidiagram.diagram.edit.parts.ListView4EditPart;
 import uidiagram.diagram.edit.parts.ListView5EditPart;
 import uidiagram.diagram.edit.parts.ListViewEditPart;
-import uidiagram.diagram.edit.parts.ModelFactoryEditPart;
 import uidiagram.diagram.edit.parts.RadioButton2EditPart;
 import uidiagram.diagram.edit.parts.RadioButton3EditPart;
 import uidiagram.diagram.edit.parts.RadioButton4EditPart;
@@ -134,411 +133,330 @@ public class UidiagramElementTypes {
 	* @generated
 	*/
 	public static final IElementType UIDiagram_1000 = getElementType("UIDiagram.diagram.UIDiagram_1000"); //$NON-NLS-1$
-
 	/**
 	* @generated
 	*/
 	public static final IElementType UserInterface_2001 = getElementType("UIDiagram.diagram.UserInterface_2001"); //$NON-NLS-1$
-
 	/**
 	* @generated
 	*/
 	public static final IElementType Group_3001 = getElementType("UIDiagram.diagram.Group_3001"); //$NON-NLS-1$
-
 	/**
 	* @generated
 	*/
 	public static final IElementType Group_3002 = getElementType("UIDiagram.diagram.Group_3002"); //$NON-NLS-1$
-
 	/**
 	* @generated
 	*/
 	public static final IElementType GroupColumn_3003 = getElementType("UIDiagram.diagram.GroupColumn_3003"); //$NON-NLS-1$
-
 	/**
 	* @generated
 	*/
 	public static final IElementType Group_3004 = getElementType("UIDiagram.diagram.Group_3004"); //$NON-NLS-1$
-
 	/**
 	* @generated
 	*/
 	public static final IElementType GroupRow_3005 = getElementType("UIDiagram.diagram.GroupRow_3005"); //$NON-NLS-1$
-
 	/**
 	* @generated
 	*/
 	public static final IElementType Group_3006 = getElementType("UIDiagram.diagram.Group_3006"); //$NON-NLS-1$
-
 	/**
 	* @generated
 	*/
 	public static final IElementType Appbar_3007 = getElementType("UIDiagram.diagram.Appbar_3007"); //$NON-NLS-1$
-
 	/**
 	* @generated
 	*/
-	public static final IElementType Button_3062 = getElementType("UIDiagram.diagram.Button_3062"); //$NON-NLS-1$
-
+	public static final IElementType Button_3008 = getElementType("UIDiagram.diagram.Button_3008"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Label_3064 = getElementType("UIDiagram.diagram.Label_3064"); //$NON-NLS-1$
-
+	public static final IElementType Label_3009 = getElementType("UIDiagram.diagram.Label_3009"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Tabbar_3008 = getElementType("UIDiagram.diagram.Tabbar_3008"); //$NON-NLS-1$
-
+	public static final IElementType Tabbar_3010 = getElementType("UIDiagram.diagram.Tabbar_3010"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Button_3063 = getElementType("UIDiagram.diagram.Button_3063"); //$NON-NLS-1$
-
+	public static final IElementType Button_3011 = getElementType("UIDiagram.diagram.Button_3011"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Label_3065 = getElementType("UIDiagram.diagram.Label_3065"); //$NON-NLS-1$
-
+	public static final IElementType Label_3012 = getElementType("UIDiagram.diagram.Label_3012"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Button_3009 = getElementType("UIDiagram.diagram.Button_3009"); //$NON-NLS-1$
-
+	public static final IElementType Button_3013 = getElementType("UIDiagram.diagram.Button_3013"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Label_3010 = getElementType("UIDiagram.diagram.Label_3010"); //$NON-NLS-1$
-
+	public static final IElementType Label_3014 = getElementType("UIDiagram.diagram.Label_3014"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Checkbox_3011 = getElementType("UIDiagram.diagram.Checkbox_3011"); //$NON-NLS-1$
-
+	public static final IElementType Checkbox_3015 = getElementType("UIDiagram.diagram.Checkbox_3015"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Input_3012 = getElementType("UIDiagram.diagram.Input_3012"); //$NON-NLS-1$
-
+	public static final IElementType Input_3016 = getElementType("UIDiagram.diagram.Input_3016"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType ListView_3013 = getElementType("UIDiagram.diagram.ListView_3013"); //$NON-NLS-1$
-
+	public static final IElementType ListView_3017 = getElementType("UIDiagram.diagram.ListView_3017"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Group_3081 = getElementType("UIDiagram.diagram.Group_3081"); //$NON-NLS-1$
-
+	public static final IElementType Group_3018 = getElementType("UIDiagram.diagram.Group_3018"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType RadioButton_3014 = getElementType("UIDiagram.diagram.RadioButton_3014"); //$NON-NLS-1$
-
+	public static final IElementType RadioButton_3019 = getElementType("UIDiagram.diagram.RadioButton_3019"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType ComboBox_3015 = getElementType("UIDiagram.diagram.ComboBox_3015"); //$NON-NLS-1$
-
+	public static final IElementType ComboBox_3020 = getElementType("UIDiagram.diagram.ComboBox_3020"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType DatePicker_3016 = getElementType("UIDiagram.diagram.DatePicker_3016"); //$NON-NLS-1$
-
+	public static final IElementType DatePicker_3021 = getElementType("UIDiagram.diagram.DatePicker_3021"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Switch_3017 = getElementType("UIDiagram.diagram.Switch_3017"); //$NON-NLS-1$
-
+	public static final IElementType Switch_3022 = getElementType("UIDiagram.diagram.Switch_3022"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Table_3018 = getElementType("UIDiagram.diagram.Table_3018"); //$NON-NLS-1$
-
+	public static final IElementType Table_3023 = getElementType("UIDiagram.diagram.Table_3023"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Column_3019 = getElementType("UIDiagram.diagram.Column_3019"); //$NON-NLS-1$
-
+	public static final IElementType Column_3024 = getElementType("UIDiagram.diagram.Column_3024"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType GroupColumn_3082 = getElementType("UIDiagram.diagram.GroupColumn_3082"); //$NON-NLS-1$
-
+	public static final IElementType GroupColumn_3025 = getElementType("UIDiagram.diagram.GroupColumn_3025"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType GroupColumn_3020 = getElementType("UIDiagram.diagram.GroupColumn_3020"); //$NON-NLS-1$
-
+	public static final IElementType GroupColumn_3026 = getElementType("UIDiagram.diagram.GroupColumn_3026"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType GroupColumn_3021 = getElementType("UIDiagram.diagram.GroupColumn_3021"); //$NON-NLS-1$
-
+	public static final IElementType GroupRow_3027 = getElementType("UIDiagram.diagram.GroupRow_3027"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType GroupRow_3022 = getElementType("UIDiagram.diagram.GroupRow_3022"); //$NON-NLS-1$
-
+	public static final IElementType GroupColumn_3028 = getElementType("UIDiagram.diagram.GroupColumn_3028"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType GroupRow_3023 = getElementType("UIDiagram.diagram.GroupRow_3023"); //$NON-NLS-1$
-
+	public static final IElementType Appbar_3029 = getElementType("UIDiagram.diagram.Appbar_3029"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Appbar_3024 = getElementType("UIDiagram.diagram.Appbar_3024"); //$NON-NLS-1$
-
+	public static final IElementType Tabbar_3030 = getElementType("UIDiagram.diagram.Tabbar_3030"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Tabbar_3025 = getElementType("UIDiagram.diagram.Tabbar_3025"); //$NON-NLS-1$
-
+	public static final IElementType Button_3031 = getElementType("UIDiagram.diagram.Button_3031"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Button_3026 = getElementType("UIDiagram.diagram.Button_3026"); //$NON-NLS-1$
-
+	public static final IElementType Label_3032 = getElementType("UIDiagram.diagram.Label_3032"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Label_3027 = getElementType("UIDiagram.diagram.Label_3027"); //$NON-NLS-1$
-
+	public static final IElementType Checkbox_3033 = getElementType("UIDiagram.diagram.Checkbox_3033"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Checkbox_3028 = getElementType("UIDiagram.diagram.Checkbox_3028"); //$NON-NLS-1$
-
+	public static final IElementType Input_3034 = getElementType("UIDiagram.diagram.Input_3034"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Input_3029 = getElementType("UIDiagram.diagram.Input_3029"); //$NON-NLS-1$
-
+	public static final IElementType ListView_3035 = getElementType("UIDiagram.diagram.ListView_3035"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType ListView_3030 = getElementType("UIDiagram.diagram.ListView_3030"); //$NON-NLS-1$
-
+	public static final IElementType GroupRow_3036 = getElementType("UIDiagram.diagram.GroupRow_3036"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Appbar_3084 = getElementType("UIDiagram.diagram.Appbar_3084"); //$NON-NLS-1$
-
+	public static final IElementType GroupRow_3037 = getElementType("UIDiagram.diagram.GroupRow_3037"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Tabbar_3085 = getElementType("UIDiagram.diagram.Tabbar_3085"); //$NON-NLS-1$
-
+	public static final IElementType Appbar_3038 = getElementType("UIDiagram.diagram.Appbar_3038"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Button_3086 = getElementType("UIDiagram.diagram.Button_3086"); //$NON-NLS-1$
-
+	public static final IElementType Tabbar_3039 = getElementType("UIDiagram.diagram.Tabbar_3039"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Label_3087 = getElementType("UIDiagram.diagram.Label_3087"); //$NON-NLS-1$
-
+	public static final IElementType Button_3040 = getElementType("UIDiagram.diagram.Button_3040"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Checkbox_3088 = getElementType("UIDiagram.diagram.Checkbox_3088"); //$NON-NLS-1$
-
+	public static final IElementType Label_3041 = getElementType("UIDiagram.diagram.Label_3041"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Input_3089 = getElementType("UIDiagram.diagram.Input_3089"); //$NON-NLS-1$
-
+	public static final IElementType Checkbox_3042 = getElementType("UIDiagram.diagram.Checkbox_3042"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType ListView_3090 = getElementType("UIDiagram.diagram.ListView_3090"); //$NON-NLS-1$
-
+	public static final IElementType Input_3043 = getElementType("UIDiagram.diagram.Input_3043"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType RadioButton_3091 = getElementType("UIDiagram.diagram.RadioButton_3091"); //$NON-NLS-1$
-
+	public static final IElementType ListView_3044 = getElementType("UIDiagram.diagram.ListView_3044"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType ComboBox_3092 = getElementType("UIDiagram.diagram.ComboBox_3092"); //$NON-NLS-1$
-
+	public static final IElementType Appbar_3045 = getElementType("UIDiagram.diagram.Appbar_3045"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType DatePicker_3093 = getElementType("UIDiagram.diagram.DatePicker_3093"); //$NON-NLS-1$
-
+	public static final IElementType Tabbar_3046 = getElementType("UIDiagram.diagram.Tabbar_3046"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Switch_3094 = getElementType("UIDiagram.diagram.Switch_3094"); //$NON-NLS-1$
-
+	public static final IElementType Button_3047 = getElementType("UIDiagram.diagram.Button_3047"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Table_3095 = getElementType("UIDiagram.diagram.Table_3095"); //$NON-NLS-1$
-
+	public static final IElementType Label_3048 = getElementType("UIDiagram.diagram.Label_3048"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType RadioButton_3031 = getElementType("UIDiagram.diagram.RadioButton_3031"); //$NON-NLS-1$
-
+	public static final IElementType Checkbox_3049 = getElementType("UIDiagram.diagram.Checkbox_3049"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType ComboBox_3032 = getElementType("UIDiagram.diagram.ComboBox_3032"); //$NON-NLS-1$
-
+	public static final IElementType Input_3050 = getElementType("UIDiagram.diagram.Input_3050"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType DatePicker_3033 = getElementType("UIDiagram.diagram.DatePicker_3033"); //$NON-NLS-1$
-
+	public static final IElementType ListView_3051 = getElementType("UIDiagram.diagram.ListView_3051"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Switch_3034 = getElementType("UIDiagram.diagram.Switch_3034"); //$NON-NLS-1$
-
+	public static final IElementType RadioButton_3052 = getElementType("UIDiagram.diagram.RadioButton_3052"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Table_3035 = getElementType("UIDiagram.diagram.Table_3035"); //$NON-NLS-1$
-
+	public static final IElementType ComboBox_3053 = getElementType("UIDiagram.diagram.ComboBox_3053"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Appbar_3036 = getElementType("UIDiagram.diagram.Appbar_3036"); //$NON-NLS-1$
-
+	public static final IElementType DatePicker_3054 = getElementType("UIDiagram.diagram.DatePicker_3054"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Tabbar_3037 = getElementType("UIDiagram.diagram.Tabbar_3037"); //$NON-NLS-1$
-
+	public static final IElementType Switch_3055 = getElementType("UIDiagram.diagram.Switch_3055"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
-	public static final IElementType Button_3038 = getElementType("UIDiagram.diagram.Button_3038"); //$NON-NLS-1$
-
-	/**
-	* @generated
-	*/
-	public static final IElementType Label_3039 = getElementType("UIDiagram.diagram.Label_3039"); //$NON-NLS-1$
-
-	/**
-	* @generated
-	*/
-	public static final IElementType Checkbox_3040 = getElementType("UIDiagram.diagram.Checkbox_3040"); //$NON-NLS-1$
-
-	/**
-	* @generated
-	*/
-	public static final IElementType Input_3041 = getElementType("UIDiagram.diagram.Input_3041"); //$NON-NLS-1$
-
-	/**
-	* @generated
-	*/
-	public static final IElementType ListView_3042 = getElementType("UIDiagram.diagram.ListView_3042"); //$NON-NLS-1$
-
-	/**
-	* @generated
-	*/
-	public static final IElementType GroupRow_3083 = getElementType("UIDiagram.diagram.GroupRow_3083"); //$NON-NLS-1$
-
-	/**
-	* @generated
-	*/
-	public static final IElementType RadioButton_3043 = getElementType("UIDiagram.diagram.RadioButton_3043"); //$NON-NLS-1$
-
-	/**
-	* @generated
-	*/
-	public static final IElementType ComboBox_3044 = getElementType("UIDiagram.diagram.ComboBox_3044"); //$NON-NLS-1$
-
-	/**
-	* @generated
-	*/
-	public static final IElementType DatePicker_3045 = getElementType("UIDiagram.diagram.DatePicker_3045"); //$NON-NLS-1$
-
-	/**
-	* @generated
-	*/
-	public static final IElementType Switch_3046 = getElementType("UIDiagram.diagram.Switch_3046"); //$NON-NLS-1$
-
-	/**
-	* @generated
-	*/
-	public static final IElementType Table_3047 = getElementType("UIDiagram.diagram.Table_3047"); //$NON-NLS-1$
-
-	/**
-	* @generated
-	*/
-	public static final IElementType GroupColumn_3048 = getElementType("UIDiagram.diagram.GroupColumn_3048"); //$NON-NLS-1$
-
-	/**
-	* @generated
-	*/
-	public static final IElementType GroupRow_3049 = getElementType("UIDiagram.diagram.GroupRow_3049"); //$NON-NLS-1$
-
-	/**
-	* @generated
-	*/
-	public static final IElementType Appbar_3050 = getElementType("UIDiagram.diagram.Appbar_3050"); //$NON-NLS-1$
-
-	/**
-	* @generated
-	*/
-	public static final IElementType Tabbar_3051 = getElementType("UIDiagram.diagram.Tabbar_3051"); //$NON-NLS-1$
-
-	/**
-	* @generated
-	*/
-	public static final IElementType Button_3052 = getElementType("UIDiagram.diagram.Button_3052"); //$NON-NLS-1$
-
-	/**
-	* @generated
-	*/
-	public static final IElementType Label_3053 = getElementType("UIDiagram.diagram.Label_3053"); //$NON-NLS-1$
-
-	/**
-	* @generated
-	*/
-	public static final IElementType Checkbox_3054 = getElementType("UIDiagram.diagram.Checkbox_3054"); //$NON-NLS-1$
-
-	/**
-	* @generated
-	*/
-	public static final IElementType Input_3055 = getElementType("UIDiagram.diagram.Input_3055"); //$NON-NLS-1$
-
-	/**
-	* @generated
-	*/
-	public static final IElementType ListView_3056 = getElementType("UIDiagram.diagram.ListView_3056"); //$NON-NLS-1$
-
+	public static final IElementType Table_3056 = getElementType("UIDiagram.diagram.Table_3056"); //$NON-NLS-1$
 	/**
 	* @generated
 	*/
 	public static final IElementType RadioButton_3057 = getElementType("UIDiagram.diagram.RadioButton_3057"); //$NON-NLS-1$
-
 	/**
 	* @generated
 	*/
 	public static final IElementType ComboBox_3058 = getElementType("UIDiagram.diagram.ComboBox_3058"); //$NON-NLS-1$
-
 	/**
 	* @generated
 	*/
 	public static final IElementType DatePicker_3059 = getElementType("UIDiagram.diagram.DatePicker_3059"); //$NON-NLS-1$
-
 	/**
 	* @generated
 	*/
 	public static final IElementType Switch_3060 = getElementType("UIDiagram.diagram.Switch_3060"); //$NON-NLS-1$
-
 	/**
 	* @generated
 	*/
 	public static final IElementType Table_3061 = getElementType("UIDiagram.diagram.Table_3061"); //$NON-NLS-1$
+	/**
+	* @generated
+	*/
+	public static final IElementType RadioButton_3062 = getElementType("UIDiagram.diagram.RadioButton_3062"); //$NON-NLS-1$
+	/**
+	* @generated
+	*/
+	public static final IElementType ComboBox_3063 = getElementType("UIDiagram.diagram.ComboBox_3063"); //$NON-NLS-1$
+	/**
+	* @generated
+	*/
+	public static final IElementType DatePicker_3064 = getElementType("UIDiagram.diagram.DatePicker_3064"); //$NON-NLS-1$
+	/**
+	* @generated
+	*/
+	public static final IElementType Switch_3065 = getElementType("UIDiagram.diagram.Switch_3065"); //$NON-NLS-1$
+	/**
+	* @generated
+	*/
+	public static final IElementType Table_3066 = getElementType("UIDiagram.diagram.Table_3066"); //$NON-NLS-1$
+	/**
+	* @generated
+	*/
+	public static final IElementType GroupColumn_3067 = getElementType("UIDiagram.diagram.GroupColumn_3067"); //$NON-NLS-1$
+	/**
+	* @generated
+	*/
+	public static final IElementType GroupRow_3068 = getElementType("UIDiagram.diagram.GroupRow_3068"); //$NON-NLS-1$
+	/**
+	* @generated
+	*/
+	public static final IElementType Appbar_3069 = getElementType("UIDiagram.diagram.Appbar_3069"); //$NON-NLS-1$
+	/**
+	* @generated
+	*/
+	public static final IElementType Tabbar_3070 = getElementType("UIDiagram.diagram.Tabbar_3070"); //$NON-NLS-1$
+	/**
+	* @generated
+	*/
+	public static final IElementType Button_3071 = getElementType("UIDiagram.diagram.Button_3071"); //$NON-NLS-1$
+	/**
+	* @generated
+	*/
+	public static final IElementType Label_3072 = getElementType("UIDiagram.diagram.Label_3072"); //$NON-NLS-1$
+	/**
+	* @generated
+	*/
+	public static final IElementType Checkbox_3073 = getElementType("UIDiagram.diagram.Checkbox_3073"); //$NON-NLS-1$
+	/**
+	* @generated
+	*/
+	public static final IElementType Input_3074 = getElementType("UIDiagram.diagram.Input_3074"); //$NON-NLS-1$
+	/**
+	* @generated
+	*/
+	public static final IElementType ListView_3075 = getElementType("UIDiagram.diagram.ListView_3075"); //$NON-NLS-1$
+	/**
+	* @generated
+	*/
+	public static final IElementType RadioButton_3076 = getElementType("UIDiagram.diagram.RadioButton_3076"); //$NON-NLS-1$
+	/**
+	* @generated
+	*/
+	public static final IElementType ComboBox_3077 = getElementType("UIDiagram.diagram.ComboBox_3077"); //$NON-NLS-1$
+	/**
+	* @generated
+	*/
+	public static final IElementType DatePicker_3078 = getElementType("UIDiagram.diagram.DatePicker_3078"); //$NON-NLS-1$
+	/**
+	* @generated
+	*/
+	public static final IElementType Switch_3079 = getElementType("UIDiagram.diagram.Switch_3079"); //$NON-NLS-1$
+	/**
+	* @generated
+	*/
+	public static final IElementType Table_3080 = getElementType("UIDiagram.diagram.Table_3080"); //$NON-NLS-1$
 
 	/**
 	* @generated
@@ -596,141 +514,103 @@ public class UidiagramElementTypes {
 
 			elements.put(Appbar_3007, UidiagramPackage.eINSTANCE.getAppbar());
 
-			elements.put(Button_3062, UidiagramPackage.eINSTANCE.getButton());
+			elements.put(Button_3008, UidiagramPackage.eINSTANCE.getButton());
 
-			elements.put(Label_3064, UidiagramPackage.eINSTANCE.getLabel());
+			elements.put(Label_3009, UidiagramPackage.eINSTANCE.getLabel());
 
-			elements.put(Tabbar_3008, UidiagramPackage.eINSTANCE.getTabbar());
+			elements.put(Tabbar_3010, UidiagramPackage.eINSTANCE.getTabbar());
 
-			elements.put(Button_3063, UidiagramPackage.eINSTANCE.getButton());
+			elements.put(Button_3011, UidiagramPackage.eINSTANCE.getButton());
 
-			elements.put(Label_3065, UidiagramPackage.eINSTANCE.getLabel());
+			elements.put(Label_3012, UidiagramPackage.eINSTANCE.getLabel());
 
-			elements.put(Button_3009, UidiagramPackage.eINSTANCE.getButton());
+			elements.put(Button_3013, UidiagramPackage.eINSTANCE.getButton());
 
-			elements.put(Label_3010, UidiagramPackage.eINSTANCE.getLabel());
+			elements.put(Label_3014, UidiagramPackage.eINSTANCE.getLabel());
 
-			elements.put(Checkbox_3011, UidiagramPackage.eINSTANCE.getCheckbox());
+			elements.put(Checkbox_3015, UidiagramPackage.eINSTANCE.getCheckbox());
 
-			elements.put(Input_3012, UidiagramPackage.eINSTANCE.getInput());
+			elements.put(Input_3016, UidiagramPackage.eINSTANCE.getInput());
 
-			elements.put(ListView_3013, UidiagramPackage.eINSTANCE.getListView());
+			elements.put(ListView_3017, UidiagramPackage.eINSTANCE.getListView());
 
-			elements.put(Group_3081, UidiagramPackage.eINSTANCE.getGroup());
+			elements.put(Group_3018, UidiagramPackage.eINSTANCE.getGroup());
 
-			elements.put(RadioButton_3014, UidiagramPackage.eINSTANCE.getRadioButton());
+			elements.put(RadioButton_3019, UidiagramPackage.eINSTANCE.getRadioButton());
 
-			elements.put(ComboBox_3015, UidiagramPackage.eINSTANCE.getComboBox());
+			elements.put(ComboBox_3020, UidiagramPackage.eINSTANCE.getComboBox());
 
-			elements.put(DatePicker_3016, UidiagramPackage.eINSTANCE.getDatePicker());
+			elements.put(DatePicker_3021, UidiagramPackage.eINSTANCE.getDatePicker());
 
-			elements.put(Switch_3017, UidiagramPackage.eINSTANCE.getSwitch());
+			elements.put(Switch_3022, UidiagramPackage.eINSTANCE.getSwitch());
 
-			elements.put(Table_3018, UidiagramPackage.eINSTANCE.getTable());
+			elements.put(Table_3023, UidiagramPackage.eINSTANCE.getTable());
 
-			elements.put(Column_3019, UidiagramPackage.eINSTANCE.getColumn());
+			elements.put(Column_3024, UidiagramPackage.eINSTANCE.getColumn());
 
-			elements.put(GroupColumn_3082, UidiagramPackage.eINSTANCE.getGroupColumn());
+			elements.put(GroupColumn_3025, UidiagramPackage.eINSTANCE.getGroupColumn());
 
-			elements.put(GroupColumn_3021, UidiagramPackage.eINSTANCE.getGroupColumn());
+			elements.put(GroupColumn_3026, UidiagramPackage.eINSTANCE.getGroupColumn());
 
-			elements.put(GroupRow_3022, UidiagramPackage.eINSTANCE.getGroupRow());
+			elements.put(GroupRow_3027, UidiagramPackage.eINSTANCE.getGroupRow());
 
-			elements.put(GroupColumn_3020, UidiagramPackage.eINSTANCE.getGroupColumn());
+			elements.put(GroupColumn_3028, UidiagramPackage.eINSTANCE.getGroupColumn());
 
-			elements.put(Appbar_3036, UidiagramPackage.eINSTANCE.getAppbar());
+			elements.put(Appbar_3029, UidiagramPackage.eINSTANCE.getAppbar());
 
-			elements.put(Tabbar_3037, UidiagramPackage.eINSTANCE.getTabbar());
+			elements.put(Tabbar_3030, UidiagramPackage.eINSTANCE.getTabbar());
 
-			elements.put(Button_3038, UidiagramPackage.eINSTANCE.getButton());
+			elements.put(Button_3031, UidiagramPackage.eINSTANCE.getButton());
 
-			elements.put(Label_3039, UidiagramPackage.eINSTANCE.getLabel());
+			elements.put(Label_3032, UidiagramPackage.eINSTANCE.getLabel());
 
-			elements.put(Checkbox_3040, UidiagramPackage.eINSTANCE.getCheckbox());
+			elements.put(Checkbox_3033, UidiagramPackage.eINSTANCE.getCheckbox());
 
-			elements.put(Input_3041, UidiagramPackage.eINSTANCE.getInput());
+			elements.put(Input_3034, UidiagramPackage.eINSTANCE.getInput());
 
-			elements.put(ListView_3042, UidiagramPackage.eINSTANCE.getListView());
+			elements.put(ListView_3035, UidiagramPackage.eINSTANCE.getListView());
 
-			elements.put(GroupRow_3083, UidiagramPackage.eINSTANCE.getGroupRow());
+			elements.put(GroupRow_3036, UidiagramPackage.eINSTANCE.getGroupRow());
 
-			elements.put(GroupRow_3023, UidiagramPackage.eINSTANCE.getGroupRow());
+			elements.put(GroupRow_3037, UidiagramPackage.eINSTANCE.getGroupRow());
 
-			elements.put(Appbar_3024, UidiagramPackage.eINSTANCE.getAppbar());
+			elements.put(Appbar_3038, UidiagramPackage.eINSTANCE.getAppbar());
 
-			elements.put(Tabbar_3025, UidiagramPackage.eINSTANCE.getTabbar());
+			elements.put(Tabbar_3039, UidiagramPackage.eINSTANCE.getTabbar());
 
-			elements.put(Button_3026, UidiagramPackage.eINSTANCE.getButton());
+			elements.put(Button_3040, UidiagramPackage.eINSTANCE.getButton());
 
-			elements.put(Label_3027, UidiagramPackage.eINSTANCE.getLabel());
+			elements.put(Label_3041, UidiagramPackage.eINSTANCE.getLabel());
 
-			elements.put(Checkbox_3028, UidiagramPackage.eINSTANCE.getCheckbox());
+			elements.put(Checkbox_3042, UidiagramPackage.eINSTANCE.getCheckbox());
 
-			elements.put(Input_3029, UidiagramPackage.eINSTANCE.getInput());
+			elements.put(Input_3043, UidiagramPackage.eINSTANCE.getInput());
 
-			elements.put(ListView_3030, UidiagramPackage.eINSTANCE.getListView());
+			elements.put(ListView_3044, UidiagramPackage.eINSTANCE.getListView());
 
-			elements.put(Appbar_3084, UidiagramPackage.eINSTANCE.getAppbar());
+			elements.put(Appbar_3045, UidiagramPackage.eINSTANCE.getAppbar());
 
-			elements.put(Tabbar_3085, UidiagramPackage.eINSTANCE.getTabbar());
+			elements.put(Tabbar_3046, UidiagramPackage.eINSTANCE.getTabbar());
 
-			elements.put(Button_3086, UidiagramPackage.eINSTANCE.getButton());
+			elements.put(Button_3047, UidiagramPackage.eINSTANCE.getButton());
 
-			elements.put(Label_3087, UidiagramPackage.eINSTANCE.getLabel());
+			elements.put(Label_3048, UidiagramPackage.eINSTANCE.getLabel());
 
-			elements.put(Checkbox_3088, UidiagramPackage.eINSTANCE.getCheckbox());
+			elements.put(Checkbox_3049, UidiagramPackage.eINSTANCE.getCheckbox());
 
-			elements.put(Input_3089, UidiagramPackage.eINSTANCE.getInput());
+			elements.put(Input_3050, UidiagramPackage.eINSTANCE.getInput());
 
-			elements.put(ListView_3090, UidiagramPackage.eINSTANCE.getListView());
+			elements.put(ListView_3051, UidiagramPackage.eINSTANCE.getListView());
 
-			elements.put(RadioButton_3091, UidiagramPackage.eINSTANCE.getRadioButton());
+			elements.put(RadioButton_3052, UidiagramPackage.eINSTANCE.getRadioButton());
 
-			elements.put(ComboBox_3092, UidiagramPackage.eINSTANCE.getComboBox());
+			elements.put(ComboBox_3053, UidiagramPackage.eINSTANCE.getComboBox());
 
-			elements.put(DatePicker_3093, UidiagramPackage.eINSTANCE.getDatePicker());
+			elements.put(DatePicker_3054, UidiagramPackage.eINSTANCE.getDatePicker());
 
-			elements.put(Switch_3094, UidiagramPackage.eINSTANCE.getSwitch());
+			elements.put(Switch_3055, UidiagramPackage.eINSTANCE.getSwitch());
 
-			elements.put(Table_3095, UidiagramPackage.eINSTANCE.getTable());
-
-			elements.put(RadioButton_3031, UidiagramPackage.eINSTANCE.getRadioButton());
-
-			elements.put(ComboBox_3032, UidiagramPackage.eINSTANCE.getComboBox());
-
-			elements.put(DatePicker_3033, UidiagramPackage.eINSTANCE.getDatePicker());
-
-			elements.put(Switch_3034, UidiagramPackage.eINSTANCE.getSwitch());
-
-			elements.put(Table_3035, UidiagramPackage.eINSTANCE.getTable());
-
-			elements.put(RadioButton_3043, UidiagramPackage.eINSTANCE.getRadioButton());
-
-			elements.put(ComboBox_3044, UidiagramPackage.eINSTANCE.getComboBox());
-
-			elements.put(DatePicker_3045, UidiagramPackage.eINSTANCE.getDatePicker());
-
-			elements.put(Switch_3046, UidiagramPackage.eINSTANCE.getSwitch());
-
-			elements.put(Table_3047, UidiagramPackage.eINSTANCE.getTable());
-
-			elements.put(GroupColumn_3048, UidiagramPackage.eINSTANCE.getGroupColumn());
-
-			elements.put(GroupRow_3049, UidiagramPackage.eINSTANCE.getGroupRow());
-
-			elements.put(Appbar_3050, UidiagramPackage.eINSTANCE.getAppbar());
-
-			elements.put(Tabbar_3051, UidiagramPackage.eINSTANCE.getTabbar());
-
-			elements.put(Button_3052, UidiagramPackage.eINSTANCE.getButton());
-
-			elements.put(Label_3053, UidiagramPackage.eINSTANCE.getLabel());
-
-			elements.put(Checkbox_3054, UidiagramPackage.eINSTANCE.getCheckbox());
-
-			elements.put(Input_3055, UidiagramPackage.eINSTANCE.getInput());
-
-			elements.put(ListView_3056, UidiagramPackage.eINSTANCE.getListView());
+			elements.put(Table_3056, UidiagramPackage.eINSTANCE.getTable());
 
 			elements.put(RadioButton_3057, UidiagramPackage.eINSTANCE.getRadioButton());
 
@@ -741,6 +621,44 @@ public class UidiagramElementTypes {
 			elements.put(Switch_3060, UidiagramPackage.eINSTANCE.getSwitch());
 
 			elements.put(Table_3061, UidiagramPackage.eINSTANCE.getTable());
+
+			elements.put(RadioButton_3062, UidiagramPackage.eINSTANCE.getRadioButton());
+
+			elements.put(ComboBox_3063, UidiagramPackage.eINSTANCE.getComboBox());
+
+			elements.put(DatePicker_3064, UidiagramPackage.eINSTANCE.getDatePicker());
+
+			elements.put(Switch_3065, UidiagramPackage.eINSTANCE.getSwitch());
+
+			elements.put(Table_3066, UidiagramPackage.eINSTANCE.getTable());
+
+			elements.put(GroupColumn_3067, UidiagramPackage.eINSTANCE.getGroupColumn());
+
+			elements.put(GroupRow_3068, UidiagramPackage.eINSTANCE.getGroupRow());
+
+			elements.put(Appbar_3069, UidiagramPackage.eINSTANCE.getAppbar());
+
+			elements.put(Tabbar_3070, UidiagramPackage.eINSTANCE.getTabbar());
+
+			elements.put(Button_3071, UidiagramPackage.eINSTANCE.getButton());
+
+			elements.put(Label_3072, UidiagramPackage.eINSTANCE.getLabel());
+
+			elements.put(Checkbox_3073, UidiagramPackage.eINSTANCE.getCheckbox());
+
+			elements.put(Input_3074, UidiagramPackage.eINSTANCE.getInput());
+
+			elements.put(ListView_3075, UidiagramPackage.eINSTANCE.getListView());
+
+			elements.put(RadioButton_3076, UidiagramPackage.eINSTANCE.getRadioButton());
+
+			elements.put(ComboBox_3077, UidiagramPackage.eINSTANCE.getComboBox());
+
+			elements.put(DatePicker_3078, UidiagramPackage.eINSTANCE.getDatePicker());
+
+			elements.put(Switch_3079, UidiagramPackage.eINSTANCE.getSwitch());
+
+			elements.put(Table_3080, UidiagramPackage.eINSTANCE.getTable());
 		}
 		return (ENamedElement) elements.get(type);
 	}
@@ -767,79 +685,79 @@ public class UidiagramElementTypes {
 			KNOWN_ELEMENT_TYPES.add(GroupRow_3005);
 			KNOWN_ELEMENT_TYPES.add(Group_3006);
 			KNOWN_ELEMENT_TYPES.add(Appbar_3007);
-			KNOWN_ELEMENT_TYPES.add(Button_3062);
-			KNOWN_ELEMENT_TYPES.add(Label_3064);
-			KNOWN_ELEMENT_TYPES.add(Tabbar_3008);
-			KNOWN_ELEMENT_TYPES.add(Button_3063);
-			KNOWN_ELEMENT_TYPES.add(Label_3065);
-			KNOWN_ELEMENT_TYPES.add(Button_3009);
-			KNOWN_ELEMENT_TYPES.add(Label_3010);
-			KNOWN_ELEMENT_TYPES.add(Checkbox_3011);
-			KNOWN_ELEMENT_TYPES.add(Input_3012);
-			KNOWN_ELEMENT_TYPES.add(ListView_3013);
-			KNOWN_ELEMENT_TYPES.add(Group_3081);
-			KNOWN_ELEMENT_TYPES.add(RadioButton_3014);
-			KNOWN_ELEMENT_TYPES.add(ComboBox_3015);
-			KNOWN_ELEMENT_TYPES.add(DatePicker_3016);
-			KNOWN_ELEMENT_TYPES.add(Switch_3017);
-			KNOWN_ELEMENT_TYPES.add(Table_3018);
-			KNOWN_ELEMENT_TYPES.add(Column_3019);
-			KNOWN_ELEMENT_TYPES.add(GroupColumn_3082);
-			KNOWN_ELEMENT_TYPES.add(GroupColumn_3021);
-			KNOWN_ELEMENT_TYPES.add(GroupRow_3022);
-			KNOWN_ELEMENT_TYPES.add(GroupColumn_3020);
-			KNOWN_ELEMENT_TYPES.add(Appbar_3036);
-			KNOWN_ELEMENT_TYPES.add(Tabbar_3037);
-			KNOWN_ELEMENT_TYPES.add(Button_3038);
-			KNOWN_ELEMENT_TYPES.add(Label_3039);
-			KNOWN_ELEMENT_TYPES.add(Checkbox_3040);
-			KNOWN_ELEMENT_TYPES.add(Input_3041);
-			KNOWN_ELEMENT_TYPES.add(ListView_3042);
-			KNOWN_ELEMENT_TYPES.add(GroupRow_3083);
-			KNOWN_ELEMENT_TYPES.add(GroupRow_3023);
-			KNOWN_ELEMENT_TYPES.add(Appbar_3024);
-			KNOWN_ELEMENT_TYPES.add(Tabbar_3025);
-			KNOWN_ELEMENT_TYPES.add(Button_3026);
-			KNOWN_ELEMENT_TYPES.add(Label_3027);
-			KNOWN_ELEMENT_TYPES.add(Checkbox_3028);
-			KNOWN_ELEMENT_TYPES.add(Input_3029);
-			KNOWN_ELEMENT_TYPES.add(ListView_3030);
-			KNOWN_ELEMENT_TYPES.add(Appbar_3084);
-			KNOWN_ELEMENT_TYPES.add(Tabbar_3085);
-			KNOWN_ELEMENT_TYPES.add(Button_3086);
-			KNOWN_ELEMENT_TYPES.add(Label_3087);
-			KNOWN_ELEMENT_TYPES.add(Checkbox_3088);
-			KNOWN_ELEMENT_TYPES.add(Input_3089);
-			KNOWN_ELEMENT_TYPES.add(ListView_3090);
-			KNOWN_ELEMENT_TYPES.add(RadioButton_3091);
-			KNOWN_ELEMENT_TYPES.add(ComboBox_3092);
-			KNOWN_ELEMENT_TYPES.add(DatePicker_3093);
-			KNOWN_ELEMENT_TYPES.add(Switch_3094);
-			KNOWN_ELEMENT_TYPES.add(Table_3095);
-			KNOWN_ELEMENT_TYPES.add(RadioButton_3031);
-			KNOWN_ELEMENT_TYPES.add(ComboBox_3032);
-			KNOWN_ELEMENT_TYPES.add(DatePicker_3033);
-			KNOWN_ELEMENT_TYPES.add(Switch_3034);
-			KNOWN_ELEMENT_TYPES.add(Table_3035);
-			KNOWN_ELEMENT_TYPES.add(RadioButton_3043);
-			KNOWN_ELEMENT_TYPES.add(ComboBox_3044);
-			KNOWN_ELEMENT_TYPES.add(DatePicker_3045);
-			KNOWN_ELEMENT_TYPES.add(Switch_3046);
-			KNOWN_ELEMENT_TYPES.add(Table_3047);
-			KNOWN_ELEMENT_TYPES.add(GroupColumn_3048);
-			KNOWN_ELEMENT_TYPES.add(GroupRow_3049);
-			KNOWN_ELEMENT_TYPES.add(Appbar_3050);
-			KNOWN_ELEMENT_TYPES.add(Tabbar_3051);
-			KNOWN_ELEMENT_TYPES.add(Button_3052);
-			KNOWN_ELEMENT_TYPES.add(Label_3053);
-			KNOWN_ELEMENT_TYPES.add(Checkbox_3054);
-			KNOWN_ELEMENT_TYPES.add(Input_3055);
-			KNOWN_ELEMENT_TYPES.add(ListView_3056);
+			KNOWN_ELEMENT_TYPES.add(Button_3008);
+			KNOWN_ELEMENT_TYPES.add(Label_3009);
+			KNOWN_ELEMENT_TYPES.add(Tabbar_3010);
+			KNOWN_ELEMENT_TYPES.add(Button_3011);
+			KNOWN_ELEMENT_TYPES.add(Label_3012);
+			KNOWN_ELEMENT_TYPES.add(Button_3013);
+			KNOWN_ELEMENT_TYPES.add(Label_3014);
+			KNOWN_ELEMENT_TYPES.add(Checkbox_3015);
+			KNOWN_ELEMENT_TYPES.add(Input_3016);
+			KNOWN_ELEMENT_TYPES.add(ListView_3017);
+			KNOWN_ELEMENT_TYPES.add(Group_3018);
+			KNOWN_ELEMENT_TYPES.add(RadioButton_3019);
+			KNOWN_ELEMENT_TYPES.add(ComboBox_3020);
+			KNOWN_ELEMENT_TYPES.add(DatePicker_3021);
+			KNOWN_ELEMENT_TYPES.add(Switch_3022);
+			KNOWN_ELEMENT_TYPES.add(Table_3023);
+			KNOWN_ELEMENT_TYPES.add(Column_3024);
+			KNOWN_ELEMENT_TYPES.add(GroupColumn_3025);
+			KNOWN_ELEMENT_TYPES.add(GroupColumn_3026);
+			KNOWN_ELEMENT_TYPES.add(GroupRow_3027);
+			KNOWN_ELEMENT_TYPES.add(GroupColumn_3028);
+			KNOWN_ELEMENT_TYPES.add(Appbar_3029);
+			KNOWN_ELEMENT_TYPES.add(Tabbar_3030);
+			KNOWN_ELEMENT_TYPES.add(Button_3031);
+			KNOWN_ELEMENT_TYPES.add(Label_3032);
+			KNOWN_ELEMENT_TYPES.add(Checkbox_3033);
+			KNOWN_ELEMENT_TYPES.add(Input_3034);
+			KNOWN_ELEMENT_TYPES.add(ListView_3035);
+			KNOWN_ELEMENT_TYPES.add(GroupRow_3036);
+			KNOWN_ELEMENT_TYPES.add(GroupRow_3037);
+			KNOWN_ELEMENT_TYPES.add(Appbar_3038);
+			KNOWN_ELEMENT_TYPES.add(Tabbar_3039);
+			KNOWN_ELEMENT_TYPES.add(Button_3040);
+			KNOWN_ELEMENT_TYPES.add(Label_3041);
+			KNOWN_ELEMENT_TYPES.add(Checkbox_3042);
+			KNOWN_ELEMENT_TYPES.add(Input_3043);
+			KNOWN_ELEMENT_TYPES.add(ListView_3044);
+			KNOWN_ELEMENT_TYPES.add(Appbar_3045);
+			KNOWN_ELEMENT_TYPES.add(Tabbar_3046);
+			KNOWN_ELEMENT_TYPES.add(Button_3047);
+			KNOWN_ELEMENT_TYPES.add(Label_3048);
+			KNOWN_ELEMENT_TYPES.add(Checkbox_3049);
+			KNOWN_ELEMENT_TYPES.add(Input_3050);
+			KNOWN_ELEMENT_TYPES.add(ListView_3051);
+			KNOWN_ELEMENT_TYPES.add(RadioButton_3052);
+			KNOWN_ELEMENT_TYPES.add(ComboBox_3053);
+			KNOWN_ELEMENT_TYPES.add(DatePicker_3054);
+			KNOWN_ELEMENT_TYPES.add(Switch_3055);
+			KNOWN_ELEMENT_TYPES.add(Table_3056);
 			KNOWN_ELEMENT_TYPES.add(RadioButton_3057);
 			KNOWN_ELEMENT_TYPES.add(ComboBox_3058);
 			KNOWN_ELEMENT_TYPES.add(DatePicker_3059);
 			KNOWN_ELEMENT_TYPES.add(Switch_3060);
 			KNOWN_ELEMENT_TYPES.add(Table_3061);
+			KNOWN_ELEMENT_TYPES.add(RadioButton_3062);
+			KNOWN_ELEMENT_TYPES.add(ComboBox_3063);
+			KNOWN_ELEMENT_TYPES.add(DatePicker_3064);
+			KNOWN_ELEMENT_TYPES.add(Switch_3065);
+			KNOWN_ELEMENT_TYPES.add(Table_3066);
+			KNOWN_ELEMENT_TYPES.add(GroupColumn_3067);
+			KNOWN_ELEMENT_TYPES.add(GroupRow_3068);
+			KNOWN_ELEMENT_TYPES.add(Appbar_3069);
+			KNOWN_ELEMENT_TYPES.add(Tabbar_3070);
+			KNOWN_ELEMENT_TYPES.add(Button_3071);
+			KNOWN_ELEMENT_TYPES.add(Label_3072);
+			KNOWN_ELEMENT_TYPES.add(Checkbox_3073);
+			KNOWN_ELEMENT_TYPES.add(Input_3074);
+			KNOWN_ELEMENT_TYPES.add(ListView_3075);
+			KNOWN_ELEMENT_TYPES.add(RadioButton_3076);
+			KNOWN_ELEMENT_TYPES.add(ComboBox_3077);
+			KNOWN_ELEMENT_TYPES.add(DatePicker_3078);
+			KNOWN_ELEMENT_TYPES.add(Switch_3079);
+			KNOWN_ELEMENT_TYPES.add(Table_3080);
 		}
 		return KNOWN_ELEMENT_TYPES.contains(elementType);
 	}
@@ -868,151 +786,151 @@ public class UidiagramElementTypes {
 		case AppbarEditPart.VISUAL_ID:
 			return Appbar_3007;
 		case ButtonEditPart.VISUAL_ID:
-			return Button_3062;
+			return Button_3008;
 		case LabelEditPart.VISUAL_ID:
-			return Label_3064;
+			return Label_3009;
 		case TabbarEditPart.VISUAL_ID:
-			return Tabbar_3008;
+			return Tabbar_3010;
 		case Button2EditPart.VISUAL_ID:
-			return Button_3063;
+			return Button_3011;
 		case Label2EditPart.VISUAL_ID:
-			return Label_3065;
+			return Label_3012;
 		case Button3EditPart.VISUAL_ID:
-			return Button_3009;
+			return Button_3013;
 		case Label3EditPart.VISUAL_ID:
-			return Label_3010;
+			return Label_3014;
 		case CheckboxEditPart.VISUAL_ID:
-			return Checkbox_3011;
+			return Checkbox_3015;
 		case InputEditPart.VISUAL_ID:
-			return Input_3012;
+			return Input_3016;
 		case ListViewEditPart.VISUAL_ID:
-			return ListView_3013;
+			return ListView_3017;
 		case Group5EditPart.VISUAL_ID:
-			return Group_3081;
+			return Group_3018;
 		case RadioButtonEditPart.VISUAL_ID:
-			return RadioButton_3014;
+			return RadioButton_3019;
 		case ComboBoxEditPart.VISUAL_ID:
-			return ComboBox_3015;
+			return ComboBox_3020;
 		case DatePickerEditPart.VISUAL_ID:
-			return DatePicker_3016;
+			return DatePicker_3021;
 		case SwitchEditPart.VISUAL_ID:
-			return Switch_3017;
+			return Switch_3022;
 		case TableEditPart.VISUAL_ID:
-			return Table_3018;
+			return Table_3023;
 		case ColumnEditPart.VISUAL_ID:
-			return Column_3019;
+			return Column_3024;
 		case GroupColumn2EditPart.VISUAL_ID:
-			return GroupColumn_3082;
+			return GroupColumn_3025;
 		case GroupColumn3EditPart.VISUAL_ID:
-			return GroupColumn_3021;
+			return GroupColumn_3026;
 		case GroupRow2EditPart.VISUAL_ID:
-			return GroupRow_3022;
+			return GroupRow_3027;
 		case GroupColumn4EditPart.VISUAL_ID:
-			return GroupColumn_3020;
+			return GroupColumn_3028;
 		case Appbar2EditPart.VISUAL_ID:
-			return Appbar_3036;
+			return Appbar_3029;
 		case Tabbar2EditPart.VISUAL_ID:
-			return Tabbar_3037;
+			return Tabbar_3030;
 		case Button4EditPart.VISUAL_ID:
-			return Button_3038;
+			return Button_3031;
 		case Label4EditPart.VISUAL_ID:
-			return Label_3039;
+			return Label_3032;
 		case Checkbox2EditPart.VISUAL_ID:
-			return Checkbox_3040;
+			return Checkbox_3033;
 		case Input2EditPart.VISUAL_ID:
-			return Input_3041;
+			return Input_3034;
 		case ListView2EditPart.VISUAL_ID:
-			return ListView_3042;
+			return ListView_3035;
 		case GroupRow3EditPart.VISUAL_ID:
-			return GroupRow_3083;
+			return GroupRow_3036;
 		case GroupRow4EditPart.VISUAL_ID:
-			return GroupRow_3023;
+			return GroupRow_3037;
 		case Appbar3EditPart.VISUAL_ID:
-			return Appbar_3024;
+			return Appbar_3038;
 		case Tabbar3EditPart.VISUAL_ID:
-			return Tabbar_3025;
+			return Tabbar_3039;
 		case Button5EditPart.VISUAL_ID:
-			return Button_3026;
+			return Button_3040;
 		case Label5EditPart.VISUAL_ID:
-			return Label_3027;
+			return Label_3041;
 		case Checkbox3EditPart.VISUAL_ID:
-			return Checkbox_3028;
+			return Checkbox_3042;
 		case Input3EditPart.VISUAL_ID:
-			return Input_3029;
+			return Input_3043;
 		case ListView3EditPart.VISUAL_ID:
-			return ListView_3030;
+			return ListView_3044;
 		case Appbar4EditPart.VISUAL_ID:
-			return Appbar_3084;
+			return Appbar_3045;
 		case Tabbar4EditPart.VISUAL_ID:
-			return Tabbar_3085;
+			return Tabbar_3046;
 		case Button6EditPart.VISUAL_ID:
-			return Button_3086;
+			return Button_3047;
 		case Label6EditPart.VISUAL_ID:
-			return Label_3087;
+			return Label_3048;
 		case Checkbox4EditPart.VISUAL_ID:
-			return Checkbox_3088;
+			return Checkbox_3049;
 		case Input4EditPart.VISUAL_ID:
-			return Input_3089;
+			return Input_3050;
 		case ListView4EditPart.VISUAL_ID:
-			return ListView_3090;
+			return ListView_3051;
 		case RadioButton2EditPart.VISUAL_ID:
-			return RadioButton_3091;
+			return RadioButton_3052;
 		case ComboBox2EditPart.VISUAL_ID:
-			return ComboBox_3092;
+			return ComboBox_3053;
 		case DatePicker2EditPart.VISUAL_ID:
-			return DatePicker_3093;
+			return DatePicker_3054;
 		case Switch2EditPart.VISUAL_ID:
-			return Switch_3094;
+			return Switch_3055;
 		case Table2EditPart.VISUAL_ID:
-			return Table_3095;
+			return Table_3056;
 		case RadioButton3EditPart.VISUAL_ID:
-			return RadioButton_3031;
-		case ComboBox3EditPart.VISUAL_ID:
-			return ComboBox_3032;
-		case DatePicker3EditPart.VISUAL_ID:
-			return DatePicker_3033;
-		case Switch3EditPart.VISUAL_ID:
-			return Switch_3034;
-		case Table3EditPart.VISUAL_ID:
-			return Table_3035;
-		case RadioButton4EditPart.VISUAL_ID:
-			return RadioButton_3043;
-		case ComboBox4EditPart.VISUAL_ID:
-			return ComboBox_3044;
-		case DatePicker4EditPart.VISUAL_ID:
-			return DatePicker_3045;
-		case Switch4EditPart.VISUAL_ID:
-			return Switch_3046;
-		case Table4EditPart.VISUAL_ID:
-			return Table_3047;
-		case GroupColumn5EditPart.VISUAL_ID:
-			return GroupColumn_3048;
-		case GroupRow5EditPart.VISUAL_ID:
-			return GroupRow_3049;
-		case Appbar5EditPart.VISUAL_ID:
-			return Appbar_3050;
-		case Tabbar5EditPart.VISUAL_ID:
-			return Tabbar_3051;
-		case Button7EditPart.VISUAL_ID:
-			return Button_3052;
-		case Label7EditPart.VISUAL_ID:
-			return Label_3053;
-		case Checkbox5EditPart.VISUAL_ID:
-			return Checkbox_3054;
-		case Input5EditPart.VISUAL_ID:
-			return Input_3055;
-		case ListView5EditPart.VISUAL_ID:
-			return ListView_3056;
-		case RadioButton5EditPart.VISUAL_ID:
 			return RadioButton_3057;
-		case ComboBox5EditPart.VISUAL_ID:
+		case ComboBox3EditPart.VISUAL_ID:
 			return ComboBox_3058;
-		case DatePicker5EditPart.VISUAL_ID:
+		case DatePicker3EditPart.VISUAL_ID:
 			return DatePicker_3059;
-		case Switch5EditPart.VISUAL_ID:
+		case Switch3EditPart.VISUAL_ID:
 			return Switch_3060;
-		case Table5EditPart.VISUAL_ID:
+		case Table3EditPart.VISUAL_ID:
 			return Table_3061;
+		case RadioButton4EditPart.VISUAL_ID:
+			return RadioButton_3062;
+		case ComboBox4EditPart.VISUAL_ID:
+			return ComboBox_3063;
+		case DatePicker4EditPart.VISUAL_ID:
+			return DatePicker_3064;
+		case Switch4EditPart.VISUAL_ID:
+			return Switch_3065;
+		case Table4EditPart.VISUAL_ID:
+			return Table_3066;
+		case GroupColumn5EditPart.VISUAL_ID:
+			return GroupColumn_3067;
+		case GroupRow5EditPart.VISUAL_ID:
+			return GroupRow_3068;
+		case Appbar5EditPart.VISUAL_ID:
+			return Appbar_3069;
+		case Tabbar5EditPart.VISUAL_ID:
+			return Tabbar_3070;
+		case Button7EditPart.VISUAL_ID:
+			return Button_3071;
+		case Label7EditPart.VISUAL_ID:
+			return Label_3072;
+		case Checkbox5EditPart.VISUAL_ID:
+			return Checkbox_3073;
+		case Input5EditPart.VISUAL_ID:
+			return Input_3074;
+		case ListView5EditPart.VISUAL_ID:
+			return ListView_3075;
+		case RadioButton5EditPart.VISUAL_ID:
+			return RadioButton_3076;
+		case ComboBox5EditPart.VISUAL_ID:
+			return ComboBox_3077;
+		case DatePicker5EditPart.VISUAL_ID:
+			return DatePicker_3078;
+		case Switch5EditPart.VISUAL_ID:
+			return Switch_3079;
+		case Table5EditPart.VISUAL_ID:
+			return Table_3080;
 		}
 		return null;
 	}

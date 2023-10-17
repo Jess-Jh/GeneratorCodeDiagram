@@ -33,56 +33,56 @@ public class ListViewListViewTemplateWidgetCompartment2ItemSemanticEditPolicy
 	* @generated
 	*/
 	public ListViewListViewTemplateWidgetCompartment2ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.ListView_3042);
+		super(UidiagramElementTypes.ListView_3035);
 	}
 
 	/**
 	* @generated
 	*/
 	protected Command getCreateCommand(CreateElementRequest req) {
-		if (UidiagramElementTypes.Group_3081 == req.getElementType()) {
+		if (UidiagramElementTypes.Group_3018 == req.getElementType()) {
 			return getGEFWrapper(new Group5CreateCommand(req));
 		}
-		if (UidiagramElementTypes.GroupColumn_3082 == req.getElementType()) {
+		if (UidiagramElementTypes.GroupColumn_3025 == req.getElementType()) {
 			return getGEFWrapper(new GroupColumn2CreateCommand(req));
 		}
-		if (UidiagramElementTypes.GroupRow_3083 == req.getElementType()) {
+		if (UidiagramElementTypes.GroupRow_3036 == req.getElementType()) {
 			return getGEFWrapper(new GroupRow3CreateCommand(req));
 		}
-		if (UidiagramElementTypes.Appbar_3084 == req.getElementType()) {
+		if (UidiagramElementTypes.Appbar_3045 == req.getElementType()) {
 			return getGEFWrapper(new Appbar4CreateCommand(req));
 		}
-		if (UidiagramElementTypes.Tabbar_3085 == req.getElementType()) {
+		if (UidiagramElementTypes.Tabbar_3046 == req.getElementType()) {
 			return getGEFWrapper(new Tabbar4CreateCommand(req));
 		}
-		if (UidiagramElementTypes.Button_3086 == req.getElementType()) {
+		if (UidiagramElementTypes.Button_3047 == req.getElementType()) {
 			return getGEFWrapper(new Button6CreateCommand(req));
 		}
-		if (UidiagramElementTypes.Label_3087 == req.getElementType()) {
+		if (UidiagramElementTypes.Label_3048 == req.getElementType()) {
 			return getGEFWrapper(new Label6CreateCommand(req));
 		}
-		if (UidiagramElementTypes.Checkbox_3088 == req.getElementType()) {
+		if (UidiagramElementTypes.Checkbox_3049 == req.getElementType()) {
 			return getGEFWrapper(new Checkbox4CreateCommand(req));
 		}
-		if (UidiagramElementTypes.Input_3089 == req.getElementType()) {
+		if (UidiagramElementTypes.Input_3050 == req.getElementType()) {
 			return getGEFWrapper(new Input4CreateCommand(req));
 		}
-		if (UidiagramElementTypes.ListView_3090 == req.getElementType()) {
+		if (UidiagramElementTypes.ListView_3051 == req.getElementType()) {
 			return getGEFWrapper(new ListView4CreateCommand(req));
 		}
-		if (UidiagramElementTypes.RadioButton_3091 == req.getElementType()) {
+		if (UidiagramElementTypes.RadioButton_3052 == req.getElementType()) {
 			return getGEFWrapper(new RadioButton2CreateCommand(req));
 		}
-		if (UidiagramElementTypes.ComboBox_3092 == req.getElementType()) {
+		if (UidiagramElementTypes.ComboBox_3053 == req.getElementType()) {
 			return getGEFWrapper(new ComboBox2CreateCommand(req));
 		}
-		if (UidiagramElementTypes.DatePicker_3093 == req.getElementType()) {
+		if (UidiagramElementTypes.DatePicker_3054 == req.getElementType()) {
 			return getGEFWrapper(new DatePicker2CreateCommand(req));
 		}
-		if (UidiagramElementTypes.Switch_3094 == req.getElementType()) {
+		if (UidiagramElementTypes.Switch_3055 == req.getElementType()) {
 			return getGEFWrapper(new Switch2CreateCommand(req));
 		}
-		if (UidiagramElementTypes.Table_3095 == req.getElementType()) {
+		if (UidiagramElementTypes.Table_3056 == req.getElementType()) {
 			return getGEFWrapper(new Table2CreateCommand(req));
 		}
 		return super.getCreateCommand(req);

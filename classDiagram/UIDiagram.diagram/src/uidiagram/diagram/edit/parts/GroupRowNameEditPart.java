@@ -60,7 +60,7 @@ public class GroupRowNameEditPart extends CompartmentEditPart implements ITextAw
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5043;
+	public static final int VISUAL_ID = 5062;
 
 	/**
 	* @generated

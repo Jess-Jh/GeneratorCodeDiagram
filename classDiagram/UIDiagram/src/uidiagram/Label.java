@@ -22,7 +22,6 @@ package uidiagram;
  * @generated
  */
 public interface Label extends TemplateWidget {
-
 	/**
 	 * Returns the value of the '<em><b>Font Size</b></em>' attribute.
 	 * <!-- begin-user-doc -->
@@ -34,6 +33,16 @@ public interface Label extends TemplateWidget {
 	 * @generated
 	 */
 	String getFontSize();
+
+	/**
+	 * Sets the value of the '{@link uidiagram.Label#getFontSize <em>Font Size</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Font Size</em>' attribute.
+	 * @see #getFontSize()
+	 * @generated
+	 */
+	void setFontSize(String value);
 
 	/**
 	 * Returns the value of the '<em><b>Font Color</b></em>' attribute.
@@ -79,5 +88,4 @@ public interface Label extends TemplateWidget {
 	 */
 	void setFontWeight(String value);
 
-	void setFontSize(String text);
 } // Label

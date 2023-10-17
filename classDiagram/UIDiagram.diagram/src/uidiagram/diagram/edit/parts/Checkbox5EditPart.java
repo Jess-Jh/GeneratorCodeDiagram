@@ -40,7 +40,7 @@ public class Checkbox5EditPart extends ShapeNodeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3054;
+	public static final int VISUAL_ID = 3073;
 
 	/**
 	* @generated
@@ -291,7 +291,7 @@ public class Checkbox5EditPart extends ShapeNodeEditPart {
 		}
 
 	}
-
+	
 	protected void handleNotificationEvent(Notification notification) {
 		NotificationEvent.handleNotificationEventTemplate(notification, this.getModel());
 

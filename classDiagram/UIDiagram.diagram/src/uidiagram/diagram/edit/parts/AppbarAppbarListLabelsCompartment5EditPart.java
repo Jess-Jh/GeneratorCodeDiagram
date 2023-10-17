@@ -34,7 +34,7 @@ public class AppbarAppbarListLabelsCompartment5EditPart extends ShapeCompartment
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 7032;
+	public static final int VISUAL_ID = 7042;
 
 	/**
 	* @generated
@@ -90,7 +90,7 @@ public class AppbarAppbarListLabelsCompartment5EditPart extends ShapeCompartment
 			CreateElementRequestAdapter adapter = ((CreateViewAndElementRequest) request).getViewAndElementDescriptor()
 					.getCreateElementRequestAdapter();
 			IElementType type = (IElementType) adapter.getAdapter(IElementType.class);
-			if (type == UidiagramElementTypes.Label_3064) {
+			if (type == UidiagramElementTypes.Label_3009) {
 				return this;
 			}
 			return getParent().getTargetEditPart(request);

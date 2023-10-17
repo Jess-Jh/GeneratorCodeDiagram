@@ -3,9 +3,11 @@
 package uidiagram.impl;
 
 import org.eclipse.emf.common.notify.Notification;
+
 import org.eclipse.emf.ecore.EClass;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
 import uidiagram.Label;
 import uidiagram.UidiagramPackage;
 
@@ -34,6 +36,7 @@ public class LabelImpl extends TemplateWidgetImpl implements Label {
 	 * @ordered
 	 */
 	protected static final String FONT_SIZE_EDEFAULT = null;
+
 	/**
 	 * The cached value of the '{@link #getFontSize() <em>Font Size</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -43,6 +46,7 @@ public class LabelImpl extends TemplateWidgetImpl implements Label {
 	 * @ordered
 	 */
 	protected String fontSize = FONT_SIZE_EDEFAULT;
+
 	/**
 	 * The default value of the '{@link #getFontColor() <em>Font Color</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -52,6 +56,7 @@ public class LabelImpl extends TemplateWidgetImpl implements Label {
 	 * @ordered
 	 */
 	protected static final String FONT_COLOR_EDEFAULT = null;
+
 	/**
 	 * The cached value of the '{@link #getFontColor() <em>Font Color</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -61,6 +66,7 @@ public class LabelImpl extends TemplateWidgetImpl implements Label {
 	 * @ordered
 	 */
 	protected String fontColor = FONT_COLOR_EDEFAULT;
+
 	/**
 	 * The default value of the '{@link #getFontWeight() <em>Font Weight</em>}' attribute.
 	 * <!-- begin-user-doc -->
@@ -70,6 +76,7 @@ public class LabelImpl extends TemplateWidgetImpl implements Label {
 	 * @ordered
 	 */
 	protected static final String FONT_WEIGHT_EDEFAULT = null;
+
 	/**
 	 * The cached value of the '{@link #getFontWeight() <em>Font Weight</em>}' attribute.
 	 * <!-- begin-user-doc -->

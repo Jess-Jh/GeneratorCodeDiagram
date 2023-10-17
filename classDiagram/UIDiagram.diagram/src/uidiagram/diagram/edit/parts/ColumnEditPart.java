@@ -27,9 +27,7 @@ import org.eclipse.gmf.runtime.notation.View;
 import org.eclipse.swt.graphics.Color;
 
 import uidiagram.diagram.edit.policies.ColumnItemSemanticEditPolicy;
-import uidiagram.diagram.edit.policies.OpenCheckboxEditPolicy;
 import uidiagram.diagram.edit.policies.OpenColumnEditPolicy;
-import uidiagram.diagram.edit.policies.OpenLabelEditPolicy;
 import uidiagram.diagram.part.UidiagramVisualIDRegistry;
 
 /**
@@ -40,7 +38,7 @@ public class ColumnEditPart extends ShapeNodeEditPart {
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 3019;
+	public static final int VISUAL_ID = 3024;
 
 	/**
 	* @generated

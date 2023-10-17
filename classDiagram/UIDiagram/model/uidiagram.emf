@@ -39,7 +39,7 @@ class UserInterface {
 @gmf.node(label = "name", border.width="0")
 class Group extends TemplateWidget {
 	@gmf.compartment
-    val TemplateWidget[*] listTemplateWidget; 
+    val TemplateWidget templateWidget; 
     attr String borderRadius;
     attr String borderWidth;
     attr String borderColor;

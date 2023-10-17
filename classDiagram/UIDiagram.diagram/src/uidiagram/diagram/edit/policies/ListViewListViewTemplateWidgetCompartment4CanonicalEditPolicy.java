@@ -77,7 +77,7 @@ public class ListViewListViewTemplateWidgetCompartment4CanonicalEditPolicy exten
 		View viewObject = (View) getHost().getModel();
 		LinkedList<EObject> result = new LinkedList<EObject>();
 		List<UidiagramNodeDescriptor> childDescriptors = UidiagramDiagramUpdater
-				.getListViewListViewTemplateWidgetCompartment_7054SemanticChildren(viewObject);
+				.getListViewListViewTemplateWidgetCompartment_7035SemanticChildren(viewObject);
 		for (UidiagramNodeDescriptor d : childDescriptors) {
 			result.add(d.getModelElement());
 		}
@@ -126,7 +126,7 @@ public class ListViewListViewTemplateWidgetCompartment4CanonicalEditPolicy exten
 		}
 		LinkedList<IAdaptable> createdViews = new LinkedList<IAdaptable>();
 		List<UidiagramNodeDescriptor> childDescriptors = UidiagramDiagramUpdater
-				.getListViewListViewTemplateWidgetCompartment_7054SemanticChildren((View) getHost().getModel());
+				.getListViewListViewTemplateWidgetCompartment_7035SemanticChildren((View) getHost().getModel());
 		LinkedList<View> orphaned = new LinkedList<View>();
 		// we care to check only views we recognize as ours
 		LinkedList<View> knownViewChildren = new LinkedList<View>();

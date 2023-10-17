@@ -34,7 +34,7 @@ public class AppbarAppbarListButtonsCompartmentEditPart extends ShapeCompartment
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 7018;
+	public static final int VISUAL_ID = 7008;
 
 	/**
 	* @generated
@@ -90,7 +90,7 @@ public class AppbarAppbarListButtonsCompartmentEditPart extends ShapeCompartment
 			CreateElementRequestAdapter adapter = ((CreateViewAndElementRequest) request).getViewAndElementDescriptor()
 					.getCreateElementRequestAdapter();
 			IElementType type = (IElementType) adapter.getAdapter(IElementType.class);
-			if (type == UidiagramElementTypes.Button_3062) {
+			if (type == UidiagramElementTypes.Button_3008) {
 				return this;
 			}
 			return getParent().getTargetEditPart(request);

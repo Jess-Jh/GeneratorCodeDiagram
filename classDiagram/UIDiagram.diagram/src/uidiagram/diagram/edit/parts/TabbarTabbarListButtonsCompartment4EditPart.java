@@ -34,7 +34,7 @@ public class TabbarTabbarListButtonsCompartment4EditPart extends ShapeCompartmen
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 7052;
+	public static final int VISUAL_ID = 7033;
 
 	/**
 	* @generated
@@ -90,7 +90,7 @@ public class TabbarTabbarListButtonsCompartment4EditPart extends ShapeCompartmen
 			CreateElementRequestAdapter adapter = ((CreateViewAndElementRequest) request).getViewAndElementDescriptor()
 					.getCreateElementRequestAdapter();
 			IElementType type = (IElementType) adapter.getAdapter(IElementType.class);
-			if (type == UidiagramElementTypes.Button_3063) {
+			if (type == UidiagramElementTypes.Button_3011) {
 				return this;
 			}
 			return getParent().getTargetEditPart(request);

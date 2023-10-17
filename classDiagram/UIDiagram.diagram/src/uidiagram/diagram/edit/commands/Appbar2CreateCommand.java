@@ -17,7 +17,6 @@ import org.eclipse.gmf.runtime.notation.View;
 
 import uidiagram.Appbar;
 import uidiagram.GroupColumn;
-import uidiagram.GroupRow;
 import uidiagram.UidiagramFactory;
 
 /**

@@ -18,14 +18,14 @@ public class TableTableListCoulmnsCompartment4ItemSemanticEditPolicy extends Uid
 	* @generated
 	*/
 	public TableTableListCoulmnsCompartment4ItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.Table_3047);
+		super(UidiagramElementTypes.Table_3066);
 	}
 
 	/**
 	* @generated
 	*/
 	protected Command getCreateCommand(CreateElementRequest req) {
-		if (UidiagramElementTypes.Column_3019 == req.getElementType()) {
+		if (UidiagramElementTypes.Column_3024 == req.getElementType()) {
 			return getGEFWrapper(new ColumnCreateCommand(req));
 		}
 		return super.getCreateCommand(req);

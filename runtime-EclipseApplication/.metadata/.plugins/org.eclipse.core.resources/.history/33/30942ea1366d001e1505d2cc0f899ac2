@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uidiagram:ModelFactory xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uidiagram="uidiagram">
+  <listDiagrams name="Login">
+    <userInterface idInterface="1697579044312_7" name="Login" positionX="268" positionY="8" width="373.0" height="453.0" backgroundColor="16777215">
+      <listTemplateWidget xsi:type="uidiagram:Group" idTemplate="1697579054924_25" name="Group" positionX="50" positionY="20" width="281.0" height="337.0" backgroundColor="16777215">
+        <templateWidget xsi:type="uidiagram:Group" idTemplate="1697579156759_25" positionX="18" positionY="28" width="221.0" height="169.0" backgroundColor="16777215"/>
+      </listTemplateWidget>
+    </userInterface>
+  </listDiagrams>
+</uidiagram:ModelFactory>

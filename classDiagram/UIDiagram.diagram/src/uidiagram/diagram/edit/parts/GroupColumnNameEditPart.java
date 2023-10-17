@@ -60,7 +60,7 @@ public class GroupColumnNameEditPart extends CompartmentEditPart implements ITex
 	/**
 	* @generated
 	*/
-	public static final int VISUAL_ID = 5045;
+	public static final int VISUAL_ID = 5064;
 
 	/**
 	* @generated

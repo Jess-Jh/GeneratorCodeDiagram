@@ -53,10 +53,8 @@ import org.eclipse.ui.PartInitException;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.part.FileEditorInput;
 
-import uidiagram.ModelFactory;
 import uidiagram.UIDiagram;
 import uidiagram.UidiagramFactory;
-import uidiagram.diagram.edit.parts.ModelFactoryEditPart;
 import uidiagram.diagram.edit.parts.UIDiagramEditPart;
 
 /**

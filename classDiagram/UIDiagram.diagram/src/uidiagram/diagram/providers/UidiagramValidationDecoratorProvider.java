@@ -40,7 +40,6 @@ import org.eclipse.swt.graphics.Image;
 import org.eclipse.ui.ISharedImages;
 import org.eclipse.ui.PlatformUI;
 
-import uidiagram.diagram.edit.parts.ModelFactoryEditPart;
 import uidiagram.diagram.edit.parts.UIDiagramEditPart;
 import uidiagram.diagram.part.UidiagramDiagramEditor;
 import uidiagram.diagram.part.UidiagramDiagramEditorPlugin;

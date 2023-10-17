@@ -109,1055 +109,885 @@ public class UidiagramParserProvider extends AbstractProvider implements IParser
 	/**
 	* @generated
 	*/
-	private IParser userInterfaceName_5062Parser;
+	private IParser userInterfaceName_5081Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getUserInterfaceName_5062Parser() {
-		if (userInterfaceName_5062Parser == null) {
+	private IParser getUserInterfaceName_5081Parser() {
+		if (userInterfaceName_5081Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getUserInterface_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			userInterfaceName_5062Parser = parser;
+			userInterfaceName_5081Parser = parser;
 		}
-		return userInterfaceName_5062Parser;
+		return userInterfaceName_5081Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser groupName_5047Parser;
+	private IParser groupName_5066Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getGroupName_5047Parser() {
-		if (groupName_5047Parser == null) {
+	private IParser getGroupName_5066Parser() {
+		if (groupName_5066Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			groupName_5047Parser = parser;
+			groupName_5066Parser = parser;
 		}
-		return groupName_5047Parser;
+		return groupName_5066Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser groupName_5046Parser;
+	private IParser groupName_5065Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getGroupName_5046Parser() {
-		if (groupName_5046Parser == null) {
+	private IParser getGroupName_5065Parser() {
+		if (groupName_5065Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			groupName_5046Parser = parser;
+			groupName_5065Parser = parser;
 		}
-		return groupName_5046Parser;
+		return groupName_5065Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser groupColumnName_5045Parser;
+	private IParser groupColumnName_5064Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getGroupColumnName_5045Parser() {
-		if (groupColumnName_5045Parser == null) {
+	private IParser getGroupColumnName_5064Parser() {
+		if (groupColumnName_5064Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			groupColumnName_5045Parser = parser;
+			groupColumnName_5064Parser = parser;
 		}
-		return groupColumnName_5045Parser;
+		return groupColumnName_5064Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser groupName_5044Parser;
+	private IParser groupName_5063Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getGroupName_5044Parser() {
-		if (groupName_5044Parser == null) {
+	private IParser getGroupName_5063Parser() {
+		if (groupName_5063Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			groupName_5044Parser = parser;
+			groupName_5063Parser = parser;
 		}
-		return groupName_5044Parser;
+		return groupName_5063Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser groupRowName_5043Parser;
+	private IParser groupRowName_5062Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getGroupRowName_5043Parser() {
-		if (groupRowName_5043Parser == null) {
+	private IParser getGroupRowName_5062Parser() {
+		if (groupRowName_5062Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			groupRowName_5043Parser = parser;
+			groupRowName_5062Parser = parser;
 		}
-		return groupRowName_5043Parser;
+		return groupRowName_5062Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser groupName_5014Parser;
+	private IParser groupName_5061Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getGroupName_5014Parser() {
-		if (groupName_5014Parser == null) {
+	private IParser getGroupName_5061Parser() {
+		if (groupName_5061Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			groupName_5014Parser = parser;
+			groupName_5061Parser = parser;
 		}
-		return groupName_5014Parser;
+		return groupName_5061Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser appbarName_5001Parser;
+	private IParser appbarName_5003Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getAppbarName_5001Parser() {
-		if (appbarName_5001Parser == null) {
+	private IParser getAppbarName_5003Parser() {
+		if (appbarName_5003Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			appbarName_5001Parser = parser;
+			appbarName_5003Parser = parser;
 		}
-		return appbarName_5001Parser;
+		return appbarName_5003Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser buttonName_5063Parser;
+	private IParser buttonName_5001Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getButtonName_5063Parser() {
-		if (buttonName_5063Parser == null) {
+	private IParser getButtonName_5001Parser() {
+		if (buttonName_5001Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			buttonName_5063Parser = parser;
+			buttonName_5001Parser = parser;
 		}
-		return buttonName_5063Parser;
+		return buttonName_5001Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser labelName_5065Parser;
+	private IParser labelName_5002Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getLabelName_5065Parser() {
-		if (labelName_5065Parser == null) {
+	private IParser getLabelName_5002Parser() {
+		if (labelName_5002Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			labelName_5065Parser = parser;
+			labelName_5002Parser = parser;
 		}
-		return labelName_5065Parser;
+		return labelName_5002Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser tabbarName_5002Parser;
+	private IParser tabbarName_5006Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getTabbarName_5002Parser() {
-		if (tabbarName_5002Parser == null) {
+	private IParser getTabbarName_5006Parser() {
+		if (tabbarName_5006Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			tabbarName_5002Parser = parser;
+			tabbarName_5006Parser = parser;
 		}
-		return tabbarName_5002Parser;
+		return tabbarName_5006Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser buttonName_5064Parser;
+	private IParser buttonName_5004Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getButtonName_5064Parser() {
-		if (buttonName_5064Parser == null) {
+	private IParser getButtonName_5004Parser() {
+		if (buttonName_5004Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			buttonName_5064Parser = parser;
+			buttonName_5004Parser = parser;
 		}
-		return buttonName_5064Parser;
+		return buttonName_5004Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser labelName_5066Parser;
+	private IParser labelName_5005Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getLabelName_5066Parser() {
-		if (labelName_5066Parser == null) {
+	private IParser getLabelName_5005Parser() {
+		if (labelName_5005Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			labelName_5066Parser = parser;
+			labelName_5005Parser = parser;
 		}
-		return labelName_5066Parser;
+		return labelName_5005Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser buttonName_5003Parser;
+	private IParser buttonName_5007Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getButtonName_5003Parser() {
-		if (buttonName_5003Parser == null) {
+	private IParser getButtonName_5007Parser() {
+		if (buttonName_5007Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			buttonName_5003Parser = parser;
+			buttonName_5007Parser = parser;
 		}
-		return buttonName_5003Parser;
+		return buttonName_5007Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser labelName_5004Parser;
+	private IParser labelName_5008Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getLabelName_5004Parser() {
-		if (labelName_5004Parser == null) {
+	private IParser getLabelName_5008Parser() {
+		if (labelName_5008Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			labelName_5004Parser = parser;
+			labelName_5008Parser = parser;
 		}
-		return labelName_5004Parser;
+		return labelName_5008Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser checkboxName_5005Parser;
+	private IParser checkboxName_5009Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getCheckboxName_5005Parser() {
-		if (checkboxName_5005Parser == null) {
+	private IParser getCheckboxName_5009Parser() {
+		if (checkboxName_5009Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			checkboxName_5005Parser = parser;
+			checkboxName_5009Parser = parser;
 		}
-		return checkboxName_5005Parser;
+		return checkboxName_5009Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser inputName_5006Parser;
+	private IParser inputName_5010Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getInputName_5006Parser() {
-		if (inputName_5006Parser == null) {
+	private IParser getInputName_5010Parser() {
+		if (inputName_5010Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			inputName_5006Parser = parser;
+			inputName_5010Parser = parser;
 		}
-		return inputName_5006Parser;
+		return inputName_5010Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser listViewName_5007Parser;
+	private IParser listViewName_5060Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getListViewName_5007Parser() {
-		if (listViewName_5007Parser == null) {
+	private IParser getListViewName_5060Parser() {
+		if (listViewName_5060Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			listViewName_5007Parser = parser;
+			listViewName_5060Parser = parser;
 		}
-		return listViewName_5007Parser;
+		return listViewName_5060Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser groupName_5082Parser;
+	private IParser groupName_5017Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getGroupName_5082Parser() {
-		if (groupName_5082Parser == null) {
+	private IParser getGroupName_5017Parser() {
+		if (groupName_5017Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			groupName_5082Parser = parser;
+			groupName_5017Parser = parser;
 		}
-		return groupName_5082Parser;
+		return groupName_5017Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser radioButtonName_5008Parser;
+	private IParser radioButtonName_5011Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getRadioButtonName_5008Parser() {
-		if (radioButtonName_5008Parser == null) {
+	private IParser getRadioButtonName_5011Parser() {
+		if (radioButtonName_5011Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			radioButtonName_5008Parser = parser;
+			radioButtonName_5011Parser = parser;
 		}
-		return radioButtonName_5008Parser;
+		return radioButtonName_5011Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser comboBoxName_5009Parser;
+	private IParser comboBoxName_5012Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getComboBoxName_5009Parser() {
-		if (comboBoxName_5009Parser == null) {
+	private IParser getComboBoxName_5012Parser() {
+		if (comboBoxName_5012Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			comboBoxName_5009Parser = parser;
+			comboBoxName_5012Parser = parser;
 		}
-		return comboBoxName_5009Parser;
+		return comboBoxName_5012Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser datePickerName_5010Parser;
+	private IParser datePickerName_5013Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getDatePickerName_5010Parser() {
-		if (datePickerName_5010Parser == null) {
+	private IParser getDatePickerName_5013Parser() {
+		if (datePickerName_5013Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			datePickerName_5010Parser = parser;
+			datePickerName_5013Parser = parser;
 		}
-		return datePickerName_5010Parser;
+		return datePickerName_5013Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser switchName_5011Parser;
+	private IParser switchName_5014Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getSwitchName_5011Parser() {
-		if (switchName_5011Parser == null) {
+	private IParser getSwitchName_5014Parser() {
+		if (switchName_5014Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			switchName_5011Parser = parser;
+			switchName_5014Parser = parser;
 		}
-		return switchName_5011Parser;
+		return switchName_5014Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser tableName_5013Parser;
+	private IParser tableName_5016Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getTableName_5013Parser() {
-		if (tableName_5013Parser == null) {
+	private IParser getTableName_5016Parser() {
+		if (tableName_5016Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			tableName_5013Parser = parser;
+			tableName_5016Parser = parser;
 		}
-		return tableName_5013Parser;
+		return tableName_5016Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser columnName_5012Parser;
+	private IParser columnName_5015Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getColumnName_5012Parser() {
-		if (columnName_5012Parser == null) {
+	private IParser getColumnName_5015Parser() {
+		if (columnName_5015Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getColumn_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			columnName_5012Parser = parser;
+			columnName_5015Parser = parser;
 		}
-		return columnName_5012Parser;
+		return columnName_5015Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser groupColumnName_5096Parser;
+	private IParser groupColumnName_5059Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getGroupColumnName_5096Parser() {
-		if (groupColumnName_5096Parser == null) {
+	private IParser getGroupColumnName_5059Parser() {
+		if (groupColumnName_5059Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			groupColumnName_5096Parser = parser;
+			groupColumnName_5059Parser = parser;
 		}
-		return groupColumnName_5096Parser;
+		return groupColumnName_5059Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser groupColumnName_5042Parser;
+	private IParser groupColumnName_5058Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getGroupColumnName_5042Parser() {
-		if (groupColumnName_5042Parser == null) {
+	private IParser getGroupColumnName_5058Parser() {
+		if (groupColumnName_5058Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			groupColumnName_5042Parser = parser;
+			groupColumnName_5058Parser = parser;
 		}
-		return groupColumnName_5042Parser;
+		return groupColumnName_5058Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser groupColumnName_5041Parser;
+	private IParser groupRowName_5057Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getGroupColumnName_5041Parser() {
-		if (groupColumnName_5041Parser == null) {
+	private IParser getGroupRowName_5057Parser() {
+		if (groupRowName_5057Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			groupColumnName_5041Parser = parser;
+			groupRowName_5057Parser = parser;
 		}
-		return groupColumnName_5041Parser;
+		return groupRowName_5057Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser groupRowName_5028Parser;
+	private IParser groupColumnName_5056Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getGroupRowName_5028Parser() {
-		if (groupRowName_5028Parser == null) {
+	private IParser getGroupColumnName_5056Parser() {
+		if (groupColumnName_5056Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			groupRowName_5028Parser = parser;
+			groupColumnName_5056Parser = parser;
 		}
-		return groupRowName_5028Parser;
+		return groupColumnName_5056Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser groupRowName_5027Parser;
+	private IParser appbarName_5018Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getGroupRowName_5027Parser() {
-		if (groupRowName_5027Parser == null) {
+	private IParser getAppbarName_5018Parser() {
+		if (appbarName_5018Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			groupRowName_5027Parser = parser;
+			appbarName_5018Parser = parser;
 		}
-		return groupRowName_5027Parser;
+		return appbarName_5018Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser appbarName_5015Parser;
+	private IParser tabbarName_5019Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getAppbarName_5015Parser() {
-		if (appbarName_5015Parser == null) {
+	private IParser getTabbarName_5019Parser() {
+		if (tabbarName_5019Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			appbarName_5015Parser = parser;
+			tabbarName_5019Parser = parser;
 		}
-		return appbarName_5015Parser;
+		return tabbarName_5019Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser tabbarName_5016Parser;
+	private IParser buttonName_5020Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getTabbarName_5016Parser() {
-		if (tabbarName_5016Parser == null) {
+	private IParser getButtonName_5020Parser() {
+		if (buttonName_5020Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			tabbarName_5016Parser = parser;
+			buttonName_5020Parser = parser;
 		}
-		return tabbarName_5016Parser;
+		return buttonName_5020Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser buttonName_5017Parser;
+	private IParser labelName_5021Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getButtonName_5017Parser() {
-		if (buttonName_5017Parser == null) {
+	private IParser getLabelName_5021Parser() {
+		if (labelName_5021Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			buttonName_5017Parser = parser;
+			labelName_5021Parser = parser;
 		}
-		return buttonName_5017Parser;
+		return labelName_5021Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser labelName_5018Parser;
+	private IParser checkboxName_5022Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getLabelName_5018Parser() {
-		if (labelName_5018Parser == null) {
+	private IParser getCheckboxName_5022Parser() {
+		if (checkboxName_5022Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			labelName_5018Parser = parser;
+			checkboxName_5022Parser = parser;
 		}
-		return labelName_5018Parser;
+		return checkboxName_5022Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser checkboxName_5019Parser;
+	private IParser inputName_5023Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getCheckboxName_5019Parser() {
-		if (checkboxName_5019Parser == null) {
+	private IParser getInputName_5023Parser() {
+		if (inputName_5023Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			checkboxName_5019Parser = parser;
+			inputName_5023Parser = parser;
 		}
-		return checkboxName_5019Parser;
+		return inputName_5023Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser inputName_5020Parser;
+	private IParser listViewName_5050Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getInputName_5020Parser() {
-		if (inputName_5020Parser == null) {
+	private IParser getListViewName_5050Parser() {
+		if (listViewName_5050Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			inputName_5020Parser = parser;
+			listViewName_5050Parser = parser;
 		}
-		return inputName_5020Parser;
+		return listViewName_5050Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser listViewName_5021Parser;
+	private IParser groupRowName_5049Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getListViewName_5021Parser() {
-		if (listViewName_5021Parser == null) {
+	private IParser getGroupRowName_5049Parser() {
+		if (groupRowName_5049Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			listViewName_5021Parser = parser;
+			groupRowName_5049Parser = parser;
 		}
-		return listViewName_5021Parser;
+		return groupRowName_5049Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser appbarName_5083Parser;
+	private IParser groupRowName_5048Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getAppbarName_5083Parser() {
-		if (appbarName_5083Parser == null) {
+	private IParser getGroupRowName_5048Parser() {
+		if (groupRowName_5048Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			appbarName_5083Parser = parser;
+			groupRowName_5048Parser = parser;
 		}
-		return appbarName_5083Parser;
+		return groupRowName_5048Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser tabbarName_5084Parser;
+	private IParser appbarName_5024Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getTabbarName_5084Parser() {
-		if (tabbarName_5084Parser == null) {
+	private IParser getAppbarName_5024Parser() {
+		if (appbarName_5024Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			tabbarName_5084Parser = parser;
+			appbarName_5024Parser = parser;
 		}
-		return tabbarName_5084Parser;
+		return appbarName_5024Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser buttonName_5085Parser;
+	private IParser tabbarName_5025Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getButtonName_5085Parser() {
-		if (buttonName_5085Parser == null) {
+	private IParser getTabbarName_5025Parser() {
+		if (tabbarName_5025Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			buttonName_5085Parser = parser;
+			tabbarName_5025Parser = parser;
 		}
-		return buttonName_5085Parser;
+		return tabbarName_5025Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser labelName_5086Parser;
+	private IParser buttonName_5026Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getLabelName_5086Parser() {
-		if (labelName_5086Parser == null) {
+	private IParser getButtonName_5026Parser() {
+		if (buttonName_5026Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			labelName_5086Parser = parser;
+			buttonName_5026Parser = parser;
 		}
-		return labelName_5086Parser;
+		return buttonName_5026Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser checkboxName_5087Parser;
+	private IParser labelName_5027Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getCheckboxName_5087Parser() {
-		if (checkboxName_5087Parser == null) {
+	private IParser getLabelName_5027Parser() {
+		if (labelName_5027Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			checkboxName_5087Parser = parser;
+			labelName_5027Parser = parser;
 		}
-		return checkboxName_5087Parser;
+		return labelName_5027Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser inputName_5088Parser;
+	private IParser checkboxName_5028Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getInputName_5088Parser() {
-		if (inputName_5088Parser == null) {
+	private IParser getCheckboxName_5028Parser() {
+		if (checkboxName_5028Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			inputName_5088Parser = parser;
+			checkboxName_5028Parser = parser;
 		}
-		return inputName_5088Parser;
+		return checkboxName_5028Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser listViewName_5094Parser;
+	private IParser inputName_5029Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getListViewName_5094Parser() {
-		if (listViewName_5094Parser == null) {
+	private IParser getInputName_5029Parser() {
+		if (inputName_5029Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			listViewName_5094Parser = parser;
+			inputName_5029Parser = parser;
 		}
-		return listViewName_5094Parser;
+		return inputName_5029Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser radioButtonName_5089Parser;
+	private IParser listViewName_5042Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getRadioButtonName_5089Parser() {
-		if (radioButtonName_5089Parser == null) {
+	private IParser getListViewName_5042Parser() {
+		if (listViewName_5042Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			radioButtonName_5089Parser = parser;
+			listViewName_5042Parser = parser;
 		}
-		return radioButtonName_5089Parser;
+		return listViewName_5042Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser comboBoxName_5090Parser;
+	private IParser appbarName_5030Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getComboBoxName_5090Parser() {
-		if (comboBoxName_5090Parser == null) {
+	private IParser getAppbarName_5030Parser() {
+		if (appbarName_5030Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			comboBoxName_5090Parser = parser;
+			appbarName_5030Parser = parser;
 		}
-		return comboBoxName_5090Parser;
+		return appbarName_5030Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser datePickerName_5091Parser;
+	private IParser tabbarName_5031Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getDatePickerName_5091Parser() {
-		if (datePickerName_5091Parser == null) {
+	private IParser getTabbarName_5031Parser() {
+		if (tabbarName_5031Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			datePickerName_5091Parser = parser;
+			tabbarName_5031Parser = parser;
 		}
-		return datePickerName_5091Parser;
+		return tabbarName_5031Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser switchName_5092Parser;
+	private IParser buttonName_5032Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getSwitchName_5092Parser() {
-		if (switchName_5092Parser == null) {
+	private IParser getButtonName_5032Parser() {
+		if (buttonName_5032Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			switchName_5092Parser = parser;
+			buttonName_5032Parser = parser;
 		}
-		return switchName_5092Parser;
+		return buttonName_5032Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser tableName_5093Parser;
+	private IParser labelName_5033Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getTableName_5093Parser() {
-		if (tableName_5093Parser == null) {
+	private IParser getLabelName_5033Parser() {
+		if (labelName_5033Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			tableName_5093Parser = parser;
+			labelName_5033Parser = parser;
 		}
-		return tableName_5093Parser;
+		return labelName_5033Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser radioButtonName_5022Parser;
+	private IParser checkboxName_5034Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getRadioButtonName_5022Parser() {
-		if (radioButtonName_5022Parser == null) {
+	private IParser getCheckboxName_5034Parser() {
+		if (checkboxName_5034Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			radioButtonName_5022Parser = parser;
+			checkboxName_5034Parser = parser;
 		}
-		return radioButtonName_5022Parser;
+		return checkboxName_5034Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser comboBoxName_5023Parser;
+	private IParser inputName_5035Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getComboBoxName_5023Parser() {
-		if (comboBoxName_5023Parser == null) {
+	private IParser getInputName_5035Parser() {
+		if (inputName_5035Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			comboBoxName_5023Parser = parser;
+			inputName_5035Parser = parser;
 		}
-		return comboBoxName_5023Parser;
+		return inputName_5035Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser datePickerName_5024Parser;
+	private IParser listViewName_5041Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getDatePickerName_5024Parser() {
-		if (datePickerName_5024Parser == null) {
+	private IParser getListViewName_5041Parser() {
+		if (listViewName_5041Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			datePickerName_5024Parser = parser;
+			listViewName_5041Parser = parser;
 		}
-		return datePickerName_5024Parser;
-	}
-
-	/**
-	* @generated
-	*/
-	private IParser switchName_5025Parser;
-
-	/**
-	* @generated
-	*/
-	private IParser getSwitchName_5025Parser() {
-		if (switchName_5025Parser == null) {
-			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
-			MessageFormatParser parser = new MessageFormatParser(features);
-			switchName_5025Parser = parser;
-		}
-		return switchName_5025Parser;
-	}
-
-	/**
-	* @generated
-	*/
-	private IParser tableName_5026Parser;
-
-	/**
-	* @generated
-	*/
-	private IParser getTableName_5026Parser() {
-		if (tableName_5026Parser == null) {
-			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
-			MessageFormatParser parser = new MessageFormatParser(features);
-			tableName_5026Parser = parser;
-		}
-		return tableName_5026Parser;
-	}
-
-	/**
-	* @generated
-	*/
-	private IParser appbarName_5029Parser;
-
-	/**
-	* @generated
-	*/
-	private IParser getAppbarName_5029Parser() {
-		if (appbarName_5029Parser == null) {
-			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
-			MessageFormatParser parser = new MessageFormatParser(features);
-			appbarName_5029Parser = parser;
-		}
-		return appbarName_5029Parser;
-	}
-
-	/**
-	* @generated
-	*/
-	private IParser tabbarName_5030Parser;
-
-	/**
-	* @generated
-	*/
-	private IParser getTabbarName_5030Parser() {
-		if (tabbarName_5030Parser == null) {
-			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
-			MessageFormatParser parser = new MessageFormatParser(features);
-			tabbarName_5030Parser = parser;
-		}
-		return tabbarName_5030Parser;
-	}
-
-	/**
-	* @generated
-	*/
-	private IParser buttonName_5031Parser;
-
-	/**
-	* @generated
-	*/
-	private IParser getButtonName_5031Parser() {
-		if (buttonName_5031Parser == null) {
-			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
-			MessageFormatParser parser = new MessageFormatParser(features);
-			buttonName_5031Parser = parser;
-		}
-		return buttonName_5031Parser;
-	}
-
-	/**
-	* @generated
-	*/
-	private IParser labelName_5032Parser;
-
-	/**
-	* @generated
-	*/
-	private IParser getLabelName_5032Parser() {
-		if (labelName_5032Parser == null) {
-			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
-			MessageFormatParser parser = new MessageFormatParser(features);
-			labelName_5032Parser = parser;
-		}
-		return labelName_5032Parser;
-	}
-
-	/**
-	* @generated
-	*/
-	private IParser checkboxName_5033Parser;
-
-	/**
-	* @generated
-	*/
-	private IParser getCheckboxName_5033Parser() {
-		if (checkboxName_5033Parser == null) {
-			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
-			MessageFormatParser parser = new MessageFormatParser(features);
-			checkboxName_5033Parser = parser;
-		}
-		return checkboxName_5033Parser;
-	}
-
-	/**
-	* @generated
-	*/
-	private IParser inputName_5034Parser;
-
-	/**
-	* @generated
-	*/
-	private IParser getInputName_5034Parser() {
-		if (inputName_5034Parser == null) {
-			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
-			MessageFormatParser parser = new MessageFormatParser(features);
-			inputName_5034Parser = parser;
-		}
-		return inputName_5034Parser;
-	}
-
-	/**
-	* @generated
-	*/
-	private IParser listViewName_5035Parser;
-
-	/**
-	* @generated
-	*/
-	private IParser getListViewName_5035Parser() {
-		if (listViewName_5035Parser == null) {
-			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
-			MessageFormatParser parser = new MessageFormatParser(features);
-			listViewName_5035Parser = parser;
-		}
-		return listViewName_5035Parser;
-	}
-
-	/**
-	* @generated
-	*/
-	private IParser groupRowName_5095Parser;
-
-	/**
-	* @generated
-	*/
-	private IParser getGroupRowName_5095Parser() {
-		if (groupRowName_5095Parser == null) {
-			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
-			MessageFormatParser parser = new MessageFormatParser(features);
-			groupRowName_5095Parser = parser;
-		}
-		return groupRowName_5095Parser;
+		return listViewName_5041Parser;
 	}
 
 	/**
@@ -1248,239 +1078,409 @@ public class UidiagramParserProvider extends AbstractProvider implements IParser
 	/**
 	* @generated
 	*/
-	private IParser groupColumnName_5048Parser;
+	private IParser radioButtonName_5043Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getGroupColumnName_5048Parser() {
-		if (groupColumnName_5048Parser == null) {
+	private IParser getRadioButtonName_5043Parser() {
+		if (radioButtonName_5043Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			groupColumnName_5048Parser = parser;
+			radioButtonName_5043Parser = parser;
 		}
-		return groupColumnName_5048Parser;
+		return radioButtonName_5043Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser groupRowName_5049Parser;
+	private IParser comboBoxName_5044Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getGroupRowName_5049Parser() {
-		if (groupRowName_5049Parser == null) {
+	private IParser getComboBoxName_5044Parser() {
+		if (comboBoxName_5044Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			groupRowName_5049Parser = parser;
+			comboBoxName_5044Parser = parser;
 		}
-		return groupRowName_5049Parser;
+		return comboBoxName_5044Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser appbarName_5050Parser;
+	private IParser datePickerName_5045Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getAppbarName_5050Parser() {
-		if (appbarName_5050Parser == null) {
+	private IParser getDatePickerName_5045Parser() {
+		if (datePickerName_5045Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			appbarName_5050Parser = parser;
+			datePickerName_5045Parser = parser;
 		}
-		return appbarName_5050Parser;
+		return datePickerName_5045Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser tabbarName_5051Parser;
+	private IParser switchName_5046Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getTabbarName_5051Parser() {
-		if (tabbarName_5051Parser == null) {
+	private IParser getSwitchName_5046Parser() {
+		if (switchName_5046Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			tabbarName_5051Parser = parser;
+			switchName_5046Parser = parser;
 		}
-		return tabbarName_5051Parser;
+		return switchName_5046Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser buttonName_5052Parser;
+	private IParser tableName_5047Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getButtonName_5052Parser() {
-		if (buttonName_5052Parser == null) {
+	private IParser getTableName_5047Parser() {
+		if (tableName_5047Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			buttonName_5052Parser = parser;
+			tableName_5047Parser = parser;
 		}
-		return buttonName_5052Parser;
+		return tableName_5047Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser labelName_5053Parser;
+	private IParser radioButtonName_5051Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getLabelName_5053Parser() {
-		if (labelName_5053Parser == null) {
+	private IParser getRadioButtonName_5051Parser() {
+		if (radioButtonName_5051Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			labelName_5053Parser = parser;
+			radioButtonName_5051Parser = parser;
 		}
-		return labelName_5053Parser;
+		return radioButtonName_5051Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser checkboxName_5054Parser;
+	private IParser comboBoxName_5052Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getCheckboxName_5054Parser() {
-		if (checkboxName_5054Parser == null) {
+	private IParser getComboBoxName_5052Parser() {
+		if (comboBoxName_5052Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			checkboxName_5054Parser = parser;
+			comboBoxName_5052Parser = parser;
 		}
-		return checkboxName_5054Parser;
+		return comboBoxName_5052Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser inputName_5055Parser;
+	private IParser datePickerName_5053Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getInputName_5055Parser() {
-		if (inputName_5055Parser == null) {
+	private IParser getDatePickerName_5053Parser() {
+		if (datePickerName_5053Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			inputName_5055Parser = parser;
+			datePickerName_5053Parser = parser;
 		}
-		return inputName_5055Parser;
+		return datePickerName_5053Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser listViewName_5056Parser;
+	private IParser switchName_5054Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getListViewName_5056Parser() {
-		if (listViewName_5056Parser == null) {
+	private IParser getSwitchName_5054Parser() {
+		if (switchName_5054Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			listViewName_5056Parser = parser;
+			switchName_5054Parser = parser;
 		}
-		return listViewName_5056Parser;
+		return switchName_5054Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser radioButtonName_5057Parser;
+	private IParser tableName_5055Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getRadioButtonName_5057Parser() {
-		if (radioButtonName_5057Parser == null) {
+	private IParser getTableName_5055Parser() {
+		if (tableName_5055Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			radioButtonName_5057Parser = parser;
+			tableName_5055Parser = parser;
 		}
-		return radioButtonName_5057Parser;
+		return tableName_5055Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser comboBoxName_5058Parser;
+	private IParser groupColumnName_5067Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getComboBoxName_5058Parser() {
-		if (comboBoxName_5058Parser == null) {
+	private IParser getGroupColumnName_5067Parser() {
+		if (groupColumnName_5067Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			comboBoxName_5058Parser = parser;
+			groupColumnName_5067Parser = parser;
 		}
-		return comboBoxName_5058Parser;
+		return groupColumnName_5067Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser datePickerName_5059Parser;
+	private IParser groupRowName_5068Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getDatePickerName_5059Parser() {
-		if (datePickerName_5059Parser == null) {
+	private IParser getGroupRowName_5068Parser() {
+		if (groupRowName_5068Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			datePickerName_5059Parser = parser;
+			groupRowName_5068Parser = parser;
 		}
-		return datePickerName_5059Parser;
+		return groupRowName_5068Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser switchName_5060Parser;
+	private IParser appbarName_5069Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getSwitchName_5060Parser() {
-		if (switchName_5060Parser == null) {
+	private IParser getAppbarName_5069Parser() {
+		if (appbarName_5069Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			switchName_5060Parser = parser;
+			appbarName_5069Parser = parser;
 		}
-		return switchName_5060Parser;
+		return appbarName_5069Parser;
 	}
 
 	/**
 	* @generated
 	*/
-	private IParser tableName_5061Parser;
+	private IParser tabbarName_5070Parser;
 
 	/**
 	* @generated
 	*/
-	private IParser getTableName_5061Parser() {
-		if (tableName_5061Parser == null) {
+	private IParser getTabbarName_5070Parser() {
+		if (tabbarName_5070Parser == null) {
 			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
 			MessageFormatParser parser = new MessageFormatParser(features);
-			tableName_5061Parser = parser;
+			tabbarName_5070Parser = parser;
 		}
-		return tableName_5061Parser;
+		return tabbarName_5070Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser buttonName_5071Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getButtonName_5071Parser() {
+		if (buttonName_5071Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			buttonName_5071Parser = parser;
+		}
+		return buttonName_5071Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser labelName_5072Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getLabelName_5072Parser() {
+		if (labelName_5072Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			labelName_5072Parser = parser;
+		}
+		return labelName_5072Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser checkboxName_5073Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getCheckboxName_5073Parser() {
+		if (checkboxName_5073Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			checkboxName_5073Parser = parser;
+		}
+		return checkboxName_5073Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser inputName_5074Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getInputName_5074Parser() {
+		if (inputName_5074Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			inputName_5074Parser = parser;
+		}
+		return inputName_5074Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser listViewName_5075Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getListViewName_5075Parser() {
+		if (listViewName_5075Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			listViewName_5075Parser = parser;
+		}
+		return listViewName_5075Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser radioButtonName_5076Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getRadioButtonName_5076Parser() {
+		if (radioButtonName_5076Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			radioButtonName_5076Parser = parser;
+		}
+		return radioButtonName_5076Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser comboBoxName_5077Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getComboBoxName_5077Parser() {
+		if (comboBoxName_5077Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			comboBoxName_5077Parser = parser;
+		}
+		return comboBoxName_5077Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser datePickerName_5078Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getDatePickerName_5078Parser() {
+		if (datePickerName_5078Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			datePickerName_5078Parser = parser;
+		}
+		return datePickerName_5078Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser switchName_5079Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getSwitchName_5079Parser() {
+		if (switchName_5079Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			switchName_5079Parser = parser;
+		}
+		return switchName_5079Parser;
+	}
+
+	/**
+	* @generated
+	*/
+	private IParser tableName_5080Parser;
+
+	/**
+	* @generated
+	*/
+	private IParser getTableName_5080Parser() {
+		if (tableName_5080Parser == null) {
+			EAttribute[] features = new EAttribute[] { UidiagramPackage.eINSTANCE.getTemplateWidget_Name() };
+			MessageFormatParser parser = new MessageFormatParser(features);
+			tableName_5080Parser = parser;
+		}
+		return tableName_5080Parser;
 	}
 
 	/**
@@ -1489,167 +1489,167 @@ public class UidiagramParserProvider extends AbstractProvider implements IParser
 	protected IParser getParser(int visualID) {
 		switch (visualID) {
 		case UserInterfaceNameEditPart.VISUAL_ID:
-			return getUserInterfaceName_5062Parser();
+			return getUserInterfaceName_5081Parser();
 		case GroupNameEditPart.VISUAL_ID:
-			return getGroupName_5047Parser();
+			return getGroupName_5066Parser();
 		case GroupName2EditPart.VISUAL_ID:
-			return getGroupName_5046Parser();
+			return getGroupName_5065Parser();
 		case GroupColumnNameEditPart.VISUAL_ID:
-			return getGroupColumnName_5045Parser();
+			return getGroupColumnName_5064Parser();
 		case GroupName3EditPart.VISUAL_ID:
-			return getGroupName_5044Parser();
+			return getGroupName_5063Parser();
 		case GroupRowNameEditPart.VISUAL_ID:
-			return getGroupRowName_5043Parser();
+			return getGroupRowName_5062Parser();
 		case GroupName4EditPart.VISUAL_ID:
-			return getGroupName_5014Parser();
+			return getGroupName_5061Parser();
 		case AppbarNameEditPart.VISUAL_ID:
-			return getAppbarName_5001Parser();
+			return getAppbarName_5003Parser();
 		case ButtonNameEditPart.VISUAL_ID:
-			return getButtonName_5063Parser();
+			return getButtonName_5001Parser();
 		case LabelNameEditPart.VISUAL_ID:
-			return getLabelName_5065Parser();
+			return getLabelName_5002Parser();
 		case TabbarNameEditPart.VISUAL_ID:
-			return getTabbarName_5002Parser();
+			return getTabbarName_5006Parser();
 		case ButtonName2EditPart.VISUAL_ID:
-			return getButtonName_5064Parser();
+			return getButtonName_5004Parser();
 		case LabelName2EditPart.VISUAL_ID:
-			return getLabelName_5066Parser();
+			return getLabelName_5005Parser();
 		case ButtonName3EditPart.VISUAL_ID:
-			return getButtonName_5003Parser();
+			return getButtonName_5007Parser();
 		case LabelName3EditPart.VISUAL_ID:
-			return getLabelName_5004Parser();
+			return getLabelName_5008Parser();
 		case CheckboxNameEditPart.VISUAL_ID:
-			return getCheckboxName_5005Parser();
+			return getCheckboxName_5009Parser();
 		case InputNameEditPart.VISUAL_ID:
-			return getInputName_5006Parser();
+			return getInputName_5010Parser();
 		case ListViewNameEditPart.VISUAL_ID:
-			return getListViewName_5007Parser();
+			return getListViewName_5060Parser();
 		case GroupName5EditPart.VISUAL_ID:
-			return getGroupName_5082Parser();
+			return getGroupName_5017Parser();
 		case RadioButtonNameEditPart.VISUAL_ID:
-			return getRadioButtonName_5008Parser();
+			return getRadioButtonName_5011Parser();
 		case ComboBoxNameEditPart.VISUAL_ID:
-			return getComboBoxName_5009Parser();
+			return getComboBoxName_5012Parser();
 		case DatePickerNameEditPart.VISUAL_ID:
-			return getDatePickerName_5010Parser();
+			return getDatePickerName_5013Parser();
 		case SwitchNameEditPart.VISUAL_ID:
-			return getSwitchName_5011Parser();
+			return getSwitchName_5014Parser();
 		case TableNameEditPart.VISUAL_ID:
-			return getTableName_5013Parser();
+			return getTableName_5016Parser();
 		case ColumnNameEditPart.VISUAL_ID:
-			return getColumnName_5012Parser();
+			return getColumnName_5015Parser();
 		case GroupColumnName2EditPart.VISUAL_ID:
-			return getGroupColumnName_5096Parser();
+			return getGroupColumnName_5059Parser();
 		case GroupColumnName3EditPart.VISUAL_ID:
-			return getGroupColumnName_5041Parser();
+			return getGroupColumnName_5058Parser();
 		case GroupRowName2EditPart.VISUAL_ID:
-			return getGroupRowName_5028Parser();
+			return getGroupRowName_5057Parser();
 		case GroupColumnName4EditPart.VISUAL_ID:
-			return getGroupColumnName_5042Parser();
+			return getGroupColumnName_5056Parser();
 		case AppbarName2EditPart.VISUAL_ID:
-			return getAppbarName_5029Parser();
+			return getAppbarName_5018Parser();
 		case TabbarName2EditPart.VISUAL_ID:
-			return getTabbarName_5030Parser();
+			return getTabbarName_5019Parser();
 		case ButtonName4EditPart.VISUAL_ID:
-			return getButtonName_5031Parser();
+			return getButtonName_5020Parser();
 		case LabelName4EditPart.VISUAL_ID:
-			return getLabelName_5032Parser();
+			return getLabelName_5021Parser();
 		case CheckboxName2EditPart.VISUAL_ID:
-			return getCheckboxName_5033Parser();
+			return getCheckboxName_5022Parser();
 		case InputName2EditPart.VISUAL_ID:
-			return getInputName_5034Parser();
+			return getInputName_5023Parser();
 		case ListViewName2EditPart.VISUAL_ID:
-			return getListViewName_5035Parser();
+			return getListViewName_5050Parser();
 		case GroupRowName3EditPart.VISUAL_ID:
-			return getGroupRowName_5095Parser();
-		case GroupRowName4EditPart.VISUAL_ID:
-			return getGroupRowName_5027Parser();
-		case AppbarName3EditPart.VISUAL_ID:
-			return getAppbarName_5015Parser();
-		case TabbarName3EditPart.VISUAL_ID:
-			return getTabbarName_5016Parser();
-		case ButtonName5EditPart.VISUAL_ID:
-			return getButtonName_5017Parser();
-		case LabelName5EditPart.VISUAL_ID:
-			return getLabelName_5018Parser();
-		case CheckboxName3EditPart.VISUAL_ID:
-			return getCheckboxName_5019Parser();
-		case InputName3EditPart.VISUAL_ID:
-			return getInputName_5020Parser();
-		case ListViewName3EditPart.VISUAL_ID:
-			return getListViewName_5021Parser();
-		case AppbarName4EditPart.VISUAL_ID:
-			return getAppbarName_5083Parser();
-		case TabbarName4EditPart.VISUAL_ID:
-			return getTabbarName_5084Parser();
-		case ButtonName6EditPart.VISUAL_ID:
-			return getButtonName_5085Parser();
-		case LabelName6EditPart.VISUAL_ID:
-			return getLabelName_5086Parser();
-		case CheckboxName4EditPart.VISUAL_ID:
-			return getCheckboxName_5087Parser();
-		case InputName4EditPart.VISUAL_ID:
-			return getInputName_5088Parser();
-		case ListViewName4EditPart.VISUAL_ID:
-			return getListViewName_5094Parser();
-		case RadioButtonName2EditPart.VISUAL_ID:
-			return getRadioButtonName_5089Parser();
-		case ComboBoxName2EditPart.VISUAL_ID:
-			return getComboBoxName_5090Parser();
-		case DatePickerName2EditPart.VISUAL_ID:
-			return getDatePickerName_5091Parser();
-		case SwitchName2EditPart.VISUAL_ID:
-			return getSwitchName_5092Parser();
-		case TableName2EditPart.VISUAL_ID:
-			return getTableName_5093Parser();
-		case RadioButtonName3EditPart.VISUAL_ID:
-			return getRadioButtonName_5022Parser();
-		case ComboBoxName3EditPart.VISUAL_ID:
-			return getComboBoxName_5023Parser();
-		case DatePickerName3EditPart.VISUAL_ID:
-			return getDatePickerName_5024Parser();
-		case SwitchName3EditPart.VISUAL_ID:
-			return getSwitchName_5025Parser();
-		case TableName3EditPart.VISUAL_ID:
-			return getTableName_5026Parser();
-		case RadioButtonName4EditPart.VISUAL_ID:
-			return getRadioButtonName_5036Parser();
-		case ComboBoxName4EditPart.VISUAL_ID:
-			return getComboBoxName_5037Parser();
-		case DatePickerName4EditPart.VISUAL_ID:
-			return getDatePickerName_5038Parser();
-		case SwitchName4EditPart.VISUAL_ID:
-			return getSwitchName_5039Parser();
-		case TableName4EditPart.VISUAL_ID:
-			return getTableName_5040Parser();
-		case GroupColumnName5EditPart.VISUAL_ID:
-			return getGroupColumnName_5048Parser();
-		case GroupRowName5EditPart.VISUAL_ID:
 			return getGroupRowName_5049Parser();
+		case GroupRowName4EditPart.VISUAL_ID:
+			return getGroupRowName_5048Parser();
+		case AppbarName3EditPart.VISUAL_ID:
+			return getAppbarName_5024Parser();
+		case TabbarName3EditPart.VISUAL_ID:
+			return getTabbarName_5025Parser();
+		case ButtonName5EditPart.VISUAL_ID:
+			return getButtonName_5026Parser();
+		case LabelName5EditPart.VISUAL_ID:
+			return getLabelName_5027Parser();
+		case CheckboxName3EditPart.VISUAL_ID:
+			return getCheckboxName_5028Parser();
+		case InputName3EditPart.VISUAL_ID:
+			return getInputName_5029Parser();
+		case ListViewName3EditPart.VISUAL_ID:
+			return getListViewName_5042Parser();
+		case AppbarName4EditPart.VISUAL_ID:
+			return getAppbarName_5030Parser();
+		case TabbarName4EditPart.VISUAL_ID:
+			return getTabbarName_5031Parser();
+		case ButtonName6EditPart.VISUAL_ID:
+			return getButtonName_5032Parser();
+		case LabelName6EditPart.VISUAL_ID:
+			return getLabelName_5033Parser();
+		case CheckboxName4EditPart.VISUAL_ID:
+			return getCheckboxName_5034Parser();
+		case InputName4EditPart.VISUAL_ID:
+			return getInputName_5035Parser();
+		case ListViewName4EditPart.VISUAL_ID:
+			return getListViewName_5041Parser();
+		case RadioButtonName2EditPart.VISUAL_ID:
+			return getRadioButtonName_5036Parser();
+		case ComboBoxName2EditPart.VISUAL_ID:
+			return getComboBoxName_5037Parser();
+		case DatePickerName2EditPart.VISUAL_ID:
+			return getDatePickerName_5038Parser();
+		case SwitchName2EditPart.VISUAL_ID:
+			return getSwitchName_5039Parser();
+		case TableName2EditPart.VISUAL_ID:
+			return getTableName_5040Parser();
+		case RadioButtonName3EditPart.VISUAL_ID:
+			return getRadioButtonName_5043Parser();
+		case ComboBoxName3EditPart.VISUAL_ID:
+			return getComboBoxName_5044Parser();
+		case DatePickerName3EditPart.VISUAL_ID:
+			return getDatePickerName_5045Parser();
+		case SwitchName3EditPart.VISUAL_ID:
+			return getSwitchName_5046Parser();
+		case TableName3EditPart.VISUAL_ID:
+			return getTableName_5047Parser();
+		case RadioButtonName4EditPart.VISUAL_ID:
+			return getRadioButtonName_5051Parser();
+		case ComboBoxName4EditPart.VISUAL_ID:
+			return getComboBoxName_5052Parser();
+		case DatePickerName4EditPart.VISUAL_ID:
+			return getDatePickerName_5053Parser();
+		case SwitchName4EditPart.VISUAL_ID:
+			return getSwitchName_5054Parser();
+		case TableName4EditPart.VISUAL_ID:
+			return getTableName_5055Parser();
+		case GroupColumnName5EditPart.VISUAL_ID:
+			return getGroupColumnName_5067Parser();
+		case GroupRowName5EditPart.VISUAL_ID:
+			return getGroupRowName_5068Parser();
 		case AppbarName5EditPart.VISUAL_ID:
-			return getAppbarName_5050Parser();
+			return getAppbarName_5069Parser();
 		case TabbarName5EditPart.VISUAL_ID:
-			return getTabbarName_5051Parser();
+			return getTabbarName_5070Parser();
 		case ButtonName7EditPart.VISUAL_ID:
-			return getButtonName_5052Parser();
+			return getButtonName_5071Parser();
 		case LabelName7EditPart.VISUAL_ID:
-			return getLabelName_5053Parser();
+			return getLabelName_5072Parser();
 		case CheckboxName5EditPart.VISUAL_ID:
-			return getCheckboxName_5054Parser();
+			return getCheckboxName_5073Parser();
 		case InputName5EditPart.VISUAL_ID:
-			return getInputName_5055Parser();
+			return getInputName_5074Parser();
 		case ListViewName5EditPart.VISUAL_ID:
-			return getListViewName_5056Parser();
+			return getListViewName_5075Parser();
 		case RadioButtonName5EditPart.VISUAL_ID:
-			return getRadioButtonName_5057Parser();
+			return getRadioButtonName_5076Parser();
 		case ComboBoxName5EditPart.VISUAL_ID:
-			return getComboBoxName_5058Parser();
+			return getComboBoxName_5077Parser();
 		case DatePickerName5EditPart.VISUAL_ID:
-			return getDatePickerName_5059Parser();
+			return getDatePickerName_5078Parser();
 		case SwitchName5EditPart.VISUAL_ID:
-			return getSwitchName_5060Parser();
+			return getSwitchName_5079Parser();
 		case TableName5EditPart.VISUAL_ID:
-			return getTableName_5061Parser();
+			return getTableName_5080Parser();
 		}
 		return null;
 	}

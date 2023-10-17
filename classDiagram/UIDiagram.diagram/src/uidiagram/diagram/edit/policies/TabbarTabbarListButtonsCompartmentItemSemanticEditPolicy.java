@@ -18,14 +18,14 @@ public class TabbarTabbarListButtonsCompartmentItemSemanticEditPolicy extends Ui
 	* @generated
 	*/
 	public TabbarTabbarListButtonsCompartmentItemSemanticEditPolicy() {
-		super(UidiagramElementTypes.Tabbar_3008);
+		super(UidiagramElementTypes.Tabbar_3010);
 	}
 
 	/**
 	* @generated
 	*/
 	protected Command getCreateCommand(CreateElementRequest req) {
-		if (UidiagramElementTypes.Button_3063 == req.getElementType()) {
+		if (UidiagramElementTypes.Button_3011 == req.getElementType()) {
 			return getGEFWrapper(new Button2CreateCommand(req));
 		}
 		return super.getCreateCommand(req);

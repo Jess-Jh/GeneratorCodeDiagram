@@ -7,7 +7,7 @@ Bundle-ClassPath: .
 Bundle-Activator: uidiagram.diagram.part.UidiagramDiagramEditorPlugin
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
-Export-Package: uidiagram.diagram.edit.parts,
+Export-Package: uidiagram.diagram.edit.parts, 
  uidiagram.diagram.part,
  uidiagram.diagram.providers
 Require-Bundle: org.eclipse.core.runtime,
@@ -39,8 +39,8 @@ Require-Bundle: org.eclipse.core.runtime,
  UIDiagram.edit;visibility:=reexport,
  org.eclipse.emf.validation;visibility:=reexport,
  org.eclipse.gef;visibility:=reexport,
- UIDiagram.editor;bundle-version="1.0.0",
- org.eclipse.emf.transaction.ui;bundle-version="1.4.0"
+ org.eclipse.emf.transaction.ui;bundle-version="1.4.0",
+ generatorCode;bundle-version="1.0.0"
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Import-Package: generatorcode.views
