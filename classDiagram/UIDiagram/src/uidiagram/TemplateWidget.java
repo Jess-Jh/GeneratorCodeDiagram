@@ -20,6 +20,7 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link uidiagram.TemplateWidget#getWidth <em>Width</em>}</li>
  *   <li>{@link uidiagram.TemplateWidget#getHeight <em>Height</em>}</li>
  *   <li>{@link uidiagram.TemplateWidget#getBackgroundColor <em>Background Color</em>}</li>
+ *   <li>{@link uidiagram.TemplateWidget#getAlignment <em>Alignment</em>}</li>
  * </ul>
  *
  * @see uidiagram.UidiagramPackage#getTemplateWidget()
@@ -180,5 +181,27 @@ public interface TemplateWidget extends EObject {
 	 * @generated
 	 */
 	void setBackgroundColor(String value);
+
+	/**
+	 * Returns the value of the '<em><b>Alignment</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Alignment</em>' attribute.
+	 * @see #setAlignment(String)
+	 * @see uidiagram.UidiagramPackage#getTemplateWidget_Alignment()
+	 * @model
+	 * @generated
+	 */
+	String getAlignment();
+
+	/**
+	 * Sets the value of the '{@link uidiagram.TemplateWidget#getAlignment <em>Alignment</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Alignment</em>' attribute.
+	 * @see #getAlignment()
+	 * @generated
+	 */
+	void setAlignment(String value);
 
 } // TemplateWidget

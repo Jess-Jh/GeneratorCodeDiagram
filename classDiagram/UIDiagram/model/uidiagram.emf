@@ -20,6 +20,7 @@ class TemplateWidget {
      attr double width;
      attr double height;
      attr String backgroundColor;
+     attr String alignment;
 }
 
 @gmf.node(label = "name")  

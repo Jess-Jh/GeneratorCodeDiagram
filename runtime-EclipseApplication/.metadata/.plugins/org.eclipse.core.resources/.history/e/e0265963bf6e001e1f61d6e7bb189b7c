@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uidiagram:ModelFactory xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uidiagram="uidiagram">
+  <listDiagrams name="Login">
+    <userInterface idInterface="1697678179104_5" name="Login" positionX="268" positionY="8" width="433.0" height="605.0" backgroundColor="16777215">
+      <listTemplateWidget xsi:type="uidiagram:Group" idTemplate="1697746248372_0" name="Group" positionX="42" positionY="96" width="329.0" height="389.0" backgroundColor="16777215">
+        <templateWidget xsi:type="uidiagram:GroupColumn" idTemplate="1697579178086_43" positionX="2" positionY="4" width="261.0" height="265.0" backgroundColor="16777215">
+          <listTemplateWidget xsi:type="uidiagram:Group" idTemplate="1697579183342_60" name="" positionX="20" positionY="8" width="209.0" height="205.0" backgroundColor="16777215" borderRadius="" borderWidth="" borderColor=""/>
+        </templateWidget>
+      </listTemplateWidget>
+      <listTemplateWidget xsi:type="uidiagram:DatePicker" idTemplate="1697678180889_11" positionX="62" positionY="456" width="173.0" height="53.0" backgroundColor="16777215"/>
+      <listTemplateWidget xsi:type="uidiagram:Appbar" idTemplate="1697746252817_12" positionX="34" positionY="8" width="321.0" height="73.0" backgroundColor="16777215"/>
+    </userInterface>
+  </listDiagrams>
+</uidiagram:ModelFactory>

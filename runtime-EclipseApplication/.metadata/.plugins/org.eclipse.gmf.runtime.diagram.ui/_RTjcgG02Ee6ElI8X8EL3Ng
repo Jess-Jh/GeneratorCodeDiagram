@@ -1,7 +1,8 @@
-#Tue Oct 17 16:44:44 COT 2023
+#Thu Oct 19 16:17:09 COT 2023
 rulergrid.rulerunit=1
 print.margin.left=0.5
 rulergrid.gridlinestyle=6
+viewport.y=66
 zoom=1.0
 print.useMillim=true
 print.usePortrait=true

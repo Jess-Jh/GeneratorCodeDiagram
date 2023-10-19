@@ -8,6 +8,7 @@ import org.eclipse.jface.dialogs.IDialogConstants;
 import org.eclipse.swt.graphics.Point;
 import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.layout.GridLayout;
+import org.eclipse.swt.widgets.Combo;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Control;
 import org.eclipse.swt.widgets.Label;
@@ -18,6 +19,7 @@ import org.eclipse.swt.widgets.Text;
 public class DialogComboBoxView extends Dialog {
     private Text textName;
     private Text textColor;
+    private Combo comboAlignment;
     private uidiagram.ComboBox model;
     private TransactionalEditingDomain domain;
 
@@ -59,6 +61,22 @@ public class DialogComboBoxView extends Dialog {
 		textColor = new Text(container, SWT.BORDER);
 		textColor.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
 		new Label(container, SWT.NONE);
+		
+		Label lblAlignment = new Label(container, SWT.NONE);
+		lblAlignment.setText("Aligntment:");
+		new Label(container, SWT.NONE);
+		
+		comboAlignment = new Combo(container, SWT.NONE);
+		comboAlignment.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
+		comboAlignment.add("bottomCenter");
+		comboAlignment.add("bottomLeft");
+		comboAlignment.add("bottomRight");
+		comboAlignment.add("center");
+		comboAlignment.add("centerLeft");
+		comboAlignment.add("centerRight");
+		comboAlignment.add("topCenter");
+		comboAlignment.add("topLeft");
+		comboAlignment.add("topRight");
 
 		return container;
     }
@@ -84,13 +102,9 @@ public class DialogComboBoxView extends Dialog {
     @Override
     protected void okPressed() {
        
-//        if(textName.getText().equalsIgnoreCase("") ) {
-//            JOptionPane.showMessageDialog(null,"Please to insert the information");
-//        }else {
             ChangeOPerationDialogCommand command = new ChangeOPerationDialogCommand(domain, model);                    
             domain.getCommandStack().execute((Command) command);
             close();
-//        }
     }
    
     public class ChangeOPerationDialogCommand extends RecordingCommand{
@@ -108,7 +122,8 @@ public class DialogComboBoxView extends Dialog {
         {
         	if(textName != null && !(textName.getText().isEmpty()))  comboBox.setName(textName.getText()); 
         	if(textColor != null && !(textColor.getText().isEmpty())) comboBox.setBackgroundColor(textColor.getText());
-         
+        	if(!(comboAlignment.getText().isEmpty())) comboBox.setAlignment(comboAlignment.getText());
+
         }
 
        

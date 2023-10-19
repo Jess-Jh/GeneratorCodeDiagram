@@ -195,13 +195,22 @@ public interface UidiagramPackage extends EPackage {
 	int TEMPLATE_WIDGET__BACKGROUND_COLOR = 6;
 
 	/**
+	 * The feature id for the '<em><b>Alignment</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TEMPLATE_WIDGET__ALIGNMENT = 7;
+
+	/**
 	 * The number of structural features of the '<em>Template Widget</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int TEMPLATE_WIDGET_FEATURE_COUNT = 7;
+	int TEMPLATE_WIDGET_FEATURE_COUNT = 8;
 
 	/**
 	 * The meta object id for the '{@link uidiagram.impl.UserInterfaceImpl <em>User Interface</em>}' class.
@@ -368,6 +377,15 @@ public interface UidiagramPackage extends EPackage {
 	int GROUP__BACKGROUND_COLOR = TEMPLATE_WIDGET__BACKGROUND_COLOR;
 
 	/**
+	 * The feature id for the '<em><b>Alignment</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int GROUP__ALIGNMENT = TEMPLATE_WIDGET__ALIGNMENT;
+
+	/**
 	 * The feature id for the '<em><b>Template Widget</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -486,6 +504,15 @@ public interface UidiagramPackage extends EPackage {
 	int GROUP_COLUMN__BACKGROUND_COLOR = TEMPLATE_WIDGET__BACKGROUND_COLOR;
 
 	/**
+	 * The feature id for the '<em><b>Alignment</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int GROUP_COLUMN__ALIGNMENT = TEMPLATE_WIDGET__ALIGNMENT;
+
+	/**
 	 * The feature id for the '<em><b>List Template Widget</b></em>' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -577,6 +604,15 @@ public interface UidiagramPackage extends EPackage {
 	int GROUP_ROW__BACKGROUND_COLOR = TEMPLATE_WIDGET__BACKGROUND_COLOR;
 
 	/**
+	 * The feature id for the '<em><b>Alignment</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int GROUP_ROW__ALIGNMENT = TEMPLATE_WIDGET__ALIGNMENT;
+
+	/**
 	 * The feature id for the '<em><b>List Template Widget</b></em>' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -666,6 +702,15 @@ public interface UidiagramPackage extends EPackage {
 	 * @ordered
 	 */
 	int APPBAR__BACKGROUND_COLOR = TEMPLATE_WIDGET__BACKGROUND_COLOR;
+
+	/**
+	 * The feature id for the '<em><b>Alignment</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int APPBAR__ALIGNMENT = TEMPLATE_WIDGET__ALIGNMENT;
 
 	/**
 	 * The feature id for the '<em><b>List Buttons</b></em>' containment reference list.
@@ -768,6 +813,15 @@ public interface UidiagramPackage extends EPackage {
 	int TABBAR__BACKGROUND_COLOR = TEMPLATE_WIDGET__BACKGROUND_COLOR;
 
 	/**
+	 * The feature id for the '<em><b>Alignment</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TABBAR__ALIGNMENT = TEMPLATE_WIDGET__ALIGNMENT;
+
+	/**
 	 * The feature id for the '<em><b>List Buttons</b></em>' containment reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -868,6 +922,15 @@ public interface UidiagramPackage extends EPackage {
 	int BUTTON__BACKGROUND_COLOR = TEMPLATE_WIDGET__BACKGROUND_COLOR;
 
 	/**
+	 * The feature id for the '<em><b>Alignment</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int BUTTON__ALIGNMENT = TEMPLATE_WIDGET__ALIGNMENT;
+
+	/**
 	 * The number of structural features of the '<em>Button</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -948,6 +1011,15 @@ public interface UidiagramPackage extends EPackage {
 	 * @ordered
 	 */
 	int LABEL__BACKGROUND_COLOR = TEMPLATE_WIDGET__BACKGROUND_COLOR;
+
+	/**
+	 * The feature id for the '<em><b>Alignment</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int LABEL__ALIGNMENT = TEMPLATE_WIDGET__ALIGNMENT;
 
 	/**
 	 * The feature id for the '<em><b>Font Size</b></em>' attribute.
@@ -1059,6 +1131,15 @@ public interface UidiagramPackage extends EPackage {
 	int CHECKBOX__BACKGROUND_COLOR = TEMPLATE_WIDGET__BACKGROUND_COLOR;
 
 	/**
+	 * The feature id for the '<em><b>Alignment</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CHECKBOX__ALIGNMENT = TEMPLATE_WIDGET__ALIGNMENT;
+
+	/**
 	 * The number of structural features of the '<em>Checkbox</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1141,6 +1222,15 @@ public interface UidiagramPackage extends EPackage {
 	int INPUT__BACKGROUND_COLOR = TEMPLATE_WIDGET__BACKGROUND_COLOR;
 
 	/**
+	 * The feature id for the '<em><b>Alignment</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int INPUT__ALIGNMENT = TEMPLATE_WIDGET__ALIGNMENT;
+
+	/**
 	 * The number of structural features of the '<em>Input</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1221,6 +1311,15 @@ public interface UidiagramPackage extends EPackage {
 	 * @ordered
 	 */
 	int LIST_VIEW__BACKGROUND_COLOR = TEMPLATE_WIDGET__BACKGROUND_COLOR;
+
+	/**
+	 * The feature id for the '<em><b>Alignment</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int LIST_VIEW__ALIGNMENT = TEMPLATE_WIDGET__ALIGNMENT;
 
 	/**
 	 * The feature id for the '<em><b>Template Widget</b></em>' containment reference.
@@ -1314,6 +1413,15 @@ public interface UidiagramPackage extends EPackage {
 	int RADIO_BUTTON__BACKGROUND_COLOR = TEMPLATE_WIDGET__BACKGROUND_COLOR;
 
 	/**
+	 * The feature id for the '<em><b>Alignment</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int RADIO_BUTTON__ALIGNMENT = TEMPLATE_WIDGET__ALIGNMENT;
+
+	/**
 	 * The number of structural features of the '<em>Radio Button</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1394,6 +1502,15 @@ public interface UidiagramPackage extends EPackage {
 	 * @ordered
 	 */
 	int COMBO_BOX__BACKGROUND_COLOR = TEMPLATE_WIDGET__BACKGROUND_COLOR;
+
+	/**
+	 * The feature id for the '<em><b>Alignment</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int COMBO_BOX__ALIGNMENT = TEMPLATE_WIDGET__ALIGNMENT;
 
 	/**
 	 * The number of structural features of the '<em>Combo Box</em>' class.
@@ -1478,6 +1595,15 @@ public interface UidiagramPackage extends EPackage {
 	int DATE_PICKER__BACKGROUND_COLOR = TEMPLATE_WIDGET__BACKGROUND_COLOR;
 
 	/**
+	 * The feature id for the '<em><b>Alignment</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int DATE_PICKER__ALIGNMENT = TEMPLATE_WIDGET__ALIGNMENT;
+
+	/**
 	 * The number of structural features of the '<em>Date Picker</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1560,6 +1686,15 @@ public interface UidiagramPackage extends EPackage {
 	int SWITCH__BACKGROUND_COLOR = TEMPLATE_WIDGET__BACKGROUND_COLOR;
 
 	/**
+	 * The feature id for the '<em><b>Alignment</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SWITCH__ALIGNMENT = TEMPLATE_WIDGET__ALIGNMENT;
+
+	/**
 	 * The number of structural features of the '<em>Switch</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1640,6 +1775,15 @@ public interface UidiagramPackage extends EPackage {
 	 * @ordered
 	 */
 	int TABLE__BACKGROUND_COLOR = TEMPLATE_WIDGET__BACKGROUND_COLOR;
+
+	/**
+	 * The feature id for the '<em><b>Alignment</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int TABLE__ALIGNMENT = TEMPLATE_WIDGET__ALIGNMENT;
 
 	/**
 	 * The feature id for the '<em><b>List Coulmns</b></em>' containment reference list.
@@ -1827,6 +1971,17 @@ public interface UidiagramPackage extends EPackage {
 	 * @generated
 	 */
 	EAttribute getTemplateWidget_BackgroundColor();
+
+	/**
+	 * Returns the meta object for the attribute '{@link uidiagram.TemplateWidget#getAlignment <em>Alignment</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Alignment</em>'.
+	 * @see uidiagram.TemplateWidget#getAlignment()
+	 * @see #getTemplateWidget()
+	 * @generated
+	 */
+	EAttribute getTemplateWidget_Alignment();
 
 	/**
 	 * Returns the meta object for class '{@link uidiagram.UserInterface <em>User Interface</em>}'.
@@ -2393,6 +2548,14 @@ public interface UidiagramPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute TEMPLATE_WIDGET__BACKGROUND_COLOR = eINSTANCE.getTemplateWidget_BackgroundColor();
+
+		/**
+		 * The meta object literal for the '<em><b>Alignment</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute TEMPLATE_WIDGET__ALIGNMENT = eINSTANCE.getTemplateWidget_Alignment();
 
 		/**
 		 * The meta object literal for the '{@link uidiagram.impl.UserInterfaceImpl <em>User Interface</em>}' class.

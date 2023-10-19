@@ -8,6 +8,7 @@ import org.eclipse.jface.dialogs.IDialogConstants;
 import org.eclipse.swt.graphics.Point;
 import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.layout.GridLayout;
+import org.eclipse.swt.widgets.Combo;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Control;
 import org.eclipse.swt.widgets.Label;
@@ -21,10 +22,10 @@ public class DialogGroupView extends Dialog {
 	private Text textBackgroundColor;
 	private Text textBorderWidth;
 	private Text textBorderColor;
+	private Combo comboAlignment;
     private uidiagram.Group model;
     private TransactionalEditingDomain domain;
-    DialogColor color = new DialogColor();
-
+ 
     /**
      * Create the dialog.
      * @param parentShell
@@ -91,6 +92,25 @@ public class DialogGroupView extends Dialog {
 		textBorderColor = new Text(container, SWT.BORDER);
 		textBorderColor.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
 		new Label(container, SWT.NONE);
+		new Label(container, SWT.NONE);
+		
+		Label lblFontAlignment = new Label(container, SWT.NONE);
+		lblFontAlignment.setText("Aligntment:");
+		new Label(container, SWT.NONE);
+		
+		comboAlignment = new Combo(container, SWT.NONE);
+		comboAlignment.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
+		new Label(container, SWT.NONE);
+		new Label(container, SWT.NONE);
+		comboAlignment.add("bottomCenter");
+		comboAlignment.add("bottomLeft");
+		comboAlignment.add("bottomRight");
+		comboAlignment.add("center");
+		comboAlignment.add("centerLeft");
+		comboAlignment.add("centerRight");
+		comboAlignment.add("topCenter");
+		comboAlignment.add("topLeft");
+		comboAlignment.add("topRight");
 
 		return container;
     }
@@ -139,6 +159,8 @@ public class DialogGroupView extends Dialog {
         	if(textBorderRadius != null && !(textBorderRadius.getText().isEmpty())) group.setBorderRadius(textBorderRadius.getText());
         	if(textBorderWidth != null && !(textBorderWidth.getText().isEmpty())) group.setBorderWidth(textBorderWidth.getText());
         	if(textBorderColor != null && !(textBorderColor.getText().isEmpty())) group.setBorderColor(textBorderColor.getText());
+        	if(!(comboAlignment.getText().isEmpty())) group.setAlignment(comboAlignment.getText());
+
         }
 
        

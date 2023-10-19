@@ -20,6 +20,7 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//TemplateWidget/width"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//TemplateWidget/height"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//TemplateWidget/backgroundColor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//TemplateWidget/alignment"/>
     </genClasses>
     <genClasses ecoreClass="uidiagram.ecore#//UserInterface">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//UserInterface/idInterface"/>

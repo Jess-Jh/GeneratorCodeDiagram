@@ -67,6 +67,7 @@ public class TemplateWidgetItemProvider
 			addWidthPropertyDescriptor(object);
 			addHeightPropertyDescriptor(object);
 			addBackgroundColorPropertyDescriptor(object);
+			addAlignmentPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -226,6 +227,28 @@ public class TemplateWidgetItemProvider
 	}
 
 	/**
+	 * This adds a property descriptor for the Alignment feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addAlignmentPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_TemplateWidget_alignment_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_TemplateWidget_alignment_feature", "_UI_TemplateWidget_type"),
+				 UidiagramPackage.Literals.TEMPLATE_WIDGET__ALIGNMENT,
+				 true,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
 	 * This returns TemplateWidget.gif.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -270,6 +293,7 @@ public class TemplateWidgetItemProvider
 			case UidiagramPackage.TEMPLATE_WIDGET__WIDTH:
 			case UidiagramPackage.TEMPLATE_WIDGET__HEIGHT:
 			case UidiagramPackage.TEMPLATE_WIDGET__BACKGROUND_COLOR:
+			case UidiagramPackage.TEMPLATE_WIDGET__ALIGNMENT:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 		}

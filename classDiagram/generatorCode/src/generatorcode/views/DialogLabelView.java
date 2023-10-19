@@ -20,7 +20,7 @@ public class DialogLabelView extends Dialog {
     private Text textName;
 	private Text textFontSize;
 	private Text textColor;
-	private Combo comboFontWeight;
+	private Combo comboAlignment;
     private uidiagram.Label model;
     private TransactionalEditingDomain domain;
 
@@ -71,23 +71,21 @@ public class DialogLabelView extends Dialog {
 		textColor.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
 		new Label(container, SWT.NONE);
 		
-		Label lblFontWeight = new Label(container, SWT.NONE);
-		lblFontWeight.setText("Font Weight:");
+		Label lblAlignment = new Label(container, SWT.NONE);
+		lblAlignment.setText("Aligntment:");
 		new Label(container, SWT.NONE);
 		
-		comboFontWeight = new Combo(container, SWT.NONE);
-		comboFontWeight.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
-		comboFontWeight.add("bold");
-		comboFontWeight.add("normal");
-		comboFontWeight.add("w100");
-		comboFontWeight.add("w200");
-		comboFontWeight.add("w300");
-		comboFontWeight.add("w400");
-		comboFontWeight.add("w500");
-		comboFontWeight.add("w600");
-		comboFontWeight.add("w700");
-		comboFontWeight.add("w800");
-		comboFontWeight.add("w900");
+		comboAlignment = new Combo(container, SWT.NONE);
+		comboAlignment.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
+		comboAlignment.add("bottomCenter");
+		comboAlignment.add("bottomLeft");
+		comboAlignment.add("bottomRight");
+		comboAlignment.add("center");
+		comboAlignment.add("centerLeft");
+		comboAlignment.add("centerRight");
+		comboAlignment.add("topCenter");
+		comboAlignment.add("topLeft");
+		comboAlignment.add("topRight");
 		
 	
 		return container;
@@ -139,7 +137,7 @@ public class DialogLabelView extends Dialog {
         	if(textName != null && !(textName.getText().isEmpty())) label.setName(textName.getText()); 
         	if(textFontSize != null && !(textFontSize.getText().isEmpty())) label.setFontSize(textFontSize.getText());
         	if(textColor != null && !(textColor.getText().isEmpty())) label.setFontColor(textColor.getText());
-        	if(!(comboFontWeight.getText().isEmpty())) label.setFontWeight(comboFontWeight.getText());
+        	if(!(comboAlignment.getText().isEmpty())) label.setAlignment(comboAlignment.getText());
         }
 
        

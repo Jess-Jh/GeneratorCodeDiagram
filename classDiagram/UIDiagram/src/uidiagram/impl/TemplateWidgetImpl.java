@@ -27,6 +27,7 @@ import uidiagram.UidiagramPackage;
  *   <li>{@link uidiagram.impl.TemplateWidgetImpl#getWidth <em>Width</em>}</li>
  *   <li>{@link uidiagram.impl.TemplateWidgetImpl#getHeight <em>Height</em>}</li>
  *   <li>{@link uidiagram.impl.TemplateWidgetImpl#getBackgroundColor <em>Background Color</em>}</li>
+ *   <li>{@link uidiagram.impl.TemplateWidgetImpl#getAlignment <em>Alignment</em>}</li>
  * </ul>
  *
  * @generated
@@ -171,6 +172,26 @@ public class TemplateWidgetImpl extends EObjectImpl implements TemplateWidget {
 	 * @ordered
 	 */
 	protected String backgroundColor = BACKGROUND_COLOR_EDEFAULT;
+
+	/**
+	 * The default value of the '{@link #getAlignment() <em>Alignment</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getAlignment()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final String ALIGNMENT_EDEFAULT = null;
+
+	/**
+	 * The cached value of the '{@link #getAlignment() <em>Alignment</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getAlignment()
+	 * @generated
+	 * @ordered
+	 */
+	protected String alignment = ALIGNMENT_EDEFAULT;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -358,6 +379,29 @@ public class TemplateWidgetImpl extends EObjectImpl implements TemplateWidget {
 	 * @generated
 	 */
 	@Override
+	public String getAlignment() {
+		return alignment;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public void setAlignment(String newAlignment) {
+		String oldAlignment = alignment;
+		alignment = newAlignment;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, UidiagramPackage.TEMPLATE_WIDGET__ALIGNMENT, oldAlignment, alignment));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case UidiagramPackage.TEMPLATE_WIDGET__ID_TEMPLATE:
@@ -374,6 +418,8 @@ public class TemplateWidgetImpl extends EObjectImpl implements TemplateWidget {
 				return getHeight();
 			case UidiagramPackage.TEMPLATE_WIDGET__BACKGROUND_COLOR:
 				return getBackgroundColor();
+			case UidiagramPackage.TEMPLATE_WIDGET__ALIGNMENT:
+				return getAlignment();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -406,6 +452,9 @@ public class TemplateWidgetImpl extends EObjectImpl implements TemplateWidget {
 				return;
 			case UidiagramPackage.TEMPLATE_WIDGET__BACKGROUND_COLOR:
 				setBackgroundColor((String)newValue);
+				return;
+			case UidiagramPackage.TEMPLATE_WIDGET__ALIGNMENT:
+				setAlignment((String)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -440,6 +489,9 @@ public class TemplateWidgetImpl extends EObjectImpl implements TemplateWidget {
 			case UidiagramPackage.TEMPLATE_WIDGET__BACKGROUND_COLOR:
 				setBackgroundColor(BACKGROUND_COLOR_EDEFAULT);
 				return;
+			case UidiagramPackage.TEMPLATE_WIDGET__ALIGNMENT:
+				setAlignment(ALIGNMENT_EDEFAULT);
+				return;
 		}
 		super.eUnset(featureID);
 	}
@@ -466,6 +518,8 @@ public class TemplateWidgetImpl extends EObjectImpl implements TemplateWidget {
 				return height != HEIGHT_EDEFAULT;
 			case UidiagramPackage.TEMPLATE_WIDGET__BACKGROUND_COLOR:
 				return BACKGROUND_COLOR_EDEFAULT == null ? backgroundColor != null : !BACKGROUND_COLOR_EDEFAULT.equals(backgroundColor);
+			case UidiagramPackage.TEMPLATE_WIDGET__ALIGNMENT:
+				return ALIGNMENT_EDEFAULT == null ? alignment != null : !ALIGNMENT_EDEFAULT.equals(alignment);
 		}
 		return super.eIsSet(featureID);
 	}
@@ -494,6 +548,8 @@ public class TemplateWidgetImpl extends EObjectImpl implements TemplateWidget {
 		result.append(height);
 		result.append(", backgroundColor: ");
 		result.append(backgroundColor);
+		result.append(", alignment: ");
+		result.append(alignment);
 		result.append(')');
 		return result.toString();
 	}

@@ -74,13 +74,9 @@ public class DialogColumnView extends Dialog {
     @Override
     protected void okPressed() {
        
-//        if(textName.getText().equalsIgnoreCase("") ) {
-//            JOptionPane.showMessageDialog(null,"Please to insert the information");
-//        }else {
             ChangeOPerationDialogCommand command = new ChangeOPerationDialogCommand(domain, model);                    
             domain.getCommandStack().execute((Command) command);
             close();
-//        }
     }
    
     public class ChangeOPerationDialogCommand extends RecordingCommand{

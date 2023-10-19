@@ -8,6 +8,7 @@ import org.eclipse.jface.dialogs.IDialogConstants;
 import org.eclipse.swt.graphics.Point;
 import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.layout.GridLayout;
+import org.eclipse.swt.widgets.Combo;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Control;
 import org.eclipse.swt.widgets.Label;
@@ -17,6 +18,7 @@ import org.eclipse.swt.widgets.Text;
 
 public class DialogGroupRowView extends Dialog {
     private Text textName;
+    private Combo comboAlignment;
     private uidiagram.GroupRow model;
     private TransactionalEditingDomain domain;
 
@@ -49,6 +51,23 @@ public class DialogGroupRowView extends Dialog {
 		
 		textName = new Text(container, SWT.BORDER);
 		textName.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
+		new Label(container, SWT.NONE);
+		
+		Label lblAlignment = new Label(container, SWT.NONE);
+		lblAlignment.setText("Aligntment:");
+		new Label(container, SWT.NONE);
+		
+		comboAlignment = new Combo(container, SWT.NONE);
+		comboAlignment.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
+		comboAlignment.add("bottomCenter");
+		comboAlignment.add("bottomLeft");
+		comboAlignment.add("bottomRight");
+		comboAlignment.add("center");
+		comboAlignment.add("centerLeft");
+		comboAlignment.add("centerRight");
+		comboAlignment.add("topCenter");
+		comboAlignment.add("topLeft");
+		comboAlignment.add("topRight");
 
 		return container;
     }
@@ -73,14 +92,9 @@ public class DialogGroupRowView extends Dialog {
    
     @Override
     protected void okPressed() {
-       
-//        if(textName.getText().equalsIgnoreCase("") ) {
-//            JOptionPane.showMessageDialog(null,"Please to insert the information");
-//        }else {
             ChangeOPerationDialogCommand command = new ChangeOPerationDialogCommand(domain, model);                    
             domain.getCommandStack().execute((Command) command);
             close();
-//        }
     }
    
     public class ChangeOPerationDialogCommand extends RecordingCommand{
@@ -96,7 +110,9 @@ public class DialogGroupRowView extends Dialog {
         @Override
         protected void doExecute()
         {
-        	groupRow.setName(textName.getText());                
+        	if(textName != null && !(textName.getText().isEmpty()))  groupRow.setName(textName.getText()); 
+        	if(!(comboAlignment.getText().isEmpty())) groupRow.setAlignment(comboAlignment.getText());
+
         }
 
        

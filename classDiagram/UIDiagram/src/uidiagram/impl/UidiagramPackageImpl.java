@@ -376,6 +376,16 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 	 * @generated
 	 */
 	@Override
+	public EAttribute getTemplateWidget_Alignment() {
+		return (EAttribute)templateWidgetEClass.getEStructuralFeatures().get(7);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public EClass getUserInterface() {
 		return userInterfaceEClass;
 	}
@@ -824,6 +834,7 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		createEAttribute(templateWidgetEClass, TEMPLATE_WIDGET__WIDTH);
 		createEAttribute(templateWidgetEClass, TEMPLATE_WIDGET__HEIGHT);
 		createEAttribute(templateWidgetEClass, TEMPLATE_WIDGET__BACKGROUND_COLOR);
+		createEAttribute(templateWidgetEClass, TEMPLATE_WIDGET__ALIGNMENT);
 
 		userInterfaceEClass = createEClass(USER_INTERFACE);
 		createEAttribute(userInterfaceEClass, USER_INTERFACE__ID_INTERFACE);
@@ -944,6 +955,7 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		initEAttribute(getTemplateWidget_Width(), ecorePackage.getEDouble(), "width", null, 0, 1, TemplateWidget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getTemplateWidget_Height(), ecorePackage.getEDouble(), "height", null, 0, 1, TemplateWidget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getTemplateWidget_BackgroundColor(), ecorePackage.getEString(), "backgroundColor", null, 0, 1, TemplateWidget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getTemplateWidget_Alignment(), ecorePackage.getEString(), "alignment", null, 0, 1, TemplateWidget.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(userInterfaceEClass, UserInterface.class, "UserInterface", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getUserInterface_IdInterface(), ecorePackage.getEString(), "idInterface", null, 0, 1, UserInterface.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

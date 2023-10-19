@@ -24,12 +24,26 @@
         </children>
         <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_UPb-0W02Ee6ElI8X8EL3Ng"/>
         <element xmi:type="uidiagram:Group" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.0"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UPb-0m02Ee6ElI8X8EL3Ng" x="42" y="56" width="329" height="389"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UPb-0m02Ee6ElI8X8EL3Ng" x="42" y="96" width="329" height="389"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_wDEd0G02Ee6W8pzlXsvtqA" type="3078" fontName=".AppleSystemUIFont">
         <children xmi:type="notation:DecorationNode" xmi:id="_wDEd0m02Ee6W8pzlXsvtqA" type="5078"/>
         <element xmi:type="uidiagram:DatePicker" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.1"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wDEd0W02Ee6W8pzlXsvtqA" x="62" y="456" width="173" height="53"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_mqzOIG67Ee6b57_Al6SQ8g" type="3069" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_mqz1MG67Ee6b57_Al6SQ8g" type="5069"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_mqz1MW67Ee6b57_Al6SQ8g" type="7041"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_mqz1Mm67Ee6b57_Al6SQ8g" type="7042">
+          <children xmi:type="notation:Shape" xmi:id="_s7NfcG6_Ee6-bvNnH8V9ZQ" type="3009" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_s7OGgG6_Ee6-bvNnH8V9ZQ" type="5002"/>
+            <element xmi:type="uidiagram:Label" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.2/@listLabels.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s7NfcW6_Ee6-bvNnH8V9ZQ" x="78" y="1" width="105" height="13"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_mqzOIW67Ee6b57_Al6SQ8g"/>
+        <element xmi:type="uidiagram:Appbar" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mqzOIm67Ee6b57_Al6SQ8g" x="34" y="8" width="321" height="93"/>
       </children>
     </children>
     <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_SqQJsW02Ee6ElI8X8EL3Ng"/>
