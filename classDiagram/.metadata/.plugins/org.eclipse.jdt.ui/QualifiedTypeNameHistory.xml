@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePicker3EditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePickerName4EditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePicker4EditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePickerName5EditPart"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="uidiagram.Group"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.helpers.ModelFactoryEditHelper"/>
     <fullyQualifiedTypeName name="org.eclipse.swt.widgets.Combo"/>
+    <fullyQualifiedTypeName name="org.eclipse.emf.common.notify.Notification"/>
 </qualifiedTypeNameHistroy>

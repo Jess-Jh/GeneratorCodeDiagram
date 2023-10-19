@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="modelFactoryAbstract"/>
+		<item key="selection" value="handleNotificationEvent"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="true"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="handleNotificationEvent"/>
 			<item value="modelFactoryAbstract"/>
 			<item value="group"/>
 			<item value="Group"/>
@@ -19,7 +20,6 @@
 			<item value="checkbox"/>
 			<item value="Checkbox"/>
 			<item value="getModel"/>
-			<item value="handleNotificationEvent"/>
 			<item value="model"/>
 			<item value="loadAbs"/>
 			<item value="addAttributeToClass"/>

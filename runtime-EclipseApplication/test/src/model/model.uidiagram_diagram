@@ -24,17 +24,17 @@
         </children>
         <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_UPb-0W02Ee6ElI8X8EL3Ng"/>
         <element xmi:type="uidiagram:Group" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.0"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UPb-0m02Ee6ElI8X8EL3Ng" x="42" y="56" width="281" height="337"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UPb-0m02Ee6ElI8X8EL3Ng" x="42" y="56" width="329" height="389"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_wDEd0G02Ee6W8pzlXsvtqA" type="3078" fontName=".AppleSystemUIFont">
         <children xmi:type="notation:DecorationNode" xmi:id="_wDEd0m02Ee6W8pzlXsvtqA" type="5078"/>
         <element xmi:type="uidiagram:DatePicker" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.1"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wDEd0W02Ee6W8pzlXsvtqA" x="34" y="364" width="173" height="53"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wDEd0W02Ee6W8pzlXsvtqA" x="62" y="456" width="173" height="53"/>
       </children>
     </children>
     <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_SqQJsW02Ee6ElI8X8EL3Ng"/>
     <element xmi:type="uidiagram:UserInterface" href="model.uidiagram#//@listDiagrams.0/@userInterface"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SqQJsm02Ee6ElI8X8EL3Ng" x="268" y="8" width="373" height="453"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SqQJsm02Ee6ElI8X8EL3Ng" x="268" y="8" width="433" height="605"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_RTjcgW02Ee6ElI8X8EL3Ng"/>
   <element xmi:type="uidiagram:UIDiagram" href="model.uidiagram#//@listDiagrams.0"/>

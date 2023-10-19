@@ -572,6 +572,10 @@ public class ModelFactoryModel {
 					+ "    return Scaffold(\n");
 					
 					for(uidiagram.TemplateWidget template : userInterface.getListTemplateWidget()) {
+						
+						if(!(template instanceof Appbar)) {
+							content.append("body: ");
+						}
 					
 						content.append(validateTypeTemplate(template));
 					}
@@ -651,7 +655,7 @@ public class ModelFactoryModel {
 					+ "            	color: scheme.lineMiddle,\n"
 					+ "            ),\n"
 					+ "          ),\n"
-					+ "          child: ");
+					+           (group.getTemplateWidget() != null ? "child: " : "" ));
 			
 			haveAppbar = false;
 						
