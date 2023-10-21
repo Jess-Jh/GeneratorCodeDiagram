@@ -60,16 +60,10 @@ public class ModelFactoryModel {
 	ModelFactory modelFactoryUiDiagram = UidiagramFactory.eINSTANCE.createModelFactory();
 
 	public ModelFactoryModel() {
-	// TODO Auto-generated constructor stub
 
-	modelFactoryConcrete = uploadConcrete();
-	modelFactoryAbstract = uploadAbstract();
-	modelFactoryUiDiagram = uploadUIDiagram();
-
-//			if ( modelFactoryConcrete == null ){
-//				modelFactoryConcrete = tempModelFactory;
-//
-//			}
+		modelFactoryConcrete = uploadConcrete();
+		modelFactoryAbstract = uploadAbstract();
+		modelFactoryUiDiagram = uploadUIDiagram();
 	}
 
 	public ModelFactoryConcreteJJD uploadConcrete() {
@@ -551,7 +545,7 @@ public class ModelFactoryModel {
 
 	//--------------------------------------------------------------------------- TRANFORMATION FRAMEWORK --------------------------------------------------------------------------------------------------------------------------->>
 	
-	private boolean haveAppbar = false;
+	private boolean flag = true;
 	public void transformationFramework() {
 		for(uidiagram.UIDiagram uidiagram : modelFactoryUiDiagram.getListDiagrams()) {
 			createFlutterFile(uidiagram.getUserInterface());	
@@ -571,14 +565,28 @@ public class ModelFactoryModel {
 					+ "  Widget build(BuildContext context) {\n"
 					+ "    return Scaffold(\n");
 					
-					for(uidiagram.TemplateWidget template : userInterface.getListTemplateWidget()) {
-						
-						if(!(template instanceof Appbar)) {
-							content.append("body: ");
-						}
-					
-						content.append(validateTypeTemplate(template));
-					}
+			for (uidiagram.TemplateWidget template : userInterface.getListTemplateWidget()) {
+
+				if (template instanceof Appbar) {
+					content.append(generateAppbar((Appbar) template));
+				}
+			}
+
+			for (uidiagram.TemplateWidget template : userInterface.getListTemplateWidget()) {
+
+				if (flag) {
+					content.append("body: Column(\n" 
+					 + "			crossAxisAlignment: CrossAxisAlignment.start,\n"
+					 + "	      	children: [\n");
+					flag = false;
+				}
+				content.append(validateTypeTemplate(template));
+			}
+
+			if (!flag) {
+				content.append("	],\n" 
+						+ "  	),\n");
+			}
 			
 		content.append( "  );\n"
 				+ "  }\n"
@@ -591,9 +599,6 @@ public class ModelFactoryModel {
 	private StringBuilder validateTypeTemplate(TemplateWidget template) {
 		StringBuilder content = new StringBuilder();
 		
-		if(template instanceof Appbar) {
-			content.append(generateAppbar((Appbar)template));
-		}
 		if(template instanceof Group) {
 			content.append(generateGroup((Group)template));
 		}
@@ -643,7 +648,7 @@ public class ModelFactoryModel {
 	private StringBuilder generateGroup(Group group) {
 		StringBuilder content = new StringBuilder();
 			
-			content.append( (haveAppbar ? "\tbody: " : "") + "Container(\n"
+			content.append("Container(\n"
 					+ "          width: " + (group.getWidth() != 0 ? group.getWidth() : " double.infinity,") + "\n"
 					+ "          constraints: const BoxConstraints(minHeight: " + (group.getHeight() != 0 ? group.getHeight() : "44)") + ",\n"
 					+ "          padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 16),\n"
@@ -655,10 +660,7 @@ public class ModelFactoryModel {
 					+ "            	color: scheme.lineMiddle,\n"
 					+ "            ),\n"
 					+ "          ),\n"
-					+           (group.getTemplateWidget() != null ? "child: " : "" ));
-			
-			haveAppbar = false;
-						
+					+           (group.getTemplateWidget() != null ? "child: " : "" ));						
 				
 			content.append(validateTypeTemplate(group.getTemplateWidget()) + "\n");
 			
@@ -670,7 +672,7 @@ public class ModelFactoryModel {
 		StringBuilder content = new StringBuilder();
 
 			content.append("Column(\n"
-					+ "		  crossAxisAlignment: CrossAxisAlignment.start,\n"
+					+ "		  crossAxisAlignment: CrossAxisAlignment."+ (groupColumn.getAlignment() != null ? groupColumn.getAlignment() : "start" ) +",\n"
 					+ "		  children: [\n");
 			
 			for(uidiagram.TemplateWidget groupColumnChild : groupColumn.getListTemplateWidget()) {
@@ -685,10 +687,10 @@ public class ModelFactoryModel {
 	}
 	private StringBuilder generateGroupRow(GroupRow groupRow) {
 		StringBuilder content = new StringBuilder();
-		
+		 
 			
 			content.append("\tRow(\n"
-					+ "		   mainAxisAlignment: MainAxisAlignment.center,\n"
+					+ "		   mainAxisAlignment: MainAxisAlignment."+ (groupRow.getAlignment() != null ? groupRow.getAlignment() : "center" ) +",\n"
 					+ "		  children: [\n");
 
 			for(uidiagram.TemplateWidget groupRowChild : groupRow.getListTemplateWidget()) {
@@ -704,9 +706,7 @@ public class ModelFactoryModel {
 	}
 	private StringBuilder generateAppbar(Appbar appbar) {
 		StringBuilder content = new StringBuilder();
-		
-		haveAppbar = true;
-		
+				
 //		for(uidiagram.TemplateWidget appbarChild : appbar.getListButtons()) {
 			
 			content.append("\tappbar: AppBar(\n"

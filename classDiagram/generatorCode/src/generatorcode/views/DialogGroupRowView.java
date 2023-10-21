@@ -59,15 +59,12 @@ public class DialogGroupRowView extends Dialog {
 		
 		comboAlignment = new Combo(container, SWT.NONE);
 		comboAlignment.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
-		comboAlignment.add("bottomCenter");
-		comboAlignment.add("bottomLeft");
-		comboAlignment.add("bottomRight");
 		comboAlignment.add("center");
-		comboAlignment.add("centerLeft");
-		comboAlignment.add("centerRight");
-		comboAlignment.add("topCenter");
-		comboAlignment.add("topLeft");
-		comboAlignment.add("topRight");
+		comboAlignment.add("end");
+		comboAlignment.add("spaceAround");
+		comboAlignment.add("spaceBetween");
+		comboAlignment.add("spaceEvenly");
+		comboAlignment.add("start");
 
 		return container;
     }
