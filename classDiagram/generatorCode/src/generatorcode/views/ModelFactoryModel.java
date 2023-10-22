@@ -558,7 +558,7 @@ public class ModelFactoryModel {
 			
 			content.append("import 'package:flutter/material.dart';\n"
 					+ "\n"
-					+ "class " +  "UserInterfacePage"  + " extends StatelessWidget {\n"
+					+ "class " +  (userInterface.getName() != "" ? userInterface.getName()+"Page" : "UserInterfacePage")  + " extends StatelessWidget {\n"
 					+ "  const " + (userInterface.getName() != "" ? userInterface.getName()+"Page" : "UserInterfacePage")  + "({super.key});\n"
 					+ "\n"
 					+ "  @override\n"
@@ -656,8 +656,8 @@ public class ModelFactoryModel {
 					+ "          decoration: BoxDecoration(\n"
 					+ "            color: " + (group.getBackgroundColor() != null ? "Color(0xFF"+ group.getBackgroundColor()+"),"  : "Colors.transparent,") + "\n"
 					+ "            border: Border.all(\n"
-					+ "            	width: 1,\n"
-					+ "            	color: scheme.lineMiddle,\n"
+					+ "            	width: " + (group.getBorderWidth() != null ? group.getBorderWidth() : " 1" + ",\n")
+					+ "            	color: " + (group.getBorderColor() != null ? group.getBorderColor() : "Colors.transparent" + ",\n")
 					+ "            ),\n"
 					+ "          ),\n"
 					+           (group.getTemplateWidget() != null ? "child: " : "" ));						
@@ -690,7 +690,7 @@ public class ModelFactoryModel {
 		 
 			
 			content.append("\tRow(\n"
-					+ "		   mainAxisAlignment: MainAxisAlignment."+ (groupRow.getAlignment() != null ? groupRow.getAlignment() : "center" ) +",\n"
+					+ "		   mainAxisAlignment: MainAxisAlignment." + (groupRow.getAlignment() != null ? groupRow.getAlignment() : "center" ) +  ",\n"
 					+ "		  children: [\n");
 
 			for(uidiagram.TemplateWidget groupRowChild : groupRow.getListTemplateWidget()) {
@@ -707,36 +707,34 @@ public class ModelFactoryModel {
 	private StringBuilder generateAppbar(Appbar appbar) {
 		StringBuilder content = new StringBuilder();
 				
-//		for(uidiagram.TemplateWidget appbarChild : appbar.getListButtons()) {
 			
-			content.append("\tappbar: AppBar(\n"
+			content.append("\tappBar: AppBar(\n"
 						+ "      title: Text(\n"
-						+ "        title,\n"
+						+ "'" +    appbar.getName() + "',\n"
 						+ "        style: Theme.of(context).textTheme.displayLarge!.copyWith(\n"
-						+ "              fontSize: fontSizeTitle,\n"
+						+ "              fontSize: 20,\n"
 						+ "              color: const Color(0xFFFFFFFF),\n"
 						+ "            ),\n"
 						+ "      ),\n"
-						+ "      centerTitle: centerTitle,\n"
+						+ "      centerTitle: true,\n"
 						+ "      automaticallyImplyLeading: false,\n"
-						+ "      systemOverlayStyle: SystemUiOverlayStyle.light,\n"
-						+ "      leading: leadingTap != null ? buildLeadingButton() : leading,\n"
 						+ "      leadingWidth: 50,\n"
-						+ "      actions: actionIcon != null || actionText != null\n"
-						+ "          ? [buildActionButton()]\n"
-						+ "          : actions,\n"
+						+ "      actions: [\n");
+						
+						for(uidiagram.TemplateWidget appbarChild : appbar.getListButtons()) content.append(generateButton((Button)appbarChild));
+						for(uidiagram.TemplateWidget appbarChild : appbar.getListLabels()) content.append(generateLabel((Label)appbarChild));
+						
+						
+		  content.append( "		],\n"
 						+ "      shape: const RoundedRectangleBorder(\n"
 						+ "        borderRadius: BorderRadius.vertical(\n"
 						+ "          bottom: Radius.circular(12),\n"
 						+ "        ),\n"
 						+ "      ),\n"
-						+ "      shadowColor: Theme.of(context).brightness == Brightness.light\n"
-						+ "          ? const Color(0xFF000000)\n"
-						+ "          : const Color(0xFFFFFFFF),\n"
+						+ "      shadowColor: const Color(0xFF000000),\n"
 						+ "      elevation: Theme.of(context).brightness == Brightness.light ? 5 : 0.3,\n"
-						+ "    );\n"
+						+ "    ),\n"
 			);
-//		}
 		return content;
 		
 	}
@@ -753,7 +751,7 @@ public class ModelFactoryModel {
 			content.append("GestureDetector(\n"
 					+ "      onTap: () {},\n"
 					+ "      child: Container(\n"
-					+ "        constraints: BoxConstraints(minWidth: width ?? 0),\n"
+					+ "        constraints: BoxConstraints(minWidth: " + (button.getWidth() != 0 ? button.getWidth() : "10") + ",\n"
 					+ "        height: height,\n"
 					+ "        padding: const EdgeInsets.symmetric(horizontal: 8),\n"
 					+ "        decoration: BoxDecoration(\n"
@@ -761,7 +759,7 @@ public class ModelFactoryModel {
 					+ "          borderRadius: BorderRadius.circular(5),\n"
 					+ "        ),\n"
 					+ "        child:Text(\n"
-					+                (button.getName() != null ? button.getName() : "")               
+					+                  (button.getName() != null ?  "'" + button.getName() + "'" : "")               
 					+ "                style: TextStyle(\n"
 					+ "                  fontWeight: FontWeight.bold,\n"
 					+ "                  fontSize: 16,\n"
@@ -777,11 +775,11 @@ public class ModelFactoryModel {
 		StringBuilder content = new StringBuilder();
 		
 		content.append("Text(\n"
-				+        label.getName()
+				+        (label.getName() != null ? "'" +  label.getName() + "'" : "'Name'") + ",\n"
 				+ "      style: TextStyle(\n"
-				+ "        fontSize: 16,\n"
-				+ "        fontWeight: FontWeight.w500,\n"
-				+ "        color: Scheme.colorScheme(context),\n"
+				+ "        fontSize: " + (label.getFontSize() != null ? label.getFontSize() : " 16") + ",\n"
+				+ "        fontWeight: " + (label.getFontWeight() != null ? "FontWeight."+ label.getFontWeight() : " FontWeight.w500") + ",\n"
+				+ "        color: " + (label.getBackgroundColor() != null ? "Color(0xFF"+ label.getBackgroundColor()+")" :  " Colors.black") + ",\n"
 				+ "      ),\n"
 				+ "   ),\n"
 		);
@@ -795,7 +793,7 @@ public class ModelFactoryModel {
 				+ "      child: Icon(\n"
 				+ "              Icons.check_box,\n"
 				+ "              size: 20,\n"
-				+ "              color: " + (checkbox.getBackgroundColor() != null ? checkbox.getBackgroundColor() :  " Colors.blue,\n")
+				+ "              color: " + (checkbox.getBackgroundColor() != null ? checkbox.getBackgroundColor() :  " Colors.blue" + ",\n")
 				+ "      )\n"
 				+ "    );\n"
 		);
@@ -809,7 +807,7 @@ public class ModelFactoryModel {
 				+ "       textAlignVertical: TextAlignVertical.center,\n"
 				+ "       decoration: InputDecoration(\n"
 				+ "       	isDense: true,\n"
-				+ "       	hintText: " + (input.getName() != null ? input.getName() : "") + ",\n"
+				+ "       	hintText: " + (input.getName() != null ? input.getName() : "'Escribe tu texto...'") + ",\n"
 				+ "       	contentPadding: const EdgeInsets.symmetric(horizontal: 17),\n"
 				+ "        	border: InputBorder.none,\n"
 				+ "       ),\n"
@@ -850,7 +848,7 @@ public class ModelFactoryModel {
 				+ "		    decoration: BoxDecoration(\n"
 				+ "	         border: Border.all(\n"
 				+ "				width: 1.5,\n"
-				+ "				color: Colors.blue,\n"
+				+ "				color: " + (radioButton.getBackgroundColor() != null ? radioButton.getBackgroundColor() : "Colors.blue") +  ",\n"
 				+ "			 ),\n"
 				+ "			 borderRadius: BorderRadius.circular(size / 2),\n"
 				+ "			),\n"
@@ -863,7 +861,7 @@ public class ModelFactoryModel {
 				+ "					height: (size - 10).clamp(4, 8),\n"
 				+ "					width: (size - 10).clamp(4, 8),\n"
 				+ "					decoration: BoxDecoration(\n"
-				+ "			    		color: Colors.blue,\n"
+				+ "			    		color: " + (radioButton.getBackgroundColor() != null ? radioButton.getBackgroundColor() : "Colors.blue") + ",\n"
 				+ "			    	 	borderRadius: BorderRadius.circular(8 / 2),\n"
 				+ "					),\n"
 				+ "			  	),\n"
