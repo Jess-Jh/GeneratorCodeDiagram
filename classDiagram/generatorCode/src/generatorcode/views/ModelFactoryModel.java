@@ -556,14 +556,27 @@ public class ModelFactoryModel {
 		StringBuilder content = new StringBuilder();
 		
 			
-			content.append("import 'package:flutter/material.dart';\n"
+			content.append("import 'package:flutter/cupertino.dart';\n"
+					+ "import 'package:flutter/material.dart';\n"
 					+ "\n"
-					+ "class " +  (userInterface.getName() != "" ? userInterface.getName()+"Page" : "UserInterfacePage")  + " extends StatelessWidget {\n"
-					+ "  const " + (userInterface.getName() != "" ? userInterface.getName()+"Page" : "UserInterfacePage")  + "({super.key});\n"
+					+ "class " +  (userInterface.getName() != "" ? userInterface.getName()+"Page" : "RegisterPage")  + " extends StatefulWidget {\n"
+					+ "  const " + (userInterface.getName() != "" ? userInterface.getName()+"Page" : "RegisterPage")  + "({super.key});\n"
+					+ "\n"
+					+ "  @override\n"
+					+ "  State<"+ (userInterface.getName() != "" ? userInterface.getName()+"Page" : "RegisterPage") + "> createState() =>" + (userInterface.getName() != "" ? "_"+userInterface.getName()+"PageState()" : "_RegisterPageState()")  + ";\n"
+					+ "}\n"
+					+ "\n"
+					+ "class " + (userInterface.getName() != "" ? "_"+userInterface.getName()+"PageState" : "_RegisterPageState")  + " extends State<RegistroPage> {\n"
+					+ "  DateTime? selectedDate;\n"
+					+ "  bool isSwitch = false, checkboxSelected = false, radiosButtonSelected = false;\n"
+					+ "  String selectedValue = 'Opción 1';\n"
+					+ "  List<String> options = ['Opción 1', 'Opción 2', 'Opción 3', 'Opción 4'];\n"
 					+ "\n"
 					+ "  @override\n"
 					+ "  Widget build(BuildContext context) {\n"
-					+ "    return Scaffold(\n");
+					+ "    return DefaultTabController(\n"
+					+ "    length: " + (getNumberButtons(userInterface) != 0 ? getNumberButtons(userInterface) : "10") + ",\n"
+					+ "    child: Scaffold(\n");
 					
 			for (uidiagram.TemplateWidget template : userInterface.getListTemplateWidget()) {
 
@@ -575,12 +588,16 @@ public class ModelFactoryModel {
 			for (uidiagram.TemplateWidget template : userInterface.getListTemplateWidget()) {
 
 				if (flag) {
-					content.append("body: Column(\n" 
-					 + "			crossAxisAlignment: CrossAxisAlignment.start,\n"
-					 + "	      	children: [\n");
+					content.append("body: Container(\n"
+					 + "            padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 16),\n"
+				     + "            child: SingleChildScrollView(\n"
+					 + "              child: Column(\n" 
+					 + "			  crossAxisAlignment: CrossAxisAlignment.start,\n"
+					 + "	      	  children: [\n");
 					flag = false;
 				}
 				content.append(validateTypeTemplate(template));
+				content.append("SizedBox(height: 20),\n");
 			}
 
 			if (!flag) {
@@ -588,12 +605,29 @@ public class ModelFactoryModel {
 						+ "  	),\n");
 			}
 			
-		content.append( "  );\n"
+		content.append( "  	),"
+				+ "		   ),\n"
+				+ "		  ),\n"				
+				+ "		);\n"
 				+ "  }\n"
 				+ "}\n"
 			);
 			System.out.println(content.toString());
 //			CreateFile(userInterface.getName()+"Page"+".dart",content, false);
+	}
+	
+	private int getNumberButtons(UserInterface userInterface) {
+		int cont = 0;
+		for (uidiagram.TemplateWidget template : userInterface.getListTemplateWidget()) {
+
+			if (template instanceof Appbar) {
+				cont =+ ((Appbar)template).getListButtons().size();
+				cont =+ ((Appbar)template).getListLabels().size();
+				
+				return cont;
+			}
+		}
+		return cont;
 	}
 	
 	private StringBuilder validateTypeTemplate(TemplateWidget template) {
@@ -678,6 +712,7 @@ public class ModelFactoryModel {
 			for(uidiagram.TemplateWidget groupColumnChild : groupColumn.getListTemplateWidget()) {
 				
 				content.append(validateTypeTemplate(groupColumnChild));     
+				content.append("SizedBox(height: 20),\n");
 			}
 			
 		content.append( "	  ],\n"
@@ -694,8 +729,9 @@ public class ModelFactoryModel {
 					+ "		  children: [\n");
 
 			for(uidiagram.TemplateWidget groupRowChild : groupRow.getListTemplateWidget()) {
-			
+				
 				content.append(  validateTypeTemplate(groupRowChild));
+				content.append("SizedBox(width: 10),\n");
 			}
 			
 			content.append("  ],\n"
@@ -704,28 +740,27 @@ public class ModelFactoryModel {
 		return content;
 		
 	}
-	private StringBuilder generateAppbar(Appbar appbar) {
+	private StringBuilder generateAppbar(Appbar appbar) { 
 		StringBuilder content = new StringBuilder();
 				
 			
 			content.append("\tappBar: AppBar(\n"
 						+ "      title: Text(\n"
 						+ "'" +    appbar.getName() + "',\n"
-						+ "        style: Theme.of(context).textTheme.displayLarge!.copyWith(\n"
-						+ "              fontSize: 20,\n"
-						+ "              color: const Color(0xFFFFFFFF),\n"
-						+ "            ),\n"
+						+ "        style: TextStyle(\n"
+						+ "               fontSize: 30,\n"
+						+ "        ),\n"
 						+ "      ),\n"
 						+ "      centerTitle: true,\n"
-						+ "      automaticallyImplyLeading: false,\n"
-						+ "      leadingWidth: 50,\n"
-						+ "      actions: [\n");
+						+ "      bottom: TabBar(\n"
+						+ "			tabs: [\n");
 						
 						for(uidiagram.TemplateWidget appbarChild : appbar.getListButtons()) content.append(generateButton((Button)appbarChild));
 						for(uidiagram.TemplateWidget appbarChild : appbar.getListLabels()) content.append(generateLabel((Label)appbarChild));
 						
 						
-		  content.append( "		],\n"
+		  content.append( "			],\n"
+				  		+ "      ),"
 						+ "      shape: const RoundedRectangleBorder(\n"
 						+ "        borderRadius: BorderRadius.vertical(\n"
 						+ "          bottom: Radius.circular(12),\n"
@@ -751,22 +786,23 @@ public class ModelFactoryModel {
 			content.append("GestureDetector(\n"
 					+ "      onTap: () {},\n"
 					+ "      child: Container(\n"
-					+ "        constraints: BoxConstraints(minWidth: " + (button.getWidth() != 0 ? button.getWidth() : "10") + ",\n"
-					+ "        height: height,\n"
+					+ "        alignment: Alignment.center,\n"
 					+ "        padding: const EdgeInsets.symmetric(horizontal: 8),\n"
+					+ "        height: " + (button.getHeight() != 0 ? button.getHeight() : "20") + ",\n"
+					+ "        constraints: BoxConstraints(minWidth: " + (button.getWidth() != 0 ? button.getWidth() : "10") + "),\n"
 					+ "        decoration: BoxDecoration(\n"
-					+ "          color: " + (button.getBackgroundColor() != null ? button.getBackgroundColor() : "  Colors.white,") + "\n"
+					+ "          color: " + (button.getBackgroundColor() != null ? "Color(0xFF" + button.getBackgroundColor() + ")" : "  Colors.white,") + ",\n"
 					+ "          borderRadius: BorderRadius.circular(5),\n"
 					+ "        ),\n"
 					+ "        child:Text(\n"
-					+                  (button.getName() != null ?  "'" + button.getName() + "'" : "")               
+					+                  (button.getName() != null ?  "'" + button.getName() + "'" : "") + ",\n"               
 					+ "                style: TextStyle(\n"
 					+ "                  fontWeight: FontWeight.bold,\n"
 					+ "                  fontSize: 16,\n"
 					+ "                ),\n"
 					+ "              ),\n"
 					+ "       ),\n"
-					+ "     );\n"
+					+ "     ),\n"
 			);
 		return content;
 		
@@ -778,8 +814,8 @@ public class ModelFactoryModel {
 				+        (label.getName() != null ? "'" +  label.getName() + "'" : "'Name'") + ",\n"
 				+ "      style: TextStyle(\n"
 				+ "        fontSize: " + (label.getFontSize() != null ? label.getFontSize() : " 16") + ",\n"
-				+ "        fontWeight: " + (label.getFontWeight() != null ? "FontWeight."+ label.getFontWeight() : " FontWeight.w500") + ",\n"
-				+ "        color: " + (label.getBackgroundColor() != null ? "Color(0xFF"+ label.getBackgroundColor()+")" :  " Colors.black") + ",\n"
+				+ "        fontWeight: " + (label.getFontWeight() != null && !(label.getFontWeight().isBlank()) ? "FontWeight."+ label.getFontWeight() : " FontWeight.w500") + ",\n"
+				+ "        color: " + (label.getFontColor() != null ? "Color(0xFF"+ label.getFontColor()+")" :  " Colors.black") + ",\n"
 				+ "      ),\n"
 				+ "   ),\n"
 		);
@@ -789,13 +825,20 @@ public class ModelFactoryModel {
 		StringBuilder content = new StringBuilder();
 		
 		content.append("Align(\n"
-				+ "      alignment: Alignment.center,\n"
-				+ "      child: Icon(\n"
-				+ "              Icons.check_box,\n"
-				+ "              size: 20,\n"
-				+ "              color: " + (checkbox.getBackgroundColor() != null ? checkbox.getBackgroundColor() :  " Colors.blue" + ",\n")
-				+ "      )\n"
-				+ "    );\n"
+				+ "     alignment: Alignment.center,\n"
+				+ "     child: GestureDetector(\n"
+				+ "       onTap: () => setState(() {\n"
+				+ "         checkboxSelected = !checkboxSelected;\n"
+				+ "       }),\n"
+				+ "       child: Icon(\n"
+				+ "         checkboxSelected ? Icons.check_box : Icons.square,\n"
+				+ "         size: 20,\n"
+				+ "         color:\n"
+				+ "             checkboxSelected ? " + (checkbox.getBackgroundColor() != null ? "Color(0xFF" +checkbox.getBackgroundColor() +")" : " Colors.blue") + " : Colors.grey[300],\n"
+				+ "       ),\n"
+				+ "     ),\n"
+				+ "   ),"
+
 		);
 		return content;
 		
@@ -803,19 +846,29 @@ public class ModelFactoryModel {
 	private StringBuilder generateInput(Input input) {
 		StringBuilder content = new StringBuilder();
 		
-		content.append("\tTextField(\n"
+		content.append("\tContainer(\n"
+				+ "     height: " + (input.getHeight() != 0 ? input.getHeight() : "30") + ",\n"
+				+ "     width: " + (input.getWidth() != 0 ? input.getWidth() : "MediaQuery.of(context).size.width * 0.7") + ",\n"
+				+ "     decoration: BoxDecoration(\n"
+				+ "        color: " + (input.getBackgroundColor() != null ? "Color(0xFF"+ input.getBackgroundColor() +")" : "const Color.fromARGB(255, 218, 216, 216),") + ",\n"
+				+ "        borderRadius: BorderRadius.circular(5)),\n"
+				+ "     child:TextField(\n"
 				+ "       textAlignVertical: TextAlignVertical.center,\n"
 				+ "       decoration: InputDecoration(\n"
 				+ "       	isDense: true,\n"
 				+ "       	hintText: " + (input.getName() != null ? input.getName() : "'Escribe tu texto...'") + ",\n"
-				+ "       	contentPadding: const EdgeInsets.symmetric(horizontal: 17),\n"
+				+ "       	contentPadding: const EdgeInsets.symmetric("
+				+ "				horizontal: 15,\n"
+				+ "         	vertical: 8,\n"
+				+ "			),\n"
 				+ "        	border: InputBorder.none,\n"
 				+ "       ),\n"
 				+ "       onChanged: (value) {},\n"
 				+ "       style: const TextStyle(\n"
-				+ "         height: 1.3,\n"
+				+ "         height: 1.5,\n"
 				+ "       ),\n"
 				+ "   ),\n"
+				+ "),\n"
 		);
 		return content;	
 	}
@@ -839,50 +892,67 @@ public class ModelFactoryModel {
 	private StringBuilder generateRadioButton(RadioButton radioButton) {
 		StringBuilder content = new StringBuilder();
 		
-		content.append("AnimatedSwitcher(\n"
-				+ "			duration: const Duration(milliseconds: 100),\n"
-				+ "		    child: AnimatedContainer(\n"
-				+ "		    duration: const Duration(milliseconds: 200),\n"
-				+ "		    width: " + (radioButton.getWidth() != 0 ? radioButton.getWidth() : "20")  + ",\n"
-				+ "	        height: " + (radioButton.getHeight() != 0 ? radioButton.getHeight() : "20")  + ",\n"
-				+ "		    decoration: BoxDecoration(\n"
-				+ "	         border: Border.all(\n"
-				+ "				width: 1.5,\n"
-				+ "				color: " + (radioButton.getBackgroundColor() != null ? radioButton.getBackgroundColor() : "Colors.blue") +  ",\n"
-				+ "			 ),\n"
-				+ "			 borderRadius: BorderRadius.circular(size / 2),\n"
-				+ "			),\n"
-				+ "			child: Align(\n"
-				+ "				alignment: Alignment.center,\n"
-				+ "				child: AnimatedOpacity(\n"
-				+ "				duration: const Duration(milliseconds: 200),\n"
-				+ "				opacity: 1,\n"
-				+ "				child: Container(\n"
-				+ "					height: (size - 10).clamp(4, 8),\n"
-				+ "					width: (size - 10).clamp(4, 8),\n"
-				+ "					decoration: BoxDecoration(\n"
-				+ "			    		color: " + (radioButton.getBackgroundColor() != null ? radioButton.getBackgroundColor() : "Colors.blue") + ",\n"
-				+ "			    	 	borderRadius: BorderRadius.circular(8 / 2),\n"
-				+ "					),\n"
-				+ "			  	),\n"
-				+ "				),\n"
-				+ "			),\n"
-				+ "		  ),\n"
-				+ "		);\n"
+		content.append("GestureDetector(\n"
+				+ "     onTap: () => setState(() {\n"
+				+ "       radiosButtonSelected = !radiosButtonSelected;\n"
+				+ "     }),\n"
+				+ "     child: AnimatedSwitcher(\n"
+				+ "       duration: const Duration(milliseconds: 100),\n"
+				+ "       child: AnimatedSwitcher(\n"
+				+ "         duration: const Duration(milliseconds: 100),\n"
+				+ "         child: AnimatedContainer(\n"
+				+ "           duration: const Duration(milliseconds: 200),\n"
+				+ "           width: 20,\n"
+				+ "           height: 20,\n"
+				+ "           decoration: BoxDecoration(\n"
+				+ "             border: Border.all(\n"
+				+ "               width: 1.5,\n"
+				+ "               color: radiosButtonSelected\n"
+				+ "                   ? " + (radioButton.getBackgroundColor() != null ? "Color(0xFF" +radioButton.getBackgroundColor() +")" : "Colors.blue") + "\n"
+				+ "                   : Colors.grey,\n"
+				+ "             ),\n"
+				+ "             borderRadius: BorderRadius.circular(20 / 2),\n"
+				+ "           ),\n"
+				+ "           child: Align(\n"
+				+ "             alignment: Alignment.center,\n"
+				+ "             child: AnimatedOpacity(\n"
+				+ "               duration: const Duration(milliseconds: 200),\n"
+				+ "               opacity: radiosButtonSelected ? 1 : 0,\n"
+				+ "               child: Container(\n"
+				+ "                 height: (20.0 - 10).clamp(4, 8),\n"
+				+ "                 width: (20.0 - 10).clamp(4, 8),\n"
+				+ "                 decoration: BoxDecoration(\n"
+				+ "                   color: radiosButtonSelected\n"
+				+ "                       ? " + (radioButton.getBackgroundColor() != null ? "Color(0xFF" +radioButton.getBackgroundColor() +")" : "Colors.blue") + "\n"
+				+ "                       : Colors.grey,\n"
+				+ "                   borderRadius: BorderRadius.circular(8 / 2),\n"
+				+ "                 ),\n"
+				+ "               ),\n"
+				+ "             ),\n"
+				+ "           ),\n"
+				+ "         ),\n"
+				+ "       ),\n"
+				+ "     ),\n"
+				+ "   ),"
+
 		);
 		return content;
 	}
 	private StringBuilder generateComboBox(ComboBox comboBox) {
 		StringBuilder content = new StringBuilder();
 		
-		content.append("DropdownButton(\n"
-				+ "        value: '',\n"
-				+ "        onChanged: (items) {},\n"
-				+ "        underline: Container(),\n"
-				+ "        icon: const Icon(Icons.keyboard_arrow_down),\n"
-				+ "        isExpanded: true,\n"
-				+ "        items: items,\n"
-				+ "      ),\n"
+		content.append("DropdownButton<String>(\n"
+				+ "     value: selectedValue,\n"
+				+ "     items: options.map((String value) {\n"
+				+ "       return DropdownMenuItem<String>(\n"
+				+ "         value: value,\n"
+				+ "         child: Text(value),\n"
+				+ "       );\n"
+				+ "     }).toList(),\n"
+				+ "     onChanged: (value) => setState(() {\n"
+				+ "       selectedValue = value ?? '';\n"
+				+ "     }),\n"
+				+ "   ),"
 		);
 		return content;
 		
@@ -890,13 +960,38 @@ public class ModelFactoryModel {
 	private StringBuilder generateDatePicker(DatePicker datePicker) {
 		StringBuilder content = new StringBuilder();
 		
-		content.append("CupertinoDatePicker(\n"
-				+ "       mode: CupertinoDatePickerMode.date,\n"
-				+ "       initialDateTime: DateTime.now(),\n"
-				+ "       onDateTimeChanged: (d) {\n"
-				+ "        \n"
-				+ "       },\n"
+		content.append("SizedBox(\n"
+				+ "      height: 30,\n"
+				+ "      width: 200,\n"
+				+ "      child: ElevatedButton(\n"
+				+ "        child: Text(selectedDate == null\n"
+				+ "            ? 'Seleccionar Fecha'\n"
+				+ "            : '${selectedDate?.day}/${selectedDate?.month}/${selectedDate?.year}'),\n"
+				+ "        onPressed: () {\n"
+				+ "        selectedDate = DateTime.now();\n"
+				+ "\n"
+				+ "        showCupertinoModalPopup(\n"
+				+ "          context: context,\n"
+				+ "          builder: (BuildContext context) {\n"
+				+ "            return SizedBox(\n"
+				+ "              height: 250,\n"
+				+ "              width: double.infinity,\n"
+				+ "              child: CupertinoDatePicker(\n"
+				+ "                backgroundColor: Colors.white,\n"
+				+ "                mode: CupertinoDatePickerMode.date,\n"
+				+ "                initialDateTime: selectedDate,\n"
+				+ "                onDateTimeChanged: (DateTime newDate) {\n"
+				+ "                  setState(() {\n"
+				+ "                    selectedDate = newDate;\n"
+				+ "                  });\n"
+				+ "                },\n"
+				+ "              ),\n"
+				+ "            );\n"
+				+ "          },\n"
+				+ "        );\n"
+				+ "      },\n"
 				+ "    ),\n"
+				+ "  ),"
 		);
 		return content;
 		
@@ -904,30 +999,39 @@ public class ModelFactoryModel {
 	private StringBuilder generateSwitch(Switch template) {
 		StringBuilder content = new StringBuilder();
 		
-		content.append("AnimatedContainer(\n"
-				+ "      height: 24,\n"
-				+ "      width: 44,\n"
-				+ "      duration: const Duration(milliseconds: 200),\n"
-				+ "      curve: Curves.easeInOut,\n"
-				+ "      decoration: BoxDecoration(\n"
-				+ "        color: const Color(0xFF39D047),\n"
-				+ "        borderRadius: BorderRadius.circular(11),\n"
-				+ "      ),\n"
-				+ "      child: AnimatedAlign(\n"
-				+ "        alignment: Alignment.centerLeft,\n"
-				+ "        duration: const Duration(milliseconds: 200),\n"
-				+ "        curve: Curves.easeInOut,\n"
-				+ "        child: Container(\n"
-				+ "          height: 20,\n"
-				+ "          width: 20,\n"
-				+ "          margin: const EdgeInsets.symmetric(horizontal: 2),\n"
-				+ "          decoration: BoxDecoration(\n"
-				+ "            color: Colors.white,\n"
-				+ "            borderRadius: BorderRadius.circular(18),\n"
-				+ "          ),\n"
-				+ "        ),\n"
-				+ "      ),\n"
-				+ "    );\n"
+		content.append("GestureDetector(\n"
+				+ "     onTap: () => setState(() {\n"
+				+ "       isSwitch = !isSwitch;\n"
+				+ "     }),\n"
+				+ "     child: AnimatedContainer(\n"
+				+ "       height: 24,\n"
+				+ "       width: 44,\n"
+				+ "       duration: const Duration(milliseconds: 200),\n"
+				+ "       curve: Curves.easeInOut,\n"
+				+ "       decoration: BoxDecoration(\n"
+				+ "         color: isSwitch\n"
+				+ "             ? " + (template.getBackgroundColor() != null ? "Color(0xFF" + template.getBackgroundColor() +")" : "Colors.blue") + "\n"
+				+ "             : const Color(0xFFC9CFD3),\n"
+				+ "         borderRadius: BorderRadius.circular(11),\n"
+				+ "       ),\n"
+				+ "       child: AnimatedAlign(\n"
+				+ "         alignment: isSwitch\n"
+				+ "             ? Alignment.centerRight\n"
+				+ "             : Alignment.centerLeft,\n"
+				+ "         duration: const Duration(milliseconds: 200),\n"
+				+ "         curve: Curves.easeInOut,\n"
+				+ "         child: Container(\n"
+				+ "           height: 20,\n"
+				+ "           width: 20,\n"
+				+ "           margin: const EdgeInsets.symmetric(horizontal: 2),\n"
+				+ "           decoration: BoxDecoration(\n"
+				+ "             color: Colors.white,\n"
+				+ "             borderRadius: BorderRadius.circular(18),\n"
+				+ "           ),\n"
+				+ "         ),\n"
+				+ "       ),\n"
+				+ "     ),\n"
+				+ "   ),\n"
 		);
 		return content;
 		
@@ -941,7 +1045,13 @@ public class ModelFactoryModel {
 			+        generateColumnsTable(table)
 			
 			+ "		 ],\n"
-			+ "	   );\n"
+			+ "rows: const [\n"
+			+ "  DataRow(selected: true, cells: [\n"
+			+        generateRowsTable(table)
+			+ "  ]),\n"
+			+ " ],"
+			
+			+ "),\n"
 		);
 		
 		return content;
@@ -952,8 +1062,23 @@ public class ModelFactoryModel {
 		StringBuilder content = new StringBuilder();
 		
 		for(uidiagram.Column column : table.getListCoulmns()) {
-			content.append("DataColumn(label: Text("+ column.getName() + ")),\n");
+			content.append("DataColumn(label: SizedBox(\n"
+					+ "         width: MediaQuery.of(context).size.width * 0.15,\n"
+					+ "			child: const Text("+  "'"+column.getName()+"'" + "),"
+				    + "         ),"
+				    + "     ),\n");
 		}
+		
+		return content;
+	}
+	
+	private StringBuilder generateRowsTable(Table table) {
+		StringBuilder content = new StringBuilder();
+	
+		for(uidiagram.Column column : table.getListCoulmns()) {
+			content.append("DataCell(Text('data')),\n");
+		}
+
 		return content;
 	}
 }

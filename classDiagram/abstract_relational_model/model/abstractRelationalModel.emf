@@ -1,0 +1,67 @@
+@namespace(uri="relationalmodel", prefix="relationalmodel")
+@gmf
+package relationalmodel;
+
+class ModelFactoryAbstractRelationalModel {
+    attr String name;
+    val Schema[*] listSchemas;
+}
+
+
+class Schema {
+     attr String name;
+     val Table[*] listTables;
+     val RelationTables[*] RelationTables;
+}
+
+class Table {
+    attr String name;    
+    val Column[*] listColumns;
+   
+}
+
+class Column {
+    attr String name;
+    
+    val DataType dataType;
+    attr boolean isPrimaryKey;
+    attr boolean notNull;
+    attr boolean uniqueIndex;
+    attr boolean isBinaryColumn;
+    attr boolean unsignedDataType;
+    attr boolean fillUpValuesColumn;
+    attr boolean isAutoIncremental;
+    attr boolean generatedColumn;
+    attr String expression;
+    attr String foreignKey;
+    
+    val DataType[*] listDataType;
+}
+
+class DataType {
+    attr String name;
+    attr String description;
+    attr String size;
+}
+
+class RelationTables {
+    attr String rolA;
+    attr String rolB;
+    attr String navigabilityA;
+    attr String navigabilityB;
+    attr String multiplicityA;
+    attr String multiplicityB;
+    
+    ref Table source;
+    ref Table target;
+}
+
+class RelationOneToOne extends RelationTables {}
+
+class RelationOneToMany extends RelationTables {}
+
+class RelationManyToOne extends RelationTables {}
+
+class RelationManyToMany extends RelationTables {}
+
+

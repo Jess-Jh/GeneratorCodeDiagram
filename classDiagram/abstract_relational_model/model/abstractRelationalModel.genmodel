@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/abstract_relational_model/src" modelPluginID="abstract_relational_model"
+    modelName="Relationalmodel" importerID="org.eclipse.emf.importer.ecore" complianceLevel="6.0"
+    copyrightFields="false">
+  <foreignModel>abstractRelationalModel.emf</foreignModel>
+  <genPackages prefix="Relationalmodel" disposableProviderFactory="true" ecorePackage="abstractRelationalModel.ecore#/">
+    <genClasses ecoreClass="abstractRelationalModel.ecore#//ModelFactoryAbstractRelationalModel">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//ModelFactoryAbstractRelationalModel/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference abstractRelationalModel.ecore#//ModelFactoryAbstractRelationalModel/listSchemas"/>
+    </genClasses>
+    <genClasses ecoreClass="abstractRelationalModel.ecore#//Schema">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Schema/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference abstractRelationalModel.ecore#//Schema/listTables"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference abstractRelationalModel.ecore#//Schema/RelationTables"/>
+    </genClasses>
+    <genClasses ecoreClass="abstractRelationalModel.ecore#//Table">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Table/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference abstractRelationalModel.ecore#//Table/listColumns"/>
+    </genClasses>
+    <genClasses ecoreClass="abstractRelationalModel.ecore#//Column">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Column/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference abstractRelationalModel.ecore#//Column/dataType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Column/isPrimaryKey"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Column/notNull"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Column/uniqueIndex"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Column/isBinaryColumn"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Column/unsignedDataType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Column/fillUpValuesColumn"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Column/isAutoIncremental"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Column/generatedColumn"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Column/expression"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference abstractRelationalModel.ecore#//Column/listDataType"/>
+    </genClasses>
+    <genClasses ecoreClass="abstractRelationalModel.ecore#//DataType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//DataType/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//DataType/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//DataType/size"/>
+    </genClasses>
+    <genClasses ecoreClass="abstractRelationalModel.ecore#//RelationTables">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//RelationTables/rolA"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//RelationTables/rolB"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//RelationTables/navigabilityA"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//RelationTables/navigabilityB"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//RelationTables/multiplicityA"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//RelationTables/multiplicityB"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference abstractRelationalModel.ecore#//RelationTables/source"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference abstractRelationalModel.ecore#//RelationTables/target"/>
+    </genClasses>
+    <genClasses ecoreClass="abstractRelationalModel.ecore#//RelationOneToOne"/>
+    <genClasses ecoreClass="abstractRelationalModel.ecore#//RelationOneToMany"/>
+    <genClasses ecoreClass="abstractRelationalModel.ecore#//RelationManyToOne"/>
+    <genClasses ecoreClass="abstractRelationalModel.ecore#//RelationManyToMany"/>
+  </genPackages>
+</genmodel:GenModel>

@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.emf.emfatic.ui.wizards.EmfaticNewWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.emf.codegen.ecore.ui.EmptyProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.emf.codegen.ecore.ui.wizardCategory"/>
 			<item value="org.eclipse.epsilon.dt"/>
 			<item value="org.eclipse.emf.ecore.Wizard.category.ID"/>
-			<item value="org.eclipse.ui.Examples"/>
-			<item value="org.eclipse.ui.Examples/org.eclipse.emf.examples.EMF"/>
-			<item value="org.eclipse.ui.Examples/org.eclipse.emf.validation.examples.category"/>
-			<item value="org.eclipse.ui.Examples/org.eclipse.epsilon.common.dt.examples"/>
+			<item value="org.eclipse.ui.Other"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.internal.dialogs.WorkbenchEditorsDialog">
