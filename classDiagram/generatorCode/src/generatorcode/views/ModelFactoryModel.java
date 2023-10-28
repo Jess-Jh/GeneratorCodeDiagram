@@ -118,6 +118,8 @@ public class ModelFactoryModel {
 			resource.load(null);
 			modelFactory = (ModelFactory)resource.getContents().get(0);
 			System.out.println("loaded: " + modelFactory);
+			
+			
 		}
 		catch (java.io.IOException e) {
 			System.out.println("failed to read " + uri); 		
@@ -566,7 +568,7 @@ public class ModelFactoryModel {
 					+ "  State<"+ (userInterface.getName() != "" ? userInterface.getName()+"Page" : "RegisterPage") + "> createState() =>" + (userInterface.getName() != "" ? "_"+userInterface.getName()+"PageState()" : "_RegisterPageState()")  + ";\n"
 					+ "}\n"
 					+ "\n"
-					+ "class " + (userInterface.getName() != "" ? "_"+userInterface.getName()+"PageState" : "_RegisterPageState")  + " extends State<RegistroPage> {\n"
+					+ "class " + (userInterface.getName() != "" ? "_"+userInterface.getName()+"PageState" : "_RegisterPageState")  + " extends State<" + (userInterface.getName() != "" ? userInterface.getName()+"Page" : "RegisterPage")  + "> {\n"
 					+ "  DateTime? selectedDate;\n"
 					+ "  bool isSwitch = false, checkboxSelected = false, radiosButtonSelected = false;\n"
 					+ "  String selectedValue = 'Opción 1';\n"
@@ -585,27 +587,27 @@ public class ModelFactoryModel {
 				}
 			}
 
-			for (uidiagram.TemplateWidget template : userInterface.getListTemplateWidget()) {
 
-				if (flag) {
+//				if (flag) {
 					content.append("body: Container(\n"
 					 + "            padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 16),\n"
 				     + "            child: SingleChildScrollView(\n"
 					 + "              child: Column(\n" 
 					 + "			  crossAxisAlignment: CrossAxisAlignment.start,\n"
 					 + "	      	  children: [\n");
-					flag = false;
-				}
+//					flag = false;
+//				}
+			for (uidiagram.TemplateWidget template : userInterface.getListTemplateWidget()) {
 				content.append(validateTypeTemplate(template));
 				content.append("SizedBox(height: 20),\n");
 			}
 
-			if (!flag) {
+//			if (!flag) {
 				content.append("	],\n" 
 						+ "  	),\n");
-			}
+//			}
 			
-		content.append( "  	),"
+		content.append( "  	),\n"
 				+ "		   ),\n"
 				+ "		  ),\n"				
 				+ "		);\n"
@@ -683,11 +685,11 @@ public class ModelFactoryModel {
 		StringBuilder content = new StringBuilder();
 			
 			content.append("Container(\n"
-					+ "          width: " + (group.getWidth() != 0 ? group.getWidth() : " double.infinity,") + "\n"
-					+ "          constraints: const BoxConstraints(minHeight: " + (group.getHeight() != 0 ? group.getHeight() : "44)") + ",\n"
+					+ "          width: " + (group.getWidth() != 0 ? group.getWidth() : " double.infinity") + ",\n"
+					+ "          constraints: const BoxConstraints(minHeight: " + (group.getHeight() != 0 ? group.getHeight() : "44") + "),\n"
 					+ "          padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 16),\n"
-					+ "          borderRadius: BorderRadius.circular("+ (group.getBorderRadius() != null ? group.getBorderRadius() : "0") +"),\n"		
 					+ "          decoration: BoxDecoration(\n"
+					+ "            borderRadius: BorderRadius.circular("+ (group.getBorderRadius() != null ? group.getBorderRadius() : "0") +"),\n"		
 					+ "            color: " + (group.getBackgroundColor() != null ? "Color(0xFF"+ group.getBackgroundColor()+"),"  : "Colors.transparent,") + "\n"
 					+ "            border: Border.all(\n"
 					+ "            	width: " + (group.getBorderWidth() != null ? group.getBorderWidth() : " 1" + ",\n")
@@ -725,7 +727,7 @@ public class ModelFactoryModel {
 		 
 			
 			content.append("\tRow(\n"
-					+ "		   mainAxisAlignment: MainAxisAlignment." + (groupRow.getAlignment() != null ? groupRow.getAlignment() : "center" ) +  ",\n"
+					+ "		   mainAxisAlignment: MainAxisAlignment." + (groupRow.getAlignment() != null ? groupRow.getAlignment() : "spaceBetween" ) +  ",\n"
 					+ "		  children: [\n");
 
 			for(uidiagram.TemplateWidget groupRowChild : groupRow.getListTemplateWidget()) {
@@ -877,8 +879,8 @@ public class ModelFactoryModel {
 		
 		content.append("ListView.builder(\n"
 				+ "          physics: const BouncingScrollPhysics(),\n"
-				+ "          controller: ctrl.scrollContactsController,\n"
 				+ "          itemCount: 10,\n"
+				+ "		     shrinkWrap: true,\n"
 				+ "          padding: const EdgeInsets.only(bottom: 100),\n"
 				+ "          itemBuilder: (context, index) {\n"
 				+ "\n"
@@ -1063,7 +1065,7 @@ public class ModelFactoryModel {
 		
 		for(uidiagram.Column column : table.getListCoulmns()) {
 			content.append("DataColumn(label: SizedBox(\n"
-					+ "         width: MediaQuery.of(context).size.width * 0.15,\n"
+					+ "         width: MediaQuery.of(context).size.width * 0.2,\n"
 					+ "			child: const Text("+  "'"+column.getName()+"'" + "),"
 				    + "         ),"
 				    + "     ),\n");

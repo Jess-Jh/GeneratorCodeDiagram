@@ -16,11 +16,18 @@ import org.eclipse.swt.widgets.Shell;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.widgets.Text;
 
+import concrete.ConcretePackage;
+import concrete.MethodJJD;
+import uidiagram.ModelFactory;
+import uidiagram.UIDiagram;
+
 public class DialogButtonView extends Dialog {
     private Text textName;
     private Text textColor;
 	private Combo comboAlignment;
+	private Combo comboNavigate;
     private uidiagram.Button model;
+    private ModelFactory modelFactory;
     private TransactionalEditingDomain domain;
 
     /**
@@ -33,6 +40,7 @@ public class DialogButtonView extends Dialog {
         super(parentShell);
         this.model = model;
         this.domain = domain;
+        this.modelFactory = uploadUIDiagram();
     }
 
     /**
@@ -43,7 +51,7 @@ public class DialogButtonView extends Dialog {
     protected Control createDialogArea(Composite parent) {
     	Composite container = (Composite) super.createDialogArea(parent);
 		GridLayout gridLayout = (GridLayout) container.getLayout();
-		gridLayout.numColumns = 4;
+		gridLayout.numColumns = 5;
 		new Label(container, SWT.NONE);
 		
 		Label lblNewLabel = new Label(container, SWT.NONE);
@@ -53,6 +61,7 @@ public class DialogButtonView extends Dialog {
 		textName = new Text(container, SWT.BORDER);
 		textName.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
 		new Label(container, SWT.NONE);
+		new Label(container, SWT.NONE);
 		
 		Label lblColor = new Label(container, SWT.NONE);
 		lblColor.setText("Color:");
@@ -61,6 +70,7 @@ public class DialogButtonView extends Dialog {
 		textColor = new Text(container, SWT.BORDER);
 		textColor.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
 		new Label(container, SWT.NONE);
+		new Label(container, SWT.NONE);
 		
 		Label lblAlignment = new Label(container, SWT.NONE);
 		lblAlignment.setText("Aligntment:");
@@ -68,6 +78,8 @@ public class DialogButtonView extends Dialog {
 		
 		comboAlignment = new Combo(container, SWT.NONE);
 		comboAlignment.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
+		new Label(container, SWT.NONE);
+		new Label(container, SWT.NONE);
 		comboAlignment.add("bottomCenter");
 		comboAlignment.add("bottomLeft");
 		comboAlignment.add("bottomRight");
@@ -77,9 +89,44 @@ public class DialogButtonView extends Dialog {
 		comboAlignment.add("topCenter");
 		comboAlignment.add("topLeft");
 		comboAlignment.add("topRight");
+		
+		Label lblNavigate = new Label(container, SWT.NONE);
+		lblNavigate.setText("Navegar:");
+		new Label(container, SWT.NONE);
+		
+		comboNavigate = new Combo(container, SWT.NONE);
+		comboNavigate.setLayoutData(new GridData(SWT.FILL, SWT.CENTER, true, false, 1, 1));
+		new Label(container, SWT.NONE);
+		new Label(container, SWT.NONE);
+		
+		for(UIDiagram diagram : modelFactory.getListDiagrams()) {
+			comboNavigate.add(diagram.getName());
+		}
 
 		return container;
     }
+    
+	public ModelFactory uploadUIDiagram() {
+		ModelFactory modelFactory = null;
+		
+		ConcretePackage whoownmePackage =  ConcretePackage.eINSTANCE;
+		org.eclipse.emf.ecore.resource.ResourceSet resourceSet = new org.eclipse.emf.ecore.resource.impl.ResourceSetImpl();		
+		org.eclipse.emf.common.util.URI uri = org.eclipse.emf.common.util.URI.createURI("platform:/resource/test/src/model/model.uidiagram");
+		org.eclipse.emf.ecore.resource.Resource resource = resourceSet.createResource(uri);
+		
+		try {
+			resource.load(null);
+			modelFactory = (ModelFactory)resource.getContents().get(0);
+			System.out.println("loaded: " + modelFactory);
+			
+			
+		}
+		catch (java.io.IOException e) {
+			System.out.println("failed to read " + uri); 		
+			System.out.println(e);
+		}
+		return modelFactory;
+	}
 
     /**
      * Create contents of the button bar.

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uidiagram:ModelFactory xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uidiagram="uidiagram">
+  <listDiagrams name="Login">
+    <userInterface idInterface="1698465088618_384" name="Registro" positionX="268" positionY="8" width="417.0" height="969.0" backgroundColor="16777215">
+      <listTemplateWidget xsi:type="uidiagram:Appbar" idTemplate="1698286571000_6" name="app" positionX="-6" width="411.0" height="101.0" backgroundColor="11111" alignment="center">
+        <listLabels idTemplate="1697861843834_16" name="Registro" positionX="-2" positionY="4" width="105.0" height="13.0" backgroundColor="16777215" alignment="center" fontSize="20" fontColor="34495E" fontWeight="bold"/>
+        <listLabels idTemplate="1698464162115_74" name="Lista Clientes" positionX="111" positionY="4" width="116.0" height="23.0" backgroundColor="16777215" fontSize="20" fontColor="34495E" fontWeight="bold"/>
+        <listLabels idTemplate="1698464157150_68" name="Menú" positionX="255" positionY="6" width="97.0" height="25.0" backgroundColor="16777215" fontSize="20" fontColor="34495E" fontWeight="bold"/>
+      </listTemplateWidget>
+      <listTemplateWidget xsi:type="uidiagram:GroupRow" idTemplate="1698026020797_3" positionX="2" positionY="112" width="391.0" height="89.0" backgroundColor="16777215" alignment="spaceAround">
+        <listTemplateWidget xsi:type="uidiagram:Label" idTemplate="1697862226041_93" name="Nombre" positionX="6" positionY="8" width="129.0" height="33.0" backgroundColor="16777215" fontColor="34495E"/>
+        <listTemplateWidget xsi:type="uidiagram:Input" idTemplate="1698026033827_9" positionX="150" positionY="8" width="219.0" height="37.0" backgroundColor="16777215"/>
+      </listTemplateWidget>
+      <listTemplateWidget xsi:type="uidiagram:GroupRow" idTemplate="1698464412550_159" positionX="4" positionY="204" width="395.0" height="85.0" backgroundColor="16777215">
+        <listTemplateWidget xsi:type="uidiagram:Label" idTemplate="1697862631435_139" name="Fecha de nacimiento" positionX="14" positionY="4" width="137.0" height="29.0" backgroundColor="16777215" fontSize="14" fontColor="34495E" fontWeight=""/>
+        <listTemplateWidget xsi:type="uidiagram:DatePicker" idTemplate="1698286558782_3" positionX="160" positionY="4" width="211.0" height="33.0" backgroundColor="16777215"/>
+      </listTemplateWidget>
+      <listTemplateWidget xsi:type="uidiagram:GroupRow" idTemplate="1698464416100_163" positionX="2" positionY="292" width="389.0" height="93.0" backgroundColor="16777215">
+        <listTemplateWidget xsi:type="uidiagram:Label" idTemplate="1698464349748_109" name="Seleccione una opción" positionX="-2" positionY="4" width="131.0" height="29.0" backgroundColor="16777215"/>
+        <listTemplateWidget xsi:type="uidiagram:ComboBox" idTemplate="1698464372532_131" positionX="160" positionY="4" width="193.0" height="25.0" backgroundColor="16777215"/>
+      </listTemplateWidget>
+      <listTemplateWidget xsi:type="uidiagram:GroupRow" idTemplate="1698464441933_184" positionX="7" positionY="393" width="384.0" height="84.0" backgroundColor="16777215">
+        <listTemplateWidget xsi:type="uidiagram:Label" idTemplate="1698464450173_194" name="Se encuentra activo" positionX="-3" positionY="7" width="141.0" height="29.0" backgroundColor="16777215"/>
+        <listTemplateWidget xsi:type="uidiagram:Switch" idTemplate="1698464463092_211" positionX="166" positionY="-1" width="93.0" height="33.0" backgroundColor="00B00B"/>
+      </listTemplateWidget>
+      <listTemplateWidget xsi:type="uidiagram:GroupRow" idTemplate="1698464869381_294" positionX="2" positionY="480" width="393.0" height="73.0" backgroundColor="16777215">
+        <listTemplateWidget xsi:type="uidiagram:Label" idTemplate="1698464850399_271" name="Estudiante" positionX="2" positionY="4" width="153.0" height="29.0" backgroundColor="16777215"/>
+        <listTemplateWidget xsi:type="uidiagram:Checkbox" idTemplate="1698464872081_297" positionX="170" width="41.0" height="25.0" backgroundColor="16777215"/>
+      </listTemplateWidget>
+      <listTemplateWidget xsi:type="uidiagram:GroupRow" idTemplate="1698464954616_344" positionX="2" positionY="560" width="385.0" height="73.0" backgroundColor="16777215">
+        <listTemplateWidget xsi:type="uidiagram:Label" idTemplate="1698464900468_323" name="Trabaja medio tiempo" positionX="2" width="157.0" height="29.0" backgroundColor="16777215"/>
+        <listTemplateWidget xsi:type="uidiagram:RadioButton" idTemplate="1698464950436_337" positionX="170" width="37.0" height="29.0" backgroundColor="16777215"/>
+      </listTemplateWidget>
+      <listTemplateWidget xsi:type="uidiagram:Table" idTemplate="1698464978706_367" name="Detalle del registro" positionX="2" positionY="644" width="389.0" height="157.0" backgroundColor="16777215">
+        <listCoulmns name="Nombre"/>
+        <listCoulmns name="Apellido"/>
+        <listCoulmns name="Opción"/>
+        <listCoulmns name="Estudiante"/>
+      </listTemplateWidget>
+      <listTemplateWidget xsi:type="uidiagram:Button" idTemplate="1698465097140_394" name="Realizar registro" positionX="2" positionY="816" width="385.0" height="53.0" backgroundColor="16777215"/>
+    </userInterface>
+  </listDiagrams>
+  <listDiagrams name="list">
+    <userInterface idInterface="1698438777268_23" name="list" positionX="112" positionY="4" width="361.0" height="697.0" backgroundColor="16777215">
+      <listTemplateWidget xsi:type="uidiagram:Appbar" idTemplate="1698438841433_85" name="Lista del Appbar" positionX="8" width="337.0" height="85.0" backgroundColor="16777215">
+        <listLabels idTemplate="1698438820435_62" name="Nombre" positionY="5" width="650.0" backgroundColor="16777215"/>
+        <listLabels idTemplate="1698438844618_88" name="Lista Clientes" positionX="72" positionY="6" width="650.0" backgroundColor="16777215"/>
+        <listLabels idTemplate="1698438866085_108" name="Usuarios" positionX="200" positionY="10" width="93.0" height="25.0" backgroundColor="16777215"/>
+      </listTemplateWidget>
+      <listTemplateWidget xsi:type="uidiagram:ListView" idTemplate="1698438953968_165" name="Lista clientes" positionX="10" positionY="100" width="329.0" height="441.0" backgroundColor="16777215">
+        <templateWidget xsi:type="uidiagram:GroupColumn" idTemplate="1698438969667_197" positionX="-2" width="313.0" height="265.0" backgroundColor="16777215">
+          <listTemplateWidget xsi:type="uidiagram:GroupRow" idTemplate="1698439041350_255" positionX="-2" positionY="8" width="301.0" height="81.0" backgroundColor="16777215">
+            <listTemplateWidget xsi:type="uidiagram:Label" idTemplate="1698439007889_225" name="Ejemplo" positionX="6" width="117.0" height="25.0" backgroundColor="16777215"/>
+            <listTemplateWidget xsi:type="uidiagram:Input" idTemplate="1698439024750_250" positionX="130" width="157.0" height="33.0" backgroundColor="16777215"/>
+          </listTemplateWidget>
+          <listTemplateWidget xsi:type="uidiagram:GroupRow" idTemplate="1698462806232_7" positionX="-6" positionY="96" width="293.0" height="69.0" backgroundColor="16777215">
+            <listTemplateWidget xsi:type="uidiagram:Switch" idTemplate="1698462821199_31" positionX="166" positionY="3" width="69.0" height="25.0" backgroundColor="16777215"/>
+            <listTemplateWidget xsi:type="uidiagram:Label" idTemplate="1698462813492_20" name="Empleado" positionX="6" positionY="4" width="133.0" height="25.0" backgroundColor="16777215"/>
+          </listTemplateWidget>
+        </templateWidget>
+      </listTemplateWidget>
+      <listTemplateWidget xsi:type="uidiagram:Button" idTemplate="1698439121032_325" name="Registrar Respuesta" positionX="10" positionY="548" width="301.0" height="41.0" backgroundColor="16777215"/>
+    </userInterface>
+  </listDiagrams>
+</uidiagram:ModelFactory>

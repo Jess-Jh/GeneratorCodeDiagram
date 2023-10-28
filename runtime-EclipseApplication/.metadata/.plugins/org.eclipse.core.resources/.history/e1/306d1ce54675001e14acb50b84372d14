@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:uidiagram="uidiagram" xmi:id="_RTjcgG02Ee6ElI8X8EL3Ng" type="Uidiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_SqQJsG02Ee6ElI8X8EL3Ng" type="2001" fontName=".AppleSystemUIFont">
+    <children xmi:type="notation:DecorationNode" xmi:id="_SqQwwG02Ee6ElI8X8EL3Ng" type="5081"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_SqQwwW02Ee6ElI8X8EL3Ng" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_mqzOIG67Ee6b57_Al6SQ8g" type="3069" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_mqz1MG67Ee6b57_Al6SQ8g" type="5069"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_mqz1MW67Ee6b57_Al6SQ8g" type="7041" collapsed="true"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_mqz1Mm67Ee6b57_Al6SQ8g" type="7042">
+          <children xmi:type="notation:Shape" xmi:id="_s7NfcG6_Ee6-bvNnH8V9ZQ" type="3009" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_s7OGgG6_Ee6-bvNnH8V9ZQ" type="5002"/>
+            <element xmi:type="uidiagram:Label" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.0/@listLabels.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s7NfcW6_Ee6-bvNnH8V9ZQ" x="-2" y="4" width="105" height="13"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_v0M4YG_IEe6gb961x2T1jw" type="3009" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_v0OGgG_IEe6gb961x2T1jw" type="5002"/>
+            <element xmi:type="uidiagram:Label" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.0/@listLabels.1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v0M4YW_IEe6gb961x2T1jw" x="111" y="4" width="116" height="23"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_Ft8PwHVDEe6sZK5bjHuW0Q" type="3009" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_Ft820HVDEe6sZK5bjHuW0Q" type="5002"/>
+            <element xmi:type="uidiagram:Label" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.0/@listLabels.2"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ft8PwXVDEe6sZK5bjHuW0Q" x="255" y="6" width="97" height="25"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_mqzOIW67Ee6b57_Al6SQ8g"/>
+        <element xmi:type="uidiagram:Appbar" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mqzOIm67Ee6b57_Al6SQ8g" x="-6" width="411" height="101"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_iM0nQG_JEe6gb961x2T1jw" type="3068" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_iM1OUm_JEe6gb961x2T1jw" type="5068"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_iM11YG_JEe6gb961x2T1jw" type="7040">
+          <children xmi:type="notation:Shape" xmi:id="_m_sgYG_JEe6gb961x2T1jw" type="3041" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_m_tHcG_JEe6gb961x2T1jw" type="5027"/>
+            <element xmi:type="uidiagram:Label" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.1/@listTemplateWidget.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m_sgYW_JEe6gb961x2T1jw" x="6" y="8" width="129" height="33"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_pgaJoG_JEe6gb961x2T1jw" type="3043" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_pgaJom_JEe6gb961x2T1jw" type="5029"/>
+            <element xmi:type="uidiagram:Input" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.1/@listTemplateWidget.1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pgaJoW_JEe6gb961x2T1jw" x="150" y="8" width="219" height="37"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_iM1OUG_JEe6gb961x2T1jw"/>
+        <element xmi:type="uidiagram:GroupRow" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iM1OUW_JEe6gb961x2T1jw" x="2" y="112" width="391" height="89"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_iDLtoG_KEe6gb961x2T1jw" type="3068" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_iDMUsG_KEe6gb961x2T1jw" type="5068"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_iDMUsW_KEe6gb961x2T1jw" type="7040">
+          <children xmi:type="notation:Shape" xmi:id="_kb4DUG_KEe6gb961x2T1jw" type="3041" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_kb4qYG_KEe6gb961x2T1jw" type="5027"/>
+            <element xmi:type="uidiagram:Label" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.2/@listTemplateWidget.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kb4DUW_KEe6gb961x2T1jw" x="14" y="4" width="137" height="29"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_OlBZ4G_MEe6YaLNfOc0QZg" type="3059" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_OlCA8G_MEe6YaLNfOc0QZg" type="5045"/>
+            <element xmi:type="uidiagram:DatePicker" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.2/@listTemplateWidget.1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OlBZ4W_MEe6YaLNfOc0QZg" x="160" y="4" width="211" height="33"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_iDLtoW_KEe6gb961x2T1jw"/>
+        <element xmi:type="uidiagram:GroupRow" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iDLtom_KEe6gb961x2T1jw" x="4" y="204" width="395" height="85"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_0tkkQHRsEe6FZ9VK-klCwg" type="3068" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_0tlLUHRsEe6FZ9VK-klCwg" type="5068"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_0tlLUXRsEe6FZ9VK-klCwg" type="7040">
+          <children xmi:type="notation:Shape" xmi:id="_iAopUHVDEe6sZK5bjHuW0Q" type="3041" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_iApQYHVDEe6sZK5bjHuW0Q" type="5027"/>
+            <element xmi:type="uidiagram:Label" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.3/@listTemplateWidget.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iAopUXVDEe6sZK5bjHuW0Q" x="-2" y="4" width="131" height="29"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_lOK8UHVDEe6sZK5bjHuW0Q" type="3058" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_lOLjYHVDEe6sZK5bjHuW0Q" type="5044"/>
+            <element xmi:type="uidiagram:ComboBox" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.3/@listTemplateWidget.1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lOK8UXVDEe6sZK5bjHuW0Q" x="160" y="4" width="193" height="25"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_0tkkQXRsEe6FZ9VK-klCwg"/>
+        <element xmi:type="uidiagram:GroupRow" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.3"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0tkkQnRsEe6FZ9VK-klCwg" x="2" y="292" width="389" height="93"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_v4X1MHVDEe6sZK5bjHuW0Q" type="3068" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_v4ZDUHVDEe6sZK5bjHuW0Q" type="5068"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_v4ZDUXVDEe6sZK5bjHuW0Q" type="7040">
+          <children xmi:type="notation:Shape" xmi:id="_yaoWkHVDEe6sZK5bjHuW0Q" type="3041" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_yao9oHVDEe6sZK5bjHuW0Q" type="5027"/>
+            <element xmi:type="uidiagram:Label" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.4/@listTemplateWidget.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yaoWkXVDEe6sZK5bjHuW0Q" x="-3" y="7" width="141" height="29"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_0V038HVDEe6sZK5bjHuW0Q" type="3060" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_0V038nVDEe6sZK5bjHuW0Q" type="5046"/>
+            <element xmi:type="uidiagram:Switch" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.4/@listTemplateWidget.1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0V038XVDEe6sZK5bjHuW0Q" x="166" y="-1" width="93" height="33"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_v4YcQHVDEe6sZK5bjHuW0Q"/>
+        <element xmi:type="uidiagram:GroupRow" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.4"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4YcQXVDEe6sZK5bjHuW0Q" x="7" y="393" width="384" height="84"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_tAjeEHVEEe6sZK5bjHuW0Q" type="3068" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_tAkFIHVEEe6sZK5bjHuW0Q" type="5068"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_tAkFIXVEEe6sZK5bjHuW0Q" type="7040">
+          <children xmi:type="notation:Shape" xmi:id="_uDfhwHVEEe6sZK5bjHuW0Q" type="3041" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_uDfhwnVEEe6sZK5bjHuW0Q" type="5027"/>
+            <element xmi:type="uidiagram:Label" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.5/@listTemplateWidget.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uDfhwXVEEe6sZK5bjHuW0Q" x="2" y="4" width="153" height="29"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_wNJ88HVEEe6sZK5bjHuW0Q" type="3042" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_wNJ88nVEEe6sZK5bjHuW0Q" type="5028"/>
+            <element xmi:type="uidiagram:Checkbox" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.5/@listTemplateWidget.1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wNJ88XVEEe6sZK5bjHuW0Q" x="170" width="41" height="25"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_tAjeEXVEEe6sZK5bjHuW0Q"/>
+        <element xmi:type="uidiagram:GroupRow" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.5"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tAjeEnVEEe6sZK5bjHuW0Q" x="2" y="480" width="393" height="73"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_z_OgYHVEEe6sZK5bjHuW0Q" type="3068" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_z_OgY3VEEe6sZK5bjHuW0Q" type="5068"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_z_OgZHVEEe6sZK5bjHuW0Q" type="7040">
+          <children xmi:type="notation:Shape" xmi:id="_1g_OEHVEEe6sZK5bjHuW0Q" type="3041" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_1g_1IHVEEe6sZK5bjHuW0Q" type="5027"/>
+            <element xmi:type="uidiagram:Label" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.6/@listTemplateWidget.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1g_OEXVEEe6sZK5bjHuW0Q" x="2" width="157" height="29"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_89h4IHVEEe6sZK5bjHuW0Q" type="3057" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_89h4InVEEe6sZK5bjHuW0Q" type="5043"/>
+            <element xmi:type="uidiagram:RadioButton" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.6/@listTemplateWidget.1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_89h4IXVEEe6sZK5bjHuW0Q" x="170" width="37" height="29"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_z_OgYXVEEe6sZK5bjHuW0Q"/>
+        <element xmi:type="uidiagram:GroupRow" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.6"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z_OgYnVEEe6sZK5bjHuW0Q" x="2" y="560" width="385" height="73"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_BLGr0HVFEe6sZK5bjHuW0Q" type="3080" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_BLGr03VFEe6sZK5bjHuW0Q" type="5080"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_BLGr1HVFEe6sZK5bjHuW0Q" type="7046">
+          <children xmi:type="notation:Shape" xmi:id="_HfL5AHVFEe6sZK5bjHuW0Q" type="3024" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_HfMgEHVFEe6sZK5bjHuW0Q" type="5015"/>
+            <element xmi:type="uidiagram:Column" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.7/@listCoulmns.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HfL5AXVFEe6sZK5bjHuW0Q" x="-2" width="85" height="117"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_JkMdsHVFEe6sZK5bjHuW0Q" type="3024" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_JkNEwHVFEe6sZK5bjHuW0Q" type="5015"/>
+            <element xmi:type="uidiagram:Column" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.7/@listCoulmns.1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JkMdsXVFEe6sZK5bjHuW0Q" x="92" width="81" height="117"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_LoIrYHVFEe6sZK5bjHuW0Q" type="3024" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_LoIrYnVFEe6sZK5bjHuW0Q" type="5015"/>
+            <element xmi:type="uidiagram:Column" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.7/@listCoulmns.2"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LoIrYXVFEe6sZK5bjHuW0Q" x="180" y="4" width="81" height="113"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_N_ar0HVFEe6sZK5bjHuW0Q" type="3024" fontName=".AppleSystemUIFont">
+            <children xmi:type="notation:DecorationNode" xmi:id="_N_bS4HVFEe6sZK5bjHuW0Q" type="5015"/>
+            <element xmi:type="uidiagram:Column" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.7/@listCoulmns.3"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N_ar0XVFEe6sZK5bjHuW0Q" x="268" width="85" height="117"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_BLGr0XVFEe6sZK5bjHuW0Q"/>
+        <element xmi:type="uidiagram:Table" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.7"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BLGr0nVFEe6sZK5bjHuW0Q" x="2" y="644" width="389" height="157"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_S0lrAHVFEe6sZK5bjHuW0Q" type="3071" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_S0mSEHVFEe6sZK5bjHuW0Q" type="5071"/>
+        <element xmi:type="uidiagram:Button" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.8"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S0lrAXVFEe6sZK5bjHuW0Q" x="2" y="816" width="385" height="53"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_SqQJsW02Ee6ElI8X8EL3Ng"/>
+    <element xmi:type="uidiagram:UserInterface" href="model.uidiagram#//@listDiagrams.0/@userInterface"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SqQJsm02Ee6ElI8X8EL3Ng" x="268" y="8" width="417" height="969"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_RTjcgW02Ee6ElI8X8EL3Ng"/>
+  <element xmi:type="uidiagram:UIDiagram" href="model.uidiagram#//@listDiagrams.0"/>
+</notation:Diagram>
