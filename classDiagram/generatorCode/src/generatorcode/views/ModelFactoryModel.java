@@ -547,7 +547,6 @@ public class ModelFactoryModel {
 
 	//--------------------------------------------------------------------------- TRANFORMATION FRAMEWORK --------------------------------------------------------------------------------------------------------------------------->>
 	
-	private boolean flag = true;
 	public void transformationFramework() {
 		for(uidiagram.UIDiagram uidiagram : modelFactoryUiDiagram.getListDiagrams()) {
 			createFlutterFile(uidiagram.getUserInterface());	
@@ -588,24 +587,19 @@ public class ModelFactoryModel {
 			}
 
 
-//				if (flag) {
-					content.append("body: Container(\n"
-					 + "            padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 16),\n"
-				     + "            child: SingleChildScrollView(\n"
-					 + "              child: Column(\n" 
-					 + "			  crossAxisAlignment: CrossAxisAlignment.start,\n"
-					 + "	      	  children: [\n");
-//					flag = false;
-//				}
+			content.append("body: Container(\n"
+			 + "            padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 16),\n"
+				   + "            child: SingleChildScrollView(\n"
+			 + "              child: Column(\n" 
+			 + "			  crossAxisAlignment: CrossAxisAlignment.start,\n"
+			 + "	      	  children: [\n");
 			for (uidiagram.TemplateWidget template : userInterface.getListTemplateWidget()) {
 				content.append(validateTypeTemplate(template));
 				content.append("SizedBox(height: 20),\n");
 			}
 
-//			if (!flag) {
-				content.append("	],\n" 
-						+ "  	),\n");
-//			}
+		    content.append("	],\n" 
+				    + "  	),\n");
 			
 		content.append( "  	),\n"
 				+ "		   ),\n"
@@ -615,7 +609,7 @@ public class ModelFactoryModel {
 				+ "}\n"
 			);
 			System.out.println(content.toString());
-//			CreateFile(userInterface.getName()+"Page"+".dart",content, false);
+			CreateFile(userInterface.getName()+"Page"+".dart",content, false);
 	}
 	
 	private int getNumberButtons(UserInterface userInterface) {
@@ -806,6 +800,7 @@ public class ModelFactoryModel {
 					+                  (button.getName() != null ?  "'" + button.getName() + "'" : "") + ",\n"               
 					+ "                style: TextStyle(\n"
 					+ "                  fontWeight: FontWeight.bold,\n"
+					+ "					 color: Colors.white,\n"
 					+ "                  fontSize: 16,\n"
 					+ "                ),\n"
 					+ "              ),\n"
