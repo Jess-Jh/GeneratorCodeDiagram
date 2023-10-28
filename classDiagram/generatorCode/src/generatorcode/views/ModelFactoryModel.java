@@ -786,7 +786,13 @@ public class ModelFactoryModel {
 		StringBuilder content = new StringBuilder();
 					
 			content.append("GestureDetector(\n"
-					+ "      onTap: () {},\n"
+					+ "      onTap: () {\n"
+					+ "		    Navigator.push(\n"
+					+ "              context,\n"
+					+ "              MaterialPageRoute(\n"
+					+ "                  builder: (context) => " + (button.getNavigateTo() != null ? button.getNavigateTo()+"Page()" : "const SizedBox()") +"),\n"
+					+ "            );"
+					+ "		 },\n"
 					+ "      child: Container(\n"
 					+ "        alignment: Alignment.center,\n"
 					+ "        padding: const EdgeInsets.symmetric(horizontal: 8),\n"

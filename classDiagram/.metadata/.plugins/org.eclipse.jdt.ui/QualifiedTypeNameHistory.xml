@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePickerName4EditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePicker4EditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePickerName5EditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePicker5EditPart"/>
@@ -35,8 +34,6 @@
     <fullyQualifiedTypeName name="generatorcode.views.DialogSwitchView"/>
     <fullyQualifiedTypeName name="generatorcode.views.DialogTabbarView"/>
     <fullyQualifiedTypeName name="generatorcode.views.DialogTableView"/>
-    <fullyQualifiedTypeName name="uidiagram.UIDiagram"/>
-    <fullyQualifiedTypeName name="uidiagram.ModelFactory"/>
     <fullyQualifiedTypeName name="uidiagram.TemplateWidget"/>
     <fullyQualifiedTypeName name="uidiagram.GroupColumn"/>
     <fullyQualifiedTypeName name="uidiagram.GroupRow"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.helpers.ModelFactoryEditHelper"/>
     <fullyQualifiedTypeName name="org.eclipse.swt.widgets.Combo"/>
     <fullyQualifiedTypeName name="org.eclipse.emf.common.notify.Notification"/>
+    <fullyQualifiedTypeName name="uidiagram.UIDiagram"/>
+    <fullyQualifiedTypeName name="uidiagram.UserInterface"/>
+    <fullyQualifiedTypeName name="uidiagram.ModelFactory"/>
 </qualifiedTypeNameHistroy>

@@ -78,7 +78,9 @@ class Tabbar extends TemplateWidget {
 }
 
 @gmf.node(label = "name")
-class Button extends TemplateWidget {}
+class Button extends TemplateWidget {
+	attr String navigateTo;
+}
 
 @gmf.node(label = "name", border.width="0")
 class Label extends TemplateWidget {

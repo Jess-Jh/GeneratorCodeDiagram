@@ -636,6 +636,16 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 	 * @generated
 	 */
 	@Override
+	public EAttribute getButton_NavigateTo() {
+		return (EAttribute)buttonEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public EClass getLabel() {
 		return labelEClass;
 	}
@@ -867,6 +877,7 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		createEReference(tabbarEClass, TABBAR__LIST_LABELS);
 
 		buttonEClass = createEClass(BUTTON);
+		createEAttribute(buttonEClass, BUTTON__NAVIGATE_TO);
 
 		labelEClass = createEClass(LABEL);
 		createEAttribute(labelEClass, LABEL__FONT_SIZE);
@@ -988,6 +999,7 @@ public class UidiagramPackageImpl extends EPackageImpl implements UidiagramPacka
 		initEReference(getTabbar_ListLabels(), this.getLabel(), null, "listLabels", null, 0, -1, Tabbar.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(buttonEClass, Button.class, "Button", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getButton_NavigateTo(), ecorePackage.getEString(), "navigateTo", null, 0, 1, Button.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(labelEClass, Label.class, "Label", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getLabel_FontSize(), ecorePackage.getEString(), "fontSize", null, 0, 1, Label.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

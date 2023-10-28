@@ -52,7 +52,9 @@
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference uidiagram.ecore#//Tabbar/listButtons"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference uidiagram.ecore#//Tabbar/listLabels"/>
     </genClasses>
-    <genClasses ecoreClass="uidiagram.ecore#//Button"/>
+    <genClasses ecoreClass="uidiagram.ecore#//Button">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//Button/navigateTo"/>
+    </genClasses>
     <genClasses ecoreClass="uidiagram.ecore#//Label">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//Label/fontSize"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute uidiagram.ecore#//Label/fontColor"/>

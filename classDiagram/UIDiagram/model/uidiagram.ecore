@@ -101,6 +101,7 @@
     <eAnnotations source="gmf.node">
       <details key="label" value="name"/>
     </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="navigateTo" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Label" eSuperTypes="#//TemplateWidget">
     <eAnnotations source="gmf.node">

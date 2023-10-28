@@ -170,6 +170,7 @@ public class DialogButtonView extends Dialog {
         	if(textName != null && !(textName.getText().isEmpty()))  button.setName(textName.getText()); 
         	if(textColor != null && !(textColor.getText().isEmpty())) button.setBackgroundColor(textColor.getText());
         	if(!(comboAlignment.getText().isEmpty())) button.setAlignment(comboAlignment.getText());
+        	if(!(comboNavigate.getText().isEmpty())) button.setNavigateTo(comboNavigate.getText());
 
         }
 

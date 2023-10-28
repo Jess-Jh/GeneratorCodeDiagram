@@ -931,13 +931,22 @@ public interface UidiagramPackage extends EPackage {
 	int BUTTON__ALIGNMENT = TEMPLATE_WIDGET__ALIGNMENT;
 
 	/**
+	 * The feature id for the '<em><b>Navigate To</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int BUTTON__NAVIGATE_TO = TEMPLATE_WIDGET_FEATURE_COUNT + 0;
+
+	/**
 	 * The number of structural features of the '<em>Button</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int BUTTON_FEATURE_COUNT = TEMPLATE_WIDGET_FEATURE_COUNT + 0;
+	int BUTTON_FEATURE_COUNT = TEMPLATE_WIDGET_FEATURE_COUNT + 1;
 
 	/**
 	 * The meta object id for the '{@link uidiagram.impl.LabelImpl <em>Label</em>}' class.
@@ -2252,6 +2261,17 @@ public interface UidiagramPackage extends EPackage {
 	EClass getButton();
 
 	/**
+	 * Returns the meta object for the attribute '{@link uidiagram.Button#getNavigateTo <em>Navigate To</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Navigate To</em>'.
+	 * @see uidiagram.Button#getNavigateTo()
+	 * @see #getButton()
+	 * @generated
+	 */
+	EAttribute getButton_NavigateTo();
+
+	/**
 	 * Returns the meta object for class '{@link uidiagram.Label <em>Label</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -2770,6 +2790,14 @@ public interface UidiagramPackage extends EPackage {
 		 * @generated
 		 */
 		EClass BUTTON = eINSTANCE.getButton();
+
+		/**
+		 * The meta object literal for the '<em><b>Navigate To</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute BUTTON__NAVIGATE_TO = eINSTANCE.getButton_NavigateTo();
 
 		/**
 		 * The meta object literal for the '{@link uidiagram.impl.LabelImpl <em>Label</em>}' class.
