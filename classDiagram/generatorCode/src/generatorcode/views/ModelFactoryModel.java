@@ -43,6 +43,7 @@ import abstractJJD.ModelFactoryAbstractJJD;
 import relationalmodel.DataType;
 import relationalmodel.ModelFactoryAbstractRelationalModel;
 import relationalmodel.RelationalmodelFactory;
+import relationalmodel.Schema;
 
 public class ModelFactoryModel {
 	
@@ -1094,22 +1095,36 @@ public class ModelFactoryModel {
 	// ----------------------------------------------------- TRANSFORMACION MODELO ABSTRACTO A DSL ------------------------------------------------------------------>>
 	public void transformationDSL() {
 		
-		for (abstractJJD.PackageJJD packageJJD : modelFactoryAbstract.getListPackagesJJD()) {
-			
-			//TODO: paquetes a schemas
-			
-			for (abstractJJD.ClassJJD classJJD : packageJJD.getListClassJJD()) {
-					relationalmodel.Table table = RelationalmodelFactory.eINSTANCE.createTable();
-					table.setName(classJJD.getName());
-					
-					addAttributeToTable(classJJD, table);
-					addRelationsToTable(classJJD, table); 
-			}
+		for (abstractJJD.PackageJJD packageJJD : modelFactoryAbstract.getListPackagesJJD()) {	
+			createSchema(packageJJD);	
+//			addRelationsToTables(); 
 		}
 		saveAbstract();
 	}
 
-	private void addAttributeToTable(abstractJJD.ClassJJD classJJD, relationalmodel.Table table) {
+	private void createSchema(abstractJJD.PackageJJD parentPackage) {
+		
+		for (abstractJJD.PackageJJD packageJJD : parentPackage.getSubPackagesJJD()) {
+			
+			relationalmodel.Schema schema = RelationalmodelFactory.eINSTANCE.createSchema();
+			schema.setName(packageJJD.getName());
+			
+			for (abstractJJD.ClassJJD classJJD : packageJJD.getListClassJJD()) {
+				relationalmodel.Table table = RelationalmodelFactory.eINSTANCE.createTable();
+				table.setName(classJJD.getName());
+				
+				addAttributeToTable(classJJD, table, schema);
+			}
+			
+			// Llamada recursiva solo si hay subpaquetes
+	        if (!packageJJD.getSubPackagesJJD().isEmpty()) {
+	            createSchema(packageJJD);
+	        }			
+		}
+		
+	}
+
+	private void addAttributeToTable(abstractJJD.ClassJJD classJJD, relationalmodel.Table table, Schema schema) {
 		
 		for(abstractJJD.AttributeJJD attribute : classJJD.getListAttributesJJD()) {
 			
@@ -1147,6 +1162,8 @@ public class ModelFactoryModel {
 				tableRelation.getListColumns().add(column3);
 				tableRelation.getListColumns().add(column4);
 				
+				schema.getListTables().add(tableRelation);
+				
 			} else {
 				
 				column.setName(attribute.getName());
@@ -1158,12 +1175,92 @@ public class ModelFactoryModel {
 												: (attribute.getType() == "boolean") ? DataType.BOOLEAN : DataType.VARCHAR );
 				
 				
+				table.getListColumns().add(column);
+				schema.getListTables().add(table);
 			}		
-			table.getListColumns().add(column);
 		}
 	}
 	
 	private void addRelationsToTable(abstractJJD.ClassJJD classJJD, relationalmodel.Table table) {
+		
+			
+			for (relationalmodel.Schema schema : modelFactoryAbstractRelationalModel.getListSchemas()) {
+				
+//				if(relationJJD.getClass().getName().contains("ContainmentJJDImpl") || relationJJD.getClass().getName().contains("AgregationJJDImpl")) {
+//					
+//					if(relationJJD.getNavigabilityA().equalsIgnoreCase("true")) {
+//						if(relationJJD.getRolA() != null && relationJJD.getRolA().equalsIgnoreCase(classJJD.getName())) {
+//							
+//							relationalmodel.Table tableRelation = RelationalmodelFactory.eINSTANCE.createTable();
+//							if(relationJJD.getMultiplicityB().equalsIgnoreCase("*")) {
+//								
+//								tableRelation.setName(attribute.getName());
+//								
+//								relationalmodel.Column column1 = RelationalmodelFactory.eINSTANCE.createColumn();
+//								
+//								column1.setName(attribute.getName()+"ID");
+//								column1.setDataType(DataType.INT);
+//								column1.setIsPrimaryKey(true);
+//								
+//								relationalmodel.Column column2 = RelationalmodelFactory.eINSTANCE.createColumn();
+//								
+//								column2.setName(attribute.getName());
+//								column2.setDataType(DataType.VARCHAR);
+//								
+//								
+//								relationalmodel.Column column3 = RelationalmodelFactory.eINSTANCE.createColumn();
+//								
+//								column3.setName(table.getName()+"ID");
+//								column3.setDataType(DataType.INT);
+//								
+//								
+//								
+//							}
+//							
+//							
+//							
+//							
+//							
+//							relationalmodel.Column column4 = RelationalmodelFactory.eINSTANCE.createColumn();
+//							column4.setForeignKey("FOREIGN KEY (" + column3.getName() + ") REFERENCES " + table.getName() + "(" + column3.getName() + ")");
+//							
+//							tableRelation.getListColumns().add(column1);
+//							tableRelation.getListColumns().add(column2);
+//							tableRelation.getListColumns().add(column3);
+//							tableRelation.getListColumns().add(column4);
+//							
+//							
+//							
+//							
+//							
+//							
+//								attribute += relationJJD.getMultiplicityB().equalsIgnoreCase("*") ? "\tfinal List<" + relationJJD.getSource().getName() + ">" +"? " + relationJJD.getRolB() + ";" : "\n";		
+//								attribute += relationJJD.getMultiplicityB().equalsIgnoreCase("1") ? "\tfinal " + relationJJD.getSource().getName() +"? " + relationJJD.getRolB().toLowerCase() + ";" : "\n";		
+//								attribute2 += "\t\tthis." + relationJJD.getRolB().toLowerCase() + ",\n";		
+//						}
+//					}
+//					if(relationJJD.getNavigabilityB().equalsIgnoreCase("true")) {
+//						if(relationJJD.getRolB() != null && relationJJD.getSource().getName().equalsIgnoreCase(classJJD.getName())) {
+//								attribute += relationJJD.getMultiplicityA().equalsIgnoreCase("*") ? "\tfinal List<" + relationJJD.getTarget().getName() + ">" +"? " + relationJJD.getRolA() + ";" : "\n";		
+//								attribute += relationJJD.getMultiplicityA().equalsIgnoreCase("1") ? "\tfinal " + relationJJD.getTarget().getName() +"? " + relationJJD.getRolA().toLowerCase() + ";" : "\n";		
+//								attribute2 += "\t\tthis." + relationJJD.getRolA().toLowerCase() + ",\n";		
+//						}
+//					}
+//				}
+//				
+//				if(relationJJD.getClass().getName().contains("AssociationJJDImpl") && !(relationJJD.getSource().getName().equalsIgnoreCase(classJJD.getName()))) {
+//					if(relationJJD.getNavigabilityA().equalsIgnoreCase("true")) {
+//						attribute += relationJJD.getMultiplicityB().equalsIgnoreCase("*") ? "\tfinal List<" + relationJJD.getSource().getName() + ">" +"? " + relationJJD.getRolB() + ";" : "\n";		
+//						attribute += relationJJD.getMultiplicityB().equalsIgnoreCase("1") ? "\tfinal " + relationJJD.getSource().getName() +"? " + relationJJD.getRolB().toLowerCase() + ";" : "\n";
+//						attribute2 += "\t\tthis." + relationJJD.getRolB().toLowerCase() + ",\n";		
+//					}
+//					if(relationJJD.getNavigabilityB().equalsIgnoreCase("true")) {
+//						attribute += relationJJD.getMultiplicityA().equalsIgnoreCase("*") ? "\tfinal List<" + relationJJD.getSource().getName() + ">" +"? " + relationJJD.getRolA() + ";" : "\n";		
+//						attribute += relationJJD.getMultiplicityA().equalsIgnoreCase("1") ? "\tfinal " + relationJJD.getSource().getName() +"? " + relationJJD.getRolA().toLowerCase() + ";" : "\n";
+//						attribute2 += "\t\tthis." + relationJJD.getRolA().toLowerCase() + "\n";		
+//					}
+//				}
+		  }
 		
 	}
 	
