@@ -40,6 +40,9 @@ import org.eclipse.emf.common.util.EList;
 
 import abstractJJD.AbstractJJDFactory;
 import abstractJJD.ModelFactoryAbstractJJD;
+import relationalmodel.DataType;
+import relationalmodel.ModelFactoryAbstractRelationalModel;
+import relationalmodel.RelationalmodelFactory;
 
 public class ModelFactoryModel {
 	
@@ -58,12 +61,14 @@ public class ModelFactoryModel {
 	ModelFactoryConcreteJJD modelFactoryConcrete = ConcreteFactory.eINSTANCE.createModelFactoryConcreteJJD();
 	ModelFactoryAbstractJJD modelFactoryAbstract = AbstractJJDFactory.eINSTANCE.createModelFactoryAbstractJJD();
 	ModelFactory modelFactoryUiDiagram = UidiagramFactory.eINSTANCE.createModelFactory();
+	ModelFactoryAbstractRelationalModel modelFactoryAbstractRelationalModel = RelationalmodelFactory.eINSTANCE.createModelFactoryAbstractRelationalModel();
 
 	public ModelFactoryModel() {
 
 		modelFactoryConcrete = uploadConcrete();
 		modelFactoryAbstract = uploadAbstract();
 		modelFactoryUiDiagram = uploadUIDiagram();
+		
 	}
 
 	public ModelFactoryConcreteJJD uploadConcrete() {
@@ -608,7 +613,7 @@ public class ModelFactoryModel {
 				+ "  }\n"
 				+ "}\n"
 			);
-			System.out.println(content.toString());
+//			System.out.println(content.toString());
 			CreateFile(userInterface.getName()+"Page"+".dart",content, false);
 	}
 	
@@ -1084,6 +1089,93 @@ public class ModelFactoryModel {
 
 		return content;
 	}
+	//---------------------------------------------------------------------------------------------------------------------------------------------------------------||
+	
+	// ----------------------------------------------------- TRANSFORMACION MODELO ABSTRACTO A DSL ------------------------------------------------------------------>>
+	public void transformationDSL() {
+		
+		for (abstractJJD.PackageJJD packageJJD : modelFactoryAbstract.getListPackagesJJD()) {
+			
+			//TODO: paquetes a schemas
+			
+			for (abstractJJD.ClassJJD classJJD : packageJJD.getListClassJJD()) {
+					relationalmodel.Table table = RelationalmodelFactory.eINSTANCE.createTable();
+					table.setName(classJJD.getName());
+					
+					addAttributeToTable(classJJD, table);
+					addRelationsToTable(classJJD, table); 
+			}
+		}
+		saveAbstract();
+	}
+
+	private void addAttributeToTable(abstractJJD.ClassJJD classJJD, relationalmodel.Table table) {
+		
+		for(abstractJJD.AttributeJJD attribute : classJJD.getListAttributesJJD()) {
+			
+			relationalmodel.Column column = RelationalmodelFactory.eINSTANCE.createColumn();
+			
+			
+			if(attribute.getType().contains("List")) {
+				
+				relationalmodel.Table tableRelation = RelationalmodelFactory.eINSTANCE.createTable();
+				tableRelation.setName(attribute.getName());
+				
+				relationalmodel.Column column1 = RelationalmodelFactory.eINSTANCE.createColumn();
+				
+				column1.setName(attribute.getName()+"ID");
+				column1.setDataType(DataType.INT);
+				column1.setIsPrimaryKey(true);
+				
+				relationalmodel.Column column2 = RelationalmodelFactory.eINSTANCE.createColumn();
+				
+				column2.setName(attribute.getName());
+				column2.setDataType(DataType.VARCHAR);
+				
+				
+				relationalmodel.Column column3 = RelationalmodelFactory.eINSTANCE.createColumn();
+				
+				column3.setName(table.getName()+"ID");
+				column3.setDataType(DataType.INT);
+				
+				
+				relationalmodel.Column column4 = RelationalmodelFactory.eINSTANCE.createColumn();
+				column4.setForeignKey("FOREIGN KEY (" + column3.getName() + ") REFERENCES " + table.getName() + "(" + column3.getName() + ")");
+				
+				tableRelation.getListColumns().add(column1);
+				tableRelation.getListColumns().add(column2);
+				tableRelation.getListColumns().add(column3);
+				tableRelation.getListColumns().add(column4);
+				
+			} else {
+				
+				column.setName(attribute.getName());
+				
+				column.setDataType((attribute.getType() == "String") ? DataType.VARCHAR
+						: (attribute.getType() == "int") ? DataType.INT 
+								: (attribute.getType() == "double") ? DataType.DOUBLE
+										: (attribute.getType() == "LocalDate") ? DataType.DATE
+												: (attribute.getType() == "boolean") ? DataType.BOOLEAN : DataType.VARCHAR );
+				
+				
+			}		
+			table.getListColumns().add(column);
+		}
+	}
+	
+	private void addRelationsToTable(abstractJJD.ClassJJD classJJD, relationalmodel.Table table) {
+		
+	}
+	
+
+	
+	
+	
+
+
+	
+	
+	
 }
 
 

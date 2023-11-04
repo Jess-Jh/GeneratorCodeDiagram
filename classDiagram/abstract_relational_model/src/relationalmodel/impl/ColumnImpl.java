@@ -2,21 +2,14 @@
  */
 package relationalmodel.impl;
 
-import java.util.Collection;
-
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
-
-import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.EObjectImpl;
-
-import org.eclipse.emf.ecore.util.EObjectContainmentEList;
-import org.eclipse.emf.ecore.util.InternalEList;
 
 import relationalmodel.Column;
 import relationalmodel.DataType;
@@ -35,13 +28,8 @@ import relationalmodel.RelationalmodelPackage;
  *   <li>{@link relationalmodel.impl.ColumnImpl#isIsPrimaryKey <em>Is Primary Key</em>}</li>
  *   <li>{@link relationalmodel.impl.ColumnImpl#isNotNull <em>Not Null</em>}</li>
  *   <li>{@link relationalmodel.impl.ColumnImpl#isUniqueIndex <em>Unique Index</em>}</li>
- *   <li>{@link relationalmodel.impl.ColumnImpl#isIsBinaryColumn <em>Is Binary Column</em>}</li>
- *   <li>{@link relationalmodel.impl.ColumnImpl#isUnsignedDataType <em>Unsigned Data Type</em>}</li>
- *   <li>{@link relationalmodel.impl.ColumnImpl#isFillUpValuesColumn <em>Fill Up Values Column</em>}</li>
  *   <li>{@link relationalmodel.impl.ColumnImpl#isIsAutoIncremental <em>Is Auto Incremental</em>}</li>
- *   <li>{@link relationalmodel.impl.ColumnImpl#isGeneratedColumn <em>Generated Column</em>}</li>
- *   <li>{@link relationalmodel.impl.ColumnImpl#getExpression <em>Expression</em>}</li>
- *   <li>{@link relationalmodel.impl.ColumnImpl#getListDataType <em>List Data Type</em>}</li>
+ *   <li>{@link relationalmodel.impl.ColumnImpl#getForeignKey <em>Foreign Key</em>}</li>
  * </ul>
  *
  * @generated
@@ -138,66 +126,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	protected boolean uniqueIndex = UNIQUE_INDEX_EDEFAULT;
 
 	/**
-	 * The default value of the '{@link #isIsBinaryColumn() <em>Is Binary Column</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isIsBinaryColumn()
-	 * @generated
-	 * @ordered
-	 */
-	protected static final boolean IS_BINARY_COLUMN_EDEFAULT = false;
-
-	/**
-	 * The cached value of the '{@link #isIsBinaryColumn() <em>Is Binary Column</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isIsBinaryColumn()
-	 * @generated
-	 * @ordered
-	 */
-	protected boolean isBinaryColumn = IS_BINARY_COLUMN_EDEFAULT;
-
-	/**
-	 * The default value of the '{@link #isUnsignedDataType() <em>Unsigned Data Type</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isUnsignedDataType()
-	 * @generated
-	 * @ordered
-	 */
-	protected static final boolean UNSIGNED_DATA_TYPE_EDEFAULT = false;
-
-	/**
-	 * The cached value of the '{@link #isUnsignedDataType() <em>Unsigned Data Type</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isUnsignedDataType()
-	 * @generated
-	 * @ordered
-	 */
-	protected boolean unsignedDataType = UNSIGNED_DATA_TYPE_EDEFAULT;
-
-	/**
-	 * The default value of the '{@link #isFillUpValuesColumn() <em>Fill Up Values Column</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isFillUpValuesColumn()
-	 * @generated
-	 * @ordered
-	 */
-	protected static final boolean FILL_UP_VALUES_COLUMN_EDEFAULT = false;
-
-	/**
-	 * The cached value of the '{@link #isFillUpValuesColumn() <em>Fill Up Values Column</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #isFillUpValuesColumn()
-	 * @generated
-	 * @ordered
-	 */
-	protected boolean fillUpValuesColumn = FILL_UP_VALUES_COLUMN_EDEFAULT;
-
-	/**
 	 * The default value of the '{@link #isIsAutoIncremental() <em>Is Auto Incremental</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -218,54 +146,24 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	protected boolean isAutoIncremental = IS_AUTO_INCREMENTAL_EDEFAULT;
 
 	/**
-	 * The default value of the '{@link #isGeneratedColumn() <em>Generated Column</em>}' attribute.
+	 * The default value of the '{@link #getForeignKey() <em>Foreign Key</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see #isGeneratedColumn()
+	 * @see #getForeignKey()
 	 * @generated
 	 * @ordered
 	 */
-	protected static final boolean GENERATED_COLUMN_EDEFAULT = false;
+	protected static final String FOREIGN_KEY_EDEFAULT = null;
 
 	/**
-	 * The cached value of the '{@link #isGeneratedColumn() <em>Generated Column</em>}' attribute.
+	 * The cached value of the '{@link #getForeignKey() <em>Foreign Key</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see #isGeneratedColumn()
+	 * @see #getForeignKey()
 	 * @generated
 	 * @ordered
 	 */
-	protected boolean generatedColumn = GENERATED_COLUMN_EDEFAULT;
-
-	/**
-	 * The default value of the '{@link #getExpression() <em>Expression</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getExpression()
-	 * @generated
-	 * @ordered
-	 */
-	protected static final String EXPRESSION_EDEFAULT = null;
-
-	/**
-	 * The cached value of the '{@link #getExpression() <em>Expression</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getExpression()
-	 * @generated
-	 * @ordered
-	 */
-	protected String expression = EXPRESSION_EDEFAULT;
-
-	/**
-	 * The cached value of the '{@link #getListDataType() <em>List Data Type</em>}' containment reference list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getListDataType()
-	 * @generated
-	 * @ordered
-	 */
-	protected EList<DataType> listDataType;
+	protected String foreignKey = FOREIGN_KEY_EDEFAULT;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -344,9 +242,9 @@ public class ColumnImpl extends EObjectImpl implements Column {
 		if (newDataType != dataType) {
 			NotificationChain msgs = null;
 			if (dataType != null)
-				msgs = ((InternalEObject)dataType).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - RelationalmodelPackage.COLUMN__DATA_TYPE, null, msgs);
+//				msgs = dataType.eInverseRemove(this, EOPPOSITE_FEATURE_BASE - RelationalmodelPackage.COLUMN__DATA_TYPE, null, msgs);
 			if (newDataType != null)
-				msgs = ((InternalEObject)newDataType).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - RelationalmodelPackage.COLUMN__DATA_TYPE, null, msgs);
+//				msgs = newDataType.eInverseAdd(this, EOPPOSITE_FEATURE_BASE - RelationalmodelPackage.COLUMN__DATA_TYPE, null, msgs);
 			msgs = basicSetDataType(newDataType, msgs);
 			if (msgs != null) msgs.dispatch();
 		}
@@ -429,75 +327,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * @generated
 	 */
 	@Override
-	public boolean isIsBinaryColumn() {
-		return isBinaryColumn;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public void setIsBinaryColumn(boolean newIsBinaryColumn) {
-		boolean oldIsBinaryColumn = isBinaryColumn;
-		isBinaryColumn = newIsBinaryColumn;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, RelationalmodelPackage.COLUMN__IS_BINARY_COLUMN, oldIsBinaryColumn, isBinaryColumn));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public boolean isUnsignedDataType() {
-		return unsignedDataType;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public void setUnsignedDataType(boolean newUnsignedDataType) {
-		boolean oldUnsignedDataType = unsignedDataType;
-		unsignedDataType = newUnsignedDataType;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, RelationalmodelPackage.COLUMN__UNSIGNED_DATA_TYPE, oldUnsignedDataType, unsignedDataType));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public boolean isFillUpValuesColumn() {
-		return fillUpValuesColumn;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public void setFillUpValuesColumn(boolean newFillUpValuesColumn) {
-		boolean oldFillUpValuesColumn = fillUpValuesColumn;
-		fillUpValuesColumn = newFillUpValuesColumn;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, RelationalmodelPackage.COLUMN__FILL_UP_VALUES_COLUMN, oldFillUpValuesColumn, fillUpValuesColumn));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
 	public boolean isIsAutoIncremental() {
 		return isAutoIncremental;
 	}
@@ -521,8 +350,8 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * @generated
 	 */
 	@Override
-	public boolean isGeneratedColumn() {
-		return generatedColumn;
+	public String getForeignKey() {
+		return foreignKey;
 	}
 
 	/**
@@ -531,47 +360,11 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * @generated
 	 */
 	@Override
-	public void setGeneratedColumn(boolean newGeneratedColumn) {
-		boolean oldGeneratedColumn = generatedColumn;
-		generatedColumn = newGeneratedColumn;
+	public void setForeignKey(String newForeignKey) {
+		String oldForeignKey = foreignKey;
+		foreignKey = newForeignKey;
 		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, RelationalmodelPackage.COLUMN__GENERATED_COLUMN, oldGeneratedColumn, generatedColumn));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public String getExpression() {
-		return expression;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public void setExpression(String newExpression) {
-		String oldExpression = expression;
-		expression = newExpression;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, RelationalmodelPackage.COLUMN__EXPRESSION, oldExpression, expression));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public EList<DataType> getListDataType() {
-		if (listDataType == null) {
-			listDataType = new EObjectContainmentEList<DataType>(DataType.class, this, RelationalmodelPackage.COLUMN__LIST_DATA_TYPE);
-		}
-		return listDataType;
+			eNotify(new ENotificationImpl(this, Notification.SET, RelationalmodelPackage.COLUMN__FOREIGN_KEY, oldForeignKey, foreignKey));
 	}
 
 	/**
@@ -584,8 +377,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 		switch (featureID) {
 			case RelationalmodelPackage.COLUMN__DATA_TYPE:
 				return basicSetDataType(null, msgs);
-			case RelationalmodelPackage.COLUMN__LIST_DATA_TYPE:
-				return ((InternalEList<?>)getListDataType()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -608,20 +399,10 @@ public class ColumnImpl extends EObjectImpl implements Column {
 				return isNotNull();
 			case RelationalmodelPackage.COLUMN__UNIQUE_INDEX:
 				return isUniqueIndex();
-			case RelationalmodelPackage.COLUMN__IS_BINARY_COLUMN:
-				return isIsBinaryColumn();
-			case RelationalmodelPackage.COLUMN__UNSIGNED_DATA_TYPE:
-				return isUnsignedDataType();
-			case RelationalmodelPackage.COLUMN__FILL_UP_VALUES_COLUMN:
-				return isFillUpValuesColumn();
 			case RelationalmodelPackage.COLUMN__IS_AUTO_INCREMENTAL:
 				return isIsAutoIncremental();
-			case RelationalmodelPackage.COLUMN__GENERATED_COLUMN:
-				return isGeneratedColumn();
-			case RelationalmodelPackage.COLUMN__EXPRESSION:
-				return getExpression();
-			case RelationalmodelPackage.COLUMN__LIST_DATA_TYPE:
-				return getListDataType();
+			case RelationalmodelPackage.COLUMN__FOREIGN_KEY:
+				return getForeignKey();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -631,7 +412,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@SuppressWarnings("unchecked")
 	@Override
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
@@ -650,27 +430,11 @@ public class ColumnImpl extends EObjectImpl implements Column {
 			case RelationalmodelPackage.COLUMN__UNIQUE_INDEX:
 				setUniqueIndex((Boolean)newValue);
 				return;
-			case RelationalmodelPackage.COLUMN__IS_BINARY_COLUMN:
-				setIsBinaryColumn((Boolean)newValue);
-				return;
-			case RelationalmodelPackage.COLUMN__UNSIGNED_DATA_TYPE:
-				setUnsignedDataType((Boolean)newValue);
-				return;
-			case RelationalmodelPackage.COLUMN__FILL_UP_VALUES_COLUMN:
-				setFillUpValuesColumn((Boolean)newValue);
-				return;
 			case RelationalmodelPackage.COLUMN__IS_AUTO_INCREMENTAL:
 				setIsAutoIncremental((Boolean)newValue);
 				return;
-			case RelationalmodelPackage.COLUMN__GENERATED_COLUMN:
-				setGeneratedColumn((Boolean)newValue);
-				return;
-			case RelationalmodelPackage.COLUMN__EXPRESSION:
-				setExpression((String)newValue);
-				return;
-			case RelationalmodelPackage.COLUMN__LIST_DATA_TYPE:
-				getListDataType().clear();
-				getListDataType().addAll((Collection<? extends DataType>)newValue);
+			case RelationalmodelPackage.COLUMN__FOREIGN_KEY:
+				setForeignKey((String)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -699,26 +463,11 @@ public class ColumnImpl extends EObjectImpl implements Column {
 			case RelationalmodelPackage.COLUMN__UNIQUE_INDEX:
 				setUniqueIndex(UNIQUE_INDEX_EDEFAULT);
 				return;
-			case RelationalmodelPackage.COLUMN__IS_BINARY_COLUMN:
-				setIsBinaryColumn(IS_BINARY_COLUMN_EDEFAULT);
-				return;
-			case RelationalmodelPackage.COLUMN__UNSIGNED_DATA_TYPE:
-				setUnsignedDataType(UNSIGNED_DATA_TYPE_EDEFAULT);
-				return;
-			case RelationalmodelPackage.COLUMN__FILL_UP_VALUES_COLUMN:
-				setFillUpValuesColumn(FILL_UP_VALUES_COLUMN_EDEFAULT);
-				return;
 			case RelationalmodelPackage.COLUMN__IS_AUTO_INCREMENTAL:
 				setIsAutoIncremental(IS_AUTO_INCREMENTAL_EDEFAULT);
 				return;
-			case RelationalmodelPackage.COLUMN__GENERATED_COLUMN:
-				setGeneratedColumn(GENERATED_COLUMN_EDEFAULT);
-				return;
-			case RelationalmodelPackage.COLUMN__EXPRESSION:
-				setExpression(EXPRESSION_EDEFAULT);
-				return;
-			case RelationalmodelPackage.COLUMN__LIST_DATA_TYPE:
-				getListDataType().clear();
+			case RelationalmodelPackage.COLUMN__FOREIGN_KEY:
+				setForeignKey(FOREIGN_KEY_EDEFAULT);
 				return;
 		}
 		super.eUnset(featureID);
@@ -742,20 +491,10 @@ public class ColumnImpl extends EObjectImpl implements Column {
 				return notNull != NOT_NULL_EDEFAULT;
 			case RelationalmodelPackage.COLUMN__UNIQUE_INDEX:
 				return uniqueIndex != UNIQUE_INDEX_EDEFAULT;
-			case RelationalmodelPackage.COLUMN__IS_BINARY_COLUMN:
-				return isBinaryColumn != IS_BINARY_COLUMN_EDEFAULT;
-			case RelationalmodelPackage.COLUMN__UNSIGNED_DATA_TYPE:
-				return unsignedDataType != UNSIGNED_DATA_TYPE_EDEFAULT;
-			case RelationalmodelPackage.COLUMN__FILL_UP_VALUES_COLUMN:
-				return fillUpValuesColumn != FILL_UP_VALUES_COLUMN_EDEFAULT;
 			case RelationalmodelPackage.COLUMN__IS_AUTO_INCREMENTAL:
 				return isAutoIncremental != IS_AUTO_INCREMENTAL_EDEFAULT;
-			case RelationalmodelPackage.COLUMN__GENERATED_COLUMN:
-				return generatedColumn != GENERATED_COLUMN_EDEFAULT;
-			case RelationalmodelPackage.COLUMN__EXPRESSION:
-				return EXPRESSION_EDEFAULT == null ? expression != null : !EXPRESSION_EDEFAULT.equals(expression);
-			case RelationalmodelPackage.COLUMN__LIST_DATA_TYPE:
-				return listDataType != null && !listDataType.isEmpty();
+			case RelationalmodelPackage.COLUMN__FOREIGN_KEY:
+				return FOREIGN_KEY_EDEFAULT == null ? foreignKey != null : !FOREIGN_KEY_EDEFAULT.equals(foreignKey);
 		}
 		return super.eIsSet(featureID);
 	}
@@ -778,18 +517,10 @@ public class ColumnImpl extends EObjectImpl implements Column {
 		result.append(notNull);
 		result.append(", uniqueIndex: ");
 		result.append(uniqueIndex);
-		result.append(", isBinaryColumn: ");
-		result.append(isBinaryColumn);
-		result.append(", unsignedDataType: ");
-		result.append(unsignedDataType);
-		result.append(", fillUpValuesColumn: ");
-		result.append(fillUpValuesColumn);
 		result.append(", isAutoIncremental: ");
 		result.append(isAutoIncremental);
-		result.append(", generatedColumn: ");
-		result.append(generatedColumn);
-		result.append(", expression: ");
-		result.append(expression);
+		result.append(", foreignKey: ");
+		result.append(foreignKey);
 		result.append(')');
 		return result.toString();
 	}

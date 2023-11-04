@@ -43,7 +43,7 @@ public class Generator extends ViewPart {
 		parent.setLayout(null);
 		
 		Group grpGeneratorCode = new Group(parent, SWT.NONE);
-		grpGeneratorCode.setBounds(101, 68, 400, 250);
+		grpGeneratorCode.setBounds(10, 28, 543, 222);
 		grpGeneratorCode.setText("Generator code");
 		grpGeneratorCode.setLayout(null);
 		
@@ -62,7 +62,7 @@ public class Generator extends ViewPart {
 		btnTransformacionMm.setText("Transformacion M2M");
 		
 		Button btnTransformacionMt = new Button(grpGeneratorCode, SWT.NONE);
-		btnTransformacionMt.setBounds(29, 126, 233, 35);
+		btnTransformacionMt.setBounds(283, 63, 233, 35);
 		btnTransformacionMt.addSelectionListener(new SelectionAdapter() {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
@@ -75,7 +75,6 @@ public class Generator extends ViewPart {
 		btnTransformacionMt.setFont(SWTResourceManager.getFont("Segoe UI", 10, SWT.BOLD | SWT.ITALIC));
 		
 		Button btnTransformacionFlutter = new Button(grpGeneratorCode, SWT.NONE);
-		btnTransformacionFlutter.setBounds(33, 181, 229, 35);
 		btnTransformacionFlutter.addSelectionListener(new SelectionAdapter() {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
@@ -83,9 +82,19 @@ public class Generator extends ViewPart {
 				mfm.transformationFramework();
 			}
 		});
+		btnTransformacionFlutter.setBounds(29, 126, 233, 35);
 		btnTransformacionFlutter.setText("Transformacion Flutter");
-		btnTransformacionMt.setForeground(SWTResourceManager.getColor(SWT.COLOR_RED));
-		btnTransformacionMm.setFont(SWTResourceManager.getFont("Segoe UI", 10, SWT.BOLD | SWT.ITALIC));
+		
+		Button btnTransformacionDSL = new Button(grpGeneratorCode, SWT.NONE);
+		btnTransformacionDSL.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				ModelFactoryModel mfm = ModelFactoryModel.getInstance();
+				mfm.transformationDSL();
+			}
+		});
+		btnTransformacionDSL.setText("Transformacion DSL");
+		btnTransformacionDSL.setBounds(283, 126, 233, 35);
 	}
 
 	@Override

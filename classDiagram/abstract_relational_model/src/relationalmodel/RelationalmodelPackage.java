@@ -4,6 +4,7 @@ package relationalmodel;
 
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.EEnum;
 import org.eclipse.emf.ecore.EPackage;
 import org.eclipse.emf.ecore.EReference;
 
@@ -122,22 +123,13 @@ public interface RelationalmodelPackage extends EPackage {
 	int SCHEMA__LIST_TABLES = 1;
 
 	/**
-	 * The feature id for the '<em><b>Relation Tables</b></em>' containment reference list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int SCHEMA__RELATION_TABLES = 2;
-
-	/**
 	 * The number of structural features of the '<em>Schema</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int SCHEMA_FEATURE_COUNT = 3;
+	int SCHEMA_FEATURE_COUNT = 2;
 
 	/**
 	 * The meta object id for the '{@link relationalmodel.impl.TableImpl <em>Table</em>}' class.
@@ -232,67 +224,22 @@ public interface RelationalmodelPackage extends EPackage {
 	int COLUMN__UNIQUE_INDEX = 4;
 
 	/**
-	 * The feature id for the '<em><b>Is Binary Column</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int COLUMN__IS_BINARY_COLUMN = 5;
-
-	/**
-	 * The feature id for the '<em><b>Unsigned Data Type</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int COLUMN__UNSIGNED_DATA_TYPE = 6;
-
-	/**
-	 * The feature id for the '<em><b>Fill Up Values Column</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int COLUMN__FILL_UP_VALUES_COLUMN = 7;
-
-	/**
 	 * The feature id for the '<em><b>Is Auto Incremental</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int COLUMN__IS_AUTO_INCREMENTAL = 8;
+	int COLUMN__IS_AUTO_INCREMENTAL = 5;
 
 	/**
-	 * The feature id for the '<em><b>Generated Column</b></em>' attribute.
+	 * The feature id for the '<em><b>Foreign Key</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int COLUMN__GENERATED_COLUMN = 9;
-
-	/**
-	 * The feature id for the '<em><b>Expression</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int COLUMN__EXPRESSION = 10;
-
-	/**
-	 * The feature id for the '<em><b>List Data Type</b></em>' containment reference list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int COLUMN__LIST_DATA_TYPE = 11;
+	int COLUMN__FOREIGN_KEY = 6;
 
 	/**
 	 * The number of structural features of the '<em>Column</em>' class.
@@ -301,508 +248,17 @@ public interface RelationalmodelPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int COLUMN_FEATURE_COUNT = 12;
+	int COLUMN_FEATURE_COUNT = 7;
 
 	/**
-	 * The meta object id for the '{@link relationalmodel.impl.DataTypeImpl <em>Data Type</em>}' class.
+	 * The meta object id for the '{@link relationalmodel.DataType <em>Data Type</em>}' enum.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see relationalmodel.impl.DataTypeImpl
+	 * @see relationalmodel.DataType
 	 * @see relationalmodel.impl.RelationalmodelPackageImpl#getDataType()
 	 * @generated
 	 */
 	int DATA_TYPE = 4;
-
-	/**
-	 * The feature id for the '<em><b>Name</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int DATA_TYPE__NAME = 0;
-
-	/**
-	 * The feature id for the '<em><b>Description</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int DATA_TYPE__DESCRIPTION = 1;
-
-	/**
-	 * The feature id for the '<em><b>Size</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int DATA_TYPE__SIZE = 2;
-
-	/**
-	 * The number of structural features of the '<em>Data Type</em>' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int DATA_TYPE_FEATURE_COUNT = 3;
-
-	/**
-	 * The meta object id for the '{@link relationalmodel.impl.RelationTablesImpl <em>Relation Tables</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see relationalmodel.impl.RelationTablesImpl
-	 * @see relationalmodel.impl.RelationalmodelPackageImpl#getRelationTables()
-	 * @generated
-	 */
-	int RELATION_TABLES = 5;
-
-	/**
-	 * The feature id for the '<em><b>Rol A</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_TABLES__ROL_A = 0;
-
-	/**
-	 * The feature id for the '<em><b>Rol B</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_TABLES__ROL_B = 1;
-
-	/**
-	 * The feature id for the '<em><b>Navigability A</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_TABLES__NAVIGABILITY_A = 2;
-
-	/**
-	 * The feature id for the '<em><b>Navigability B</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_TABLES__NAVIGABILITY_B = 3;
-
-	/**
-	 * The feature id for the '<em><b>Multiplicity A</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_TABLES__MULTIPLICITY_A = 4;
-
-	/**
-	 * The feature id for the '<em><b>Multiplicity B</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_TABLES__MULTIPLICITY_B = 5;
-
-	/**
-	 * The feature id for the '<em><b>Source</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_TABLES__SOURCE = 6;
-
-	/**
-	 * The feature id for the '<em><b>Target</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_TABLES__TARGET = 7;
-
-	/**
-	 * The number of structural features of the '<em>Relation Tables</em>' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_TABLES_FEATURE_COUNT = 8;
-
-	/**
-	 * The meta object id for the '{@link relationalmodel.impl.RelationOneToOneImpl <em>Relation One To One</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see relationalmodel.impl.RelationOneToOneImpl
-	 * @see relationalmodel.impl.RelationalmodelPackageImpl#getRelationOneToOne()
-	 * @generated
-	 */
-	int RELATION_ONE_TO_ONE = 6;
-
-	/**
-	 * The feature id for the '<em><b>Rol A</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_ONE_TO_ONE__ROL_A = RELATION_TABLES__ROL_A;
-
-	/**
-	 * The feature id for the '<em><b>Rol B</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_ONE_TO_ONE__ROL_B = RELATION_TABLES__ROL_B;
-
-	/**
-	 * The feature id for the '<em><b>Navigability A</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_ONE_TO_ONE__NAVIGABILITY_A = RELATION_TABLES__NAVIGABILITY_A;
-
-	/**
-	 * The feature id for the '<em><b>Navigability B</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_ONE_TO_ONE__NAVIGABILITY_B = RELATION_TABLES__NAVIGABILITY_B;
-
-	/**
-	 * The feature id for the '<em><b>Multiplicity A</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_ONE_TO_ONE__MULTIPLICITY_A = RELATION_TABLES__MULTIPLICITY_A;
-
-	/**
-	 * The feature id for the '<em><b>Multiplicity B</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_ONE_TO_ONE__MULTIPLICITY_B = RELATION_TABLES__MULTIPLICITY_B;
-
-	/**
-	 * The feature id for the '<em><b>Source</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_ONE_TO_ONE__SOURCE = RELATION_TABLES__SOURCE;
-
-	/**
-	 * The feature id for the '<em><b>Target</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_ONE_TO_ONE__TARGET = RELATION_TABLES__TARGET;
-
-	/**
-	 * The number of structural features of the '<em>Relation One To One</em>' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_ONE_TO_ONE_FEATURE_COUNT = RELATION_TABLES_FEATURE_COUNT + 0;
-
-	/**
-	 * The meta object id for the '{@link relationalmodel.impl.RelationOneToManyImpl <em>Relation One To Many</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see relationalmodel.impl.RelationOneToManyImpl
-	 * @see relationalmodel.impl.RelationalmodelPackageImpl#getRelationOneToMany()
-	 * @generated
-	 */
-	int RELATION_ONE_TO_MANY = 7;
-
-	/**
-	 * The feature id for the '<em><b>Rol A</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_ONE_TO_MANY__ROL_A = RELATION_TABLES__ROL_A;
-
-	/**
-	 * The feature id for the '<em><b>Rol B</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_ONE_TO_MANY__ROL_B = RELATION_TABLES__ROL_B;
-
-	/**
-	 * The feature id for the '<em><b>Navigability A</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_ONE_TO_MANY__NAVIGABILITY_A = RELATION_TABLES__NAVIGABILITY_A;
-
-	/**
-	 * The feature id for the '<em><b>Navigability B</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_ONE_TO_MANY__NAVIGABILITY_B = RELATION_TABLES__NAVIGABILITY_B;
-
-	/**
-	 * The feature id for the '<em><b>Multiplicity A</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_ONE_TO_MANY__MULTIPLICITY_A = RELATION_TABLES__MULTIPLICITY_A;
-
-	/**
-	 * The feature id for the '<em><b>Multiplicity B</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_ONE_TO_MANY__MULTIPLICITY_B = RELATION_TABLES__MULTIPLICITY_B;
-
-	/**
-	 * The feature id for the '<em><b>Source</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_ONE_TO_MANY__SOURCE = RELATION_TABLES__SOURCE;
-
-	/**
-	 * The feature id for the '<em><b>Target</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_ONE_TO_MANY__TARGET = RELATION_TABLES__TARGET;
-
-	/**
-	 * The number of structural features of the '<em>Relation One To Many</em>' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_ONE_TO_MANY_FEATURE_COUNT = RELATION_TABLES_FEATURE_COUNT + 0;
-
-	/**
-	 * The meta object id for the '{@link relationalmodel.impl.RelationManyToOneImpl <em>Relation Many To One</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see relationalmodel.impl.RelationManyToOneImpl
-	 * @see relationalmodel.impl.RelationalmodelPackageImpl#getRelationManyToOne()
-	 * @generated
-	 */
-	int RELATION_MANY_TO_ONE = 8;
-
-	/**
-	 * The feature id for the '<em><b>Rol A</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_MANY_TO_ONE__ROL_A = RELATION_TABLES__ROL_A;
-
-	/**
-	 * The feature id for the '<em><b>Rol B</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_MANY_TO_ONE__ROL_B = RELATION_TABLES__ROL_B;
-
-	/**
-	 * The feature id for the '<em><b>Navigability A</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_MANY_TO_ONE__NAVIGABILITY_A = RELATION_TABLES__NAVIGABILITY_A;
-
-	/**
-	 * The feature id for the '<em><b>Navigability B</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_MANY_TO_ONE__NAVIGABILITY_B = RELATION_TABLES__NAVIGABILITY_B;
-
-	/**
-	 * The feature id for the '<em><b>Multiplicity A</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_MANY_TO_ONE__MULTIPLICITY_A = RELATION_TABLES__MULTIPLICITY_A;
-
-	/**
-	 * The feature id for the '<em><b>Multiplicity B</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_MANY_TO_ONE__MULTIPLICITY_B = RELATION_TABLES__MULTIPLICITY_B;
-
-	/**
-	 * The feature id for the '<em><b>Source</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_MANY_TO_ONE__SOURCE = RELATION_TABLES__SOURCE;
-
-	/**
-	 * The feature id for the '<em><b>Target</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_MANY_TO_ONE__TARGET = RELATION_TABLES__TARGET;
-
-	/**
-	 * The number of structural features of the '<em>Relation Many To One</em>' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_MANY_TO_ONE_FEATURE_COUNT = RELATION_TABLES_FEATURE_COUNT + 0;
-
-	/**
-	 * The meta object id for the '{@link relationalmodel.impl.RelationManyToManyImpl <em>Relation Many To Many</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see relationalmodel.impl.RelationManyToManyImpl
-	 * @see relationalmodel.impl.RelationalmodelPackageImpl#getRelationManyToMany()
-	 * @generated
-	 */
-	int RELATION_MANY_TO_MANY = 9;
-
-	/**
-	 * The feature id for the '<em><b>Rol A</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_MANY_TO_MANY__ROL_A = RELATION_TABLES__ROL_A;
-
-	/**
-	 * The feature id for the '<em><b>Rol B</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_MANY_TO_MANY__ROL_B = RELATION_TABLES__ROL_B;
-
-	/**
-	 * The feature id for the '<em><b>Navigability A</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_MANY_TO_MANY__NAVIGABILITY_A = RELATION_TABLES__NAVIGABILITY_A;
-
-	/**
-	 * The feature id for the '<em><b>Navigability B</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_MANY_TO_MANY__NAVIGABILITY_B = RELATION_TABLES__NAVIGABILITY_B;
-
-	/**
-	 * The feature id for the '<em><b>Multiplicity A</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_MANY_TO_MANY__MULTIPLICITY_A = RELATION_TABLES__MULTIPLICITY_A;
-
-	/**
-	 * The feature id for the '<em><b>Multiplicity B</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_MANY_TO_MANY__MULTIPLICITY_B = RELATION_TABLES__MULTIPLICITY_B;
-
-	/**
-	 * The feature id for the '<em><b>Source</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_MANY_TO_MANY__SOURCE = RELATION_TABLES__SOURCE;
-
-	/**
-	 * The feature id for the '<em><b>Target</b></em>' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_MANY_TO_MANY__TARGET = RELATION_TABLES__TARGET;
-
-	/**
-	 * The number of structural features of the '<em>Relation Many To Many</em>' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int RELATION_MANY_TO_MANY_FEATURE_COUNT = RELATION_TABLES_FEATURE_COUNT + 0;
 
 
 	/**
@@ -868,17 +324,6 @@ public interface RelationalmodelPackage extends EPackage {
 	 * @generated
 	 */
 	EReference getSchema_ListTables();
-
-	/**
-	 * Returns the meta object for the containment reference list '{@link relationalmodel.Schema#getRelationTables <em>Relation Tables</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference list '<em>Relation Tables</em>'.
-	 * @see relationalmodel.Schema#getRelationTables()
-	 * @see #getSchema()
-	 * @generated
-	 */
-	EReference getSchema_RelationTables();
 
 	/**
 	 * Returns the meta object for class '{@link relationalmodel.Table <em>Table</em>}'.
@@ -978,39 +423,6 @@ public interface RelationalmodelPackage extends EPackage {
 	EAttribute getColumn_UniqueIndex();
 
 	/**
-	 * Returns the meta object for the attribute '{@link relationalmodel.Column#isIsBinaryColumn <em>Is Binary Column</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Is Binary Column</em>'.
-	 * @see relationalmodel.Column#isIsBinaryColumn()
-	 * @see #getColumn()
-	 * @generated
-	 */
-	EAttribute getColumn_IsBinaryColumn();
-
-	/**
-	 * Returns the meta object for the attribute '{@link relationalmodel.Column#isUnsignedDataType <em>Unsigned Data Type</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Unsigned Data Type</em>'.
-	 * @see relationalmodel.Column#isUnsignedDataType()
-	 * @see #getColumn()
-	 * @generated
-	 */
-	EAttribute getColumn_UnsignedDataType();
-
-	/**
-	 * Returns the meta object for the attribute '{@link relationalmodel.Column#isFillUpValuesColumn <em>Fill Up Values Column</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Fill Up Values Column</em>'.
-	 * @see relationalmodel.Column#isFillUpValuesColumn()
-	 * @see #getColumn()
-	 * @generated
-	 */
-	EAttribute getColumn_FillUpValuesColumn();
-
-	/**
 	 * Returns the meta object for the attribute '{@link relationalmodel.Column#isIsAutoIncremental <em>Is Auto Incremental</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1022,218 +434,25 @@ public interface RelationalmodelPackage extends EPackage {
 	EAttribute getColumn_IsAutoIncremental();
 
 	/**
-	 * Returns the meta object for the attribute '{@link relationalmodel.Column#isGeneratedColumn <em>Generated Column</em>}'.
+	 * Returns the meta object for the attribute '{@link relationalmodel.Column#getForeignKey <em>Foreign Key</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Generated Column</em>'.
-	 * @see relationalmodel.Column#isGeneratedColumn()
+	 * @return the meta object for the attribute '<em>Foreign Key</em>'.
+	 * @see relationalmodel.Column#getForeignKey()
 	 * @see #getColumn()
 	 * @generated
 	 */
-	EAttribute getColumn_GeneratedColumn();
+	EAttribute getColumn_ForeignKey();
 
 	/**
-	 * Returns the meta object for the attribute '{@link relationalmodel.Column#getExpression <em>Expression</em>}'.
+	 * Returns the meta object for enum '{@link relationalmodel.DataType <em>Data Type</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Expression</em>'.
-	 * @see relationalmodel.Column#getExpression()
-	 * @see #getColumn()
-	 * @generated
-	 */
-	EAttribute getColumn_Expression();
-
-	/**
-	 * Returns the meta object for the containment reference list '{@link relationalmodel.Column#getListDataType <em>List Data Type</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference list '<em>List Data Type</em>'.
-	 * @see relationalmodel.Column#getListDataType()
-	 * @see #getColumn()
-	 * @generated
-	 */
-	EReference getColumn_ListDataType();
-
-	/**
-	 * Returns the meta object for class '{@link relationalmodel.DataType <em>Data Type</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Data Type</em>'.
+	 * @return the meta object for enum '<em>Data Type</em>'.
 	 * @see relationalmodel.DataType
 	 * @generated
 	 */
-	EClass getDataType();
-
-	/**
-	 * Returns the meta object for the attribute '{@link relationalmodel.DataType#getName <em>Name</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Name</em>'.
-	 * @see relationalmodel.DataType#getName()
-	 * @see #getDataType()
-	 * @generated
-	 */
-	EAttribute getDataType_Name();
-
-	/**
-	 * Returns the meta object for the attribute '{@link relationalmodel.DataType#getDescription <em>Description</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Description</em>'.
-	 * @see relationalmodel.DataType#getDescription()
-	 * @see #getDataType()
-	 * @generated
-	 */
-	EAttribute getDataType_Description();
-
-	/**
-	 * Returns the meta object for the attribute '{@link relationalmodel.DataType#getSize <em>Size</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Size</em>'.
-	 * @see relationalmodel.DataType#getSize()
-	 * @see #getDataType()
-	 * @generated
-	 */
-	EAttribute getDataType_Size();
-
-	/**
-	 * Returns the meta object for class '{@link relationalmodel.RelationTables <em>Relation Tables</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Relation Tables</em>'.
-	 * @see relationalmodel.RelationTables
-	 * @generated
-	 */
-	EClass getRelationTables();
-
-	/**
-	 * Returns the meta object for the attribute '{@link relationalmodel.RelationTables#getRolA <em>Rol A</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Rol A</em>'.
-	 * @see relationalmodel.RelationTables#getRolA()
-	 * @see #getRelationTables()
-	 * @generated
-	 */
-	EAttribute getRelationTables_RolA();
-
-	/**
-	 * Returns the meta object for the attribute '{@link relationalmodel.RelationTables#getRolB <em>Rol B</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Rol B</em>'.
-	 * @see relationalmodel.RelationTables#getRolB()
-	 * @see #getRelationTables()
-	 * @generated
-	 */
-	EAttribute getRelationTables_RolB();
-
-	/**
-	 * Returns the meta object for the attribute '{@link relationalmodel.RelationTables#getNavigabilityA <em>Navigability A</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Navigability A</em>'.
-	 * @see relationalmodel.RelationTables#getNavigabilityA()
-	 * @see #getRelationTables()
-	 * @generated
-	 */
-	EAttribute getRelationTables_NavigabilityA();
-
-	/**
-	 * Returns the meta object for the attribute '{@link relationalmodel.RelationTables#getNavigabilityB <em>Navigability B</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Navigability B</em>'.
-	 * @see relationalmodel.RelationTables#getNavigabilityB()
-	 * @see #getRelationTables()
-	 * @generated
-	 */
-	EAttribute getRelationTables_NavigabilityB();
-
-	/**
-	 * Returns the meta object for the attribute '{@link relationalmodel.RelationTables#getMultiplicityA <em>Multiplicity A</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Multiplicity A</em>'.
-	 * @see relationalmodel.RelationTables#getMultiplicityA()
-	 * @see #getRelationTables()
-	 * @generated
-	 */
-	EAttribute getRelationTables_MultiplicityA();
-
-	/**
-	 * Returns the meta object for the attribute '{@link relationalmodel.RelationTables#getMultiplicityB <em>Multiplicity B</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Multiplicity B</em>'.
-	 * @see relationalmodel.RelationTables#getMultiplicityB()
-	 * @see #getRelationTables()
-	 * @generated
-	 */
-	EAttribute getRelationTables_MultiplicityB();
-
-	/**
-	 * Returns the meta object for the reference '{@link relationalmodel.RelationTables#getSource <em>Source</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Source</em>'.
-	 * @see relationalmodel.RelationTables#getSource()
-	 * @see #getRelationTables()
-	 * @generated
-	 */
-	EReference getRelationTables_Source();
-
-	/**
-	 * Returns the meta object for the reference '{@link relationalmodel.RelationTables#getTarget <em>Target</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Target</em>'.
-	 * @see relationalmodel.RelationTables#getTarget()
-	 * @see #getRelationTables()
-	 * @generated
-	 */
-	EReference getRelationTables_Target();
-
-	/**
-	 * Returns the meta object for class '{@link relationalmodel.RelationOneToOne <em>Relation One To One</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Relation One To One</em>'.
-	 * @see relationalmodel.RelationOneToOne
-	 * @generated
-	 */
-	EClass getRelationOneToOne();
-
-	/**
-	 * Returns the meta object for class '{@link relationalmodel.RelationOneToMany <em>Relation One To Many</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Relation One To Many</em>'.
-	 * @see relationalmodel.RelationOneToMany
-	 * @generated
-	 */
-	EClass getRelationOneToMany();
-
-	/**
-	 * Returns the meta object for class '{@link relationalmodel.RelationManyToOne <em>Relation Many To One</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Relation Many To One</em>'.
-	 * @see relationalmodel.RelationManyToOne
-	 * @generated
-	 */
-	EClass getRelationManyToOne();
-
-	/**
-	 * Returns the meta object for class '{@link relationalmodel.RelationManyToMany <em>Relation Many To Many</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Relation Many To Many</em>'.
-	 * @see relationalmodel.RelationManyToMany
-	 * @generated
-	 */
-	EClass getRelationManyToMany();
+	EEnum getDataType();
 
 	/**
 	 * Returns the factory that creates the instances of the model.
@@ -1308,14 +527,6 @@ public interface RelationalmodelPackage extends EPackage {
 		 * @generated
 		 */
 		EReference SCHEMA__LIST_TABLES = eINSTANCE.getSchema_ListTables();
-
-		/**
-		 * The meta object literal for the '<em><b>Relation Tables</b></em>' containment reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference SCHEMA__RELATION_TABLES = eINSTANCE.getSchema_RelationTables();
 
 		/**
 		 * The meta object literal for the '{@link relationalmodel.impl.TableImpl <em>Table</em>}' class.
@@ -1394,30 +605,6 @@ public interface RelationalmodelPackage extends EPackage {
 		EAttribute COLUMN__UNIQUE_INDEX = eINSTANCE.getColumn_UniqueIndex();
 
 		/**
-		 * The meta object literal for the '<em><b>Is Binary Column</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute COLUMN__IS_BINARY_COLUMN = eINSTANCE.getColumn_IsBinaryColumn();
-
-		/**
-		 * The meta object literal for the '<em><b>Unsigned Data Type</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute COLUMN__UNSIGNED_DATA_TYPE = eINSTANCE.getColumn_UnsignedDataType();
-
-		/**
-		 * The meta object literal for the '<em><b>Fill Up Values Column</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute COLUMN__FILL_UP_VALUES_COLUMN = eINSTANCE.getColumn_FillUpValuesColumn();
-
-		/**
 		 * The meta object literal for the '<em><b>Is Auto Incremental</b></em>' attribute feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -1426,176 +613,22 @@ public interface RelationalmodelPackage extends EPackage {
 		EAttribute COLUMN__IS_AUTO_INCREMENTAL = eINSTANCE.getColumn_IsAutoIncremental();
 
 		/**
-		 * The meta object literal for the '<em><b>Generated Column</b></em>' attribute feature.
+		 * The meta object literal for the '<em><b>Foreign Key</b></em>' attribute feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EAttribute COLUMN__GENERATED_COLUMN = eINSTANCE.getColumn_GeneratedColumn();
+		EAttribute COLUMN__FOREIGN_KEY = eINSTANCE.getColumn_ForeignKey();
 
 		/**
-		 * The meta object literal for the '<em><b>Expression</b></em>' attribute feature.
+		 * The meta object literal for the '{@link relationalmodel.DataType <em>Data Type</em>}' enum.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute COLUMN__EXPRESSION = eINSTANCE.getColumn_Expression();
-
-		/**
-		 * The meta object literal for the '<em><b>List Data Type</b></em>' containment reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference COLUMN__LIST_DATA_TYPE = eINSTANCE.getColumn_ListDataType();
-
-		/**
-		 * The meta object literal for the '{@link relationalmodel.impl.DataTypeImpl <em>Data Type</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see relationalmodel.impl.DataTypeImpl
+		 * @see relationalmodel.DataType
 		 * @see relationalmodel.impl.RelationalmodelPackageImpl#getDataType()
 		 * @generated
 		 */
-		EClass DATA_TYPE = eINSTANCE.getDataType();
-
-		/**
-		 * The meta object literal for the '<em><b>Name</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute DATA_TYPE__NAME = eINSTANCE.getDataType_Name();
-
-		/**
-		 * The meta object literal for the '<em><b>Description</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute DATA_TYPE__DESCRIPTION = eINSTANCE.getDataType_Description();
-
-		/**
-		 * The meta object literal for the '<em><b>Size</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute DATA_TYPE__SIZE = eINSTANCE.getDataType_Size();
-
-		/**
-		 * The meta object literal for the '{@link relationalmodel.impl.RelationTablesImpl <em>Relation Tables</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see relationalmodel.impl.RelationTablesImpl
-		 * @see relationalmodel.impl.RelationalmodelPackageImpl#getRelationTables()
-		 * @generated
-		 */
-		EClass RELATION_TABLES = eINSTANCE.getRelationTables();
-
-		/**
-		 * The meta object literal for the '<em><b>Rol A</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute RELATION_TABLES__ROL_A = eINSTANCE.getRelationTables_RolA();
-
-		/**
-		 * The meta object literal for the '<em><b>Rol B</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute RELATION_TABLES__ROL_B = eINSTANCE.getRelationTables_RolB();
-
-		/**
-		 * The meta object literal for the '<em><b>Navigability A</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute RELATION_TABLES__NAVIGABILITY_A = eINSTANCE.getRelationTables_NavigabilityA();
-
-		/**
-		 * The meta object literal for the '<em><b>Navigability B</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute RELATION_TABLES__NAVIGABILITY_B = eINSTANCE.getRelationTables_NavigabilityB();
-
-		/**
-		 * The meta object literal for the '<em><b>Multiplicity A</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute RELATION_TABLES__MULTIPLICITY_A = eINSTANCE.getRelationTables_MultiplicityA();
-
-		/**
-		 * The meta object literal for the '<em><b>Multiplicity B</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute RELATION_TABLES__MULTIPLICITY_B = eINSTANCE.getRelationTables_MultiplicityB();
-
-		/**
-		 * The meta object literal for the '<em><b>Source</b></em>' reference feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference RELATION_TABLES__SOURCE = eINSTANCE.getRelationTables_Source();
-
-		/**
-		 * The meta object literal for the '<em><b>Target</b></em>' reference feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference RELATION_TABLES__TARGET = eINSTANCE.getRelationTables_Target();
-
-		/**
-		 * The meta object literal for the '{@link relationalmodel.impl.RelationOneToOneImpl <em>Relation One To One</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see relationalmodel.impl.RelationOneToOneImpl
-		 * @see relationalmodel.impl.RelationalmodelPackageImpl#getRelationOneToOne()
-		 * @generated
-		 */
-		EClass RELATION_ONE_TO_ONE = eINSTANCE.getRelationOneToOne();
-
-		/**
-		 * The meta object literal for the '{@link relationalmodel.impl.RelationOneToManyImpl <em>Relation One To Many</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see relationalmodel.impl.RelationOneToManyImpl
-		 * @see relationalmodel.impl.RelationalmodelPackageImpl#getRelationOneToMany()
-		 * @generated
-		 */
-		EClass RELATION_ONE_TO_MANY = eINSTANCE.getRelationOneToMany();
-
-		/**
-		 * The meta object literal for the '{@link relationalmodel.impl.RelationManyToOneImpl <em>Relation Many To One</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see relationalmodel.impl.RelationManyToOneImpl
-		 * @see relationalmodel.impl.RelationalmodelPackageImpl#getRelationManyToOne()
-		 * @generated
-		 */
-		EClass RELATION_MANY_TO_ONE = eINSTANCE.getRelationManyToOne();
-
-		/**
-		 * The meta object literal for the '{@link relationalmodel.impl.RelationManyToManyImpl <em>Relation Many To Many</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see relationalmodel.impl.RelationManyToManyImpl
-		 * @see relationalmodel.impl.RelationalmodelPackageImpl#getRelationManyToMany()
-		 * @generated
-		 */
-		EClass RELATION_MANY_TO_MANY = eINSTANCE.getRelationManyToMany();
+		EEnum DATA_TYPE = eINSTANCE.getDataType();
 
 	}
 

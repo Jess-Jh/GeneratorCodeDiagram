@@ -25,7 +25,6 @@ import org.eclipse.emf.edit.provider.ItemProviderAdapter;
 import org.eclipse.emf.edit.provider.ViewerNotification;
 
 import relationalmodel.Column;
-import relationalmodel.RelationalmodelFactory;
 import relationalmodel.RelationalmodelPackage;
 
 /**
@@ -67,12 +66,8 @@ public class ColumnItemProvider
 			addIsPrimaryKeyPropertyDescriptor(object);
 			addNotNullPropertyDescriptor(object);
 			addUniqueIndexPropertyDescriptor(object);
-			addIsBinaryColumnPropertyDescriptor(object);
-			addUnsignedDataTypePropertyDescriptor(object);
-			addFillUpValuesColumnPropertyDescriptor(object);
 			addIsAutoIncrementalPropertyDescriptor(object);
-			addGeneratedColumnPropertyDescriptor(object);
-			addExpressionPropertyDescriptor(object);
+			addForeignKeyPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -166,72 +161,6 @@ public class ColumnItemProvider
 	}
 
 	/**
-	 * This adds a property descriptor for the Is Binary Column feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addIsBinaryColumnPropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_Column_isBinaryColumn_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Column_isBinaryColumn_feature", "_UI_Column_type"),
-				 RelationalmodelPackage.Literals.COLUMN__IS_BINARY_COLUMN,
-				 true,
-				 false,
-				 false,
-				 ItemPropertyDescriptor.BOOLEAN_VALUE_IMAGE,
-				 null,
-				 null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Unsigned Data Type feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addUnsignedDataTypePropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_Column_unsignedDataType_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Column_unsignedDataType_feature", "_UI_Column_type"),
-				 RelationalmodelPackage.Literals.COLUMN__UNSIGNED_DATA_TYPE,
-				 true,
-				 false,
-				 false,
-				 ItemPropertyDescriptor.BOOLEAN_VALUE_IMAGE,
-				 null,
-				 null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Fill Up Values Column feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addFillUpValuesColumnPropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_Column_fillUpValuesColumn_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Column_fillUpValuesColumn_feature", "_UI_Column_type"),
-				 RelationalmodelPackage.Literals.COLUMN__FILL_UP_VALUES_COLUMN,
-				 true,
-				 false,
-				 false,
-				 ItemPropertyDescriptor.BOOLEAN_VALUE_IMAGE,
-				 null,
-				 null));
-	}
-
-	/**
 	 * This adds a property descriptor for the Is Auto Incremental feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -254,41 +183,19 @@ public class ColumnItemProvider
 	}
 
 	/**
-	 * This adds a property descriptor for the Generated Column feature.
+	 * This adds a property descriptor for the Foreign Key feature.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	protected void addGeneratedColumnPropertyDescriptor(Object object) {
+	protected void addForeignKeyPropertyDescriptor(Object object) {
 		itemPropertyDescriptors.add
 			(createItemPropertyDescriptor
 				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
 				 getResourceLocator(),
-				 getString("_UI_Column_generatedColumn_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Column_generatedColumn_feature", "_UI_Column_type"),
-				 RelationalmodelPackage.Literals.COLUMN__GENERATED_COLUMN,
-				 true,
-				 false,
-				 false,
-				 ItemPropertyDescriptor.BOOLEAN_VALUE_IMAGE,
-				 null,
-				 null));
-	}
-
-	/**
-	 * This adds a property descriptor for the Expression feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addExpressionPropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_Column_expression_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Column_expression_feature", "_UI_Column_type"),
-				 RelationalmodelPackage.Literals.COLUMN__EXPRESSION,
+				 getString("_UI_Column_foreignKey_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Column_foreignKey_feature", "_UI_Column_type"),
+				 RelationalmodelPackage.Literals.COLUMN__FOREIGN_KEY,
 				 true,
 				 false,
 				 false,
@@ -310,7 +217,6 @@ public class ColumnItemProvider
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
 			childrenFeatures.add(RelationalmodelPackage.Literals.COLUMN__DATA_TYPE);
-			childrenFeatures.add(RelationalmodelPackage.Literals.COLUMN__LIST_DATA_TYPE);
 		}
 		return childrenFeatures;
 	}
@@ -370,16 +276,11 @@ public class ColumnItemProvider
 			case RelationalmodelPackage.COLUMN__IS_PRIMARY_KEY:
 			case RelationalmodelPackage.COLUMN__NOT_NULL:
 			case RelationalmodelPackage.COLUMN__UNIQUE_INDEX:
-			case RelationalmodelPackage.COLUMN__IS_BINARY_COLUMN:
-			case RelationalmodelPackage.COLUMN__UNSIGNED_DATA_TYPE:
-			case RelationalmodelPackage.COLUMN__FILL_UP_VALUES_COLUMN:
 			case RelationalmodelPackage.COLUMN__IS_AUTO_INCREMENTAL:
-			case RelationalmodelPackage.COLUMN__GENERATED_COLUMN:
-			case RelationalmodelPackage.COLUMN__EXPRESSION:
+			case RelationalmodelPackage.COLUMN__FOREIGN_KEY:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 			case RelationalmodelPackage.COLUMN__DATA_TYPE:
-			case RelationalmodelPackage.COLUMN__LIST_DATA_TYPE:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 				return;
 		}
@@ -396,39 +297,6 @@ public class ColumnItemProvider
 	@Override
 	protected void collectNewChildDescriptors(Collection<Object> newChildDescriptors, Object object) {
 		super.collectNewChildDescriptors(newChildDescriptors, object);
-
-		newChildDescriptors.add
-			(createChildParameter
-				(RelationalmodelPackage.Literals.COLUMN__DATA_TYPE,
-				 RelationalmodelFactory.eINSTANCE.createDataType()));
-
-		newChildDescriptors.add
-			(createChildParameter
-				(RelationalmodelPackage.Literals.COLUMN__LIST_DATA_TYPE,
-				 RelationalmodelFactory.eINSTANCE.createDataType()));
-	}
-
-	/**
-	 * This returns the label text for {@link org.eclipse.emf.edit.command.CreateChildCommand}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public String getCreateChildText(Object owner, Object feature, Object child, Collection<?> selection) {
-		Object childFeature = feature;
-		Object childObject = child;
-
-		boolean qualify =
-			childFeature == RelationalmodelPackage.Literals.COLUMN__DATA_TYPE ||
-			childFeature == RelationalmodelPackage.Literals.COLUMN__LIST_DATA_TYPE;
-
-		if (qualify) {
-			return getString
-				("_UI_CreateChild_text2",
-				 new Object[] { getTypeText(childObject), getFeatureText(childFeature), getTypeText(owner) });
-		}
-		return super.getCreateChildText(owner, feature, child, selection);
 	}
 
 	/**

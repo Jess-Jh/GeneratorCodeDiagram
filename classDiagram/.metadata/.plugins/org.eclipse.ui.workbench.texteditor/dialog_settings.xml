@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="Dropdo"/>
+		<item key="selection" value="getAttributesClass"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="true"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="getAttributesClass"/>
+			<item value="getAttributesRelations"/>
+			<item value="addAttributeToClass"/>
+			<item value="abstractJJD"/>
+			<item value="saveAbstract"/>
+			<item value="btnTransformacionDsl"/>
+			<item value="transformationM2M"/>
 			<item value="Dropdo"/>
 			<item value="CupertinoDatePicker"/>
 			<item value="GestureD"/>
@@ -16,13 +23,6 @@
 			<item value="dropdo"/>
 			<item value="handleNotificationEvent"/>
 			<item value="modelFactoryAbstract"/>
-			<item value="group"/>
-			<item value="Group"/>
-			<item value="switch"/>
-			<item value="Label"/>
-			<item value="label"/>
-			<item value="button"/>
-			<item value="Button"/>
 		</list>
 		<list key="replacehistory">
 			<item value="table"/>

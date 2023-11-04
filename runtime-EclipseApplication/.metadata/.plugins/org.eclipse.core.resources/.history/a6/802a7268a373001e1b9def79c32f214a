@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:abstractRelationalModel="abstractRelationalModel" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_GwqPwHN8Ee6Yw9OWb9pogQ" type="AbstractRelationalModel" measurementUnit="Pixel">
-  <styles xmi:type="notation:DiagramStyle" xmi:id="_GwqPwXN8Ee6Yw9OWb9pogQ"/>
-  <element xmi:type="abstractRelationalModel:AbstractRelationalModel" href="model.abstractrelationalmodel#//@listAbstractRelationalModel.0"/>
-</notation:Diagram>

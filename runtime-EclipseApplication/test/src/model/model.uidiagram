@@ -17,19 +17,19 @@
       </listTemplateWidget>
       <listTemplateWidget xsi:type="uidiagram:GroupRow" idTemplate="1698464416100_163" positionX="2" positionY="292" width="389.0" height="93.0" backgroundColor="16777215">
         <listTemplateWidget xsi:type="uidiagram:Label" idTemplate="1698464349748_109" name="Seleccione una opción" positionX="-2" positionY="4" width="131.0" height="29.0" backgroundColor="16777215"/>
-        <listTemplateWidget xsi:type="uidiagram:ComboBox" idTemplate="1698464372532_131" positionX="160" positionY="4" width="193.0" height="25.0" backgroundColor="16777215"/>
+        <listTemplateWidget xsi:type="uidiagram:ComboBox" idTemplate="1698512339638_9" positionX="160" positionY="4" width="187.0" height="25.0" backgroundColor="16777215"/>
       </listTemplateWidget>
       <listTemplateWidget xsi:type="uidiagram:GroupRow" idTemplate="1698464441933_184" positionX="7" positionY="393" width="384.0" height="84.0" backgroundColor="16777215" alignment="end">
         <listTemplateWidget xsi:type="uidiagram:Label" idTemplate="1698464450173_194" name="Se encuentra activo" positionX="-3" positionY="7" width="141.0" height="29.0" backgroundColor="16777215"/>
-        <listTemplateWidget xsi:type="uidiagram:Switch" idTemplate="1698464463092_211" positionX="166" positionY="-1" width="93.0" height="33.0" backgroundColor="00B00B"/>
+        <listTemplateWidget xsi:type="uidiagram:Switch" idTemplate="1698512365904_27" positionX="176" positionY="-3" width="93.0" height="33.0" backgroundColor="00B00B"/>
       </listTemplateWidget>
       <listTemplateWidget xsi:type="uidiagram:GroupRow" idTemplate="1698464869381_294" positionX="2" positionY="480" width="393.0" height="73.0" backgroundColor="16777215" alignment="center">
         <listTemplateWidget xsi:type="uidiagram:Label" idTemplate="1698468034541_4" name="Estudiante" positionX="36" width="153.0" height="29.0" backgroundColor="16777215"/>
-        <listTemplateWidget xsi:type="uidiagram:Checkbox" idTemplate="1698468031104_0" positionX="200" width="41.0" height="25.0" backgroundColor="0651E9"/>
+        <listTemplateWidget xsi:type="uidiagram:Checkbox" idTemplate="1698513589379_73" positionX="200" width="45.0" height="25.0" backgroundColor="0651E9"/>
       </listTemplateWidget>
       <listTemplateWidget xsi:type="uidiagram:GroupRow" idTemplate="1698464954616_344" positionX="2" positionY="560" width="385.0" height="73.0" backgroundColor="16777215" alignment="end">
         <listTemplateWidget xsi:type="uidiagram:Label" idTemplate="1698468041275_12" name="Trabaja medio tiempo" positionX="36" width="157.0" height="29.0" backgroundColor="16777215"/>
-        <listTemplateWidget xsi:type="uidiagram:RadioButton" idTemplate="1698468037688_9" positionX="204" width="37.0" height="29.0" backgroundColor="FF9700"/>
+        <listTemplateWidget xsi:type="uidiagram:RadioButton" idTemplate="1698513043671_43" positionX="216" width="37.0" height="29.0" backgroundColor="FF9700"/>
       </listTemplateWidget>
       <listTemplateWidget xsi:type="uidiagram:Table" idTemplate="1698465757405_1" name="Detalle del registro" positionX="2" positionY="644" width="383.0" height="157.0" backgroundColor="16777215">
         <listCoulmns name="Nombre"/>
@@ -37,7 +37,7 @@
         <listCoulmns name="Estudiante"/>
       </listTemplateWidget>
       <listTemplateWidget xsi:type="uidiagram:Group" idTemplate="1698470763800_28" positionY="808" width="385.0" height="113.0" backgroundColor="FFFFFF"/>
-      <listTemplateWidget xsi:type="uidiagram:Button" idTemplate="1698470766660_32" name="Realizar Registro" positionX="-4" positionY="936" width="385.0" height="69.0" backgroundColor="633974 " navigateTo="list"/>
+      <listTemplateWidget xsi:type="uidiagram:Button" idTemplate="1698470766660_32" name="Registro" positionX="-4" positionY="936" width="385.0" height="69.0" backgroundColor="633974 " navigateTo="list"/>
     </userInterface>
   </listDiagrams>
   <listDiagrams name="list">

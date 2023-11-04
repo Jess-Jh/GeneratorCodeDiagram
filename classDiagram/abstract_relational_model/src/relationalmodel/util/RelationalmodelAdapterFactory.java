@@ -84,30 +84,6 @@ public class RelationalmodelAdapterFactory extends AdapterFactoryImpl {
 				return createColumnAdapter();
 			}
 			@Override
-			public Adapter caseDataType(DataType object) {
-				return createDataTypeAdapter();
-			}
-			@Override
-			public Adapter caseRelationTables(RelationTables object) {
-				return createRelationTablesAdapter();
-			}
-			@Override
-			public Adapter caseRelationOneToOne(RelationOneToOne object) {
-				return createRelationOneToOneAdapter();
-			}
-			@Override
-			public Adapter caseRelationOneToMany(RelationOneToMany object) {
-				return createRelationOneToManyAdapter();
-			}
-			@Override
-			public Adapter caseRelationManyToOne(RelationManyToOne object) {
-				return createRelationManyToOneAdapter();
-			}
-			@Override
-			public Adapter caseRelationManyToMany(RelationManyToMany object) {
-				return createRelationManyToManyAdapter();
-			}
-			@Override
 			public Adapter defaultCase(EObject object) {
 				return createEObjectAdapter();
 			}
@@ -180,90 +156,6 @@ public class RelationalmodelAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createColumnAdapter() {
-		return null;
-	}
-
-	/**
-	 * Creates a new adapter for an object of class '{@link relationalmodel.DataType <em>Data Type</em>}'.
-	 * <!-- begin-user-doc -->
-	 * This default implementation returns null so that we can easily ignore cases;
-	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
-	 * <!-- end-user-doc -->
-	 * @return the new adapter.
-	 * @see relationalmodel.DataType
-	 * @generated
-	 */
-	public Adapter createDataTypeAdapter() {
-		return null;
-	}
-
-	/**
-	 * Creates a new adapter for an object of class '{@link relationalmodel.RelationTables <em>Relation Tables</em>}'.
-	 * <!-- begin-user-doc -->
-	 * This default implementation returns null so that we can easily ignore cases;
-	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
-	 * <!-- end-user-doc -->
-	 * @return the new adapter.
-	 * @see relationalmodel.RelationTables
-	 * @generated
-	 */
-	public Adapter createRelationTablesAdapter() {
-		return null;
-	}
-
-	/**
-	 * Creates a new adapter for an object of class '{@link relationalmodel.RelationOneToOne <em>Relation One To One</em>}'.
-	 * <!-- begin-user-doc -->
-	 * This default implementation returns null so that we can easily ignore cases;
-	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
-	 * <!-- end-user-doc -->
-	 * @return the new adapter.
-	 * @see relationalmodel.RelationOneToOne
-	 * @generated
-	 */
-	public Adapter createRelationOneToOneAdapter() {
-		return null;
-	}
-
-	/**
-	 * Creates a new adapter for an object of class '{@link relationalmodel.RelationOneToMany <em>Relation One To Many</em>}'.
-	 * <!-- begin-user-doc -->
-	 * This default implementation returns null so that we can easily ignore cases;
-	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
-	 * <!-- end-user-doc -->
-	 * @return the new adapter.
-	 * @see relationalmodel.RelationOneToMany
-	 * @generated
-	 */
-	public Adapter createRelationOneToManyAdapter() {
-		return null;
-	}
-
-	/**
-	 * Creates a new adapter for an object of class '{@link relationalmodel.RelationManyToOne <em>Relation Many To One</em>}'.
-	 * <!-- begin-user-doc -->
-	 * This default implementation returns null so that we can easily ignore cases;
-	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
-	 * <!-- end-user-doc -->
-	 * @return the new adapter.
-	 * @see relationalmodel.RelationManyToOne
-	 * @generated
-	 */
-	public Adapter createRelationManyToOneAdapter() {
-		return null;
-	}
-
-	/**
-	 * Creates a new adapter for an object of class '{@link relationalmodel.RelationManyToMany <em>Relation Many To Many</em>}'.
-	 * <!-- begin-user-doc -->
-	 * This default implementation returns null so that we can easily ignore cases;
-	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
-	 * <!-- end-user-doc -->
-	 * @return the new adapter.
-	 * @see relationalmodel.RelationManyToMany
-	 * @generated
-	 */
-	public Adapter createRelationManyToManyAdapter() {
 		return null;
 	}
 

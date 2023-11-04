@@ -58,60 +58,6 @@ public interface RelationalmodelFactory extends EFactory {
 	Column createColumn();
 
 	/**
-	 * Returns a new object of class '<em>Data Type</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Data Type</em>'.
-	 * @generated
-	 */
-	DataType createDataType();
-
-	/**
-	 * Returns a new object of class '<em>Relation Tables</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Relation Tables</em>'.
-	 * @generated
-	 */
-	RelationTables createRelationTables();
-
-	/**
-	 * Returns a new object of class '<em>Relation One To One</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Relation One To One</em>'.
-	 * @generated
-	 */
-	RelationOneToOne createRelationOneToOne();
-
-	/**
-	 * Returns a new object of class '<em>Relation One To Many</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Relation One To Many</em>'.
-	 * @generated
-	 */
-	RelationOneToMany createRelationOneToMany();
-
-	/**
-	 * Returns a new object of class '<em>Relation Many To One</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Relation Many To One</em>'.
-	 * @generated
-	 */
-	RelationManyToOne createRelationManyToOne();
-
-	/**
-	 * Returns a new object of class '<em>Relation Many To Many</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Relation Many To Many</em>'.
-	 * @generated
-	 */
-	RelationManyToMany createRelationManyToMany();
-
-	/**
 	 * Returns the package supported by this factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

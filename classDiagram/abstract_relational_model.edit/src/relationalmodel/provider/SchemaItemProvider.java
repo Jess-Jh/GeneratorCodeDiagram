@@ -103,7 +103,6 @@ public class SchemaItemProvider
 		if (childrenFeatures == null) {
 			super.getChildrenFeatures(object);
 			childrenFeatures.add(RelationalmodelPackage.Literals.SCHEMA__LIST_TABLES);
-			childrenFeatures.add(RelationalmodelPackage.Literals.SCHEMA__RELATION_TABLES);
 		}
 		return childrenFeatures;
 	}
@@ -163,7 +162,6 @@ public class SchemaItemProvider
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 			case RelationalmodelPackage.SCHEMA__LIST_TABLES:
-			case RelationalmodelPackage.SCHEMA__RELATION_TABLES:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 				return;
 		}
@@ -185,31 +183,6 @@ public class SchemaItemProvider
 			(createChildParameter
 				(RelationalmodelPackage.Literals.SCHEMA__LIST_TABLES,
 				 RelationalmodelFactory.eINSTANCE.createTable()));
-
-		newChildDescriptors.add
-			(createChildParameter
-				(RelationalmodelPackage.Literals.SCHEMA__RELATION_TABLES,
-				 RelationalmodelFactory.eINSTANCE.createRelationTables()));
-
-		newChildDescriptors.add
-			(createChildParameter
-				(RelationalmodelPackage.Literals.SCHEMA__RELATION_TABLES,
-				 RelationalmodelFactory.eINSTANCE.createRelationOneToOne()));
-
-		newChildDescriptors.add
-			(createChildParameter
-				(RelationalmodelPackage.Literals.SCHEMA__RELATION_TABLES,
-				 RelationalmodelFactory.eINSTANCE.createRelationOneToMany()));
-
-		newChildDescriptors.add
-			(createChildParameter
-				(RelationalmodelPackage.Literals.SCHEMA__RELATION_TABLES,
-				 RelationalmodelFactory.eINSTANCE.createRelationManyToOne()));
-
-		newChildDescriptors.add
-			(createChildParameter
-				(RelationalmodelPackage.Literals.SCHEMA__RELATION_TABLES,
-				 RelationalmodelFactory.eINSTANCE.createRelationManyToMany()));
 	}
 
 	/**

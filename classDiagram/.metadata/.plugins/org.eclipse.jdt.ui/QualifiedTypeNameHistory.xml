@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePicker4EditPart"/>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePickerName5EditPart"/>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.DatePicker5EditPart"/>
-    <fullyQualifiedTypeName name="generatorcode.views.DialogDatePickerView"/>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.GroupNameEditPart"/>
-    <fullyQualifiedTypeName name="org.eclipse.gmf.runtime.diagram.ui.editparts.GroupEditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.GroupName2EditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.Group2EditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.GroupName3EditPart"/>
@@ -60,4 +54,10 @@
     <fullyQualifiedTypeName name="uidiagram.UIDiagram"/>
     <fullyQualifiedTypeName name="uidiagram.UserInterface"/>
     <fullyQualifiedTypeName name="uidiagram.ModelFactory"/>
+    <fullyQualifiedTypeName name="abstractJJD.PackageJJD"/>
+    <fullyQualifiedTypeName name="abstractJJD.ClassJJD"/>
+    <fullyQualifiedTypeName name="abstractJJD.AttributeJJD"/>
+    <fullyQualifiedTypeName name="abstractrelationalmodel.AbstractrelationalmodelFactory"/>
+    <fullyQualifiedTypeName name="abstractrelationalmodel.Column"/>
+    <fullyQualifiedTypeName name="abstractrelationalmodel.DataType"/>
 </qualifiedTypeNameHistroy>

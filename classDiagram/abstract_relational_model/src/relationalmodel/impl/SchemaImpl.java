@@ -18,7 +18,6 @@ import org.eclipse.emf.ecore.impl.EObjectImpl;
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
 
-import relationalmodel.RelationTables;
 import relationalmodel.RelationalmodelPackage;
 import relationalmodel.Schema;
 import relationalmodel.Table;
@@ -33,7 +32,6 @@ import relationalmodel.Table;
  * <ul>
  *   <li>{@link relationalmodel.impl.SchemaImpl#getName <em>Name</em>}</li>
  *   <li>{@link relationalmodel.impl.SchemaImpl#getListTables <em>List Tables</em>}</li>
- *   <li>{@link relationalmodel.impl.SchemaImpl#getRelationTables <em>Relation Tables</em>}</li>
  * </ul>
  *
  * @generated
@@ -68,16 +66,6 @@ public class SchemaImpl extends EObjectImpl implements Schema {
 	 * @ordered
 	 */
 	protected EList<Table> listTables;
-
-	/**
-	 * The cached value of the '{@link #getRelationTables() <em>Relation Tables</em>}' containment reference list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getRelationTables()
-	 * @generated
-	 * @ordered
-	 */
-	protected EList<RelationTables> relationTables;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -140,25 +128,10 @@ public class SchemaImpl extends EObjectImpl implements Schema {
 	 * @generated
 	 */
 	@Override
-	public EList<RelationTables> getRelationTables() {
-		if (relationTables == null) {
-			relationTables = new EObjectContainmentEList<RelationTables>(RelationTables.class, this, RelationalmodelPackage.SCHEMA__RELATION_TABLES);
-		}
-		return relationTables;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
 	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case RelationalmodelPackage.SCHEMA__LIST_TABLES:
 				return ((InternalEList<?>)getListTables()).basicRemove(otherEnd, msgs);
-			case RelationalmodelPackage.SCHEMA__RELATION_TABLES:
-				return ((InternalEList<?>)getRelationTables()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -175,8 +148,6 @@ public class SchemaImpl extends EObjectImpl implements Schema {
 				return getName();
 			case RelationalmodelPackage.SCHEMA__LIST_TABLES:
 				return getListTables();
-			case RelationalmodelPackage.SCHEMA__RELATION_TABLES:
-				return getRelationTables();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -197,10 +168,6 @@ public class SchemaImpl extends EObjectImpl implements Schema {
 				getListTables().clear();
 				getListTables().addAll((Collection<? extends Table>)newValue);
 				return;
-			case RelationalmodelPackage.SCHEMA__RELATION_TABLES:
-				getRelationTables().clear();
-				getRelationTables().addAll((Collection<? extends RelationTables>)newValue);
-				return;
 		}
 		super.eSet(featureID, newValue);
 	}
@@ -219,9 +186,6 @@ public class SchemaImpl extends EObjectImpl implements Schema {
 			case RelationalmodelPackage.SCHEMA__LIST_TABLES:
 				getListTables().clear();
 				return;
-			case RelationalmodelPackage.SCHEMA__RELATION_TABLES:
-				getRelationTables().clear();
-				return;
 		}
 		super.eUnset(featureID);
 	}
@@ -238,8 +202,6 @@ public class SchemaImpl extends EObjectImpl implements Schema {
 				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
 			case RelationalmodelPackage.SCHEMA__LIST_TABLES:
 				return listTables != null && !listTables.isEmpty();
-			case RelationalmodelPackage.SCHEMA__RELATION_TABLES:
-				return relationTables != null && !relationTables.isEmpty();
 		}
 		return super.eIsSet(featureID);
 	}

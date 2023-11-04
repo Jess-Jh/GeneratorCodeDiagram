@@ -74,7 +74,7 @@
           <children xmi:type="notation:Shape" xmi:id="_lOK8UHVDEe6sZK5bjHuW0Q" type="3058" fontName=".AppleSystemUIFont">
             <children xmi:type="notation:DecorationNode" xmi:id="_lOLjYHVDEe6sZK5bjHuW0Q" type="5044"/>
             <element xmi:type="uidiagram:ComboBox" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.3/@listTemplateWidget.1"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lOK8UXVDEe6sZK5bjHuW0Q" x="160" y="4" width="193" height="25"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lOK8UXVDEe6sZK5bjHuW0Q" x="160" y="4" width="187" height="25"/>
           </children>
         </children>
         <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_0tkkQXRsEe6FZ9VK-klCwg"/>
@@ -92,7 +92,7 @@
           <children xmi:type="notation:Shape" xmi:id="_0V038HVDEe6sZK5bjHuW0Q" type="3060" fontName=".AppleSystemUIFont">
             <children xmi:type="notation:DecorationNode" xmi:id="_0V038nVDEe6sZK5bjHuW0Q" type="5046"/>
             <element xmi:type="uidiagram:Switch" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.4/@listTemplateWidget.1"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0V038XVDEe6sZK5bjHuW0Q" x="166" y="-1" width="93" height="33"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0V038XVDEe6sZK5bjHuW0Q" x="176" y="-3" width="93" height="33"/>
           </children>
         </children>
         <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_v4YcQHVDEe6sZK5bjHuW0Q"/>
@@ -110,7 +110,7 @@
           <children xmi:type="notation:Shape" xmi:id="_wNJ88HVEEe6sZK5bjHuW0Q" type="3042" fontName=".AppleSystemUIFont">
             <children xmi:type="notation:DecorationNode" xmi:id="_wNJ88nVEEe6sZK5bjHuW0Q" type="5028"/>
             <element xmi:type="uidiagram:Checkbox" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.5/@listTemplateWidget.1"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wNJ88XVEEe6sZK5bjHuW0Q" x="200" width="41" height="25"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wNJ88XVEEe6sZK5bjHuW0Q" x="200" width="45" height="25"/>
           </children>
         </children>
         <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_tAjeEXVEEe6sZK5bjHuW0Q"/>
@@ -128,7 +128,7 @@
           <children xmi:type="notation:Shape" xmi:id="_89h4IHVEEe6sZK5bjHuW0Q" type="3057" fontName=".AppleSystemUIFont">
             <children xmi:type="notation:DecorationNode" xmi:id="_89h4InVEEe6sZK5bjHuW0Q" type="5043"/>
             <element xmi:type="uidiagram:RadioButton" href="model.uidiagram#//@listDiagrams.0/@userInterface/@listTemplateWidget.6/@listTemplateWidget.1"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_89h4IXVEEe6sZK5bjHuW0Q" x="204" width="37" height="29"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_89h4IXVEEe6sZK5bjHuW0Q" x="216" width="37" height="29"/>
           </children>
         </children>
         <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_z_OgYXVEEe6sZK5bjHuW0Q"/>

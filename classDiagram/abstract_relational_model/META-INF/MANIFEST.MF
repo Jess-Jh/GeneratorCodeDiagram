@@ -8,10 +8,7 @@ Bundle-ClassPath: .
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Export-Package: abstractrelationalmodel,
- abstractrelationalmodel.impl,
- abstractrelationalmodel.util,
- relationalmodel,
+Export-Package: relationalmodel,
  relationalmodel.impl,
  relationalmodel.util
 Require-Bundle: org.eclipse.core.runtime,

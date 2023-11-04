@@ -3,6 +3,7 @@
 package relationalmodel.impl;
 
 import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.EDataType;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EPackage;
 
@@ -60,14 +61,38 @@ public class RelationalmodelFactoryImpl extends EFactoryImpl implements Relation
 			case RelationalmodelPackage.SCHEMA: return createSchema();
 			case RelationalmodelPackage.TABLE: return createTable();
 			case RelationalmodelPackage.COLUMN: return createColumn();
-			case RelationalmodelPackage.DATA_TYPE: return createDataType();
-			case RelationalmodelPackage.RELATION_TABLES: return createRelationTables();
-			case RelationalmodelPackage.RELATION_ONE_TO_ONE: return createRelationOneToOne();
-			case RelationalmodelPackage.RELATION_ONE_TO_MANY: return createRelationOneToMany();
-			case RelationalmodelPackage.RELATION_MANY_TO_ONE: return createRelationManyToOne();
-			case RelationalmodelPackage.RELATION_MANY_TO_MANY: return createRelationManyToMany();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
+		}
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Object createFromString(EDataType eDataType, String initialValue) {
+		switch (eDataType.getClassifierID()) {
+			case RelationalmodelPackage.DATA_TYPE:
+				return createDataTypeFromString(eDataType, initialValue);
+			default:
+				throw new IllegalArgumentException("The datatype '" + eDataType.getName() + "' is not a valid classifier");
+		}
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public String convertToString(EDataType eDataType, Object instanceValue) {
+		switch (eDataType.getClassifierID()) {
+			case RelationalmodelPackage.DATA_TYPE:
+				return convertDataTypeToString(eDataType, instanceValue);
+			default:
+				throw new IllegalArgumentException("The datatype '" + eDataType.getName() + "' is not a valid classifier");
 		}
 	}
 
@@ -120,10 +145,10 @@ public class RelationalmodelFactoryImpl extends EFactoryImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
-	public DataType createDataType() {
-		DataTypeImpl dataType = new DataTypeImpl();
-		return dataType;
+	public DataType createDataTypeFromString(EDataType eDataType, String initialValue) {
+		DataType result = DataType.get(initialValue);
+		if (result == null) throw new IllegalArgumentException("The value '" + initialValue + "' is not a valid enumerator of '" + eDataType.getName() + "'");
+		return result;
 	}
 
 	/**
@@ -131,54 +156,8 @@ public class RelationalmodelFactoryImpl extends EFactoryImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
-	public RelationTables createRelationTables() {
-		RelationTablesImpl relationTables = new RelationTablesImpl();
-		return relationTables;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public RelationOneToOne createRelationOneToOne() {
-		RelationOneToOneImpl relationOneToOne = new RelationOneToOneImpl();
-		return relationOneToOne;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public RelationOneToMany createRelationOneToMany() {
-		RelationOneToManyImpl relationOneToMany = new RelationOneToManyImpl();
-		return relationOneToMany;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public RelationManyToOne createRelationManyToOne() {
-		RelationManyToOneImpl relationManyToOne = new RelationManyToOneImpl();
-		return relationManyToOne;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public RelationManyToMany createRelationManyToMany() {
-		RelationManyToManyImpl relationManyToMany = new RelationManyToManyImpl();
-		return relationManyToMany;
+	public String convertDataTypeToString(EDataType eDataType, Object instanceValue) {
+		return instanceValue == null ? null : instanceValue.toString();
 	}
 
 	/**

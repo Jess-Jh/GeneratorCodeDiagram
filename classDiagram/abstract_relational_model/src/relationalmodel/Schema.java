@@ -17,7 +17,6 @@ import org.eclipse.emf.ecore.EObject;
  * <ul>
  *   <li>{@link relationalmodel.Schema#getName <em>Name</em>}</li>
  *   <li>{@link relationalmodel.Schema#getListTables <em>List Tables</em>}</li>
- *   <li>{@link relationalmodel.Schema#getRelationTables <em>Relation Tables</em>}</li>
  * </ul>
  *
  * @see relationalmodel.RelationalmodelPackage#getSchema()
@@ -58,17 +57,5 @@ public interface Schema extends EObject {
 	 * @generated
 	 */
 	EList<Table> getListTables();
-
-	/**
-	 * Returns the value of the '<em><b>Relation Tables</b></em>' containment reference list.
-	 * The list contents are of type {@link relationalmodel.RelationTables}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Relation Tables</em>' containment reference list.
-	 * @see relationalmodel.RelationalmodelPackage#getSchema_RelationTables()
-	 * @model containment="true"
-	 * @generated
-	 */
-	EList<RelationTables> getRelationTables();
 
 } // Schema

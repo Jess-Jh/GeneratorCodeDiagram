@@ -2,8 +2,6 @@
  */
 package relationalmodel;
 
-import org.eclipse.emf.common.util.EList;
-
 import org.eclipse.emf.ecore.EObject;
 
 /**
@@ -20,13 +18,8 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link relationalmodel.Column#isIsPrimaryKey <em>Is Primary Key</em>}</li>
  *   <li>{@link relationalmodel.Column#isNotNull <em>Not Null</em>}</li>
  *   <li>{@link relationalmodel.Column#isUniqueIndex <em>Unique Index</em>}</li>
- *   <li>{@link relationalmodel.Column#isIsBinaryColumn <em>Is Binary Column</em>}</li>
- *   <li>{@link relationalmodel.Column#isUnsignedDataType <em>Unsigned Data Type</em>}</li>
- *   <li>{@link relationalmodel.Column#isFillUpValuesColumn <em>Fill Up Values Column</em>}</li>
  *   <li>{@link relationalmodel.Column#isIsAutoIncremental <em>Is Auto Incremental</em>}</li>
- *   <li>{@link relationalmodel.Column#isGeneratedColumn <em>Generated Column</em>}</li>
- *   <li>{@link relationalmodel.Column#getExpression <em>Expression</em>}</li>
- *   <li>{@link relationalmodel.Column#getListDataType <em>List Data Type</em>}</li>
+ *   <li>{@link relationalmodel.Column#getForeignKey <em>Foreign Key</em>}</li>
  * </ul>
  *
  * @see relationalmodel.RelationalmodelPackage#getColumn()
@@ -58,9 +51,11 @@ public interface Column extends EObject {
 
 	/**
 	 * Returns the value of the '<em><b>Data Type</b></em>' containment reference.
+	 * The literals are from the enumeration {@link relationalmodel.DataType}.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Data Type</em>' containment reference.
+	 * @see relationalmodel.DataType
 	 * @see #setDataType(DataType)
 	 * @see relationalmodel.RelationalmodelPackage#getColumn_DataType()
 	 * @model containment="true"
@@ -73,6 +68,7 @@ public interface Column extends EObject {
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @param value the new value of the '<em>Data Type</em>' containment reference.
+	 * @see relationalmodel.DataType
 	 * @see #getDataType()
 	 * @generated
 	 */
@@ -145,72 +141,6 @@ public interface Column extends EObject {
 	void setUniqueIndex(boolean value);
 
 	/**
-	 * Returns the value of the '<em><b>Is Binary Column</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Is Binary Column</em>' attribute.
-	 * @see #setIsBinaryColumn(boolean)
-	 * @see relationalmodel.RelationalmodelPackage#getColumn_IsBinaryColumn()
-	 * @model
-	 * @generated
-	 */
-	boolean isIsBinaryColumn();
-
-	/**
-	 * Sets the value of the '{@link relationalmodel.Column#isIsBinaryColumn <em>Is Binary Column</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Is Binary Column</em>' attribute.
-	 * @see #isIsBinaryColumn()
-	 * @generated
-	 */
-	void setIsBinaryColumn(boolean value);
-
-	/**
-	 * Returns the value of the '<em><b>Unsigned Data Type</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Unsigned Data Type</em>' attribute.
-	 * @see #setUnsignedDataType(boolean)
-	 * @see relationalmodel.RelationalmodelPackage#getColumn_UnsignedDataType()
-	 * @model
-	 * @generated
-	 */
-	boolean isUnsignedDataType();
-
-	/**
-	 * Sets the value of the '{@link relationalmodel.Column#isUnsignedDataType <em>Unsigned Data Type</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Unsigned Data Type</em>' attribute.
-	 * @see #isUnsignedDataType()
-	 * @generated
-	 */
-	void setUnsignedDataType(boolean value);
-
-	/**
-	 * Returns the value of the '<em><b>Fill Up Values Column</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Fill Up Values Column</em>' attribute.
-	 * @see #setFillUpValuesColumn(boolean)
-	 * @see relationalmodel.RelationalmodelPackage#getColumn_FillUpValuesColumn()
-	 * @model
-	 * @generated
-	 */
-	boolean isFillUpValuesColumn();
-
-	/**
-	 * Sets the value of the '{@link relationalmodel.Column#isFillUpValuesColumn <em>Fill Up Values Column</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Fill Up Values Column</em>' attribute.
-	 * @see #isFillUpValuesColumn()
-	 * @generated
-	 */
-	void setFillUpValuesColumn(boolean value);
-
-	/**
 	 * Returns the value of the '<em><b>Is Auto Incremental</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -233,59 +163,25 @@ public interface Column extends EObject {
 	void setIsAutoIncremental(boolean value);
 
 	/**
-	 * Returns the value of the '<em><b>Generated Column</b></em>' attribute.
+	 * Returns the value of the '<em><b>Foreign Key</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Generated Column</em>' attribute.
-	 * @see #setGeneratedColumn(boolean)
-	 * @see relationalmodel.RelationalmodelPackage#getColumn_GeneratedColumn()
+	 * @return the value of the '<em>Foreign Key</em>' attribute.
+	 * @see #setForeignKey(String)
+	 * @see relationalmodel.RelationalmodelPackage#getColumn_ForeignKey()
 	 * @model
 	 * @generated
 	 */
-	boolean isGeneratedColumn();
+	String getForeignKey();
 
 	/**
-	 * Sets the value of the '{@link relationalmodel.Column#isGeneratedColumn <em>Generated Column</em>}' attribute.
+	 * Sets the value of the '{@link relationalmodel.Column#getForeignKey <em>Foreign Key</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Generated Column</em>' attribute.
-	 * @see #isGeneratedColumn()
+	 * @param value the new value of the '<em>Foreign Key</em>' attribute.
+	 * @see #getForeignKey()
 	 * @generated
 	 */
-	void setGeneratedColumn(boolean value);
-
-	/**
-	 * Returns the value of the '<em><b>Expression</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Expression</em>' attribute.
-	 * @see #setExpression(String)
-	 * @see relationalmodel.RelationalmodelPackage#getColumn_Expression()
-	 * @model
-	 * @generated
-	 */
-	String getExpression();
-
-	/**
-	 * Sets the value of the '{@link relationalmodel.Column#getExpression <em>Expression</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Expression</em>' attribute.
-	 * @see #getExpression()
-	 * @generated
-	 */
-	void setExpression(String value);
-
-	/**
-	 * Returns the value of the '<em><b>List Data Type</b></em>' containment reference list.
-	 * The list contents are of type {@link relationalmodel.DataType}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>List Data Type</em>' containment reference list.
-	 * @see relationalmodel.RelationalmodelPackage#getColumn_ListDataType()
-	 * @model containment="true"
-	 * @generated
-	 */
-	EList<DataType> getListDataType();
+	void setForeignKey(String value);
 
 } // Column
