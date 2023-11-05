@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.GroupName2EditPart"/>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.Group2EditPart"/>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.GroupName3EditPart"/>
-    <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.Group3EditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.GroupName4EditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.Group4EditPart"/>
     <fullyQualifiedTypeName name="uidiagram.diagram.edit.parts.GroupName5EditPart"/>
@@ -60,4 +56,8 @@
     <fullyQualifiedTypeName name="abstractrelationalmodel.AbstractrelationalmodelFactory"/>
     <fullyQualifiedTypeName name="abstractrelationalmodel.Column"/>
     <fullyQualifiedTypeName name="abstractrelationalmodel.DataType"/>
+    <fullyQualifiedTypeName name="relationalmodel.DataType"/>
+    <fullyQualifiedTypeName name="abstractJJD.RelationJJD"/>
+    <fullyQualifiedTypeName name="relationalmodel.Table"/>
+    <fullyQualifiedTypeName name="relationalmodel.Schema"/>
 </qualifiedTypeNameHistroy>
