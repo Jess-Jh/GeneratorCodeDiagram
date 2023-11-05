@@ -1114,15 +1114,6 @@ public class ModelFactoryModel {
 	//---------------------------------------------------------------------------------------------------------------------------------------------------------------||
 	
 	// ----------------------------------------------------- TRANSFORMACION MODELO ABSTRACTO A DSL ------------------------------------------------------------------>>
-	public void transformationDSL() {
-		
-		for (abstractJJD.PackageJJD packageJJD : modelFactoryAbstract.getListPackagesJJD()) {	
-			createSchema(packageJJD);
-			addRelationsToTable(packageJJD);
-		}
-		saveAbstractRelationalModel();
-	}
-	
 	public void saveAbstractRelationalModel() {
 		//EXISTEN 2 FORMAS DE GUARDAR EL RECURSO
 		org.eclipse.emf.common.util.URI uri = org.eclipse.emf.common.util.URI.createURI("platform:/resource/test/src/model/model.relationalmodel");
@@ -1137,7 +1128,16 @@ public class ModelFactoryModel {
 		}
 		return;
 	}
-
+	
+	public void transformationDSL() {
+		
+		for (abstractJJD.PackageJJD packageJJD : modelFactoryAbstract.getListPackagesJJD()) {	
+			createSchema(packageJJD);
+			addRelationsToTable(packageJJD);
+		}
+		saveAbstractRelationalModel();
+	}
+	
 	private void createSchema(abstractJJD.PackageJJD parentPackage) {
 		
 		for (abstractJJD.PackageJJD packageJJD : parentPackage.getSubPackagesJJD()) {
