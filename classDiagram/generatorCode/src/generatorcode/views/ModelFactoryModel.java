@@ -69,6 +69,7 @@ public class ModelFactoryModel {
 		modelFactoryConcrete = uploadConcrete();
 		modelFactoryAbstract = uploadAbstract();
 		modelFactoryUiDiagram = uploadUIDiagram();
+		modelFactoryAbstractRelationalModel = uploadRelationalModel();
 		
 	}
 
@@ -126,6 +127,26 @@ public class ModelFactoryModel {
 			System.out.println("loaded: " + modelFactory);
 			
 			
+		}
+		catch (java.io.IOException e) {
+			System.out.println("failed to read " + uri); 		
+			System.out.println(e);
+		}
+		return modelFactory;
+	}
+	
+	public ModelFactoryAbstractRelationalModel uploadRelationalModel() {
+		ModelFactoryAbstractRelationalModel modelFactory = null;
+		
+		ConcretePackage whoownmePackage =  ConcretePackage.eINSTANCE;
+		org.eclipse.emf.ecore.resource.ResourceSet resourceSet = new org.eclipse.emf.ecore.resource.impl.ResourceSetImpl();		
+		org.eclipse.emf.common.util.URI uri = org.eclipse.emf.common.util.URI.createURI("platform:/resource/test/src/model/model.relationalmodel");
+		org.eclipse.emf.ecore.resource.Resource resource = resourceSet.createResource(uri);
+		
+		try {
+			resource.load(null);
+			modelFactory = (ModelFactoryAbstractRelationalModel)resource.getContents().get(0);
+			System.out.println("loaded: " + modelFactory);
 		}
 		catch (java.io.IOException e) {
 			System.out.println("failed to read " + uri); 		
@@ -1099,21 +1120,39 @@ public class ModelFactoryModel {
 			createSchema(packageJJD);
 			addRelationsToTable(packageJJD);
 		}
-//		saveAbstract();
+		saveAbstractRelationalModel();
+	}
+	
+	public void saveAbstractRelationalModel() {
+		//EXISTEN 2 FORMAS DE GUARDAR EL RECURSO
+		org.eclipse.emf.common.util.URI uri = org.eclipse.emf.common.util.URI.createURI("platform:/resource/test/src/model/model.relationalmodel");
+		org.eclipse.emf.ecore.resource.ResourceSet resourceSet = new org.eclipse.emf.ecore.resource.impl.ResourceSetImpl();
+		org.eclipse.emf.ecore.resource.Resource resource = resourceSet.createResource(uri);
+		resource.getContents().add(modelFactoryAbstractRelationalModel);
+		
+		try {
+			resource.save(java.util.Collections.EMPTY_MAP);
+		} catch (java.io.IOException e) {
+			e.printStackTrace();
+		}
+		return;
 	}
 
 	private void createSchema(abstractJJD.PackageJJD parentPackage) {
 		
 		for (abstractJJD.PackageJJD packageJJD : parentPackage.getSubPackagesJJD()) {
 			
-			relationalmodel.Schema schema = RelationalmodelFactory.eINSTANCE.createSchema();
-			schema.setName(packageJJD.getName());
-			
-			for (abstractJJD.ClassJJD classJJD : packageJJD.getListClassJJD()) {
-				relationalmodel.Table table = RelationalmodelFactory.eINSTANCE.createTable();
-				table.setName(classJJD.getName());
+			if(packageJJD.getListClassJJD().size() > 0) {
 				
-				addAttributeToTable(classJJD, table, schema);
+				relationalmodel.Schema schema = RelationalmodelFactory.eINSTANCE.createSchema();
+				schema.setName(packageJJD.getName());
+				
+				for (abstractJJD.ClassJJD classJJD : packageJJD.getListClassJJD()) {
+					relationalmodel.Table table = RelationalmodelFactory.eINSTANCE.createTable();
+					table.setName(classJJD.getName());
+
+					addAttributeToTable(classJJD, table, schema);
+				}				
 			}
 			
 			// Llamada recursiva solo si hay subpaquetes
@@ -1126,25 +1165,20 @@ public class ModelFactoryModel {
 
 	private void addAttributeToTable(abstractJJD.ClassJJD classJJD, relationalmodel.Table table, Schema schema) {
 		
+		relationalmodel.Column column = RelationalmodelFactory.eINSTANCE.createColumn();
+		column.setName(table.getName()+"ID");
+		column.setDataType(DataType.INT);
+		column.setIsPrimaryKey(true);
+		column.setIsAutoIncremental(true);
+		
 		for(abstractJJD.AttributeJJD attribute : classJJD.getListAttributesJJD()) {
-			
-			relationalmodel.Column column = RelationalmodelFactory.eINSTANCE.createColumn();
-			
 			
 			if(attribute.getType().contains("List")) {
 				
 				relationalmodel.Table tableRelation = RelationalmodelFactory.eINSTANCE.createTable();
 				tableRelation.setName(attribute.getName());
 				
-				relationalmodel.Column column1 = RelationalmodelFactory.eINSTANCE.createColumn();
-				
-				column1.setName(attribute.getName()+"ID");
-				column1.setDataType(DataType.INT);
-				column1.setIsPrimaryKey(true);
-				column1.setIsAutoIncremental(true);
-				
 				relationalmodel.Column column2 = RelationalmodelFactory.eINSTANCE.createColumn();
-				
 				column2.setName(attribute.getName());
 				column2.setDataType(DataType.VARCHAR);
 				
@@ -1158,7 +1192,7 @@ public class ModelFactoryModel {
 				relationalmodel.Column column4 = RelationalmodelFactory.eINSTANCE.createColumn();
 				column4.setForeignKey("FOREIGN KEY (" + column3.getName() + ") REFERENCES " + table.getName() + "(" + column3.getName() + ")");
 				
-				tableRelation.getListColumns().add(column1);
+				tableRelation.getListColumns().add(column);
 				tableRelation.getListColumns().add(column2);
 				tableRelation.getListColumns().add(column3);
 				tableRelation.getListColumns().add(column4);
@@ -1169,75 +1203,82 @@ public class ModelFactoryModel {
 				
 				relationalmodel.Column column1 = RelationalmodelFactory.eINSTANCE.createColumn();
 				
-				column1.setName(attribute.getName()+"ID");
-				column1.setDataType(DataType.INT);
-				column1.setIsPrimaryKey(true);
-				column1.setIsAutoIncremental(true);
+				column1.setName(attribute.getName());
 				
-				column.setName(attribute.getName());
-				
-				column.setDataType((attribute.getType() == "String") ? DataType.VARCHAR
+				column1.setDataType((attribute.getType() == "String") ? DataType.VARCHAR
 						: (attribute.getType() == "int") ? DataType.INT 
 								: (attribute.getType() == "double") ? DataType.DOUBLE
 										: (attribute.getType() == "LocalDate") ? DataType.DATE
 												: (attribute.getType() == "boolean") ? DataType.BOOLEAN : DataType.VARCHAR );
 				
 				
-				table.getListColumns().add(column1);
 				table.getListColumns().add(column);
+				table.getListColumns().add(column1);
 				schema.getListTables().add(table);
-			}		
+				
+			}	
+			modelFactoryAbstractRelationalModel.getListSchemas().add(schema);
 		}
 	}
 	
 	private void addRelationsToTable(abstractJJD.PackageJJD parentPackage) {
 		
 		for (abstractJJD.PackageJJD packageJJD : parentPackage.getSubPackagesJJD()) {
-			for (abstractJJD.ClassJJD classJJD : packageJJD.getListClassJJD()) {
+			
+			if(packageJJD.getListClassJJD().size() > 0) {
 				
 				for (relationalmodel.Schema schema : modelFactoryAbstractRelationalModel.getListSchemas()) {
 					for (relationalmodel.Table table : schema.getListTables()) {
-					
-						for (abstractJJD.RelationJJD relationJJD : classJJD.getListRelationsJJD()) {
-							
-							if(relationJJD.getClass().getName().contains("ContainmentJJDImpl") || relationJJD.getClass().getName().contains("AgregationJJDImpl")) {
-								
-								if(relationJJD.getSource().getName().equalsIgnoreCase(table.getName())) {
-									
-									relationalmodel.Column column = RelationalmodelFactory.eINSTANCE.createColumn();
-									
-									column.setName(relationJJD.getTarget().getName()+"ID");
-									column.setDataType(DataType.INT);
-									
-									relationalmodel.Column column1 = RelationalmodelFactory.eINSTANCE.createColumn();
-									column1.setForeignKey("FOREIGN KEY (" + column.getName() + ") REFERENCES " + relationJJD.getTarget().getName() + "(" + column.getName() + ")");
-									
-									table.getListColumns().add(column);
-									table.getListColumns().add(column1);
-									
-								}
-							
-							}
 						
-							if(relationJJD.getClass().getName().contains("AssociationJJDImpl") || relationJJD.getClass().getName().contains("InheritanceJJDImpl")) {
+						for (abstractJJD.ClassJJD classJJD : packageJJD.getListClassJJD()) {
+							
+							if(table.getName().equalsIgnoreCase(classJJD.getName())) {
 								
-								if(relationJJD.getTarget().getName().equalsIgnoreCase(table.getName())) {
+								for (abstractJJD.RelationJJD relationJJD : classJJD.getListRelationsJJD()) {
 									
-									relationalmodel.Column column = RelationalmodelFactory.eINSTANCE.createColumn();
+									if(relationJJD.getClass().getName().contains("ContainmentJJDImpl") || relationJJD.getClass().getName().contains("AgregationJJDImpl")) {
+										
+										if(relationJJD.getSource().getName().equalsIgnoreCase(table.getName())) {
+											
+											relationalmodel.Column column = RelationalmodelFactory.eINSTANCE.createColumn();
+											
+											column.setName(relationJJD.getTarget().getName()+"ID");
+											column.setDataType(DataType.INT);
+											
+											relationalmodel.Column column1 = RelationalmodelFactory.eINSTANCE.createColumn();
+											column1.setName("FOREIGN KEY (" + column.getName() + ") REFERENCES " + relationJJD.getTarget().getName() + "(" + column.getName() + ")");
+											column1.setForeignKey("FOREIGN KEY (" + column.getName() + ") REFERENCES " + relationJJD.getTarget().getName() + "(" + column.getName() + ")");
+											
+											table.getListColumns().add(column);
+											table.getListColumns().add(column1);
+											
+										}
+										
+									}
 									
-									column.setName(relationJJD.getSource().getName()+"ID");
-									column.setDataType(DataType.INT);
-									
-									relationalmodel.Column column1 = RelationalmodelFactory.eINSTANCE.createColumn();
-									column1.setForeignKey("FOREIGN KEY (" + column.getName() + ") REFERENCES " + relationJJD.getSource().getName() + "(" + column.getName() + ")");
-									
-									table.getListColumns().add(column);
-									table.getListColumns().add(column1);	
-								}	
+									if(relationJJD.getClass().getName().contains("AssociationJJDImpl") || relationJJD.getClass().getName().contains("InheritanceJJDImpl")) {
+										
+										if(relationJJD.getTarget().getName().equalsIgnoreCase(table.getName())) {
+											
+											relationalmodel.Column column = RelationalmodelFactory.eINSTANCE.createColumn();
+											
+											column.setName(relationJJD.getSource().getName()+"ID");
+											column.setDataType(DataType.INT);
+											
+											relationalmodel.Column column1 = RelationalmodelFactory.eINSTANCE.createColumn();
+											column1.setName("FOREIGN KEY (" + column.getName() + ") REFERENCES " + relationJJD.getSource().getName() + "(" + column.getName() + ")");
+											column1.setForeignKey("FOREIGN KEY (" + column.getName() + ") REFERENCES " + relationJJD.getSource().getName() + "(" + column.getName() + ")");
+											
+											table.getListColumns().add(column);
+											table.getListColumns().add(column1);	
+										}	
+									}
+								}
 							}
 						}
 					}
 				}
+		
 			}
 			
 			// Llamada recursiva solo si hay subpaquetes
