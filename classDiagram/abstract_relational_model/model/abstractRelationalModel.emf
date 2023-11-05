@@ -21,12 +21,12 @@ class Table {
 class Column {
     attr String name;
     
-    val DataType dataType;
+    val DataType dataType;    
+    attr int size;
     attr boolean isPrimaryKey;
     attr boolean notNull;
     attr boolean uniqueIndex;
     attr boolean isAutoIncremental;
-    attr String foreignKey;    
 }
 
 enum DataType {

@@ -28,11 +28,11 @@
     <genClasses ecoreClass="abstractRelationalModel.ecore#//Column">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Column/name"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference abstractRelationalModel.ecore#//Column/dataType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Column/size"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Column/isPrimaryKey"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Column/notNull"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Column/uniqueIndex"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Column/isAutoIncremental"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Column/foreignKey"/>
     </genClasses>
   </genPackages>
 </genmodel:GenModel>

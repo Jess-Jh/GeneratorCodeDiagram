@@ -63,11 +63,11 @@ public class ColumnItemProvider
 			super.getPropertyDescriptors(object);
 
 			addNamePropertyDescriptor(object);
+			addSizePropertyDescriptor(object);
 			addIsPrimaryKeyPropertyDescriptor(object);
 			addNotNullPropertyDescriptor(object);
 			addUniqueIndexPropertyDescriptor(object);
 			addIsAutoIncrementalPropertyDescriptor(object);
-			addForeignKeyPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -90,6 +90,28 @@ public class ColumnItemProvider
 				 false,
 				 false,
 				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Size feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addSizePropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Column_size_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Column_size_feature", "_UI_Column_type"),
+				 RelationalmodelPackage.Literals.COLUMN__SIZE,
+				 true,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.INTEGRAL_VALUE_IMAGE,
 				 null,
 				 null));
 	}
@@ -183,28 +205,6 @@ public class ColumnItemProvider
 	}
 
 	/**
-	 * This adds a property descriptor for the Foreign Key feature.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	protected void addForeignKeyPropertyDescriptor(Object object) {
-		itemPropertyDescriptors.add
-			(createItemPropertyDescriptor
-				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
-				 getResourceLocator(),
-				 getString("_UI_Column_foreignKey_feature"),
-				 getString("_UI_PropertyDescriptor_description", "_UI_Column_foreignKey_feature", "_UI_Column_type"),
-				 RelationalmodelPackage.Literals.COLUMN__FOREIGN_KEY,
-				 true,
-				 false,
-				 false,
-				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
-				 null,
-				 null));
-	}
-
-	/**
 	 * This specifies how to implement {@link #getChildren} and is used to deduce an appropriate feature for an
 	 * {@link org.eclipse.emf.edit.command.AddCommand}, {@link org.eclipse.emf.edit.command.RemoveCommand} or
 	 * {@link org.eclipse.emf.edit.command.MoveCommand} in {@link #createCommand}.
@@ -273,11 +273,11 @@ public class ColumnItemProvider
 
 		switch (notification.getFeatureID(Column.class)) {
 			case RelationalmodelPackage.COLUMN__NAME:
+			case RelationalmodelPackage.COLUMN__SIZE:
 			case RelationalmodelPackage.COLUMN__IS_PRIMARY_KEY:
 			case RelationalmodelPackage.COLUMN__NOT_NULL:
 			case RelationalmodelPackage.COLUMN__UNIQUE_INDEX:
 			case RelationalmodelPackage.COLUMN__IS_AUTO_INCREMENTAL:
-			case RelationalmodelPackage.COLUMN__FOREIGN_KEY:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 			case RelationalmodelPackage.COLUMN__DATA_TYPE:

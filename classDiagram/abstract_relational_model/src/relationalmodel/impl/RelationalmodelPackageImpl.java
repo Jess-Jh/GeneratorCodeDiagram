@@ -247,7 +247,7 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * @generated
 	 */
 	@Override
-	public EAttribute getColumn_IsPrimaryKey() {
+	public EAttribute getColumn_Size() {
 		return (EAttribute)columnEClass.getEStructuralFeatures().get(2);
 	}
 
@@ -257,7 +257,7 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * @generated
 	 */
 	@Override
-	public EAttribute getColumn_NotNull() {
+	public EAttribute getColumn_IsPrimaryKey() {
 		return (EAttribute)columnEClass.getEStructuralFeatures().get(3);
 	}
 
@@ -267,7 +267,7 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * @generated
 	 */
 	@Override
-	public EAttribute getColumn_UniqueIndex() {
+	public EAttribute getColumn_NotNull() {
 		return (EAttribute)columnEClass.getEStructuralFeatures().get(4);
 	}
 
@@ -277,7 +277,7 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * @generated
 	 */
 	@Override
-	public EAttribute getColumn_IsAutoIncremental() {
+	public EAttribute getColumn_UniqueIndex() {
 		return (EAttribute)columnEClass.getEStructuralFeatures().get(5);
 	}
 
@@ -287,7 +287,7 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * @generated
 	 */
 	@Override
-	public EAttribute getColumn_ForeignKey() {
+	public EAttribute getColumn_IsAutoIncremental() {
 		return (EAttribute)columnEClass.getEStructuralFeatures().get(6);
 	}
 
@@ -345,11 +345,11 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 		columnEClass = createEClass(COLUMN);
 		createEAttribute(columnEClass, COLUMN__NAME);
 		createEReference(columnEClass, COLUMN__DATA_TYPE);
+		createEAttribute(columnEClass, COLUMN__SIZE);
 		createEAttribute(columnEClass, COLUMN__IS_PRIMARY_KEY);
 		createEAttribute(columnEClass, COLUMN__NOT_NULL);
 		createEAttribute(columnEClass, COLUMN__UNIQUE_INDEX);
 		createEAttribute(columnEClass, COLUMN__IS_AUTO_INCREMENTAL);
-		createEAttribute(columnEClass, COLUMN__FOREIGN_KEY);
 
 		// Create enums
 		dataTypeEEnum = createEEnum(DATA_TYPE);
@@ -400,11 +400,11 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 		initEClass(columnEClass, Column.class, "Column", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getColumn_Name(), ecorePackage.getEString(), "name", null, 0, 1, Column.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getColumn_DataType(), this.getDataType(), null, "dataType", null, 0, 1, Column.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getColumn_Size(), ecorePackage.getEInt(), "size", null, 0, 1, Column.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getColumn_IsPrimaryKey(), ecorePackage.getEBoolean(), "isPrimaryKey", null, 0, 1, Column.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getColumn_NotNull(), ecorePackage.getEBoolean(), "notNull", null, 0, 1, Column.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getColumn_UniqueIndex(), ecorePackage.getEBoolean(), "uniqueIndex", null, 0, 1, Column.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getColumn_IsAutoIncremental(), ecorePackage.getEBoolean(), "isAutoIncremental", null, 0, 1, Column.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getColumn_ForeignKey(), ecorePackage.getEString(), "foreignKey", null, 0, 1, Column.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		// Initialize enums and add enum literals
 		initEEnum(dataTypeEEnum, DataType.class, "DataType");

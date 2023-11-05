@@ -15,11 +15,11 @@ import org.eclipse.emf.ecore.EObject;
  * <ul>
  *   <li>{@link relationalmodel.Column#getName <em>Name</em>}</li>
  *   <li>{@link relationalmodel.Column#getDataType <em>Data Type</em>}</li>
+ *   <li>{@link relationalmodel.Column#getSize <em>Size</em>}</li>
  *   <li>{@link relationalmodel.Column#isIsPrimaryKey <em>Is Primary Key</em>}</li>
  *   <li>{@link relationalmodel.Column#isNotNull <em>Not Null</em>}</li>
  *   <li>{@link relationalmodel.Column#isUniqueIndex <em>Unique Index</em>}</li>
  *   <li>{@link relationalmodel.Column#isIsAutoIncremental <em>Is Auto Incremental</em>}</li>
- *   <li>{@link relationalmodel.Column#getForeignKey <em>Foreign Key</em>}</li>
  * </ul>
  *
  * @see relationalmodel.RelationalmodelPackage#getColumn()
@@ -73,6 +73,28 @@ public interface Column extends EObject {
 	 * @generated
 	 */
 	void setDataType(DataType value);
+
+	/**
+	 * Returns the value of the '<em><b>Size</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Size</em>' attribute.
+	 * @see #setSize(int)
+	 * @see relationalmodel.RelationalmodelPackage#getColumn_Size()
+	 * @model
+	 * @generated
+	 */
+	int getSize();
+
+	/**
+	 * Sets the value of the '{@link relationalmodel.Column#getSize <em>Size</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Size</em>' attribute.
+	 * @see #getSize()
+	 * @generated
+	 */
+	void setSize(int value);
 
 	/**
 	 * Returns the value of the '<em><b>Is Primary Key</b></em>' attribute.
@@ -161,27 +183,5 @@ public interface Column extends EObject {
 	 * @generated
 	 */
 	void setIsAutoIncremental(boolean value);
-
-	/**
-	 * Returns the value of the '<em><b>Foreign Key</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Foreign Key</em>' attribute.
-	 * @see #setForeignKey(String)
-	 * @see relationalmodel.RelationalmodelPackage#getColumn_ForeignKey()
-	 * @model
-	 * @generated
-	 */
-	String getForeignKey();
-
-	/**
-	 * Sets the value of the '{@link relationalmodel.Column#getForeignKey <em>Foreign Key</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Foreign Key</em>' attribute.
-	 * @see #getForeignKey()
-	 * @generated
-	 */
-	void setForeignKey(String value);
 
 } // Column

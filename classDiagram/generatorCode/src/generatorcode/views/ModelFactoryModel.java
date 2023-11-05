@@ -1170,6 +1170,7 @@ public class ModelFactoryModel {
 		column.setDataType(DataType.INT);
 		column.setIsPrimaryKey(true);
 		column.setIsAutoIncremental(true);
+		column.setNotNull(true);
 		
 		for(abstractJJD.AttributeJJD attribute : classJJD.getListAttributesJJD()) {
 			
@@ -1181,6 +1182,7 @@ public class ModelFactoryModel {
 				relationalmodel.Column column2 = RelationalmodelFactory.eINSTANCE.createColumn();
 				column2.setName(attribute.getName());
 				column2.setDataType(DataType.VARCHAR);
+				column2.setSize(255);
 				
 				
 				relationalmodel.Column column3 = RelationalmodelFactory.eINSTANCE.createColumn();
@@ -1190,7 +1192,7 @@ public class ModelFactoryModel {
 				
 				
 				relationalmodel.Column column4 = RelationalmodelFactory.eINSTANCE.createColumn();
-				column4.setForeignKey("FOREIGN KEY (" + column3.getName() + ") REFERENCES " + table.getName() + "(" + column3.getName() + ")");
+				column4.setName("FOREIGN KEY (" + column3.getName() + ") REFERENCES " + table.getName() + "(" + column3.getName() + ")");
 				
 				tableRelation.getListColumns().add(column);
 				tableRelation.getListColumns().add(column2);
@@ -1205,13 +1207,16 @@ public class ModelFactoryModel {
 				
 				column1.setName(attribute.getName());
 				
-				column1.setDataType((attribute.getType() == "String") ? DataType.VARCHAR
-						: (attribute.getType() == "int") ? DataType.INT 
-								: (attribute.getType() == "double") ? DataType.DOUBLE
-										: (attribute.getType() == "LocalDate") ? DataType.DATE
-												: (attribute.getType() == "boolean") ? DataType.BOOLEAN : DataType.VARCHAR );
+				column1.setDataType((attribute.getType().equalsIgnoreCase("String")) ? DataType.VARCHAR
+						: (attribute.getType().equalsIgnoreCase("int")) ? DataType.INT 
+								: (attribute.getType().equalsIgnoreCase("double")) ? DataType.DOUBLE
+										: (attribute.getType().equalsIgnoreCase("LocalDate")) ? DataType.DATE
+												: (attribute.getType().equalsIgnoreCase("boolean")) ? DataType.BOOLEAN : DataType.VARCHAR );
 				
-				
+				if(attribute.getType().equalsIgnoreCase("String")) {
+					column1.setSize(255);		
+				}
+								
 				table.getListColumns().add(column);
 				table.getListColumns().add(column1);
 				schema.getListTables().add(table);
@@ -1247,7 +1252,6 @@ public class ModelFactoryModel {
 											
 											relationalmodel.Column column1 = RelationalmodelFactory.eINSTANCE.createColumn();
 											column1.setName("FOREIGN KEY (" + column.getName() + ") REFERENCES " + relationJJD.getTarget().getName() + "(" + column.getName() + ")");
-											column1.setForeignKey("FOREIGN KEY (" + column.getName() + ") REFERENCES " + relationJJD.getTarget().getName() + "(" + column.getName() + ")");
 											
 											table.getListColumns().add(column);
 											table.getListColumns().add(column1);
@@ -1267,7 +1271,6 @@ public class ModelFactoryModel {
 											
 											relationalmodel.Column column1 = RelationalmodelFactory.eINSTANCE.createColumn();
 											column1.setName("FOREIGN KEY (" + column.getName() + ") REFERENCES " + relationJJD.getSource().getName() + "(" + column.getName() + ")");
-											column1.setForeignKey("FOREIGN KEY (" + column.getName() + ") REFERENCES " + relationJJD.getSource().getName() + "(" + column.getName() + ")");
 											
 											table.getListColumns().add(column);
 											table.getListColumns().add(column1);	

@@ -197,13 +197,22 @@ public interface RelationalmodelPackage extends EPackage {
 	int COLUMN__DATA_TYPE = 1;
 
 	/**
+	 * The feature id for the '<em><b>Size</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int COLUMN__SIZE = 2;
+
+	/**
 	 * The feature id for the '<em><b>Is Primary Key</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int COLUMN__IS_PRIMARY_KEY = 2;
+	int COLUMN__IS_PRIMARY_KEY = 3;
 
 	/**
 	 * The feature id for the '<em><b>Not Null</b></em>' attribute.
@@ -212,7 +221,7 @@ public interface RelationalmodelPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int COLUMN__NOT_NULL = 3;
+	int COLUMN__NOT_NULL = 4;
 
 	/**
 	 * The feature id for the '<em><b>Unique Index</b></em>' attribute.
@@ -221,7 +230,7 @@ public interface RelationalmodelPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int COLUMN__UNIQUE_INDEX = 4;
+	int COLUMN__UNIQUE_INDEX = 5;
 
 	/**
 	 * The feature id for the '<em><b>Is Auto Incremental</b></em>' attribute.
@@ -230,16 +239,7 @@ public interface RelationalmodelPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int COLUMN__IS_AUTO_INCREMENTAL = 5;
-
-	/**
-	 * The feature id for the '<em><b>Foreign Key</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int COLUMN__FOREIGN_KEY = 6;
+	int COLUMN__IS_AUTO_INCREMENTAL = 6;
 
 	/**
 	 * The number of structural features of the '<em>Column</em>' class.
@@ -390,6 +390,17 @@ public interface RelationalmodelPackage extends EPackage {
 	EReference getColumn_DataType();
 
 	/**
+	 * Returns the meta object for the attribute '{@link relationalmodel.Column#getSize <em>Size</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Size</em>'.
+	 * @see relationalmodel.Column#getSize()
+	 * @see #getColumn()
+	 * @generated
+	 */
+	EAttribute getColumn_Size();
+
+	/**
 	 * Returns the meta object for the attribute '{@link relationalmodel.Column#isIsPrimaryKey <em>Is Primary Key</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -432,17 +443,6 @@ public interface RelationalmodelPackage extends EPackage {
 	 * @generated
 	 */
 	EAttribute getColumn_IsAutoIncremental();
-
-	/**
-	 * Returns the meta object for the attribute '{@link relationalmodel.Column#getForeignKey <em>Foreign Key</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Foreign Key</em>'.
-	 * @see relationalmodel.Column#getForeignKey()
-	 * @see #getColumn()
-	 * @generated
-	 */
-	EAttribute getColumn_ForeignKey();
 
 	/**
 	 * Returns the meta object for enum '{@link relationalmodel.DataType <em>Data Type</em>}'.
@@ -581,6 +581,14 @@ public interface RelationalmodelPackage extends EPackage {
 		EReference COLUMN__DATA_TYPE = eINSTANCE.getColumn_DataType();
 
 		/**
+		 * The meta object literal for the '<em><b>Size</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute COLUMN__SIZE = eINSTANCE.getColumn_Size();
+
+		/**
 		 * The meta object literal for the '<em><b>Is Primary Key</b></em>' attribute feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -611,14 +619,6 @@ public interface RelationalmodelPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute COLUMN__IS_AUTO_INCREMENTAL = eINSTANCE.getColumn_IsAutoIncremental();
-
-		/**
-		 * The meta object literal for the '<em><b>Foreign Key</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute COLUMN__FOREIGN_KEY = eINSTANCE.getColumn_ForeignKey();
 
 		/**
 		 * The meta object literal for the '{@link relationalmodel.DataType <em>Data Type</em>}' enum.

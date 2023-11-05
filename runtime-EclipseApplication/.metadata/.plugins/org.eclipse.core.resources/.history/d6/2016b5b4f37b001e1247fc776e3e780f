@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ASCII"?>
+<relationalmodel:ModelFactoryAbstractRelationalModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:relationalmodel="relationalmodel">
+  <listSchemas name="Aeroline">
+    <listTables name="Aeroline">
+      <listColumns name="AerolineID" isPrimaryKey="true" isAutoIncremental="true"/>
+      <listColumns name="name"/>
+    </listTables>
+    <listTables name="Baggage">
+      <listColumns name="BaggageID" isPrimaryKey="true" isAutoIncremental="true"/>
+      <listColumns name="idClient"/>
+      <listColumns name="totalWeight"/>
+      <listColumns name="idBaggage"/>
+      <listColumns name="baggageWeight1"/>
+      <listColumns name="baggageWeight2"/>
+      <listColumns name="baggageDimension1"/>
+      <listColumns name="baggageDimension2"/>
+      <listColumns name="airplaneNumber "/>
+      <listColumns name="AerolineID"/>
+      <listColumns name="FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID)"/>
+    </listTables>
+    <listTables name="ShippingCart">
+      <listColumns name="ShippingCartID" isPrimaryKey="true" isAutoIncremental="true"/>
+      <listColumns name="weight"/>
+      <listColumns name="idNumber"/>
+      <listColumns name="airplaneNumber"/>
+      <listColumns name="AerolineID"/>
+      <listColumns name="FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID)"/>
+    </listTables>
+    <listTables name="Route">
+      <listColumns name="RouteID" isPrimaryKey="true" isAutoIncremental="true"/>
+      <listColumns name="cityOrigin"/>
+      <listColumns name="destinationCity"/>
+      <listColumns name="duration"/>
+      <listColumns name="departureTime "/>
+      <listColumns name="AerolineID"/>
+      <listColumns name="FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID)"/>
+    </listTables>
+    <listTables name="Ticket">
+      <listColumns name="travelType"/>
+      <listColumns name="serviceType"/>
+      <listColumns name="startDate"/>
+      <listColumns name="returnDate"/>
+      <listColumns name="numberPersons"/>
+      <listColumns name="costPerPerson"/>
+      <listColumns name="finalPrice"/>
+      <listColumns name="AerolineID"/>
+      <listColumns name="FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID)"/>
+      <listColumns name="ClientID"/>
+      <listColumns name="FOREIGN KEY (ClientID) REFERENCES Client(ClientID)"/>
+      <listColumns name="RouteID"/>
+      <listColumns name="FOREIGN KEY (RouteID) REFERENCES Route(RouteID)"/>
+    </listTables>
+    <listTables name="occupancyChairs">
+      <listColumns name="TicketID" isPrimaryKey="true" isAutoIncremental="true"/>
+      <listColumns name="occupancyChairs" size="255"/>
+      <listColumns name="TicketID"/>
+      <listColumns name="FOREIGN KEY (TicketID) REFERENCES Ticket(TicketID)"/>
+    </listTables>
+    <listTables name="Airplane">
+      <listColumns name="name"/>
+      <listColumns name="AirplaneID" isPrimaryKey="true" isAutoIncremental="true"/>
+      <listColumns name=" chargeCapacity"/>
+      <listColumns name="airplaneIdentificationNumber"/>
+      <listColumns name="AerolineID"/>
+      <listColumns name="FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID)"/>
+      <listColumns name="RouteID"/>
+      <listColumns name="FOREIGN KEY (RouteID) REFERENCES Route(RouteID)"/>
+    </listTables>
+    <listTables name="seatingCapacity">
+      <listColumns name="seatingCapacity" size="255"/>
+      <listColumns name="AirplaneID"/>
+      <listColumns name="FOREIGN KEY (AirplaneID) REFERENCES Airplane(AirplaneID)"/>
+    </listTables>
+    <listTables name="CrewMember">
+      <listColumns name="CrewMemberID" isPrimaryKey="true" isAutoIncremental="true"/>
+      <listColumns name="studiesPerformed"/>
+      <listColumns name="crewType"/>
+      <listColumns name="PersonID"/>
+      <listColumns name="FOREIGN KEY (PersonID) REFERENCES Person(PersonID)"/>
+      <listColumns name="AerolineID"/>
+      <listColumns name="FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID)"/>
+      <listColumns name="AirplaneID"/>
+      <listColumns name="FOREIGN KEY (AirplaneID) REFERENCES Airplane(AirplaneID)"/>
+    </listTables>
+    <listTables name="Person">
+      <listColumns name="PersonID" isPrimaryKey="true" isAutoIncremental="true"/>
+      <listColumns name="id"/>
+      <listColumns name="name"/>
+      <listColumns name="lastname"/>
+      <listColumns name="address"/>
+      <listColumns name="email"/>
+      <listColumns name="birthDate"/>
+    </listTables>
+    <listTables name="Client">
+      <listColumns name="ClientID" isPrimaryKey="true" isAutoIncremental="true"/>
+      <listColumns name="residentialAddress"/>
+      <listColumns name="debitCreditCardNumber"/>
+      <listColumns name="PersonID"/>
+      <listColumns name="FOREIGN KEY (PersonID) REFERENCES Person(PersonID)"/>
+      <listColumns name="AerolineID"/>
+      <listColumns name="FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID)"/>
+    </listTables>
+  </listSchemas>
+</relationalmodel:ModelFactoryAbstractRelationalModel>

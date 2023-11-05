@@ -25,11 +25,11 @@ import relationalmodel.RelationalmodelPackage;
  * <ul>
  *   <li>{@link relationalmodel.impl.ColumnImpl#getName <em>Name</em>}</li>
  *   <li>{@link relationalmodel.impl.ColumnImpl#getDataType <em>Data Type</em>}</li>
+ *   <li>{@link relationalmodel.impl.ColumnImpl#getSize <em>Size</em>}</li>
  *   <li>{@link relationalmodel.impl.ColumnImpl#isIsPrimaryKey <em>Is Primary Key</em>}</li>
  *   <li>{@link relationalmodel.impl.ColumnImpl#isNotNull <em>Not Null</em>}</li>
  *   <li>{@link relationalmodel.impl.ColumnImpl#isUniqueIndex <em>Unique Index</em>}</li>
  *   <li>{@link relationalmodel.impl.ColumnImpl#isIsAutoIncremental <em>Is Auto Incremental</em>}</li>
- *   <li>{@link relationalmodel.impl.ColumnImpl#getForeignKey <em>Foreign Key</em>}</li>
  * </ul>
  *
  * @generated
@@ -64,6 +64,26 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * @ordered
 	 */
 	protected DataType dataType;
+
+	/**
+	 * The default value of the '{@link #getSize() <em>Size</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getSize()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final int SIZE_EDEFAULT = 0;
+
+	/**
+	 * The cached value of the '{@link #getSize() <em>Size</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getSize()
+	 * @generated
+	 * @ordered
+	 */
+	protected int size = SIZE_EDEFAULT;
 
 	/**
 	 * The default value of the '{@link #isIsPrimaryKey() <em>Is Primary Key</em>}' attribute.
@@ -144,26 +164,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * @ordered
 	 */
 	protected boolean isAutoIncremental = IS_AUTO_INCREMENTAL_EDEFAULT;
-
-	/**
-	 * The default value of the '{@link #getForeignKey() <em>Foreign Key</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getForeignKey()
-	 * @generated
-	 * @ordered
-	 */
-	protected static final String FOREIGN_KEY_EDEFAULT = null;
-
-	/**
-	 * The cached value of the '{@link #getForeignKey() <em>Foreign Key</em>}' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getForeignKey()
-	 * @generated
-	 * @ordered
-	 */
-	protected String foreignKey = FOREIGN_KEY_EDEFAULT;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -250,6 +250,29 @@ public class ColumnImpl extends EObjectImpl implements Column {
 		}
 		else if (eNotificationRequired())
 			eNotify(new ENotificationImpl(this, Notification.SET, RelationalmodelPackage.COLUMN__DATA_TYPE, newDataType, newDataType));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public int getSize() {
+		return size;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public void setSize(int newSize) {
+		int oldSize = size;
+		size = newSize;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, RelationalmodelPackage.COLUMN__SIZE, oldSize, size));
 	}
 
 	/**
@@ -350,29 +373,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * @generated
 	 */
 	@Override
-	public String getForeignKey() {
-		return foreignKey;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public void setForeignKey(String newForeignKey) {
-		String oldForeignKey = foreignKey;
-		foreignKey = newForeignKey;
-		if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, RelationalmodelPackage.COLUMN__FOREIGN_KEY, oldForeignKey, foreignKey));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
 	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case RelationalmodelPackage.COLUMN__DATA_TYPE:
@@ -393,6 +393,8 @@ public class ColumnImpl extends EObjectImpl implements Column {
 				return getName();
 			case RelationalmodelPackage.COLUMN__DATA_TYPE:
 				return getDataType();
+			case RelationalmodelPackage.COLUMN__SIZE:
+				return getSize();
 			case RelationalmodelPackage.COLUMN__IS_PRIMARY_KEY:
 				return isIsPrimaryKey();
 			case RelationalmodelPackage.COLUMN__NOT_NULL:
@@ -401,8 +403,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 				return isUniqueIndex();
 			case RelationalmodelPackage.COLUMN__IS_AUTO_INCREMENTAL:
 				return isIsAutoIncremental();
-			case RelationalmodelPackage.COLUMN__FOREIGN_KEY:
-				return getForeignKey();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -421,6 +421,9 @@ public class ColumnImpl extends EObjectImpl implements Column {
 			case RelationalmodelPackage.COLUMN__DATA_TYPE:
 				setDataType((DataType)newValue);
 				return;
+			case RelationalmodelPackage.COLUMN__SIZE:
+				setSize((Integer)newValue);
+				return;
 			case RelationalmodelPackage.COLUMN__IS_PRIMARY_KEY:
 				setIsPrimaryKey((Boolean)newValue);
 				return;
@@ -432,9 +435,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 				return;
 			case RelationalmodelPackage.COLUMN__IS_AUTO_INCREMENTAL:
 				setIsAutoIncremental((Boolean)newValue);
-				return;
-			case RelationalmodelPackage.COLUMN__FOREIGN_KEY:
-				setForeignKey((String)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -454,6 +454,9 @@ public class ColumnImpl extends EObjectImpl implements Column {
 			case RelationalmodelPackage.COLUMN__DATA_TYPE:
 				setDataType((DataType)null);
 				return;
+			case RelationalmodelPackage.COLUMN__SIZE:
+				setSize(SIZE_EDEFAULT);
+				return;
 			case RelationalmodelPackage.COLUMN__IS_PRIMARY_KEY:
 				setIsPrimaryKey(IS_PRIMARY_KEY_EDEFAULT);
 				return;
@@ -465,9 +468,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 				return;
 			case RelationalmodelPackage.COLUMN__IS_AUTO_INCREMENTAL:
 				setIsAutoIncremental(IS_AUTO_INCREMENTAL_EDEFAULT);
-				return;
-			case RelationalmodelPackage.COLUMN__FOREIGN_KEY:
-				setForeignKey(FOREIGN_KEY_EDEFAULT);
 				return;
 		}
 		super.eUnset(featureID);
@@ -485,6 +485,8 @@ public class ColumnImpl extends EObjectImpl implements Column {
 				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
 			case RelationalmodelPackage.COLUMN__DATA_TYPE:
 				return dataType != null;
+			case RelationalmodelPackage.COLUMN__SIZE:
+				return size != SIZE_EDEFAULT;
 			case RelationalmodelPackage.COLUMN__IS_PRIMARY_KEY:
 				return isPrimaryKey != IS_PRIMARY_KEY_EDEFAULT;
 			case RelationalmodelPackage.COLUMN__NOT_NULL:
@@ -493,8 +495,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 				return uniqueIndex != UNIQUE_INDEX_EDEFAULT;
 			case RelationalmodelPackage.COLUMN__IS_AUTO_INCREMENTAL:
 				return isAutoIncremental != IS_AUTO_INCREMENTAL_EDEFAULT;
-			case RelationalmodelPackage.COLUMN__FOREIGN_KEY:
-				return FOREIGN_KEY_EDEFAULT == null ? foreignKey != null : !FOREIGN_KEY_EDEFAULT.equals(foreignKey);
 		}
 		return super.eIsSet(featureID);
 	}
@@ -511,6 +511,8 @@ public class ColumnImpl extends EObjectImpl implements Column {
 		StringBuilder result = new StringBuilder(super.toString());
 		result.append(" (name: ");
 		result.append(name);
+		result.append(", size: ");
+		result.append(size);
 		result.append(", isPrimaryKey: ");
 		result.append(isPrimaryKey);
 		result.append(", notNull: ");
@@ -519,8 +521,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 		result.append(uniqueIndex);
 		result.append(", isAutoIncremental: ");
 		result.append(isAutoIncremental);
-		result.append(", foreignKey: ");
-		result.append(foreignKey);
 		result.append(')');
 		return result.toString();
 	}
