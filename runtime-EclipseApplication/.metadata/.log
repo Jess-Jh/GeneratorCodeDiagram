@@ -7225,3 +7225,71 @@ java.lang.Exception: Resource '/org.eclipse.acceleo.module.sqlm2t/tasks' is not 
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:412)
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2023-11-06 01:04:36.957 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -product org.eclipse.platform.ide
+Command-line arguments:  -product org.eclipse.platform.ide -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/../runtime-EclipseApplication -dev file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os macosx -ws cocoa -arch aarch64 -consoleLog
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-11-06 01:04:39.621
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2023-11-06 01:04:39.994
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-11-06 01:04:39.994
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+
+!ENTRY org.eclipse.debug.core 4 2 2023-11-06 01:19:31.556
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.acceleo.internal.ide.ui.debug.model.AcceleoProcess.getAttribute(AcceleoProcess.java:56)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.deleteProcessTempFiles(LaunchingPlugin.java:1211)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.handleDebugEvents(LaunchingPlugin.java:1203)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2023-11-06 01:19:31.557
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.acceleo.internal.ide.ui.debug.model.AcceleoProcess.getAttribute(AcceleoProcess.java:56)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.deleteProcessTempFiles(LaunchingPlugin.java:1211)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.handleDebugEvents(LaunchingPlugin.java:1203)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2023-11-06 01:19:31.557
+!MESSAGE An internal error occurred during: "Launching New_configuration".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/osgi/framework/internal/core/AbstractBundle
+	at org.eclipse.acceleo.common.internal.utils.workspace.AcceleoWorkspaceUtil.setBundleClasspath(AcceleoWorkspaceUtil.java:1025)
+	at org.eclipse.acceleo.common.internal.utils.workspace.AcceleoWorkspaceUtil.installBundle(AcceleoWorkspaceUtil.java:930)
+	at org.eclipse.acceleo.common.internal.utils.workspace.AcceleoWorkspaceUtil.refreshContributions(AcceleoWorkspaceUtil.java:722)
+	at org.eclipse.acceleo.common.internal.utils.workspace.AcceleoWorkspaceUtil.getClass(AcceleoWorkspaceUtil.java:508)
+	at org.eclipse.acceleo.ide.ui.launching.strategy.AcceleoLaunchOperation.run(AcceleoLaunchOperation.java:102)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2333)
+	at org.eclipse.acceleo.ide.ui.launching.strategy.AcceleoPluginLaunchingStrategy.launch(AcceleoPluginLaunchingStrategy.java:259)
+	at org.eclipse.acceleo.ide.ui.launching.strategy.AcceleoPluginLaunchingStrategy.launch(AcceleoPluginLaunchingStrategy.java:161)
+	at org.eclipse.acceleo.internal.ide.ui.launching.AcceleoLaunchDelegate.launch(AcceleoLaunchDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.osgi.framework.internal.core.AbstractBundle cannot be found by org.eclipse.acceleo.common_3.4.1.201309031307
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:516)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:511)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:403)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 15 more

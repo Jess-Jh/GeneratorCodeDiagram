@@ -24,6 +24,9 @@
 		[for (table : Table | schema.listTables)]
 			[createTable(table)/]
 		[/for]
+		[for (table : Table | schema.listTables)]
+			[createRelationsTable(table)/]
+		[/for]
 	
 	[/file]
 [/template]
@@ -32,9 +35,22 @@
 
 	CREATE TABLE [table.name/] (
 		[for (column : Column | table.listColumns)]
-			[column.name/] [column.dataType/] [if (column.dataType = DataType::VARCHAR)] ([column.size/]) [/if] [if (column.notNull)] NOT NULL [/if] [if (column.isPrimaryKey)] PRIMARY KEY [/if] [if (column.uniqueIndex)] UNIQUE [/if] [if (column.isAutoIncremental)] AUTO_INCREMENT [/if]
+			[if (not column.name.contains('FOREIGN KEY'))]
+				[column.name/] [column.dataType/] [if (column.dataType = DataType::VARCHAR)] ([column.size/]) [/if] [if (column.notNull)] NOT NULL [/if] [if (column.isPrimaryKey)] PRIMARY KEY [/if] [if (column.uniqueIndex)] UNIQUE [/if] [if (column.isAutoIncremental)] AUTO_INCREMENT [/if]
+			[/if]
 		[/for]
 	);		
+		
+[/template]
+
+[template public createRelationsTable(table : Table)]
+
+	ALTER TABLE [table.name/]
+	[for (column : Column | table.listColumns)]
+		[if (column.name.contains('FOREIGN KEY'))]
+			ADD [column.name/] 
+		[/if]
+	[/for]
 		
 [/template]
 
