@@ -1,0 +1,41 @@
+[comment encoding = UTF-8 /]
+[**
+ * The documentation of the module generate.
+ */]
+[module generate('relationalmodel')]
+
+
+[**
+ * The documentation of the template generateElement.
+ * @param aModelFactoryConcreta
+ */]
+[template public generateElement(modelFactoryRelational : ModelFactoryAbstractRelationalModel)]
+
+	[for (schema : Schema | modelFactoryRelational.listSchemas)]
+		[createSchema(schema)/];
+	[/for]
+[/template]
+
+[template public createSchema(schema : Schema)]
+	[file (schema.name.concat('.sql'), false, 'UTF-8')]
+
+		 CREATE DATABASE [schema.name/];
+		
+		[for (table : Table | schema.listTables)]
+			[createTable(table)/]
+		[/for]
+	
+	[/file]
+[/template]
+
+[template public createTable(table : Table)]
+
+	CREATE TABLE [table.name/] (
+		[for (column : Column | table.listColumns)]
+			[column.name/] [column.dataType/] [if (column.dataType = DataType::VARCHAR)] ([column.size/]) [/if] [if (column.notNull)] NOT NULL [/if] [if (column.isPrimaryKey)] PRIMARY KEY [/if] [if (column.uniqueIndex)] UNIQUE [/if] [if (column.isAutoIncremental)] AUTO_INCREMENT [/if]
+		[/for]
+	);		
+		
+[/template]
+
+
