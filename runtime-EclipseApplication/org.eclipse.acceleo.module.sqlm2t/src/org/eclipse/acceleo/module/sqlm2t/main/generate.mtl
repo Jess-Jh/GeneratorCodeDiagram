@@ -10,7 +10,7 @@
  * @param aModelFactoryConcreta
  */]
 [template public generateElement(modelFactoryRelational : ModelFactoryAbstractRelationalModel)]
-
+[comment @main/]
 	[for (schema : Schema | modelFactoryRelational.listSchemas)]
 		[createSchema(schema)/];
 	[/for]
@@ -36,7 +36,9 @@
 	CREATE TABLE [table.name/] (
 		[for (column : Column | table.listColumns)]
 			[if (not column.name.contains('FOREIGN KEY'))]
-				[column.name/] [column.dataType/] [if (column.dataType = DataType::VARCHAR)] ([column.size/]) [/if] [if (column.notNull)] NOT NULL [/if] [if (column.isPrimaryKey)] PRIMARY KEY [/if] [if (column.uniqueIndex)] UNIQUE [/if] [if (column.isAutoIncremental)] AUTO_INCREMENT [/if]
+				[column.name/] [column.dataType/] [if (column.dataType = DataType::VARCHAR)] ([column.size/]) [/if] [if (column.notNull)] NOT NULL [/if] [if (column.isAutoIncremental)] AUTO_INCREMENT [/if]
+				[if (column.isPrimaryKey)] PRIMARY KEY ([column.name/]) [/if]
+				[if (column.uniqueIndex)] UNIQUE ([column.name/]) [/if] 
 			[/if]
 		[/for]
 	);		
