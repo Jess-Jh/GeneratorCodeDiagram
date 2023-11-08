@@ -144,7 +144,7 @@ public class ModelFactoryAbstractRelationalModelItemProvider
 			getString("_UI_ModelFactoryAbstractRelationalModel_type") :
 			getString("_UI_ModelFactoryAbstractRelationalModel_type") + " " + label;
 	}
-
+	
 
 	/**
 	 * This handles model notifications by calling {@link #updateChildren} to update any cached

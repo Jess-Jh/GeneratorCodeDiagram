@@ -30,6 +30,10 @@ public interface Column extends EObject {
 	/**
 	 * Returns the value of the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Name</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Name</em>' attribute.
 	 * @see #setName(String)
@@ -53,6 +57,10 @@ public interface Column extends EObject {
 	 * Returns the value of the '<em><b>Data Type</b></em>' containment reference.
 	 * The literals are from the enumeration {@link relationalmodel.DataType}.
 	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Data Type</em>' containment reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Data Type</em>' containment reference.
 	 * @see relationalmodel.DataType
@@ -77,6 +85,10 @@ public interface Column extends EObject {
 	/**
 	 * Returns the value of the '<em><b>Size</b></em>' attribute.
 	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Size</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Size</em>' attribute.
 	 * @see #setSize(int)
@@ -99,6 +111,10 @@ public interface Column extends EObject {
 	/**
 	 * Returns the value of the '<em><b>Is Primary Key</b></em>' attribute.
 	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Is Primary Key</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Is Primary Key</em>' attribute.
 	 * @see #setIsPrimaryKey(boolean)
@@ -121,6 +137,10 @@ public interface Column extends EObject {
 	/**
 	 * Returns the value of the '<em><b>Not Null</b></em>' attribute.
 	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Not Null</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Not Null</em>' attribute.
 	 * @see #setNotNull(boolean)
@@ -143,6 +163,10 @@ public interface Column extends EObject {
 	/**
 	 * Returns the value of the '<em><b>Unique Index</b></em>' attribute.
 	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Unique Index</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Unique Index</em>' attribute.
 	 * @see #setUniqueIndex(boolean)
@@ -165,6 +189,10 @@ public interface Column extends EObject {
 	/**
 	 * Returns the value of the '<em><b>Is Auto Incremental</b></em>' attribute.
 	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Is Auto Incremental</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Is Auto Incremental</em>' attribute.
 	 * @see #setIsAutoIncremental(boolean)

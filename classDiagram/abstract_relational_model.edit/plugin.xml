@@ -9,7 +9,7 @@
    <extension point="org.eclipse.emf.edit.itemProviderAdapterFactories">
       <!-- @generated abstractRelationalModel -->
       <factory
-            uri="relationalmodel"
+            uri="http://relationalmodel"
             class="relationalmodel.provider.RelationalmodelItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider

@@ -172,7 +172,6 @@ public class RelationalmodelModelWizard extends Wizard implements INewWizard {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public void init(IWorkbench workbench, IStructuredSelection selection) {
 		this.workbench = workbench;
 		this.selection = selection;
@@ -279,7 +278,6 @@ public class RelationalmodelModelWizard extends Wizard implements INewWizard {
 				final ISelection targetSelection = new StructuredSelection(modelFile);
 				getShell().getDisplay().asyncExec
 					(new Runnable() {
-						 @Override
 						 public void run() {
 							 ((ISetSelectionTarget)activePart).selectReveal(targetSelection);
 						 }
@@ -396,7 +394,6 @@ public class RelationalmodelModelWizard extends Wizard implements INewWizard {
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		@Override
 		public void createControl(Composite parent) {
 			Composite composite = new Composite(parent, SWT.NONE);
 			{
@@ -472,7 +469,6 @@ public class RelationalmodelModelWizard extends Wizard implements INewWizard {
 		 */
 		protected ModifyListener validator =
 			new ModifyListener() {
-				@Override
 				public void modifyText(ModifyEvent e) {
 					setPageComplete(validatePage());
 				}

@@ -258,7 +258,7 @@ public class ColumnItemProvider
 			getString("_UI_Column_type") :
 			getString("_UI_Column_type") + " " + label;
 	}
-
+	
 
 	/**
 	 * This handles model notifications by calling {@link #updateChildren} to update any cached

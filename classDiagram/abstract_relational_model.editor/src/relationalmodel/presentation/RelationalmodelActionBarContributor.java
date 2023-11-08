@@ -163,7 +163,6 @@ public class RelationalmodelActionBarContributor
 	 */
 	@Override
 	public void contributeToToolBar(IToolBarManager toolBarManager) {
-		super.contributeToToolBar(toolBarManager);
 		toolBarManager.add(new Separator("relationalmodel-settings"));
 		toolBarManager.add(new Separator("relationalmodel-additions"));
 	}
@@ -200,7 +199,6 @@ public class RelationalmodelActionBarContributor
 		//
 		submenuManager.addMenuListener
 			(new IMenuListener() {
-				 @Override
 				 public void menuAboutToShow(IMenuManager menuManager) {
 					 menuManager.updateAll(true);
 				 }
@@ -248,7 +246,6 @@ public class RelationalmodelActionBarContributor
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public void selectionChanged(SelectionChangedEvent event) {
 		// Remove any menu items for old selection.
 		//

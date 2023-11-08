@@ -8,7 +8,7 @@
  * Contributors:
  *     Obeo - initial API and implementation
  *******************************************************************************/
-package org.eclipse.acceleo.module.sqlm2t.main;
+package org.eclipse.acceleo.module.sample.main;
 
 import java.io.File;
 import java.io.IOException;
@@ -35,7 +35,7 @@ public class Generate extends AbstractAcceleoGenerator {
      *
      * @generated
      */
-    public static final String MODULE_FILE_NAME = "/org/eclipse/acceleo/module/sqlm2t/main/generate";
+    public static final String MODULE_FILE_NAME = "/org/eclipse/acceleo/module/sample/main/generate";
     
     /**
      * The name of the templates that are to be generated.
@@ -340,6 +340,9 @@ public class Generate extends AbstractAcceleoGenerator {
     @Override
     public void registerPackages(ResourceSet resourceSet) {
         super.registerPackages(resourceSet);
+        if (!isInWorkspace(relationalmodel.RelationalmodelPackage.class)) {
+            resourceSet.getPackageRegistry().put(relationalmodel.RelationalmodelPackage.eINSTANCE.getNsURI(), relationalmodel.RelationalmodelPackage.eINSTANCE);
+        }
         
         /*
          * If you want to change the content of this method, do NOT forget to change the "@generated"

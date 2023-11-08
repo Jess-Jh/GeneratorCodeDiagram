@@ -101,7 +101,6 @@ public class RelationalmodelFactoryImpl extends EFactoryImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public ModelFactoryAbstractRelationalModel createModelFactoryAbstractRelationalModel() {
 		ModelFactoryAbstractRelationalModelImpl modelFactoryAbstractRelationalModel = new ModelFactoryAbstractRelationalModelImpl();
 		return modelFactoryAbstractRelationalModel;
@@ -112,7 +111,6 @@ public class RelationalmodelFactoryImpl extends EFactoryImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public Schema createSchema() {
 		SchemaImpl schema = new SchemaImpl();
 		return schema;
@@ -123,7 +121,6 @@ public class RelationalmodelFactoryImpl extends EFactoryImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public Table createTable() {
 		TableImpl table = new TableImpl();
 		return table;
@@ -134,7 +131,6 @@ public class RelationalmodelFactoryImpl extends EFactoryImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public Column createColumn() {
 		ColumnImpl column = new ColumnImpl();
 		return column;
@@ -165,7 +161,6 @@ public class RelationalmodelFactoryImpl extends EFactoryImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public RelationalmodelPackage getRelationalmodelPackage() {
 		return (RelationalmodelPackage)getEPackage();
 	}

@@ -8,6 +8,7 @@
 		<item key="DIALOG_HEIGHT" value="439"/>
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|13.0|0|COCOA|1|.AppleSystemUIFont"/>
 		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="Acceleo Model to Text"/>
 			<item value="Code Canvas"/>
 		</list>
 	</section>

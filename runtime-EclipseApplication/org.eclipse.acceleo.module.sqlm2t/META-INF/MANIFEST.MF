@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Acceleo Sqlm2t Module Runtime Plug-in
+Bundle-Name: Acceleo Sample Module Runtime Plug-in
 Bundle-SymbolicName: org.eclipse.acceleo.module.sqlm2t
 Bundle-Version: 1.0.0.qualifier
-Bundle-Activator: org.eclipse.acceleo.module.sqlm2t.Activator
+Bundle-Activator: org.eclipse.acceleo.module.sample.Activator
 Bundle-Vendor: Eclipse Modeling Project
 Require-Bundle: org.eclipse.core.runtime, 
  abstract_relational_model, 
@@ -19,5 +19,5 @@ Require-Bundle: org.eclipse.core.runtime,
 Bundle-RequiredExecutionEnvironment: JavaSE-11
 Bundle-ActivationPolicy: lazy
 Eclipse-LazyStart: true
-Export-Package: org.eclipse.acceleo.module.sqlm2t.main
+Export-Package: org.eclipse.acceleo.module.sample.main
 

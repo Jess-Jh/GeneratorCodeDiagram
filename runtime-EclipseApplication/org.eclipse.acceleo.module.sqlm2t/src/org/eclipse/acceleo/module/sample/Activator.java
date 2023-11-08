@@ -8,7 +8,7 @@
  * Contributors:
  *     Obeo - initial API and implementation
  *******************************************************************************/
-package org.eclipse.acceleo.module.sqlm2t;
+package org.eclipse.acceleo.module.sample;
 
 import org.eclipse.core.runtime.Plugin;
 import org.osgi.framework.BundleContext;
@@ -21,7 +21,7 @@ public class Activator extends Plugin {
     /**
      * The plug-in ID.
      */
-    public static final String PLUGIN_ID = "org.eclipse.acceleo.module.sqlm2t";
+    public static final String PLUGIN_ID = "org.eclipse.acceleo.module.sample";
 
     /**
      * The shared instance.

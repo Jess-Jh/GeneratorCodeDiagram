@@ -2,7 +2,7 @@
 [**
  * The documentation of the module generate.
  */]
-[module generate('relationalmodel')]
+[module generate('http://relationalmodel')]
 
 
 [**

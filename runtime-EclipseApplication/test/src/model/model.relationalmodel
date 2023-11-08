@@ -17,12 +17,16 @@
       <listColumns name="airplaneNumber " size="255"/>
       <listColumns name="AerolineID"/>
       <listColumns name="FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID)"/>
+      <listColumns name="AerolineID"/>
+      <listColumns name="FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID)"/>
     </listTables>
     <listTables name="ShippingCart">
       <listColumns name="ShippingCartID" isPrimaryKey="true" notNull="true" isAutoIncremental="true"/>
       <listColumns name="weight"/>
       <listColumns name="idNumber" size="255"/>
       <listColumns name="airplaneNumber" size="255"/>
+      <listColumns name="AerolineID"/>
+      <listColumns name="FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID)"/>
       <listColumns name="AerolineID"/>
       <listColumns name="FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID)"/>
     </listTables>
@@ -34,6 +38,8 @@
       <listColumns name="departureTime " size="255"/>
       <listColumns name="AerolineID"/>
       <listColumns name="FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID)"/>
+      <listColumns name="AerolineID"/>
+      <listColumns name="FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID)"/>
     </listTables>
     <listTables name="Ticket">
       <listColumns name="travelType" size="255"/>
@@ -43,6 +49,12 @@
       <listColumns name="numberPersons"/>
       <listColumns name="costPerPerson"/>
       <listColumns name="finalPrice"/>
+      <listColumns name="AerolineID"/>
+      <listColumns name="FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID)"/>
+      <listColumns name="ClientID"/>
+      <listColumns name="FOREIGN KEY (ClientID) REFERENCES Client(ClientID)"/>
+      <listColumns name="RouteID"/>
+      <listColumns name="FOREIGN KEY (RouteID) REFERENCES Route(RouteID)"/>
       <listColumns name="AerolineID"/>
       <listColumns name="FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID)"/>
       <listColumns name="ClientID"/>
@@ -65,6 +77,10 @@
       <listColumns name="FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID)"/>
       <listColumns name="RouteID"/>
       <listColumns name="FOREIGN KEY (RouteID) REFERENCES Route(RouteID)"/>
+      <listColumns name="AerolineID"/>
+      <listColumns name="FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID)"/>
+      <listColumns name="RouteID"/>
+      <listColumns name="FOREIGN KEY (RouteID) REFERENCES Route(RouteID)"/>
     </listTables>
     <listTables name="seatingCapacity">
       <listColumns name="seatingCapacity" size="255"/>
@@ -75,6 +91,12 @@
       <listColumns name="CrewMemberID" isPrimaryKey="true" notNull="true" isAutoIncremental="true"/>
       <listColumns name="studiesPerformed" size="255"/>
       <listColumns name="crewType" size="255"/>
+      <listColumns name="PersonID"/>
+      <listColumns name="FOREIGN KEY (PersonID) REFERENCES Person(PersonID)"/>
+      <listColumns name="AerolineID"/>
+      <listColumns name="FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID)"/>
+      <listColumns name="AirplaneID"/>
+      <listColumns name="FOREIGN KEY (AirplaneID) REFERENCES Airplane(AirplaneID)"/>
       <listColumns name="PersonID"/>
       <listColumns name="FOREIGN KEY (PersonID) REFERENCES Person(PersonID)"/>
       <listColumns name="AerolineID"/>
@@ -95,6 +117,10 @@
       <listColumns name="ClientID" isPrimaryKey="true" notNull="true" isAutoIncremental="true"/>
       <listColumns name="residentialAddress" size="255"/>
       <listColumns name="debitCreditCardNumber" size="255"/>
+      <listColumns name="PersonID"/>
+      <listColumns name="FOREIGN KEY (PersonID) REFERENCES Person(PersonID)"/>
+      <listColumns name="AerolineID"/>
+      <listColumns name="FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID)"/>
       <listColumns name="PersonID"/>
       <listColumns name="FOREIGN KEY (PersonID) REFERENCES Person(PersonID)"/>
       <listColumns name="AerolineID"/>

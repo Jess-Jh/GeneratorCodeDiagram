@@ -91,7 +91,6 @@ public class ModelFactoryAbstractRelationalModelImpl extends EObjectImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public String getName() {
 		return name;
 	}
@@ -101,7 +100,6 @@ public class ModelFactoryAbstractRelationalModelImpl extends EObjectImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public void setName(String newName) {
 		String oldName = name;
 		name = newName;
@@ -114,7 +112,6 @@ public class ModelFactoryAbstractRelationalModelImpl extends EObjectImpl impleme
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public EList<Schema> getListSchemas() {
 		if (listSchemas == null) {
 			listSchemas = new EObjectContainmentEList<Schema>(Schema.class, this, RelationalmodelPackage.MODEL_FACTORY_ABSTRACT_RELATIONAL_MODEL__LIST_SCHEMAS);
@@ -215,7 +212,7 @@ public class ModelFactoryAbstractRelationalModelImpl extends EObjectImpl impleme
 	public String toString() {
 		if (eIsProxy()) return super.toString();
 
-		StringBuilder result = new StringBuilder(super.toString());
+		StringBuffer result = new StringBuffer(super.toString());
 		result.append(" (name: ");
 		result.append(name);
 		result.append(')');

@@ -21,7 +21,6 @@ import org.eclipse.emf.ecore.EReference;
  * <!-- end-user-doc -->
  * @see relationalmodel.RelationalmodelFactory
  * @model kind="package"
- *        annotation="gmf"
  * @generated
  */
 public interface RelationalmodelPackage extends EPackage {
@@ -39,7 +38,7 @@ public interface RelationalmodelPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	String eNS_URI = "relationalmodel";
+	String eNS_URI = "http://relationalmodel";
 
 	/**
 	 * The package namespace name.

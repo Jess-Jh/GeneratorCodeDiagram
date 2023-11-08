@@ -81,6 +81,10 @@ public enum DataType implements Enumerator {
 	/**
 	 * The '<em><b>VARCHAR</b></em>' literal value.
 	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of '<em><b>VARCHAR</b></em>' literal object isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
 	 * <!-- end-user-doc -->
 	 * @see #VARCHAR
 	 * @model
@@ -92,6 +96,10 @@ public enum DataType implements Enumerator {
 	/**
 	 * The '<em><b>DOUBLE</b></em>' literal value.
 	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of '<em><b>DOUBLE</b></em>' literal object isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
 	 * <!-- end-user-doc -->
 	 * @see #DOUBLE
 	 * @model
@@ -103,6 +111,10 @@ public enum DataType implements Enumerator {
 	/**
 	 * The '<em><b>INT</b></em>' literal value.
 	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of '<em><b>INT</b></em>' literal object isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
 	 * <!-- end-user-doc -->
 	 * @see #INT
 	 * @model
@@ -114,6 +126,10 @@ public enum DataType implements Enumerator {
 	/**
 	 * The '<em><b>NUMERIC</b></em>' literal value.
 	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of '<em><b>NUMERIC</b></em>' literal object isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
 	 * <!-- end-user-doc -->
 	 * @see #NUMERIC
 	 * @model
@@ -125,6 +141,10 @@ public enum DataType implements Enumerator {
 	/**
 	 * The '<em><b>BOOLEAN</b></em>' literal value.
 	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of '<em><b>BOOLEAN</b></em>' literal object isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
 	 * <!-- end-user-doc -->
 	 * @see #BOOLEAN
 	 * @model
@@ -136,6 +156,10 @@ public enum DataType implements Enumerator {
 	/**
 	 * The '<em><b>DATE</b></em>' literal value.
 	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of '<em><b>DATE</b></em>' literal object isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
 	 * <!-- end-user-doc -->
 	 * @see #DATE
 	 * @model
@@ -262,7 +286,6 @@ public enum DataType implements Enumerator {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public int getValue() {
 	  return value;
 	}
@@ -272,7 +295,6 @@ public enum DataType implements Enumerator {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public String getName() {
 	  return name;
 	}
@@ -282,7 +304,6 @@ public enum DataType implements Enumerator {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public String getLiteral() {
 	  return literal;
 	}

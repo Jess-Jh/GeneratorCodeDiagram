@@ -1,4 +1,4 @@
-@namespace(uri="relationalmodel", prefix="relationalmodel")
+@namespace(uri="http://relationalmodel", prefix="relationalmodel")
 @gmf
 package relationalmodel;
 
@@ -37,6 +37,3 @@ enum DataType {
     BOOLEAN=5;
     DATE=6;
 }
-
-
-

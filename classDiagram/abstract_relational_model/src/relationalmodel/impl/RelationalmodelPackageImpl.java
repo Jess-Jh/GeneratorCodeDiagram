@@ -88,7 +88,7 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 
 	/**
 	 * Creates, registers, and initializes the <b>Package</b> for this model, and for any others upon which it depends.
-	 *
+	 * 
 	 * <p>This method is used to initialize {@link RelationalmodelPackage#eINSTANCE} when that field is accessed.
 	 * Clients should not invoke it directly. Instead, they should simply access that field to obtain the package.
 	 * <!-- begin-user-doc -->
@@ -102,8 +102,7 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 		if (isInited) return (RelationalmodelPackage)EPackage.Registry.INSTANCE.getEPackage(RelationalmodelPackage.eNS_URI);
 
 		// Obtain or create and register package
-		Object registeredRelationalmodelPackage = EPackage.Registry.INSTANCE.get(eNS_URI);
-		RelationalmodelPackageImpl theRelationalmodelPackage = registeredRelationalmodelPackage instanceof RelationalmodelPackageImpl ? (RelationalmodelPackageImpl)registeredRelationalmodelPackage : new RelationalmodelPackageImpl();
+		RelationalmodelPackageImpl theRelationalmodelPackage = (RelationalmodelPackageImpl)(EPackage.Registry.INSTANCE.get(eNS_URI) instanceof RelationalmodelPackageImpl ? EPackage.Registry.INSTANCE.get(eNS_URI) : new RelationalmodelPackageImpl());
 
 		isInited = true;
 
@@ -116,6 +115,7 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 		// Mark meta-data to indicate it can't be changed
 		theRelationalmodelPackage.freeze();
 
+  
 		// Update the registry and return the package
 		EPackage.Registry.INSTANCE.put(RelationalmodelPackage.eNS_URI, theRelationalmodelPackage);
 		return theRelationalmodelPackage;
@@ -126,7 +126,6 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public EClass getModelFactoryAbstractRelationalModel() {
 		return modelFactoryAbstractRelationalModelEClass;
 	}
@@ -136,7 +135,6 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public EAttribute getModelFactoryAbstractRelationalModel_Name() {
 		return (EAttribute)modelFactoryAbstractRelationalModelEClass.getEStructuralFeatures().get(0);
 	}
@@ -146,7 +144,6 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public EReference getModelFactoryAbstractRelationalModel_ListSchemas() {
 		return (EReference)modelFactoryAbstractRelationalModelEClass.getEStructuralFeatures().get(1);
 	}
@@ -156,7 +153,6 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public EClass getSchema() {
 		return schemaEClass;
 	}
@@ -166,7 +162,6 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public EAttribute getSchema_Name() {
 		return (EAttribute)schemaEClass.getEStructuralFeatures().get(0);
 	}
@@ -176,7 +171,6 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public EReference getSchema_ListTables() {
 		return (EReference)schemaEClass.getEStructuralFeatures().get(1);
 	}
@@ -186,7 +180,6 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public EClass getTable() {
 		return tableEClass;
 	}
@@ -196,7 +189,6 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public EAttribute getTable_Name() {
 		return (EAttribute)tableEClass.getEStructuralFeatures().get(0);
 	}
@@ -206,7 +198,6 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public EReference getTable_ListColumns() {
 		return (EReference)tableEClass.getEStructuralFeatures().get(1);
 	}
@@ -216,7 +207,6 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public EClass getColumn() {
 		return columnEClass;
 	}
@@ -226,7 +216,6 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public EAttribute getColumn_Name() {
 		return (EAttribute)columnEClass.getEStructuralFeatures().get(0);
 	}
@@ -236,7 +225,6 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public EReference getColumn_DataType() {
 		return (EReference)columnEClass.getEStructuralFeatures().get(1);
 	}
@@ -246,7 +234,6 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public EAttribute getColumn_Size() {
 		return (EAttribute)columnEClass.getEStructuralFeatures().get(2);
 	}
@@ -256,7 +243,6 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public EAttribute getColumn_IsPrimaryKey() {
 		return (EAttribute)columnEClass.getEStructuralFeatures().get(3);
 	}
@@ -266,7 +252,6 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public EAttribute getColumn_NotNull() {
 		return (EAttribute)columnEClass.getEStructuralFeatures().get(4);
 	}
@@ -276,7 +261,6 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public EAttribute getColumn_UniqueIndex() {
 		return (EAttribute)columnEClass.getEStructuralFeatures().get(5);
 	}
@@ -286,7 +270,6 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public EAttribute getColumn_IsAutoIncremental() {
 		return (EAttribute)columnEClass.getEStructuralFeatures().get(6);
 	}
@@ -296,7 +279,6 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public EEnum getDataType() {
 		return dataTypeEEnum;
 	}
@@ -306,7 +288,6 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public RelationalmodelFactory getRelationalmodelFactory() {
 		return (RelationalmodelFactory)getEFactoryInstance();
 	}
@@ -430,10 +411,10 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * @generated
 	 */
 	protected void createGmfAnnotations() {
-		String source = "gmf";
+		String source = "gmf";	
 		addAnnotation
-		  (this,
-		   source,
+		  (this, 
+		   source, 
 		   new String[] {
 		   });
 	}

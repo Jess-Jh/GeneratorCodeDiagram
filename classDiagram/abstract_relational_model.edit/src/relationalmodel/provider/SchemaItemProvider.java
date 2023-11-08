@@ -144,7 +144,7 @@ public class SchemaItemProvider
 			getString("_UI_Schema_type") :
 			getString("_UI_Schema_type") + " " + label;
 	}
-
+	
 
 	/**
 	 * This handles model notifications by calling {@link #updateChildren} to update any cached

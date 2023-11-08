@@ -189,7 +189,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public String getName() {
 		return name;
 	}
@@ -199,7 +198,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public void setName(String newName) {
 		String oldName = name;
 		name = newName;
@@ -212,7 +210,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public DataType getDataType() {
 		return dataType;
 	}
@@ -237,14 +234,13 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public void setDataType(DataType newDataType) {
 		if (newDataType != dataType) {
 			NotificationChain msgs = null;
 			if (dataType != null)
-//				msgs = dataType.eInverseRemove(this, EOPPOSITE_FEATURE_BASE - RelationalmodelPackage.COLUMN__DATA_TYPE, null, msgs);
+//				msgs = ((InternalEObject)dataType).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - RelationalmodelPackage.COLUMN__DATA_TYPE, null, msgs);
 			if (newDataType != null)
-//				msgs = newDataType.eInverseAdd(this, EOPPOSITE_FEATURE_BASE - RelationalmodelPackage.COLUMN__DATA_TYPE, null, msgs);
+//				msgs = ((InternalEObject)newDataType).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - RelationalmodelPackage.COLUMN__DATA_TYPE, null, msgs);
 			msgs = basicSetDataType(newDataType, msgs);
 			if (msgs != null) msgs.dispatch();
 		}
@@ -257,7 +253,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public int getSize() {
 		return size;
 	}
@@ -267,7 +262,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public void setSize(int newSize) {
 		int oldSize = size;
 		size = newSize;
@@ -280,7 +274,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public boolean isIsPrimaryKey() {
 		return isPrimaryKey;
 	}
@@ -290,7 +283,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public void setIsPrimaryKey(boolean newIsPrimaryKey) {
 		boolean oldIsPrimaryKey = isPrimaryKey;
 		isPrimaryKey = newIsPrimaryKey;
@@ -303,7 +295,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public boolean isNotNull() {
 		return notNull;
 	}
@@ -313,7 +304,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public void setNotNull(boolean newNotNull) {
 		boolean oldNotNull = notNull;
 		notNull = newNotNull;
@@ -326,7 +316,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public boolean isUniqueIndex() {
 		return uniqueIndex;
 	}
@@ -336,7 +325,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public void setUniqueIndex(boolean newUniqueIndex) {
 		boolean oldUniqueIndex = uniqueIndex;
 		uniqueIndex = newUniqueIndex;
@@ -349,7 +337,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public boolean isIsAutoIncremental() {
 		return isAutoIncremental;
 	}
@@ -359,7 +346,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@Override
 	public void setIsAutoIncremental(boolean newIsAutoIncremental) {
 		boolean oldIsAutoIncremental = isAutoIncremental;
 		isAutoIncremental = newIsAutoIncremental;
@@ -508,7 +494,7 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	public String toString() {
 		if (eIsProxy()) return super.toString();
 
-		StringBuilder result = new StringBuilder(super.toString());
+		StringBuffer result = new StringBuffer(super.toString());
 		result.append(" (name: ");
 		result.append(name);
 		result.append(", size: ");
