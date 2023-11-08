@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<config date="1699303797046" transient="false" version="3.0">
+<config date="1699459565394" transient="false" version="3.0">
 <site enabled="true" policy="USER-EXCLUDE" updateable="true" url="platform:/base/">
-<feature id="org.eclipse.acceleo.ui.capabilities" url="features/org.eclipse.acceleo.ui.capabilities_3.4.1.201309031307/" version="3.4.1.201309031307">
-</feature>
-<feature id="org.eclipse.acceleo.runtime.source" url="features/org.eclipse.acceleo.runtime.source_3.4.1.201309031307/" version="3.4.1.201309031307">
-</feature>
-<feature id="org.eclipse.acceleo.sdk" plugin-identifier="org.eclipse.acceleo.common" url="features/org.eclipse.acceleo.sdk_3.4.1.201309031307/" version="3.4.1.201309031307">
-</feature>
-<feature id="org.eclipse.acceleo.source" plugin-identifier="org.eclipse.acceleo.common" url="features/org.eclipse.acceleo.source_3.4.1.201309031307/" version="3.4.1.201309031307">
-</feature>
-<feature id="org.eclipse.acceleo.examples" url="features/org.eclipse.acceleo.examples_3.4.1.201309031307/" version="3.4.1.201309031307">
-</feature>
-<feature id="org.eclipse.acceleo" plugin-identifier="org.eclipse.acceleo.common" url="features/org.eclipse.acceleo_3.4.1.201309031307/" version="3.4.1.201309031307">
-</feature>
-<feature id="org.eclipse.acceleo.runtime" url="features/org.eclipse.acceleo.runtime_3.4.1.201309031307/" version="3.4.1.201309031307">
-</feature>
-<feature id="org.eclipse.acceleo.doc" url="features/org.eclipse.acceleo.doc_3.4.1.201309031307/" version="3.4.1.201309031307">
-</feature>
 </site>
 </config>

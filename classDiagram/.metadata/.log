@@ -3398,3 +3398,1475 @@ Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Co
 
 !ENTRY org.eclipse.pde.core 4 0 2023-11-06 15:49:45.241
 !MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ui.interpreter.source_3.2.2.v20120807-0831.jar
+!SESSION 2023-11-08 08:44:58.673 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -keyring /Users/jessica/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/jessica/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2023-11-08 08:45:00.185
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-11-08 08:45:00.185
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:45:02.759
+!MESSAGE The current target platform contains errors, open Window > Preferences > Plug-in Development > Target Platform for details.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems occurred getting the plug-ins in this container
+	at org.eclipse.pde.internal.core.PluginModelManager.getExternalBundles(PluginModelManager.java:682)
+	at org.eclipse.pde.internal.core.PluginModelManager.initializeTable(PluginModelManager.java:591)
+	at org.eclipse.pde.internal.core.PluginModelManager.targetReloaded(PluginModelManager.java:522)
+	at org.eclipse.pde.internal.core.RequiredPluginsInitializer.lambda$0(RequiredPluginsInitializer.java:33)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.ui.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.ui.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.doc.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.engine.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ide.ui.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.edit.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.parser.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.edit.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.editor.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.model.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ui.interpreter.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 1 org.eclipse.pde.core 4 0 2023-11-08 08:45:02.759
+!MESSAGE Problems occurred getting the plug-ins in this container
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:45:02.759
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:45:02.760
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.ui.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:45:02.760
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:45:02.760
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.ui.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:45:02.760
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.doc.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:45:02.760
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.engine.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:45:02.760
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ide.ui.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:45:02.760
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.edit.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:45:02.760
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:45:02.760
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.parser.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:45:02.760
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.edit.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:45:02.760
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.editor.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:45:02.760
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:45:02.760
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.model.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:45:02.760
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:45:02.760
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ui.interpreter.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:45:02.760
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:45:02.760
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.ui.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:45:02.760
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:45:02.760
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.ui.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:45:02.760
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.doc.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:45:02.761
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.engine.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:45:02.761
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ide.ui.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:45:02.761
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.edit.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:45:02.761
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:45:02.761
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.parser.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:45:02.761
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.edit.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:45:02.761
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.editor.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:45:02.761
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:45:02.761
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.model.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:45:02.761
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:45:02.761
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ui.interpreter.source_3.2.2.v20120807-0831.jar
+!SESSION 2023-11-08 08:47:31.532 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -keyring /Users/jessica/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -keyring /Users/jessica/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2023-11-08 08:47:32.814
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-11-08 08:47:32.814
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:47:35.370
+!MESSAGE The current target platform contains errors, open Window > Preferences > Plug-in Development > Target Platform for details.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems occurred getting the plug-ins in this container
+	at org.eclipse.pde.internal.core.PluginModelManager.getExternalBundles(PluginModelManager.java:682)
+	at org.eclipse.pde.internal.core.PluginModelManager.initializeTable(PluginModelManager.java:591)
+	at org.eclipse.pde.internal.core.PluginModelManager.targetReloaded(PluginModelManager.java:522)
+	at org.eclipse.pde.internal.core.RequiredPluginsInitializer.lambda$0(RequiredPluginsInitializer.java:33)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.ui.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.ui.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.doc.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.engine.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ide.ui.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.edit.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.parser.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.edit.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.editor.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.model.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ui.interpreter.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 1 org.eclipse.pde.core 4 0 2023-11-08 08:47:35.371
+!MESSAGE Problems occurred getting the plug-ins in this container
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:47:35.371
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:47:35.371
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.ui.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:47:35.371
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:47:35.371
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.ui.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:47:35.371
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.doc.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:47:35.371
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.engine.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:47:35.371
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ide.ui.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:47:35.371
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.edit.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:47:35.371
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:47:35.371
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.parser.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:47:35.371
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.edit.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:47:35.371
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.editor.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:47:35.371
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:47:35.371
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.model.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:47:35.371
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 08:47:35.371
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ui.interpreter.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:47:35.371
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:47:35.372
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.ui.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:47:35.372
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:47:35.372
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.ui.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:47:35.372
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.doc.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:47:35.372
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.engine.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:47:35.372
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ide.ui.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:47:35.372
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.edit.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:47:35.372
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:47:35.372
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.parser.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:47:35.372
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.edit.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:47:35.372
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.editor.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:47:35.372
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:47:35.372
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.model.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:47:35.372
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 08:47:35.373
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ui.interpreter.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2023-11-08 10:36:35.628
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2023-11-08 10:36:35.628
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "ANTLR Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "ANTLR 4 Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Guava: Google Core Libraries for Java" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "ANTLR 4 Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10006 2023-11-08 10:36:35.628
+!MESSAGE "ANTLR Runtime" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.628
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Guava: Google Core Libraries for Java" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "ANTLR 3 Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Guava: Google Core Libraries for Java" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.629
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2023-11-08 10:36:35.629
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.629
+!MESSAGE Software being installed: Acceleo Query Framework 6.0.0.201610150614 (org.eclipse.acceleo.query.feature.group 6.0.0.201610150614)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.629
+!MESSAGE Software being installed: Acceleo Query Framework 7.0.0.202002210922 (org.eclipse.acceleo.query.feature.group 7.0.0.202002210922)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 10:36:35.629
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.629
+!MESSAGE Acceleo Query Language 6.0.0.201610150614 (org.eclipse.acceleo.query 6.0.0.201610150614)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.629
+!MESSAGE Acceleo Query Language 6.0.5.201809121017 (org.eclipse.acceleo.query 6.0.5.201809121017)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 10:36:35.629
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.629
+!MESSAGE From: Acceleo Query Framework 6.0.0.201610150614 (org.eclipse.acceleo.query.feature.group 6.0.0.201610150614)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.629
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.acceleo.query [6.0.0.201610150614,6.0.0.201610150614]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 10:36:35.629
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.629
+!MESSAGE From: Acceleo Query Framework 7.0.0.202002210922 (org.eclipse.acceleo.query.feature.group 7.0.0.202002210922)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.629
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.acceleo.query [7.0.0.202002210922,7.0.0.202002210922]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2023-11-08 10:36:35.641
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2023-11-08 10:36:35.641
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "ANTLR Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "ANTLR 4 Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Guava: Google Core Libraries for Java" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "ANTLR 4 Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10006 2023-11-08 10:36:35.641
+!MESSAGE "ANTLR Runtime" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.641
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Guava: Google Core Libraries for Java" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "ANTLR 3 Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Guava: Google Core Libraries for Java" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.642
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2023-11-08 10:36:35.642
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.642
+!MESSAGE Software being installed: Acceleo Query Framework 6.0.0.201610150614 (org.eclipse.acceleo.query.feature.group 6.0.0.201610150614)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.642
+!MESSAGE Software being installed: Acceleo Query Framework 7.0.0.202002210922 (org.eclipse.acceleo.query.feature.group 7.0.0.202002210922)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 10:36:35.642
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.642
+!MESSAGE Acceleo Query Language 6.0.0.201610150614 (org.eclipse.acceleo.query 6.0.0.201610150614)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.642
+!MESSAGE Acceleo Query Language 6.0.5.201809121017 (org.eclipse.acceleo.query 6.0.5.201809121017)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 10:36:35.642
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.642
+!MESSAGE From: Acceleo Query Framework 6.0.0.201610150614 (org.eclipse.acceleo.query.feature.group 6.0.0.201610150614)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.642
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.acceleo.query [6.0.0.201610150614,6.0.0.201610150614]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 10:36:35.642
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.642
+!MESSAGE From: Acceleo Query Framework 7.0.0.202002210922 (org.eclipse.acceleo.query.feature.group 7.0.0.202002210922)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.642
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.acceleo.query [7.0.0.202002210922,7.0.0.202002210922]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2023-11-08 10:36:35.714
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2023-11-08 10:36:35.714
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "ANTLR Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "ANTLR 4 Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Guava: Google Core Libraries for Java" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "ANTLR 4 Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10006 2023-11-08 10:36:35.714
+!MESSAGE "ANTLR Runtime" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Guava: Google Core Libraries for Java" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "ANTLR 3 Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Guava: Google Core Libraries for Java" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.714
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2023-11-08 10:36:35.715
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.715
+!MESSAGE Software being installed: Acceleo Query Framework 6.0.0.201610150614 (org.eclipse.acceleo.query.feature.group 6.0.0.201610150614)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.715
+!MESSAGE Software being installed: Acceleo Query Framework 7.0.0.202002210922 (org.eclipse.acceleo.query.feature.group 7.0.0.202002210922)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 10:36:35.715
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.715
+!MESSAGE Acceleo Query Language 6.0.0.201610150614 (org.eclipse.acceleo.query 6.0.0.201610150614)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.715
+!MESSAGE Acceleo Query Language 6.0.5.201809121017 (org.eclipse.acceleo.query 6.0.5.201809121017)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 10:36:35.715
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.715
+!MESSAGE From: Acceleo Query Framework 6.0.0.201610150614 (org.eclipse.acceleo.query.feature.group 6.0.0.201610150614)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.715
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.acceleo.query [6.0.0.201610150614,6.0.0.201610150614]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 10:36:35.715
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.715
+!MESSAGE From: Acceleo Query Framework 7.0.0.202002210922 (org.eclipse.acceleo.query.feature.group 7.0.0.202002210922)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.715
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.acceleo.query [7.0.0.202002210922,7.0.0.202002210922]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2023-11-08 10:36:35.715
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2023-11-08 10:36:35.715
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "ANTLR Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "ANTLR 4 Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Guava: Google Core Libraries for Java" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "ANTLR 4 Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10006 2023-11-08 10:36:35.715
+!MESSAGE "ANTLR Runtime" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Guava: Google Core Libraries for Java" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "ANTLR 3 Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Guava: Google Core Libraries for Java" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Examples" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo UI capability definitions" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Runtime SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Core SDK" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2023-11-08 10:36:35.715
+!MESSAGE "Acceleo Documentation" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2023-11-08 10:36:35.715
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.715
+!MESSAGE Software being installed: Acceleo Query Framework 6.0.0.201610150614 (org.eclipse.acceleo.query.feature.group 6.0.0.201610150614)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.715
+!MESSAGE Software being installed: Acceleo Query Framework 7.0.0.202002210922 (org.eclipse.acceleo.query.feature.group 7.0.0.202002210922)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 10:36:35.715
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.715
+!MESSAGE Acceleo Query Language 6.0.0.201610150614 (org.eclipse.acceleo.query 6.0.0.201610150614)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.716
+!MESSAGE Acceleo Query Language 6.0.5.201809121017 (org.eclipse.acceleo.query 6.0.5.201809121017)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 10:36:35.716
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.716
+!MESSAGE From: Acceleo Query Framework 6.0.0.201610150614 (org.eclipse.acceleo.query.feature.group 6.0.0.201610150614)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.716
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.acceleo.query [6.0.0.201610150614,6.0.0.201610150614]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2023-11-08 10:36:35.716
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.716
+!MESSAGE From: Acceleo Query Framework 7.0.0.202002210922 (org.eclipse.acceleo.query.feature.group 7.0.0.202002210922)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2023-11-08 10:36:35.716
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.acceleo.query [7.0.0.202002210922,7.0.0.202002210922]
+
+!ENTRY org.eclipse.equinox.p2.engine 2 0 2023-11-08 10:37:38.049
+!MESSAGE 
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.eclipse 2 0 2023-11-08 10:37:38.049
+!MESSAGE Failed to find a configured bundleInfo for: [R]com.google.guava 10.0.1.v201203051515.
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.eclipse 2 0 2023-11-08 10:37:38.049
+!MESSAGE Failed to find a configured bundleInfo for: [R]com.google.guava 30.1.0.v20210127-2300.
+!SUBENTRY 1 org.eclipse.equinox.p2.touchpoint.eclipse 2 0 2023-11-08 10:37:38.049
+!MESSAGE Failed to find a configured bundleInfo for: [R]org.antlr.runtime 3.2.0.v201101311130.
+!SUBENTRY 1 unknown 0 0 2023-11-08 10:37:38.049
+!MESSAGE OK
+!SESSION 2023-11-08 10:37:41.927 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Framework arguments:  -keyring /Users/jessica/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -data file:/Users/jessica/Documents/develop/java/workspaceISDM/classDiagram/ -keyring /Users/jessica/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2023-11-08 10:37:43.407
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-11-08 10:37:43.408
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:37:46.221
+!MESSAGE The current target platform contains errors, open Window > Preferences > Plug-in Development > Target Platform for details.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems occurred getting the plug-ins in this container
+	at org.eclipse.pde.internal.core.PluginModelManager.getExternalBundles(PluginModelManager.java:682)
+	at org.eclipse.pde.internal.core.PluginModelManager.initializeTable(PluginModelManager.java:591)
+	at org.eclipse.pde.internal.core.PluginModelManager.targetReloaded(PluginModelManager.java:522)
+	at org.eclipse.pde.internal.core.RequiredPluginsInitializer.lambda$0(RequiredPluginsInitializer.java:33)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.ui.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.ui.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.doc.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.engine.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ide.ui.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.edit.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.parser.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.edit.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.editor.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.model.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.source_3.2.2.v20120807-0831.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ui.interpreter.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 1 org.eclipse.pde.core 4 0 2023-11-08 10:37:46.222
+!MESSAGE Problems occurred getting the plug-ins in this container
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:37:46.222
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:37:46.222
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.ui.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:37:46.222
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:37:46.222
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.ui.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:37:46.222
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.doc.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:37:46.222
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.engine.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:37:46.222
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ide.ui.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:37:46.222
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.edit.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:37:46.222
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:37:46.222
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.parser.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:37:46.222
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.edit.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:37:46.222
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.editor.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:37:46.222
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:37:46.222
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.model.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:37:46.222
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.source_3.2.2.v20120807-0831.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:37:46.222
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ui.interpreter.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:37:46.222
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:37:46.222
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.ui.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:37:46.222
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:37:46.222
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.ui.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:37:46.223
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.doc.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:37:46.223
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.engine.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:37:46.223
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ide.ui.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:37:46.223
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.edit.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:37:46.223
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:37:46.223
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.parser.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:37:46.223
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.edit.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:37:46.223
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.editor.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:37:46.223
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:37:46.223
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.model.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:37:46.224
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.source_3.2.2.v20120807-0831.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:37:46.224
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ui.interpreter.source_3.2.2.v20120807-0831.jar
+!SESSION 2023-11-08 10:53:03.486 -----------------------------------------------
+eclipse.buildId=4.22.0.I20211124-1800
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=es_419
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -data /Users/jessica/Documents/develop/java/workspaceISDM/classDiagram
+
+!ENTRY org.eclipse.ui 2 0 2023-11-08 10:53:04.965
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-11-08 10:53:04.965
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.xtext.ui', id='org.eclipse.xtext.ui.editor.outline.QuickOutline'
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:53:07.987
+!MESSAGE The current target platform contains errors, open Window > Preferences > Plug-in Development > Target Platform for details.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems occurred getting the plug-ins in this container
+	at org.eclipse.pde.internal.core.PluginModelManager.getExternalBundles(PluginModelManager.java:682)
+	at org.eclipse.pde.internal.core.PluginModelManager.initializeTable(PluginModelManager.java:591)
+	at org.eclipse.pde.internal.core.PluginModelManager.targetReloaded(PluginModelManager.java:522)
+	at org.eclipse.pde.internal.core.RequiredPluginsInitializer.lambda$0(RequiredPluginsInitializer.java:33)
+	at org.eclipse.core.runtime.jobs.Job$2.run(Job.java:187)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.annotations.source_7.0.0.202211151354.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.ide.source_3.7.12.202211151354.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.source_3.7.12.202211151354.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.ui.source_3.7.12.202211151354.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.source_3.7.12.202211151354.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.ui.source_3.7.12.202211151354.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.engine.source_3.7.12.202211151354.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ide.ui.source_3.7.12.202211151354.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.edit.source_3.7.12.202211151354.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.source_3.7.12.202211151354.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.parser.source_3.7.12.202211151354.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.edit.source_3.7.12.202211151354.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.editor.source_3.7.12.202211151354.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.source_3.7.12.202211151354.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.query.doc.source_7.0.0.202211151354.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.query.ide.source_7.0.0.202211151354.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.query.ide.ui.source_7.0.0.202211151354.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.query.source_7.0.0.202211151354.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.model.source_3.7.12.202211151354.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.source_3.7.12.202211151354.jar
+Contains: File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ui.interpreter.source_3.7.12.202211151354.jar
+!SUBENTRY 1 org.eclipse.pde.core 4 0 2023-11-08 10:53:07.987
+!MESSAGE Problems occurred getting the plug-ins in this container
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:53:07.987
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.annotations.source_7.0.0.202211151354.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:53:07.987
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.ide.source_3.7.12.202211151354.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:53:07.987
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.source_3.7.12.202211151354.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:53:07.987
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.ui.source_3.7.12.202211151354.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:53:07.987
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.source_3.7.12.202211151354.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:53:07.987
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.ui.source_3.7.12.202211151354.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:53:07.988
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.engine.source_3.7.12.202211151354.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:53:07.988
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ide.ui.source_3.7.12.202211151354.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:53:07.988
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.edit.source_3.7.12.202211151354.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:53:07.988
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.source_3.7.12.202211151354.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:53:07.988
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.parser.source_3.7.12.202211151354.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:53:07.988
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.edit.source_3.7.12.202211151354.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:53:07.988
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.editor.source_3.7.12.202211151354.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:53:07.988
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.source_3.7.12.202211151354.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:53:07.988
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.query.doc.source_7.0.0.202211151354.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:53:07.988
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.query.ide.source_7.0.0.202211151354.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:53:07.988
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.query.ide.ui.source_7.0.0.202211151354.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:53:07.988
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.query.source_7.0.0.202211151354.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:53:07.988
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.model.source_3.7.12.202211151354.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:53:07.988
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.source_3.7.12.202211151354.jar
+!SUBENTRY 2 org.eclipse.pde.core 4 0 2023-11-08 10:53:07.988
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ui.interpreter.source_3.7.12.202211151354.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:53:07.988
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.annotations.source_7.0.0.202211151354.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:53:07.988
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.ide.source_3.7.12.202211151354.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:53:07.988
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.source_3.7.12.202211151354.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:53:07.988
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.common.ui.source_3.7.12.202211151354.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:53:07.989
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.source_3.7.12.202211151354.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:53:07.989
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.compatibility.ui.source_3.7.12.202211151354.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:53:07.989
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.engine.source_3.7.12.202211151354.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:53:07.989
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ide.ui.source_3.7.12.202211151354.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:53:07.989
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.edit.source_3.7.12.202211151354.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:53:07.989
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.model.source_3.7.12.202211151354.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:53:07.989
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.parser.source_3.7.12.202211151354.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:53:07.989
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.edit.source_3.7.12.202211151354.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:53:07.989
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.editor.source_3.7.12.202211151354.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:53:07.989
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.profiler.source_3.7.12.202211151354.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:53:07.990
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.query.doc.source_7.0.0.202211151354.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:53:07.990
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.query.ide.source_7.0.0.202211151354.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:53:07.990
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.query.ide.ui.source_7.0.0.202211151354.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:53:07.990
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.query.source_7.0.0.202211151354.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:53:07.990
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.model.source_3.7.12.202211151354.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:53:07.990
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.traceability.source_3.7.12.202211151354.jar
+
+!ENTRY org.eclipse.pde.core 4 0 2023-11-08 10:53:07.990
+!MESSAGE File does not exist: /Users/jessica/eclipse/epsilon-2-4/Eclipse.app/Contents/MacOS/configuration/org.eclipse.osgi/352/data/-1375095092/plugins/org.eclipse.acceleo.ui.interpreter.source_3.7.12.202211151354.jar

@@ -7,11 +7,11 @@
 
 [**
  * The documentation of the template generateElement.
- * @param aModelFactoryConcreta
+ * @param aModelFactoryAbstractRelationalModel
  */]
-[template public generateElement(modelFactoryRelational : ModelFactoryAbstractRelationalModel)]
+[template public generateElement(aModelFactoryAbstractRelationalModel : ModelFactoryAbstractRelationalModel)]
 [comment @main/]
-	[for (schema : Schema | modelFactoryRelational.listSchemas)]
+	[for (schema : Schema | aModelFactoryAbstractRelationalModel.listSchemas)]
 		[createSchema(schema)/];
 	[/for]
 [/template]
