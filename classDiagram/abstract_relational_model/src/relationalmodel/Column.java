@@ -54,7 +54,7 @@ public interface Column extends EObject {
 	void setName(String value);
 
 	/**
-	 * Returns the value of the '<em><b>Data Type</b></em>' containment reference.
+	 * Returns the value of the '<em><b>Data Type</b></em>' attribute.
 	 * The literals are from the enumeration {@link relationalmodel.DataType}.
 	 * <!-- begin-user-doc -->
 	 * <p>
@@ -62,20 +62,20 @@ public interface Column extends EObject {
 	 * there really should be more of a description here...
 	 * </p>
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Data Type</em>' containment reference.
+	 * @return the value of the '<em>Data Type</em>' attribute.
 	 * @see relationalmodel.DataType
 	 * @see #setDataType(DataType)
 	 * @see relationalmodel.RelationalmodelPackage#getColumn_DataType()
-	 * @model containment="true"
+	 * @model
 	 * @generated
 	 */
 	DataType getDataType();
 
 	/**
-	 * Sets the value of the '{@link relationalmodel.Column#getDataType <em>Data Type</em>}' containment reference.
+	 * Sets the value of the '{@link relationalmodel.Column#getDataType <em>Data Type</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Data Type</em>' containment reference.
+	 * @param value the new value of the '<em>Data Type</em>' attribute.
 	 * @see relationalmodel.DataType
 	 * @see #getDataType()
 	 * @generated

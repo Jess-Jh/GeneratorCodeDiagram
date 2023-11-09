@@ -3,271 +3,232 @@
 		
 			
 				CREATE TABLE Aeroline (
-							AerolineID    NOT NULL   AUTO_INCREMENT 
-							 PRIMARY KEY (AerolineID) 
-							 
-							name    
-							
-							 
+							AerolineID INT   NOT NULL   AUTO_INCREMENT ,
+							 PRIMARY KEY (AerolineID) ,
+							, 
+							name VARCHAR  (255)   ,
+							,
+							, 
 				);		
 					
 			
 				CREATE TABLE Baggage (
-							BaggageID    NOT NULL   AUTO_INCREMENT 
-							 PRIMARY KEY (BaggageID) 
-							 
-							idClient    
-							
-							 
-							totalWeight    
-							
-							 
-							idBaggage    
-							
-							 
-							baggageWeight1    
-							
-							 
-							baggageWeight2    
-							
-							 
-							baggageDimension1    
-							
-							 
-							baggageDimension2    
-							
-							 
-							airplaneNumber     
-							
-							 
-							AerolineID    
-							
-							 
-							AerolineID    
-							
-							 
+							BaggageID INT   NOT NULL   AUTO_INCREMENT ,
+							 PRIMARY KEY (BaggageID) ,
+							, 
+							idClient VARCHAR  (255)   ,
+							,
+							, 
+							totalWeight DOUBLE   ,
+							,
+							, 
+							idBaggage VARCHAR  (255)   ,
+							,
+							, 
+							baggageWeight1 DOUBLE   ,
+							,
+							, 
+							baggageWeight2 DOUBLE   ,
+							,
+							, 
+							baggageDimension1 VARCHAR  (255)   ,
+							,
+							, 
+							baggageDimension2 VARCHAR  (255)   ,
+							,
+							, 
+							airplaneNumber  VARCHAR  (255)   ,
+							,
+							, 
+							AerolineID INT   ,
+							,
+							, 
 				);		
 					
 			
 				CREATE TABLE ShippingCart (
-							ShippingCartID    NOT NULL   AUTO_INCREMENT 
-							 PRIMARY KEY (ShippingCartID) 
-							 
-							weight    
-							
-							 
-							idNumber    
-							
-							 
-							airplaneNumber    
-							
-							 
-							AerolineID    
-							
-							 
-							AerolineID    
-							
-							 
+							ShippingCartID INT   NOT NULL   AUTO_INCREMENT ,
+							 PRIMARY KEY (ShippingCartID) ,
+							, 
+							weight DOUBLE   ,
+							,
+							, 
+							idNumber VARCHAR  (255)   ,
+							,
+							, 
+							airplaneNumber VARCHAR  (255)   ,
+							,
+							, 
+							AerolineID INT   ,
+							,
+							, 
 				);		
 					
 			
 				CREATE TABLE Route (
-							RouteID    NOT NULL   AUTO_INCREMENT 
-							 PRIMARY KEY (RouteID) 
-							 
-							cityOrigin    
-							
-							 
-							destinationCity    
-							
-							 
-							duration    
-							
-							 
-							departureTime     
-							
-							 
-							AerolineID    
-							
-							 
-							AerolineID    
-							
-							 
+							RouteID INT   NOT NULL   AUTO_INCREMENT ,
+							 PRIMARY KEY (RouteID) ,
+							, 
+							cityOrigin VARCHAR  (255)   ,
+							,
+							, 
+							destinationCity VARCHAR  (255)   ,
+							,
+							, 
+							duration VARCHAR  (255)   ,
+							,
+							, 
+							departureTime  VARCHAR  (255)   ,
+							,
+							, 
+							AerolineID INT   ,
+							,
+							, 
 				);		
 					
 			
 				CREATE TABLE Ticket (
-							travelType    
-							
-							 
-							serviceType    
-							
-							 
-							startDate    
-							
-							 
-							returnDate    
-							
-							 
-							numberPersons    
-							
-							 
-							costPerPerson    
-							
-							 
-							finalPrice    
-							
-							 
-							AerolineID    
-							
-							 
-							ClientID    
-							
-							 
-							RouteID    
-							
-							 
-							AerolineID    
-							
-							 
-							ClientID    
-							
-							 
-							RouteID    
-							
-							 
+							travelType VARCHAR  (255)   ,
+							,
+							, 
+							serviceType VARCHAR  (255)   ,
+							,
+							, 
+							startDate DATE   ,
+							,
+							, 
+							returnDate DATE   ,
+							,
+							, 
+							numberPersons INT   ,
+							,
+							, 
+							costPerPerson DOUBLE   ,
+							,
+							, 
+							finalPrice DOUBLE   ,
+							,
+							, 
+							AerolineID INT   ,
+							,
+							, 
+							ClientID INT   ,
+							,
+							, 
+							RouteID INT   ,
+							,
+							, 
 				);		
 					
 			
 				CREATE TABLE occupancyChairs (
-							TicketID    NOT NULL   AUTO_INCREMENT 
-							 PRIMARY KEY (TicketID) 
-							 
-							occupancyChairs    
-							
-							 
-							TicketID    
-							
-							 
+							TicketID INT   NOT NULL   AUTO_INCREMENT ,
+							 PRIMARY KEY (TicketID) ,
+							, 
+							occupancyChairs VARCHAR  (255)   ,
+							,
+							, 
+							TicketID INT   ,
+							,
+							, 
 				);		
 					
 			
 				CREATE TABLE Airplane (
-							name    
-							
-							 
-							AirplaneID    NOT NULL   AUTO_INCREMENT 
-							 PRIMARY KEY (AirplaneID) 
-							 
-							 chargeCapacity    
-							
-							 
-							airplaneIdentificationNumber    
-							
-							 
-							AerolineID    
-							
-							 
-							RouteID    
-							
-							 
-							AerolineID    
-							
-							 
-							RouteID    
-							
-							 
+							name VARCHAR  (255)   ,
+							,
+							, 
+							AirplaneID INT   NOT NULL   AUTO_INCREMENT ,
+							 PRIMARY KEY (AirplaneID) ,
+							, 
+							 chargeCapacity DOUBLE   ,
+							,
+							, 
+							airplaneIdentificationNumber VARCHAR  (255)   ,
+							,
+							, 
+							AerolineID INT   ,
+							,
+							, 
+							RouteID INT   ,
+							,
+							, 
 				);		
 					
 			
 				CREATE TABLE seatingCapacity (
-							seatingCapacity    
-							
-							 
-							AirplaneID    
-							
-							 
+							seatingCapacity VARCHAR  (255)   ,
+							,
+							, 
+							AirplaneID INT   ,
+							,
+							, 
 				);		
 					
 			
 				CREATE TABLE CrewMember (
-							CrewMemberID    NOT NULL   AUTO_INCREMENT 
-							 PRIMARY KEY (CrewMemberID) 
-							 
-							studiesPerformed    
-							
-							 
-							crewType    
-							
-							 
-							PersonID    
-							
-							 
-							AerolineID    
-							
-							 
-							AirplaneID    
-							
-							 
-							PersonID    
-							
-							 
-							AerolineID    
-							
-							 
-							AirplaneID    
-							
-							 
+							CrewMemberID INT   NOT NULL   AUTO_INCREMENT ,
+							 PRIMARY KEY (CrewMemberID) ,
+							, 
+							studiesPerformed VARCHAR  (255)   ,
+							,
+							, 
+							crewType VARCHAR  (255)   ,
+							,
+							, 
+							PersonID INT   ,
+							,
+							, 
+							AerolineID INT   ,
+							,
+							, 
+							AirplaneID INT   ,
+							,
+							, 
 				);		
 					
 			
 				CREATE TABLE Person (
-							PersonID    NOT NULL   AUTO_INCREMENT 
-							 PRIMARY KEY (PersonID) 
-							 
-							id    
-							
-							 
-							name    
-							
-							 
-							lastname    
-							
-							 
-							address    
-							
-							 
-							email    
-							
-							 
-							birthDate    
-							
-							 
+							PersonID INT   NOT NULL   AUTO_INCREMENT ,
+							 PRIMARY KEY (PersonID) ,
+							, 
+							id VARCHAR  (255)   ,
+							,
+							, 
+							name VARCHAR  (255)   ,
+							,
+							, 
+							lastname VARCHAR  (255)   ,
+							,
+							, 
+							address VARCHAR  (255)   ,
+							,
+							, 
+							email VARCHAR  (255)   ,
+							,
+							, 
+							birthDate DATE   ,
+							,
+							, 
 				);		
 					
 			
 				CREATE TABLE Client (
-							ClientID    NOT NULL   AUTO_INCREMENT 
-							 PRIMARY KEY (ClientID) 
-							 
-							residentialAddress    
-							
-							 
-							debitCreditCardNumber    
-							
-							 
-							PersonID    
-							
-							 
-							AerolineID    
-							
-							 
-							PersonID    
-							
-							 
-							AerolineID    
-							
-							 
+							ClientID INT   NOT NULL   AUTO_INCREMENT ,
+							 PRIMARY KEY (ClientID) ,
+							, 
+							residentialAddress VARCHAR  (255)   ,
+							,
+							, 
+							debitCreditCardNumber VARCHAR  (255)   ,
+							,
+							, 
+							PersonID INT   ,
+							,
+							, 
+							AerolineID INT   ,
+							,
+							, 
 				);		
 					
 			
@@ -276,23 +237,17 @@
 			
 				ALTER TABLE Baggage
 						ADD FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID) 
-						ADD FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID) 
 					
 			
 				ALTER TABLE ShippingCart
-						ADD FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID) 
 						ADD FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID) 
 					
 			
 				ALTER TABLE Route
 						ADD FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID) 
-						ADD FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID) 
 					
 			
 				ALTER TABLE Ticket
-						ADD FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID) 
-						ADD FOREIGN KEY (ClientID) REFERENCES Client(ClientID) 
-						ADD FOREIGN KEY (RouteID) REFERENCES Route(RouteID) 
 						ADD FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID) 
 						ADD FOREIGN KEY (ClientID) REFERENCES Client(ClientID) 
 						ADD FOREIGN KEY (RouteID) REFERENCES Route(RouteID) 
@@ -305,8 +260,6 @@
 				ALTER TABLE Airplane
 						ADD FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID) 
 						ADD FOREIGN KEY (RouteID) REFERENCES Route(RouteID) 
-						ADD FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID) 
-						ADD FOREIGN KEY (RouteID) REFERENCES Route(RouteID) 
 					
 			
 				ALTER TABLE seatingCapacity
@@ -317,17 +270,12 @@
 						ADD FOREIGN KEY (PersonID) REFERENCES Person(PersonID) 
 						ADD FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID) 
 						ADD FOREIGN KEY (AirplaneID) REFERENCES Airplane(AirplaneID) 
-						ADD FOREIGN KEY (PersonID) REFERENCES Person(PersonID) 
-						ADD FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID) 
-						ADD FOREIGN KEY (AirplaneID) REFERENCES Airplane(AirplaneID) 
 					
 			
 				ALTER TABLE Person
 					
 			
 				ALTER TABLE Client
-						ADD FOREIGN KEY (PersonID) REFERENCES Person(PersonID) 
-						ADD FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID) 
 						ADD FOREIGN KEY (PersonID) REFERENCES Person(PersonID) 
 						ADD FOREIGN KEY (AerolineID) REFERENCES Aeroline(AerolineID) 
 					

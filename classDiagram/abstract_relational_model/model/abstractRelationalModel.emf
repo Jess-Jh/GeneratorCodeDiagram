@@ -21,7 +21,7 @@ class Table {
 class Column {
     attr String name;
     
-    val DataType dataType;    
+    attr DataType dataType;    
     attr int size;
     attr boolean isPrimaryKey;
     attr boolean notNull;

@@ -63,6 +63,7 @@ public class ColumnItemProvider
 			super.getPropertyDescriptors(object);
 
 			addNamePropertyDescriptor(object);
+			addDataTypePropertyDescriptor(object);
 			addSizePropertyDescriptor(object);
 			addIsPrimaryKeyPropertyDescriptor(object);
 			addNotNullPropertyDescriptor(object);
@@ -86,6 +87,28 @@ public class ColumnItemProvider
 				 getString("_UI_Column_name_feature"),
 				 getString("_UI_PropertyDescriptor_description", "_UI_Column_name_feature", "_UI_Column_type"),
 				 RelationalmodelPackage.Literals.COLUMN__NAME,
+				 true,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+	/**
+	 * This adds a property descriptor for the Data Type feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addDataTypePropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_Column_dataType_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_Column_dataType_feature", "_UI_Column_type"),
+				 RelationalmodelPackage.Literals.COLUMN__DATA_TYPE,
 				 true,
 				 false,
 				 false,
@@ -205,36 +228,6 @@ public class ColumnItemProvider
 	}
 
 	/**
-	 * This specifies how to implement {@link #getChildren} and is used to deduce an appropriate feature for an
-	 * {@link org.eclipse.emf.edit.command.AddCommand}, {@link org.eclipse.emf.edit.command.RemoveCommand} or
-	 * {@link org.eclipse.emf.edit.command.MoveCommand} in {@link #createCommand}.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	public Collection<? extends EStructuralFeature> getChildrenFeatures(Object object) {
-		if (childrenFeatures == null) {
-			super.getChildrenFeatures(object);
-			childrenFeatures.add(RelationalmodelPackage.Literals.COLUMN__DATA_TYPE);
-		}
-		return childrenFeatures;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
-	protected EStructuralFeature getChildFeature(Object object, Object child) {
-		// Check the type of the specified child object and return the proper feature to use for
-		// adding (see {@link AddCommand}) it as a child.
-
-		return super.getChildFeature(object, child);
-	}
-
-	/**
 	 * This returns Column.gif.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -273,15 +266,13 @@ public class ColumnItemProvider
 
 		switch (notification.getFeatureID(Column.class)) {
 			case RelationalmodelPackage.COLUMN__NAME:
+			case RelationalmodelPackage.COLUMN__DATA_TYPE:
 			case RelationalmodelPackage.COLUMN__SIZE:
 			case RelationalmodelPackage.COLUMN__IS_PRIMARY_KEY:
 			case RelationalmodelPackage.COLUMN__NOT_NULL:
 			case RelationalmodelPackage.COLUMN__UNIQUE_INDEX:
 			case RelationalmodelPackage.COLUMN__IS_AUTO_INCREMENTAL:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
-				return;
-			case RelationalmodelPackage.COLUMN__DATA_TYPE:
-				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), true, false));
 				return;
 		}
 		super.notifyChanged(notification);

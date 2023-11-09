@@ -56,14 +56,24 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	protected String name = NAME_EDEFAULT;
 
 	/**
-	 * The cached value of the '{@link #getDataType() <em>Data Type</em>}' containment reference.
+	 * The default value of the '{@link #getDataType() <em>Data Type</em>}' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see #getDataType()
 	 * @generated
 	 * @ordered
 	 */
-	protected DataType dataType;
+	protected static final DataType DATA_TYPE_EDEFAULT = DataType.VARCHAR;
+
+	/**
+	 * The cached value of the '{@link #getDataType() <em>Data Type</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getDataType()
+	 * @generated
+	 * @ordered
+	 */
+	protected DataType dataType = DATA_TYPE_EDEFAULT;
 
 	/**
 	 * The default value of the '{@link #getSize() <em>Size</em>}' attribute.
@@ -219,33 +229,11 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetDataType(DataType newDataType, NotificationChain msgs) {
-		DataType oldDataType = dataType;
-		dataType = newDataType;
-		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, RelationalmodelPackage.COLUMN__DATA_TYPE, oldDataType, newDataType);
-			if (msgs == null) msgs = notification; else msgs.add(notification);
-		}
-		return msgs;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public void setDataType(DataType newDataType) {
-		if (newDataType != dataType) {
-			NotificationChain msgs = null;
-			if (dataType != null)
-//				msgs = ((InternalEObject)dataType).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - RelationalmodelPackage.COLUMN__DATA_TYPE, null, msgs);
-			if (newDataType != null)
-//				msgs = ((InternalEObject)newDataType).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - RelationalmodelPackage.COLUMN__DATA_TYPE, null, msgs);
-			msgs = basicSetDataType(newDataType, msgs);
-			if (msgs != null) msgs.dispatch();
-		}
-		else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, RelationalmodelPackage.COLUMN__DATA_TYPE, newDataType, newDataType));
+		DataType oldDataType = dataType;
+		dataType = newDataType == null ? DATA_TYPE_EDEFAULT : newDataType;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, RelationalmodelPackage.COLUMN__DATA_TYPE, oldDataType, dataType));
 	}
 
 	/**
@@ -359,20 +347,6 @@ public class ColumnImpl extends EObjectImpl implements Column {
 	 * @generated
 	 */
 	@Override
-	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
-		switch (featureID) {
-			case RelationalmodelPackage.COLUMN__DATA_TYPE:
-				return basicSetDataType(null, msgs);
-		}
-		return super.eInverseRemove(otherEnd, featureID, msgs);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
 			case RelationalmodelPackage.COLUMN__NAME:
@@ -438,7 +412,7 @@ public class ColumnImpl extends EObjectImpl implements Column {
 				setName(NAME_EDEFAULT);
 				return;
 			case RelationalmodelPackage.COLUMN__DATA_TYPE:
-				setDataType((DataType)null);
+				setDataType(DATA_TYPE_EDEFAULT);
 				return;
 			case RelationalmodelPackage.COLUMN__SIZE:
 				setSize(SIZE_EDEFAULT);
@@ -470,7 +444,7 @@ public class ColumnImpl extends EObjectImpl implements Column {
 			case RelationalmodelPackage.COLUMN__NAME:
 				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
 			case RelationalmodelPackage.COLUMN__DATA_TYPE:
-				return dataType != null;
+				return dataType != DATA_TYPE_EDEFAULT;
 			case RelationalmodelPackage.COLUMN__SIZE:
 				return size != SIZE_EDEFAULT;
 			case RelationalmodelPackage.COLUMN__IS_PRIMARY_KEY:
@@ -497,6 +471,8 @@ public class ColumnImpl extends EObjectImpl implements Column {
 		StringBuffer result = new StringBuffer(super.toString());
 		result.append(" (name: ");
 		result.append(name);
+		result.append(", dataType: ");
+		result.append(dataType);
 		result.append(", size: ");
 		result.append(size);
 		result.append(", isPrimaryKey: ");

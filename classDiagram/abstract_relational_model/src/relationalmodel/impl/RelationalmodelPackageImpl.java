@@ -225,8 +225,8 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getColumn_DataType() {
-		return (EReference)columnEClass.getEStructuralFeatures().get(1);
+	public EAttribute getColumn_DataType() {
+		return (EAttribute)columnEClass.getEStructuralFeatures().get(1);
 	}
 
 	/**
@@ -325,7 +325,7 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 
 		columnEClass = createEClass(COLUMN);
 		createEAttribute(columnEClass, COLUMN__NAME);
-		createEReference(columnEClass, COLUMN__DATA_TYPE);
+		createEAttribute(columnEClass, COLUMN__DATA_TYPE);
 		createEAttribute(columnEClass, COLUMN__SIZE);
 		createEAttribute(columnEClass, COLUMN__IS_PRIMARY_KEY);
 		createEAttribute(columnEClass, COLUMN__NOT_NULL);
@@ -380,7 +380,7 @@ public class RelationalmodelPackageImpl extends EPackageImpl implements Relation
 
 		initEClass(columnEClass, Column.class, "Column", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getColumn_Name(), ecorePackage.getEString(), "name", null, 0, 1, Column.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEReference(getColumn_DataType(), this.getDataType(), null, "dataType", null, 0, 1, Column.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getColumn_DataType(), this.getDataType(), "dataType", null, 0, 1, Column.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getColumn_Size(), ecorePackage.getEInt(), "size", null, 0, 1, Column.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getColumn_IsPrimaryKey(), ecorePackage.getEBoolean(), "isPrimaryKey", null, 0, 1, Column.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getColumn_NotNull(), ecorePackage.getEBoolean(), "notNull", null, 0, 1, Column.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

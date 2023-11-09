@@ -27,7 +27,7 @@
     </genClasses>
     <genClasses ecoreClass="abstractRelationalModel.ecore#//Column">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Column/name"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference abstractRelationalModel.ecore#//Column/dataType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Column/dataType"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Column/size"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Column/isPrimaryKey"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute abstractRelationalModel.ecore#//Column/notNull"/>

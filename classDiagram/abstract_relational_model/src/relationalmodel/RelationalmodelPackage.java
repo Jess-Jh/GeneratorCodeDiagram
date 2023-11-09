@@ -187,7 +187,7 @@ public interface RelationalmodelPackage extends EPackage {
 	int COLUMN__NAME = 0;
 
 	/**
-	 * The feature id for the '<em><b>Data Type</b></em>' containment reference.
+	 * The feature id for the '<em><b>Data Type</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -378,15 +378,15 @@ public interface RelationalmodelPackage extends EPackage {
 	EAttribute getColumn_Name();
 
 	/**
-	 * Returns the meta object for the containment reference '{@link relationalmodel.Column#getDataType <em>Data Type</em>}'.
+	 * Returns the meta object for the attribute '{@link relationalmodel.Column#getDataType <em>Data Type</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference '<em>Data Type</em>'.
+	 * @return the meta object for the attribute '<em>Data Type</em>'.
 	 * @see relationalmodel.Column#getDataType()
 	 * @see #getColumn()
 	 * @generated
 	 */
-	EReference getColumn_DataType();
+	EAttribute getColumn_DataType();
 
 	/**
 	 * Returns the meta object for the attribute '{@link relationalmodel.Column#getSize <em>Size</em>}'.
@@ -572,12 +572,12 @@ public interface RelationalmodelPackage extends EPackage {
 		EAttribute COLUMN__NAME = eINSTANCE.getColumn_Name();
 
 		/**
-		 * The meta object literal for the '<em><b>Data Type</b></em>' containment reference feature.
+		 * The meta object literal for the '<em><b>Data Type</b></em>' attribute feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference COLUMN__DATA_TYPE = eINSTANCE.getColumn_DataType();
+		EAttribute COLUMN__DATA_TYPE = eINSTANCE.getColumn_DataType();
 
 		/**
 		 * The meta object literal for the '<em><b>Size</b></em>' attribute feature.

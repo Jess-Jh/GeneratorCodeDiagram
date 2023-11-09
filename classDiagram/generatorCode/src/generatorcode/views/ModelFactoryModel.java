@@ -1171,7 +1171,7 @@ public class ModelFactoryModel {
 		column.setIsPrimaryKey(true);
 		column.setIsAutoIncremental(true);
 		column.setNotNull(true);
-		
+				
 		for(abstractJJD.AttributeJJD attribute : classJJD.getListAttributesJJD()) {
 			
 			if(attribute.getType().contains("List")) {
@@ -1207,15 +1207,19 @@ public class ModelFactoryModel {
 				
 				column1.setName(attribute.getName());
 				
-				column1.setDataType((attribute.getType().equalsIgnoreCase("String")) ? DataType.VARCHAR
-						: (attribute.getType().equalsIgnoreCase("int")) ? DataType.INT 
-								: (attribute.getType().equalsIgnoreCase("double")) ? DataType.DOUBLE
-										: (attribute.getType().equalsIgnoreCase("LocalDate")) ? DataType.DATE
-												: (attribute.getType().equalsIgnoreCase("boolean")) ? DataType.BOOLEAN : DataType.VARCHAR );
+				if(attribute.getType().equalsIgnoreCase("String")) {
+					column1.setDataType(DataType.VARCHAR);
+				}
+				if(attribute.getType().equalsIgnoreCase("int")) column1.setDataType(DataType.INT);
+				if(attribute.getType().equalsIgnoreCase("double")) column1.setDataType(DataType.DOUBLE);
+				if(attribute.getType().equalsIgnoreCase("LocalDate")) column1.setDataType(DataType.DATE);
+				if(attribute.getType().equalsIgnoreCase("boolean")) column1.setDataType(DataType.BOOLEAN);
 				
 				if(attribute.getType().equalsIgnoreCase("String")) {
 					column1.setSize(255);		
 				}
+				
+				
 								
 				table.getListColumns().add(column);
 				table.getListColumns().add(column1);
