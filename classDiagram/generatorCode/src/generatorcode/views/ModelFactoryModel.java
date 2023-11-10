@@ -1169,6 +1169,7 @@ public class ModelFactoryModel {
 		column.setName(table.getName()+"ID");
 		column.setDataType(DataType.INT);
 		column.setIsPrimaryKey(true);
+		column.setUniqueIndex(true);
 		column.setIsAutoIncremental(true);
 		column.setNotNull(true);
 				
@@ -1178,6 +1179,14 @@ public class ModelFactoryModel {
 				
 				relationalmodel.Table tableRelation = RelationalmodelFactory.eINSTANCE.createTable();
 				tableRelation.setName(attribute.getName());
+				
+				relationalmodel.Column columnId = RelationalmodelFactory.eINSTANCE.createColumn();
+				columnId.setName(tableRelation.getName()+"ID");
+				columnId.setDataType(DataType.INT);
+				columnId.setIsPrimaryKey(true);
+				columnId.setUniqueIndex(true);
+				columnId.setIsAutoIncremental(true);
+				columnId.setNotNull(true);
 				
 				relationalmodel.Column column2 = RelationalmodelFactory.eINSTANCE.createColumn();
 				column2.setName(attribute.getName());
@@ -1194,7 +1203,7 @@ public class ModelFactoryModel {
 				relationalmodel.Column column4 = RelationalmodelFactory.eINSTANCE.createColumn();
 				column4.setName("FOREIGN KEY (" + column3.getName() + ") REFERENCES " + table.getName() + "(" + column3.getName() + ")");
 				
-				tableRelation.getListColumns().add(column);
+				tableRelation.getListColumns().add(columnId);
 				tableRelation.getListColumns().add(column2);
 				tableRelation.getListColumns().add(column3);
 				tableRelation.getListColumns().add(column4);
@@ -1218,8 +1227,6 @@ public class ModelFactoryModel {
 				if(attribute.getType().equalsIgnoreCase("String")) {
 					column1.setSize(255);		
 				}
-				
-				
 								
 				table.getListColumns().add(column);
 				table.getListColumns().add(column1);

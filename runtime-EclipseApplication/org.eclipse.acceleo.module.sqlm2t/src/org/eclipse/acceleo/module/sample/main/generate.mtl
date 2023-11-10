@@ -19,8 +19,8 @@
 [template public createSchema(schema : Schema)]
 	[file (schema.name.concat('.sql'), false, 'UTF-8')]
 
-		 CREATE DATABASE [schema.name/];
-		
+		CREATE DATABASE [schema.name/];
+		USE [schema.name/];
 		[for (table : Table | schema.listTables)]
 			[createTable(table)/]
 		[/for]
@@ -32,13 +32,12 @@
 [/template]
 
 [template public createTable(table : Table)]
-
 	CREATE TABLE [table.name/] (
 		[for (column : Column | table.listColumns)]
-			[if (not column.name.contains('FOREIGN KEY'))]
-				[column.name/] [column.dataType/] [if (column.dataType = DataType::VARCHAR)] ([column.size/]) [/if] [if (column.notNull)] NOT NULL [/if] [if (column.isAutoIncremental)] AUTO_INCREMENT [/if],
-				[if (column.isPrimaryKey)] PRIMARY KEY ([column.name/]) [/if],
-				[if (column.uniqueIndex)] UNIQUE ([column.name/]) [/if], 
+			[if not column.name.contains('FOREIGN KEY')]
+				[column.name/] [column.dataType/][if (column.dataType = DataType::VARCHAR)]([column.size/])[/if][if (not column.isPrimaryKey) and (not (table.listColumns->indexOf(column) = table.listColumns->size() - 1))],[/if][if (column.notNull)] NOT NULL[/if] [if (column.isAutoIncremental)] AUTO_INCREMENT[/if][if (column.isPrimaryKey)], [/if]
+				[if (column.isPrimaryKey)] PRIMARY KEY ([column.name/]),[/if]
+				[if (column.uniqueIndex)] UNIQUE ([column.name/]),[/if]
 			[/if]
 		[/for]
 	);		
@@ -47,12 +46,14 @@
 
 [template public createRelationsTable(table : Table)]
 
+[if (not table.name.contains('Person') and not table.name.contains('Aeroline'))]
 	ALTER TABLE [table.name/]
 	[for (column : Column | table.listColumns)]
 		[if (column.name.contains('FOREIGN KEY'))]
-			ADD [column.name/] 
+			ADD [column.name/][if (not (column = table.listColumns->last()))],[/if][if (column = table.listColumns->last())];[/if] 
 		[/if]
 	[/for]
+[/if]
 		
 [/template]
 
